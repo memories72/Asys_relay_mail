@@ -32,7 +32,7 @@ app.post('/api/sso-exchange', (req, res) => {
 });
 const { savePop3Account, getAllPop3Accounts, deletePop3Account, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
 const { verifyUser } = require('./src/ldap');
-const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus } = require('./src/imap');
+const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
 const { pop3Progress, updateProgress, clearProgress } = require('./src/progress');
 
@@ -180,7 +180,7 @@ app.get('/api/mail/inbox', authenticateToken, async (req, res) => {
         const mailPass = getImapPass(req);
         if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
         const folder = req.query.folder || 'INBOX';
-        const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 2000;
+        const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 1000;
         const messages = await fetchMailList(req.user.email, mailPass, folder, limit);
         res.json({ status: 'OK', messages });
     } catch (err) {
@@ -293,6 +293,30 @@ app.post('/api/mail/bulk-move', authenticateToken, async (req, res) => {
     }
 });
 
+
+app.post('/api/mail/star', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password required' });
+        const { uid, folder } = req.body;
+        await setFlag(req.user.email, mailPass, uid, '\\Flagged', true, folder || 'INBOX');
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.post('/api/mail/unstar', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password required' });
+        const { uid, folder } = req.body;
+        await setFlag(req.user.email, mailPass, uid, '\\Flagged', false, folder || 'INBOX');
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
 
 // ===== ATTACHMENT DOWNLOAD =====
 app.get('/api/mail/message/:uid/attachment/:partId', authenticateToken, async (req, res) => {

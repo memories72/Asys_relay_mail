@@ -472,4 +472,37 @@ async function getMailboxStatus(email, password) {
     }
 }
 
-module.exports = { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, permanentlyDelete, emptyMailbox, appendMessage, getStorageQuota, getMailboxStatus };
+async function setFlag(email, password, uid, flag, enable, mailbox = 'INBOX') {
+    const client = makeClient(email, password);
+    await client.connect();
+    try {
+        const lock = await client.getMailboxLock(mailbox, { readOnly: false });
+        try {
+            if (enable) {
+                await client.messageFlagsAdd({ uid }, [flag], { uid: true });
+            } else {
+                await client.messageFlagsRemove({ uid }, [flag], { uid: true });
+            }
+        } finally {
+            lock.release();
+        }
+    } finally {
+        await client.logout();
+    }
+}
+
+module.exports = {
+    fetchMailList,
+    fetchMailBody,
+    downloadAttachment,
+    markSeen,
+    moveToTrash,
+    listMailboxes,
+    moveMessages,
+    permanentlyDelete,
+    emptyMailbox,
+    appendMessage,
+    getStorageQuota,
+    getMailboxStatus,
+    setFlag
+};
