@@ -73,9 +73,32 @@
         .ql-editor::-webkit-scrollbar-thumb:hover {
             background: #cbd5e1;
         }
+
+        /* Dark Mode Overrides for Quill */
+        .dark .ql-toolbar.ql-snow {
+            background: #1e293b;
+            border-bottom: 1px solid #334155 !important;
+        }
+
+        .dark .ql-snow .ql-stroke {
+            stroke: #94a3b8;
+        }
+
+        .dark .ql-snow .ql-fill {
+            fill: #94a3b8;
+        }
+
+        .dark .ql-snow .ql-picker {
+            color: #94a3b8;
+        }
+
+        .dark .ql-editor {
+            color: #f1f5f9;
+        }
     </style>
     <script>
         tailwind.config = {
+            darkMode: 'class',
             theme: {
                 extend: {
                     colors: { primary: "#1754cf", "primary-light": "#eef2fb" },
@@ -186,7 +209,8 @@
     </style>
 </head>
 
-<body class="bg-slate-50 text-slate-900 font-display">
+<body
+    class="bg-slate-50 text-slate-900 font-display transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100">
 
     <!-- ===== LOGIN ===== -->
     <div id="loginScreen" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
@@ -238,66 +262,77 @@
 
         <!-- Header -->
         <header
-            class="flex h-16 flex-shrink-0 items-center justify-between border-b border-slate-200 bg-white px-6 z-10">
+            class="flex h-16 flex-shrink-0 items-center justify-between border-b border-slate-200 bg-white px-6 z-10 dark:bg-slate-900 dark:border-slate-800 transition-colors duration-300">
             <div class="flex items-center gap-8">
                 <div class="flex items-center gap-4 text-primary">
-                    <div class="size-9 flex items-center justify-center bg-primary/10 rounded-xl shadow-sm">
+                    <div
+                        class="size-9 flex items-center justify-center bg-primary/10 rounded-xl shadow-sm dark:bg-primary/20">
                         <span class="material-symbols-outlined text-primary text-2xl">mail</span>
                     </div>
-                    <h2 class="text-slate-900 text-lg font-bold leading-tight tracking-tight">에이시스메일(베타)</h2>
+                    <h2 class="text-slate-900 text-lg font-bold leading-tight tracking-tight dark:text-white">에이시스메일(베타)
+                    </h2>
                 </div>
                 <div class="flex flex-col min-w-40 h-10 w-96 max-w-lg">
                     <div
-                        class="flex w-full flex-1 items-stretch rounded-xl h-full bg-slate-100 border border-transparent focus-within:border-primary/50 focus-within:bg-white transition-all shadow-inner">
-                        <div class="text-slate-500 flex items-center justify-center pl-4 rounded-l-lg">
+                        class="flex w-full flex-1 items-stretch rounded-xl h-full bg-slate-100 border border-transparent focus-within:border-primary/50 focus-within:bg-white transition-all shadow-inner dark:bg-slate-800 dark:focus-within:bg-slate-900">
+                        <div
+                            class="text-slate-500 flex items-center justify-center pl-4 rounded-l-lg dark:text-slate-400">
                             <span class="material-symbols-outlined text-[20px]">search</span>
                         </div>
                         <input id="searchInput"
-                            class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm"
+                            class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm dark:text-slate-100 dark:placeholder:text-slate-500"
                             placeholder="메세지, 연락처 검색..." type="text" oninput="filterMails(this.value)" />
                     </div>
                 </div>
             </div>
             <div class="flex items-center gap-4">
                 <div class="flex gap-2">
-                    <button
-                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
-                        title="알림">
-                        <span class="material-symbols-outlined text-[20px]">notifications</span>
+                    <button id="themeToggle" onclick="toggleTheme()"
+                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
+                        title="테마 전환">
+                        <span id="themeIcon" class="material-symbols-outlined text-[20px]">light_mode</span>
                     </button>
-                    <button onclick="openDashboard()"
-                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
-                        title="메일 대시보드">
-                        <span class="material-symbols-outlined text-[20px]">settings</span>
-                    </button>
-                    <button
-                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
-                        title="도움말">
-                        <span class="material-symbols-outlined text-[20px]">help_outline</span>
-                    </button>
-                    <button onclick="logout()"
-                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors"
-                        title="로그아웃">
-                        <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
-                    </button>
+                    <div class="flex gap-2">
+                        <button
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                            title="알림">
+                            <span class="material-symbols-outlined text-[20px]">notifications</span>
+                        </button>
+                        <button onclick="openDashboard()"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                            title="메일 대시보드">
+                            <span class="material-symbols-outlined text-[20px]">settings</span>
+                        </button>
+                        <button
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                            title="도움말">
+                            <span class="material-symbols-outlined text-[20px]">help_outline</span>
+                        </button>
+                        <button onclick="logout()"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors"
+                            title="로그아웃">
+                            <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+                        </button>
+                    </div>
+                    <!-- Profile Avatar -->
+                    <div id="userAvatar"
+                        class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600">
+                        AS
+                    </div>
                 </div>
-                <!-- Profile Avatar -->
-                <div id="userAvatar"
-                    class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600">
-                    AS
-                </div>
-            </div>
         </header>
 
         <!-- Body -->
         <div class="flex flex-1 overflow-hidden">
 
             <!-- Sidebar -->
-            <aside class="w-64 flex flex-col justify-between bg-white border-r border-slate-200 p-4 shrink-0">
+            <aside
+                class="w-64 flex flex-col justify-between bg-white border-r border-slate-200 p-4 shrink-0 dark:bg-slate-900 dark:border-slate-800 transition-colors">
                 <div class="flex flex-col gap-6">
                     <div class="flex flex-col px-2">
-                        <h1 class="text-slate-900 text-sm font-bold">개인 사서함</h1>
-                        <p id="userEmailNav" class="text-slate-500 text-xs font-medium truncate">user@agilesys.co.kr</p>
+                        <h1 class="text-slate-900 text-sm font-bold dark:text-slate-100">개인 사서함</h1>
+                        <p id="userEmailNav" class="text-slate-500 text-xs font-medium truncate dark:text-slate-400">
+                            user@agilesys.co.kr</p>
                     </div>
                     <div class="flex flex-col gap-1">
                         <button onclick="openCompose()"
@@ -306,7 +341,7 @@
                             <span class="text-sm">메일 작성</span>
                         </button>
                         <nav id="folderNav" class="mt-4 flex flex-col gap-1.5 space-y-0.5">
-                            <a class="folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer dark:bg-slate-800 dark:text-primary"
                                 data-folder="INBOX">
                                 <div class="flex items-center gap-3">
                                     <span class="material-symbols-outlined text-[20px]">inbox</span>
@@ -315,22 +350,22 @@
                                 <span id="unreadBadge"
                                     class="hidden ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full"></span>
                             </a>
-                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-slate-800"
                                 data-folder="Sent">
                                 <span class="material-symbols-outlined text-[20px]">send</span>
                                 <span class="text-sm font-semibold">보낸편지함</span>
                             </a>
-                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-slate-800"
                                 data-folder="Drafts">
                                 <span class="material-symbols-outlined text-[20px]">draft</span>
                                 <span class="text-sm font-semibold">임시보관함</span>
                             </a>
-                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-slate-800"
                                 data-folder="Junk">
                                 <span class="material-symbols-outlined text-[20px]">error</span>
                                 <span class="text-sm font-semibold">스팸함</span>
                             </a>
-                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-slate-800"
                                 data-folder="Trash">
                                 <span class="material-symbols-outlined text-[20px]">delete</span>
                                 <span class="text-sm font-semibold">휴지통</span>
@@ -362,9 +397,10 @@
             <div id="mailView" class="flex flex-1 overflow-hidden">
                 <!-- Mail List -->
                 <div id="leftPane"
-                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden">
+                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden dark:bg-slate-950 dark:border-slate-800 transition-colors">
                     <!-- Toolbar -->
-                    <div class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4">
+                    <div
+                        class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
                         <div class="flex items-center gap-1">
                             <div class="flex items-center px-1.5 mr-1">
                                 <input type="checkbox" id="selectAll"
@@ -387,16 +423,18 @@
                             </button>
                             <!-- Move to Folder Dropdown -->
                             <div class="relative group">
-                                <button class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg" title="폴더 이동">
+                                <button
+                                    class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800"
+                                    title="폴더 이동">
                                     <span class="material-symbols-outlined text-xl">folder_shared</span>
                                 </button>
                                 <div
-                                    class="hidden group-hover:block absolute left-0 top-full mt-0 w-32 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden">
+                                    class="hidden group-hover:block absolute left-0 top-full mt-0 w-32 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden dark:bg-slate-900 dark:border-slate-750">
                                     <div
-                                        class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100">
+                                        class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100 dark:bg-slate-800 dark:border-slate-700">
                                         이동 위치</div>
                                     <a onclick="moveSelected('INBOX')"
-                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50 dark:text-slate-300 dark:hover:bg-primary/20 dark:border-slate-800">
                                         <span class="material-symbols-outlined text-base">inbox</span>받은편지함</a>
                                     <a onclick="moveSelected('Sent')"
                                         class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
@@ -429,27 +467,31 @@
                 </div>
 
                 <!-- Resizer Handle -->
-                <div id="resizer" class="resizer"></div>
+                <div id="resizer" class="resizer dark:bg-slate-800 dark:hover:bg-slate-700"></div>
 
                 <!-- Message Preview -->
-                <div id="msgPanel" class="flex flex-1 flex-col bg-white overflow-hidden">
+                <div id="msgPanel"
+                    class="flex flex-1 flex-col bg-white overflow-hidden dark:bg-slate-900 dark:text-slate-100 transition-colors">
                     <!-- Empty state -->
-                    <div id="msgEmpty" class="flex flex-1 flex-col items-center justify-center text-slate-300">
+                    <div id="msgEmpty"
+                        class="flex flex-1 flex-col items-center justify-center text-slate-300 dark:text-slate-700">
                         <span class="material-symbols-outlined text-6xl mb-3">mark_email_read</span>
                         <p class="text-sm">목록에서 메일을 선택하세요</p>
                     </div>
                     <!-- Message content -->
                     <div id="msgContent" class="hidden flex flex-col h-full overflow-hidden">
                         <div
-                            class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4">
+                            class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
                             <div class="flex items-center gap-2">
                                 <button onclick="closeMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg">
                                     <span class="material-symbols-outlined text-xl">close</span>
                                 </button>
-                                <h3 id="msgSubjectHeader" class="text-sm font-bold text-slate-800 truncate max-w-xs">
+                                <h3 id="msgSubjectHeader"
+                                    class="text-sm font-bold text-slate-800 truncate max-w-xs dark:text-slate-100">
                                 </h3>
                             </div>
-                            <div class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5">
+                            <div
+                                class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5 dark:bg-slate-800 dark:border-slate-700">
                                 <button onclick="replyMsg()"
                                     class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
                                     title="답장">
@@ -627,10 +669,17 @@
                             <div>
                                 <label class="flex items-center gap-2 cursor-pointer">
                                     <input type="checkbox" id="popTls"
-                                        class="rounded border-slate-200 text-primary focus:ring-primary/20" />
-                                    <span
-                                        class="text-sm font-medium text-slate-700 font-semibold uppercase tracking-wider text-slate-400">SSL/TLS
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700" />
+                                    <span class="text-sm font-medium text-slate-700 dark:text-slate-300">SSL/TLS
                                         사용 (보안 연결)</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="popKeep" checked
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700" />
+                                    <span class="text-sm font-medium text-slate-700 dark:text-slate-300">서버에 메일 복사본
+                                        저장</span>
                                 </label>
                             </div>
                             <div>
@@ -682,12 +731,14 @@
             </div>
 
             <!-- Dashboard View -->
-            <div id="dashboardView" class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6">
+            <div id="dashboardView"
+                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-slate-900 dark:text-slate-100 transition-colors">
                 <div class="mx-auto w-full max-w-4xl space-y-6">
                     <div class="flex items-center justify-between mb-8">
                         <div>
-                            <h2 class="text-2xl font-bold text-slate-900">메일 송수신 현황</h2>
-                            <p class="text-sm text-slate-500 mt-1" id="dashEmailAddress">user@agilesys.co.kr</p>
+                            <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">메일 송수신 현황</h2>
+                            <p class="text-sm text-slate-500 mt-1 dark:text-slate-400" id="dashEmailAddress">
+                                user@agilesys.co.kr</p>
                         </div>
                         <button onclick="loadDashboardStats()"
                             class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-colors">
@@ -699,42 +750,50 @@
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
                         <!-- Received mails -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
-                            <div class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2 dark:bg-blue-900/30">
                                 <span class="material-symbols-outlined text-blue-500 text-2xl">inbox</span>
                             </div>
-                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">수신 메일함</h3>
-                            <p class="text-3xl font-extrabold text-slate-800" id="statInbox">0</p>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                수신 메일함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statInbox">0</p>
                         </div>
 
                         <!-- Sent mails -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
-                            <div class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2 dark:bg-emerald-900/40">
                                 <span class="material-symbols-outlined text-emerald-500 text-2xl">send</span>
                             </div>
-                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">발신 메일함</h3>
-                            <p class="text-3xl font-extrabold text-slate-800" id="statSent">0</p>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                발신 메일함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statSent">0</p>
                         </div>
 
                         <!-- Trash -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
-                            <div class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2 dark:bg-rose-900/40">
                                 <span class="material-symbols-outlined text-rose-500 text-2xl">delete</span>
                             </div>
-                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">휴지통</h3>
-                            <p class="text-3xl font-extrabold text-slate-800" id="statTrash">0</p>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                휴지통</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statTrash">0</p>
                         </div>
 
                         <!-- Spam/Junk -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
-                            <div class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2 dark:bg-amber-900/40">
                                 <span class="material-symbols-outlined text-amber-500 text-2xl">report</span>
                             </div>
-                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">스팸 메일</h3>
-                            <p class="text-3xl font-extrabold text-slate-800" id="statJunk">0</p>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                스팸함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statJunk">0</p>
                         </div>
                     </div>
 
@@ -767,15 +826,16 @@
 
     <!-- ===== COMPOSE MODAL ===== -->
     <div id="composeModal"
-        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4 overflow-hidden">
+        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4 overflow-hidden dark:bg-black/60">
         <div
-            class="pointer-events-auto w-full max-w-5xl h-[90vh] rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-16px_rgba(0,0,0,0.2)] overflow-hidden flex flex-col animate-slide-up">
+            class="pointer-events-auto w-full max-w-5xl h-[90vh] rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-16px_rgba(0,0,0,0.2)] overflow-hidden flex flex-col animate-slide-up dark:bg-slate-900 dark:border-slate-800">
             <!-- Compose Header -->
-            <div class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50">
-                <h3 class="text-lg font-bold text-slate-900">새 메시지</h3>
+            <div
+                class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50 dark:border-slate-800 dark:bg-slate-900/50">
+                <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">새 메시지</h3>
                 <div class="flex items-center gap-2">
                     <button onclick="closeCompose()"
-                        class="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-200 transition-colors">
+                        class="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-200 transition-colors dark:hover:bg-slate-800 dark:hover:text-slate-200">
                         <span class="material-symbols-outlined text-xl">close</span>
                     </button>
                 </div>
@@ -783,12 +843,13 @@
 
             <form id="composeForm" class="flex flex-col flex-1 overflow-hidden">
                 <!-- Recipient Fields -->
-                <div class="flex flex-col divide-y divide-slate-100 px-6">
+                <div class="flex flex-col divide-y divide-slate-100 px-6 dark:divide-slate-800">
                     <!-- To Field -->
                     <div class="flex items-center min-h-[52px] py-1 gap-4">
-                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">받는 사람</span>
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">받는
+                            사람</span>
                         <input id="composeTo"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
                             placeholder="이메일 주소..." type="text" />
                         <div class="flex gap-2">
                             <button type="button" onclick="toggleComposeField('cc')"
@@ -799,23 +860,24 @@
                     </div>
                     <!-- Cc Field -->
                     <div id="composeCcWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
-                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">참조</span>
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">참조</span>
                         <input id="composeCc"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
                             placeholder="Cc 추가..." type="text" />
                     </div>
                     <!-- Bcc Field -->
                     <div id="composeBccWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
-                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">숨은 참조</span>
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">숨은
+                            참조</span>
                         <input id="composeBcc"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
                             placeholder="Bcc 추가..." type="text" />
                     </div>
                     <!-- Subject Field -->
                     <div class="flex items-center min-h-[52px] py-1 gap-4">
-                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">제목</span>
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">제목</span>
                         <input id="composeSubject"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm font-bold text-slate-900 p-0 placeholder:text-slate-400"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm font-bold text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
                             placeholder="제목을 입력하세요" type="text" />
                     </div>
                 </div>
@@ -925,6 +987,30 @@
             }
         });
 
+        // ===== THEME LOGIC =====
+        function toggleTheme() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateThemeIcon(isDark);
+        }
+
+        function updateThemeIcon(isDark) {
+            const icon = document.getElementById('themeIcon');
+            if (icon) icon.textContent = isDark ? 'dark_mode' : 'light_mode';
+        }
+
+        function initTheme() {
+            const theme = localStorage.getItem('theme');
+            const isDark = theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+            updateThemeIcon(isDark);
+        }
+        initTheme();
+
         // ===== INIT =====
         function initApp() {
             if (!authToken) return;
@@ -959,12 +1045,12 @@
                 btn.addEventListener('click', () => {
                     currentFolder = btn.dataset.folder;
                     document.querySelectorAll('.folder-btn').forEach(b => {
-                        b.className = 'folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer';
+                        b.className = 'folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 dark:text-slate-400 dark:hover:bg-slate-800 transition-all cursor-pointer';
                         const unread = b.querySelector('#unreadBadge');
                         if (unread) unread.className = 'hidden ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full';
 
                         if (b.dataset.folder === currentFolder) {
-                            b.className = 'folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer';
+                            b.className = 'folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer dark:bg-slate-800 dark:text-primary';
                             if (unread && !unread.classList.contains('hidden')) {
                                 unread.className = 'ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full';
                             }
@@ -1158,9 +1244,14 @@
             return name.substring(0, 2).toUpperCase() || '?';
         }
 
-        const AVATAR_COLORS = ['bg-primary/10 text-primary', 'bg-emerald-100 text-emerald-700',
-            'bg-amber-100 text-amber-700', 'bg-red-100 text-red-600', 'bg-indigo-100 text-indigo-700',
-            'bg-pink-100 text-pink-700'];
+        const AVATAR_COLORS = [
+            'bg-primary/10 text-primary dark:bg-primary/20 dark:text-primary-light',
+            'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-400',
+            'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-400',
+            'bg-red-100 text-red-600 dark:bg-red-900/40 dark:text-red-400',
+            'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-400',
+            'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-400'
+        ];
         function avatarColor(str) { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) % AVATAR_COLORS.length; return AVATAR_COLORS[h]; }
 
         function formatDate(d) {
@@ -1189,27 +1280,27 @@
                 tr.className = `mail-row ${msg.seen ? 'mail-row-read' : 'mail-row-unread'} ${isSelected ? 'selected-bg' : ''} transition-colors`;
                 tr.dataset.uid = msg.uid;
                 tr.innerHTML = `
-            <td class="px-4 py-4 border-b border-slate-50 w-24">
+            <td class="px-4 py-4 border-b border-slate-50 dark:border-slate-800 w-24">
                 <div class="flex items-center gap-3">
-                    <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 text-primary focus:ring-primary/20 transition-all cursor-pointer" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
-                    <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
-                        <span class="material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300'}">star</span>
+                    <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 dark:border-slate-700 text-primary focus:ring-primary/20 transition-all cursor-pointer bg-transparent" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
+                    <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
+                        <span class="material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300 dark:text-slate-700'}">star</span>
                     </button>
                 </div>
             </td>
-            <td class="px-2 py-4 border-b border-slate-50 w-48">
+            <td class="px-2 py-4 border-b border-slate-50 dark:border-slate-800 w-48">
                 <div class="flex items-center gap-3">
                     <div class="flex size-9 flex-shrink-0 items-center justify-center rounded-xl text-[11px] font-bold shadow-sm ${color}">${initials}</div>
                     <div class="flex flex-col min-w-0">
-                        <span class="text-sm truncate max-w-[140px] ${msg.seen ? 'font-medium text-slate-500' : 'font-bold text-slate-900'}">${displayPerson}</span>
+                        <span class="text-sm truncate max-w-[140px] ${msg.seen ? 'font-medium text-slate-500 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${displayPerson}</span>
                     </div>
                 </div>
             </td>
-            <td class="px-3 py-4 border-b border-slate-50 w-full" style="max-width:0">
+            <td class="px-3 py-4 border-b border-slate-50 dark:border-slate-800 w-full" style="max-width:0">
                 <div class="flex items-center gap-2 min-w-0 w-full">
                     ${!msg.seen ? '<div class="size-2 rounded-full bg-primary flex-shrink-0 animate-pulse"></div>' : ''}
-                    <span class="mail-subject text-[13.5px] truncate min-w-0 flex-1 ${msg.seen ? 'text-slate-600' : 'font-bold text-slate-900'}">${escHtml(msg.subject)}</span>
-                    ${msg.hasAttachment ? '<span class="material-symbols-outlined text-slate-300 text-[18px] flex-shrink-0">attach_file</span>' : ''}
+                    <span class="mail-subject text-[13.5px] truncate min-w-0 flex-1 ${msg.seen ? 'text-slate-600 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${escHtml(msg.subject)}</span>
+                    ${msg.hasAttachment ? '<span class="material-symbols-outlined text-slate-300 dark:text-slate-700 text-[18px] flex-shrink-0">attach_file</span>' : ''}
                 </div>
             </td>
             <td class="px-6 py-4 border-b border-slate-50 text-right">
@@ -1639,6 +1730,10 @@
                                         <p class="text-[11px] font-medium text-slate-400">${escHtml(a.email)}</p>
                                         <span class="inline-block size-1 bg-slate-300 rounded-full"></span>
                                         <p class="text-[11px] font-medium text-slate-400">마지막 수집: ${lastFetched}</p>
+                                        ${a.keep_on_server ? `
+                                            <span class="inline-block size-1 bg-slate-300 rounded-full"></span>
+                                            <p class="text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded dark:bg-slate-800 dark:text-slate-400">서버 보관</p>
+                                        ` : ''}
                                     </div>
                                 </div>
                             </div>
@@ -1716,6 +1811,7 @@
                 host: document.getElementById('popHost').value,
                 port: parseInt(document.getElementById('popPort').value),
                 tls: document.getElementById('popTls').checked,
+                keep_on_server: document.getElementById('popKeep').checked,
                 user: document.getElementById('popUser').value,
                 pass: document.getElementById('popPass').value,
             };
@@ -1970,7 +2066,8 @@
                 fd.append('cc', document.getElementById('composeCc').value);
                 fd.append('bcc', document.getElementById('composeBcc').value);
                 fd.append('subject', document.getElementById('composeSubject').value);
-                fd.append('html', quill.root.innerHTML);
+                const safeHtml = `<div style="font-family: 'Nanum Gothic', '나눔고딕', 'Malgun Gothic', '맑은 고딕', sans-serif;">${quill.root.innerHTML}</div>`;
+                fd.append('html', safeHtml);
                 fd.append('body', quill.getText());
                 const fileInput = document.getElementById('composeFileInput');
                 for (const f of fileInput.files) fd.append('attachments', f);

@@ -59,6 +59,7 @@ async function initDatabase() {
             pop3_tls BOOLEAN DEFAULT FALSE,
             pop3_user VARCHAR(255) NOT NULL,
             pop3_pass VARCHAR(255) NOT NULL,
+            keep_on_server BOOLEAN DEFAULT TRUE,
             is_active BOOLEAN DEFAULT TRUE,
             last_status ENUM('PENDING', 'SUCCESS', 'FAILED') DEFAULT 'PENDING',
             last_error TEXT NULL,
@@ -95,6 +96,9 @@ async function initDatabase() {
     } catch (e) { }
     try {
         await connection.query('ALTER TABLE user_pop3_accounts ADD COLUMN last_error TEXT NULL');
+    } catch (e) { }
+    try {
+        await connection.query('ALTER TABLE user_pop3_accounts ADD COLUMN keep_on_server BOOLEAN DEFAULT TRUE');
     } catch (e) { }
 
     await connection.query(`
@@ -161,15 +165,15 @@ const getAllPop3Accounts = async () => {
     }
 };
 
-const savePop3Account = async (email, host, port, tls, user, pass) => {
+const savePop3Account = async (email, host, port, tls, user, pass, keepOnServer = true) => {
     try {
         const currentPool = getPool();
         await currentPool.query(`
-            INSERT INTO user_pop3_accounts (user_email, pop3_host, pop3_port, pop3_tls, pop3_user, pop3_pass, last_status, last_error)
-            VALUES (?, ?, ?, ?, ?, ?, 'PENDING', NULL)
+            INSERT INTO user_pop3_accounts (user_email, pop3_host, pop3_port, pop3_tls, pop3_user, pop3_pass, keep_on_server, last_status, last_error)
+            VALUES (?, ?, ?, ?, ?, ?, ?, 'PENDING', NULL)
             ON DUPLICATE KEY UPDATE
-            pop3_host=VALUES(pop3_host), pop3_port=VALUES(pop3_port), pop3_tls=VALUES(pop3_tls), pop3_pass=VALUES(pop3_pass), is_active=TRUE, last_status='PENDING', last_error=NULL
-        `, [email, host, port, tls, user, pass]);
+            pop3_host=VALUES(pop3_host), pop3_port=VALUES(pop3_port), pop3_tls=VALUES(pop3_tls), pop3_pass=VALUES(pop3_pass), keep_on_server=VALUES(keep_on_server), is_active=TRUE, last_status='PENDING', last_error=NULL
+        `, [email, host, port, tls, user, pass, keepOnServer]);
         return true;
     } catch (err) {
         console.error('Error saving POP3 account', err);

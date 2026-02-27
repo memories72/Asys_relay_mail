@@ -75,7 +75,7 @@ async function deliverRaw(rawMessage, deliverTo, deliverFrom) {
 const fetchPop3Account = async (account, onProgress) => {
     return new Promise((resolve) => {
         const { pop3_port: port, pop3_host: host, pop3_tls: useTls,
-            pop3_user, pop3_pass, user_email } = account;
+            pop3_user, pop3_pass, user_email, keep_on_server: keepOnServer } = account;
 
         console.log(`[Fetcher] Initiating POP3 connect for ${user_email} to ${host}:${port} (TLS: ${useTls})`);
 
@@ -151,7 +151,13 @@ const fetchPop3Account = async (account, onProgress) => {
                 const normalized = normalizePop3Raw(data);
                 await deliverRaw(normalized, user_email, user_email);
                 successCount++;
-                client.dele(currentMsg);
+
+                if (keepOnServer) {
+                    currentMsg++;
+                    fetchNext();
+                } else {
+                    client.dele(currentMsg);
+                }
             } catch (e) {
                 console.error(`[Fetcher] ${user_email} Delivery failed for msg ${msgnumber}:`, e.message);
                 currentMsg++;
