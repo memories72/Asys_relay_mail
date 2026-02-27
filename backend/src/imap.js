@@ -421,4 +421,37 @@ async function getStorageQuota(email, password) {
     ]);
 }
 
-module.exports = { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, permanentlyDelete, emptyMailbox, appendMessage, getStorageQuota };
+async function getMailboxStatus(email, password) {
+    const client = makeClient(email, password);
+    await client.connect();
+    try {
+        const stats = {
+            inbox: 0,
+            sent: 0,
+            trash: 0,
+            junk: 0,
+            drafts: 0
+        };
+        const mailboxes = await client.list();
+        for (const box of mailboxes) {
+            try {
+                const st = await client.status(box.path, { messages: true });
+                if (st && st.messages !== undefined) {
+                    const pathLower = box.path.toLowerCase();
+                    if (pathLower === 'inbox') stats.inbox += st.messages;
+                    else if (pathLower.includes('sent')) stats.sent += st.messages;
+                    else if (pathLower.includes('trash') || pathLower.includes('휴지통')) stats.trash += st.messages;
+                    else if (pathLower.includes('junk') || pathLower.includes('spam')) stats.junk += st.messages;
+                    else if (pathLower.includes('draft')) stats.drafts += st.messages;
+                }
+            } catch (err) {
+                // Ignore errors for specific folders if they can't be stat-ed
+            }
+        }
+        return stats;
+    } finally {
+        await client.logout().catch(() => { });
+    }
+}
+
+module.exports = { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, permanentlyDelete, emptyMailbox, appendMessage, getStorageQuota, getMailboxStatus };

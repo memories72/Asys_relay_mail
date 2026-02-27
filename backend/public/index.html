@@ -259,9 +259,9 @@
                         title="알림">
                         <span class="material-symbols-outlined text-[20px]">notifications</span>
                     </button>
-                    <button
+                    <button onclick="openDashboard()"
                         class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
-                        title="설정">
+                        title="메일 대시보드">
                         <span class="material-symbols-outlined text-[20px]">settings</span>
                     </button>
                     <button
@@ -659,9 +659,89 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+        <!-- Dashboard View -->
+        <div id="dashboardView" class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6">
+            <div class="mx-auto w-full max-w-4xl space-y-6">
+                <div class="flex items-center justify-between mb-8">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">메일 송수신 현황</h2>
+                        <p class="text-sm text-slate-500 mt-1" id="dashEmailAddress">user@agilesys.co.kr</p>
+                    </div>
+                    <button onclick="loadDashboardStats()"
+                        class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-colors">
+                        <span class="material-symbols-outlined text-[18px]">refresh</span>
+                        새로고침
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Received mails -->
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
+                        <div class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2">
+                            <span class="material-symbols-outlined text-blue-500 text-2xl">inbox</span>
+                        </div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">수신 메일함</h3>
+                        <p class="text-3xl font-extrabold text-slate-800" id="statInbox">0</p>
+                    </div>
+
+                    <!-- Sent mails -->
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
+                        <div class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2">
+                            <span class="material-symbols-outlined text-emerald-500 text-2xl">send</span>
+                        </div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">발신 메일함</h3>
+                        <p class="text-3xl font-extrabold text-slate-800" id="statSent">0</p>
+                    </div>
+
+                    <!-- Trash -->
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
+                        <div class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2">
+                            <span class="material-symbols-outlined text-rose-500 text-2xl">delete</span>
+                        </div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">휴지통</h3>
+                        <p class="text-3xl font-extrabold text-slate-800" id="statTrash">0</p>
+                    </div>
+
+                    <!-- Spam/Junk -->
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2">
+                        <div class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2">
+                            <span class="material-symbols-outlined text-amber-500 text-2xl">report</span>
+                        </div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">스팸 메일</h3>
+                        <p class="text-3xl font-extrabold text-slate-800" id="statJunk">0</p>
+                    </div>
+                </div>
+
+                <!-- Usage info block -->
+                <div
+                    class="bg-gradient-to-br from-primary to-[#0f3d9c] rounded-2xl p-8 mt-4 text-white shadow-xl shadow-primary/20 relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 opacity-10">
+                        <span class="material-symbols-outlined text-[200px]">dns</span>
+                    </div>
+                    <div class="relative z-10 w-full md:w-2/3">
+                        <h3 class="text-xl font-bold mb-2">계정 저장소 사용량</h3>
+                        <p class="text-primary-light text-sm mb-6 line-clamp-2">소유하신 이메일의 전체 저장공간 이용 현황입니다.</p>
+
+                        <div class="w-full h-3 bg-white/20 rounded-full overflow-hidden mb-3">
+                            <div id="dashStorageBar" class="h-full bg-white rounded-full transition-all duration-1000"
+                                style="width: 0%;"></div>
+                        </div>
+                        <div class="flex justify-between items-center text-xs font-medium">
+                            <span id="dashStorageCurrent">확인 중...</span>
+                            <span id="dashStorageTotal" class="text-white/70"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     </div>
 
     <!-- ===== COMPOSE MODAL ===== -->
@@ -913,6 +993,7 @@
             document.getElementById('mailView').classList.remove('hidden');
             document.getElementById('mailView').classList.add('flex');
             document.getElementById('pop3View').classList.add('hidden');
+            if (document.getElementById('dashboardView')) document.getElementById('dashboardView').classList.add('hidden');
             updateNavHighlighter('folderNav');
         }
 
@@ -920,8 +1001,55 @@
             document.getElementById('mailView').classList.add('hidden');
             document.getElementById('pop3View').classList.remove('hidden');
             document.getElementById('pop3View').classList.add('flex');
+            if (document.getElementById('dashboardView')) document.getElementById('dashboardView').classList.add('hidden');
             updateNavHighlighter('navPop3');
             loadPop3Accounts();
+        }
+
+        function openDashboard() {
+            document.getElementById('mailView').classList.add('hidden');
+            document.getElementById('pop3View').classList.add('hidden');
+            if (document.getElementById('dashboardView')) {
+                document.getElementById('dashboardView').classList.remove('hidden');
+                document.getElementById('dashboardView').classList.add('flex');
+            }
+            updateNavHighlighter('none');
+            loadDashboardStats();
+        }
+
+        async function loadDashboardStats() {
+            try {
+                if (document.getElementById('dashEmailAddress')) {
+                    document.getElementById('dashEmailAddress').innerText = localStorage.getItem('asys_user_email') || '';
+                }
+                const res = await fetch('/api/mail/stats', { headers: apiHeaders() });
+                if (res.status === 401 || res.status === 403) { logout(); return; }
+                const data = await res.json();
+                if (data.status === 'OK' && data.stats) {
+                    const stats = data.stats;
+                    document.getElementById('statInbox').innerText = stats.inbox || 0;
+                    document.getElementById('statSent').innerText = stats.sent || 0;
+                    document.getElementById('statTrash').innerText = stats.trash || 0;
+                    document.getElementById('statJunk').innerText = stats.junk || 0;
+                    document.getElementById('statDrafts') ? document.getElementById('statDrafts').innerText = stats.drafts || 0 : null;
+                }
+
+                // Also fetch storage quota for dashboard
+                const qRes = await fetch('/api/mail/quota', { headers: apiHeaders() });
+                const qData = await qRes.json();
+                if (qData.status === 'OK' && qData.quota) {
+                    const { usage, limit } = qData.quota;
+                    const percent = (usage / limit) * 100;
+                    const usageMb = (usage / (1024 * 1024)).toFixed(2);
+                    const limitGb = (limit / (1024 * 1024 * 1024)).toFixed(0);
+
+                    document.getElementById('dashStorageBar').style.width = `${Math.min(percent, 100)}%`;
+                    document.getElementById('dashStorageCurrent').innerText = `${usageMb} MB 사용 됨`;
+                    document.getElementById('dashStorageTotal').innerText = `전체 ${limitGb} GB`;
+                }
+            } catch (err) {
+                console.error('Failed to load dashboard stats:', err);
+            }
         }
 
 

@@ -32,7 +32,7 @@ app.post('/api/sso-exchange', (req, res) => {
 });
 const { savePop3Account, getAllPop3Accounts, deletePop3Account, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
 const { verifyUser } = require('./src/ldap');
-const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota } = require('./src/imap');
+const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
 const { pop3Progress, updateProgress, clearProgress } = require('./src/progress');
 
@@ -209,6 +209,18 @@ app.get('/api/mail/quota', authenticateToken, async (req, res) => {
     } catch (err) {
         console.error(`[QUOTA] Error for ${req.user.email}:`, err.message);
         res.status(500).json({ error: 'Failed to fetch quota', details: err.message });
+    }
+});
+
+app.get('/api/mail/stats', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
+        const stats = await getMailboxStatus(req.user.email, mailPass);
+        res.json({ status: 'OK', stats });
+    } catch (err) {
+        console.error(`[STATS] Error for ${req.user.email}:`, err.message);
+        res.status(500).json({ error: 'Failed to fetch mail stats', details: err.message });
     }
 });
 
