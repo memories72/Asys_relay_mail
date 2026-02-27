@@ -4,12 +4,11 @@ services:
   mailserver:
     image: mailserver/docker-mailserver:latest
     container_name: node_mail_engine
-    hostname: home.digistory.co.kr
+    hostname: mail.digistory.co.kr
     networks:
       default:
         aliases:
-          - mail.agilesys.co.kr
-          - home.digistory.co.kr
+          - nas.agilesys.co.kr
     ports:
       - "25:25"
       - "143:143"
