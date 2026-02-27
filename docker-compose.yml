@@ -8,7 +8,8 @@ services:
     networks:
       default:
         aliases:
-          - nas.agilesys.co.kr
+          - mail.agilesys.co.kr
+          - home.digistory.co.kr
     ports:
       - "25:25"
       - "143:143"

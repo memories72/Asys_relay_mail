@@ -5,6 +5,11 @@ const client = ldap.createClient({
     url: process.env.LDAP_URL || 'ldap://nas.agilesys.co.kr:1389'
 });
 
+// Handle global client connection errors to prevent unhandled exceptions
+client.on('error', (err) => {
+    console.error('[LDAP] Global Client Error:', err.message);
+});
+
 const connectLDAP = () => {
     return new Promise((resolve, reject) => {
         const bindDN = process.env.LDAP_BIND_DN || 'uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr';
@@ -27,6 +32,11 @@ const verifyUser = async (username, password) => {
         // Create a dedicated client for this user's authentication
         const authClient = ldap.createClient({
             url: process.env.LDAP_URL || 'ldap://nas.agilesys.co.kr:1389'
+        });
+
+        authClient.on('error', (err) => {
+            console.error(`[LDAP Auth] Connection Error:`, err.message);
+            resolve({ success: false, message: 'LDAP Connection Failed' });
         });
 
         // The strict Bind DN format required by Synology LDAP for user 'username'
