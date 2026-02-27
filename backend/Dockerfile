@@ -7,5 +7,5 @@ RUN npm install && sed -i 's/data.toString("ascii")/data.toString("binary")/g' n
 
 COPY . .
 
-EXPOSE 3000 3890
+EXPOSE 13000 3890
 CMD ["npm", "start"]

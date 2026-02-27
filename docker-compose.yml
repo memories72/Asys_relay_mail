@@ -45,7 +45,7 @@ services:
     build: ./backend
     container_name: node_backend_bridge
     ports:
-      - "3000:3000" # 웹메일 + API
+      - "13000:13000" # 웹메일 + API
       - "3890:3890" # LDAP mock port map
     environment:
       - DB_HOST=nas.agilesys.co.kr

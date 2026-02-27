@@ -392,7 +392,7 @@ app.get('/health', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 13000;
 app.listen(PORT, async () => {
     console.log(`[Backend] Agilesys Mail Backend Engine is running on port ${PORT}`);
 
