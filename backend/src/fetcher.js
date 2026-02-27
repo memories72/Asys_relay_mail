@@ -126,8 +126,8 @@ const fetchPop3Account = async (account, onProgress) => {
         };
 
         client.on('uidl', (status, data) => {
-            if (!status) {
-                // Fallback to list if UIDL is not supported
+            if (!status || !data) {
+                // Fallback to list if UIDL is not supported or returns no data
                 return client.list();
             }
 
