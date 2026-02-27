@@ -758,7 +758,12 @@
                                 <button type="submit" id="pop3SubmitBtn"
                                     class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all">
                                     <span>설정 저장</span>
-                                    <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                                    <span class="material-symbols-outlined text-lg">save</span>
+                                </button>
+                                <button type="button" onclick="testPop3ConnectionNew()" id="pop3TestBtn"
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                                    <span>연결 테스트</span>
+                                    <span class="material-symbols-outlined text-lg">router</span>
                                 </button>
                                 <div id="pop3StatusMsg" class="hidden text-sm font-medium"></div>
                             </div>
@@ -1914,26 +1919,70 @@
             }
         }
 
+        async function testPop3ConnectionNew() {
+            const btn = document.getElementById('pop3TestBtn');
+            const msg = document.getElementById('pop3StatusMsg');
+            const payload = {
+                host: document.getElementById('popHost').value,
+                port: parseInt(document.getElementById('popPort').value),
+                tls: document.getElementById('popTls').checked,
+                user: document.getElementById('popUser').value,
+                pass: document.getElementById('popPass').value,
+            };
+
+            if (!payload.host || !payload.user || !payload.pass) {
+                msg.textContent = '✕ 서버 주소, 아이디, 비밀번호를 모두 입력해 주세요.';
+                msg.className = 'text-sm font-medium text-red-500';
+                msg.classList.remove('hidden');
+                return;
+            }
+
+            btn.disabled = true;
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast">progress_activity</span><span>테스트 중...</span>';
+            msg.classList.add('hidden');
+
+            try {
+                const res = await fetch('/api/pop3-test-direct', {
+                    method: 'POST', headers: apiHeaders(),
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (!res.ok) {
+                    const errorDetail = data.details ? ` (${data.details})` : '';
+                    throw new Error((data.error || '연결 실패') + errorDetail);
+                }
+
+                msg.textContent = '✓ ' + data.message;
+                msg.className = 'text-sm font-medium text-emerald-600';
+                msg.classList.remove('hidden');
+            } catch (e) {
+                msg.textContent = '✕ ' + e.message;
+                msg.className = 'text-sm font-medium text-red-500';
+                msg.classList.remove('hidden');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<span>연결 테스트</span><span class="material-symbols-outlined text-lg">router</span>';
+            }
+        }
+
         async function testPop3Connection(id) {
             // No confirm, run immediately
             try {
-                // Instantly set local state to fetching to show UI feedback immediately
                 const res = await fetch(`/api/pop3-test/${id}`, { method: 'POST', headers: apiHeaders() });
                 if (!res.ok) {
                     const text = await res.text();
                     try {
                         const errData = JSON.parse(text);
-                        throw new Error(errData.error || '테스트 중 실패');
+                        const errorDetail = errData.details ? ` (${errData.details})` : '';
+                        throw new Error((errData.error || '테스트 중 실패') + errorDetail);
                     } catch (jsonErr) {
-                        throw new Error(`서버 오류 (${res.status}): ${text.substring(0, 100)}...`);
+                        throw new Error(`서버 오류 (${res.status})`);
                     }
                 }
-                // Don't alert(), just refresh list to start polling
                 loadPop3Accounts();
             } catch (e) {
                 console.error('[POP3 Test]', e);
-                // Only alert on hard errors
-                alert('연동 오류: ' + e.message);
+                // Even for existing accounts, we don't use alert anymore per user request
                 loadPop3Accounts();
             }
         }
@@ -1986,7 +2035,7 @@
                 msg.classList.remove('hidden');
             } finally {
                 btn.disabled = false;
-                btn.innerHTML = '<span>설정 저장</span><span class="material-symbols-outlined text-lg">arrow_forward</span>';
+                btn.innerHTML = '<span>설정 저장</span><span class="material-symbols-outlined text-lg">save</span>';
             }
         });
 

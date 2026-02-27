@@ -30,7 +30,7 @@ app.post('/api/sso-exchange', (req, res) => {
     const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
 });
-const { savePop3Account, getAllPop3Accounts, deletePop3Account, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
+const { savePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
 const { verifyUser } = require('./src/ldap');
 const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
@@ -107,6 +107,110 @@ app.get('/api/pop3-settings', authenticateToken, async (req, res) => {
 
 app.get('/api/pop3-progress', authenticateToken, (req, res) => {
     res.json(pop3Progress);
+});
+
+app.post('/api/pop3-test/:id', authenticateToken, async (req, res) => {
+    const accountId = req.params.id;
+    const account = await getPop3AccountById(req.user.email, accountId);
+
+    if (!account) return res.status(404).json({ error: '계정을 찾을 수 없습니다.' });
+
+    const POP3Client = require('poplib');
+    const client = new POP3Client(account.pop3_port, account.pop3_host, {
+        tlserrs: false,
+        ignoretlserrs: true,
+        enabletls: account.pop3_tls === 1 || account.pop3_tls === true,
+        debug: false
+    });
+
+    let finished = false;
+    const timeout = setTimeout(() => {
+        if (!finished) {
+            finished = true;
+            client.quit();
+            res.status(500).json({ error: '연결 시간 초과 (Timeout)' });
+        }
+    }, 10000);
+
+    client.on('error', async (err) => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timeout);
+        console.error(`[POP3 Test] Error:`, err.message);
+        await updatePop3AccountStatus(accountId, 'FAILED', err.message);
+        res.status(500).json({ error: '연결 실패', details: err.message });
+    });
+
+    client.on('connect', () => {
+        client.login(account.pop3_user, account.pop3_pass);
+    });
+
+    client.on('login', async (status, rawdata) => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timeout);
+
+        if (status) {
+            await updatePop3AccountStatus(accountId, 'SUCCESS', null);
+            res.json({ status: 'OK', message: '로그인 성공!' });
+        } else {
+            console.error(`[POP3 Test] Login failed for ${account.pop3_user}`);
+            await updatePop3AccountStatus(accountId, 'FAILED', 'Authentication failed');
+            res.status(401).json({ error: '인증 실패', details: '아이디 또는 비밀번호를 확인하세요.' });
+        }
+        client.quit();
+    });
+});
+
+// Direct test for unsaved configuration
+app.post('/api/pop3-test-direct', authenticateToken, async (req, res) => {
+    const { host, port, tls, user, pass } = req.body;
+
+    if (!host || !user || !pass) {
+        return res.status(400).json({ error: '필수 정보가 누락되었습니다.' });
+    }
+
+    const POP3Client = require('poplib');
+    const client = new POP3Client(port, host, {
+        tlserrs: false,
+        ignoretlserrs: true,
+        enabletls: tls === 1 || tls === true,
+        debug: false
+    });
+
+    let finished = false;
+    const timeout = setTimeout(() => {
+        if (!finished) {
+            finished = true;
+            client.quit();
+            res.status(500).json({ error: '연결 시간 초과 (Timeout)' });
+        }
+    }, 10000);
+
+    client.on('error', (err) => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timeout);
+        console.error(`[POP3 Direct Test] Error:`, err.message);
+        res.status(500).json({ error: '연결 실패', details: err.message });
+    });
+
+    client.on('connect', () => {
+        client.login(user, pass);
+    });
+
+    client.on('login', (status) => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timeout);
+
+        if (status) {
+            res.json({ status: 'OK', message: '로그인 성공!' });
+        } else {
+            res.status(401).json({ error: '인증 실패', details: '아이디 또는 비밀번호를 확인하세요.' });
+        }
+        client.quit();
+    });
 });
 
 app.delete('/api/pop3-settings/:id', authenticateToken, async (req, res) => {

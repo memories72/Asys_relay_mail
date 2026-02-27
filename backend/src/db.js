@@ -193,6 +193,28 @@ const savePop3Account = async (email, host, port, tls, user, pass, keepOnServer 
     }
 };
 
+const getPop3AccountById = async (email, accountId) => {
+    try {
+        const currentPool = getPool();
+        const [rows] = await currentPool.query('SELECT * FROM user_pop3_accounts WHERE id = ? AND user_email = ?', [accountId, email]);
+        return rows[0];
+    } catch (err) {
+        console.error('Error fetching POP3 account by id', err);
+        return null;
+    }
+};
+
+const updatePop3AccountStatus = async (accountId, status, errorMsg = null) => {
+    try {
+        const currentPool = getPool();
+        await currentPool.query('UPDATE user_pop3_accounts SET last_status = ?, last_error = ? WHERE id = ?', [status, errorMsg, accountId]);
+        return true;
+    } catch (err) {
+        console.error('Error updating POP3 account status', err);
+        return false;
+    }
+};
+
 const deletePop3Account = async (email, accountId) => {
     try {
         const currentPool = getPool();
@@ -265,6 +287,8 @@ module.exports = {
     savePop3Account,
     getAllPop3Accounts,
     deletePop3Account,
+    getPop3AccountById,
+    updatePop3AccountStatus,
     updatePop3Error,
     updateLastFetched,
     getGlobalSmtpSettings,
