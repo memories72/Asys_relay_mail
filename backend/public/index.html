@@ -449,13 +449,28 @@
                                 <h3 id="msgSubjectHeader" class="text-sm font-bold text-slate-800 truncate max-w-xs">
                                 </h3>
                             </div>
-                            <div class="flex items-center gap-1">
-                                <button onclick="replyMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg"
+                            <div class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5">
+                                <button onclick="replyMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
                                     title="답장">
                                     <span class="material-symbols-outlined text-xl">reply</span>
                                 </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
+                                <button onclick="replyAllMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
+                                    title="모두 답장">
+                                    <span class="material-symbols-outlined text-xl">reply_all</span>
+                                </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
+                                <button onclick="forwardMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
+                                    title="전달">
+                                    <span class="material-symbols-outlined text-xl">forward</span>
+                                </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
                                 <button onclick="deleteCurrentMsg()"
-                                    class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg" title="삭제">
+                                    class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-lg transition-all"
+                                    title="삭제">
                                     <span class="material-symbols-outlined text-xl">delete</span>
                                 </button>
                             </div>
@@ -1452,6 +1467,53 @@
                 quill.setSelection(0, 0);
             }
         }
+
+        function replyAllMsg() {
+            if (!currentOpenedMsg) return;
+            openCompose();
+            const myEmail = userData.email?.toLowerCase();
+
+            // Collect all recipients
+            const recipients = [];
+            if (currentOpenedMsg.from?.address) recipients.push(currentOpenedMsg.from.address);
+
+            if (currentOpenedMsg.to) {
+                currentOpenedMsg.to.forEach(t => {
+                    const addr = t.address?.toLowerCase();
+                    if (addr && addr !== myEmail && !recipients.includes(addr)) recipients.push(addr);
+                });
+            }
+
+            const ccs = [];
+            if (currentOpenedMsg.cc) {
+                currentOpenedMsg.cc.forEach(t => {
+                    const addr = t.address?.toLowerCase();
+                    if (addr && addr !== myEmail && !recipients.includes(addr) && !ccs.includes(addr)) ccs.push(addr);
+                });
+            }
+
+            document.getElementById('composeTo').value = recipients.join(', ');
+            if (ccs.length > 0) {
+                document.getElementById('composeCcWrapper').classList.remove('hidden');
+                document.getElementById('composeCc').value = ccs.join(', ');
+            }
+
+            document.getElementById('composeSubject').value = 'Re: ' + (currentOpenedMsg.subject || '');
+
+            const quoteDate = currentOpenedMsg.date ? new Date(currentOpenedMsg.date).toLocaleString('ko-KR') : '';
+            const quoteContent = currentOpenedMsg.html || `<pre>${escHtml(currentOpenedMsg.text || '')}</pre>`;
+            const quoteHtml = `<br><br><div class="gmail_quote" style="border-left: 2px solid #e2e8f0; padding-left: 12px; margin-left: 4px; color: #64748b;">` +
+                `<div style="margin-bottom: 8px; font-size: 13px;"><b>보낸 사람:</b> ${escHtml(currentOpenedMsg.from?.name || '')} &lt;${currentOpenedMsg.from?.address || ''}&gt;<br>` +
+                `<b>날짜:</b> ${quoteDate}<br>` +
+                `<b>제목:</b> ${escHtml(currentOpenedMsg.subject || '')}</div>` +
+                `<div>${quoteContent}</div></div>`;
+
+            if (quill) {
+                quill.clipboard.dangerouslyPasteHTML(0, quoteHtml);
+                quill.setSelection(0, 0);
+            }
+        }
+
 
         function forwardMsg() {
             if (!currentOpenedMsg) return;
