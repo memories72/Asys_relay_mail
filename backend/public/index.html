@@ -101,11 +101,28 @@
             darkMode: 'class',
             theme: {
                 extend: {
-                    colors: { primary: "#1754cf", "primary-light": "#eef2fb" },
+                    colors: {
+                        primary: "#3b82f6",
+                        "primary-light": "rgba(59, 130, 246, 0.1)",
+                        surface: {
+                            light: "#ffffff",
+                            dark: "#0c0c12",
+                            deep: "#07070a",
+                            elevated: "#14141d"
+                        },
+                        border: {
+                            light: "#e2e8f0",
+                            dark: "#1f1f2e"
+                        }
+                    },
                     fontFamily: {
                         sans: ["Nanum Gothic", "Inter", "sans-serif"],
                         display: ["Nanum Gothic", "Inter", "sans-serif"]
                     },
+                    boxShadow: {
+                        'premium': '0 10px 30px -10px rgba(0, 0, 0, 0.5)',
+                        'glow': '0 0 15px rgba(59, 130, 246, 0.3)'
+                    }
                 }
             }
         }
@@ -133,13 +150,25 @@
             background: #fff;
         }
 
+        .dark .mail-row-unread td {
+            background: #0c0c12;
+        }
+
         .mail-row-unread .mail-subject {
             font-weight: 700;
             color: #0f172a;
         }
 
+        .dark .mail-row-unread .mail-subject {
+            color: #f1f5f9;
+        }
+
         .mail-row-read td {
             background: #fafafa;
+        }
+
+        .dark .mail-row-read td {
+            background: #07070a;
         }
 
         .mail-row-read .mail-subject {
@@ -147,17 +176,28 @@
             color: #475569;
         }
 
+        .dark .mail-row-read .mail-subject {
+            color: #94a3b8;
+        }
+
         .mail-row:hover td {
             background: #f1f5f9 !important;
             cursor: pointer;
         }
 
+        .dark .mail-row:hover td {
+            background: #1a1a26 !important;
+        }
+
+        .mail-row.selected td,
         .mail-row.selected-bg td {
             background: #eef2fb !important;
         }
 
-        .mail-row.selected td {
-            background: #eef2fb !important;
+        .dark .mail-row.selected td,
+        .dark .mail-row.selected-bg td {
+            background: rgba(59, 130, 246, 0.1) !important;
+            border-left: 3px solid #3b82f6 !important;
         }
 
         #msgHtml img {
@@ -210,7 +250,7 @@
 </head>
 
 <body
-    class="bg-slate-50 text-slate-900 font-display transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100">
+    class="bg-slate-50 text-slate-900 font-display transition-colors duration-300 dark:bg-surface-deep dark:text-slate-100">
 
     <!-- ===== LOGIN ===== -->
     <div id="loginScreen" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
@@ -262,95 +302,97 @@
 
         <!-- Header -->
         <header
-            class="flex h-16 flex-shrink-0 items-center justify-between border-b border-slate-200 bg-white px-6 z-10 dark:bg-slate-900 dark:border-slate-800 transition-colors duration-300">
-            <div class="flex items-center gap-8">
-                <div class="flex items-center gap-4 text-primary">
+            class="flex h-16 flex-shrink-0 items-center border-b border-slate-200 bg-white/80 backdrop-blur-md px-6 z-20 dark:bg-surface-dark/80 dark:border-border-dark transition-colors duration-300">
+            <div class="flex items-center justify-between w-full max-w-[1920px] mx-auto">
+                <div class="flex items-center gap-4 text-primary shrink-0 w-48">
                     <div
                         class="size-9 flex items-center justify-center bg-primary/10 rounded-xl shadow-sm dark:bg-primary/20">
                         <span class="material-symbols-outlined text-primary text-2xl">mail</span>
                     </div>
-                    <h2 class="text-slate-900 text-lg font-bold leading-tight tracking-tight dark:text-white">에이시스메일(베타)
-                    </h2>
+                    <h2
+                        class="text-slate-900 text-lg font-bold leading-tight tracking-tight dark:text-white lg:block hidden">
+                        에이시스메일</h2>
                 </div>
-                <div class="flex flex-col min-w-40 h-10 w-96 max-w-lg">
-                    <div
-                        class="flex w-full flex-1 items-stretch rounded-xl h-full bg-slate-100 border border-transparent focus-within:border-primary/50 focus-within:bg-white transition-all shadow-inner dark:bg-slate-800 dark:focus-within:bg-slate-900">
+
+                <!-- Centered Search Bar -->
+                <div class="flex-1 flex justify-center px-4">
+                    <div class="w-full max-w-2xl h-10">
                         <div
-                            class="text-slate-500 flex items-center justify-center pl-4 rounded-l-lg dark:text-slate-400">
-                            <span class="material-symbols-outlined text-[20px]">search</span>
+                            class="flex w-full items-stretch rounded-xl h-full bg-slate-100 border border-transparent focus-within:border-primary/50 focus-within:bg-white transition-all shadow-inner dark:bg-black/20 dark:focus-within:bg-black/40 dark:border-border-dark">
+                            <div
+                                class="text-slate-500 flex items-center justify-center pl-4 rounded-l-lg dark:text-slate-400">
+                                <span class="material-symbols-outlined text-[20px]">search</span>
+                            </div>
+                            <input id="searchInput"
+                                class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm dark:text-slate-100 dark:placeholder:text-slate-500"
+                                placeholder="메세지, 연락처 검색..." type="text" oninput="filterMails(this.value)" />
                         </div>
-                        <input id="searchInput"
-                            class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm dark:text-slate-100 dark:placeholder:text-slate-500"
-                            placeholder="메세지, 연락처 검색..." type="text" oninput="filterMails(this.value)" />
                     </div>
                 </div>
-            </div>
-            <div class="flex items-center gap-4">
-                <div class="flex gap-2">
-                    <button id="themeToggle" onclick="toggleTheme()"
-                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
-                        title="테마 전환">
-                        <span id="themeIcon" class="material-symbols-outlined text-[20px]">light_mode</span>
-                    </button>
+
+                <div class="flex items-center gap-4 shrink-0 w-48 justify-end">
                     <div class="flex gap-2">
+                        <button id="themeToggle" onclick="toggleTheme()"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300 dark:hover:bg-slate-700"
+                            title="테마 전환">
+                            <span id="themeIcon" class="material-symbols-outlined text-[20px]">light_mode</span>
+                        </button>
                         <button
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300"
                             title="알림">
                             <span class="material-symbols-outlined text-[20px]">notifications</span>
                         </button>
                         <button onclick="openDashboard()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300"
                             title="메일 대시보드">
                             <span class="material-symbols-outlined text-[20px]">settings</span>
                         </button>
-                        <button
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
-                            title="도움말">
-                            <span class="material-symbols-outlined text-[20px]">help_outline</span>
-                        </button>
                         <button onclick="logout()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors dark:bg-red-900/20 dark:text-red-400"
                             title="로그아웃">
                             <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
                         </button>
                     </div>
-                    <!-- Profile Avatar -->
                     <div id="userAvatar"
-                        class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600">
+                        class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600 dark:bg-surface-elevated dark:text-slate-300">
                         AS
                     </div>
                 </div>
+            </div>
         </header>
+
 
         <!-- Body -->
         <div class="flex flex-1 overflow-hidden">
 
             <!-- Sidebar -->
             <aside
-                class="w-64 flex flex-col justify-between bg-white border-r border-slate-200 p-4 shrink-0 dark:bg-slate-900 dark:border-slate-800 transition-colors">
+                class="w-64 flex flex-col justify-between bg-white border-r border-slate-200 p-4 shrink-0 dark:bg-surface-dark dark:border-border-dark transition-colors">
                 <div class="flex flex-col gap-6">
                     <div class="flex flex-col px-2">
-                        <h1 class="text-slate-900 text-sm font-bold dark:text-slate-100">개인 사서함</h1>
-                        <p id="userEmailNav" class="text-slate-500 text-xs font-medium truncate dark:text-slate-400">
+                        <h1
+                            class="text-slate-900 text-[11px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                            Workspace</h1>
+                        <p id="userEmailNav" class="text-slate-900 text-sm font-bold truncate dark:text-slate-100">
                             user@agilesys.co.kr</p>
                     </div>
                     <div class="flex flex-col gap-1">
                         <button onclick="openCompose()"
-                            class="flex items-center gap-3 px-3 py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all">
+                            class="flex items-center justify-center gap-3 px-3 py-3 rounded-xl bg-gradient-to-r from-primary to-[#2563eb] text-white font-bold shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:scale-[1.02] active:scale-[0.98] transition-all">
                             <span class="material-symbols-outlined text-[22px] fill-1">edit</span>
-                            <span class="text-sm">메일 작성</span>
+                            <span class="text-sm">새 메일 작성</span>
                         </button>
-                        <nav id="folderNav" class="mt-4 flex flex-col gap-1.5 space-y-0.5">
-                            <a class="folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer dark:bg-slate-800 dark:text-primary"
+                        <nav id="folderNav" class="mt-4 flex flex-col gap-1 space-y-0.5">
+                            <a class="folder-btn flex items-center gap-3 rounded-xl bg-primary/5 text-primary px-3 py-2.5 transition-all cursor-pointer dark:bg-primary/10 dark:text-primary"
                                 data-folder="INBOX">
                                 <div class="flex items-center gap-3">
-                                    <span class="material-symbols-outlined text-[20px]">inbox</span>
+                                    <span class="material-symbols-outlined text-[20px] fill-1">inbox</span>
                                     <span class="text-sm font-bold">받은편지함</span>
                                 </div>
                                 <span id="unreadBadge"
                                     class="hidden ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full"></span>
                             </a>
-                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-slate-800"
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer dark:text-slate-400 dark:hover:bg-white/5"
                                 data-folder="Sent">
                                 <span class="material-symbols-outlined text-[20px]">send</span>
                                 <span class="text-sm font-semibold">보낸편지함</span>
@@ -382,13 +424,19 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-4">
-                    <div class="px-3 py-4 bg-slate-50 rounded-2xl border border-slate-100 shadow-sm">
-                        <p class="text-[10px] text-slate-500 mb-2 font-bold uppercase tracking-wider">Storage</p>
-                        <div class="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
-                            <div id="storageBar"
-                                class="h-full bg-primary w-[0%] rounded-full transition-all duration-1000"></div>
+                    <div
+                        class="px-4 py-5 bg-slate-50 rounded-2xl border border-slate-100 shadow-premium dark:bg-[#14141d] dark:border-border-dark">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Storage Usage</p>
+                            <span id="storagePercentText" class="text-[10px] font-bold text-primary">0%</span>
                         </div>
-                        <p id="storageText" class="text-[10px] text-slate-400 mt-2 font-medium">용량 확인 중...</p>
+                        <div class="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden dark:bg-slate-800">
+                            <div id="storageBar"
+                                class="h-full bg-primary w-[0%] rounded-full shadow-glow transition-all duration-1000">
+                            </div>
+                        </div>
+                        <p id="storageText" class="text-[10px] text-slate-400 mt-3 font-medium tracking-tight">용량 확인
+                            중...</p>
                     </div>
                 </div>
             </aside>
@@ -397,21 +445,23 @@
             <div id="mailView" class="flex flex-1 overflow-hidden">
                 <!-- Mail List -->
                 <div id="leftPane"
-                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden dark:bg-slate-950 dark:border-slate-800 transition-colors">
+                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden dark:bg-surface-deep dark:border-border-dark transition-colors">
                     <!-- Toolbar -->
                     <div
-                        class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
+                        class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-border-dark">
                         <div class="flex items-center gap-1">
                             <div class="flex items-center px-1.5 mr-1">
                                 <input type="checkbox" id="selectAll"
                                     class="size-4 rounded border-slate-300 text-primary cursor-pointer transition-all hover:border-primary/50 focus:ring-primary/20" />
                             </div>
-                            <button onclick="loadInbox()" class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg"
+                            <button onclick="loadInbox()"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
                                 title="새로고침">
                                 <span class="material-symbols-outlined text-xl" id="listRefreshIcon">refresh</span>
                             </button>
                             <button onclick="deleteSelected()"
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg" title="삭제">
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                title="삭제">
                                 <span class="material-symbols-outlined text-xl">delete</span>
                             </button>
                             <!-- Empty Trash Button (Hidden by default) -->
@@ -471,7 +521,7 @@
 
                 <!-- Message Preview -->
                 <div id="msgPanel"
-                    class="flex flex-1 flex-col bg-white overflow-hidden dark:bg-slate-900 dark:text-slate-100 transition-colors">
+                    class="flex flex-1 flex-col bg-white overflow-hidden dark:bg-surface-dark dark:text-slate-100 transition-colors">
                     <!-- Empty state -->
                     <div id="msgEmpty"
                         class="flex flex-1 flex-col items-center justify-center text-slate-300 dark:text-slate-700">
@@ -524,14 +574,14 @@
                                         class="flex size-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary">
                                     </div>
                                     <div>
-                                        <p class="font-bold text-slate-900 text-sm" id="msgFrom"></p>
-                                        <p class="text-xs text-slate-400" id="msgTo"></p>
+                                        <p class="font-bold text-slate-900 text-sm dark:text-white" id="msgFrom"></p>
+                                        <p class="text-xs text-slate-400 dark:text-slate-500" id="msgTo"></p>
                                     </div>
                                 </div>
                                 <span class="text-xs text-slate-400 flex-shrink-0" id="msgDate"></span>
                             </div>
-                            <h2 class="text-lg font-bold text-slate-900 mb-5" id="msgSubject"></h2>
-                            <div id="msgHtml" class="text-sm text-slate-700 leading-relaxed"></div>
+                            <h2 class="text-lg font-bold text-slate-900 mb-5 dark:text-white" id="msgSubject"></h2>
+                            <div id="msgHtml" class="text-sm text-slate-700 leading-relaxed dark:text-slate-300"></div>
                             <!-- Attachments -->
                             <div id="msgAttachments" class="hidden mt-6 pt-4 border-t border-slate-100">
                                 <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
@@ -715,9 +765,11 @@
                         </form>
                     </div>
 
-                    <div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
-                        <div class="flex items-center justify-between border-b border-slate-100 px-6 py-4">
-                            <h3 class="text-base font-bold text-slate-900">연동된 계정 목록</h3>
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white shadow-premium dark:bg-surface-dark dark:border-border-dark">
+                        <div
+                            class="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-border-dark">
+                            <h3 class="text-base font-bold text-slate-900 dark:text-white">연동된 계정 목록</h3>
                             <button onclick="loadPop3Accounts()"
                                 class="text-slate-400 hover:text-primary flex items-center gap-1">
                                 <span class="material-symbols-outlined text-lg" id="pop3RefreshIcon">refresh</span>
@@ -732,8 +784,8 @@
 
             <!-- Dashboard View -->
             <div id="dashboardView"
-                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-slate-900 dark:text-slate-100 transition-colors">
-                <div class="mx-auto w-full max-w-4xl space-y-6">
+                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep dark:text-slate-100 transition-colors">
+                <div class="mx-auto w-full max-w-5xl space-y-6">
                     <div class="flex items-center justify-between mb-8">
                         <div>
                             <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">메일 송수신 현황</h2>
@@ -750,50 +802,50 @@
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
                         <!-- Received mails -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
                             <div
-                                class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2 dark:bg-blue-900/30">
+                                class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2 dark:bg-blue-900/20">
                                 <span class="material-symbols-outlined text-blue-500 text-2xl">inbox</span>
                             </div>
                             <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
                                 수신 메일함</h3>
-                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statInbox">0</p>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statInbox">0</p>
                         </div>
 
                         <!-- Sent mails -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
                             <div
-                                class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2 dark:bg-emerald-900/40">
+                                class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2 dark:bg-emerald-900/20">
                                 <span class="material-symbols-outlined text-emerald-500 text-2xl">send</span>
                             </div>
                             <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
                                 발신 메일함</h3>
-                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statSent">0</p>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statSent">0</p>
                         </div>
 
                         <!-- Trash -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
                             <div
-                                class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2 dark:bg-rose-900/40">
+                                class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2 dark:bg-rose-900/20">
                                 <span class="material-symbols-outlined text-rose-500 text-2xl">delete</span>
                             </div>
                             <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
                                 휴지통</h3>
-                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statTrash">0</p>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statTrash">0</p>
                         </div>
 
                         <!-- Spam/Junk -->
                         <div
-                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-slate-800 dark:border-slate-700">
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
                             <div
-                                class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2 dark:bg-amber-900/40">
+                                class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2 dark:bg-amber-900/20">
                                 <span class="material-symbols-outlined text-amber-500 text-2xl">report</span>
                             </div>
                             <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
                                 스팸함</h3>
-                            <p class="text-3xl font-extrabold text-slate-800 dark:text-slate-100" id="statJunk">0</p>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statJunk">0</p>
                         </div>
                     </div>
 
@@ -826,12 +878,12 @@
 
     <!-- ===== COMPOSE MODAL ===== -->
     <div id="composeModal"
-        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4 overflow-hidden dark:bg-black/60">
+        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4 overflow-hidden dark:bg-black/70">
         <div
-            class="pointer-events-auto w-full max-w-5xl h-[90vh] rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-16px_rgba(0,0,0,0.2)] overflow-hidden flex flex-col animate-slide-up dark:bg-slate-900 dark:border-slate-800">
+            class="pointer-events-auto w-full max-w-5xl h-[90vh] rounded-3xl border border-white/20 bg-white shadow-premium overflow-hidden flex flex-col animate-slide-up dark:bg-surface-dark dark:border-border-dark">
             <!-- Compose Header -->
             <div
-                class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50 dark:border-slate-800 dark:bg-slate-900/50">
+                class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50 dark:border-border-dark dark:bg-surface-elevated">
                 <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">새 메시지</h3>
                 <div class="flex items-center gap-2">
                     <button onclick="closeCompose()"
@@ -1090,6 +1142,8 @@
                     const limitGb = Math.round(limit / (1024 * 1024 * 1024));
                     if (storageBar) storageBar.style.width = Math.min(percent, 100) + '%';
                     if (storageText) storageText.textContent = `${formatBytes(usage)} of ${limitGb} GB used`;
+                    const percentText = document.getElementById('storagePercentText');
+                    if (percentText) percentText.textContent = Math.round(percent) + '%';
                 }
             } catch (e) {
                 console.error('[loadStorageQuota] Error:', e);
