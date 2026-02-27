@@ -32,6 +32,7 @@
         .ql-editor {
             padding: 24px !important;
             min-height: 200px;
+            font-family: 'Nanum Gothic', 'Inter', sans-serif !important;
         }
 
         .ql-editor.ql-blank::before {
@@ -78,7 +79,10 @@
             theme: {
                 extend: {
                     colors: { primary: "#1754cf", "primary-light": "#eef2fb" },
-                    fontFamily: { display: ["Nanum Gothic", "Inter", "sans-serif"] },
+                    fontFamily: {
+                        sans: ["Nanum Gothic", "Inter", "sans-serif"],
+                        display: ["Nanum Gothic", "Inter", "sans-serif"]
+                    },
                 }
             }
         }
