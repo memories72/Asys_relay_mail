@@ -1125,7 +1125,33 @@
                 searchTimer = setTimeout(() => filterMails(e.target.value), 300);
             });
 
+            // Infinite scroll detection
+            const scrollContainer = document.querySelector('.flex-1.overflow-y-auto');
+            if (scrollContainer) {
+                scrollContainer.addEventListener('scroll', () => {
+                    const threshold = 100;
+                    if (scrollContainer.scrollHeight - scrollContainer.scrollTop - scrollContainer.clientHeight < threshold) {
+                        loadMoreMails();
+                    }
+                });
+            }
+
             loadInbox();
+        }
+
+        let displayedCount = 0;
+        const PAGE_SIZE = 100;
+
+        function loadMoreMails() {
+            if (displayedCount >= currentMsgs.length) return;
+            const nextBatch = currentMsgs.slice(displayedCount, displayedCount + 50);
+            const fragment = document.createDocumentFragment();
+            nextBatch.forEach(msg => {
+                const tr = createMailRow(msg);
+                fragment.appendChild(tr);
+            });
+            document.getElementById('mailList').appendChild(fragment);
+            displayedCount += nextBatch.length;
         }
 
         async function loadStorageQuota() {
@@ -1271,6 +1297,7 @@
                 }
 
                 currentMsgs = data.messages;
+                displayedCount = 0;
                 const unread = currentMsgs.filter(m => !m.seen).length;
                 const badge = document.getElementById('unreadBadge');
                 if (unread > 0) { badge.textContent = unread; badge.classList.remove('hidden'); }
@@ -1283,7 +1310,15 @@
                     return;
                 }
 
-                renderMailList(currentMsgs);
+                // Initial render - first page
+                const initialBatch = currentMsgs.slice(0, PAGE_SIZE);
+                const fragment = document.createDocumentFragment();
+                initialBatch.forEach(msg => {
+                    fragment.appendChild(createMailRow(msg));
+                });
+                listEl.appendChild(fragment);
+                displayedCount = initialBatch.length;
+                updateSelectAllState();
             } catch (err) {
                 loadingEl.classList.add('hidden');
                 listEl.innerHTML = `<tr><td class="text-center py-10 text-sm text-red-400">${err.message}</td></tr>`;
@@ -1323,78 +1358,112 @@
             return `${dt.getFullYear()}.${dt.getMonth() + 1}.${dt.getDate()}`;
         }
 
+        function createMailRow(msg) {
+            const isSentFolder = currentFolder.toLowerCase().includes('sent') || currentFolder === '보낸편지함';
+            const mainPerson = isSentFolder ? (msg.to && msg.to.length > 0 ? msg.to[0] : { address: '나' }) : (msg.from || {});
+            let displayPerson = mainPerson.name || mainPerson.address || '(알 수 없음)';
+            if (isSentFolder && msg.to && msg.to.length > 1) displayPerson += ` 외 ${msg.to.length - 1}명`;
+
+            const initials = getInitials(mainPerson);
+            const color = avatarColor(displayPerson);
+            const isSelected = selectedUids.includes(msg.uid);
+
+            const tr = document.createElement('tr');
+            tr.className = `mail-row ${msg.seen ? 'mail-row-read' : 'mail-row-unread'} ${isSelected ? 'selected-bg' : ''} transition-colors cursor-pointer`;
+            tr.dataset.uid = msg.uid;
+            tr.innerHTML = `
+                <td class="px-4 py-4 border-b border-slate-50 dark:border-slate-800 w-24">
+                    <div class="flex items-center gap-3">
+                        <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 dark:border-slate-700 text-primary focus:ring-primary/20 transition-all cursor-pointer bg-transparent" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
+                        <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
+                            <span class="star-icon material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300 dark:text-slate-700'}">star</span>
+                        </button>
+                    </div>
+                </td>
+                <td class="px-2 py-4 border-b border-slate-50 dark:border-slate-800 w-48">
+                    <div class="flex items-center gap-3">
+                        <div class="flex size-9 flex-shrink-0 items-center justify-center rounded-xl text-[11px] font-bold shadow-sm ${color}">${initials}</div>
+                        <div class="flex flex-col min-w-0">
+                            <span class="text-sm truncate max-w-[140px] ${msg.seen ? 'font-medium text-slate-500 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${displayPerson}</span>
+                        </div>
+                    </div>
+                </td>
+                <td class="px-3 py-4 border-b border-slate-50 dark:border-slate-800 w-full" style="max-width:0">
+                    <div class="flex items-center gap-2 min-w-0 w-full">
+                        ${!msg.seen ? '<div class="unread-dot size-2 rounded-full bg-primary flex-shrink-0 animate-pulse"></div>' : ''}
+                        <span class="mail-subject text-[13.5px] truncate min-w-0 flex-1 ${msg.seen ? 'text-slate-600 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${escHtml(msg.subject)}</span>
+                        ${msg.hasAttachment ? '<span class="material-symbols-outlined text-slate-300 dark:text-slate-700 text-[18px] flex-shrink-0">attach_file</span>' : ''}
+                    </div>
+                </td>
+                <td class="px-6 py-4 border-b border-slate-50 text-right">
+                    <span class="text-[11px] font-bold ${msg.seen ? 'text-slate-400' : 'text-primary'} whitespace-nowrap">${formatDate(msg.date)}</span>
+                </td>
+            `;
+            tr.onclick = () => openMsg(msg.uid);
+            return tr;
+        }
+
         function renderMailList(msgs) {
             const listEl = document.getElementById('mailList');
             listEl.innerHTML = '';
-            msgs.forEach(msg => {
-                const isSentFolder = currentFolder.toLowerCase().includes('sent') || currentFolder === '보낸편지함';
-                const mainPerson = isSentFolder ? (msg.to && msg.to.length > 0 ? msg.to[0] : { address: '나' }) : (msg.from || {});
-                let displayPerson = mainPerson.name || mainPerson.address || '(알 수 없음)';
-                if (isSentFolder && msg.to && msg.to.length > 1) displayPerson += ` 외 ${msg.to.length - 1}명`;
-
-                const initials = getInitials(mainPerson);
-                const color = avatarColor(displayPerson);
-                const isSelected = selectedUids.includes(msg.uid);
-
-                const tr = document.createElement('tr');
-                tr.className = `mail-row ${msg.seen ? 'mail-row-read' : 'mail-row-unread'} ${isSelected ? 'selected-bg' : ''} transition-colors`;
-                tr.dataset.uid = msg.uid;
-                tr.innerHTML = `
-            <td class="px-4 py-4 border-b border-slate-50 dark:border-slate-800 w-24">
-                <div class="flex items-center gap-3">
-                    <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 dark:border-slate-700 text-primary focus:ring-primary/20 transition-all cursor-pointer bg-transparent" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
-                    <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
-                        <span class="material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300 dark:text-slate-700'}">star</span>
-                    </button>
-                </div>
-            </td>
-            <td class="px-2 py-4 border-b border-slate-50 dark:border-slate-800 w-48">
-                <div class="flex items-center gap-3">
-                    <div class="flex size-9 flex-shrink-0 items-center justify-center rounded-xl text-[11px] font-bold shadow-sm ${color}">${initials}</div>
-                    <div class="flex flex-col min-w-0">
-                        <span class="text-sm truncate max-w-[140px] ${msg.seen ? 'font-medium text-slate-500 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${displayPerson}</span>
-                    </div>
-                </div>
-            </td>
-            <td class="px-3 py-4 border-b border-slate-50 dark:border-slate-800 w-full" style="max-width:0">
-                <div class="flex items-center gap-2 min-w-0 w-full">
-                    ${!msg.seen ? '<div class="size-2 rounded-full bg-primary flex-shrink-0 animate-pulse"></div>' : ''}
-                    <span class="mail-subject text-[13.5px] truncate min-w-0 flex-1 ${msg.seen ? 'text-slate-600 dark:text-slate-400' : 'font-bold text-slate-900 dark:text-slate-100'}">${escHtml(msg.subject)}</span>
-                    ${msg.hasAttachment ? '<span class="material-symbols-outlined text-slate-300 dark:text-slate-700 text-[18px] flex-shrink-0">attach_file</span>' : ''}
-                </div>
-            </td>
-            <td class="px-6 py-4 border-b border-slate-50 text-right">
-                <span class="text-[11px] font-bold ${msg.seen ? 'text-slate-400' : 'text-primary'} whitespace-nowrap">${formatDate(msg.date)}</span>
-            </td>
-        `;
-                tr.addEventListener('click', () => openMsg(msg.uid));
-                listEl.appendChild(tr);
+            displayedCount = 0;
+            const batch = msgs.slice(0, PAGE_SIZE);
+            const fragment = document.createDocumentFragment();
+            batch.forEach(msg => {
+                fragment.appendChild(createMailRow(msg));
             });
+            listEl.appendChild(fragment);
+            displayedCount = batch.length;
             updateSelectAllState();
         }
 
-        function toggleSelect(uid, el) {
-            if (el.checked) {
+        function toggleSelect(uid, checkbox) {
+            const row = checkbox.closest('tr');
+            if (checkbox.checked) {
                 if (!selectedUids.includes(uid)) selectedUids.push(uid);
+                if (row) row.classList.add('selected-bg');
             } else {
                 selectedUids = selectedUids.filter(id => id !== uid);
+                if (row) row.classList.remove('selected-bg');
             }
-            renderMailList(currentMsgs);
+            updateSelectAllState();
         }
 
-        function updateSelectAllState() {
-            const selectAll = document.getElementById('selectAll');
-            if (currentMsgs.length > 0 && selectedUids.length === currentMsgs.length) {
-                selectAll.checked = true;
-                selectAll.indeterminate = false;
-            } else if (selectedUids.length > 0) {
-                selectAll.checked = false;
-                selectAll.indeterminate = true;
+        async function toggleStar(uid, btn) {
+            const icon = btn.querySelector('.star-icon');
+            // Toggle UI immediately for better feeling
+            const isSet = icon.classList.contains('text-amber-400');
+            if (isSet) {
+                icon.classList.remove('text-amber-400', 'fill-1');
+                icon.classList.add('text-slate-300', 'dark:text-slate-700');
             } else {
-                selectAll.checked = false;
-                selectAll.indeterminate = false;
+                icon.classList.add('text-amber-400', 'fill-1');
+                icon.classList.remove('text-slate-300', 'dark:text-slate-700');
             }
-            document.getElementById('mailCountLabel').textContent = selectedUids.length > 0 ? `${selectedUids.length}개 선택됨` : `${currentMsgs.length}개 메일`;
+
+            try {
+                const folder = currentFolder;
+                const path = isSet ? '/api/mail/unstar' : '/api/mail/star';
+                const res = await fetch(path, {
+                    method: 'POST',
+                    headers: apiHeaders(),
+                    body: JSON.stringify({ uid, folder })
+                });
+                if (!res.ok) throw new Error('Action failed');
+                // Refresh local data tag
+                const msg = currentMsgs.find(m => m.uid === uid);
+                if (msg) msg.flagged = !isSet;
+            } catch (err) {
+                console.error('Star error:', err);
+                // Revert on error
+                if (isSet) {
+                    icon.classList.add('text-amber-400', 'fill-1');
+                    icon.classList.remove('text-slate-300', 'dark:text-slate-700');
+                } else {
+                    icon.classList.remove('text-amber-400', 'fill-1');
+                    icon.classList.add('text-slate-300', 'dark:text-slate-700');
+                }
+            }
         }
 
         document.getElementById('selectAll').onclick = (e) => {

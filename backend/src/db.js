@@ -101,6 +101,18 @@ async function initDatabase() {
         await connection.query('ALTER TABLE user_pop3_accounts ADD COLUMN keep_on_server BOOLEAN DEFAULT TRUE');
     } catch (e) { }
 
+    // pop3_uidls table for deduplication
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS pop3_uidls (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            account_id INT NOT NULL,
+            uidl VARCHAR(255) NOT NULL,
+            fetched_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            INDEX idx_account_uidl (account_id, uidl),
+            FOREIGN KEY (account_id) REFERENCES user_pop3_accounts(id) ON DELETE CASCADE
+        )
+    `);
+
     await connection.query(`
         INSERT IGNORE INTO webmail_settings (domain, ldap_server, sso_enabled) 
         VALUES ('agilesys.co.kr', 'ldap://node_ldap_auth:389', TRUE)
@@ -236,16 +248,28 @@ const saveGlobalSmtpSettings = async (host, port, secure, user, pass) => {
     }
 };
 
+async function isFetched(accountId, uidl) {
+    const currentPool = getPool();
+    const [rows] = await currentPool.query('SELECT 1 FROM pop3_uidls WHERE account_id = ? AND uidl = ? LIMIT 1', [accountId, uidl]);
+    return rows.length > 0;
+}
+
+async function saveFetchedUidl(accountId, uidl) {
+    const currentPool = getPool();
+    await currentPool.query('INSERT IGNORE INTO pop3_uidls (account_id, uidl) VALUES (?, ?)', [accountId, uidl]);
+}
+
 module.exports = {
     initDatabase,
     getPool,
-    logSyncEvent,
-    getLdapSettings,
-    getAllPop3Accounts,
     savePop3Account,
+    getAllPop3Accounts,
     deletePop3Account,
-    updateLastFetched,
     updatePop3Error,
+    updateLastFetched,
     getGlobalSmtpSettings,
-    saveGlobalSmtpSettings
+    saveGlobalSmtpSettings,
+    logSyncEvent,
+    isFetched,
+    saveFetchedUidl
 };
