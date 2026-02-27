@@ -385,34 +385,52 @@ async function getStorageQuota(email, password) {
             setTimeout(() => {
                 client.logout().catch(() => { });
                 resolve({ usage: 0, limit: 10 * 1024 * 1024 * 1024 });
-            }, 6000); // 6 second max timeout
+            }, 8000); // 8 second max timeout
         }),
         (async () => {
             try {
                 let usage = 0;
-                let limit = 10 * 1024 * 1024 * 1024; // 10 GB
+                let limit = 10 * 1024 * 1024 * 1024; // Default: 10 GB
 
+                // Method 1: IMAP QUOTA extension (Fastest & most accurate if supported)
                 try {
+                    // Try to get quota for INBOX root
                     const quota = await client.getQuota('INBOX');
                     if (quota && quota.storage) {
+                        // IMAP QUOTA storage resource is in units of 1024 octets (KB)
                         if (quota.storage.usage !== undefined) usage = quota.storage.usage * 1024;
                         if (quota.storage.limit !== undefined) limit = quota.storage.limit * 1024;
+                        console.log(`[QUOTA] Success via extension for ${email}: ${usage} / ${limit}`);
                         return { usage, limit };
                     }
                 } catch (e) {
-                    // QUOTA not supported or errored, try to estimate ONLY INBOX to avoid hanging
-                    try {
-                        const st = await client.status('INBOX', { size: true });
-                        if (st && st.size) usage += st.size;
-                        // Also try Sent Items if easily accessible
-                        try {
-                            const stSent = await client.status('Sent', { size: true });
-                            if (stSent && stSent.size) usage += stSent.size;
-                        } catch (err) { }
-                    } catch (err) { }
+                    console.warn(`[QUOTA] Extension failed for ${email}: ${e.message}. Trying full folder scan fallback.`);
                 }
+
+                // Method 2: Fallback estimation (Iterate all folders)
+                try {
+                    const mailboxes = await client.list();
+                    let estimatedUsage = 0;
+                    for (const box of mailboxes) {
+                        try {
+                            // STATUS command with 'size' item (RFC 8438)
+                            const st = await client.status(box.path, { size: true });
+                            if (st && st.size !== undefined) {
+                                estimatedUsage += st.size;
+                            }
+                        } catch (err) {
+                            // Some folders might be restricted or not support STATUS
+                        }
+                    }
+                    usage = estimatedUsage;
+                    console.log(`[QUOTA] Success via folder scan for ${email}: ${usage} bytes`);
+                } catch (err) {
+                    console.error(`[QUOTA] Fallback scan failed for ${email}:`, err.message);
+                }
+
                 return { usage, limit };
             } catch (e) {
+                console.error(`[QUOTA] Critical error for ${email}:`, e);
                 return { usage: 0, limit: 10 * 1024 * 1024 * 1024 };
             } finally {
                 await client.logout().catch(() => { });

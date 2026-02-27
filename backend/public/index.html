@@ -1201,12 +1201,18 @@
                 if (qData.status === 'OK' && qData.quota) {
                     const { usage, limit } = qData.quota;
                     const percent = (usage / limit) * 100;
-                    const usageMb = (usage / (1024 * 1024)).toFixed(2);
+                    const usageFormatted = formatBytes(usage);
                     const limitGb = (limit / (1024 * 1024 * 1024)).toFixed(0);
 
-                    document.getElementById('dashStorageBar').style.width = `${Math.min(percent, 100)}%`;
-                    document.getElementById('dashStorageCurrent').innerText = `${usageMb} MB 사용 됨`;
-                    document.getElementById('dashStorageTotal').innerText = `전체 ${limitGb} GB`;
+                    if (document.getElementById('dashStorageBar')) {
+                        document.getElementById('dashStorageBar').style.width = `${Math.min(percent, 100)}%`;
+                    }
+                    if (document.getElementById('dashStorageCurrent')) {
+                        document.getElementById('dashStorageCurrent').innerText = `${usageFormatted} 사용 됨`;
+                    }
+                    if (document.getElementById('dashStorageTotal')) {
+                        document.getElementById('dashStorageTotal').innerText = `전체 ${limitGb} GB`;
+                    }
                 }
             } catch (err) {
                 console.error('Failed to load dashboard stats:', err);
@@ -1994,10 +2000,12 @@
 
         // ===== ATTACHMENT HELPERS =====
         function formatBytes(bytes) {
+            if (bytes === 0) return '0 B';
             if (!bytes) return '';
-            if (bytes < 1024) return bytes + ' B';
-            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
-            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
         }
 
         function mimeIcon(mimeType) {
