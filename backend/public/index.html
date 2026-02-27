@@ -1466,6 +1466,25 @@
             }
         }
 
+        function updateSelectAllState() {
+            const selectAll = document.getElementById('selectAll');
+            if (!selectAll) return;
+            if (currentMsgs.length > 0 && selectedUids.length === currentMsgs.length) {
+                selectAll.checked = true;
+                selectAll.indeterminate = false;
+            } else if (selectedUids.length > 0) {
+                selectAll.checked = false;
+                selectAll.indeterminate = true;
+            } else {
+                selectAll.checked = false;
+                selectAll.indeterminate = false;
+            }
+            const label = document.getElementById('mailCountLabel');
+            if (label) {
+                label.textContent = selectedUids.length > 0 ? `${selectedUids.length}개 선택됨` : `${currentMsgs.length}개 메일`;
+            }
+        }
+
         document.getElementById('selectAll').onclick = (e) => {
             if (e.target.checked) {
                 selectedUids = currentMsgs.map(m => m.uid);
