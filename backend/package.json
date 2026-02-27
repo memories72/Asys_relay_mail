@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "iconv-lite": "^0.7.2",
+    "imapflow": "^1.2.10",
+    "jsonwebtoken": "^9.0.3",
+    "ldapjs": "^3.0.7",
+    "mailparser": "^3.9.3",
+    "multer": "^2.0.2",
+    "mysql2": "^3.18.0",
+    "node-cron": "^4.2.1",
+    "node-pop3": "^0.9.1",
+    "nodemailer": "^8.0.1",
+    "poplib": "^0.1.7"
+  }
+}

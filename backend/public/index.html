@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Asys 웹메일</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <!-- Quill 2.0 for Rich Text Editing -->
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+    <style>
+        /* Custom Quill Overrides for Premium Feel */
+        .ql-toolbar.ql-snow {
+            border: none !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+            padding: 12px 24px !important;
+            background: #f8fafc;
+        }
+
+        .ql-container.ql-snow {
+            border: none !important;
+            font-family: 'Inter', sans-serif !important;
+            font-size: 15px !important;
+        }
+
+        .ql-editor {
+            padding: 24px !important;
+            min-height: 200px;
+        }
+
+        .ql-editor.ql-blank::before {
+            left: 24px !important;
+            font-style: normal !important;
+            color: #94a3b8 !important;
+            opacity: 0.8;
+        }
+
+        .animate-spin-fast {
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Scrollbar styling for editor */
+        .ql-editor::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .ql-editor::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .ql-editor::-webkit-scrollbar-thumb {
+            background: #e2e8f0;
+            border-radius: 10px;
+        }
+
+        .ql-editor::-webkit-scrollbar-thumb:hover {
+            background: #cbd5e1;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: "#1754cf", "primary-light": "#eef2fb" },
+                    fontFamily: { display: ["Inter", "sans-serif"] },
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .animate-spin-fast {
+            animation: spin 0.6s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mail-row-unread td {
+            background: #fff;
+        }
+
+        .mail-row-unread .mail-subject {
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .mail-row-read td {
+            background: #fafafa;
+        }
+
+        .mail-row-read .mail-subject {
+            font-weight: 500;
+            color: #475569;
+        }
+
+        .mail-row:hover td {
+            background: #f1f5f9 !important;
+            cursor: pointer;
+        }
+
+        .mail-row.selected-bg td {
+            background: #eef2fb !important;
+        }
+
+        .mail-row.selected td {
+            background: #eef2fb !important;
+        }
+
+        #msgHtml img {
+            max-width: 100%;
+        }
+
+        #msgHtml a {
+            color: #1754cf;
+        }
+
+        #msgHtml {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #334155;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-slide-up {
+            animation: slide-up 0.3s ease-out forwards;
+        }
+
+        .resizer {
+            width: 8px;
+            cursor: col-resize;
+            background-color: transparent;
+            transition: background-color 0.2s;
+            flex-shrink: 0;
+            z-index: 10;
+            margin-right: -4px;
+            margin-left: -4px;
+        }
+
+        .resizer:hover,
+        .resizer.dragging {
+            background-color: #cbd5e1;
+            /* slate-300 */
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900 font-display">
+
+    <!-- ===== LOGIN ===== -->
+    <div id="loginScreen" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+        <div class="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-8 shadow-xl">
+            <div class="mb-7 text-center">
+                <div
+                    class="mx-auto mb-4 flex size-14 items-center justify-center rounded-2xl bg-primary text-white shadow-lg shadow-primary/30">
+                    <span class="material-symbols-outlined text-3xl">diamond</span>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-900">Asys 웹메일</h2>
+                <p class="mt-1 text-sm text-slate-400">사내 통합 계정으로 로그인하세요</p>
+            </div>
+            <form id="loginForm" class="space-y-4">
+                <div>
+                    <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">아이디
+                        (UID)</label>
+                    <div class="relative">
+                        <span
+                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">person</span>
+                        <input id="loginUser" type="text" required placeholder="예: ms.hwang"
+                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                    </div>
+                </div>
+                <div>
+                    <label
+                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">비밀번호</label>
+                    <div class="relative">
+                        <span
+                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">lock</span>
+                        <input id="loginPass" type="password" required placeholder="••••••••"
+                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                    </div>
+                </div>
+                <button type="submit" id="loginBtn"
+                    class="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-3 text-sm font-bold text-white shadow-lg shadow-primary/25 hover:bg-primary/90 transition-all">
+                    <span>로그인</span>
+                    <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                </button>
+                <div id="loginErr"
+                    class="hidden rounded-lg border border-red-200 bg-red-50 py-2 text-center text-sm font-medium text-red-500">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== MAIN APP ===== -->
+    <div id="app"
+        class="hidden relative flex h-screen w-full flex-col overflow-hidden opacity-0 transition-opacity duration-500">
+
+        <!-- Header -->
+        <header
+            class="flex h-16 flex-shrink-0 items-center justify-between border-b border-slate-200 bg-white px-6 z-10">
+            <div class="flex items-center gap-8">
+                <div class="flex items-center gap-4 text-primary">
+                    <div class="size-9 flex items-center justify-center bg-primary/10 rounded-xl shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-2xl">mail</span>
+                    </div>
+                    <h2 class="text-slate-900 text-lg font-bold leading-tight tracking-tight">Agilesys Mail</h2>
+                </div>
+                <div class="flex flex-col min-w-40 h-10 w-96 max-w-lg">
+                    <div
+                        class="flex w-full flex-1 items-stretch rounded-xl h-full bg-slate-100 border border-transparent focus-within:border-primary/50 focus-within:bg-white transition-all shadow-inner">
+                        <div class="text-slate-500 flex items-center justify-center pl-4 rounded-l-lg">
+                            <span class="material-symbols-outlined text-[20px]">search</span>
+                        </div>
+                        <input id="searchInput"
+                            class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm"
+                            placeholder="메세지, 연락처 검색..." type="text" oninput="filterMails(this.value)" />
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="flex gap-2">
+                    <button
+                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                        title="알림">
+                        <span class="material-symbols-outlined text-[20px]">notifications</span>
+                    </button>
+                    <button
+                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                        title="설정">
+                        <span class="material-symbols-outlined text-[20px]">settings</span>
+                    </button>
+                    <button
+                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+                        title="도움말">
+                        <span class="material-symbols-outlined text-[20px]">help_outline</span>
+                    </button>
+                    <button onclick="logout()"
+                        class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors"
+                        title="로그아웃">
+                        <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+                    </button>
+                </div>
+                <!-- Profile Avatar -->
+                <div id="userAvatar"
+                    class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600">
+                    AS
+                </div>
+            </div>
+        </header>
+
+        <!-- Body -->
+        <div class="flex flex-1 overflow-hidden">
+
+            <!-- Sidebar -->
+            <aside class="w-64 flex flex-col justify-between bg-white border-r border-slate-200 p-4 shrink-0">
+                <div class="flex flex-col gap-6">
+                    <div class="flex flex-col px-2">
+                        <h1 class="text-slate-900 text-sm font-bold">Work Workspace</h1>
+                        <p id="userEmailNav" class="text-slate-500 text-xs font-medium truncate">user@agilesys.co.kr</p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <button onclick="openCompose()"
+                            class="flex items-center gap-3 px-3 py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all">
+                            <span class="material-symbols-outlined text-[22px] fill-1">edit</span>
+                            <span class="text-sm">메일 작성</span>
+                        </button>
+                        <nav id="folderNav" class="mt-4 flex flex-col gap-1.5 space-y-0.5">
+                            <a class="folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer"
+                                data-folder="INBOX">
+                                <div class="flex items-center gap-3">
+                                    <span class="material-symbols-outlined text-[20px]">inbox</span>
+                                    <span class="text-sm font-bold">받은편지함</span>
+                                </div>
+                                <span id="unreadBadge"
+                                    class="hidden ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full"></span>
+                            </a>
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                                data-folder="Sent">
+                                <span class="material-symbols-outlined text-[20px]">send</span>
+                                <span class="text-sm font-semibold">보낸편지함</span>
+                            </a>
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                                data-folder="Drafts">
+                                <span class="material-symbols-outlined text-[20px]">draft</span>
+                                <span class="text-sm font-semibold">임시보관함</span>
+                            </a>
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                                data-folder="Junk">
+                                <span class="material-symbols-outlined text-[20px]">error</span>
+                                <span class="text-sm font-semibold">스팸함</span>
+                            </a>
+                            <a class="folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer"
+                                data-folder="Trash">
+                                <span class="material-symbols-outlined text-[20px]">delete</span>
+                                <span class="text-sm font-semibold">휴지통</span>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="flex flex-col gap-1.5 mt-2">
+                        <p class="px-3 text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Settings</p>
+                        <a id="navPop3"
+                            class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 transition-all cursor-pointer">
+                            <span class="material-symbols-outlined text-[20px]">settings_input_component</span>
+                            <span class="text-sm font-semibold">계정 설정</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="px-3 py-4 bg-slate-50 rounded-2xl border border-slate-100 shadow-sm">
+                        <p class="text-[10px] text-slate-500 mb-2 font-bold uppercase tracking-wider">Storage</p>
+                        <div class="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
+                            <div id="storageBar"
+                                class="h-full bg-primary w-[0%] rounded-full transition-all duration-1000"></div>
+                        </div>
+                        <p id="storageText" class="text-[10px] text-slate-400 mt-2 font-medium">용량 확인 중...</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Mail View -->
+            <div id="mailView" class="flex flex-1 overflow-hidden">
+                <!-- Mail List -->
+                <div id="leftPane"
+                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden">
+                    <!-- Toolbar -->
+                    <div class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4">
+                        <div class="flex items-center gap-1">
+                            <div class="flex items-center px-1.5 mr-1">
+                                <input type="checkbox" id="selectAll"
+                                    class="size-4 rounded border-slate-300 text-primary cursor-pointer transition-all hover:border-primary/50 focus:ring-primary/20" />
+                            </div>
+                            <button onclick="loadInbox()" class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg"
+                                title="새로고침">
+                                <span class="material-symbols-outlined text-xl" id="listRefreshIcon">refresh</span>
+                            </button>
+                            <button onclick="deleteSelected()"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg" title="삭제">
+                                <span class="material-symbols-outlined text-xl">delete</span>
+                            </button>
+                            <!-- Empty Trash Button (Hidden by default) -->
+                            <button id="emptyTrashBtn" onclick="emptyTrash()"
+                                class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                                title="휴지통 비우기">
+                                <span class="material-symbols-outlined text-xl">delete_forever</span>
+                                <span class="text-xs font-bold">비우기</span>
+                            </button>
+                            <!-- Move to Folder Dropdown -->
+                            <div class="relative group">
+                                <button class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg" title="폴더 이동">
+                                    <span class="material-symbols-outlined text-xl">folder_shared</span>
+                                </button>
+                                <div
+                                    class="hidden group-hover:block absolute left-0 top-full mt-0 w-32 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden">
+                                    <div
+                                        class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100">
+                                        이동 위치</div>
+                                    <a onclick="moveSelected('INBOX')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        <span class="material-symbols-outlined text-base">inbox</span>받은편지함</a>
+                                    <a onclick="moveSelected('Sent')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        <span class="material-symbols-outlined text-base">send</span>보낸편지함</a>
+                                    <a onclick="moveSelected('Junk')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        <span class="material-symbols-outlined text-base">error</span>스팸함</a>
+                                    <a onclick="moveSelected('Trash')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer">
+                                        <span class="material-symbols-outlined text-base">delete</span>휴지통</a>
+                                </div>
+                            </div>
+                        </div>
+                        <span id="mailCountLabel" class="text-xs text-slate-400 font-medium">–</span>
+                    </div>
+                    <!-- List -->
+                    <div class="flex-1 overflow-y-auto">
+                        <table class="w-full text-left border-separate border-spacing-0">
+                            <tbody id="mailList"></tbody>
+                        </table>
+                        <div id="mailEmpty" class="hidden flex-col items-center justify-center py-20 text-center">
+                            <span class="material-symbols-outlined text-5xl text-slate-200 mb-3">inbox</span>
+                            <p class="text-sm text-slate-400">메일이 없습니다</p>
+                        </div>
+                        <div id="mailLoading" class="flex items-center justify-center py-20">
+                            <span
+                                class="material-symbols-outlined text-3xl text-primary animate-spin-fast">progress_activity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resizer Handle -->
+                <div id="resizer" class="resizer"></div>
+
+                <!-- Message Preview -->
+                <div id="msgPanel" class="flex flex-1 flex-col bg-white overflow-hidden">
+                    <!-- Empty state -->
+                    <div id="msgEmpty" class="flex flex-1 flex-col items-center justify-center text-slate-300">
+                        <span class="material-symbols-outlined text-6xl mb-3">mark_email_read</span>
+                        <p class="text-sm">목록에서 메일을 선택하세요</p>
+                    </div>
+                    <!-- Message content -->
+                    <div id="msgContent" class="hidden flex flex-col h-full overflow-hidden">
+                        <div
+                            class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4">
+                            <div class="flex items-center gap-2">
+                                <button onclick="closeMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg">
+                                    <span class="material-symbols-outlined text-xl">close</span>
+                                </button>
+                                <h3 id="msgSubjectHeader" class="text-sm font-bold text-slate-800 truncate max-w-xs">
+                                </h3>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <button onclick="replyMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg"
+                                    title="답장">
+                                    <span class="material-symbols-outlined text-xl">reply</span>
+                                </button>
+                                <button onclick="deleteCurrentMsg()"
+                                    class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg" title="삭제">
+                                    <span class="material-symbols-outlined text-xl">delete</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex-1 overflow-y-auto p-6">
+                            <div class="mb-5 flex items-start justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div id="msgAvatar"
+                                        class="flex size-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-slate-900 text-sm" id="msgFrom"></p>
+                                        <p class="text-xs text-slate-400" id="msgTo"></p>
+                                    </div>
+                                </div>
+                                <span class="text-xs text-slate-400 flex-shrink-0" id="msgDate"></span>
+                            </div>
+                            <h2 class="text-lg font-bold text-slate-900 mb-5" id="msgSubject"></h2>
+                            <div id="msgHtml" class="text-sm text-slate-700 leading-relaxed"></div>
+                            <!-- Attachments -->
+                            <div id="msgAttachments" class="hidden mt-6 pt-4 border-t border-slate-100">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
+                                    <span class="material-symbols-outlined text-sm translate-y-0.5">attach_file</span>
+                                    첨부파일
+                                </p>
+                                <div id="msgAttachList" class="flex flex-wrap gap-2"></div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 border-t border-slate-200 p-3">
+                            <div class="flex gap-2">
+                                <button onclick="replyMsg()"
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-colors">답장</button>
+                                <button onclick="forwardMsg()"
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-colors">전달</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POP3 Settings View (embedded panel) -->
+            <div id="pop3View" class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6">
+                <div class="mx-auto w-full max-w-2xl space-y-6">
+                    <!-- SMTP Settings Card -->
+                    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5">
+                            <div class="flex size-9 items-center justify-center rounded-lg bg-amber-50">
+                                <span class="material-symbols-outlined text-amber-600">outbox</span>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900">발신 메일 서버 설정 (SMTP Relay)</h3>
+                                <p class="text-xs text-slate-400">메일을 보낼 때 사용할 기본 SMTP 릴레이 서버를 설정합니다</p>
+                            </div>
+                        </div>
+                        <form id="smtpForm" class="space-y-4">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="col-span-2">
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">SMTP
+                                        서버 주소</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">dns</span>
+                                        <input type="text" id="smtpHost" required placeholder="node_mail_engine"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">포트</label>
+                                    <input type="number" id="smtpPort" value="587"
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none" />
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">SMTP
+                                        계정</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">person</span>
+                                        <input type="text" id="smtpUser" placeholder="relay@agilesys.co.kr"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">비밀번호</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">key</span>
+                                        <input type="password" id="smtpPass" placeholder="••••••••"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="smtpSecure"
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20" />
+                                    <span
+                                        class="text-sm font-medium text-slate-700 font-semibold uppercase tracking-wider text-slate-400">SSL/TLS
+                                        사용 (보안 연결)</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <button type="submit" id="smtpSubmitBtn"
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all">
+                                    <span>릴레이 설정 저장</span>
+                                    <span class="material-symbols-outlined text-lg">save</span>
+                                </button>
+                                <button type="button" onclick="testSmtpConnection()" id="smtpTestBtn"
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                                    <span>연결 테스트</span>
+                                    <span class="material-symbols-outlined text-lg">router</span>
+                                </button>
+                                <div id="smtpStatusMsg" class="hidden text-sm font-medium"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- POP3 Settings Card -->
+                    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5">
+                            <div class="flex size-9 items-center justify-center rounded-lg bg-primary/10">
+                                <span class="material-symbols-outlined text-primary">cloud_download</span>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900">외부 메일 계정 연동 (POP3)</h3>
+                                <p class="text-xs text-slate-400">Gmail, Naver 등 외부 메일을 자동 수집합니다</p>
+                            </div>
+                        </div>
+                        <form id="pop3Form" class="space-y-4">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="col-span-2">
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">POP3
+                                        서버 주소</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">dns</span>
+                                        <input type="text" id="popHost" required placeholder="pop.gmail.com"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">포트</label>
+                                    <input type="number" id="popPort" value="995"
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none" />
+                                </div>
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="popTls"
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20" />
+                                    <span
+                                        class="text-sm font-medium text-slate-700 font-semibold uppercase tracking-wider text-slate-400">SSL/TLS
+                                        사용 (보안 연결)</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">외부
+                                    메일 주소</label>
+                                <div class="relative">
+                                    <span
+                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">alternate_email</span>
+                                    <input type="text" id="popUser" required placeholder="email@gmail.com"
+                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                </div>
+                            </div>
+                            <div>
+                                <label
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">외부
+                                    계정 비밀번호 / 앱 비밀번호</label>
+                                <div class="relative">
+                                    <span
+                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">key</span>
+                                    <input type="password" id="popPass" required placeholder="••••••••"
+                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <button type="submit" id="pop3SubmitBtn"
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all">
+                                    <span>설정 저장</span>
+                                    <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                                </button>
+                                <div id="pop3StatusMsg" class="hidden text-sm font-medium"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+                        <div class="flex items-center justify-between border-b border-slate-100 px-6 py-4">
+                            <h3 class="text-base font-bold text-slate-900">연동된 계정 목록</h3>
+                            <button onclick="loadPop3Accounts()"
+                                class="text-slate-400 hover:text-primary flex items-center gap-1">
+                                <span class="material-symbols-outlined text-lg" id="pop3RefreshIcon">refresh</span>
+                            </button>
+                        </div>
+                        <div id="pop3AccountsList">
+                            <div class="py-10 text-center text-sm text-slate-400">로딩 중...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ===== COMPOSE MODAL ===== -->
+    <div id="composeModal"
+        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4 overflow-hidden">
+        <div
+            class="pointer-events-auto w-full max-w-5xl h-[90vh] rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-16px_rgba(0,0,0,0.2)] overflow-hidden flex flex-col animate-slide-up">
+            <!-- Compose Header -->
+            <div class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50">
+                <h3 class="text-lg font-bold text-slate-900">새 메시지</h3>
+                <div class="flex items-center gap-2">
+                    <button onclick="closeCompose()"
+                        class="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-200 transition-colors">
+                        <span class="material-symbols-outlined text-xl">close</span>
+                    </button>
+                </div>
+            </div>
+
+            <form id="composeForm" class="flex flex-col flex-1 overflow-hidden">
+                <!-- Recipient Fields -->
+                <div class="flex flex-col divide-y divide-slate-100 px-6">
+                    <!-- To Field -->
+                    <div class="flex items-center min-h-[52px] py-1 gap-4">
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">받는 사람</span>
+                        <input id="composeTo"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            placeholder="이메일 주소..." type="text" />
+                        <div class="flex gap-2">
+                            <button type="button" onclick="toggleComposeField('cc')"
+                                class="text-xs font-bold text-primary hover:underline px-1">Cc</button>
+                            <button type="button" onclick="toggleComposeField('bcc')"
+                                class="text-xs font-bold text-primary hover:underline px-1">Bcc</button>
+                        </div>
+                    </div>
+                    <!-- Cc Field -->
+                    <div id="composeCcWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">참조</span>
+                        <input id="composeCc"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            placeholder="Cc 추가..." type="text" />
+                    </div>
+                    <!-- Bcc Field -->
+                    <div id="composeBccWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">숨은 참조</span>
+                        <input id="composeBcc"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400"
+                            placeholder="Bcc 추가..." type="text" />
+                    </div>
+                    <!-- Subject Field -->
+                    <div class="flex items-center min-h-[52px] py-1 gap-4">
+                        <span class="text-sm font-semibold text-slate-500 w-16 shrink-0">제목</span>
+                        <input id="composeSubject"
+                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm font-bold text-slate-900 p-0 placeholder:text-slate-400"
+                            placeholder="제목을 입력하세요" type="text" />
+                    </div>
+                </div>
+
+                <!-- Body Area (Quill Container) -->
+                <div class="flex-1 overflow-hidden flex flex-col">
+                    <!-- Toolbar container is created by Quill here -->
+                    <div id="editor" class="flex-1 overflow-y-auto"></div>
+                </div>
+
+                <!-- Attachments List -->
+                <div id="composeAttachList"
+                    class="hidden border-t border-slate-100 p-3 bg-slate-50/50 flex flex-wrap gap-2"></div>
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between px-6 py-4 bg-white border-t border-slate-100 shrink-0">
+                    <div class="flex items-center gap-3">
+                        <button type="submit"
+                            class="flex items-center gap-2 px-6 h-10 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                            <span>보내기</span>
+                            <span class="material-symbols-outlined text-[18px]">send</span>
+                        </button>
+                        <label for="composeFileInput"
+                            class="flex items-center justify-center h-10 w-10 text-slate-500 hover:bg-slate-100 rounded-xl transition-all cursor-pointer"
+                            title="첨부파일">
+                            <span class="material-symbols-outlined">attach_file</span>
+                        </label>
+                        <input type="file" id="composeFileInput" multiple class="hidden" />
+                    </div>
+                    <button type="button" onclick="closeCompose()"
+                        class="flex items-center justify-center h-10 w-10 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all"
+                        title="취소">
+                        <span class="material-symbols-outlined">delete</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const API = '';
+        let authToken = localStorage.getItem('asys_jwt') || '';
+        let mailPass = localStorage.getItem('asys_mp') || '';
+        let userData = JSON.parse(localStorage.getItem('asys_user') || '{}');
+        let currentOpenedMsg = null;
+        let currentMsgs = [];
+        let selectedUids = [];
+        let currentUid = null;
+        let currentFolder = 'INBOX';
+
+        // ===== SSO JWT from URL =====
+        const urlP = new URLSearchParams(window.location.search);
+        const ssoJwt = urlP.get('jwt');
+        if (ssoJwt) {
+            authToken = ssoJwt;
+            localStorage.setItem('asys_jwt', ssoJwt);
+            try {
+                const pl = JSON.parse(atob(ssoJwt.split('.')[1]));
+                userData = { email: pl.email, uid: pl.email.split('@')[0] };
+                localStorage.setItem('asys_user', JSON.stringify(userData));
+            } catch (e) { }
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+
+        function apiHeaders() {
+            const h = { 'Authorization': 'Bearer ' + authToken, 'Content-Type': 'application/json' };
+            if (mailPass) h['x-mail-password'] = mailPass;
+            return h;
+        }
+
+        function logout() {
+            localStorage.clear();
+            window.location.reload();
+        }
+
+        // ===== LOGIN =====
+        document.getElementById('loginForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const btn = document.getElementById('loginBtn');
+            const err = document.getElementById('loginErr');
+            const uid = document.getElementById('loginUser').value;
+            const pass = document.getElementById('loginPass').value;
+
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast">progress_activity</span><span>인증 중...</span>';
+            btn.disabled = true;
+            err.classList.add('hidden');
+            try {
+                const res = await fetch('/api/login', {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: uid, password: pass })
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '로그인 실패');
+                authToken = data.token;
+                userData = data.user;
+                mailPass = pass; // store for IMAP
+                localStorage.setItem('asys_jwt', authToken);
+                localStorage.setItem('asys_user', JSON.stringify(userData));
+                localStorage.setItem('asys_mp', mailPass);
+                initApp();
+            } catch (e) {
+                err.textContent = e.message;
+                err.classList.remove('hidden');
+            } finally {
+                btn.innerHTML = '<span>로그인</span><span class="material-symbols-outlined text-lg">arrow_forward</span>';
+                btn.disabled = false;
+            }
+        });
+
+        // ===== INIT =====
+        function initApp() {
+            if (!authToken) return;
+            document.getElementById('loginScreen').classList.add('hidden');
+            const app = document.getElementById('app');
+            app.classList.remove('hidden');
+            app.classList.add('flex');
+            setTimeout(() => app.classList.remove('opacity-0'), 50);
+
+            const email = userData.email || '–';
+            const navEmail = document.getElementById('userEmailNav');
+            if (navEmail) navEmail.textContent = email;
+
+            const avatar = document.getElementById('userAvatar');
+            if (avatar) {
+                const initials = email.substring(0, 2).toUpperCase();
+                avatar.textContent = initials;
+            }
+
+            // Load storage quota asynchronously
+            loadStorageQuota();
+
+
+
+            // Nav clicks
+            const navPop3 = document.getElementById('navPop3');
+            if (navPop3) navPop3.onclick = showPop3View;
+
+            // Folder clicks
+
+            document.querySelectorAll('.folder-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentFolder = btn.dataset.folder;
+                    document.querySelectorAll('.folder-btn').forEach(b => {
+                        b.className = 'folder-btn flex items-center gap-3 rounded-xl px-3 py-2.5 text-slate-600 hover:bg-slate-50 transition-all cursor-pointer';
+                        const unread = b.querySelector('#unreadBadge');
+                        if (unread) unread.className = 'hidden ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full';
+
+                        if (b.dataset.folder === currentFolder) {
+                            b.className = 'folder-btn flex items-center gap-3 rounded-xl bg-slate-100 text-primary px-3 py-2.5 transition-all cursor-pointer';
+                            if (unread && !unread.classList.contains('hidden')) {
+                                unread.className = 'ml-auto text-[10px] font-bold bg-primary text-white px-2 py-0.5 rounded-full';
+                            }
+                        }
+                    });
+                    showMailView();
+                    loadInbox();
+
+                    // Toggle Empty Trash button visibility
+                    const isTrash = currentFolder === 'Trash' || currentFolder === 'INBOX.Trash' || currentFolder === '휴지통';
+                    document.getElementById('emptyTrashBtn').classList.toggle('hidden', !isTrash);
+                    document.getElementById('emptyTrashBtn').classList.toggle('flex', isTrash);
+                });
+            });
+
+            // Search
+            let searchTimer;
+            document.getElementById('searchInput').addEventListener('input', e => {
+                clearTimeout(searchTimer);
+                searchTimer = setTimeout(() => filterMails(e.target.value), 300);
+            });
+
+            loadInbox();
+        }
+
+        async function loadStorageQuota() {
+            try {
+                const res = await fetch('/api/mail/quota', { headers: apiHeaders() });
+                const data = await res.json();
+                if (res.ok && data.quota) {
+                    const usage = data.quota.usage || 0;
+                    // Default to 10GB if the limit comes as 0 or undefined
+                    const limit = data.quota.limit || (10 * 1024 * 1024 * 1024);
+                    const percent = limit > 0 ? (usage / limit) * 100 : 0;
+                    const storageBar = document.getElementById('storageBar');
+                    const storageText = document.getElementById('storageText');
+                    const limitGb = Math.round(limit / (1024 * 1024 * 1024));
+                    if (storageBar) storageBar.style.width = Math.min(percent, 100) + '%';
+                    if (storageText) storageText.textContent = `${formatBytes(usage)} of ${limitGb} GB used`;
+                }
+            } catch (e) {
+                console.error('[loadStorageQuota] Error:', e);
+            }
+        }
+
+        function showMailView() {
+            document.getElementById('mailView').classList.remove('hidden');
+            document.getElementById('mailView').classList.add('flex');
+            document.getElementById('pop3View').classList.add('hidden');
+            updateNavHighlighter('folderNav');
+        }
+
+        function showPop3View() {
+            document.getElementById('mailView').classList.add('hidden');
+            document.getElementById('pop3View').classList.remove('hidden');
+            document.getElementById('pop3View').classList.add('flex');
+            updateNavHighlighter('navPop3');
+            loadPop3Accounts();
+        }
+
+
+
+        function updateNavHighlighter(activeId) {
+            document.querySelectorAll('.folder-btn, #navPop3').forEach(el => {
+                el.classList.remove('bg-slate-100', 'text-primary');
+                el.classList.add('text-slate-600');
+            });
+            const active = (activeId === 'folderNav')
+                ? document.querySelector(`.folder-btn[data-folder="${currentFolder}"]`)
+                : document.getElementById(activeId);
+            if (active) {
+                active.classList.add('bg-slate-100', 'text-primary');
+                active.classList.remove('text-slate-600');
+            }
+        }
+
+
+        // ===== LOAD INBOX =====
+        async function loadInbox() {
+            const listEl = document.getElementById('mailList');
+            const loadingEl = document.getElementById('mailLoading');
+            const emptyEl = document.getElementById('mailEmpty');
+            const refreshIcon = document.getElementById('listRefreshIcon');
+            const globalIcon = document.getElementById('globalRefreshIcon');
+
+
+            selectedUids = [];
+            listEl.innerHTML = '';
+            loadingEl.classList.remove('hidden');
+            emptyEl.classList.add('hidden');
+            if (refreshIcon) refreshIcon.classList.add('animate-spin-fast');
+            if (globalIcon) globalIcon.classList.add('animate-spin-fast');
+
+
+            try {
+                // Use currentFolder for API call
+                const res = await fetch(`/api/mail/inbox?folder=${encodeURIComponent(currentFolder)}`, { headers: apiHeaders() });
+                if (res.status === 401 || res.status === 403) { logout(); return; }
+                const data = await res.json();
+                loadingEl.classList.add('hidden');
+
+                if (res.status === 500 || !data.messages) {
+                    // IMAP failed – show info
+                    listEl.innerHTML = `<tr><td colspan="4" class="text-center py-12">
+                <span class="material-symbols-outlined text-4xl text-slate-200 block mb-2">wifi_off</span>
+                <p class="text-sm text-slate-400">메일 서버에 연결할 수 없습니다</p>
+                <p class="text-xs text-slate-300 mt-1">${data.details || data.error || ''}</p>
+            </td></tr>`;
+                    return;
+                }
+
+                currentMsgs = data.messages;
+                const unread = currentMsgs.filter(m => !m.seen).length;
+                const badge = document.getElementById('unreadBadge');
+                if (unread > 0) { badge.textContent = unread; badge.classList.remove('hidden'); }
+                else badge.classList.add('hidden');
+                document.getElementById('mailCountLabel').textContent = `${currentMsgs.length}개 메일`;
+
+                if (currentMsgs.length === 0) {
+                    emptyEl.classList.remove('hidden');
+                    emptyEl.classList.add('flex');
+                    return;
+                }
+
+                renderMailList(currentMsgs);
+            } catch (err) {
+                loadingEl.classList.add('hidden');
+                listEl.innerHTML = `<tr><td class="text-center py-10 text-sm text-red-400">${err.message}</td></tr>`;
+            } finally {
+                setTimeout(() => {
+                    if (refreshIcon) refreshIcon.classList.remove('animate-spin-fast');
+                    if (globalIcon) globalIcon.classList.remove('animate-spin-fast');
+                }, 500);
+
+            }
+        }
+
+        function getInitials(from) {
+            if (!from) return '?';
+            const name = from.name || from.address || '';
+            const parts = name.trim().split(/\s+/);
+            if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
+            return name.substring(0, 2).toUpperCase() || '?';
+        }
+
+        const AVATAR_COLORS = ['bg-primary/10 text-primary', 'bg-emerald-100 text-emerald-700',
+            'bg-amber-100 text-amber-700', 'bg-red-100 text-red-600', 'bg-indigo-100 text-indigo-700',
+            'bg-pink-100 text-pink-700'];
+        function avatarColor(str) { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) % AVATAR_COLORS.length; return AVATAR_COLORS[h]; }
+
+        function formatDate(d) {
+            if (!d) return '';
+            const dt = new Date(d);
+            const now = new Date();
+            if (dt.toDateString() === now.toDateString()) return dt.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' });
+            if (dt.getFullYear() === now.getFullYear()) return `${dt.getMonth() + 1}/${dt.getDate()}`;
+            return `${dt.getFullYear()}.${dt.getMonth() + 1}.${dt.getDate()}`;
+        }
+
+        function renderMailList(msgs) {
+            const listEl = document.getElementById('mailList');
+            listEl.innerHTML = '';
+            msgs.forEach(msg => {
+                const isSentFolder = currentFolder.toLowerCase().includes('sent') || currentFolder === '보낸편지함';
+                const mainPerson = isSentFolder ? (msg.to && msg.to.length > 0 ? msg.to[0] : { address: '나' }) : (msg.from || {});
+                let displayPerson = mainPerson.name || mainPerson.address || '(알 수 없음)';
+                if (isSentFolder && msg.to && msg.to.length > 1) displayPerson += ` 외 ${msg.to.length - 1}명`;
+
+                const initials = getInitials(mainPerson);
+                const color = avatarColor(displayPerson);
+                const isSelected = selectedUids.includes(msg.uid);
+
+                const tr = document.createElement('tr');
+                tr.className = `mail-row ${msg.seen ? 'mail-row-read' : 'mail-row-unread'} ${isSelected ? 'selected-bg' : ''} transition-colors`;
+                tr.dataset.uid = msg.uid;
+                tr.innerHTML = `
+            <td class="px-4 py-4 border-b border-slate-50 w-24">
+                <div class="flex items-center gap-3">
+                    <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 text-primary focus:ring-primary/20 transition-all cursor-pointer" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
+                    <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
+                        <span class="material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300'}">star</span>
+                    </button>
+                </div>
+            </td>
+            <td class="px-2 py-4 border-b border-slate-50 w-48">
+                <div class="flex items-center gap-3">
+                    <div class="flex size-9 flex-shrink-0 items-center justify-center rounded-xl text-[11px] font-bold shadow-sm ${color}">${initials}</div>
+                    <div class="flex flex-col min-w-0">
+                        <span class="text-sm truncate max-w-[140px] ${msg.seen ? 'font-medium text-slate-500' : 'font-bold text-slate-900'}">${displayPerson}</span>
+                    </div>
+                </div>
+            </td>
+            <td class="px-3 py-4 border-b border-slate-50 w-full" style="max-width:0">
+                <div class="flex items-center gap-2 min-w-0 w-full">
+                    ${!msg.seen ? '<div class="size-2 rounded-full bg-primary flex-shrink-0 animate-pulse"></div>' : ''}
+                    <span class="mail-subject text-[13.5px] truncate min-w-0 flex-1 ${msg.seen ? 'text-slate-600' : 'font-bold text-slate-900'}">${escHtml(msg.subject)}</span>
+                    ${msg.hasAttachment ? '<span class="material-symbols-outlined text-slate-300 text-[18px] flex-shrink-0">attach_file</span>' : ''}
+                </div>
+            </td>
+            <td class="px-6 py-4 border-b border-slate-50 text-right">
+                <span class="text-[11px] font-bold ${msg.seen ? 'text-slate-400' : 'text-primary'} whitespace-nowrap">${formatDate(msg.date)}</span>
+            </td>
+        `;
+                tr.addEventListener('click', () => openMsg(msg.uid));
+                listEl.appendChild(tr);
+            });
+            updateSelectAllState();
+        }
+
+        function toggleSelect(uid, el) {
+            if (el.checked) {
+                if (!selectedUids.includes(uid)) selectedUids.push(uid);
+            } else {
+                selectedUids = selectedUids.filter(id => id !== uid);
+            }
+            renderMailList(currentMsgs);
+        }
+
+        function updateSelectAllState() {
+            const selectAll = document.getElementById('selectAll');
+            if (currentMsgs.length > 0 && selectedUids.length === currentMsgs.length) {
+                selectAll.checked = true;
+                selectAll.indeterminate = false;
+            } else if (selectedUids.length > 0) {
+                selectAll.checked = false;
+                selectAll.indeterminate = true;
+            } else {
+                selectAll.checked = false;
+                selectAll.indeterminate = false;
+            }
+            document.getElementById('mailCountLabel').textContent = selectedUids.length > 0 ? `${selectedUids.length}개 선택됨` : `${currentMsgs.length}개 메일`;
+        }
+
+        document.getElementById('selectAll').onclick = (e) => {
+            if (e.target.checked) {
+                selectedUids = currentMsgs.map(m => m.uid);
+            } else {
+                selectedUids = [];
+            }
+            renderMailList(currentMsgs);
+        };
+
+        function filterMails(query) {
+            if (!query.trim()) { renderMailList(currentMsgs); return; }
+            const q = query.toLowerCase();
+            const filtered = currentMsgs.filter(m =>
+                (m.subject || '').toLowerCase().includes(q) ||
+                (m.from?.name || '').toLowerCase().includes(q) ||
+                (m.from?.address || '').toLowerCase().includes(q)
+            );
+            renderMailList(filtered);
+        }
+
+        // ===== OPEN MESSAGE =====
+        async function openMsg(uid) {
+            currentUid = uid;
+            // Highlight selected row
+            document.querySelectorAll('.mail-row').forEach(r => r.classList.remove('selected'));
+            const row = document.querySelector(`.mail-row[data-uid="${uid}"]`);
+            if (row) { row.classList.add('selected'); row.classList.add('mail-row-read'); row.classList.remove('mail-row-unread'); }
+
+            document.getElementById('msgEmpty').classList.add('hidden');
+            document.getElementById('msgContent').classList.remove('hidden');
+            document.getElementById('msgContent').classList.add('flex');
+            document.getElementById('msgHtml').innerHTML = '<div class="flex justify-center py-8"><span class="material-symbols-outlined text-3xl text-primary animate-spin-fast">progress_activity</span></div>';
+
+            try {
+                const res = await fetch(`/api/mail/message/${uid}?folder=${encodeURIComponent(currentFolder)}`, { headers: apiHeaders() });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error);
+                const msg = data.message;
+                currentOpenedMsg = msg;
+                const from = msg.from || {};
+                const senderName = from.name || from.address || '알 수 없음';
+                const initials = getInitials(from);
+                const color = avatarColor(senderName);
+
+                document.getElementById('msgSubjectHeader').textContent = msg.subject;
+                document.getElementById('msgSubject').textContent = msg.subject;
+                document.getElementById('msgAvatar').textContent = initials;
+                document.getElementById('msgAvatar').className = `flex size-10 flex-shrink-0 items-center justify-center rounded-full text-sm font-bold ${color}`;
+                document.getElementById('msgFrom').textContent = senderName + (from.address ? ` <${from.address}>` : '');
+                const toList = (msg.to || []).map(t => (t.name ? `${t.name} <${t.address}>` : t.address)).join(', ');
+                const ccList = (msg.cc || []).map(t => (t.name ? `${t.name} <${t.address}>` : t.address)).join(', ');
+
+                document.getElementById('msgTo').textContent = `받는 사람: ${toList || '나'}`;
+                if (ccList) {
+                    const toEl = document.getElementById('msgTo');
+                    toEl.innerHTML += `<br><span class="text-slate-400">참조: ${ccList}</span>`;
+                }
+                document.getElementById('msgDate').textContent = msg.date ? new Date(msg.date).toLocaleString('ko-KR') : '';
+
+                if (msg.html) {
+                    const shadow = document.getElementById('msgHtml');
+                    shadow.innerHTML = '<iframe id="msgIframe" class="w-full border-none" style="min-height:500px; transition: height 0.1s ease-out;" scrolling="no"></iframe>';
+                    const iframe = document.getElementById('msgIframe');
+
+                    const adjustHeight = () => {
+                        try {
+                            const doc = iframe.contentDocument || iframe.contentWindow.document;
+                            if (!doc || !doc.body) return;
+                            const newHeight = Math.max(
+                                doc.body.scrollHeight,
+                                doc.documentElement.scrollHeight
+                            );
+                            if (newHeight > 20) {
+                                iframe.style.height = newHeight + 'px';
+                            }
+                        } catch (e) { }
+                    };
+
+                    iframe.srcdoc = msg.html;
+
+                    // Immediately start resizing during the initial document parsing phase
+                    const resizeInterval = setInterval(adjustHeight, 150);
+
+                    iframe.onload = () => {
+                        clearInterval(resizeInterval);
+                        adjustHeight();
+                        try {
+                            const doc = iframe.contentDocument || iframe.contentWindow.document;
+                            // Pre-inject overflow hidden to remove nested scrollbars
+                            const style = doc.createElement('style');
+                            style.innerHTML = 'html, body { overflow-y: hidden !important; margin: 0; padding: 0; }';
+                            doc.head.appendChild(style);
+
+                            const ro = new ResizeObserver(adjustHeight);
+                            ro.observe(doc.body);
+                            // Also listen to specific image loads
+                            const imgs = doc.querySelectorAll('img');
+                            imgs.forEach(img => img.addEventListener('load', adjustHeight));
+                        } catch (e) { }
+                    };
+                } else {
+                    document.getElementById('msgHtml').innerHTML = `<pre class="whitespace-pre-wrap text-sm text-slate-700">${escHtml(msg.text || '')}</pre>`;
+                }
+                // Render attachments
+                renderMsgAttachments(msg.attachments || [], uid);
+            } catch (e) {
+                document.getElementById('msgHtml').innerHTML = `<p class="text-red-400 text-sm">${e.message}</p>`;
+            }
+        }
+
+        function closeMsg() {
+            currentUid = null;
+            document.getElementById('msgContent').classList.add('hidden');
+            document.getElementById('msgEmpty').classList.remove('hidden');
+            document.querySelectorAll('.mail-row').forEach(r => r.classList.remove('selected'));
+        }
+
+        async function deleteSelected() {
+            const targets = selectedUids.length > 0 ? selectedUids : (currentUid ? [currentUid] : []);
+            if (targets.length === 0) return;
+
+            const isTrash = currentFolder === 'Trash' || currentFolder === 'INBOX.Trash' || currentFolder === '휴지통';
+            const confirmMsg = isTrash
+                ? `${targets.length}개의 메일을 영구 삭제하시겠습니까? (복구 불가)`
+                : `${targets.length}개의 메일을 휴지통으로 이동하시겠습니까?`;
+
+            if (!confirm(confirmMsg)) return;
+
+            try {
+                const uidQuery = targets.join(',');
+                const res = await fetch(`/api/mail/message/${uidQuery}?folder=${encodeURIComponent(currentFolder)}`, { method: 'DELETE', headers: apiHeaders() });
+                if (!res.ok) {
+                    const text = await res.text();
+                    try {
+                        const d = JSON.parse(text);
+                        throw new Error(d.error || d.details || '삭제 실패');
+                    } catch (e) {
+                        throw new Error(`서버 오류 (${res.status}): ${text.substring(0, 50)}...`);
+                    }
+                }
+
+                selectedUids = [];
+                if (targets.includes(currentUid)) closeMsg();
+                loadInbox();
+            } catch (e) {
+                alert('삭제 실패: ' + e.message);
+            }
+        }
+
+        async function emptyTrash() {
+            if (!confirm('휴지통을 완전히 비우시겠습니까? 모든 메일이 영구 삭제됩니다.')) return;
+            try {
+                const res = await fetch(`/api/mail/empty-folder?folder=${encodeURIComponent(currentFolder)}`, {
+                    method: 'POST',
+                    headers: apiHeaders()
+                });
+                if (!res.ok) throw new Error('비우기 실패');
+                selectedUids = [];
+                closeMsg();
+                loadInbox();
+                alert('휴지통을 비웠습니다.');
+            } catch (e) {
+                alert('오류: ' + e.message);
+            }
+        }
+
+        async function moveSelected(targetFolder) {
+            const targets = selectedUids.length > 0 ? selectedUids : (currentUid ? [currentUid] : []);
+            if (targets.length === 0) return;
+
+            try {
+                const res = await fetch('/api/mail/bulk-move', {
+                    method: 'POST',
+                    headers: apiHeaders(),
+                    body: JSON.stringify({
+                        uids: targets,
+                        targetFolder,
+                        sourceFolder: currentFolder
+                    })
+                });
+                if (!res.ok) {
+                    const text = await res.text();
+                    try {
+                        const d = JSON.parse(text);
+                        throw new Error(d.error || d.details || '이동 실패');
+                    } catch (e) {
+                        throw new Error(`서버 오류 (${res.status}): ${text.substring(0, 50)}...`);
+                    }
+                }
+                const data = await res.json();
+
+                selectedUids = [];
+                if (targets.includes(currentUid)) closeMsg();
+                loadInbox();
+            } catch (e) {
+                alert('이동 실패: ' + e.message);
+            }
+        }
+
+        function archiveSelected() { moveSelected('Archive'); }
+        function toggleStar(uid, el) { el.classList.toggle('text-amber-400'); el.classList.toggle('text-slate-200'); }
+
+        function replyMsg() {
+            if (!currentOpenedMsg) return;
+            openCompose();
+            document.getElementById('composeTo').value = currentOpenedMsg.from?.address || '';
+            document.getElementById('composeSubject').value = 'Re: ' + (currentOpenedMsg.subject || '');
+
+            const quoteDate = currentOpenedMsg.date ? new Date(currentOpenedMsg.date).toLocaleString('ko-KR') : '';
+            const quoteContent = currentOpenedMsg.html || `<pre>${escHtml(currentOpenedMsg.text || '')}</pre>`;
+            const quoteHtml = `<br><br><div class="gmail_quote" style="border-left: 2px solid #e2e8f0; padding-left: 12px; margin-left: 4px; color: #64748b;">` +
+                `<div style="margin-bottom: 8px; font-size: 13px;"><b>보낸 사람:</b> ${escHtml(currentOpenedMsg.from?.name || '')} &lt;${currentOpenedMsg.from?.address || ''}&gt;<br>` +
+                `<b>날짜:</b> ${quoteDate}<br>` +
+                `<b>제목:</b> ${escHtml(currentOpenedMsg.subject || '')}</div>` +
+                `<div>${quoteContent}</div></div>`;
+
+            if (quill) {
+                quill.clipboard.dangerouslyPasteHTML(0, quoteHtml);
+                quill.setSelection(0, 0);
+            }
+        }
+
+        function forwardMsg() {
+            if (!currentOpenedMsg) return;
+            openCompose();
+            document.getElementById('composeSubject').value = 'Fwd: ' + (currentOpenedMsg.subject || '');
+
+            const quoteDate = currentOpenedMsg.date ? new Date(currentOpenedMsg.date).toLocaleString('ko-KR') : '';
+            const quoteContent = currentOpenedMsg.html || `<pre>${escHtml(currentOpenedMsg.text || '')}</pre>`;
+            const quoteHtml = `<br><br><div class="gmail_quote" style="border-left: 2px solid #e2e8f0; padding-left: 12px; margin-left: 4px; color: #64748b;">` +
+                `<div style="margin-bottom: 8px; font-size: 13px;">---------- 전달된 메시지 ----------<br>` +
+                `<b>보낸 사람:</b> ${escHtml(currentOpenedMsg.from?.name || '')} &lt;${currentOpenedMsg.from?.address || ''}&gt;<br>` +
+                `<b>날짜:</b> ${quoteDate}<br>` +
+                `<b>제목:</b> ${escHtml(currentOpenedMsg.subject || '')}</div>` +
+                `<div>${quoteContent}</div></div>`;
+
+            if (quill) {
+                quill.clipboard.dangerouslyPasteHTML(0, quoteHtml);
+                quill.setSelection(0, 0);
+            }
+        }
+
+        // ===== COMPOSE =====
+        let quill = null;
+        function initQuill() {
+            if (quill) return;
+            const toolbarOptions = [
+                ['bold', 'italic', 'underline', 'strike'],
+                ['blockquote', 'code-block'],
+                [{ 'header': 1 }, { 'header': 2 }],
+                [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'list': 'check' }],
+                [{ 'indent': '-1' }, { 'indent': '+1' }],
+                [{ 'size': ['small', false, 'large', 'huge'] }],
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                [{ 'color': [] }, { 'background': [] }],
+                [{ 'align': [] }],
+                ['link', 'image'],
+                ['clean']
+            ];
+            quill = new Quill('#editor', {
+                modules: { toolbar: toolbarOptions },
+                theme: 'snow',
+                placeholder: '이곳에 내용을 입력하세요...'
+            });
+        }
+
+        function openCompose() {
+            document.getElementById('composeModal').classList.remove('hidden');
+            initQuill();
+        }
+        function closeCompose() {
+            document.getElementById('composeModal').classList.add('hidden');
+            document.getElementById('composeForm').reset();
+            if (quill) quill.setText('');
+            document.getElementById('composeCcWrapper').classList.add('hidden');
+            document.getElementById('composeBccWrapper').classList.add('hidden');
+        }
+
+        function toggleComposeField(type) {
+            const el = document.getElementById(`compose${type.charAt(0).toUpperCase() + type.slice(1)}Wrapper`);
+            el.classList.toggle('hidden');
+            if (!el.classList.contains('hidden')) {
+                el.querySelector('input').focus();
+            }
+        }
+
+
+
+        function escHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        // ===== POP3 SETTINGS =====
+        async function loadPop3Accounts() {
+            const el = document.getElementById('pop3AccountsList');
+            const icon = document.getElementById('pop3RefreshIcon');
+            if (icon) icon.classList.add('animate-spin-fast');
+            try {
+                const res = await fetch('/api/pop3-settings', { headers: apiHeaders() });
+                const data = await res.json();
+                if (!res.ok || !data.accounts) throw new Error(data.error || '불러오기 실패');
+                if (data.accounts.length === 0) {
+                    el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">연동된 외부 계정이 없습니다</div>';
+                    return;
+                }
+                let hasActiveFetching = false;
+                el.innerHTML = data.accounts.map(a => {
+                    let statusColor = 'bg-slate-100 text-slate-400';
+                    let statusLabel = '대기 중';
+                    let progressHtml = '';
+
+                    const prog = a.progress || { status: 'idle' };
+                    if (prog.status === 'fetching') {
+                        hasActiveFetching = true;
+                        statusColor = 'bg-blue-100 text-blue-700';
+                        statusLabel = '수집 중...';
+                        const percent = prog.total > 0 ? Math.round((prog.current / prog.total) * 100) : 0;
+                        progressHtml = `
+                            <div class="mt-3 w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                                <div class="bg-blue-500 h-full transition-all duration-500" style="width: ${percent}%"></div>
+                            </div>
+                            <p class="mt-1 text-[10px] font-bold text-blue-500 uppercase tracking-tight">${percent}% 수집 완료 (${prog.current}/${prog.total})</p>
+                        `;
+                    } else if (a.status === 'SUCCESS') {
+                        statusColor = 'bg-emerald-100 text-emerald-700'; statusLabel = '정상';
+                    } else if (a.status === 'FAILED') {
+                        statusColor = 'bg-red-100 text-red-700'; statusLabel = '오류';
+                    }
+
+                    const lastFetched = a.last_fetched ? new Date(a.last_fetched).toLocaleString('ko-KR') : '내역 없음';
+                    const errorMsg = a.error && prog.status !== 'fetching' ? `<p class="mt-1 text-[11px] font-medium text-red-500 bg-red-50 p-2 rounded-lg border border-red-100">오류 내용: ${escHtml(a.error)}</p>` : '';
+
+                    return `
+                    <div class="flex flex-col px-6 py-5 border-b border-slate-100 last:border-0 group">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-4">
+                                <div class="flex size-10 items-center justify-center rounded-2xl ${prog.status === 'fetching' ? 'bg-blue-50 text-blue-500' : (a.status === 'FAILED' ? 'bg-red-50 text-red-400' : 'bg-emerald-50 text-emerald-500')}">
+                                    <span class="material-symbols-outlined text-xl font-bold ${prog.status === 'fetching' ? 'animate-spin' : ''}">${prog.status === 'fetching' ? 'sync' : (a.status === 'FAILED' ? 'error' : 'verified')}</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">${escHtml(a.host)}</p>
+                                    <div class="flex items-center gap-2 mt-0.5">
+                                        <p class="text-[11px] font-medium text-slate-400">${escHtml(a.email)}</p>
+                                        <span class="inline-block size-1 bg-slate-300 rounded-full"></span>
+                                        <p class="text-[11px] font-medium text-slate-400">마지막 수집: ${lastFetched}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="text-[10px] font-bold px-2 py-1 rounded-lg ${statusColor}">${statusLabel}</span>
+                                <div class="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 rounded-lg transition-all" title="지금 수집/테스트">
+                                        <span class="material-symbols-outlined text-lg">sync</span>
+                                    </button>
+                                    <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all" title="연동 해제">
+                                        <span class="material-symbols-outlined text-lg">delete</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        ${progressHtml}
+                        ${errorMsg}
+                    </div>`;
+                }).join('');
+
+                // Auto-refresh if fetching
+                if (hasActiveFetching) {
+                    if (window._pop3Poll) clearTimeout(window._pop3Poll);
+                    window._pop3Poll = setTimeout(loadPop3Accounts, 2000);
+                }
+            } catch (e) {
+                el.innerHTML = `<div class="py-8 text-center text-sm text-red-400">${e.message}</div>`;
+            } finally {
+                if (icon) setTimeout(() => icon.classList.remove('animate-spin-fast'), 500);
+            }
+        }
+
+        async function testPop3Connection(id) {
+            // No confirm, run immediately
+            try {
+                // Instantly set local state to fetching to show UI feedback immediately
+                const res = await fetch(`/api/pop3-test/${id}`, { method: 'POST', headers: apiHeaders() });
+                if (!res.ok) {
+                    const text = await res.text();
+                    try {
+                        const errData = JSON.parse(text);
+                        throw new Error(errData.error || '테스트 중 실패');
+                    } catch (jsonErr) {
+                        throw new Error(`서버 오류 (${res.status}): ${text.substring(0, 100)}...`);
+                    }
+                }
+                // Don't alert(), just refresh list to start polling
+                loadPop3Accounts();
+            } catch (e) {
+                console.error('[POP3 Test]', e);
+                // Only alert on hard errors
+                alert('연동 오류: ' + e.message);
+                loadPop3Accounts();
+            }
+        }
+
+        async function deletePop3Account(id) {
+            if (!confirm('이 계정의 연동을 해제하시겠습니까? 이미 가져온 메일은 유지됩니다.')) return;
+            try {
+                const res = await fetch(`/api/pop3-settings/${id}`, { method: 'DELETE', headers: apiHeaders() });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '삭제 실패');
+                alert(data.message);
+                loadPop3Accounts();
+            } catch (e) {
+                alert('오류: ' + e.message);
+            }
+        }
+
+        document.getElementById('pop3Form').addEventListener('submit', async e => {
+            e.preventDefault();
+            const btn = document.getElementById('pop3SubmitBtn');
+            const msg = document.getElementById('pop3StatusMsg');
+            const payload = {
+                host: document.getElementById('popHost').value,
+                port: parseInt(document.getElementById('popPort').value),
+                tls: document.getElementById('popTls').checked,
+                user: document.getElementById('popUser').value,
+                pass: document.getElementById('popPass').value,
+            };
+            btn.disabled = true;
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast">progress_activity</span><span>저장 중...</span>';
+            msg.classList.add('hidden');
+            try {
+                const res = await fetch('/api/pop3-settings', {
+                    method: 'POST', headers: apiHeaders(),
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '저장 실패');
+                msg.textContent = '✓ 설정이 저장되었습니다';
+                msg.className = 'text-sm font-medium text-emerald-600';
+                msg.classList.remove('hidden');
+                document.getElementById('pop3Form').reset();
+                document.getElementById('popPort').value = '995';
+                // tls setting removed as per user request
+                loadPop3Accounts();
+            } catch (e) {
+                msg.textContent = '✕ ' + e.message;
+                msg.className = 'text-sm font-medium text-red-500';
+                msg.classList.remove('hidden');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<span>설정 저장</span><span class="material-symbols-outlined text-lg">arrow_forward</span>';
+            }
+        });
+
+        // ===== SMTP SETTINGS LOGIC =====
+        async function loadSmtpSettings() {
+            try {
+                const res = await fetch('/api/smtp-settings', { headers: apiHeaders() });
+                const data = await res.json();
+                if (data.settings) {
+                    document.getElementById('smtpHost').value = data.settings.host || 'mail.agilesys.co.kr';
+                    document.getElementById('smtpPort').value = data.settings.port || 587;
+                    document.getElementById('smtpSecure').checked = data.settings.secure || false;
+                    document.getElementById('smtpUser').value = data.settings.user || '';
+                    document.getElementById('smtpPass').value = data.settings.pass || '';
+                }
+            } catch (e) { console.error('Failed to load SMTP settings', e); }
+        }
+
+        async function testSmtpConnection() {
+            const btn = document.getElementById('smtpTestBtn');
+            const msg = document.getElementById('smtpStatusMsg');
+            let user = document.getElementById('smtpUser').value;
+
+            // Auto-append domain if missing
+            if (user && !user.includes('@')) {
+                user += '@agilesys.co.kr';
+                document.getElementById('smtpUser').value = user;
+            }
+
+            const payload = {
+                host: document.getElementById('smtpHost').value,
+                port: parseInt(document.getElementById('smtpPort').value),
+                secure: document.getElementById('smtpSecure').checked,
+                user: user,
+                pass: document.getElementById('smtpPass').value
+            };
+            btn.disabled = true;
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast">progress_activity</span><span>테스트 중...</span>';
+            msg.classList.add('hidden');
+            try {
+                const res = await fetch('/api/smtp-test', {
+                    method: 'POST', headers: apiHeaders(),
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '연결 실패');
+                msg.textContent = '✓ ' + data.message;
+                msg.className = 'text-sm font-medium text-emerald-600';
+                msg.classList.remove('hidden');
+            } catch (e) {
+                msg.textContent = '✕ ' + e.message;
+                msg.className = 'text-sm font-medium text-red-500';
+                msg.classList.remove('hidden');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<span>연결 테스트</span><span class="material-symbols-outlined text-lg">router</span>';
+            }
+        }
+
+        document.getElementById('smtpForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('smtpSubmitBtn');
+            const msg = document.getElementById('smtpStatusMsg');
+            let user = document.getElementById('smtpUser').value;
+
+            // Auto-append domain if missing
+            if (user && !user.includes('@')) {
+                user += '@agilesys.co.kr';
+                document.getElementById('smtpUser').value = user;
+            }
+
+            const payload = {
+                host: document.getElementById('smtpHost').value,
+                port: parseInt(document.getElementById('smtpPort').value),
+                secure: document.getElementById('smtpSecure').checked,
+                user: user,
+                pass: document.getElementById('smtpPass').value
+            };
+            btn.disabled = true;
+            msg.classList.add('hidden');
+            try {
+                const res = await fetch('/api/smtp-settings', {
+                    method: 'POST', headers: apiHeaders(),
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '저장 실패');
+                msg.textContent = '✓ 저장되었습니다';
+                msg.className = 'text-sm font-medium text-emerald-600';
+                msg.classList.remove('hidden');
+            } catch (e) {
+                msg.textContent = '✕ ' + e.message;
+                msg.className = 'text-sm font-medium text-red-500';
+                msg.classList.remove('hidden');
+            } finally {
+                btn.disabled = false;
+            }
+        });
+
+        // ===== ATTACHMENT HELPERS =====
+        function formatBytes(bytes) {
+            if (!bytes) return '';
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+        }
+
+        function mimeIcon(mimeType) {
+            if (!mimeType) return 'draft';
+            if (mimeType.startsWith('image/')) return 'image';
+            if (mimeType.includes('pdf')) return 'picture_as_pdf';
+            if (mimeType.includes('word') || mimeType.includes('document')) return 'description';
+            if (mimeType.includes('sheet') || mimeType.includes('excel')) return 'table_chart';
+            if (mimeType.includes('zip') || mimeType.includes('compressed')) return 'folder_zip';
+            if (mimeType.startsWith('video/')) return 'videocam';
+            if (mimeType.startsWith('audio/')) return 'audio_file';
+            return 'draft';
+        }
+
+        function renderMsgAttachments(attachments, uid) {
+            const panel = document.getElementById('msgAttachments');
+            const list = document.getElementById('msgAttachList');
+            if (!attachments || attachments.length === 0) {
+                panel.classList.add('hidden');
+                return;
+            }
+            panel.classList.remove('hidden');
+            // data-* 속성에 안전하게 값 저장 (JSON.stringify를 onclick 속성에 쓰면
+            // 파일명에 따옴표/특수문자가 있을 때 HTML이 깨짐)
+            list.innerHTML = attachments.map(a => `
+                <button type="button"
+                    data-part-id="${escHtml(String(a.partId))}"
+                    data-filename="${escHtml(a.filename)}"
+                    data-uid="${escHtml(String(uid))}"
+                    data-folder="${escHtml(currentFolder)}"
+                    class="att-dl-btn flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 hover:bg-primary/5 hover:border-primary/30 transition-all group w-full text-left cursor-pointer">
+                    <span class="material-symbols-outlined text-slate-400 group-hover:text-primary text-xl">${mimeIcon(a.mimeType)}</span>
+                    <div class="min-w-0">
+                        <p class="text-xs font-semibold text-slate-700 truncate max-w-[180px]">${escHtml(a.filename)}</p>
+                        <p class="text-xs text-slate-400">${formatBytes(a.size)}</p>
+                    </div>
+                    <span class="material-symbols-outlined text-slate-300 group-hover:text-primary text-base ml-1">download</span>
+                </button>`
+            ).join('');
+        }
+
+        // 이벤트 위임: 첨부파일 목록 클릭 → data-* 속성으로 다운로드
+        document.addEventListener('click', async function (e) {
+            const btn = e.target.closest('.att-dl-btn');
+            if (!btn) return;
+            e.preventDefault();
+            const partId = btn.dataset.partId;
+            const filename = btn.dataset.filename;
+            const uid = btn.dataset.uid;
+            const folder = btn.dataset.folder;
+            await downloadAttachment(partId, filename, uid, folder);
+        });
+
+        async function downloadAttachment(partId, filename, uid, folder) {
+            try {
+                const token = localStorage.getItem('asys_jwt') || '';
+                const mailPass = localStorage.getItem('asys_mp') || '';
+                const url = `/api/mail/message/${encodeURIComponent(uid)}/attachment/${encodeURIComponent(partId)}?filename=${encodeURIComponent(filename)}&folder=${encodeURIComponent(folder)}`;
+
+                console.log('[Download] Requesting:', url);
+                const res = await fetch(url, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'x-mail-password': mailPass,
+                    }
+                });
+
+                if (!res.ok) {
+                    const text = await res.text();
+                    console.error('[Download] Error response:', res.status, text);
+                    alert(`다운로드 실패 (${res.status}): ${text}`);
+                    return;
+                }
+
+                const blob = await res.blob();
+                const blobUrl = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = blobUrl;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(() => URL.revokeObjectURL(blobUrl), 5000);
+                console.log('[Download] Done:', filename);
+            } catch (e) {
+                console.error('[Download] Exception:', e);
+                alert('다운로드 중 오류가 발생했습니다: ' + e.message);
+            }
+        }
+
+        // Compose: file picker → chips
+        document.getElementById('composeFileInput').addEventListener('change', function () {
+            const listEl = document.getElementById('composeAttachList');
+            const files = [...this.files];
+            if (files.length === 0) { listEl.classList.add('hidden'); return; }
+            listEl.classList.remove('hidden');
+            listEl.innerHTML = files.map((f, i) => `
+                <div class="flex items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-2 py-1 text-xs">
+                    <span class="material-symbols-outlined text-slate-400 text-base">${mimeIcon(f.type)}</span>
+                    <span class="font-medium text-slate-700 max-w-[140px] truncate">${escHtml(f.name)}</span>
+                    <span class="text-slate-400">(${formatBytes(f.size)})</span>
+                </div>`).join('');
+        });
+
+        // Compose: submit as FormData (multipart for file attachments)
+        // Ensure we only have one listener
+        const composeForm = document.getElementById('composeForm');
+        if (composeForm._hasListener) {
+            // Already initialized
+        } else {
+            composeForm._hasListener = true;
+            composeForm.addEventListener('submit', async e => {
+                e.preventDefault();
+                const btn = e.target.querySelector('button[type="submit"]');
+                btn.disabled = true;
+                btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast text-base">progress_activity</span> <span>발송 중...</span>';
+
+                const fd = new FormData();
+                fd.append('to', document.getElementById('composeTo').value);
+                fd.append('cc', document.getElementById('composeCc').value);
+                fd.append('bcc', document.getElementById('composeBcc').value);
+                fd.append('subject', document.getElementById('composeSubject').value);
+                fd.append('html', quill.root.innerHTML);
+                fd.append('body', quill.getText());
+                const fileInput = document.getElementById('composeFileInput');
+                for (const f of fileInput.files) fd.append('attachments', f);
+
+                const headers = { 'Authorization': 'Bearer ' + authToken };
+                if (mailPass) headers['x-mail-password'] = mailPass;
+
+                try {
+                    const res = await fetch('/api/mail/send', { method: 'POST', headers, body: fd });
+                    const data = await res.json();
+                    if (res.ok) {
+                        closeCompose();
+                        const cnt = data.attachmentCount > 0 ? ` (첨부 ${data.attachmentCount}개)` : '';
+                        alert('메일을 발송했습니다!' + cnt);
+                        // Reset file list UI
+                        const listEl = document.getElementById('composeAttachList');
+                        listEl.innerHTML = '';
+                        listEl.classList.add('hidden');
+                    } else {
+                        alert('발송 실패: ' + (data.error || ''));
+                    }
+                } catch (err) {
+                    alert('서버 오류: ' + err.message);
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = '보내기';
+                }
+            });
+        }
+
+        // Boot
+        window.addEventListener('DOMContentLoaded', () => {
+            // Initialize
+            if (authToken) {
+                initApp();
+                loadPop3Accounts();
+                loadSmtpSettings();
+            }
+
+            // ===== RESIZER LOGIC =====
+            const mailView = document.getElementById('mailView');
+            const leftPane = document.getElementById('leftPane');
+            const resizer = document.getElementById('resizer');
+
+            let isResizing = false;
+
+            resizer.addEventListener('mousedown', (e) => {
+                isResizing = true;
+                document.body.style.cursor = 'col-resize';
+                resizer.classList.add('dragging');
+                document.addEventListener('mousemove', handleMouseMove);
+                document.addEventListener('mouseup', handleMouseUp);
+            });
+
+            function handleMouseMove(e) {
+                if (!isResizing) return;
+                const containerRect = mailView.getBoundingClientRect();
+                const newWidth = e.clientX - containerRect.left;
+
+                // Boundary constraints
+                if (newWidth > 300 && newWidth < containerRect.width * 0.8) {
+                    leftPane.style.width = newWidth + 'px';
+                }
+            }
+
+            function handleMouseUp() {
+                isResizing = false;
+                document.body.style.cursor = 'default';
+                resizer.classList.remove('dragging');
+                document.removeEventListener('mousemove', handleMouseMove);
+                document.removeEventListener('mouseup', handleMouseUp);
+            }
+        });
+    </script>
+</body>
+
+</html>

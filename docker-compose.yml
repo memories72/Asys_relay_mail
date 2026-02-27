@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  mailserver:
+    image: mailserver/docker-mailserver:latest
+    container_name: node_mail_engine
+    hostname: home.digistory.co.kr
+    networks:
+      default:
+        aliases:
+          - mail.agilesys.co.kr
+          - home.digistory.co.kr
+    ports:
+      - "25:25"
+      - "143:143"
+      - "587:587"
+      - "993:993"
+      - "110:110" # POP3
+      - "995:995" # POP3S
+    volumes:
+      - mail_data:/var/mail
+      - mail_state:/var/mail-state
+      - mail_logs:/var/log/mail
+      - ./config:/tmp/docker-mailserver/
+    environment:
+      - ENABLE_SPAMASSASSIN=0
+      - ENABLE_CLAMAV=0
+      - ENABLE_FAIL2BAN=0
+      - ENABLE_POSTGREY=0
+      - ONE_DIR=1
+      - ENABLE_POP3=1
+      - ACCOUNT_PROVISIONER=LDAP
+      - LDAP_SERVER_HOST=ldap://nas.agilesys.co.kr:1389
+      - LDAP_SEARCH_BASE=cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
+      - LDAP_BIND_DN=uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
+      - LDAP_BIND_PW=!@34QWer
+      - LDAP_QUERY_FILTER_USER=(&(objectClass=person)(mail=%s))
+      - DOVECOT_TLS=no
+      - POSTFIX_MESSAGE_SIZE_LIMIT=52428800
+      - POSTFIX_MAILBOX_SIZE_LIMIT=0
+      - PERMIT_DOCKER=network
+    restart: always
+
+  backend:
+    build: ./backend
+    container_name: node_backend_bridge
+    ports:
+      - "3000:3000" # 웹메일 + API
+      - "3890:3890" # LDAP mock port map
+    environment:
+      - DB_HOST=nas.agilesys.co.kr
+      - DB_PORT=13306
+      - DB_USER=root
+      - DB_PASSWORD=!@#45QWErt
+      - DB_NAME=agilesys_mail
+      - LDAP_URL=ldap://nas.agilesys.co.kr:1389
+      - LDAP_BASE_DN=cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
+      - LDAP_BIND_DN=uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
+      - LDAP_BIND_PASSWORD=!@34QWer
+      - IMAP_HOST=node_mail_engine
+      - IMAP_PORT=143
+    depends_on:
+      - mailserver
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+volumes:
+  mail_data:
+  mail_state:
+  mail_logs:
+
+
