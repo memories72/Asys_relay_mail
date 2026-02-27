@@ -179,7 +179,8 @@ app.get('/api/mail/inbox', authenticateToken, async (req, res) => {
         const mailPass = getImapPass(req);
         if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
         const folder = req.query.folder || 'INBOX';
-        const messages = await fetchMailList(req.user.email, mailPass, folder);
+        const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 2000;
+        const messages = await fetchMailList(req.user.email, mailPass, folder, limit);
         res.json({ status: 'OK', messages });
     } catch (err) {
         console.error('[IMAP] inbox fetch error:', err.message);

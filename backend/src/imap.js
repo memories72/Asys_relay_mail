@@ -58,7 +58,7 @@ function parseAttachments(structure, partId = '') {
     return attachments;
 }
 
-async function fetchMailList(email, password, mailbox = 'INBOX', limit = 50) {
+async function fetchMailList(email, password, mailbox = 'INBOX', limit = 1000) {
     const client = makeClient(email, password);
     await client.connect();
     try {
@@ -66,7 +66,7 @@ async function fetchMailList(email, password, mailbox = 'INBOX', limit = 50) {
         try {
             const total = client.mailbox.exists || 0;
             if (total === 0) return [];
-            const from = Math.max(1, total - limit + 1);
+            const from = limit > 0 ? Math.max(1, total - limit + 1) : 1;
             const messages = [];
             for await (const msg of client.fetch(`${from}:*`, {
                 uid: true, flags: true, envelope: true, bodyStructure: true,

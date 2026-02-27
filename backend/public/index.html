@@ -1088,7 +1088,7 @@
 
             try {
                 // Use currentFolder for API call
-                const res = await fetch(`/api/mail/inbox?folder=${encodeURIComponent(currentFolder)}`, { headers: apiHeaders() });
+                const res = await fetch(`/api/mail/inbox?folder=${encodeURIComponent(currentFolder)}&limit=0`, { headers: apiHeaders() });
                 if (res.status === 401 || res.status === 403) { logout(); return; }
                 const data = await res.json();
                 loadingEl.classList.add('hidden');
