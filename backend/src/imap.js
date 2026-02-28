@@ -415,17 +415,22 @@ async function getStorageQuota(email, password) {
 
                 // Method 2: Fallback estimation (Iterate all folders)
                 try {
+                    console.log(`[QUOTA] Method 2: Scanning all folders for ${email}`);
                     const mailboxes = await client.list();
                     let estimatedUsage = 0;
                     for (const box of mailboxes) {
                         try {
                             // STATUS command with 'size' item (RFC 8438)
-                            const st = await client.status(box.path, { size: true });
+                            const st = await client.status(box.path, { size: true, messages: true });
+                            console.log(`[QUOTA] Folder ${box.path}: size=${st.size} messages=${st.messages}`);
                             if (st && st.size !== undefined) {
                                 estimatedUsage += st.size;
+                            } else if (st && st.messages !== undefined && st.size === undefined) {
+                                // Fallback if size is not supported: estimate 5KB per message
+                                estimatedUsage += st.messages * 5120;
                             }
                         } catch (err) {
-                            // Some folders might be restricted or not support STATUS
+                            console.warn(`[QUOTA] Failed to get status for ${box.path}: ${err.message}`);
                         }
                     }
                     usage = estimatedUsage;

@@ -83,21 +83,61 @@ const searchUsers = async (queryStr) => {
 
             const users = [];
             res.on('searchEntry', (entry) => {
-                const user = entry.object || entry.pojo || {};
-                if (!user.uid) return;
-                users.push({
-                    uid: user.uid,
-                    name: user.cn || user.uid,
-                    email: user.mail || `${user.uid}@agilesys.co.kr`
-                });
+                try {
+                    if (!entry) return;
+
+                    // Helper to convert ldapjs entry/attributes to a simple object
+                    const getFlatObject = (item) => {
+                        const obj = {};
+                        // Case 1: item is a SearchResultEntry with attributes array
+                        if (item.attributes && Array.isArray(item.attributes)) {
+                            item.attributes.forEach(attr => {
+                                if (attr.type && attr.values && attr.values.length > 0) {
+                                    obj[attr.type] = attr.values[0];
+                                }
+                            });
+                        }
+                        // Case 2: item.pojo or item.object exists
+                        const source = item.object || item.pojo;
+                        if (source && typeof source === 'object') {
+                            Object.assign(obj, source);
+                        }
+                        // Case 3: item itself has the fields
+                        ['uid', 'cn', 'mail', 'displayName'].forEach(key => {
+                            if (item[key] && !obj[key]) obj[key] = item[key];
+                        });
+                        return obj;
+                    };
+
+                    const user = getFlatObject(entry);
+
+                    if (!user.uid && !user.cn) {
+                        console.log('[LDAP] Entry missing uid/cn, skipping. Rawkeys:', Object.keys(entry));
+                        return;
+                    }
+
+                    const newUser = {
+                        uid: user.uid || user.cn,
+                        name: user.cn || user.uid,
+                        email: user.mail || (user.uid ? `${user.uid}@agilesys.co.kr` : '')
+                    };
+
+                    if (newUser.uid) {
+                        users.push(newUser);
+                        console.log(`[LDAP] Found user: ${newUser.uid} (${newUser.name}) <${newUser.email}>`);
+                    }
+                } catch (e) {
+                    console.error('[LDAP] Error parsing search entry:', e.stack);
+                }
             });
 
             res.on('error', (err) => {
-                console.error('[LDAP] Search entry error:', err.message);
+                console.error('[LDAP] Search stream error:', err.message);
                 resolve(users);
             });
 
             res.on('end', (result) => {
+                console.log(`[LDAP] Search finished. Found ${users.length} results.`);
                 resolve(users);
             });
         });

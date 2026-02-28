@@ -18,9 +18,9 @@ services:
       - "110:110" # POP3
       - "995:995" # POP3S
     volumes:
-      - /mnt/user/appdata/asys_mail/mail_data:/var/mail
-      - /mnt/user/appdata/asys_mail/mail_state:/var/mail-state
-      - /mnt/user/appdata/asys_mail/mail_logs:/var/log/mail
+      - ./mail_data:/var/mail
+      - mail_state:/var/mail-state
+      - ./mail_logs:/var/log/mail
       - ./config:/tmp/docker-mailserver/
     environment:
       - ENABLE_SPAMASSASSIN=0
@@ -67,3 +67,8 @@ services:
     volumes:
       - ./backend:/app
       - /app/node_modules
+
+volumes:
+  mail_state:
+
+

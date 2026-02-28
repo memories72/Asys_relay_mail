@@ -92,7 +92,7 @@ chmod 600 /etc/postfix/ssl/combined.pem
 # --- Postfix Relaxed Security ---
 postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
-postconf -e "smtpd_tls_security_level = may" # opportunistic TLS (better for Mac Mail)
+postconf -e "smtpd_tls_security_level = none" 
 postconf -e "smtpd_tls_auth_only = no"
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
@@ -101,12 +101,10 @@ postconf -e "smtpd_sasl_security_options = noanonymous"
 postconf -e "broken_sasl_auth_clients = yes"
 
 # Force SMTPS (465) and properly configure Submission (587)
-if grep -q "^submissions    inet" /etc/postfix/master.cf; then
-  sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
-fi
+# Port 587 also set to 'none' if needed, but let's try 'may' first
 postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
 postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
-postconf -P "submission/inet/smtpd_tls_security_level=may"
+postconf -P "submission/inet/smtpd_tls_security_level=none"
 
 # --- Dovecot Relaxed Security ---
 cat > /etc/dovecot/conf.d/10-auth.conf <<'EOF'
@@ -129,5 +127,6 @@ ssl_key = </etc/postfix/ssl/key.pem
 EOF
 
 # Restart services to apply
-postfix reload
-dovecot reload
+postfix stop && postfix start
+dovecot stop && dovecot
+
