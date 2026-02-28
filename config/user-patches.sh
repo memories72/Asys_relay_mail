@@ -92,13 +92,13 @@ chmod 600 /etc/postfix/ssl/combined.pem
 # --- Postfix Relaxed Security ---
 postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
-postconf -e "smtpd_tls_security_level = may"
-postconf -e "smtpd_tls_auth_only = no"  # Allow AUTH over port 25 without STARTTLS
+postconf -e "smtpd_tls_security_level = none" # Disable STARTTLS on port 25 to force plaintext
+postconf -e "smtpd_tls_auth_only = no"
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
 postconf -e "smtpd_sasl_security_options = noanonymous"
-postconf -e "broken_sasl_auth_clients = yes" # Better for Outlook
+postconf -e "broken_sasl_auth_clients = yes"
 
 # Force SMTPS (465) to still offer SSL
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
@@ -106,7 +106,7 @@ if grep -q "^submissions    inet" /etc/postfix/master.cf; then
 fi
 postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
 postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
-postconf -P "submission/inet/smtpd_tls_security_level=may"
+postconf -P "submission/inet/smtpd_tls_security_level=none" # Also disable on 587 for plaintext consistency
 
 # --- Dovecot Relaxed Security ---
 cat > /etc/dovecot/conf.d/10-auth.conf <<'EOF'
@@ -118,7 +118,7 @@ passdb {
 }
 userdb {
   driver = static
-  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes
+  args = uid=5000 gid=5000 home=/var/mail/agilesys.co.kr/%n allow_all_users=yes
 }
 EOF
 
