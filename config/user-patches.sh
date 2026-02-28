@@ -127,17 +127,12 @@ ssl_key = </etc/postfix/ssl/key.pem
 EOF
 
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
-mail_plugins = $mail_plugins quota
-protocol imap {
-  mail_plugins = $mail_plugins imap_quota
-}
 plugin {
   quota = maildir:User quota
   quota_rule = *:storage=50G
 }
 EOF
 
-# Restart services to apply
-postfix stop && postfix start
-dovecot stop && dovecot
-
+# Ensure global mail_plugins include quota safely without conflicting with 15-lda.conf
+sed -i -e '/^mail_plugins =/ s/$/ quota/' /etc/dovecot/conf.d/10-mail.conf
+sed -i -e '/^  mail_plugins =/ s/$/ imap_quota/' /etc/dovecot/conf.d/20-imap.conf

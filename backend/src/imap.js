@@ -7,7 +7,7 @@ const IMAP_HOST = process.env.IMAP_HOST || 'node_mail_engine';
 const IMAP_PORT = parseInt(process.env.IMAP_PORT || '143');
 
 function makeClient(email, password) {
-    return new ImapFlow({
+    const client = new ImapFlow({
         host: IMAP_HOST,
         port: IMAP_PORT,
         secure: false,
@@ -17,6 +17,11 @@ function makeClient(email, password) {
         connectionTimeout: 10000,
         greetingTimeout: 5000,
     });
+    // Prevent unhandled error event from crashing the process
+    client.on('error', err => {
+        console.error(`[IMAP] Client error for ${email}:`, err.message);
+    });
+    return client;
 }
 
 /**
