@@ -196,7 +196,7 @@
 
         .dark .mail-row.selected td,
         .dark .mail-row.selected-bg td {
-            background: rgba(59, 130, 246, 0.1) !important;
+            background: #1e293b !important;
             border-left: 3px solid #3b82f6 !important;
         }
 
@@ -212,6 +212,16 @@
             font-size: 14px;
             line-height: 1.7;
             color: #334155;
+        }
+
+        .dark #msgHtml {
+            color: #e2e8f0;
+        }
+
+        .dark #msgHtml * {
+            color: inherit !important;
+            background-color: transparent !important;
+            border-color: #334155 !important;
         }
 
         @keyframes slide-up {
@@ -624,68 +634,74 @@
             </div>
 
             <!-- POP3 Settings View (embedded panel) -->
-            <div id="pop3View" class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6">
+            <div id="pop3View"
+                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep transition-colors">
                 <div class="mx-auto w-full max-w-2xl space-y-6">
                     <!-- SMTP Settings Card -->
-                    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                        <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5">
-                            <div class="flex size-9 items-center justify-center rounded-lg bg-amber-50">
-                                <span class="material-symbols-outlined text-amber-600">outbox</span>
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
+                        <div
+                            class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+                            <div
+                                class="flex size-9 items-center justify-center rounded-lg bg-amber-50 dark:bg-amber-900/20">
+                                <span class="material-symbols-outlined text-amber-600 dark:text-amber-500">outbox</span>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-slate-900">발신 메일 서버 설정 (SMTP Relay)</h3>
-                                <p class="text-xs text-slate-400">메일을 보낼 때 사용할 기본 SMTP 릴레이 서버를 설정합니다</p>
+                                <h3 class="text-base font-bold text-slate-900 dark:text-white">발신 메일 서버 설정 (SMTP Relay)
+                                </h3>
+                                <p class="text-xs text-slate-400 dark:text-slate-500">메일을 보낼 때 사용할 기본 SMTP 릴레이 서버를 설정합니다
+                                </p>
                             </div>
                         </div>
                         <form id="smtpForm" class="space-y-4">
                             <div class="grid grid-cols-3 gap-4">
                                 <div class="col-span-2">
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">SMTP
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
                                         서버 주소</label>
                                     <div class="relative">
                                         <span
-                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">dns</span>
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
                                         <input type="text" id="smtpHost" required placeholder="node_mail_engine"
-                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                     </div>
                                 </div>
                                 <div>
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">포트</label>
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
                                     <input type="number" id="smtpPort" value="587"
-                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none" />
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
                                 </div>
                             </div>
                             <div class="grid grid-cols-2 gap-4">
                                 <div>
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">SMTP
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
                                         계정</label>
                                     <div class="relative">
                                         <span
-                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">person</span>
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">person</span>
                                         <input type="text" id="smtpUser" placeholder="relay@agilesys.co.kr"
-                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                     </div>
                                 </div>
                                 <div>
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">비밀번호</label>
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">비밀번호</label>
                                     <div class="relative">
                                         <span
-                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">key</span>
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">key</span>
                                         <input type="password" id="smtpPass" placeholder="••••••••"
-                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <label class="flex items-center gap-2 cursor-pointer">
                                     <input type="checkbox" id="smtpSecure"
-                                        class="rounded border-slate-200 text-primary focus:ring-primary/20" />
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
                                     <span
-                                        class="text-sm font-medium text-slate-700 font-semibold uppercase tracking-wider text-slate-400">SSL/TLS
+                                        class="text-sm font-medium text-slate-700 dark:text-slate-300 font-semibold uppercase tracking-wider">SSL/TLS
                                         사용 (보안 연결)</span>
                                 </label>
                             </div>
@@ -706,40 +722,43 @@
                     </div>
 
                     <!-- POP3 Settings Card -->
-                    <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                        <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5">
-                            <div class="flex size-9 items-center justify-center rounded-lg bg-primary/10">
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
+                        <div
+                            class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+                            <div
+                                class="flex size-9 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20">
                                 <span class="material-symbols-outlined text-primary">cloud_download</span>
                             </div>
                             <div>
-                                <h3 class="text-base font-bold text-slate-900">외부 메일 계정 연동 (POP3)</h3>
-                                <p class="text-xs text-slate-400">Gmail, Naver 등 외부 메일을 자동 수집합니다</p>
+                                <h3 class="text-base font-bold text-slate-900 dark:text-white">외부 메일 계정 연동 (POP3)</h3>
+                                <p class="text-xs text-slate-400 dark:text-slate-500">Gmail, Naver 등 외부 메일을 자동 수집합니다</p>
                             </div>
                         </div>
                         <form id="pop3Form" class="space-y-4">
                             <div class="grid grid-cols-3 gap-4">
                                 <div class="col-span-2">
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">POP3
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">POP3
                                         서버 주소</label>
                                     <div class="relative">
                                         <span
-                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">dns</span>
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
                                         <input type="text" id="popHost" required placeholder="pop.gmail.com"
-                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                     </div>
                                 </div>
                                 <div>
                                     <label
-                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">포트</label>
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
                                     <input type="number" id="popPort" value="995"
-                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none" />
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
                                 </div>
                             </div>
                             <div>
                                 <label class="flex items-center gap-2 cursor-pointer">
                                     <input type="checkbox" id="popTls"
-                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700" />
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
                                     <span class="text-sm font-medium text-slate-700 dark:text-slate-300">SSL/TLS
                                         사용 (보안 연결)</span>
                                 </label>
@@ -747,31 +766,31 @@
                             <div>
                                 <label class="flex items-center gap-2 cursor-pointer">
                                     <input type="checkbox" id="popKeep" checked
-                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-slate-800 dark:border-slate-700" />
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
                                     <span class="text-sm font-medium text-slate-700 dark:text-slate-300">서버에 메일 복사본
                                         저장</span>
                                 </label>
                             </div>
                             <div>
                                 <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">외부
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
                                     메일 주소</label>
                                 <div class="relative">
                                     <span
-                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">alternate_email</span>
+                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">alternate_email</span>
                                     <input type="text" id="popUser" required placeholder="email@gmail.com"
-                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                 </div>
                             </div>
                             <div>
                                 <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">외부
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
                                     계정 비밀번호 / 앱 비밀번호</label>
                                 <div class="relative">
                                     <span
-                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">key</span>
+                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">key</span>
                                     <input type="password" id="popPass" required placeholder="••••••••"
-                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none" />
+                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                 </div>
                             </div>
                             <div class="flex items-center gap-3">
@@ -1932,46 +1951,46 @@
                 }
                 let hasActiveFetching = false;
                 el.innerHTML = data.accounts.map(a => {
-                    let statusColor = 'bg-slate-100 text-slate-400';
+                    let statusColor = 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-400';
                     let statusLabel = '대기 중';
                     let progressHtml = '';
 
                     const prog = a.progress || { status: 'idle' };
                     if (prog.status === 'fetching') {
                         hasActiveFetching = true;
-                        statusColor = 'bg-blue-100 text-blue-700';
+                        statusColor = 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400';
                         statusLabel = '수집 중...';
                         const percent = prog.total > 0 ? Math.round((prog.current / prog.total) * 100) : 0;
                         progressHtml = `
-                            <div class="mt-3 w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                            <div class="mt-3 w-full bg-slate-100 dark:bg-slate-800 rounded-full h-1.5 overflow-hidden">
                                 <div class="bg-blue-500 h-full transition-all duration-500" style="width: ${percent}%"></div>
                             </div>
                             <p class="mt-1 text-[10px] font-bold text-blue-500 uppercase tracking-tight">${percent}% 수집 완료 (${prog.current}/${prog.total})</p>
                         `;
                     } else if (a.status === 'SUCCESS') {
-                        statusColor = 'bg-emerald-100 text-emerald-700'; statusLabel = '정상';
+                        statusColor = 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400'; statusLabel = '정상';
                     } else if (a.status === 'FAILED') {
-                        statusColor = 'bg-red-100 text-red-700'; statusLabel = '오류';
+                        statusColor = 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'; statusLabel = '오류';
                     }
 
                     const lastFetched = a.last_fetched ? new Date(a.last_fetched).toLocaleString('ko-KR') : '내역 없음';
-                    const errorMsg = a.error && prog.status !== 'fetching' ? `<p class="mt-1 text-[11px] font-medium text-red-500 bg-red-50 p-2 rounded-lg border border-red-100">오류 내용: ${escHtml(a.error)}</p>` : '';
+                    const errorMsg = a.error && prog.status !== 'fetching' ? `<p class="mt-1 text-[11px] font-medium text-red-500 bg-red-50 dark:bg-red-900/20 dark:border-red-900/50 p-2 rounded-lg border border-red-100">오류 내용: ${escHtml(a.error)}</p>` : '';
 
                     return `
-                    <div class="flex flex-col px-6 py-5 border-b border-slate-100 last:border-0 group">
+                    <div class="flex flex-col px-6 py-5 border-b border-slate-100 dark:border-border-dark last:border-0 group">
                         <div class="flex items-center justify-between">
                             <div class="flex items-center gap-4">
-                                <div class="flex size-10 items-center justify-center rounded-2xl ${prog.status === 'fetching' ? 'bg-blue-50 text-blue-500' : (a.status === 'FAILED' ? 'bg-red-50 text-red-400' : 'bg-emerald-50 text-emerald-500')}">
+                                <div class="flex size-10 items-center justify-center rounded-2xl ${prog.status === 'fetching' ? 'bg-blue-50 text-blue-500 dark:bg-blue-900/30 dark:text-blue-400' : (a.status === 'FAILED' ? 'bg-red-50 text-red-400 dark:bg-red-900/30 dark:text-red-400' : 'bg-emerald-50 text-emerald-500 dark:bg-emerald-900/30 dark:text-emerald-400')}">
                                     <span class="material-symbols-outlined text-xl font-bold ${prog.status === 'fetching' ? 'animate-spin' : ''}">${prog.status === 'fetching' ? 'sync' : (a.status === 'FAILED' ? 'error' : 'verified')}</span>
                                 </div>
                                 <div>
-                                    <p class="text-sm font-bold text-slate-900">${escHtml(a.host)}</p>
+                                    <p class="text-sm font-bold text-slate-900 dark:text-white">${escHtml(a.host)}</p>
                                     <div class="flex items-center gap-2 mt-0.5">
-                                        <p class="text-[11px] font-medium text-slate-400">${escHtml(a.email)}</p>
-                                        <span class="inline-block size-1 bg-slate-300 rounded-full"></span>
-                                        <p class="text-[11px] font-medium text-slate-400">마지막 수집: ${lastFetched}</p>
+                                        <p class="text-[11px] font-medium text-slate-400 dark:text-slate-500">${escHtml(a.email)}</p>
+                                        <span class="inline-block size-1 bg-slate-300 dark:bg-slate-700 rounded-full"></span>
+                                        <p class="text-[11px] font-medium text-slate-400 dark:text-slate-500">마지막 수집: ${lastFetched}</p>
                                         ${a.keep_on_server ? `
-                                            <span class="inline-block size-1 bg-slate-300 rounded-full"></span>
+                                            <span class="inline-block size-1 bg-slate-300 dark:bg-slate-700 rounded-full"></span>
                                             <p class="text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded dark:bg-slate-800 dark:text-slate-400">서버 보관</p>
                                         ` : ''}
                                     </div>
@@ -1980,10 +1999,10 @@
                             <div class="flex items-center gap-2">
                                 <span class="text-[10px] font-bold px-2 py-1 rounded-lg ${statusColor}">${statusLabel}</span>
                                 <div class="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 rounded-lg transition-all" title="지금 수집/테스트">
+                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all" title="지금 수집/테스트">
                                         <span class="material-symbols-outlined text-lg">sync</span>
                                     </button>
-                                    <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all" title="연동 해제">
+                                    <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-all" title="연동 해제">
                                         <span class="material-symbols-outlined text-lg">delete</span>
                                     </button>
                                 </div>
