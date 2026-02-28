@@ -1,6 +1,6 @@
 #!/bin/bash
 cat > /etc/dovecot/dovecot-ldap.conf.ext <<'EOF'
-hosts = 172.17.0.1:1389
+hosts = nas.agilesys.co.kr:1389
 base = cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dn = uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dnpass = !@34QWer

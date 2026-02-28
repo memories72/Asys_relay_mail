@@ -8,7 +8,7 @@ services:
         aliases:
           - nas.agilesys.co.kr
     extra_hosts:
-      - "nas.agilesys.co.kr:112.220.69.170"
+      - "nas.agilesys.co.kr:host-gateway"
     ports:
       - "25:25"
       - "143:143"
@@ -47,7 +47,7 @@ services:
     build: ./backend
     container_name: node_backend_bridge
     extra_hosts:
-      - "nas.agilesys.co.kr:112.220.69.170"
+      - "nas.agilesys.co.kr:host-gateway"
     ports:
       - "13000:13000" # 웹메일 + API
       - "3890:3890" # LDAP mock port map
