@@ -100,11 +100,18 @@ postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
 postconf -e "smtpd_sasl_security_options = noanonymous"
 postconf -e "broken_sasl_auth_clients = yes"
 
-# Force SMTPS (465) and properly configure Submission (587)
-# Port 587 also set to 'none' if needed, but let's try 'may' first
-postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
-postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
-postconf -P "submission/inet/smtpd_tls_security_level=none"
+# Force SMTPS (465) and properly configure Submission (587) in master.cf
+# Port 465: smtps
+sed -i '/^#smtps/s/^#//' /etc/postfix/master.cf
+sed -i '/^#  -o smtpd_tls_wrappermode=yes/s/^#//' /etc/postfix/master.cf
+sed -i '/^#  -o smtpd_sasl_auth_enable=yes/s/^#//' /etc/postfix/master.cf
+# Port 587: submission
+sed -i '/^#submission/s/^#//' /etc/postfix/master.cf
+sed -i '/^#  -o smtpd_sasl_auth_enable=yes/s/^#//' /etc/postfix/master.cf
+
+# Global overrides for these specific services via postconf if they were already enabled
+postconf -e "smtpd_tls_security_level = none" 
+postconf -e "smtpd_tls_auth_only = no"
 
 # --- Dovecot Relaxed Security ---
 cat > /etc/dovecot/conf.d/10-auth.conf <<'EOF'
