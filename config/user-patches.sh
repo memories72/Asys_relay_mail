@@ -117,8 +117,8 @@ passdb {
   args = /etc/dovecot/dovecot-ldap.conf.ext
 }
 userdb {
-  driver = ldap
-  args = /etc/dovecot/dovecot-ldap.conf.ext
+  driver = static
+  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes
 }
 EOF
 
