@@ -490,28 +490,28 @@
                                     class="size-4 rounded border-slate-300 text-primary cursor-pointer transition-all hover:border-primary/50 focus:ring-primary/20" />
                             </div>
                             <button onclick="loadInbox()"
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                 title="새로고침">
                                 <span class="material-symbols-outlined text-xl" id="listRefreshIcon">refresh</span>
                             </button>
                             <button onclick="deleteSelected()"
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                 title="삭제">
                                 <span class="material-symbols-outlined text-xl">delete</span>
                             </button>
                             <button onclick="markSelectedAs(true)"
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                 title="읽음으로 표시">
                                 <span class="material-symbols-outlined text-xl">mark_email_read</span>
                             </button>
                             <button onclick="markSelectedAs(false)"
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                 title="안읽음으로 표시">
                                 <span class="material-symbols-outlined text-xl">mark_email_unread</span>
                             </button>
                             <!-- Empty Trash Button (Hidden by default) -->
                             <button id="emptyTrashBtn" onclick="emptyTrash()"
-                                class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                                class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-all active:scale-95 active:bg-red-100"
                                 title="휴지통 비우기">
                                 <span class="material-symbols-outlined text-xl">delete_forever</span>
                                 <span class="text-xs font-bold">비우기</span>
@@ -519,7 +519,7 @@
                             <!-- Move to Folder Dropdown -->
                             <div class="relative group">
                                 <button
-                                    class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800"
+                                    class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800 transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                     title="폴더 이동">
                                     <span class="material-symbols-outlined text-xl">folder_shared</span>
                                 </button>
