@@ -23,6 +23,16 @@ userdb {
 }
 EOF
 
+cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
+service auth {
+  unix_listener /var/spool/postfix/private/auth {
+    mode = 0660
+    user = postfix
+    group = postfix
+  }
+}
+EOF
+
 cat > /etc/dovecot/conf.d/10-logging.conf <<'EOF'
 log_path = /var/log/mail/mail.log
 info_log_path = /var/log/mail/mail.log
@@ -52,7 +62,7 @@ postconf -e "smtpd_tls_security_level = may"
 postconf -e "smtpd_tls_auth_only = no"
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
-postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
+postconf -e "smtpd_sasl_path = private/auth"
 postconf -e "smtpd_sasl_security_options = noanonymous"
 postconf -e "broken_sasl_auth_clients = yes"
 postconf -e "myhostname = nas.agilesys.co.kr"
