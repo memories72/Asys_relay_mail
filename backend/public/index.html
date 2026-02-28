@@ -304,14 +304,14 @@
         <header
             class="flex h-16 flex-shrink-0 items-center border-b border-slate-200 bg-white/80 backdrop-blur-md px-6 z-20 dark:bg-surface-dark/80 dark:border-border-dark transition-colors duration-300">
             <div class="flex items-center justify-between w-full max-w-[1920px] mx-auto">
-                <div class="flex items-center gap-4 text-primary shrink-0 w-48">
+                <div class="flex items-center gap-4 text-primary shrink-0">
                     <div
                         class="size-9 flex items-center justify-center bg-primary/10 rounded-xl shadow-sm dark:bg-primary/20">
                         <span class="material-symbols-outlined text-primary text-2xl">mail</span>
                     </div>
                     <h2
                         class="text-slate-900 text-lg font-bold leading-tight tracking-tight dark:text-white lg:block hidden">
-                        에이시스메일</h2>
+                        에이시스메일(beta)</h2>
                 </div>
 
                 <!-- Centered Search Bar -->
@@ -330,31 +330,31 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-4 shrink-0 w-48 justify-end">
-                    <div class="flex gap-2">
+                <div class="flex items-center gap-3 shrink-0">
+                    <div class="flex gap-1.5">
                         <button id="themeToggle" onclick="toggleTheme()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300 dark:hover:bg-slate-700"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
                             title="테마 전환">
                             <span id="themeIcon" class="material-symbols-outlined text-[20px]">light_mode</span>
                         </button>
                         <button
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
                             title="알림">
                             <span class="material-symbols-outlined text-[20px]">notifications</span>
                         </button>
                         <button onclick="openDashboard()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors dark:bg-surface-elevated dark:text-slate-300"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
                             title="메일 대시보드">
                             <span class="material-symbols-outlined text-[20px]">settings</span>
                         </button>
                         <button onclick="logout()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-red-50 text-red-500 hover:bg-red-100 transition-colors dark:bg-red-900/20 dark:text-red-400"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-rose-50/50 text-rose-500 hover:bg-rose-100 transition-all border border-rose-100 dark:bg-rose-900/10 dark:text-rose-400 dark:border-rose-900/20 dark:hover:bg-rose-900/30"
                             title="로그아웃">
                             <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
                         </button>
                     </div>
                     <div id="userAvatar"
-                        class="size-10 rounded-full bg-slate-200 border-2 border-primary/20 bg-cover bg-center shadow-md flex items-center justify-center text-xs font-bold text-slate-600 dark:bg-surface-elevated dark:text-slate-300">
+                        class="size-10 rounded-full bg-slate-100 border-2 border-primary/10 bg-cover bg-center shadow-sm flex items-center justify-center text-xs font-bold text-slate-600 dark:bg-surface-elevated dark:text-slate-300 dark:border-primary/20">
                         AS
                     </div>
                 </div>
