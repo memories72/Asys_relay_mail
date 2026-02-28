@@ -20,11 +20,13 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
 
         // 1. Get all UIDs and flags currently in the IMAP mailbox
         const imapUids = new Map();
-        for await (const msg of client.fetch('1:*', { uid: true, flags: true })) {
-            imapUids.set(msg.uid, {
-                seen: msg.flags.has('\\Seen'),
-                flagged: msg.flags.has('\\Flagged')
-            });
+        if (client.mailbox.exists > 0) {
+            for await (const msg of client.fetch('1:*', { uid: true, flags: true })) {
+                imapUids.set(msg.uid, {
+                    seen: msg.flags.has('\\Seen'),
+                    flagged: msg.flags.has('\\Flagged')
+                });
+            }
         }
 
         // 2. Get all UIDs currently in the DB for this user/mailbox
