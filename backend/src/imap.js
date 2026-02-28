@@ -88,14 +88,14 @@ async function fetchMailList(email, password, mailbox = 'INBOX', limit = 1000) {
                 // Subject: simpleParser decode + our repair fallback for EUC-KR edge cases
                 const rawSubBuf = (() => {
                     const hText = msg.headers.toString('binary');
-                    for (const line of hText.split(/\r?\n/)) {
-                        if (line.toLowerCase().startsWith('subject:')) {
-                            return Buffer.from(line.substring('subject:'.length).trim(), 'binary');
-                        }
+                    // Extract the entire folded Subject header
+                    const match = hText.match(/^Subject:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
+                    if (match && match[1].trim() !== '') {
+                        return Buffer.from(match[1].replace(/\r?\n[ \t]+/g, ' ').trim(), 'binary');
                     }
                     return null;
                 })();
-                const subject = repairHeader(rawSubBuf ?? parsedHeaders.subject ?? msg.envelope.subject);
+                const subject = repairHeader(rawSubBuf) || repairHeader(parsedHeaders.subject) || repairHeader(msg.envelope.subject);
 
                 // From: simpleParser가 name과 address를 분리해줌
                 // From: simpleParser가 name과 address를 분리해줌
