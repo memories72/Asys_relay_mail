@@ -72,6 +72,27 @@ chmod 600 /etc/postfix/ssl/combined.pem
 # --- 3. Postfix Global Settings ---
 postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
+postconf -e "virtual_alias_maps ="
+postconf -e "virtual_transport = lmtp:unix:/var/run/dovecot/lmtp"
+postconf -e "best_mx_transport = lmtp:unix:/var/run/dovecot/lmtp"
+postconf -e "mydestination = localhost"
+postconf -e "relay_domains ="
+postconf -e "transport_maps ="
+
+# Configure Postfix's internal LDAP lookups to use the correct 1389 port 
+# (Otherwise defaults to 389, fails, and returns 451 Temporary lookup failure for all recipients)
+sed -i 's/server_host = nas.agilesys.co.kr/server_host = nas.agilesys.co.kr\nserver_port = 1389/' /etc/postfix/ldap-users.cf
+
+# Re-apply Message Size Limits and format compliance
+postconf -e "message_size_limit = 268435456"
+postconf -e "mailbox_size_limit = 0"
+postconf -e "virtual_mailbox_limit = 0"
+postconf -e "smtpd_forbid_bare_newline = no"
+postconf -e "smtpd_sasl_authenticated_header = yes"
+postconf -e "smtputf8_enable = yes"
+postconf -e "disable_mime_output_conversion = yes"
+postconf -e "strict_mime_encoding_domain = no"
+postconf -e "smtpd_discard_ehlo_keywords = dsn, silent-discard"
 
 # SSL/TLS - Global set to 'none' for Port 25 as requested
 postconf -e "smtpd_tls_cert_file = /etc/postfix/ssl/cert.pem"
