@@ -99,10 +99,19 @@ postconf -e "smtpd_tls_chain_files=/etc/postfix/ssl/key.pem /etc/postfix/ssl/cer
 postconf -e "smtpd_tls_security_level=may"
 
 # Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
-sed -i "s/submissions    inet/smtps          inet/g" /etc/postfix/master.cf
-sed -i "s/-o smtpd_tls_wrappermode=no/-o smtpd_tls_wrappermode=yes/g" /etc/postfix/master.cf
+# Using postconf -P is safer than sed for modifying master.cf services.
+# 1. Ensure the service is named smtps (rename from submissions if needed)
+if grep -q "^submissions    inet" /etc/postfix/master.cf; then
+  sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
+fi
+
+# 2. Configure smtps options
+postconf -P "smtps/inet/syslog_name=postfix/smtps"
+postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
+postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
+
 # Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
-sed -i "s/-o smtpd_tls_security_level=none/-o smtpd_tls_security_level=may/g" /etc/postfix/master.cf
+postconf -P "submission/inet/smtpd_tls_security_level=may"
 
 # Enable Dovecot TLS
 cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
