@@ -97,6 +97,10 @@ postconf -e "smtpd_tls_key_file=/etc/postfix/ssl/key.pem"
 # Postfix in docker-mailserver sets chain_files by default which overrides our cert_file, so override it:
 postconf -e "smtpd_tls_chain_files=/etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem"
 postconf -e "smtpd_tls_security_level=may"
+
+# Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
+sed -i "s/submissions    inet/smtps          inet/g" /etc/postfix/master.cf
+sed -i "s/-o smtpd_tls_wrappermode=no/-o smtpd_tls_wrappermode=yes/g" /etc/postfix/master.cf
 # Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
 sed -i "s/-o smtpd_tls_security_level=none/-o smtpd_tls_security_level=may/g" /etc/postfix/master.cf
 

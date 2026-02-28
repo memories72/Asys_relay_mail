@@ -66,6 +66,7 @@ const searchUsers = async (queryStr) => {
         const baseDN = process.env.LDAP_BASE_DN || 'cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr';
         // Search by name (cn) or id (uid) or email (mail)
         const filterStr = `(|(cn=*${queryStr}*)(uid=*${queryStr}*)(mail=*${queryStr}*))`;
+        console.log(`[LDAP] Searching with filter: ${filterStr}`);
 
         const opts = {
             filter: filterStr,
@@ -82,7 +83,8 @@ const searchUsers = async (queryStr) => {
 
             const users = [];
             res.on('searchEntry', (entry) => {
-                const user = entry.object;
+                const user = entry.object || entry.pojo || {};
+                if (!user.uid) return;
                 users.push({
                     uid: user.uid,
                     name: user.cn || user.uid,
