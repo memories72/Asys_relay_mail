@@ -25,6 +25,31 @@ userdb {
 }
 EOF
 
+# --- 1.1 Special Use Folders & Auto-creation ---
+cat > /etc/dovecot/conf.d/15-mailboxes.conf <<'EOF'
+namespace inbox {
+  mailbox Drafts {
+    special_use = \Drafts
+    auto = subscribe
+  }
+  mailbox Junk {
+    special_use = \Junk
+    auto = subscribe
+  }
+  mailbox Trash {
+    special_use = \Trash
+    auto = subscribe
+  }
+  mailbox Sent {
+    special_use = \Sent
+    auto = subscribe
+  }
+  mailbox "Sent Messages" {
+    special_use = \Sent
+  }
+}
+EOF
+
 # Dedicated SASL bridge for Postfix
 cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
 service auth {
