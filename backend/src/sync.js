@@ -217,7 +217,45 @@ async function getCachedMailList(email, mailbox, limit) {
     });
 }
 
+async function getDeduplicatedStats(email) {
+    const pool = getPool();
+
+    // Using an intelligent SQL to count unique Message-IDs or fallback to UIDs
+    // Filters:
+    // - Only for this user (user_email partition)
+    // - Deduplicated by Message-ID (or UID if missing)
+    // - Restricted to the user's own identity to avoid noise in shared relay folders
+    const [rows] = await pool.query(`
+        SELECT 
+            SUM(CASE WHEN LOWER(mailbox) = 'inbox' THEN 1 ELSE 0 END) AS inbox,
+            SUM(CASE WHEN LOWER(mailbox) LIKE '%sent%' THEN 1 ELSE 0 END) AS sent,
+            SUM(CASE WHEN LOWER(mailbox) LIKE '%trash%' OR LOWER(mailbox) LIKE '%휴지통%' THEN 1 ELSE 0 END) AS trash,
+            SUM(CASE WHEN LOWER(mailbox) LIKE '%junk%' OR LOWER(mailbox) LIKE '%spam%' THEN 1 ELSE 0 END) AS junk,
+            SUM(CASE WHEN LOWER(mailbox) LIKE '%draft%' THEN 1 ELSE 0 END) AS drafts
+        FROM (
+            SELECT mailbox, MIN(uid) as min_uid 
+            FROM email_cache 
+            WHERE user_email = ?
+            AND (
+                sender_address = ? 
+                OR recipient_address LIKE ?
+                OR mailbox != 'INBOX' -- Trust non-inbox folders as intentionally organized
+            )
+            GROUP BY mailbox, COALESCE(NULLIF(message_id, ''), CAST(uid AS CHAR))
+        ) AS distinct_mails
+    `, [email, email, `%${email}%`]);
+
+    return {
+        inbox: rows[0].inbox || 0,
+        sent: rows[0].sent || 0,
+        trash: rows[0].trash || 0,
+        junk: rows[0].junk || 0,
+        drafts: rows[0].drafts || 0
+    };
+}
+
 module.exports = {
     syncMailbox,
-    getCachedMailList
+    getCachedMailList,
+    getDeduplicatedStats
 };

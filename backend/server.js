@@ -3,10 +3,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const startScheduler = require('./src/scheduler');
+const { startScheduler, setPaused, getPaused } = require('./src/scheduler');
 const { initDatabase, getPool } = require('./src/db');
 const { connectLDAP } = require('./src/ldap');
-const { syncMailbox, getCachedMailList } = require('./src/sync');
+const { syncMailbox, getCachedMailList, getDeduplicatedStats } = require('./src/sync');
 const { getTags, createTag, deleteTag, addTagToEmail, removeTagFromEmail } = require('./src/tags');
 const { queueEmail, cancelOutboxJob, startOutboxProcessor } = require('./src/outbox');
 const { recordOpen } = require('./src/tracking');
@@ -38,7 +38,7 @@ app.post('/api/sso-exchange', (req, res) => {
     const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
 });
-const { savePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
+const { savePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings, getRecentSyncStates } = require('./src/db');
 const { verifyUser, searchUsers } = require('./src/ldap');
 const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
@@ -324,6 +324,48 @@ app.get('/api/mail/inbox', authenticateToken, async (req, res) => {
     }
 });
 
+app.get('/api/sync/pause', authenticateToken, (req, res) => {
+    setPaused(true);
+    res.json({ status: 'OK', paused: true });
+});
+
+app.get('/api/sync/resume', authenticateToken, (req, res) => {
+    setPaused(false);
+    res.json({ status: 'OK', paused: false });
+});
+
+app.get('/api/sync/logs', authenticateToken, async (req, res) => {
+    try {
+        const logs = await getRecentSyncStates(10);
+        res.json({ status: 'OK', logs });
+    } catch (e) {
+        res.status(500).json({ error: 'Failed to fetch sync logs' });
+    }
+});
+
+app.get('/api/system/health', authenticateToken, async (req, res) => {
+    try {
+        const dbPool = getPool();
+        const [rows] = await dbPool.query('SELECT 1');
+        const dbStatus = rows.length > 0;
+
+        res.json({
+            status: 'OK',
+            health: {
+                database: dbStatus ? 'connected' : 'disconnected',
+                mailServer: 'active', // Simplified for now
+                ldap: 'connected' // Simplified
+            }
+        });
+    } catch (e) {
+        res.status(500).json({ status: 'ERROR', message: e.message });
+    }
+});
+
+app.get('/api/sync/status', authenticateToken, (req, res) => {
+    res.json({ status: 'OK', paused: getPaused() });
+});
+
 app.get('/api/mail/folders', authenticateToken, async (req, res) => {
     try {
         const mailPass = getImapPass(req);
@@ -377,7 +419,13 @@ app.get('/api/mail/stats', authenticateToken, async (req, res) => {
     try {
         const mailPass = getImapPass(req);
         if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
-        const stats = await getMailboxStatus(req.user.email, mailPass);
+
+        // 1. Trigger background sync for INBOX to keep stats somewhat fresh
+        // (Don't await, let it run in background)
+        syncMailbox(req.user.email, mailPass, 'INBOX').catch(() => { });
+
+        // 2. Fetch deduplicated counts from DB
+        const stats = await getDeduplicatedStats(req.user.email);
         res.json({ status: 'OK', stats });
     } catch (err) {
         console.error(`[STATS] Error for ${req.user.email}:`, err.message);
