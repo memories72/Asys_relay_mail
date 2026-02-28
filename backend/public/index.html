@@ -2506,12 +2506,18 @@
                     const data = await res.json();
                     if (res.ok) {
                         closeCompose();
-                        const cnt = data.attachmentCount > 0 ? ` (첨부 ${data.attachmentCount}개)` : '';
-                        alert('메일을 발송했습니다!' + cnt);
                         // Reset file list UI
                         const listEl = document.getElementById('composeAttachList');
                         listEl.innerHTML = '';
                         listEl.classList.add('hidden');
+
+                        // Show "Undo" Snackbar
+                        if (data.outboxId) {
+                            showUndoSnackbar(data.outboxId);
+                        } else {
+                            const cnt = data.attachmentCount > 0 ? ` (첨부 ${data.attachmentCount}개)` : '';
+                            alert('메일을 발송했습니다!' + cnt);
+                        }
                     } else {
                         alert('발송 실패: ' + (data.error || ''));
                     }
@@ -2522,6 +2528,38 @@
                     btn.innerHTML = '보내기';
                 }
             });
+        }
+
+        let undoTimer;
+        function showUndoSnackbar(outboxId) {
+            const snackbar = document.getElementById('undoSnackbar');
+            const countdownSpan = document.getElementById('undoCountdown');
+            const btn = document.getElementById('undoBtn');
+
+            snackbar.classList.remove('translate-y-24', 'opacity-0');
+
+            let seconds = 5;
+            countdownSpan.textContent = seconds;
+
+            btn.onclick = async () => {
+                clearInterval(undoTimer);
+                snackbar.classList.add('translate-y-24', 'opacity-0');
+                try {
+                    const res = await fetch('/api/mail/outbox/cancel/' + outboxId, { method: 'DELETE', headers: apiHeaders() });
+                    if (res.ok) {
+                        alert('발송이 취소되었습니다. 작성 중이던 내용은 임시보관함(추후구현)이나 사라졌습니다.');
+                    }
+                } catch (e) { }
+            };
+
+            undoTimer = setInterval(() => {
+                seconds--;
+                countdownSpan.textContent = seconds;
+                if (seconds <= 0) {
+                    clearInterval(undoTimer);
+                    snackbar.classList.add('translate-y-24', 'opacity-0');
+                }
+            }, 1000);
         }
 
         // --- Autocomplete Logic ---
@@ -2749,6 +2787,16 @@
             }
         });
     </script>
+
+    <!-- Undo Snackbar -->
+    <div id="undoSnackbar"
+        class="fixed bottom-6 left-1/2 -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 z-[9999] flex items-center gap-4 bg-slate-800 text-white px-5 py-3 rounded-full shadow-2xl dark:bg-slate-50 dark:text-slate-900 font-medium">
+        <span>메일 전송 중...</span>
+        <span class="w-px h-4 bg-slate-600 dark:bg-slate-300"></span>
+        <button id="undoBtn"
+            class="text-amber-400 hover:text-amber-300 font-bold active:scale-95 transition-transform dark:text-amber-600 dark:hover:text-amber-700">실행
+            취소 (<span id="undoCountdown">5</span>)</button>
+    </div>
 </body>
 
 </html>

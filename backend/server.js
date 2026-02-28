@@ -8,6 +8,9 @@ const { initDatabase, getPool } = require('./src/db');
 const { connectLDAP } = require('./src/ldap');
 const { syncMailbox, getCachedMailList } = require('./src/sync');
 const { getTags, createTag, deleteTag, addTagToEmail, removeTagFromEmail } = require('./src/tags');
+const { queueEmail, cancelOutboxJob, startOutboxProcessor } = require('./src/outbox');
+const { recordOpen } = require('./src/tracking');
+const nodemailer = require('nodemailer');
 
 const app = express();
 app.use(cors());
@@ -537,79 +540,76 @@ app.get('/api/mail/message/:uid/attachment/:partId', authenticateToken, async (r
 });
 
 // Send email via SMTP - supports file attachments (multipart/form-data)
-const nodemailer = require('nodemailer');
-const MailComposer = require('nodemailer/lib/mail-composer');
 const SMTP_HOST = process.env.SMTP_HOST || 'node_mail_engine';
-const SMTP_PORT = parseInt(process.env.SMTP_PORT || '587');
 
 app.post('/api/mail/send', authenticateToken, upload.array('attachments', 10), async (req, res) => {
     let { to, cc, bcc, subject, body, html } = req.body;
 
     const sanitizeEmails = (str) => {
         if (!str || typeof str !== 'string') return undefined;
-        const cleaned = str.split(';').map(s => s.trim()).filter(s => s).join(', ');
-        return cleaned || undefined;
+        // Basic split by comma or semi-colon
+        const cleaned = str.split(/[,;]/).map(s => s.trim()).filter(s => s);
+        return cleaned.length > 0 ? cleaned : undefined;
     };
 
-    to = sanitizeEmails(to);
-    cc = sanitizeEmails(cc);
-    bcc = sanitizeEmails(bcc);
+    const toArr = sanitizeEmails(to) || [];
+    const ccArr = sanitizeEmails(cc) || [];
+    const bccArr = sanitizeEmails(bcc) || [];
 
-    if (!to || !subject) return res.status(400).json({ error: 'to와 subject는 필수입니다' });
+    if (toArr.length === 0 || !subject) return res.status(400).json({ error: 'to와 subject는 필수입니다' });
     const mailPass = getImapPass(req);
     if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
+
     try {
-        const smtpSettings = await getGlobalSmtpSettings();
-        const transportConfig = {
-            host: smtpSettings?.host || SMTP_HOST,
-            port: parseInt(smtpSettings?.port || SMTP_PORT),
-            secure: smtpSettings?.secure === 1 || smtpSettings?.secure === true,
-            auth: (smtpSettings?.user && smtpSettings?.pass)
-                ? { user: smtpSettings.user, pass: smtpSettings.pass }
-                : { user: req.user.email, pass: mailPass },
-            tls: { rejectUnauthorized: false },
-            name: 'wmail.agilesys.co.kr'
-        };
-
-        const transporter = nodemailer.createTransport(transportConfig);
-        console.log(`[SMTP] Sending mail from ${req.user.email} via ${transportConfig.host}:${transportConfig.port}`);
-
         const attachments = (req.files || []).map(f => ({
             filename: f.originalname,
-            content: f.buffer,
+            content: f.buffer.toString('base64'), // Outbox DB needs json-serializable format
+            encoding: 'base64',
             contentType: f.mimetype,
         }));
 
-        const mailOptions = {
-            from: req.user.email,
-            to,
-            cc,
-            bcc,
-            subject,
-            text: body || '',
-            html: html || undefined,
-            attachments,
-        };
+        // Queue to Outbox (5 seconds delay)
+        const jobId = await queueEmail(
+            req.user.email, mailPass, toArr, ccArr, bccArr, subject, html, body, attachments, 5
+        );
 
-        const mail = new MailComposer(mailOptions);
-        const messageBuffer = await mail.compile().build();
-
-        await transporter.sendMail(mailOptions);
-
-        // Save to Sent folder
-        try {
-            await appendMessage(req.user.email, mailPass, 'Sent', messageBuffer);
-        } catch (appendErr) {
-            console.warn('[IMAP] Failed to save to Sent folder:', appendErr.message);
-            // We don't fail the request if it was sent successfully but just couldn't be saved to Sent
-        }
-
-        res.json({ status: 'OK', message: '메일을 발송했습니다', attachmentCount: attachments.length });
-
+        res.json({ status: 'OK', message: '발송 대기중 (5초 뒤 발송 시작)', outboxId: jobId });
     } catch (err) {
-        console.error('[SMTP] send error:', err.message);
-        res.status(500).json({ error: '메일 발송 실패', details: err.message });
+        console.error('[SMTP] queue error:', err.message);
+        res.status(500).json({ error: '메일 대기열 등록 실패', details: err.message });
     }
+});
+
+// Cancel a scheduled send
+app.delete('/api/mail/outbox/cancel/:outboxId', authenticateToken, async (req, res) => {
+    try {
+        await cancelOutboxJob(req.params.outboxId, req.user.email);
+        res.json({ status: 'OK', message: '발송이 취소되었습니다.' });
+    } catch (err) {
+        res.status(400).json({ error: err.message });
+    }
+});
+
+// Tracking Pixel Reader
+app.get('/api/mail/track', async (req, res) => {
+    try {
+        const trackingId = req.query.id;
+        if (trackingId) {
+            await recordOpen(trackingId);
+        }
+    } catch (e) {
+        console.error('[Tracking] error:', e.message);
+    }
+    // Return 1x1 transparent GIF
+    const imgBuf = Buffer.from('R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'base64');
+    res.writeHead(200, {
+        'Content-Type': 'image/gif',
+        'Content-Length': imgBuf.length,
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+    });
+    res.end(imgBuf);
 });
 
 // ==========================================
@@ -705,6 +705,7 @@ app.listen(PORT, async () => {
 
     // Start integrated components from JSON architecture
     startScheduler();
+    startOutboxProcessor();
 
     // Verify LDAP connectivity
     try {
