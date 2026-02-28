@@ -296,25 +296,43 @@ async function moveToTrash(email, password, uidOrUids, mailbox = 'INBOX') {
         const lock = await client.getMailboxLock(mailbox, { readOnly: false });
         try {
             const trashBoxes = ['Trash', 'INBOX.Trash', '[Gmail]/Trash', '휴지통'];
-            let moved = false;
-            // If already in trash, just delete permanently
-            if (trashBoxes.includes(mailbox)) {
-                await client.messageFlagsAdd(uidOrUids, ['\\Deleted'], { uid: true });
-                await client.mailboxClose();
-                return;
+            const uids = Array.isArray(uidOrUids) ? uidOrUids : [uidOrUids];
+            let targetTrash = null;
+
+            if (!trashBoxes.includes(mailbox)) {
+                for (const tb of trashBoxes) {
+                    try {
+                        // test one uid to see if mailbox exists
+                        await client.messageMove(uids[0], tb, { uid: true });
+                        targetTrash = tb;
+                        break;
+                    } catch (e) {
+                    }
+                }
             }
 
-            for (const trash of trashBoxes) {
-                try {
-                    await client.messageMove(uidOrUids, trash, { uid: true });
-                    moved = true;
-                    break;
-                } catch (e) { /* try next */ }
+            for (let i = 0; i < uids.length; i += 500) {
+                const chunk = uids.slice(i, i + 500);
+                const sequence = chunk.join(',');
+
+                if (mailbox === targetTrash || trashBoxes.includes(mailbox) || !targetTrash) {
+                    await client.messageFlagsAdd({ uid: sequence }, ['\\Deleted'], { uid: true });
+                } else {
+                    // Start from index 1 if i==0 because uids[0] was already moved to test mailbox existence!
+                    const chunkToMove = i === 0 ? uids.slice(1, 500) : chunk;
+                    if (chunkToMove.length > 0) {
+                        try {
+                            await client.messageMove({ uid: chunkToMove.join(',') }, targetTrash, { uid: true });
+                        } catch (e) {
+                            await client.messageFlagsAdd({ uid: chunkToMove.join(',') }, ['\\Deleted'], { uid: true });
+                        }
+                    }
+                }
             }
-            if (!moved) {
-                await client.messageFlagsAdd(uidOrUids, ['\\Deleted'], { uid: true });
+            if (!targetTrash || trashBoxes.includes(mailbox)) {
                 await client.mailboxClose();
             }
+
         } finally {
             lock.release();
         }
@@ -494,10 +512,16 @@ async function setFlag(email, password, uid, flag, enable, mailbox = 'INBOX') {
     try {
         const lock = await client.getMailboxLock(mailbox, { readOnly: false });
         try {
-            if (enable) {
-                await client.messageFlagsAdd({ uid }, [flag], { uid: true });
-            } else {
-                await client.messageFlagsRemove({ uid }, [flag], { uid: true });
+            const uids = Array.isArray(uid) ? uid : [uid];
+            // Chunk UIDs to limit sequence string length (max 500 per IMAP command)
+            for (let i = 0; i < uids.length; i += 500) {
+                const chunk = uids.slice(i, i + 500);
+                const sequence = chunk.join(',');
+                if (enable) {
+                    await client.messageFlagsAdd({ uid: sequence }, [flag], { uid: true });
+                } else {
+                    await client.messageFlagsRemove({ uid: sequence }, [flag], { uid: true });
+                }
             }
         } finally {
             lock.release();

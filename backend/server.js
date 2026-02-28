@@ -387,6 +387,23 @@ app.get('/api/mail/message/:uid', authenticateToken, async (req, res) => {
     }
 });
 
+app.put('/api/mail/messages/seen', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
+        const folder = req.query.folder || 'INBOX';
+        const enable = req.body.seen !== false;
+        const uids = req.body.uids;
+        if (!Array.isArray(uids) || uids.length === 0) return res.status(400).json({ error: 'No UIDs provided' });
+
+        await setFlag(req.user.email, mailPass, uids, '\\Seen', enable, folder);
+        res.json({ status: 'OK' });
+    } catch (err) {
+        console.error('[IMAP] bulk toggle seen flag error:', err.message);
+        res.status(500).json({ error: 'Failed to update flags', details: err.message });
+    }
+});
+
 app.put('/api/mail/message/:uid/seen', authenticateToken, async (req, res) => {
     try {
         const mailPass = getImapPass(req);
@@ -398,6 +415,22 @@ app.put('/api/mail/message/:uid/seen', authenticateToken, async (req, res) => {
     } catch (err) {
         console.error('[IMAP] toggle seen flag error:', err.message);
         res.status(500).json({ error: 'Failed to update flag', details: err.message });
+    }
+});
+
+app.post('/api/mail/messages/delete', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
+        const folder = req.query.folder || 'INBOX';
+        const uids = req.body.uids;
+        if (!Array.isArray(uids) || uids.length === 0) return res.status(400).json({ error: 'No UIDs provided' });
+
+        await moveToTrash(req.user.email, mailPass, uids.length === 1 ? uids[0] : uids, folder);
+        res.json({ status: 'OK', message: 'Success' });
+    } catch (err) {
+        console.error('[IMAP] bulk delete error:', err.message);
+        res.status(500).json({ error: 'Failed to delete messages', details: err.message });
     }
 });
 

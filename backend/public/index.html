@@ -284,7 +284,7 @@
                     <div class="relative">
                         <span
                             class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">person</span>
-                        <input id="loginUser" type="text" required placeholder="예: ms.hwang"
+                        <input id="loginUser" type="text" required placeholder="예: mg.hwang"
                             class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
                     </div>
                 </div>
@@ -1775,8 +1775,12 @@
             if (!confirm(confirmMsg)) return;
 
             try {
-                const uidQuery = targets.join(',');
-                const res = await fetch(`/api/mail/message/${uidQuery}?folder=${encodeURIComponent(currentFolder)}`, { method: 'DELETE', headers: apiHeaders() });
+                // Use POST with JSON body for bulk actions instead of URI to avoid URL Too Long errors on thousands of UIDs
+                const res = await fetch(`/api/mail/messages/delete?folder=${encodeURIComponent(currentFolder)}`, {
+                    method: 'POST',
+                    headers: Object.assign({}, apiHeaders(), { 'Content-Type': 'application/json' }),
+                    body: JSON.stringify({ uids: targets })
+                });
                 if (!res.ok) {
                     const text = await res.text();
                     try {
@@ -1800,14 +1804,12 @@
             if (targets.length === 0) return;
 
             try {
-                for (let uid of targets) {
-                    const res = await fetch(`/api/mail/message/${uid}/seen?folder=${encodeURIComponent(currentFolder)}`, {
-                        method: 'PUT',
-                        headers: Object.assign({}, apiHeaders(), { 'Content-Type': 'application/json' }),
-                        body: JSON.stringify({ seen })
-                    });
-                    if (!res.ok) throw new Error(`상태 변경 실패 (${uid})`);
-                }
+                const res = await fetch(`/api/mail/messages/seen?folder=${encodeURIComponent(currentFolder)}`, {
+                    method: 'PUT',
+                    headers: Object.assign({}, apiHeaders(), { 'Content-Type': 'application/json' }),
+                    body: JSON.stringify({ seen, uids: targets })
+                });
+                if (!res.ok) throw new Error(`상태 변경 실패`);
 
                 targets.forEach(uid => {
                     const msg = currentMsgs.find(m => m.uid == uid);
