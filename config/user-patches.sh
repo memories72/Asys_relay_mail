@@ -93,27 +93,30 @@ fi
 
 # Enable Postfix TLS
 # Modern Postfix uses smtpd_tls_chain_files. Using both legacy and modern params causes warnings and issues.
-postconf -X "smtpd_tls_cert_file"
-postconf -X "smtpd_tls_key_file"
-postconf -X "smtpd_tls_eccert_file"
-postconf -X "smtpd_tls_eckey_file"
-postconf -e "smtpd_tls_chain_files=/etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem"
+# We reset everything and use legacy params for maximum compatibility.
+postconf -e "myhostname = nas.agilesys.co.kr"
+postconf -X "smtpd_tls_chain_files"
+postconf -X "smtps_tls_wrappermode" # Fix previously introduced typo in main.cf
+postconf -e "smtpd_tls_cert_file=/etc/postfix/ssl/cert.pem"
+postconf -e "smtpd_tls_key_file=/etc/postfix/ssl/key.pem"
 postconf -e "smtpd_tls_security_level=may"
+# Allow TLSv1+ for compatibility (Outlook/Older Android/iOS)
+postconf -e "smtpd_tls_protocols = !SSLv2, !SSLv3"
+postconf -e "smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3"
+postconf -e "smtpd_tls_loglevel = 2"
 
 # Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
 # Using postconf -P is safer than sed for modifying master.cf services.
-# 1. Ensure the service is named smtps (rename from submissions if needed)
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
   sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
 fi
 
-# 2. Configure smtps options
+# Clear service-level TLS cert/key to use global ones, and set wrappermode
+postconf -P "smtps/inet/smtpd_tls_cert_file="
+postconf -P "smtps/inet/smtpd_tls_key_file="
 postconf -P "smtps/inet/syslog_name=postfix/smtps"
 postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
 postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
-# Explicitly clear any legacy params for the specific service to avoid conflicts
-postconf -P "smtps/inet/smtpd_tls_cert_file="
-postconf -P "smtps/inet/smtpd_tls_key_file="
 
 # Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
 postconf -P "submission/inet/smtpd_tls_security_level=may"
