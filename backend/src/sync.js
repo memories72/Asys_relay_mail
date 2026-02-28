@@ -95,9 +95,10 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                     uid: true, flags: true, envelope: true, bodyStructure: true,
                     headers: ['subject', 'from', 'to', 'message-id', 'in-reply-to', 'references']
                 })) {
-                    const parsedHeaders = await simpleParser(msg.headers);
+                    const parsedHeaders = await simpleParser(msg.headers || Buffer.from(''));
 
                     const rawSubBuf = (() => {
+                        if (!msg.headers) return null;
                         const hText = msg.headers.toString('binary');
                         const match = hText.match(/^Subject:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
                         if (match && match[1].trim() !== '') {
@@ -112,7 +113,7 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                     const senderName = repairHeader(parsedFrom?.name ?? envFrom?.name) || '';
                     const senderAddress = parsedFrom?.address ?? (envFrom ? `${envFrom.mailbox}@${envFrom.host}` : '');
 
-                    const finalTo = (parsedHeaders.to?.value || msg.envelope.to || []).map(t => ({
+                    const finalTo = ((parsedHeaders && parsedHeaders.to?.value) || (msg.envelope && msg.envelope.to) || []).map(t => ({
                         name: repairHeader(t.name) || '',
                         address: t.address || (t.mailbox ? `${t.mailbox}@${t.host}` : '')
                     }));
@@ -120,8 +121,8 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                     const hasAttachments = msg.bodyStructure?.childNodes !== undefined ||
                         (msg.bodyStructure?.disposition?.toLowerCase() === 'attachment');
 
-                    const messageId = msg.envelope?.messageId || '';
-                    const inReplyTo = msg.envelope?.inReplyTo || '';
+                    const messageId = (msg.envelope && msg.envelope.messageId) ? String(msg.envelope.messageId).substring(0, 250) : '';
+                    const inReplyTo = (msg.envelope && msg.envelope.inReplyTo) ? String(msg.envelope.inReplyTo).substring(0, 250) : '';
                     const date = msg.envelope?.date ? new Date(msg.envelope.date) : new Date();
 
                     // --- MAIL RULES ENGINE INTEGRATION ---
@@ -148,16 +149,26 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                     }
                     // -------------------------------------
 
-                    await pool.query(`
-                        INSERT INTO email_cache 
-                        (user_email, mailbox, uid, message_id, in_reply_to, sender_name, sender_address, recipient_address, subject, date, is_seen, is_flagged, has_attachments, size) 
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        ON DUPLICATE KEY UPDATE
-                        is_seen = VALUES(is_seen), is_flagged = VALUES(is_flagged)
-                    `, [
-                        email, mailbox, msg.uid, messageId, inReplyTo, senderName, senderAddress, JSON.stringify(finalTo), subject, date,
-                        msg.flags.has('\\Seen'), msg.flags.has('\\Flagged'), hasAttachments, msg.size || 0
-                    ]);
+                    try {
+                        const safeMessageId = (msg.envelope && msg.envelope.messageId) ? String(msg.envelope.messageId).substring(0, 250) : '';
+                        const safeInReplyTo = (msg.envelope && msg.envelope.inReplyTo) ? String(msg.envelope.inReplyTo).substring(0, 250) : '';
+                        const safeSubject = String(subject).substring(0, 1000);
+                        const safeSenderName = String(senderName).substring(0, 250);
+                        const safeSenderAddr = String(senderAddress).substring(0, 250);
+
+                        await pool.query(`
+                            INSERT INTO email_cache 
+                            (user_email, mailbox, uid, message_id, in_reply_to, sender_name, sender_address, recipient_address, subject, date, is_seen, is_flagged, has_attachments, size) 
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            ON DUPLICATE KEY UPDATE
+                            is_seen = VALUES(is_seen), is_flagged = VALUES(is_flagged)
+                        `, [
+                            email, mailbox, msg.uid, safeMessageId, safeInReplyTo, safeSenderName, safeSenderAddr, JSON.stringify(finalTo), safeSubject, date,
+                            msg.flags.has('\\Seen'), msg.flags.has('\\Flagged'), hasAttachments, msg.size || 0
+                        ]);
+                    } catch (e) {
+                        console.error(`[Sync] Skipping msg.uid=${msg.uid} due to DB insert error:`, e.message);
+                    }
                 }
             }
         }
