@@ -1,0 +1,341 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id WLRaDEjFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:56 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 31DBE14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:56 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552496535436932105
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp719865wme;
+        Wed, 30 Nov 2016 23:27:25 -0800 (PST)
+X-Received: by 10.25.202.66 with SMTP id h2mr14359341lfj.131.1480577244196;
+        Wed, 30 Nov 2016 23:27:24 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of khjang@agilesys.co.kr as permitted sender) smtp.mailfrom=khjang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of khjang@agilesys.co.kr as permitted sender)
+Received: by 10.25.190.147 with POP3 id o141mf92586477lff.1;
+        Wed, 30 Nov 2016 23:27:23 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 3631 invoked by uid 700); 1 Dec 2016 16:07:52 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	1 Dec 2016 16:07:52 +0900
+Received: (qmail 6116 invoked by uid 700); 1 Dec 2016 16:07:52 +0900
+Received: from unknown (HELO JangPC) (khjang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	1 Dec 2016 16:07:52 +0900
+From: =?ks_c_5601-1987?B?wOWw5sij?= <khjang@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?J8Gkv/i/6yc=?= <wy.jeung@agilesys.co.kr>
+Cc: =?ks_c_5601-1987?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>,
+	<wogus8894@agilesys.co.kr>
+Subject: =?ks_c_5601-1987?B?W7GkwdbF68fVwPy76ry+xc1dILq0uavDuyDD/rCjvbrApw==?=
+	=?ks_c_5601-1987?B?xKEgUEFUQ0ggwM/BpLD8t8M=?=
+Date: Thu, 1 Dec 2016 16:07:52 +0900
+Message-ID: <000801d24ba1$a24fead0$e6efc070$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0009_01D24BED.123A03D0"
+Thread-Index: AdJLoG4DUmOD++knT6eB6YFaI0aSwg==
+Content-Language: ko
+X-Antivirus: avast! (VPS 161130-0, 2016-11-30), Outbound message
+X-Antivirus-Status: Clean
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0009_01D24BED.123A03D0
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+wNu+973DsKMgOiAxMr/5IDEwwM8oxeQpILv1uq4gNL3DDQoNCiANCg0Kuea5rr/kw7u9w7CjIDog
+MTK/+SA5wM8osd0pIL/AyMQgNb3DDQoNCiANCg0KwNu+98DaIDogwaS/+L+jvcO9uiC52r3Cwfi0
+67iuDQoNCiANCg0KwNu+97O7v+sgOiC6tLmrw7sgw/6wo726wKfEoSAxMDUwNCAyZWEgT1MgdXBn
+cmFkZSC51yBtb2R1bGUgcGF0Y2gNCii787y8s7u/68C6ILX7t84gs7uwoSC43sDPurizvrKyLiC5
+2r3Cwfi067iux9HF1y4uKQ0KDQogDQoNCsPfsKG/5MO7s7u/6zoNCg0KVVRQILjwteIgLyAxRyCx
+pCC48LXiIC8gxtC66rivILjwteIgx8+zqr6/ILndwNS/5MO7DQoNCiogIMDOxdfFqb+hIL7qseLH
+2LytILHox9DDtbrOwOUgxevH2LytILnMuK4gud3A1L3DxNGz9bT4wfYuLiC52r3Cwfi067iusKEN
+CrTnwM+zryCwocH2sO0gtem+7rClsMfB9i4uILTCIL7Lvsa8rSDH+cDHwfjH4MfPsO0NCg0KKiAg
+x9i05yCzu7/rILnavcLB+LTruK7H0cXXIMD8tN7Hz7DtIMH4x+DH2MHgLQ0KDQogDQoNClBTIDEy
+v/kgNcDPKL/5KSC067DLwvvDuyAyZWEgwNu+98fPtMK1pSDAzLDHILO7sKEgwOfH9sDMtvsgwfjH
+4A0KDQogICCx17OqwPqzqiBIULTCIL7Ix9jB1rDatNm0wrDFwfY/DQoNCiANCg0KPT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KKMHWKb+hwMy9w726DQq81rfn
+vMe75773uru6zi9OSbvnvvfGwCCw+sDlIMDlsObIow0KvK2/773DILytw8qxuCC53cb3tb8gNjct
+M7n4wfYgtOu4orr0tfkgNMP+DQpURUwgOiAwNzAtNzExNC0wMDgyICAgRkFYIDogMDItNTg2LTUw
+NzANCk1vYmlsZSA6IDAxMC01NDg0LTMwMjYNCkUtbWFpbCA6ICA8bWFpbHRvOmtoamFuZ0BhZ2ls
+ZXN5cy5jby5rcj4ga2hqYW5nQGFnaWxlc3lzLmNvLmtyDQoNCiANCg0KDQoNCi0tLQ0KwMwgwMy4
+3sDPwLogQXZhc3QgvsjGvLnZwMy3r726ILzSx8HGrr/+vu63ziC52cDMt6+9uiCwy7vnuKYgv8+3
+4cffvcC0z7TZLg0KaHR0cHM6Ly93d3cuYXZhc3QuY29tL2FudGl2aXJ1cw0K
+------=_NextPart_000_0009_01D24BED.123A03D0
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:4.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1665936246;
+	mso-list-type:hybrid;
+	mso-list-template-ids:718807852 -699085814 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:22.5pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-fareast-font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:44.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:64.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:104.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:124.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:144.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:164.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:184.5pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3D"#0563C1" v=
+link=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal><b>=C0=DB=
+=BE=F7=BD=C3=B0=A3<span lang=3DEN-US> : 12</span>=BF=F9<span lang=3DEN-US> =
+10</span>=C0=CF<span lang=3DEN-US>(</span>=C5=E4<span lang=3DEN-US>) </span=
+>=BB=F5=BA=AE<span lang=3DEN-US> 4</span>=BD=C3<span lang=3DEN-US><o:p></o:=
+p></span></b></p><p class=3DMsoNormal><b><span lang=3DEN-US><o:p>&nbsp;</o:=
+p></span></b></p><p class=3DMsoNormal><b>=B9=E6=B9=AE=BF=E4=C3=BB=BD=C3=B0=
+=A3 <span lang=3DEN-US>: 12</span>=BF=F9 <span lang=3DEN-US>9</span>=C0=CF<=
+span lang=3DEN-US>(</span>=B1=DD<span lang=3DEN-US>) </span>=BF=C0=C8=C4 <s=
+pan lang=3DEN-US>5</span>=BD=C3<span lang=3DEN-US><o:p></o:p></span></b></p=
+><p class=3DMsoNormal><b><span lang=3DEN-US><o:p>&nbsp;</o:p></span></b></p=
+><p class=3DMsoNormal><b>=C0=DB=BE=F7=C0=DA<span lang=3DEN-US> : </span>=C1=
+=A4=BF=F8=BF=A3=BD=C3=BD=BA =B9=DA=BD=C2=C1=F8=B4=EB=B8=AE<span lang=3DEN-U=
+S><o:p></o:p></span></b></p><p class=3DMsoNormal><b><span lang=3DEN-US><o:p=
+>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><b>=C0=DB=BE=F7=B3=BB=BF=
+=EB<span lang=3DEN-US> : </span>=BA=B4=B9=AB=C3=BB =C3=FE=B0=A3=BD=BA=C0=A7=
+=C4=A1 <span lang=3DEN-US>10504 2ea OS upgrade </span>=B9=D7 <span lang=3DE=
+N-US>module patch (</span>=BB=F3=BC=BC=B3=BB=BF=EB=C0=BA =B5=FB=B7=CE =B3=
+=BB=B0=A1 =B8=DE=C0=CF=BA=B8=B3=BE=B2=B2<span lang=3DEN-US>. </span>=B9=DA=
+=BD=C2=C1=F8=B4=EB=B8=AE=C7=D1=C5=D7<span lang=3DEN-US>..)<o:p></o:p></span=
+></b></p><p class=3DMsoNormal><b><span lang=3DEN-US><o:p>&nbsp;</o:p></span=
+></b></p><p class=3DMsoNormal><b>=C3=DF=B0=A1=BF=E4=C3=BB=B3=BB=BF=EB<span =
+lang=3DEN-US>:<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span lang=
+=3DEN-US>UTP </span>=B8=F0=B5=E2<span lang=3DEN-US> / 1G </span>=B1=A4 =B8=
+=F0=B5=E2<span lang=3DEN-US> / </span>=C6=D0=BA=EA=B8=AF =B8=F0=B5=E2 =C7=
+=CF=B3=AA=BE=BF =B9=DD=C0=D4=BF=E4=C3=BB<span lang=3DEN-US><o:p></o:p></spa=
+n></b></p><p class=3DMsoListParagraph style=3D'margin-left:22.5pt;mso-para-=
+margin-left:0gd;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !support=
+Lists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'ms=
+o-list:Ignore'>=A8=AA<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </=
+span></span></span><![endif]><b>=C0=CE=C5=D7=C5=A9=BF=A1 =BE=EA=B1=E2=C7=D8=
+=BC=AD =B1=E8=C7=D0=C3=B5=BA=CE=C0=E5 =C5=EB=C7=D8=BC=AD =B9=CC=B8=AE =B9=
+=DD=C0=D4=BD=C3=C4=D1=B3=F5=B4=F8=C1=F6<span lang=3DEN-US>.. </span>=B9=DA=
+=BD=C2=C1=F8=B4=EB=B8=AE=B0=A1 =B4=E7=C0=CF=B3=AF =B0=A1=C1=F6=B0=ED =B5=E9=
+=BE=EE=B0=A5=B0=C7=C1=F6<span lang=3DEN-US>.. </span>=B4=C2 =BE=CB=BE=C6=BC=
+=AD =C7=F9=C0=C7=C1=F8=C7=E0=C7=CF=B0=ED<span lang=3DEN-US><o:p></o:p></spa=
+n></b></p><p class=3DMsoListParagraph style=3D'margin-left:22.5pt;mso-para-=
+margin-left:0gd;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !support=
+Lists]><span lang=3DEN-US style=3D'font-family:Wingdings'><span style=3D'ms=
+o-list:Ignore'>=A8=AA<span style=3D'font:7.0pt "Times New Roman"'>&nbsp; </=
+span></span></span><![endif]><b>=C7=D8=B4=E7 =B3=BB=BF=EB =B9=DA=BD=C2=C1=
+=F8=B4=EB=B8=AE=C7=D1=C5=D7 =C0=FC=B4=DE=C7=CF=B0=ED =C1=F8=C7=E0=C7=D8=C1=
+=E0<span lang=3DEN-US>-<o:p></o:p></span></b></p><p class=3DMsoNormal><span=
+ lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US>PS 12</span>=BF=F9<span lang=3DEN-US> 5</span>=C0=CF<span lang=3DE=
+N-US>(</span>=BF=F9<span lang=3DEN-US>) </span>=B4=EB=B0=CB=C2=FB=C3=BB<spa=
+n lang=3DEN-US> 2ea </span>=C0=DB=BE=F7=C7=CF=B4=C2=B5=A5 =C0=CC=B0=C7 =B3=
+=BB=B0=A1 =C0=E7=C7=F6=C0=CC=B6=FB =C1=F8=C7=E0<span lang=3DEN-US><o:p></o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US>&nbsp;&nbsp; </span>=
+=B1=D7=B3=AA=C0=FA=B3=AA <span lang=3DEN-US>HP</span>=B4=C2 =BE=C8=C7=D8=C1=
+=D6=B0=DA=B4=D9=B4=C2=B0=C5=C1=F6<span lang=3DEN-US>?<o:p></o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p clas=
+s=3DMsoNormal align=3Dleft style=3D'text-align:left;background:white'><span=
+ lang=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:blac=
+k'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></sp=
+an></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;line-heig=
+ht:18.0pt;background:white'><b><span lang=3DEN-US style=3D'font-size:9.0pt;=
+font-family:=B1=BC=B8=B2;color:black'>(</span></b><b><span style=3D'font-si=
+ze:9.0pt;font-family:=B1=BC=B8=B2;color:black'>=C1=D6<span lang=3DEN-US>)</=
+span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US><br></span></span></b><span=
+ style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:black'>=BC=D6=B7=
+=E7=BC=C7=BB=E7=BE=F7=BA=BB=BA=CE<span lang=3DEN-US>/NI</span>=BB=E7=BE=F7=
+=C6=C0 =B0=FA=C0=E5 =C0=E5=B0=E6=C8=A3<span lang=3DEN-US><br></span>=BC=AD=
+=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3<=
+/span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=C3=
+=FE<span lang=3DEN-US><br>TEL : 070-7114-0082&nbsp;&nbsp; FAX : 02-586-5070=
+<br>Mobile : 010-5484-3026<br>E-mail : </span></span><span lang=3DEN-US><a =
+href=3D"mailto:khjang@agilesys.co.kr"><span style=3D'font-size:9.0pt;font-f=
+amily:=B1=BC=B8=B2;color:blue'>khjang@agilesys.co.kr</span></a></span><span=
+ lang=3DEN-US style=3D'color:#1F497D'><o:p></o:p></span></p><p class=3DMsoN=
+ormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div>
+<br /><br />
+<hr style=3D'border:none; color:#909090; background-color:#B0B0B0; height: =
+1px; width: 99%;' />
+<table style=3D'border-collapse:collapse;border:none;'>
+	<tr>
+		<td style=3D'border:none;padding:0px 15px 0px 8px'>
+			<a href=3D"https://www.avast.com/antivirus">
+				<img border=3D0 src=3D"http://static.avast.com/emails/avast-mail-stamp.=
+png" alt=3D"Avast logo" />
+			</a>
+		</td>
+		<td>
+			<p style=3D'color:#3d4d5a; font-family:"Calibri","Verdana","Arial","Helv=
+etica"; font-size:12pt;'>
+				=C0=CC =C0=CC=B8=DE=C0=CF=C0=BA Avast =BE=C8=C6=BC=B9=D9=C0=CC=B7=AF=BD=
+=BA =BC=D2=C7=C1=C6=AE=BF=FE=BE=EE=B7=CE =B9=D9=C0=CC=B7=AF=BD=BA =B0=CB=BB=
+=E7=B8=A6 =BF=CF=B7=E1=C7=DF=BD=C0=B4=CF=B4=D9.
+				<br><a href=3D"https://www.avast.com/antivirus">www.avast.com</a>
+			</p>
+		</td>
+	</tr>
+</table>
+<br />
+</body></html>
+------=_NextPart_000_0009_01D24BED.123A03D0--
+

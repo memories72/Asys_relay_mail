@@ -1,0 +1,2693 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id YBnFIPDKommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 11:01:04 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 7B0D414C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 11:01:04 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+Delivered-To: asys.hwang@gmail.com
+Received: by 10.80.138.144 with SMTP id j16csp167029edj;
+        Thu, 2 Feb 2017 16:57:07 -0800 (PST)
+X-Received: by 10.28.131.132 with SMTP id f126mr236748wmd.61.1486083427029;
+        Thu, 02 Feb 2017 16:57:07 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender) smtp.mailfrom=wy.jeung@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender)
+Received: by 10.28.107.4 with POP3 id g4mf14372803wmc.0;
+        Thu, 02 Feb 2017 16:57:05 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 29316 invoked by uid 700); 3 Feb 2017 09:03:01 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	3 Feb 2017 09:03:01 +0900
+Received: (qmail 28541 invoked by uid 700); 3 Feb 2017 09:03:00 +0900
+Received: from unknown (HELO SC201608251455) (wy.jeung@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	3 Feb 2017 09:03:00 +0900
+From: =?utf-8?B?7KCV7JuQ7Jqp?= <wy.jeung@agilesys.co.kr>
+To: =?utf-8?B?J+2ZqeuvvOq3nCc=?= <mg.hwang@agilesys.co.kr>
+Cc: <ybkim@agilesys.co.kr>
+References: <20170202192833.HM.000000000000SD3@ynj6102.wwl1726.hanmail.net>
+In-Reply-To: <20170202192833.HM.000000000000SD3@ynj6102.wwl1726.hanmail.net>
+Subject: =?utf-8?B?Rlc6IDAw7ZWt66eMIOyKpO2OmSDqsoDthqDrsI8g6rKs7KCB7JqU7LKt?=
+Date: Fri, 3 Feb 2017 09:02:59 +0900
+Message-ID: <000401d27db0$e1a4dd80$a4ee9880$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0005_01D27DFC.519C8B10"
+Thread-Index: AQKXssyO9M0Sn7CG7JY60quOLzejJ5/L+/KA
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0005_01D27DFC.519C8B10
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7YyA7J6l64uYIA0KDQogDQoNCuyVhOuemCDsiqTtjpnsnYQg7LC47KGw7ZWY7Iuc7Ja0IOyepeu5
+hOyEoOyglSDrtoDtg4Hrk5zrpr3ri4jri6QuDQoNCiANCg0KSVJJU+uhnCDshKDsoJXrtoDtg4Hr
+k5zrpqzrqbAg7JuM65+w7YuwIDHrhYTsnoXri4jri6QuDQoNCiANCg0K6rCQ7IKs7ZWp64uI64uk
+Lg0KDQogDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KKOyjvCkg7JeQ
+7J207Iuc7IqkIC8g7ISc7Jq47JiB7JeF67O467aAIC8gIOygleybkOyaqSDrjIDrpqwNCg0KVGVs
+LiAwNzAtNzExNC0wMDg2IC8gRmF4LiAwMi01ODYtNTA3MA0KDQpNb2JpbGUuIDAxMC01NTc4LTI2
+NjMNCg0KRS1NYWlsLiAgPG1haWx0bzp3eS5qZXVuZ0BhZ2lsZXN5cy5jby5rcj4gd3kuamV1bmdA
+YWdpbGVzeXMuY28ua3INCg0KQWRkcmVzcy4g7ISc7Jq47IucIOyEnOy0iOq1rCDrsJjtj6zrj5kg
+NjctMyDrjIDrpa3ruYzrlKkgNOy4tSANCg0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PQ0KDQogDQoNCkZyb206IHluajYxMDJAZGF1bS5uZXQgW21haWx0bzp5bmo2MTAyQGRhdW0u
+bmV0XSANClNlbnQ6IFRodXJzZGF5LCBGZWJydWFyeSAyLCAyMDE3IDc6MjkgUE0NClRvOiB3eS5q
+ZXVuZ0BhZ2lsZXN5cy5jby5rcg0KU3ViamVjdDogMDDtla3rp4wg7Iqk7Y6ZIOqygO2GoOuwjyDq
+sqzsoIHsmpTssq0NCg0KIA0KDQoNCg0KDQoNCuyImOqzoO2VmOyLreuLiOuLpCENCg0K7JWE656Y
+IOyepeu5hCDsiqTtjpkg6rKA7Yag7ZWY7Iuc7Ja0LCDsi6TtlonqsIDqsqnsnYQg67aA7YOB65Oc
+66a964uI64ukIQ0KDQogDQoNCiANCg0KDQrsmpTqtazsgqztla3rsojtmLgNCg0KRUNSLTYwMg0K
+DQrsnZHrnb3siJjspIANCg0K7ZWE7IiYDQoNCg0K7JqU6rWs7IKs7ZWt66qFDQoNCuuwseuzuOyK
+pOychOy5mCAoQmFja2JvbmUgU3dpdGNoKQ0KDQoNCuyalOq1rOyCrO2Vreu2hOulmA0KDQrrs7Ts
+lYjrhKTtirjsm4ztgazsi5zsiqTthZwgLyDquLDrs7jquLDriqUgLyDrsLHrs7jsiqTsnITsuZgg
+KEJhY2tib25lIFN3aXRjaCkNCg0KDQrsmpTqtawNCg0K7KCV7J2YDQoNCu2VreunjOuztOyViOyL
+nOyKpO2FnOydmCDrjbDsnbTthLDrpbwg7KCE7Iah7ZWY64qUIOuEpO2KuOybjO2BrCDrqZTsnbjs
+nqXruYTroZwg7KKF7ZWp7IOB7Zmp7Iuk7JeQIOyEpOy5mOuQmOyWtCDtlZjrtoAg7ZWt66eM67O0
+7JWI7Iuc7Iqk7YWc7J2YIOuMgOyaqeufiSDrsI8g7LSI6rOg7IaNIOuNsOydtO2EsOulvCDsoITs
+hqHtlZjripQg6riw64ql7J2EIOyImO2Wie2VnOuLpC4NCg0KDQrsgqztla0NCg0KDQrsg4HshLgN
+Cg0KDQrshKTrqoUNCg0K7IS467aADQoNCuuwseuzuOyKpOychOy5mOuKlCDsooXtlansg4Htmans
+i6Tqs7wg6rCBIOy0iOyGjC/qsozsnbTtirgg6rCE7J2YIOuNsOydtO2EsCDsoITshqEg67CPIOqz
+teycoCDquLDriqXsnYQg7KCc6rO17ZWY7Jes7JW87ZWY66mwLCDtla3rp4zrs7TslYjsi5zsiqTt
+hZzsnZgg7ZWY67aAIOyKpOychOy5mOulvCDsiJjsmqntlZjsl6wg6rWs7ISx7ZWY7Jes7JW8IO2V
+nOuLpC4NCg0KDQrjgIANCg0K64K07JqpDQoNCuyghOq4sO2GteyLoOq4sOyekOyerCDtmJXsi53s
+irnsnbjsnYQg67Cb7J2AIOygnO2SiOydtOyWtOyVvCDtlZzri6QuDQoNCg0K44CADQoNCuOAgA0K
+DQrstZzrjIAg6rCA7Jqp7ZWcIO2PrO2KuCDsiJjsmqnsl5DshJwgTm9uLUJsb2NraW5nIOuwjyBX
+aXJlZC1TcGVlZOulvCDsoJzqs7XtlZjqs6Ag6rOg7ISx64ql7J2YIFN3aXRjaGluZyDrsI8gUm91
+dGluZyDquLDriqXsnYQg7KCc6rO17ZWY7Jes7JW8IO2VnOuLpC4gDQoNCg0K44CADQoNCuOAgA0K
+DQrrsLHrs7jsiqTsnITsuZjsmYAg6rCBIOy0iOyGjC/qsozsnbTtirjsl5Ag7ISk7LmY65CY64qU
+IEFjY2VzcyBTd2l0Y2jsmYDsnZgg7Ya17Iug7J2AIDEwR2Jwc+ydtOyDgeycvOuhnCDqtazshLHt
+lZjsl6wg64yA7Jqp65+JIO2KuOuemO2UvSDsspjrpqzrpbwg7ZWgIOyImCDsnojrj4TroZ0g6rWs
+7ISx7ZWY7Jes7JW8IO2VnOuLpC4NCg0KDQrjgIANCg0K44CADQoNCuuFvOumrOyggeycvOuhnCBW
+TEFO7J2EIOuCmOuIhOyWtOyEnCDrhKTtirjsm4ztgazrpbwg7Zqo7Jyo7KCB7Jy866GcIOq0gOum
+rO2VmOqzoCBWTEFOIOqwhCDrjbDsnbTthLAg7Ya17IugIOyLnCDsoJXssYXsl5Ag7J2Y7ZWcIO2X
+iOyaqSwg7LCo64uo7J2EIOyggeyaqe2VmOyXrCDrs7TslYjsnYQg6rCV7ZmU7ZWY7Jes7JW8IO2V
+nOuLpC4NCg0KDQrjgIANCg0K44CADQoNCuydtOykkSDsoITsm5DsnqXsuZjrpbwg7Ya17ZW07ISc
+IO2Vq+yKpOyZkSDsv6jrp4HCt+yghOybkOyepey5mOulvCDqtazruYTtlZjsl6zslbwg7ZWc64uk
+Lg0KDQoNCuOAgA0KDQrjgIANCg0KNuqwnCDsnbTsg4HsnZggSS9PIOyKrOuhryDsnqXssKkg7KeA
+7JuQ7J20IOqwgOuKpe2VtOyVvCDtlZzri6QuIA0KDQoNCuOAgA0KDQrjgIANCg0K6riw67O47KCB
+7Jy866GcIEFDTChBY2Nlc3MgQ29udHJvbCBMaXN0KeydhCDsoIHsmqntlZjsl6wg7J6l67mE7KCR
+6re87JeQIOuMgO2VmOyXrCDrs7TslYjsnYQg6rCV7ZmU7ZWY6rOgIO2XiOyaqeuQnCDqtIDrpqzs
+npDsmYDsnZgg7Ya17Iug64+EIOyVlO2YuO2ZlOuQnCDtlITroZzthqDsvZzsnYQg7IKs7Jqp7ZWY
+7JesIOuztOyViOydhCDqsJXtmZTtlZjsl6zslbwg7ZWc64ukLg0KDQoNCuOAgA0KDQrjgIANCg0K
+67Cx67O47Iqk7JyE7LmYIOuwjyBBY2Nlc3MgU3dpdGNoIOuKlCDquLDsobQg6rWs7LaV65CY7Ja0
+IOyeiOuKlCDshJzrsoQgUmFja+yXkCDshKTsuZjtlZjsl6wg7Iuk7J6l7ZWc64ukLiANCg0KDQrj
+gIANCg0K44CADQoNCuuwseuzuOyKpOychOy5mCAoQmFja2JvbmUgU3dpdGNoKQ0KDQoNCuOAgA0K
+DQrjgIANCg0K6rWs67aEDQoNCuuwseuzuOyKpOychOy5mCAoQmFja2JvbmUgU3dpdGNoKQ0KDQrj
+gIANCg0KDQrjgIANCg0K44CADQoNCuyImOufiQ0KDQoxIEVBDQoNCuOAgA0KDQoNCuOAgA0KDQrj
+gIANCg0K6rec6rKpDQoNCuKWoCA0ODAgLyA3NjggLyAxMTUyR2JwcyDsnbTsg4HsnZggU3dpdGNo
+aW5nIENhcGFjaXR5IOyngOybkA0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCAyNzYgLyA0
+ODggLyA3MTRNcHBzIOydtOyDgeydmCDtjKjtgrcg7LKY66asIOyngOybkCDqsIDriqUNCg0K44CA
+DQoNCg0K44CADQoNCuOAgA0KDQrilqAgSVB2NCAvIElQdjYg7JeQ7IScIOuPmeydvO2VnCDshLHr
+iqUg7KeA7JuQDQoNCuOAgA0KDQoNCuOAgA0KDQrjgIANCg0K4pagIEkvTyDrqqjrk4gg67CPIOyd
+uO2EsO2OmOydtOyKpA0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCAzIC8gNiAvIDEw6rCc
+IOydtOyDgeydmCBJL08g7Iqs66GvIOyepeywqSDsp4Dsm5Ag6rCA64qlDQoNCuOAgA0KDQoNCuOA
+gA0KDQrjgIANCg0K4pagIDLqsJzsnZgg7JeU7KeAIOuqqOuTiA0KDQrjgIANCg0KDQrjgIANCg0K
+44CADQoNCuKWoCDstZzrjIAgMTY4IC8gMzEyIC8gNDgw6rCcIOydtOyDgeydmCDquLDqsIAg7Y+s
+7Yq4IOyngOybkCDqsIDriqUNCg0K44CADQoNCg0K44CADQoNCuOAgA0KDQrilqAg7LWc64yAIDI4
+IC8gNTIgLyA4MOqwnCDsnbTsg4HsnZggMTBHRSDtj6ztirgg7J6l7LCpIOqwgOuKpQ0KDQrjgIAN
+Cg0KDQrjgIANCg0K44CADQoNCuKWoCDstZzrjIAgMTIgLyAyNCAvIDQw6rCcIOydtOyDgeydmCA0
+MEdFIO2PrO2KuCDsnqXssKkg6rCA64qlDQoNCuOAgA0KDQoNCuOAgA0KDQrjgIANCg0K4pagIFBh
+c3NpdmUgQmFja3BsYW5lIOq1rOyhsA0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCDsoITs
+m5Ag7J207KSR7ZmUIOuwjyDtlasg7Iqk7JmRIOygnOqztQ0KDQrjgIANCg0KDQrjgIANCg0K44CA
+DQoNCuyDgeq4sCDquLDriqXsnbQg7KCc6rO165CY64qUIOuPmeuTsSDsnbTsg4HsnZgg7KCc7ZKI
+7Jy866GcIOygnOyViOuQmOyWtOyVvCDtlZzri6QuDQoNCgkJCQkJDQoNCuyalOq1rOyCrO2Vreuy
+iO2YuA0KDQpFQ1ItNjAzDQoNCuydkeudveyImOykgA0KDQrtlYTsiJgNCg0KDQrsmpTqtazsgqzt
+la3rqoUNCg0KQWNjZXNzIFN3aXRjaCgxMEcsIFBvRSkNCg0KDQrsmpTqtazsgqztla3rtoTrpZgN
+Cg0K67O07JWI64Sk7Yq47JuM7YGs7Iuc7Iqk7YWcIC8g6riw67O46riw64qlIC8gQWNjZXNzIFN3
+aXRjaCgxMEcsIFBvRSkNCg0KDQrsmpTqtawNCg0K7KCV7J2YDQoNCuqwgSDstIjshowv6rKM7J20
+7Yq47JeQIOyEpOy5mOuQmOuKlCBBY2Nlc3MgU3dpdGNo66GcIOyYgeyDgeq0gOygnCwgUkZJRCDs
+tpzsnoXqtIDrpqwsIOqyveqzoOuwqeyGoeyaqeycvOuhnCDqtazstpXrkJjrqbAsIOuEpO2KuOyb
+jO2BrCDtkojsp4jtmZXrs7Trpbwg7JyE7ZW0IDEwR+ulvCDrsJjsmIHtlZzri6QuDQoNCg0K7ISk
+66qFDQoNCuyEuOu2gA0KDQrrsLHrs7jsiqTsnITsuZjsmYAgQWNjZXNzIFN3aXRjaCDqsITsl5Dr
+ipQgMTBHYnBz7J207IOB7J2YIFVwLUxpbmvroZwg7ISk6rOE7ZWY6rOgIFJpbmftmJUg6rWs7KGw
+7J2YIOuEpO2KuOybjO2BrOulvCDqtazshLHtlZjsl6wg7JWI7KCV7ISxIOuwjyDrjIDsmqnrn4kg
+7Yq4656Y7ZS9IOyymOumrOulvCDtlaAg7IiYIOyeiOuPhOuhnSDqtazshLHtlZjsl6zslbwg7ZWc
+64ukLg0KDQoNCuOAgA0KDQrrgrTsmqkNCg0K7ZWY67aAIOuLqOunkOqzvOydmCDthrXsi6DsnYAg
+MUdicHPsnZgg7IaN64+E66GcIOuNsOydtO2EsOulvCDsoITshqHtlZjrqbAgUG9FKFBvd2VyIG9m
+IEV0aGVybmV0KeyngOybkOycvOuhnCDsp4HrpZjsoITsm5Ag7KCc6rO1IOuwjyDrjbDsnbTthLAg
+7KCE7Iah7JeQIO2VhOyalO2VnCAxMC8xMDAvMTAwMEJhc2UtVCDsnbjthLDtjpjsnbTsiqTrpbwg
+7KCc6rO17ZWY64qUIOq4sOuKpeydhCDsiJjtlontlZzri6QuDQoNCg0K44CADQoNCuOAgA0KDQrs
+oITquLDthrXsi6DquLDsnpDsnqwg7ZiV7Iud7Iq57J247J2EIOuwm+ydgCDsoJztkojsnbTslrTs
+lbwg7ZWc64ukLiANCg0KDQrjgIANCg0K44CADQoNCuyYgeyDgSDrsI8g642w7J207YSwIOyghOyG
+oSDsi5wg7ZKI7KeI7J20IO2ZleuztOuQmOyWtOyVvCDtlZjqs6Ag7KeA7Jew7Iuc6rCE7J20IOyX
+huyWtOyVvCDtlZzri6QuIA0KDQoNCuOAgA0KDQrjgIANCg0KMTI4R2JwcyDsnZgg7Iqk7JyE7Lmt
+IOyEseuKpeqzvCDstIjri7kgOTZNcHBzIO2MqO2Ct+yymOumrCDriqXroKXsnYQg7KCc6rO17ZW0
+7JW8IO2VnOuLpC4NCg0KDQrjgIANCg0K44CADQoNCjLqsJwg7J207IOB7J2YIFNGUCsgMTBHYkUg
+7Y+s7Yq4LCAy6rCcIOydtOyDgeydmCBTRlAgMUdiRSDtj6ztirgsIDI0IOqwnOydmCBSSi00NSAx
+MC8xMDAvMTAwMCBQb0Ug7Y+s7Yq466W8IOygnOqzte2VtOyVvCDtlZzri6QuIA0KDQoNCuOAgA0K
+DQrjgIANCg0K67Cx67O47Iqk7JyE7LmYKEJhY2tib25lIFN3aXRjaCnsmYAg64+Z7J28IOygnOyh
+sOyCrCDsoJztkojsnbTslrTslbwg7ZWc64ukLg0KDQoNCuOAgA0KDQrjgIANCg0KQWNjZXNzIFN3
+aXRjaCgxMEcsIFBvRSkNCg0KDQrjgIANCg0K44CADQoNCuq1rOu2hA0KDQpBY2Nlc3MgU3dpdGNo
+KDEwRywgUG9FKQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuyImOufiQ0KDQo2IEVBDQoNCuOA
+gA0KDQoNCuOAgA0KDQrjgIANCg0K6rec6rKpDQoNCuKWoCAxMjhHYnBzIOydmCDsiqTsnITsua0g
+7ISx64ql6rO8IOy0iOuLuSA5Nk1wcHMg7Yyo7YK37LKY66asIOuKpeugpeydhCDsoJzqs7XtlbTs
+lbwg7ZWc64ukLg0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCAxR0Ig7J207IOB7J2YIFNE
+UkFNLCAxMjhNQiDsnbTsg4HsnZggRmxhc2jsnYQg7KCc6rO17ZW07JW8IO2VnOuLpC4NCg0K44CA
+DQoNCg0K44CADQoNCuOAgA0KDQrilqAgMjQg6rCc7J2YIFBvRSAxMC8xMDAvMTAwMEJhc2UtVCDt
+j6ztirjrpbwg6riw67O4IOygnOqzte2VtOyVvCDtlZzri6QuDQoNCuOAgA0KDQoNCuOAgA0KDQrj
+gIANCg0K4pagIDQg6rCc7J2YIDEwMDBCYXhlLVgg7Y+s7Yq466W8IOq4sOuzuCDsoJzqs7XtlbTs
+lbwg7ZWc64ukLg0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCAy6rCcIO2ZleyepSAxMEdi
+RSBTRlArIDJwIE1vZHVsZQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCA3MjBXIEFDIFBv
+RSBQb3dlciBTdXBwbHkNCg0K44CADQoNCg0K44CADQoNCuOAgA0KDQrilqAg7L2Y7IaU7Y+s7Yq4
+IOuwjyBPT0Iob3V0LW9mLWJhbmQgbWFuYWdlbWVudCBwb3J0KSDtj6ztirjrpbwg6riw67O4IOyg
+nOqzte2VtOyVvCDtlZzri6QuDQoNCuOAgA0KDQoNCuOAgA0KDQrjgIANCg0KICANCg0K44CADQoN
+Cg0K44CADQoNCuOAgA0KDQrsg4HquLAg6riw64ql7J20IOygnOqzteuQmOuKlCDrj5nrk7Eg7J20
+7IOB7J2YIOygnO2SiOycvOuhnCDsoJzslYjrkJjslrTslbwg7ZWc64ukLg0KDQoJCQkJCQ0KDQrs
+mpTqtazsgqztla3rsojtmLgNCg0KRUNSLTYwNA0KDQrsnZHrnb3siJjspIANCg0K7ZWE7IiYDQoN
+Cg0K7JqU6rWs7IKs7ZWt66qFDQoNCkFjY2VzcyBTd2l0Y2goMUcsIFBvRSkNCg0KDQrsmpTqtazs
+gqztla3rtoTrpZgNCg0K67O07JWI64Sk7Yq47JuM7YGs7Iuc7Iqk7YWcIC8g6riw67O46riw64ql
+IC8gQWNjZXNzIFN3aXRjaCgxRywgUG9FKQ0KDQoNCuyalOq1rA0KDQrsoJXsnZgNCg0K7Jm46rO9
+IOyauO2DgOumrOyngOyXreyXkCDshKTsuZjrkJjripQgQWNjZXNzIFN3aXRjaOuhnCDsmIHsg4Hq
+tIDsoJwsIOqyveqzoOuwqeyGoeyaqeycvOuhnCDqtazstpXrkJjrqbAsIOuEpO2KuOybjO2BrCDt
+kojsp4jtmZXrs7Trpbwg7JyE7ZW0IDFH66W8IOuwmOyYge2VnOuLpC4NCg0KDQrshKTrqoUNCg0K
+7IS467aADQoNCuqwgSDstIjshowv6rKM7J207Yq47JeQIOyEpOy5mOuQmOuKlCBBY2Nlc3MgU3dp
+dGNo7JmAIFJpbmftmJUg6rWs7KGw7J2YIOuEpO2KuOybjO2BrOuhnCDqtazshLHtlZjrqbAsIDFH
+YnBzIOydtOyDgeydmCDsho3rj4TroZwg642w7J207YSw66W8IOyghOyGoe2VtOyVvCDtlZzri6Qu
+DQoNCg0K44CADQoNCuuCtOyaqQ0KDQpQb0UoUG93ZXIgb2YgRXRoZXJuZXQpIOyngOybkOycvOuh
+nCBDQ1RW7Lm066mU65287J2YIOyngeulmOyghOybkCDsoJzqs7Ug67CPIOuNsOydtO2EsCDsoITs
+hqHsl5Ag7ZWE7JqU7ZWcIDEwLzEwMC8xMDAwQmFzZS1UIOyduO2EsO2OmOydtOyKpOulvCDsoJzq
+s7XtlZjripQg6riw64ql7J2EIOyImO2Wie2VnOuLpC4gDQoNCg0K44CADQoNCuOAgA0KDQrsoITq
+uLDthrXsi6DquLDsnpDsnqwg7ZiV7Iud7Iq57J247J2EIOuwm+ydgCDsoJztkojsnbTslrTslbwg
+7ZWc64ukLiANCg0KDQrjgIANCg0K44CADQoNCuyYgeyDgSDrsI8g642w7J207YSwIOyghOyGoSDs
+i5wg7ZKI7KeI7J20IO2ZleuztOuQmOyWtOyVvCDtlZjqs6Ag7KeA7Jew7Iuc6rCE7J20IOyXhuyW
+tOyVvCDtlZzri6QuIA0KDQoNCuOAgA0KDQrjgIANCg0KMuqwnCDsnbTsg4HsnZggU0ZQIDFHYkUg
+7Y+s7Yq4LCAyNCDqsJzsnZggUkotNDUgMTAvMTAwLzEwMDAgUG9FIO2PrO2KuOulvCDsoJzqs7Xt
+lbTslbwg7ZWc64ukLiANCg0KDQrjgIANCg0K44CADQoNCuuwseuzuOyKpOychOy5mChCYWNrYm9u
+ZSBTd2l0Y2gpIOuwjyBBY2Nlc3MgU3dpdGNoKDEwRywgUG9FKeyZgCDrj5nsnbwg7KCc7KGw7IKs
+IOygnO2SiOydtOyWtOyVvCDtlZzri6QuDQoNCg0K44CADQoNCuOAgA0KDQpBY2Nlc3MgU3dpdGNo
+KDFHLCBQb0UpDQoNCg0K44CADQoNCuOAgA0KDQrqtazrtoQNCg0KQWNjZXNzIFN3aXRjaCgxRywg
+UG9FKQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuyImOufiQ0KDQo4IEVBDQoNCuOAgA0KDQoN
+CuOAgA0KDQrjgIANCg0K6rec6rKpDQoNCuKWoCBHaWdhYml0IFJpbmcg7KeA7JuQDQoNCuOAgA0K
+DQoNCuOAgA0KDQrjgIANCg0K4pagIDFHIEJhc2UtWCBTRlAgNFBvcnQNCg0K44CADQoNCg0K44CA
+DQoNCuOAgA0KDQrilqAgMTAvMTAwLzEwMDBCYXNlLVQgMjRwb3J0IFBvRSANCg0K44CADQoNCg0K
+44CADQoNCuOAgA0KDQrilqAg67Cx67O47Iqk7JyE7LmY7JmAIOuPmeydvOygnOyhsOyCrA0KDQrj
+gIANCg0KDQrjgIANCg0K44CADQoNCuyDgeq4sCDquLDriqXsnbQg7KCc6rO165CY64qUIOuPmeuT
+sSDsnbTsg4HsnZgg7KCc7ZKI7Jy866GcIOygnOyViOuQmOyWtOyVvCDtlZzri6QuDQoNCg0K7JqU
+6rWs7IKs7ZWt67KI7Zi4DQoNCkVDUi00MTQNCg0K7J2R65297IiY7KSADQoNCu2VhOyImA0KDQoN
+CuyalOq1rOyCrO2VreuqhQ0KDQrsiqTthqDrpqzsp4AgLyBTQU7siqTsnITsuZgoMTYgUG9ydCkN
+Cg0KDQrsmpTqtazsgqztla3rtoTrpZgNCg0K7ZmU7IOB6rCQ7Iuc7Iuc7Iqk7YWcIC8g6riw67O4
+6riw64qlIC8gKOyKpO2GoOumrOyngCAvIFNBTuyKpOychOy5mCgxNiBQb3J0KSkNCg0KDQrsmpTq
+tawNCg0K7KCV7J2YDQoNCkNDVFbsubTrqZTrnbwg7JiB7IOB7J2EIOyggOyepSwg67O06rSA7ZWY
+64qUIOyepeu5hOuhnOyEnCDrjIDsmqnrn4kg642w7J207YSw66W8IO2aqOycqOyggeycvOuhnCDs
+oIDsnqXtlaAg7IiYIOyeiOuPhOuhnSDqtazstpXtlbTslbwg7ZWc64ukLg0KDQoNCuyCrO2VrQ0K
+DQoNCuyDgeyEuA0KDQoNCuyEpOuqhQ0KDQrshLjrtoANCg0K7Iqk7Yag66as7KeA64qUIOuMgOya
+qeufiSDsmIHsg4HrjbDsnbTthLDrpbwg7Zqo7Jyo7KCB7Jy866GcIOyggOyepe2VmOqzoCwg64yA
+7Jqp65+JIOuNsOydtO2EsCDsspjrpqzqsIAg7Jqp7J207ZWcIOyepeu5hOuhnCDsoIHsmqntlZjs
+l6zslbwg7ZWc64ukLg0KDQoNCuOAgA0KDQrrgrTsmqkNCg0K7Zal7ZuEIOyaqeufiSDtmZXsnqXs
+nbQg6rCA64ql7ZWY7Jes7JW8IO2VnOuLpC4NCg0KDQrjgIANCg0K44CADQoNCuuMgOyaqeufiSDr
+jbDsnbTthLDsnZgg7Zqo7Jyo7KCBIOyggOyepSDrsI8g7JWI7KCV7ISx7J2EIOqzoOugpO2VmOyX
+rCBTQU4gKFN0b3JhZ2UgQXJlYSBOZXR3b3JrKSDrsKnsi53snZgg7Iqk7Yag66as7KeA66W8IOyg
+geyaqe2VmOqzoCBTQU7sl5Ag7Jew6rKw65CY64qUIOqzoOqwgOyaqeyEseydmCDsmbjsnqXsiqTt
+hqDrpqzsp4DroZwg6rWs7ISx7ZWY7Jes7JW8IO2VnOuLpC4gDQoNCg0K44CADQoNCuOAgA0KDQrs
+iqTthqDrpqzsp4ANCg0KDQrjgIANCg0K44CADQoNCuq1rOu2hA0KDQrsiqTthqDrpqzsp4ANCg0K
+44CADQoNCg0K44CADQoNCuOAgA0KDQrsiJjrn4kNCg0KNSBFQQ0KDQrjgIANCg0KDQrjgIANCg0K
+44CADQoNCuq3nOqyqQ0KDQrilqAgM1UgMTZiYXkgU3RvcmFnZQ0KDQrjgIANCg0KDQrjgIANCg0K
+44CADQoNCuKWoCAzVEIqMzJlYSBVc2FibGUgNzVUQg0KDQrjgIANCg0KDQrjgIANCg0K44CADQoN
+CuKWoCDquLDspIAgOiAzMOydvCDsnbTsg4ENCg0K44CADQoNCg0K44CADQoNCuOAgA0KDQrilqAg
+7ZW07IOB64+EIDogSEQsIDE1RlBTIOydtOyDgQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNClNB
+TuyKpOychOy5mCgxNiBQb3J0KQ0KDQoNCuOAgA0KDQrjgIANCg0K6rWs67aEDQoNClNBTuyKpOyc
+hOy5mCgxNiBQb3J0KQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuyImOufiQ0KDQoyIEVBDQoN
+CuOAgA0KDQoNCuOAgA0KDQrjgIANCg0K6rec6rKpDQoNCuKWoCA4IEdicHMgRkMgMTZwb3J0IOyd
+tOyDgQ0KDQrjgIANCg0KDQrjgIANCg0K44CADQoNCuKWoCDsnbTspJHtmZQgU29sdXRpb24g7YOR
+7J6sDQoNCuOAgA0KDQoNCuOAgA0KDQrjgIANCg0K7IOB6riwIOq4sOuKpeydtCDsoJzqs7XrkJjr
+ipQg64+Z65OxIOydtOyDgeydmCDsoJztkojsnLzroZwg7KCc7JWI65CY7Ja07JW8IO2VnOuLpC4N
+Cg0KDQoNCg0KPT09PT09PT09PT09PT09PT09PT09PT09PT0gDQrrjIDtkZw7IOq5gCDsoJXtg50g
+DQrsoJzslKjthYztgawo7KO8KSANCjAxMC04OTExLTUwNjMgDQp5bmo2MTAyQGRhdW0ubmV0IDxt
+YWlsdG86eW5qNjEwMkBkYXVtLm5ldD4gIA0K7Jyg66y07ISgIOyduO2UhOudvCDthrXtlanshpTr
+o6jshZjsoITrrLggDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09ICAgPGh0dHA6Ly93d2wx
+NzI2Lmhhbm1haWwubmV0OjQyODAvQGZyb209eW5qNjEwMiZyY3B0PXd5JTJFamV1bmclNDBhZ2ls
+ZXN5cyUyRWNvJTJFa3ImbXNnaWQ9JTNDMjAxNzAyMDIxOTI4MzMlMkVITSUyRTAwMDAwMDAwMDAw
+MFNEMyU0MHluajYxMDIlMkV3d2wxNzI2JTJFaGFubWFpbCUyRW5ldCUzRT4gDQoNCg==
+
+------=_NextPart_000_0005_01D27DFC.519C8B10
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=EB=B0=94=ED=83=95;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=EB=8F=8B=EC=9B=80;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EA=B5=B4=EB=A6=BC";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=EB=B0=94=ED=83=95";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=EB=8F=8B=EC=9B=80";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=ED=8C=80=EC=9E=A5=EB=8B=98<span =
+lang=3DEN-US> <o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=95=84=EB=9E=98 =
+=EC=8A=A4=ED=8E=99=EC=9D=84 =
+=EC=B0=B8=EC=A1=B0=ED=95=98=EC=8B=9C=EC=96=B4 =
+=EC=9E=A5=EB=B9=84=EC=84=A0=EC=A0=95 =
+=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>IRIS</span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EB=A1=9C =
+=EC=84=A0=EC=A0=95=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=AC=EB=A9=B0 =
+=EC=9B=8C=EB=9F=B0=ED=8B=B0<span lang=3DEN-US> =
+1</span>=EB=85=84=EC=9E=85=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=
+=8B=A4<span lang=3DEN-US>.<o:p></o:p></span></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p=
+></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>(</span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=A3=BC<span lang=3DEN-US>) =
+</span>=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4<span lang=3DEN-US> / =
+</span>=EC=84=9C=EC=9A=B8=EC=98=81=EC=97=85=EB=B3=B8=EB=B6=80<span =
+lang=3DEN-US> /&nbsp; </span>=EC=A0=95=EC=9B=90=EC=9A=A9 =
+=EB=8C=80=EB=A6=AC<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Tel. 070-7114-0086 / Fax. =
+02-586-5070<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Mobile. =
+010-5578-2663<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>E-Mail. <a =
+href=3D"mailto:wy.jeung@agilesys.co.kr"><span =
+style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr</span></a><o:p></o:p></sp=
+an></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Address. </span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=84=9C=EC=9A=B8=EC=8B=9C =
+=EC=84=9C=EC=B4=88=EA=B5=AC =EB=B0=98=ED=8F=AC=EB=8F=99<span =
+lang=3DEN-US> 67-3 </span>=EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9<span =
+lang=3DEN-US> 4</span>=EC=B8=B5 <span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p=
+></span></p><p class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>From:</span=
+></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+ynj6102@daum.net [mailto:ynj6102@daum.net] <br><b>Sent:</b> Thursday, =
+February 2, 2017 7:29 PM<br><b>To:</b> =
+wy.jeung@agilesys.co.kr<br><b>Subject:</b> 00</span><span =
+style=3D'font-size:11.0pt'>=ED=95=AD=EB=A7=8C</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span style=3D'font-size:11.0pt'>=EC=8A=A4=ED=8E=99</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span =
+style=3D'font-size:11.0pt'>=EA=B2=80=ED=86=A0=EB=B0=8F</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span =
+style=3D'font-size:11.0pt'>=EA=B2=AC=EC=A0=81=EC=9A=94=EC=B2=AD</span><sp=
+an lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D"100%" =
+style=3D'width:100.0%'><tr><td valign=3Dtop style=3D'padding:8.0pt 8.0pt =
+8.0pt 8.0pt'><div><div><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 width=3D"100%" =
+style=3D'width:100.0%'><tr><td valign=3Dtop style=3D'padding:8.0pt 8.0pt =
+8.0pt 8.0pt'><div><div><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 width=3D"100%" =
+style=3D'width:100.0%'><tr><td valign=3Dtop style=3D'padding:8.0pt 8.0pt =
+8.0pt 8.0pt'><div><div><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 width=3D"100%" =
+style=3D'width:100.0%'><tr><td valign=3Dtop style=3D'padding:8.0pt 8.0pt =
+8.0pt 8.0pt'><div><p><span =
+style=3D'font-size:10.0pt;font-family:=EB=8F=8B=EC=9B=80;color:#333333'>=EC=
+=88=98=EA=B3=A0=ED=95=98=EC=8B=AD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>!<o:p></o:p></span></span></p><p><span =
+style=3D'font-size:10.0pt;font-family:=EB=8F=8B=EC=9B=80;color:#333333'>=EC=
+=95=84=EB=9E=98 =EC=9E=A5=EB=B9=84 =EC=8A=A4=ED=8E=99 =
+=EA=B2=80=ED=86=A0=ED=95=98=EC=8B=9C=EC=96=B4<span lang=3DEN-US>, =
+</span>=EC=8B=A4=ED=96=89=EA=B0=80=EA=B2=A9=EC=9D=84 =
+=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>!<o:p></o:p></span></span></p><p><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:=EB=8F=8B=EC=9B=80;color:#333333'>&=
+nbsp;<o:p></o:p></span></p><p><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:=EB=8F=8B=EC=9B=80;color:#333333'>&=
+nbsp;<o:p></o:p></span></p><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 width=3D979 =
+style=3D'width:734.0pt;border-collapse:collapse'><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B2=
+=88=ED=98=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>ECR-602</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=91=EB=9D=BD=EC=88=98=EC=A4=80</sp=
+an></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D72 =
+style=3D'width:54.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=84=EC=88=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=AA=
+=85</span></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98<span lang=3DEN-US> (Backbone Switch)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B6=
+=84=EB=A5=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B3=B4=EC=95=88=EB=84=A4=ED=8A=B8=EC=9B=
+=8C=ED=81=AC=EC=8B=9C=EC=8A=A4=ED=85=9C<span lang=3DEN-US> / =
+</span>=EA=B8=B0=EB=B3=B8=EA=B8=B0=EB=8A=A5<span lang=3DEN-US> / =
+</span>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=98<span lang=3DEN-US> =
+(Backbone Switch)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:13.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:13.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 rowspan=3D3 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:13.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=95=EC=9D=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+rowspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:13.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=AD=EB=A7=8C=EB=B3=B4=EC=95=88=EC=8B=
+=9C=EC=8A=A4=ED=85=9C=EC=9D=98 =EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=EC=A0=84=EC=86=A1=ED=95=98=EB=8A=94 =
+=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC =
+=EB=A9=94=EC=9D=B8=EC=9E=A5=EB=B9=84=EB=A1=9C =
+=EC=A2=85=ED=95=A9=EC=83=81=ED=99=A9=EC=8B=A4=EC=97=90 =
+=EC=84=A4=EC=B9=98=EB=90=98=EC=96=B4 =ED=95=98=EB=B6=80 =
+=ED=95=AD=EB=A7=8C=EB=B3=B4=EC=95=88=EC=8B=9C=EC=8A=A4=ED=85=9C=EC=9D=98 =
+=EB=8C=80=EC=9A=A9=EB=9F=89 =EB=B0=8F =EC=B4=88=EA=B3=A0=EC=86=8D =
+=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=EC=A0=84=EC=86=A1=ED=95=98=EB=8A=94 =EA=B8=B0=EB=8A=A5=EC=9D=84 =
+=EC=88=98=ED=96=89=ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:11.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:11.25pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=82=AC=ED=95=AD</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:11.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:11.25pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EC=84=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:24.75pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:24.75pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=A4=EB=AA=85</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:24.75pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=B8=EB=B6=80</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:24.75pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98=EB=8A=94 =EC=A2=85=ED=95=A9=EC=83=81=ED=99=A9=EC=8B=A4=EA=B3=BC =
+=EA=B0=81 =EC=B4=88=EC=86=8C<span =
+lang=3DEN-US>/</span>=EA=B2=8C=EC=9D=B4=ED=8A=B8 =EA=B0=84=EC=9D=98 =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1 =EB=B0=8F =
+=EA=B3=B5=EC=9C=A0 =EA=B8=B0=EB=8A=A5=EC=9D=84 =
+=EC=A0=9C=EA=B3=B5=ED=95=98=EC=97=AC=EC=95=BC=ED=95=98=EB=A9=B0<span =
+lang=3DEN-US>, =
+</span>=ED=95=AD=EB=A7=8C=EB=B3=B4=EC=95=88=EC=8B=9C=EC=8A=A4=ED=85=9C=EC=
+=9D=98 =ED=95=98=EB=B6=80 =EC=8A=A4=EC=9C=84=EC=B9=98=EB=A5=BC =
+=EC=88=98=EC=9A=A9=ED=95=98=EC=97=AC =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=82=B4=EC=9A=A9</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=84=EA=B8=B0=ED=86=B5=EC=8B=A0=EA=B8=
+=B0=EC=9E=90=EC=9E=AC =ED=98=95=EC=8B=9D=EC=8A=B9=EC=9D=B8=EC=9D=84 =
+=EB=B0=9B=EC=9D=80 =EC=A0=9C=ED=92=88=EC=9D=B4=EC=96=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:20.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:20.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:20.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:20.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=B5=9C=EB=8C=80 =
+=EA=B0=80=EC=9A=A9=ED=95=9C =ED=8F=AC=ED=8A=B8 =
+=EC=88=98=EC=9A=A9=EC=97=90=EC=84=9C<span lang=3DEN-US> Non-Blocking =
+</span>=EB=B0=8F<span lang=3DEN-US> Wired-Speed</span>=EB=A5=BC =
+=EC=A0=9C=EA=B3=B5=ED=95=98=EA=B3=A0 =
+=EA=B3=A0=EC=84=B1=EB=8A=A5=EC=9D=98<span lang=3DEN-US> Switching =
+</span>=EB=B0=8F<span lang=3DEN-US> Routing =
+</span>=EA=B8=B0=EB=8A=A5=EC=9D=84 =
+=EC=A0=9C=EA=B3=B5=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:26.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:26.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:26.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:26.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98=EC=99=80 =EA=B0=81 =EC=B4=88=EC=86=8C<span =
+lang=3DEN-US>/</span>=EA=B2=8C=EC=9D=B4=ED=8A=B8=EC=97=90 =
+=EC=84=A4=EC=B9=98=EB=90=98=EB=8A=94<span lang=3DEN-US> Access =
+Switch</span>=EC=99=80=EC=9D=98 =ED=86=B5=EC=8B=A0=EC=9D=80<span =
+lang=3DEN-US> 10Gbps</span>=EC=9D=B4=EC=83=81=EC=9C=BC=EB=A1=9C =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC =EB=8C=80=EC=9A=A9=EB=9F=89 =
+=ED=8A=B8=EB=9E=98=ED=94=BD =EC=B2=98=EB=A6=AC=EB=A5=BC =ED=95=A0 =
+=EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:30.0pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:30.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:30.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:30.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=85=BC=EB=A6=AC=EC=A0=81=EC=9C=BC=EB=A1=
+=9C<span lang=3DEN-US> VLAN</span>=EC=9D=84 =
+=EB=82=98=EB=88=84=EC=96=B4=EC=84=9C =
+=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC=EB=A5=BC =
+=ED=9A=A8=EC=9C=A8=EC=A0=81=EC=9C=BC=EB=A1=9C =
+=EA=B4=80=EB=A6=AC=ED=95=98=EA=B3=A0<span lang=3DEN-US> VLAN =
+</span>=EA=B0=84 =EB=8D=B0=EC=9D=B4=ED=84=B0 =ED=86=B5=EC=8B=A0 =
+=EC=8B=9C =EC=A0=95=EC=B1=85=EC=97=90 =EC=9D=98=ED=95=9C =
+=ED=97=88=EC=9A=A9<span lang=3DEN-US>, =
+</span>=EC=B0=A8=EB=8B=A8=EC=9D=84 =EC=A0=81=EC=9A=A9=ED=95=98=EC=97=AC =
+=EB=B3=B4=EC=95=88=EC=9D=84 =
+=EA=B0=95=ED=99=94=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=A4=91 =
+=EC=A0=84=EC=9B=90=EC=9E=A5=EC=B9=98=EB=A5=BC =
+=ED=86=B5=ED=95=B4=EC=84=9C =ED=95=AB=EC=8A=A4=EC=99=91 =
+=EC=BF=A8=EB=A7=81<span =
+lang=3DEN-US>=C2=B7</span>=EC=A0=84=EC=9B=90=EC=9E=A5=EC=B9=98=EB=A5=BC =
+=EA=B5=AC=EB=B9=84=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>6</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C =
+=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> I/O =
+</span>=EC=8A=AC=EB=A1=AF =EC=9E=A5=EC=B0=A9 =EC=A7=80=EC=9B=90=EC=9D=B4 =
+=EA=B0=80=EB=8A=A5=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:34.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B8=B0=EB=B3=B8=EC=A0=81=EC=9C=BC=EB=A1=
+=9C<span lang=3DEN-US> ACL(Access Control List)</span>=EC=9D=84 =
+=EC=A0=81=EC=9A=A9=ED=95=98=EC=97=AC =
+=EC=9E=A5=EB=B9=84=EC=A0=91=EA=B7=BC=EC=97=90 =
+=EB=8C=80=ED=95=98=EC=97=AC =EB=B3=B4=EC=95=88=EC=9D=84 =
+=EA=B0=95=ED=99=94=ED=95=98=EA=B3=A0 =ED=97=88=EC=9A=A9=EB=90=9C =
+=EA=B4=80=EB=A6=AC=EC=9E=90=EC=99=80=EC=9D=98 =
+=ED=86=B5=EC=8B=A0=EB=8F=84 =EC=95=94=ED=98=B8=ED=99=94=EB=90=9C =
+=ED=94=84=EB=A1=9C=ED=86=A0=EC=BD=9C=EC=9D=84 =
+=EC=82=AC=EC=9A=A9=ED=95=98=EC=97=AC =EB=B3=B4=EC=95=88=EC=9D=84 =
+=EA=B0=95=ED=99=94=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98 =EB=B0=8F<span lang=3DEN-US> Access Switch </span>=EB=8A=94 =
+=EA=B8=B0=EC=A1=B4 =EA=B5=AC=EC=B6=95=EB=90=98=EC=96=B4 =
+=EC=9E=88=EB=8A=94 =EC=84=9C=EB=B2=84<span lang=3DEN-US> =
+Rack</span>=EC=97=90 =EC=84=A4=EC=B9=98=ED=95=98=EC=97=AC =
+=EC=8B=A4=EC=9E=A5=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. =
+</span></span><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98<span lang=3DEN-US> (Backbone Switch)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EB=B6=84</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98<span lang=3DEN-US> (Backbone Switch)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=88=98=EB=9F=89</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>1 EA</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 rowspan=3D11 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B7=9C=EA=B2=A9</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 480 / 768 / 1152Gbps =
+</span><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=83=81=EC=9D=98<span =
+lang=3DEN-US> Switching Capacity </span>=EC=A7=80=EC=9B=90</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 276 / 488 / 714Mpps =
+</span><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=83=81=EC=9D=98 =
+=ED=8C=A8=ED=82=B7 =EC=B2=98=EB=A6=AC =EC=A7=80=EC=9B=90 =
+=EA=B0=80=EB=8A=A5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 IPv4 / IPv6 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=97=90=EC=84=9C =
+=EB=8F=99=EC=9D=BC=ED=95=9C =EC=84=B1=EB=8A=A5 =
+=EC=A7=80=EC=9B=90</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 I/O </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=AA=A8=EB=93=88 =EB=B0=8F =
+=EC=9D=B8=ED=84=B0=ED=8E=98=EC=9D=B4=EC=8A=A4</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 3 / 6 / 10</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C =
+=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> I/O =
+</span>=EC=8A=AC=EB=A1=AF =EC=9E=A5=EC=B0=A9 =EC=A7=80=EC=9B=90 =
+=EA=B0=80=EB=8A=A5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 2</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C=EC=9D=98 =EC=97=94=EC=A7=80 =
+=EB=AA=A8=EB=93=88</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=B5=9C=EB=8C=80<span lang=3DEN-US> =
+168 / 312 / 480</span>=EA=B0=9C =EC=9D=B4=EC=83=81=EC=9D=98 =
+=EA=B8=B0=EA=B0=80 =ED=8F=AC=ED=8A=B8 =EC=A7=80=EC=9B=90 =
+=EA=B0=80=EB=8A=A5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=B5=9C=EB=8C=80<span lang=3DEN-US> =
+28 / 52 / 80</span>=EA=B0=9C =EC=9D=B4=EC=83=81=EC=9D=98<span =
+lang=3DEN-US> 10GE </span>=ED=8F=AC=ED=8A=B8 =EC=9E=A5=EC=B0=A9 =
+=EA=B0=80=EB=8A=A5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=B5=9C=EB=8C=80<span lang=3DEN-US> =
+12 / 24 / 40</span>=EA=B0=9C =EC=9D=B4=EC=83=81=EC=9D=98<span =
+lang=3DEN-US> 40GE </span>=ED=8F=AC=ED=8A=B8 =EC=9E=A5=EC=B0=A9 =
+=EA=B0=80=EB=8A=A5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 Passive Backplane =
+</span><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EC=A1=B0</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=84=EC=9B=90 =
+=EC=9D=B4=EC=A4=91=ED=99=94 =EB=B0=8F =ED=95=AB =EC=8A=A4=EC=99=91 =
+=EC=A0=9C=EA=B3=B5</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EA=B8=B0 =
+=EA=B8=B0=EB=8A=A5=EC=9D=B4 =EC=A0=9C=EA=B3=B5=EB=90=98=EB=8A=94 =
+=EB=8F=99=EB=93=B1 =EC=9D=B4=EC=83=81=EC=9D=98 =
+=EC=A0=9C=ED=92=88=EC=9C=BC=EB=A1=9C =
+=EC=A0=9C=EC=95=88=EB=90=98=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td></tr><tr style=3D'height:17.25pt'><td =
+width=3D215 colspan=3D2 style=3D'width:161.0pt;border:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B2=
+=88=ED=98=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>ECR-603</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=91=EB=9D=BD=EC=88=98=EC=A4=80</sp=
+an></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D72 =
+style=3D'width:54.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=84=EC=88=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=AA=
+=85</span></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(10G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B6=
+=84=EB=A5=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B3=B4=EC=95=88=EB=84=A4=ED=8A=B8=EC=9B=
+=8C=ED=81=AC=EC=8B=9C=EC=8A=A4=ED=85=9C<span lang=3DEN-US> / =
+</span>=EA=B8=B0=EB=B3=B8=EA=B8=B0=EB=8A=A5<span lang=3DEN-US> / Access =
+Switch(10G, PoE)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:12.75pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:12.75pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:12.75pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=95=EC=9D=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:12.75pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=81 =EC=B4=88=EC=86=8C<span =
+lang=3DEN-US>/</span>=EA=B2=8C=EC=9D=B4=ED=8A=B8=EC=97=90 =
+=EC=84=A4=EC=B9=98=EB=90=98=EB=8A=94<span lang=3DEN-US> Access =
+Switch</span>=EB=A1=9C =EC=98=81=EC=83=81=EA=B4=80=EC=A0=9C<span =
+lang=3DEN-US>, RFID </span>=EC=B6=9C=EC=9E=85=EA=B4=80=EB=A6=AC<span =
+lang=3DEN-US>, =
+</span>=EA=B2=BD=EA=B3=A0=EB=B0=A9=EC=86=A1=EC=9A=A9=EC=9C=BC=EB=A1=9C =
+=EA=B5=AC=EC=B6=95=EB=90=98=EB=A9=B0<span lang=3DEN-US>, =
+</span>=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC =
+=ED=92=88=EC=A7=88=ED=99=95=EB=B3=B4=EB=A5=BC =EC=9C=84=ED=95=B4<span =
+lang=3DEN-US> 10G</span>=EB=A5=BC =
+=EB=B0=98=EC=98=81=ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:34.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:34.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=A4=EB=AA=85</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:solid black =
+1.0pt;border-left:none;border-bottom:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=B8=EB=B6=80</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:solid black =
+1.0pt;border-left:none;border-bottom:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98=EC=99=80<span lang=3DEN-US> Access Switch =
+</span>=EA=B0=84=EC=97=90=EB=8A=94<span lang=3DEN-US> =
+10Gbps</span>=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> =
+Up-Link</span>=EB=A1=9C =EC=84=A4=EA=B3=84=ED=95=98=EA=B3=A0<span =
+lang=3DEN-US> Ring</span>=ED=98=95 =EA=B5=AC=EC=A1=B0=EC=9D=98 =
+=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC=EB=A5=BC =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC =EC=95=88=EC=A0=95=EC=84=B1 =
+=EB=B0=8F =EB=8C=80=EC=9A=A9=EB=9F=89 =ED=8A=B8=EB=9E=98=ED=94=BD =
+=EC=B2=98=EB=A6=AC=EB=A5=BC =ED=95=A0 =EC=88=98 =
+=EC=9E=88=EB=8F=84=EB=A1=9D =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:25.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:25.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:25.5pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=82=B4=EC=9A=A9</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:25.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=98=EB=B6=80 =
+=EB=8B=A8=EB=A7=90=EA=B3=BC=EC=9D=98 =ED=86=B5=EC=8B=A0=EC=9D=80<span =
+lang=3DEN-US> 1Gbps</span>=EC=9D=98 =EC=86=8D=EB=8F=84=EB=A1=9C =
+=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=EC=A0=84=EC=86=A1=ED=95=98=EB=A9=B0<span lang=3DEN-US> PoE(Power of =
+Ethernet)</span>=EC=A7=80=EC=9B=90=EC=9C=BC=EB=A1=9C =
+=EC=A7=81=EB=A5=98=EC=A0=84=EC=9B=90 =EC=A0=9C=EA=B3=B5 =EB=B0=8F =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1=EC=97=90 =
+=ED=95=84=EC=9A=94=ED=95=9C<span lang=3DEN-US> 10/100/1000Base-T =
+</span>=EC=9D=B8=ED=84=B0=ED=8E=98=EC=9D=B4=EC=8A=A4=EB=A5=BC =
+=EC=A0=9C=EA=B3=B5=ED=95=98=EB=8A=94 =EA=B8=B0=EB=8A=A5=EC=9D=84 =
+=EC=88=98=ED=96=89=ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=84=EA=B8=B0=ED=86=B5=EC=8B=A0=EA=B8=
+=B0=EC=9E=90=EC=9E=AC =ED=98=95=EC=8B=9D=EC=8A=B9=EC=9D=B8=EC=9D=84 =
+=EB=B0=9B=EC=9D=80 =EC=A0=9C=ED=92=88=EC=9D=B4=EC=96=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=98=81=EC=83=81 =EB=B0=8F =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1 =EC=8B=9C =
+=ED=92=88=EC=A7=88=EC=9D=B4 =
+=ED=99=95=EB=B3=B4=EB=90=98=EC=96=B4=EC=95=BC =ED=95=98=EA=B3=A0 =
+=EC=A7=80=EC=97=B0=EC=8B=9C=EA=B0=84=EC=9D=B4 =
+=EC=97=86=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span lang=3DEN-US>. =
+</span></span><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>128Gbps </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=98 =EC=8A=A4=EC=9C=84=EC=B9=AD =
+=EC=84=B1=EB=8A=A5=EA=B3=BC =EC=B4=88=EB=8B=B9<span lang=3DEN-US> 96Mpps =
+</span>=ED=8C=A8=ED=82=B7=EC=B2=98=EB=A6=AC =EB=8A=A5=EB=A0=A5=EC=9D=84 =
+=EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>2</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C =
+=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> SFP+ 10GbE =
+</span>=ED=8F=AC=ED=8A=B8<span lang=3DEN-US>, 2</span>=EA=B0=9C =
+=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> SFP 1GbE =
+</span>=ED=8F=AC=ED=8A=B8<span lang=3DEN-US>, 24 =
+</span>=EA=B0=9C=EC=9D=98<span lang=3DEN-US> RJ-45 10/100/1000 PoE =
+</span>=ED=8F=AC=ED=8A=B8=EB=A5=BC =EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98<span lang=3DEN-US>(Backbone Switch)</span>=EC=99=80 =
+=EB=8F=99=EC=9D=BC =EC=A0=9C=EC=A1=B0=EC=82=AC =
+=EC=A0=9C=ED=92=88=EC=9D=B4=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(10G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EB=B6=84</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(10G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=88=98=EB=9F=89</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>6 EA</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:27.0pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 rowspan=3D8 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B7=9C=EA=B2=A9</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 128Gbps </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=98 =EC=8A=A4=EC=9C=84=EC=B9=AD =
+=EC=84=B1=EB=8A=A5=EA=B3=BC =EC=B4=88=EB=8B=B9<span lang=3DEN-US> 96Mpps =
+</span>=ED=8C=A8=ED=82=B7=EC=B2=98=EB=A6=AC =EB=8A=A5=EB=A0=A5=EC=9D=84 =
+=EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 1GB </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=83=81=EC=9D=98<span =
+lang=3DEN-US> SDRAM, 128MB </span>=EC=9D=B4=EC=83=81=EC=9D=98<span =
+lang=3DEN-US> Flash</span>=EC=9D=84 =EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 24 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C=EC=9D=98<span lang=3DEN-US> =
+PoE 10/100/1000Base-T </span>=ED=8F=AC=ED=8A=B8=EB=A5=BC =
+=EA=B8=B0=EB=B3=B8 =EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 4 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C=EC=9D=98<span lang=3DEN-US> =
+1000Baxe-X </span>=ED=8F=AC=ED=8A=B8=EB=A5=BC =EA=B8=B0=EB=B3=B8 =
+=EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 2</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C =ED=99=95=EC=9E=A5<span =
+lang=3DEN-US> 10GbE SFP+ 2p Module</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 720W AC PoE Power =
+Supply</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:27.0pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:27.0pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=BD=98=EC=86=94=ED=8F=AC=ED=8A=B8 =
+=EB=B0=8F<span lang=3DEN-US> OOB(out-of-band management port) =
+</span>=ED=8F=AC=ED=8A=B8=EB=A5=BC =EA=B8=B0=EB=B3=B8 =
+=EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:27.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>&nbsp; </span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EA=B8=B0 =
+=EA=B8=B0=EB=8A=A5=EC=9D=B4 =EC=A0=9C=EA=B3=B5=EB=90=98=EB=8A=94 =
+=EB=8F=99=EB=93=B1 =EC=9D=B4=EC=83=81=EC=9D=98 =
+=EC=A0=9C=ED=92=88=EC=9C=BC=EB=A1=9C =
+=EC=A0=9C=EC=95=88=EB=90=98=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td><td style=3D'padding:0cm 0cm 0cm =
+0cm;height:16.5pt'></td></tr><tr style=3D'height:17.25pt'><td =
+width=3D215 colspan=3D2 style=3D'width:161.0pt;border:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B2=
+=88=ED=98=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>ECR-604</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=91=EB=9D=BD=EC=88=98=EC=A4=80</sp=
+an></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D72 =
+style=3D'width:54.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=84=EC=88=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=AA=
+=85</span></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(1G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B6=
+=84=EB=A5=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B3=B4=EC=95=88=EB=84=A4=ED=8A=B8=EC=9B=
+=8C=ED=81=AC=EC=8B=9C=EC=8A=A4=ED=85=9C<span lang=3DEN-US> / =
+</span>=EA=B8=B0=EB=B3=B8=EA=B8=B0=EB=8A=A5<span lang=3DEN-US> / Access =
+Switch(1G, PoE)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=95=EC=9D=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=99=B8=EA=B3=BD =
+=EC=9A=B8=ED=83=80=EB=A6=AC=EC=A7=80=EC=97=AD=EC=97=90 =
+=EC=84=A4=EC=B9=98=EB=90=98=EB=8A=94<span lang=3DEN-US> Access =
+Switch</span>=EB=A1=9C =EC=98=81=EC=83=81=EA=B4=80=EC=A0=9C<span =
+lang=3DEN-US>, =
+</span>=EA=B2=BD=EA=B3=A0=EB=B0=A9=EC=86=A1=EC=9A=A9=EC=9C=BC=EB=A1=9C =
+=EA=B5=AC=EC=B6=95=EB=90=98=EB=A9=B0<span lang=3DEN-US>, =
+</span>=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC =
+=ED=92=88=EC=A7=88=ED=99=95=EB=B3=B4=EB=A5=BC =EC=9C=84=ED=95=B4<span =
+lang=3DEN-US> 1G</span>=EB=A5=BC =
+=EB=B0=98=EC=98=81=ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:18.0pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:18.0pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=A4=EB=AA=85</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:solid black =
+1.0pt;border-left:none;border-bottom:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:18.0pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=B8=EB=B6=80</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:solid black =
+1.0pt;border-left:none;border-bottom:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:18.0pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=81 =EC=B4=88=EC=86=8C<span =
+lang=3DEN-US>/</span>=EA=B2=8C=EC=9D=B4=ED=8A=B8=EC=97=90 =
+=EC=84=A4=EC=B9=98=EB=90=98=EB=8A=94<span lang=3DEN-US> Access =
+Switch</span>=EC=99=80<span lang=3DEN-US> Ring</span>=ED=98=95 =
+=EA=B5=AC=EC=A1=B0=EC=9D=98 =
+=EB=84=A4=ED=8A=B8=EC=9B=8C=ED=81=AC=EB=A1=9C =
+=EA=B5=AC=EC=84=B1=ED=95=98=EB=A9=B0<span lang=3DEN-US>, 1Gbps =
+</span>=EC=9D=B4=EC=83=81=EC=9D=98 =EC=86=8D=EB=8F=84=EB=A1=9C =
+=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=EC=A0=84=EC=86=A1=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:30.75pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:30.75pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:30.75pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=82=B4=EC=9A=A9</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:30.75pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>PoE(Power of Ethernet) </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A7=80=EC=9B=90=EC=9C=BC=EB=A1=9C<spa=
+n lang=3DEN-US> CCTV</span>=EC=B9=B4=EB=A9=94=EB=9D=BC=EC=9D=98 =
+=EC=A7=81=EB=A5=98=EC=A0=84=EC=9B=90 =EC=A0=9C=EA=B3=B5 =EB=B0=8F =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1=EC=97=90 =
+=ED=95=84=EC=9A=94=ED=95=9C<span lang=3DEN-US> 10/100/1000Base-T =
+</span>=EC=9D=B8=ED=84=B0=ED=8E=98=EC=9D=B4=EC=8A=A4=EB=A5=BC =
+=EC=A0=9C=EA=B3=B5=ED=95=98=EB=8A=94 =EA=B8=B0=EB=8A=A5=EC=9D=84 =
+=EC=88=98=ED=96=89=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. =
+</span></span><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=84=EA=B8=B0=ED=86=B5=EC=8B=A0=EA=B8=
+=B0=EC=9E=90=EC=9E=AC =ED=98=95=EC=8B=9D=EC=8A=B9=EC=9D=B8=EC=9D=84 =
+=EB=B0=9B=EC=9D=80 =EC=A0=9C=ED=92=88=EC=9D=B4=EC=96=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=98=81=EC=83=81 =EB=B0=8F =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1 =EC=8B=9C =
+=ED=92=88=EC=A7=88=EC=9D=B4 =
+=ED=99=95=EB=B3=B4=EB=90=98=EC=96=B4=EC=95=BC =ED=95=98=EA=B3=A0 =
+=EC=A7=80=EC=97=B0=EC=8B=9C=EA=B0=84=EC=9D=B4 =
+=EC=97=86=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span lang=3DEN-US>. =
+</span></span><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>2</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B0=9C =
+=EC=9D=B4=EC=83=81=EC=9D=98<span lang=3DEN-US> SFP 1GbE =
+</span>=ED=8F=AC=ED=8A=B8<span lang=3DEN-US>, 24 =
+</span>=EA=B0=9C=EC=9D=98<span lang=3DEN-US> RJ-45 10/100/1000 PoE =
+</span>=ED=8F=AC=ED=8A=B8=EB=A5=BC =EC=A0=9C=EA=B3=B5=ED=95=B4=EC=95=BC =
+=ED=95=9C=EB=8B=A4<span lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98<span lang=3DEN-US>(Backbone Switch) </span>=EB=B0=8F<span =
+lang=3DEN-US> Access Switch(10G, PoE)</span>=EC=99=80 =EB=8F=99=EC=9D=BC =
+=EC=A0=9C=EC=A1=B0=EC=82=AC =
+=EC=A0=9C=ED=92=88=EC=9D=B4=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(1G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EB=B6=84</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>Access Switch(1G, PoE)</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=88=98=EB=9F=89</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>8 EA</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 rowspan=3D4 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B7=9C=EA=B2=A9</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 Gigabit Ring </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A7=80=EC=9B=90</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 1G Base-X SFP =
+4Port</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 10/100/1000Base-T 24port PoE =
+</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=B0=B1=EB=B3=B8=EC=8A=A4=EC=9C=84=EC=B9=
+=98=EC=99=80 =EB=8F=99=EC=9D=BC=EC=A0=9C=EC=A1=B0=EC=82=AC</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EA=B8=B0 =
+=EA=B8=B0=EB=8A=A5=EC=9D=B4 =EC=A0=9C=EA=B3=B5=EB=90=98=EB=8A=94 =
+=EB=8F=99=EB=93=B1 =EC=9D=B4=EC=83=81=EC=9D=98 =
+=EC=A0=9C=ED=92=88=EC=9C=BC=EB=A1=9C =
+=EC=A0=9C=EC=95=88=EB=90=98=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr></table></div></td></tr></ta=
+ble></div></div><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 width=3D979 =
+style=3D'width:734.0pt;border-collapse:collapse'><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B2=
+=88=ED=98=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>ECR-414</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=91=EB=9D=BD=EC=88=98=EC=A4=80</sp=
+an></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D72 =
+style=3D'width:54.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=84=EC=88=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=AA=
+=85</span></strong><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80<spa=
+n lang=3DEN-US> / SAN</span>=EC=8A=A4=EC=9C=84=EC=B9=98<span =
+lang=3DEN-US>(16 Port)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D215 colspan=3D2 =
+style=3D'width:161.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC=EC=82=AC=ED=95=AD=EB=B6=
+=84=EB=A5=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=99=94=EC=83=81=EA=B0=90=EC=8B=9C=EC=8B=
+=9C=EC=8A=A4=ED=85=9C<span lang=3DEN-US> / =
+</span>=EA=B8=B0=EB=B3=B8=EA=B8=B0=EB=8A=A5<span lang=3DEN-US> / =
+(</span>=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80<span lang=3DEN-US> / =
+SAN</span>=EC=8A=A4=EC=9C=84=EC=B9=98<span lang=3DEN-US>(16 =
+Port))</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9A=94=EA=B5=AC</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 rowspan=3D3 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=A0=95=EC=9D=98</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+rowspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>CCTV</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=B9=B4=EB=A9=94=EB=9D=BC =
+=EC=98=81=EC=83=81=EC=9D=84 =EC=A0=80=EC=9E=A5<span lang=3DEN-US>, =
+</span>=EB=B3=B4=EA=B4=80=ED=95=98=EB=8A=94 =
+=EC=9E=A5=EB=B9=84=EB=A1=9C=EC=84=9C =EB=8C=80=EC=9A=A9=EB=9F=89 =
+=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=ED=9A=A8=EC=9C=A8=EC=A0=81=EC=9C=BC=EB=A1=9C =
+=EC=A0=80=EC=9E=A5=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =
+=EA=B5=AC=EC=B6=95=ED=95=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=82=AC=ED=95=AD</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EC=84=B8</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><strong><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=A4=EB=AA=85</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=84=B8=EB=B6=80</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80=EB=8A=
+=94 =EB=8C=80=EC=9A=A9=EB=9F=89 =
+=EC=98=81=EC=83=81=EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =
+=ED=9A=A8=EC=9C=A8=EC=A0=81=EC=9C=BC=EB=A1=9C =
+=EC=A0=80=EC=9E=A5=ED=95=98=EA=B3=A0<span lang=3DEN-US>, =
+</span>=EB=8C=80=EC=9A=A9=EB=9F=89 =EB=8D=B0=EC=9D=B4=ED=84=B0 =
+=EC=B2=98=EB=A6=AC=EA=B0=80 =EC=9A=A9=EC=9D=B4=ED=95=9C =
+=EC=9E=A5=EB=B9=84=EB=A1=9C =
+=EC=A0=81=EC=9A=A9=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><strong><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=82=B4=EC=9A=A9</span></strong><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=96=A5=ED=9B=84 =EC=9A=A9=EB=9F=89 =
+=ED=99=95=EC=9E=A5=EC=9D=B4 =
+=EA=B0=80=EB=8A=A5=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:34.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:34.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EB=8C=80=EC=9A=A9=EB=9F=89 =
+=EB=8D=B0=EC=9D=B4=ED=84=B0=EC=9D=98 =ED=9A=A8=EC=9C=A8=EC=A0=81 =
+=EC=A0=80=EC=9E=A5 =EB=B0=8F =EC=95=88=EC=A0=95=EC=84=B1=EC=9D=84 =
+=EA=B3=A0=EB=A0=A4=ED=95=98=EC=97=AC<span lang=3DEN-US> SAN (Storage =
+Area Network) </span>=EB=B0=A9=EC=8B=9D=EC=9D=98 =
+=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80=EB=A5=BC =
+=EC=A0=81=EC=9A=A9=ED=95=98=EA=B3=A0<span lang=3DEN-US> =
+SAN</span>=EC=97=90 =EC=97=B0=EA=B2=B0=EB=90=98=EB=8A=94 =
+=EA=B3=A0=EA=B0=80=EC=9A=A9=EC=84=B1=EC=9D=98 =
+=EC=99=B8=EC=9E=A5=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80=EB=A1=9C =
+=EA=B5=AC=EC=84=B1=ED=95=98=EC=97=AC=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>. </span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80</sp=
+an><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EB=B6=84</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80</sp=
+an><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=88=98=EB=9F=89</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>5 EA</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 rowspan=3D4 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B7=9C=EA=B2=A9</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 3U 16bay Storage</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 3TB*32ea Usable =
+75TB</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B8=B0=EC=A4=80<span lang=3DEN-US> : =
+30</span>=EC=9D=BC =EC=9D=B4=EC=83=81</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=ED=95=B4=EC=83=81=EB=8F=84<span =
+lang=3DEN-US> : HD, 15FPS </span>=EC=9D=B4=EC=83=81</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>SAN</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=EC=9C=84=EC=B9=98<span =
+lang=3DEN-US>(16 Port)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B5=AC=EB=B6=84</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:solid black =
+1.0pt;border-left:none;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>SAN</span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=8A=A4=EC=9C=84=EC=B9=98<span =
+lang=3DEN-US>(16 Port)</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=88=98=EB=9F=89</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>2 EA</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D275 rowspan=3D2 =
+style=3D'width:206.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EA=B7=9C=EA=B2=A9</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 8 Gbps FC 16port </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=83=81</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D103 =
+style=3D'width:77.0pt;border-top:none;border-left:solid black =
+1.0pt;border-bottom:none;border-right:solid black 1.0pt;padding:0cm 0cm =
+0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border:none;border-right:solid black =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D417 =
+style=3D'width:313.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E2=96=A0 </span><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=9D=B4=EC=A4=91=ED=99=94<span =
+lang=3DEN-US> Solution </span>=ED=83=91=EC=9E=AC</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td =
+style=3D'border:none;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:16.5pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:17.25pt'><td width=3D103 =
+style=3D'width:77.0pt;border:solid black =
+1.0pt;border-top:none;padding:0cm 0cm 0cm 0cm;height:17.25pt'><p =
+class=3DMsoNormal><span style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D112 =
+style=3D'width:84.0pt;border-top:none;border-left:none;border-bottom:soli=
+d black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=E3=80=80</span><span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D764 colspan=3D3 =
+style=3D'width:573.0pt;border-top:none;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm =
+0cm;height:17.25pt'><p class=3DMsoNormal><span =
+style=3D'font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:black'>=EC=83=81=EA=B8=B0 =
+=EA=B8=B0=EB=8A=A5=EC=9D=B4 =EC=A0=9C=EA=B3=B5=EB=90=98=EB=8A=94 =
+=EB=8F=99=EB=93=B1 =EC=9D=B4=EC=83=81=EC=9D=98 =
+=EC=A0=9C=ED=92=88=EC=9C=BC=EB=A1=9C =
+=EC=A0=9C=EC=95=88=EB=90=98=EC=96=B4=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.</span></span><span =
+lang=3DEN-US><o:p></o:p></span></p></td></tr></table></td></tr></table></=
+div></div></td></tr></table></div></div></td></tr></table><p =
+class=3DMsoNormal><span lang=3DEN-US><br><br><br></span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D <br></span><span =
+style=3D'font-size:9.0pt'>=EB=8C=80=ED=91=9C<span lang=3DEN-US>; =
+</span>=EA=B9=80 =EC=A0=95=ED=83=9D<span lang=3DEN-US> =
+<br></span>=EC=A0=9C=EC=94=A8=ED=85=8C=ED=81=AC<span =
+lang=3DEN-US>(</span>=EC=A3=BC<span lang=3DEN-US>) <br>010-8911-5063 =
+<br><a href=3D"mailto:ynj6102@daum.net">ynj6102@daum.net</a> =
+<br></span>=EC=9C=A0=EB=AC=B4=EC=84=A0 =EC=9D=B8=ED=94=84=EB=9D=BC =
+=ED=86=B5=ED=95=A9=EC=86=94=EB=A3=A8=EC=85=98=EC=A0=84=EB=AC=B8<span =
+lang=3DEN-US> =
+<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D</span></span><span lang=3DEN-US> <img border=3D0 =
+id=3D"_x0000_i1025" =
+src=3D"http://wwl1726.hanmail.net:4280/@from=3Dynj6102&amp;rcpt=3Dwy%2Eje=
+ung%40agilesys%2Eco%2Ekr&amp;msgid=3D%3C20170202192833%2EHM%2E00000000000=
+0SD3%40ynj6102%2Ewwl1726%2Ehanmail%2Enet%3E"><o:p></o:p></span></p></div>=
+</body></html>
+------=_NextPart_000_0005_01D27DFC.519C8B10--

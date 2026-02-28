@@ -1,0 +1,255 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id WN0NMHHBomlzAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:20:33 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id C3DAD14C24
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:20:33 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1539249506036300678
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Fri, 8 Jul 2016
+ 10:51:59 +0900
+From: =?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3A58jG?= <kjhoon88@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vsjBpMjG?= <ajhof@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Fri, 8 Jul 2016 10:51:25 +0900
+Subject:
+ =?ks_c_5601-1987?B?wPy03jogW7GksO0vx9G8ul0gSW5mb3J0cmVuZCDAxyBDQ1Q=?=
+ =?ks_c_5601-1987?B?ViDA/L/rIFdpbmRvd3MgvbrF5LiuwfYgvK259iDD4r3D?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?W7GksO0vx9G8ul0gSW5mb3J0cmVuZCDAxyBDQ1RWIMD8v+sg?=
+ =?ks_c_5601-1987?B?V2luZG93cyC9usXkuK7B9iC8rbn2IMPivcM=?=
+Thread-Index: AdHYuzW4YNe5Mk+BSvad9ve0ctqypQAAAbx9
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04DBCC8E719F@MAIL-SERVER.agilesys.co.kr>
+References:
+ <201607080932096678@send45.postman.co.kr>,<5dd747e166aee7d9fd4934a158639a79@cweb22.nm.nhnsystem.com>
+In-Reply-To: <5dd747e166aee7d9fd4934a158639a79@cweb22.nm.nhnsystem.com>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04DBCC8E719FMAILSERVERa_"
+MIME-Version: 1.0
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBCC8E719FMAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+Z2hmc7W1ILChtMnH0SC/tb+qwM61pS4uLg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fXw0KurizvSC757b3OiCx6MG+vK4gW2Jvc3QxMkBuYXZlci5jb21dDQq6uLO9ILOvwqU6IDIw
+MTaz4iA3v/kgOMDPILHdv+TAzyC/wMD8IDEwOjUxDQq53rTCILvntvc6ILHowb68rg0Kwaa48Tog
+Rlc6IFuxpLDtL8fRvLpdIEluZm9ydHJlbmQgwMcgQ0NUViDA/L/rIFdpbmRvd3MgvbrF5LiuwfYg
+vK259iDD4r3DDQoNCg0KDQoNCi0tLS0tT3JpZ2luYWwgTWVzc2FnZS0tLS0tDQpGcm9tOiAiKMHW
+KcfRvLpTTUK81rfnvMciPG1rdEBoYW5zdW5nc21iLmNvLmtyPg0KVG86ICKx6MG+vK4iPGJvc3Qx
+MkBuYXZlci5jb20+Ow0KQ2M6DQpTZW50OiAyMDE2LTA3LTA4ICix3SkgMDk6MzI6MDkNClN1Ympl
+Y3Q6IFuxpLDtL8fRvLpdIEluZm9ydHJlbmQgwMcgQ0NUViDA/L/rIFdpbmRvd3MgvbrF5LiuwfYg
+vK259iDD4r3DDQoNCg0KW2h0dHA6Ly9oYW5zdW5nc21iLmNvLmtyL2VkbS9pbWFnZS8yMDE2MDdf
+aW5mb3ItRW9uU2Vydl9lRE0uanBnXTxodHRwOi8vaW1hZ2UucG9zdG1hbi5jby5rcjo4MC9DaGVj
+a05ldy5odG1sP1RWOUpSRDAzTWpFeU9UY3hOemMyJlUxUlpVRVU5VFVGVFV3PT0mUlUxQlNVeGZT
+VVE5WW05emRERXlRRzVoZG1WeUxtTnZiUT09JlRFbFRWRjlVUVVKTVJUMUZRa0ZFTURjMk1BPT0m
+VUU5VFZGOUpSRDB5TURFMk1EY3dPREV3TURBd09UTTJPVE15TlE9PSZWRU05TWpBeE5qQTNNVFU9
+JlMwbE9SRDFEJlEwbEVQVEF3TVE9PSZVUkw9aHR0cDovL3d3dy5oYW5zdW5nc21iLmNvLmtyL2N1
+c3RvbWVyL2NvbnRlbnQuYXNwP2JvYXJkPXByZXNzcm9vbSZib2FyZF9ncm91cD0wJnVpZD0yMTQ1
+MD4NCg0KW2h0dHA6Ly9oYW5zdW5nc21iLmNvLmtyL2VkbS9pbWFnZS9ib3R0b20uanBnXTxodHRw
+Oi8vaW1hZ2UucG9zdG1hbi5jby5rcjo4MC9DaGVja05ldy5odG1sP1RWOUpSRDAzTWpFeU9UY3hO
+emMyJlUxUlpVRVU5VFVGVFV3PT0mUlUxQlNVeGZTVVE5WW05emRERXlRRzVoZG1WeUxtTnZiUT09
+JlRFbFRWRjlVUVVKTVJUMUZRa0ZFTURjMk1BPT0mVUU5VFZGOUpSRDB5TURFMk1EY3dPREV3TURB
+d09UTTJPVE15TlE9PSZWRU05TWpBeE5qQTNNVFU9JlMwbE9SRDFEJlEwbEVQVEF3TWc9PSZVUkw9
+aHR0cDovL3d3dy5oYW5zdW5nc21iLmNvLmtyPg0KursguN7Az8C6IMGkurjF673FuMEgwMy/68PL
+wfggudcgwaS6uLq4yKMgte6/oSCw/MfRILn9t/wgvcPH4LHUxKK/oSDAx7DFICjB1inH0by6U01C
+vNa357zHwMcgwKXB+C+w38D7ua7AxyC51yCw/LfDIMD8vcPIuCDIuL/4tNS16bKyILnfvNu1x776
+vcC0z7TZLg0KDQoNCsDMuN7Az8DHILz2vcXAuyC09SDAzLvzIL/4x8/B9iC+ysC4vcO46SBbvPa9
+xbDFus48aHR0cDovL2ltYWdlLnBvc3RtYW4uY28ua3I6ODAvQ2hlY2tOZXcuaHRtbD9UVjlKUkQw
+M01qRXlPVGN4TnpjMiZVMVJaVUVVOVRVRlRVdz09JlJVMUJTVXhmU1VROVltOXpkREV5UUc1aGRt
+VnlMbU52YlE9PSZURWxUVkY5VVFVSk1SVDFGUWtGRU1EYzJNQT09JlVFOVRWRjlKUkQweU1ERTJN
+RGN3T0RFd01EQXdPVE0yT1RNeU5RPT0mVkVNOU1qQXhOakEzTVRVPSZTMGxPUkQxRCZRMGxFUFRB
+d013PT0mVVJMPWh0dHA6Ly93d3cucG9zdG1hbi5jby5rci9vcGVuL3Vuc3Vic2NyaXB0aW9uLmpz
+cD91c2VyX2lkPWhzc21iJmN1c3RvbWVyX2lkPTcyMTI5NzE3NzYmcmVqZWN0X3NjcmlwdD1LJnBv
+c3RfaWQ9MjAxNjA3MDgxMDAwMDkzNjkzMjU+XbimIMWsuK/H2CDB1r3DseIgudm2+LTPtNkuDQpU
+byB1bnN1YnNjcmliZSBjbGljayBoZXJlPGh0dHA6Ly9pbWFnZS5wb3N0bWFuLmNvLmtyOjgwL0No
+ZWNrTmV3Lmh0bWw/VFY5SlJEMDNNakV5T1RjeE56YzImVTFSWlVFVTlUVUZUVXc9PSZSVTFCU1V4
+ZlNVUTlZbTl6ZERFeVFHNWhkbVZ5TG1OdmJRPT0mVEVsVFZGOVVRVUpNUlQxRlFrRkVNRGMyTUE9
+PSZVRTlUVkY5SlJEMHlNREUyTURjd09ERXdNREF3T1RNMk9UTXlOUT09JlZFTTlNakF4TmpBM01U
+VT0mUzBsT1JEMUQmUTBsRVBUQXdOQT09JlVSTD1odHRwOi8vd3d3LnBvc3RtYW4uY28ua3Ivb3Bl
+bi91bnN1YnNjcmlwdGlvbi5qc3A/dXNlcl9pZD1oc3NtYiZjdXN0b21lcl9pZD03MjEyOTcxNzc2
+JnJlamVjdF9zY3JpcHQ9RSZwb3N0X2lkPTIwMTYwNzA4MTAwMDA5MzY5MzI1Pi4NCg0KDQoNCryt
+v+/Gr7qwvcMgsK28rbG4IL+ww6K1vyAyNDAtMjEgv+y4srrtt+ezqsDOIEK1vyAxMDAzyKMgwPzI
+rbn4yKMgOiAwMi0yMDkzLTEwMDcgLyDAzLjewM/B1rzSIDogZHkxMTIyQGhhbnN1bmdzbWIuY28u
+a3INCg0KW2h0dHA6Ly9tYWlsLm5hdmVyLmNvbS9yZWFkUmVjZWlwdC9ub3RpZnkvP2ltZz1XUWJa
+S0IzcVdyVWRGcjN2Rnhtc0ZyRXdGb3BDcDZFWHBBMDRwQXRsS3EzQ0t4RSUyRkZvS2xNeGJsdHpG
+WHA2VVpLU2w1V0xsNTF6bHFEQkZkcDZkNU1yZVJob1JTV1hGZEt4aWdNNiUyQkdXemtxREJLNU1y
+WTUxWFUlM0QuZ2lmXQ0K
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBCC8E719FMAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<style>P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+</style>
+<meta name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16737">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-FAMILY: Tahoma; DIRECTION: ltr; COLOR: #000000; FONT-SIZ=
+E: x-small">
+<div>ghfs=B5=B5 =B0=A1=B4=C9=C7=D1 =BF=B5=BF=AA=C0=CE=B5=A5...</div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<div style=3D"DIRECTION: ltr" id=3D"divRpF206937">
+<hr tabindex=3D"-1">
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><b>=BA=B8=B3=BD =BB=E7=
+=B6=F7:</b> =B1=E8=C1=BE=BC=AE [bost12@naver.com]<br>
+<b>=BA=B8=B3=BD =B3=AF=C2=A5:</b> 2016=B3=E2 7=BF=F9 8=C0=CF =B1=DD=BF=E4=
+=C0=CF =BF=C0=C0=FC 10:51<br>
+<b>=B9=DE=B4=C2 =BB=E7=B6=F7:</b> =B1=E8=C1=BE=BC=AE<br>
+<b>=C1=A6=B8=F1:</b> FW: [=B1=A4=B0=ED/=C7=D1=BC=BA] Infortrend =C0=C7 CCTV=
+ =C0=FC=BF=EB Windows =BD=BA=C5=E4=B8=AE=C1=F6 =BC=AD=B9=F6 =C3=E2=BD=C3<br=
+>
+</font><br>
+</div>
+<div></div>
+<div>
+<div style=3D"FONT-FAMILY: Gulim; FONT-SIZE: 10pt">
+<p>&nbsp;</p>
+<p style=3D"PADDING-BOTTOM: 0px; PADDING-LEFT: 10pt; PADDING-RIGHT: 0px; FO=
+NT-FAMILY: Gulim,AppleGothic,sans-serif; FONT-SIZE: 10pt; PADDING-TOP: 0px"=
+>
+<span>-----Original Message-----</span><br>
+<b>From:</b> &quot;(=C1=D6)=C7=D1=BC=BASMB=BC=D6=B7=E7=BC=C7&quot;&lt;mkt@h=
+ansungsmb.co.kr&gt; <br>
+<b>To:</b> &quot;=B1=E8=C1=BE=BC=AE&quot;&lt;bost12@naver.com&gt;; <br>
+<b>Cc:</b> <br>
+<b>Sent:</b> 2016-07-08 (=B1=DD) 09:32:09<br>
+<b>Subject:</b> [=B1=A4=B0=ED/=C7=D1=BC=BA] Infortrend =C0=C7 CCTV =C0=FC=
+=BF=EB Windows =BD=BA=C5=E4=B8=AE=C1=F6 =BC=AD=B9=F6 =C3=E2=BD=C3<br>
+&nbsp;</p>
+<table cellspacing=3D"0" cellpadding=3D"0" width=3D"700">
+<tbody>
+<tr>
+<td height=3D"1000" valign=3D"top" width=3D"700"><a style=3D"BORDER-RIGHT-W=
+IDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WID=
+TH: 0px" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03MjEyOT=
+cxNzc2&amp;U1RZUEU9TUFTUw=3D=3D&amp;RU1BSUxfSUQ9Ym9zdDEyQG5hdmVyLmNvbQ=3D=
+=3D&amp;TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&amp;UE9TVF9JRD0yMDE2MDcwODEwMDAwOT=
+M2OTMyNQ=3D=3D&amp;VEM9MjAxNjA3MTU=3D&amp;S0lORD1D&amp;Q0lEPTAwMQ=3D=3D&amp=
+;URL=3Dhttp://www.hansungsmb.co.kr/customer/content.asp?board=3Dpressroom&a=
+mp;board_group=3D0&amp;uid=3D21450" target=3D"_blank"><img border=3D"0" ali=
+gn=3D"absMiddle" src=3D"http://hansungsmb.co.kr/edm/image/201607_infor-EonS=
+erv_eDM.jpg" valign=3D"top"></a></td>
+</tr>
+<tr>
+<td height=3D"10" valign=3D"top" width=3D"700">&nbsp;</td>
+</tr>
+<tr>
+<td height=3D"125" valign=3D"top" width=3D"700"><a style=3D"BORDER-RIGHT-WI=
+DTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDT=
+H: 0px" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03MjEyOTc=
+xNzc2&amp;U1RZUEU9TUFTUw=3D=3D&amp;RU1BSUxfSUQ9Ym9zdDEyQG5hdmVyLmNvbQ=3D=3D=
+&amp;TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&amp;UE9TVF9JRD0yMDE2MDcwODEwMDAwOTM2O=
+TMyNQ=3D=3D&amp;VEM9MjAxNjA3MTU=3D&amp;S0lORD1D&amp;Q0lEPTAwMg=3D=3D&amp;UR=
+L=3Dhttp://www.hansungsmb.co.kr" target=3D"_blank"><img border=3D"0" align=
+=3D"absMiddle" src=3D"http://hansungsmb.co.kr/edm/image/bottom.jpg" valign=
+=3D"top"></a></td>
+</tr>
+</tbody>
+</table>
+<table style=3D"BORDER-BOTTOM: rgb(204,204,204) 1px solid; BORDER-LEFT: rgb=
+(204,204,204) 1px solid; LINE-HEIGHT: 140%; FONT-SIZE: 12px; BORDER-TOP: rg=
+b(204,204,204) 1px solid; BORDER-RIGHT: rgb(204,204,204) 1px solid" width=
+=3D"600" align=3D"left">
+<tbody>
+<tr align=3D"center">
+<td style=3D"FONT-FAMILY: '=B5=B8=BF=F2','helvetica'; FONT-SIZE: 12px">=BA=
+=BB =B8=DE=C0=CF=C0=BA =C1=A4=BA=B8=C5=EB=BD=C5=B8=C1 =C0=CC=BF=EB=C3=CB=C1=
+=F8 =B9=D7 =C1=A4=BA=B8=BA=B8=C8=A3 =B5=EE=BF=A1 =B0=FC=C7=D1 =B9=FD=B7=FC =
+=BD=C3=C7=E0=B1=D4=C4=A2=BF=A1 =C0=C7=B0=C5 (=C1=D6)=C7=D1=BC=BASMB=BC=D6=
+=B7=E7=BC=C7=C0=C7 =C0=A5=C1=F8/=B0=DF=C0=FB=B9=AE=C0=C7 =B9=D7 =B0=FC=B7=
+=C3 =C0=FC=BD=C3=C8=B8 =C8=B8=BF=F8=B4=D4=B5=E9=B2=B2 =B9=DF=BC=DB=B5=C7=BE=
+=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr>
+<td bgcolor=3D"#dadada" height=3D"1"></td>
+</tr>
+<tr>
+<td style=3D"COLOR: rgb(102,102,102)" align=3D"center">
+<p>=C0=CC=B8=DE=C0=CF=C0=C7 =BC=F6=BD=C5=C0=BB =B4=F5 =C0=CC=BB=F3 =BF=F8=
+=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 [<a style=3D"TEXT-DECORATION: none" h=
+ref=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03MjEyOTcxNzc2&amp=
+;U1RZUEU9TUFTUw=3D=3D&amp;RU1BSUxfSUQ9Ym9zdDEyQG5hdmVyLmNvbQ=3D=3D&amp;TElT=
+VF9UQUJMRT1FQkFEMDc2MA=3D=3D&amp;UE9TVF9JRD0yMDE2MDcwODEwMDAwOTM2OTMyNQ=3D=
+=3D&amp;VEM9MjAxNjA3MTU=3D&amp;S0lORD1D&amp;Q0lEPTAwMw=3D=3D&amp;URL=3Dhttp=
+://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dhssmb&amp;customer_i=
+d=3D7212971776&amp;reject_script=3DK&amp;post_id=3D20160708100009369325" ta=
+rget=3D"_blank"><span style=3D"COLOR: rgb(255,102,0); FONT-WEIGHT: bold">=
+=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6
+ =C5=AC=B8=AF=C7=D8 =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br>
+To unsubscribe <a style=3D"TEXT-DECORATION: none" href=3D"http://image.post=
+man.co.kr:80/CheckNew.html?TV9JRD03MjEyOTcxNzc2&amp;U1RZUEU9TUFTUw=3D=3D&am=
+p;RU1BSUxfSUQ9Ym9zdDEyQG5hdmVyLmNvbQ=3D=3D&amp;TElTVF9UQUJMRT1FQkFEMDc2MA=
+=3D=3D&amp;UE9TVF9JRD0yMDE2MDcwODEwMDAwOTM2OTMyNQ=3D=3D&amp;VEM9MjAxNjA3MTU=
+=3D&amp;S0lORD1D&amp;Q0lEPTAwNA=3D=3D&amp;URL=3Dhttp://www.postman.co.kr/op=
+en/unsubscription.jsp?user_id=3Dhssmb&amp;customer_id=3D7212971776&amp;reje=
+ct_script=3DE&amp;post_id=3D20160708100009369325" target=3D"_blank">
+<span style=3D"COLOR: rgb(102,102,102); FONT-WEIGHT: bold">click here</span=
+></a>.</p>
+</td>
+</tr>
+<tr>
+<td bgcolor=3D"#dadada" height=3D"1"></td>
+</tr>
+<tr align=3D"center">
+<td style=3D"FONT-FAMILY: '=B5=B8=BF=F2','helvetica'; FONT-SIZE: 11px">=BC=
+=AD=BF=EF=C6=AF=BA=B0=BD=C3 =B0=AD=BC=AD=B1=B8 =BF=B0=C3=A2=B5=BF 240-21 =
+=BF=EC=B8=B2=BA=ED=B7=E7=B3=AA=C0=CE B=B5=BF 1003=C8=A3 =C0=FC=C8=AD=B9=F8=
+=C8=A3 : 02-2093-1007 / =C0=CC=B8=DE=C0=CF=C1=D6=BC=D2 : dy1122@hansungsmb.=
+co.kr
+</td>
+</tr>
+</tbody>
+</table>
+<div><img src=3D"http://image.postman.co.kr/CheckNew.html?TV9JRD03MjEyOTcxN=
+zc2&amp;U1RZUEU9TUFTUw=3D=3D&amp;RU1BSUxfSUQ9Ym9zdDEyQG5hdmVyLmNvbQ=3D=3D&a=
+mp;TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&amp;UE9TVF9JRD0yMDE2MDcwODEwMDAwOTM2OTM=
+yNQ=3D=3D&amp;VEM9MjAxNjA3MTU=3D&amp;S0lORD1P" width=3D"1" height=3D"1"></d=
+iv>
+</div>
+<table>
+<tbody>
+<tr>
+<td><img border=3D"0" src=3D"http://mail.naver.com/readReceipt/notify/?img=
+=3DWQbZKB3qWrUdFr3vFxmsFrEwFopCp6EXpA04pAtlKq3CKxE%2FFoKlMxbltzFXp6UZKSl5WL=
+l51zlqDBFdp6d5MreRhoRSWXFdKxigM6%2BGWzkqDBK5MrY51XU%3D.gif"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBCC8E719FMAILSERVERa_--

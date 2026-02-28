@@ -1,0 +1,102 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id iEixI6LIommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:51:14 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 90F5414C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:51:14 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556930212203035803
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp127573wme;
+        Wed, 18 Jan 2017 22:08:00 -0800 (PST)
+X-Received: by 10.28.93.138 with SMTP id r132mr17738780wmb.17.1484806080564;
+        Wed, 18 Jan 2017 22:08:00 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of postmaster@g9t5010.houston.hpe.com designates 15.241.48.74 as permitted sender) smtp.mailfrom=g9t5010.houston.hpe.com
+Received-SPF: pass (google.com: best guess record for domain of postmaster@g9t5010.houston.hpe.com designates 15.241.48.74 as permitted sender) client-ip=15.241.48.74;
+Received: by 10.28.167.75 with POP3 id q72mf97046994wme.1;
+        Wed, 18 Jan 2017 22:08:00 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 25856 invoked by uid 700); 19 Jan 2017 14:39:18 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	19 Jan 2017 14:39:18 +0900
+Received: (qmail 30747 invoked by uid 700); 19 Jan 2017 14:39:18 +0900
+Received: from unknown (HELO g9t5010.houston.hpe.com) (15.241.48.74)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	19 Jan 2017 14:39:18 +0900
+Received: from c9w21815.americas.hpqcorp.net (c9w21815.itcs.hpecorp.net [16.250.21.42])
+	by g9t5010.houston.hpe.com (Postfix) with ESMTP id 657EE73
+	for <mg.hwang@agilesys.co.kr>; Thu, 19 Jan 2017 05:39:16 +0000 (UTC)
+MIME-Version: 1.0
+Date: Thu, 19 Jan 2017 05:39:16 +0000
+X-Priority: 3 (Normal)
+subject: =?ks_c_5601-1987?B?SFBFIENvbmZpZ3Vy?=
+	=?ks_c_5601-1987?B?YXRpb24gxfggU0JXIA==?=
+	=?ks_c_5601-1987?B?wNq34SCw+MH2?=
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+From: =?ks_c_5601-1987?B?x9Gxucjet7/G0cS/teU=?=
+	 <hpe.partners@hpe.com>
+To: "hwangmingyu" <mg.hwang@agilesys.co.kr>
+X-EVENT: 10159633
+Message-ID: <CHILKAT-MID-ae9228bf-109f-42ac-8d22-a9a6ca71028b@c9w21815.americas.hpqcorp.net>
+
+PGh0bWw+PGhlYWQ+PHRpdGxlPk1haWwgRGFlbW9uPC90aXRsZT4NCjxtZXRhIGh0dHAtZXF1
+aXY9J0NvbnRlbnQtVHlwZScgY29udGVudD0ndGV4dC9odG1sJzsgY2hhcnNldD1rc19jXzU2
+MDEtMTk4NyAvPjxtZXRhIG5hbWU9J0dlbmVyYXRvcicgY29udGVudD0nZUNvbW1NYWlsTWVy
+Z2VTdmMsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+bj1udWxsJyB2ZXI9Jyc+DQo8bWV0YSBuYW1lPSdBdXRob3InIGNvbnRlbnQ9J2VDb21tTWFp
+bE1lcmdlU3ZjLCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5
+VG9rZW49bnVsbCcgdmVyPScnPg0KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4NCiAubVNtYWxs
+IHtmb250LXNpemU6OHB0OyBmb250LWZhbWlseTpBcmlhbCxWZXJkYW5hOyB9DQogaW5wdXQg
+e2ZvbnQtc2l6ZTo4cHQ7IGZvbnQtZmFtaWx5OkFyaWFsLFZlcmRhbmE7IH0NCiB0ZC5tU21h
+bGwge2ZvbnQtc2l6ZTo4cHQ7IGZvbnQtZmFtaWx5OkFyaWFsLFZlcmRhbmE7IH0NCjwvc3R5
+bGU+DQo8L2hlYWQ+DQo8Ym9keT4NCjxmb250IHNpemU9MSBmYWNlPUFyaWFsLCBWZXJkYW5h
+PjxkaXYgc3R5bGU9J2ZvbnQtc2l6ZTo4cHQ7JyBhbGlnbj0nY2VudGVyJz4gwMwgwPzA2iC4
+3sDPwMwgx6W9w7XHwfYgvsq0wiCw5r/sICA8YSBocmVmPSJodHRwOi8vaHBlcGFydG5lcmNv
+bW11bmljYXRpb24tZXh0LmdsYi5pdGNzLmhwZS5jb20vZWNvbW0vdmlld19lbWFpbC5hc3A/
+ZWlkPTEwMTU5NjMzJm1pZD01ZWE3ZTgyZi00MDk4LTQ1NDYtYTVhMy02OGY3MzhjM2JmMzUi
+PiC/qbHiIDwvYT4gILimIMWsuK/Hz73KvcO/wC4gPC9kaXY+PC9mb250PjxiciAvPiZuYnNw
+OzxiciAvPjxUQUJMRSBjZWxsU3BhY2luZz0wIGNlbGxQYWRkaW5nPTAgd2lkdGg9NjQwIGFs
+aWduPWNlbnRlciBib3JkZXI9MD4NCjxUQk9EWT4NCjxUUj4NCjxUSCBzY29wZT1jb2w+PElN
+RyBib3JkZXI9MCBzcmM9Imh0dHBzOi8vcGFydG5lci5ocGUuY29tL2RvY3VtZW50cy80Njcw
+OC8zNDU1ODY0NTUvSW1hZ2UrMTcucG5nL2VjYjM5NDgzLWI4NjUtNDhjNC05NGZmLTc1ZDY5
+ZmI0ZGJjYz90PTE0ODQ3MjM3MTUwNjAiIHdpZHRoPTY0MCBoZWlnaHQ9MjQwIHVzZU1hcD0j
+TWFwPjwvVEg+PC9UUj4NCjxUUj4NCjxUSCBzY29wZT1jb2w+PElNRyBib3JkZXI9MCBzcmM9
+Imh0dHBzOi8vcGFydG5lci5ocGUuY29tL2RvY3VtZW50cy80NjcwOC8zNDU1ODY0NTUvSW1h
+Z2UrMTYucG5nL2MwOGI2YTY5LWY5ODUtNDhiNC05NjM3LTcxOWZkMGY1MDc3YT90PTE0ODQ3
+MjM3OTUxMzciIHdpZHRoPTY0MCBoZWlnaHQ9NTg0IHVzZU1hcD0jTWFwND48L1RIPjwvVFI+
+DQo8VFI+DQo8VEggc3R5bGU9IkJPUkRFUi1CT1RUT006ICNjZWNlY2UgdGhpbiBzb2xpZCIg
+c2NvcGU9Y29sPjxJTUcgYm9yZGVyPTAgc3JjPSJodHRwczovL3BhcnRuZXIuaHBlLmNvbS9k
+b2N1bWVudHMvNDY3MDgvMzQ1NTg2NDU1L0ltYWdlKzE4LnBuZy9jZmU3MTg1Yy04Y2Y5LTRi
+MjEtOTBkMC05YjZiZWJkYmU5MTM/dD0xNDg0NzIzODQwOTU3IiB3aWR0aD02NDAgaGVpZ2h0
+PTIwNSB1c2VNYXA9I01hcDM+PC9USD48L1RSPg0KPFRSPg0KPFRIIHNjb3BlPWNvbD48SU1H
+IGJvcmRlcj0wIHNyYz0iaHR0cHM6Ly9wYXJ0bmVyLmhwZS5jb20vZG9jdW1lbnRzLzQ2NzA4
+LzM0NTU4NjQ1NS9JbWFnZSsyMC5wbmcvN2JhNDFjMGItYmQ4NC00NjI0LTk1YTMtMDhhMWYx
+Y2I1ZjNhP3Q9MTQ4NDcyMzg4NzE5NyIgd2lkdGg9NjQwIGhlaWdodD0xODAgdXNlTWFwPSNN
+YXAyPjwvVEg+PC9UUj48L1RCT0RZPjwvVEFCTEU+PE1BUCBpZD1NYXAgbmFtZT1NYXA+PEFS
+RUEgaHJlZj0iaHR0cHM6Ly9wYXJ0bmVyLmhwZS5jb20vbG9naW4iIHNoYXBlPXJlY3QgY29v
+cmRzPTI4LDE3MCwxMDEsMTk0PjwvTUFQPjxNQVAgaWQ9TWFwMiBuYW1lPU1hcDI+PEFSRUEg
+aHJlZj0iaHR0cDovL2hwZXBhcnRuZXJjb21tdW5pY2F0aW9uLWV4dC5nbGIuaXRjcy5ocGUu
+Y29tL2Vjb21tL3Vuc3Vic2NyaWJlLmFzcD9taWQ9NWVhN2U4MmYtNDA5OC00NTQ2LWE1YTMt
+NjhmNzM4YzNiZjM1Jmxhbmc9NiIgc2hhcGU9cmVjdCBjb29yZHM9MTYsMzUsNjEsNTc+PEFS
+RUEgaHJlZj0iaHR0cDovL3d3dzguaHAuY29tL2tyL2tvL2hwZS9wcml2YWN5L3ByaXZhY3ku
+aHRtbCIgc2hhcGU9cmVjdCBjb29yZHM9NDIxLDM2LDQ0NSw1NT48L01BUD48TUFQIGlkPU1h
+cDQgbmFtZT1NYXA0PjxBUkVBIGhyZWY9Imh0dHBzOi8vaHAtLWNvbW11bml0eS5mb3JjZS5j
+b20vcGFydG5lcnBvcnRhbC9QYXJ0bmVyQ2FyZSIgc2hhcGU9cmVjdCBjb29yZHM9NTEyLDEw
+NSw1ODMsMTM1PjwvTUFQPjxNQVAgaWQ9TWFwMyBuYW1lPU1hcDM+PEFSRUEgaHJlZj0iaHR0
+cHM6Ly9ocC0tY29tbXVuaXR5LmZvcmNlLmNvbS9wYXJ0bmVycG9ydGFsL1BhcnRuZXJDYXJl
+IiBzaGFwZT1yZWN0IGNvb3Jkcz01NDAsMTIsNjA5LDM5PjxBUkVBIGhyZWY9Im1haWx0bzpr
+cmhwZXBhb21AaHBlLmNvbSIgc2hhcGU9cmVjdCBjb29yZHM9MjMsMTcyLDE2NSwxOTE+PC9N
+QVA+PGJyPjxJTUcgc3JjPSJodHRwOi8vaHBlcGFydG5lcmNvbW11bmljYXRpb24tZXh0Lmds
+Yi5pdGNzLmhwZS5jb20vZWNvbW0vdHJhY2tpbWFnZS5hc3A/ZWlkPTEwMTU5NjMzJmlkPTVl
+YTdlODJmLTQwOTgtNDU0Ni1hNWEzLTY4ZjczOGMzYmYzNSIgaGVpZ2h0PTEgd2lkdGg9MSBi
+b3JkZXI9MD48YnIgLz4NCjwvYm9keT48L2h0bWw+
+

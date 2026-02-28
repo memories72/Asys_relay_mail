@@ -1,0 +1,157 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 0PQ4OaLIommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:51:14 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id E99CA14C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:51:14 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556931676268201308
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp127579wme;
+        Wed, 18 Jan 2017 22:08:02 -0800 (PST)
+X-Received: by 10.28.18.130 with SMTP id 124mr20404420wms.8.1484806081772;
+        Wed, 18 Jan 2017 22:08:01 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.28.167.75 with POP3 id q72mf97046994wme.1;
+        Wed, 18 Jan 2017 22:08:01 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 8628 invoked by uid 700); 19 Jan 2017 15:02:39 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	19 Jan 2017 15:02:39 +0900
+Received: (qmail 6134 invoked by uid 700); 19 Jan 2017 15:02:33 +0900
+Received: from unknown (HELO ?192.168.0.46?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	19 Jan 2017 15:02:33 +0900
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_8BC54DD1-ECE6-4D76-8A93-E7CCD654750C"
+Mime-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Date: Thu, 19 Jan 2017 15:02:32 +0900
+Subject: =?utf-8?B?7JWE66Oo67CUIOyekOqyqeymnSDst6jrk50g64yA7IOB?=
+Cc: =?utf-8?B?7J207KKF7IiY?= <jslee@agilesys.co.kr>,
+ =?utf-8?B?6rmA7ZmY7JiB?= <khy@agilesys.co.kr>,
+ =?utf-8?B?67CV7J6s7ZiE?= <wogus8894@agilesys.co.kr>,
+ =?utf-8?B?7KCV7JuQ7Jqp?= <wy.jeung@agilesys.co.kr>
+To: =?utf-8?B?7LWc7KGw7Iic?= <ccjjss7@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <BC47AC5F-3CDC-47DA-BCB5-501581870C94@agilesys.co.kr>
+
+
+--Apple-Mail=_8BC54DD1-ECE6-4D76-8A93-E7CCD654750C
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+=ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4.
+
+=EA=B8=88=EB=85=84 HPE Aruba =ED=94=8C=EB=9E=98=ED=8B=B0=EB=84=98 =
+=ED=8C=8C=ED=8A=B8=EB=84=88 =EC=9C=A0=EC=A7=80=EB=A5=BC =EC=9C=84=ED=95=9C=
+ =EC=9E=90=EA=B2=A9=EC=A6=9D =EC=B7=A8=EB=93=9D=EA=B4=80=EB=A0=A8 =
+=EB=AC=B8=EC=84=9C=EC=9E=85=EB=8B=88=EB=8B=A4.
+
+=EC=B0=B8=EA=B3=A0=ED=95=98=EC=8B=9C=EA=B3=A0 =EC=9E=90=EA=B2=A9=EC=A6=9D =
+=EC=B7=A8=EB=93=9D=EC=9D=84 =EC=9C=84=ED=95=B4 =EB=85=B8=EB=A0=A5=ED=95=B4=
+=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+
+=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+----------------------------------------------------------------------
+=C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+ NI Team
+ =ED=99=A9 =EB=AF=BC=EA=B7=9C =EB=B6=80=EC=9E=A5
+ Cellular : 010-3191-0811
+=C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+----------------------------------------------------------------------
+
+
+--Apple-Mail=_8BC54DD1-ECE6-4D76-8A93-E7CCD654750C
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4.<div =
+class=3D""><br class=3D""></div><div class=3D"">=EA=B8=88=EB=85=84 HPE =
+Aruba =ED=94=8C=EB=9E=98=ED=8B=B0=EB=84=98 =ED=8C=8C=ED=8A=B8=EB=84=88 =
+=EC=9C=A0=EC=A7=80=EB=A5=BC =EC=9C=84=ED=95=9C =EC=9E=90=EA=B2=A9=EC=A6=9D=
+ =EC=B7=A8=EB=93=9D=EA=B4=80=EB=A0=A8 =EB=AC=B8=EC=84=9C=EC=9E=85=EB=8B=88=
+=EB=8B=A4.</div><div class=3D""><br class=3D""></div><div =
+class=3D"">=EC=B0=B8=EA=B3=A0=ED=95=98=EC=8B=9C=EA=B3=A0 =EC=9E=90=EA=B2=A9=
+=EC=A6=9D =EC=B7=A8=EB=93=9D=EC=9D=84 =EC=9C=84=ED=95=B4 =
+=EB=85=B8=EB=A0=A5=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =
+=EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=
+=A4.<br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">---------------------------------------------------------------=
+-------</div><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS =
+Co. Ltd.</a></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;=ED=99=A9 =EB=AF=BC=EA=B7=9C =
+=EB=B6=80=EC=9E=A5<div class=3D"">&nbsp;Cellular : 010-3191-0811<br =
+class=3D""><a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a></div><div =
+class=3D"">---------------------------------------------------------------=
+-------</div></div></div></div></div></div></div></div></div>
+</div>
+<br class=3D""></div></body></html>=
+
+--Apple-Mail=_8BC54DD1-ECE6-4D76-8A93-E7CCD654750C--
+

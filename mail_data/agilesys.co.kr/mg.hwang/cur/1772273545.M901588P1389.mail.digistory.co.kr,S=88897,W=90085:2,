@@ -1,0 +1,1188 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id sJCnNYm/omltBQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:12:25 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id D0C1014BFA
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:12:25 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1532808768465876376
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Thu, 28 Apr 2016
+ 09:19:40 +0900
+From: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>
+CC: =?ks_c_5601-1987?B?v7W+9zHGwA==?= <sales1@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?v7W+9zLGwA==?= <sales2@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vNa357zHu+e+98bA?= <solution@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?Tkm75773xsA=?= <network@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?xMG8s8bDu+e+98bA?= <cons@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wbaw5sDn?= <kj.cho@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Thu, 28 Apr 2016 09:19:37 +0900
+Subject:
+ =?ks_c_5601-1987?B?UmU6IExHVSsgVkRJICi+97mrILChu/PIrSC8rbrxvbopIA==?=
+ =?ks_c_5601-1987?B?s7PHsCCw/LfDIMfKv+QgwM6/+CC/5MO7ILXluLO0z7TZLg==?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?TEdVKyBWREkgKL73uasgsKG788itILytuvG9uikgs7PHsA==?=
+ =?ks_c_5601-1987?B?ILD8t8Mgx8q/5CDAzr/4IL/kw7sgteW4s7TPtNku?=
+Thread-Index: AdGg46ahpDlEHJ2gS+aGOWFTrcUepw==
+Message-ID: <9C662C22-6E53-4AD5-9862-257B7F9DD57E@agilesys.co.kr>
+References:
+ <327B51700086C0479B084D86D0B0E45C04B92F277EFA@MAIL-SERVER.agilesys.co.kr>
+ <327B51700086C0479B084D86D0B0E45C04B92F27B25D@MAIL-SERVER.agilesys.co.kr>
+ <327B51700086C0479B084D86D0B0E45C04B92F312592@MAIL-SERVER.agilesys.co.kr>
+ <000001d1a0de$012b3dd0$0381b970$@agilesys.co.kr>
+In-Reply-To: <000001d1a0de$012b3dd0$0381b970$@agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_9C662C226E534AD59862257B7F9DD57Eagilesyscokr_"
+MIME-Version: 1.0
+
+--_000_9C662C226E534AD59862257B7F9DD57Eagilesyscokr_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vNa357zHILvnvvfGwCDIsrnOsdQgwNS0z7TZLg0KDQrA+sjxtMIosO3A58jGLMiyuc6x1CkgMzDA
+z7HuwfYgt7m15cfevbrF5LiuwfYgsbPAsMDMtvMgv8DA/LrOxc0gx9W3+bTCIL7ut8G/77DNILCw
+vcC0z7TZLg0KDQrHz8H2uLguLiAzMMDPwLoguLbB9ri3ILOvwMyx4iC2p7muv6EgsbPAsMDMIMDP
+wu+zobOvILDNwLi3ziC7/bCitce0zyCzobOqtMK067fODQoNCsfVt/nHz7W1t88gx8+w2r3AtM+0
+2S4NCg0KsKi758fVtM+02S4NCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiBBU1lTIENvLiBMdGQuDQogU29sdXRp
+b24gQnVzaW5lc3MgRGVwdC4NCiDIsiC5zrHUIML3wOUNCiBQaG9uZSA6IDA3MC03MTE0LTAwNDks
+IENlbGx1bGFyIDogMDEwLTMxOTEtMDgxMQ0KIG1nLmh3YW5nQGFnaWxlc3lzLmNvLmtyPG1haWx0
+bzptZy5od2FuZ0BhZ2lsZXN5cy5jby5rcj4NCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCjIwMTYuIDQuIDI4Liwg
+v8DA/CA4OjM5LCCx6Lq4vLEgPGJzLmtpbUBhZ2lsZXN5cy5jby5rcjxtYWlsdG86YnMua2ltQGFn
+aWxlc3lzLmNvLmtyPj4gwNu8ujoNCg0Kx/nBtrimILG4x9W0z7TZLg0KDQo0v/kyOcDPLDMwwM+/
+oSBMR8Cvx8O3r726IFZESSC8rbn2ILOzx7AgsMfAuLfOILTcvPggwNu+9yDB9r/4x9Igu+e298DM
+IL7gNLjtwMwgx8q/5MfPtNmw7SDH1bTPtNkuDQq/tb73McbALCC/tb73MsbALCC81rfnvMe75773
+xsAsIE5Ju+e+98bALCDEwbyzxsO75773xsC/obytIMDaud/A+8C4t84gwfa/+MC7ILrOxbm15biz
+tM+02S4NCsDPwaTAzCCwobTJx8+9xSC60MC6ILTkwOUgudm2+LTPtNkuDQoNCkZyb206ILHowb68
+riBbbWFpbHRvOmJvc3QxMkBhZ2lsZXN5cy5jby5rcl0NClNlbnQ6IFR1ZXNkYXksIEFwcmlsIDI2
+LCAyMDE2IDE6MjkgUE0NClRvOiCx6Lq4vLENCkNjOiDAzLXOv60NClN1YmplY3Q6IMD8tN46IExH
+VSsgVkRJICi+97mrILChu/PIrSC8rbrxvbopILOzx7AgsPy3wyDHyr/kIMDOv/ggv+TDuyC15biz
+tM+02S4NCg0KTEdVx8O3r726IFZESSC8rbn2ILOzx7AgudcgvLPEoSDB9r/4IMDOt8Igv+TDu8fV
+tM+02S4NCg0KsKG0ycfPuOkgvK268b26wfa/+Lq7us6/obytIMH4x+DH0iCw6Mi5wMzB9ri4LA0K
+DQoyOcDPICh+MzDAzykgwNu+98C6IL+1vve6u7rOwMcgwM63wsH2v/jAzCDHyr/kx9W0z7TZLg0K
+DQoyOcDPIMfPt+e/oSDA2773wLsgv8+34cfSILDoyLnAzMH2uLggu/PIsr+hILX7tvO8rSAzMMDP
+se7B9iDB+MfgILXJvPYgwNa9wLTPtNkuDQoNCsH2v/jAzrfCIDS47cDMILChtMnHz7DatMLB9r/k
+ID8NCg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KurizvSC757b3OiDH0cG+
+sPwNCrq4s70gs6/CpTogMjAxNrPiIDS/+SAyNsDPIMitv+TAzyC/wMjEIDEyOjM4DQq53rTCILvn
+tvc6ILHowb68rg0Kwaa48TogwPy03jogTEdVKyBWREkgKL73uasgsKG788itILytuvG9uikgs7PH
+sCCw/LfDIMfKv+QgwM6/+CC/5MO7ILXluLO0z7TZLg0KvK259sbAIMH2v/iwobTJIDEwuO0gwMzB
+9ri4IMfYtOfAzyDA5b7Ws6ogseK8+sH2v/ggud+7/b3DDQqw7bfBx8+46SAxMLjtwMwgvsa1y7TP
+tNkuIMDMwaEgsKi+yMfYvK0gwM6/+CDB9r/4vcMNCr+pwK/A1rDUIMfStOfH38C4uOkgwcGw2r3A
+tM+02S4NCrXHtbW3z8DMuOkgMjnAz7+hIMDPwaTAzCC++MC7sM0gsLDAuiDAzr/4wLi3ziC56MGk
+x9/AuLjpDQrH1bTPtNkuILnowaQgx9i8rSC/1LTCtaUgwM/AzCDA1r7uvK0guvzBrrn2uK646SDA
+z8Gkv6ENCr7ut8G/8sDMIMDWwLu17SDH1bTPtNkuDQrAz8GkIMiuwM7IxCDAzr/4ILnowaQgus7F
+ubXluLO0z7TZLg0KyK7AzrrOxbm15biztM+02S4gwMy757TULg0KDQorfn4rfn4rfn4rfn4rfn4r
+fn4rfn4rfn4rfn4rfn4rDQoowdYpv6HAzL3DvbogvK268b26u+e+97rOIML3wOUgIMfRIMG+ILD8
+DQq8rb/vILytw8qxuCC53cb3tb8gNjctM7n4wfYgtOu4orr0tfkgM8P+IDEzNy04MDQNClRlbC4g
+MDcwLTcxMTQtMDAyMyBNb2JpbGUuIDAxMC01NjA3LTUzNjgNCkZheC4gKDAyKTU4Ni01MDcwIEUt
+bWFpbC4gamtoYW5AYWdpbGVzeXMuY28ua3I8bWFpbHRvOnNAYWdpbGVzeXMuY28ua3I+DQorfn4r
+fn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fDQq6uLO9ILvntvc6IMCvwOe06w0KurizvSCzr8KlOiAyMDE2s+IgNL/5IDI2wM8gyK2/
+5MDPIL/AwPwgMTA6NDMNCrnetMIgu+e29zogx9HBvrD8DQrC/MG2OiCx6MG+vK47ILytvK7H9g0K
+waa48TogTEdVKyBWREkgKL73uasgsKG788itILytuvG9uikgs7PHsCCw/LfDIMfKv+QgwM6/+CC/
+5MO7ILXluLO0z7TZLg0KwK/C98DlwNS0z7TZLg0KDQrAzLn4IExHVSsgVkRJILOzx7AgsPy3wyDH
+z7+pILmwt67AzCC4ub7GIMDbvvfH0iDHyr/kIMDOv/jAuyC/5MO7ILXluLO0z7TZLg0KICMgvK25
+9sbAIMD8w7wgwM6/+MDMIMX1wNQgtckgv7nBpMDUtM+02S4oOLjtK73FwNQyuO09w9ExMLjtKQ0K
+DQqxuCAgutANCg0Kw9EgwM6/+Ci47SkNCg0KuvEgICAgsO0NCg0KsPy4riDAzr/4DQoNCjINCg0K
+ILytufbD/ii8s8ShwOW80ikgLyC+xrehw/4oubC3+bOzx7ApDQoNCsiuwM4vwaS4riDAzr/4DQoN
+CjINCg0KIMfStOfH0SCw+LCjv6EgwOW68SDBvrf5ILnXIFMvTiC6sLfOIMGkuK4NCg0KQk9YIMfY
+w7wgwM6/+A0KDQo2DQoNCiC4ucC7ILz2t88gwcG9wLTPtNkuDQoNCkJPWCDBpLiuIMDOv/gNCg0K
+Mg0KDQpCT1ggud3D4iDAzr/4DQoNCjINCg0KIMitubAov+u03ikgMrTrILrOuKYgv7nBpMDUtM+0
+2S4NCiC52r26sKEguLm+xiDIrbmwIL7GwPq+vr/NIMfUsrIgMbjtvr8gwve/oSDA+8Dnx8+/qSC5
+3cPiLg0KDQpSYWNrIFBEVSDA5cL4IMDOv/gNCg0KMg0KDQogIMDOv/ggwMwguLnAuLjpILT1IMPf
+sKG1ySC/ucGkIMDUtM+02S4NCg0Kx9Ww6A0KDQogICAgICAxNiC47Q0KDQoNCg0Ks7PHsCDAz8Gk
+wLogMDS/+SAyOcDPKLHdKSDAzLjnLCC/wMD8IDEwvcO6zsXNILOzx7Agv7nBpMDMuOcsDQoNCsDb
+vvcgwb634SC9w7CjwLogwPqz4Si/wMjEIDEwvcMpse7B9iDB9rzTILXJILz2IMDWvcC0z7TZLg0K
+KLvnuau9x7+hvK0gs7PHsMfSIMDluvG1tSDA1r3AtM+02S4gs6q408H2tMIgubC3+b+hvK0gTEdV
+KyC7877Ptb/AuLfOILOzx7Agv7nBpCkNCg0Ks+u29Lv2ILrOutC/oSDF9cDUx9IgwM6/+MC7IL/k
+w7sgteW4s7TPtNkuDQoNCsDMu/PA1LTPtNkuDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoowdYpv6HAzL3DvbogvK26
+8b26u+e+97rOICAgwK/A57TrIML3wOUNCrytv++9wyC8rcPKsbggud3G97W/IDY3LTMgtOu4orr0
+tfkgM8P+DQpUKSAwNzAtNzExNC0wMDczIEYpIDAyLTU4Ni01MDcwIE1QKSAwMTAtOTA3Ni03OTc5
+DQpFLU1haWwgKSBqZHl1QGFnaWxlc3lzLmNvLmtyPGh0dHA6Ly9rbXMuYXN0Z2xvYmFsLmNvLmty
+L293YS9yZWRpci5hc3B4P0M9Mzc3NmMzMjExN2YxNDE3MmExMTYzYjZhMDM1MDc4YjUmVVJMPW1h
+aWx0byUzYWpkeXUlNDBhZ2lsZXN5cy5jby5rcj4NCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0K
+
+--_000_9C662C226E534AD59862257B7F9DD57Eagilesyscokr_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html charset=
+=3DKS_C_5601-1987"></head><body style=3D"word-wrap: break-word; -webkit-nbs=
+p-mode: space; -webkit-line-break: after-white-space;" class=3D"">=BC=D6=B7=
+=E7=BC=C7 =BB=E7=BE=F7=C6=C0 =C8=B2=B9=CE=B1=D4 =C0=D4=B4=CF=B4=D9.<div cla=
+ss=3D""><br class=3D""></div><div class=3D"">=C0=FA=C8=F1=B4=C2(=B0=ED=C0=
+=E7=C8=C6,=C8=B2=B9=CE=B1=D4) 30=C0=CF=B1=EE=C1=F6 =B7=B9=B5=E5=C7=DE=BD=BA=
+=C5=E4=B8=AE=C1=F6 =B1=B3=C0=B0=C0=CC=B6=F3 =BF=C0=C0=FC=BA=CE=C5=CD =C7=D5=
+=B7=F9=B4=C2 =BE=EE=B7=C1=BF=EF=B0=CD =B0=B0=BD=C0=B4=CF=B4=D9.</div><div c=
+lass=3D""><br class=3D""></div><div class=3D"">=C7=CF=C1=F6=B8=B8.. 30=C0=
+=CF=C0=BA =B8=B6=C1=F6=B8=B7 =B3=AF=C0=CC=B1=E2 =B6=A7=B9=AE=BF=A1 =B1=B3=
+=C0=B0=C0=CC =C0=CF=C2=EF=B3=A1=B3=AF =B0=CD=C0=B8=B7=CE =BB=FD=B0=A2=B5=C7=
+=B4=CF =B3=A1=B3=AA=B4=C2=B4=EB=B7=CE&nbsp;</div><div class=3D""><br class=
+=3D""></div><div class=3D"">=C7=D5=B7=F9=C7=CF=B5=B5=B7=CF =C7=CF=B0=DA=BD=
+=C0=B4=CF=B4=D9.&nbsp;</div><div class=3D""><br class=3D""></div><div class=
+=3D"">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</div><div class=3D""><br class=3D""><=
+div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: auto; t=
+ext-align: start; text-indent: 0px; text-transform: none; white-space: norm=
+al; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-w=
+rap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-=
+space;" class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: norma=
+l; orphans: auto; text-align: start; text-indent: 0px; text-transform: none=
+; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke=
+-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-=
+break: after-white-space;" class=3D""><div style=3D"color: rgb(0, 0, 0); le=
+tter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; t=
+ext-transform: none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space;" class=3D"">------------------=
+--------------------------------------------------</div><div style=3D"color=
+: rgb(0, 0, 0); letter-spacing: normal; orphans: auto; text-align: start; t=
+ext-indent: 0px; text-transform: none; white-space: normal; widows: auto; w=
+ord-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; -w=
+ebkit-nbsp-mode: space; -webkit-line-break: after-white-space;" class=3D"">=
+&nbsp;ASYS Co. Ltd.</div><div style=3D"color: rgb(0, 0, 0); letter-spacing:=
+ normal; orphans: auto; text-align: start; text-indent: 0px; text-transform=
+: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-=
+stroke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; -webkit=
+-line-break: after-white-space;" class=3D"">&nbsp;Solution Business Dept.<b=
+r class=3D"">&nbsp;=C8=B2 =B9=CE=B1=D4&nbsp;=C2=F7=C0=E5<div class=3D"">&nb=
+sp;Phone : 070-7114-0049, Cellular : 010-3191-0811<br class=3D"">&nbsp;<a h=
+ref=3D"mailto:mg.hwang@agilesys.co.kr" class=3D"">mg.hwang@agilesys.co.kr</=
+a></div><div class=3D"">---------------------------------------------------=
+-----------------</div></div></div></div>
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div class=3D"">20=
+16. 4. 28., =BF=C0=C0=FC 8:39, =B1=E8=BA=B8=BC=B1 &lt;<a href=3D"mailto:bs.=
+kim@agilesys.co.kr" class=3D"">bs.kim@agilesys.co.kr</a>&gt; =C0=DB=BC=BA:<=
+/div><br class=3D"Apple-interchange-newline"><div class=3D""><div class=3D"=
+WordSection1" style=3D"page: WordSection1; font-family: Helvetica; font-siz=
+e: 12px; font-style: normal; font-variant-caps: normal; font-weight: normal=
+; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0p=
+x; text-transform: none; white-space: normal; widows: auto; word-spacing: 0=
+px; -webkit-text-stroke-width: 0px;"><div style=3D"margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=3D"fo=
+nt-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1'; color: rgb(31, 73,=
+ 125);" class=3D"">=C7=F9=C1=B6=B8=A6 =B1=B8=C7=D5=B4=CF=B4=D9<span lang=3D=
+"EN-US" class=3D"">.<o:p class=3D""></o:p></span></span></div><div style=3D=
+"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" cla=
+ss=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=
+=C0=BA =B0=ED=B5=F1'; color: rgb(31, 73, 125);" class=3D""><o:p class=3D"">=
+&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-size:=
+ 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D=
+"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1'; color: rgb(31, =
+73, 125);" class=3D"">4</span><span style=3D"font-size: 10pt; font-family: =
+'=B8=BC=C0=BA =B0=ED=B5=F1'; color: rgb(31, 73, 125);" class=3D"">=BF=F9<sp=
+an lang=3D"EN-US" class=3D"">29</span>=C0=CF<span lang=3D"EN-US" class=3D""=
+>,30</span>=C0=CF=BF=A1<span lang=3D"EN-US" class=3D""><span class=3D"Apple=
+-converted-space">&nbsp;</span>LG</span>=C0=AF=C7=C3=B7=AF=BD=BA<span lang=
+=3D"EN-US" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>VD=
+I<span class=3D"Apple-converted-space">&nbsp;</span></span>=BC=AD=B9=F6 =B3=
+=B3=C7=B0 =B0=C7=C0=B8=B7=CE =B4=DC=BC=F8 =C0=DB=BE=F7 =C1=F6=BF=F8=C7=D2 =
+=BB=E7=B6=F7=C0=CC =BE=E0<span lang=3D"EN-US" class=3D"">4</span>=B8=ED=C0=
+=CC =C7=CA=BF=E4=C7=CF=B4=D9=B0=ED =C7=D5=B4=CF=B4=D9<span lang=3D"EN-US" c=
+lass=3D"">.<o:p class=3D""></o:p></span></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><=
+span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1'; co=
+lor: rgb(31, 73, 125);" class=3D"">=BF=B5=BE=F7<span lang=3D"EN-US" class=
+=3D"">1</span>=C6=C0<span lang=3D"EN-US" class=3D"">,<span class=3D"Apple-c=
+onverted-space">&nbsp;</span></span>=BF=B5=BE=F7<span lang=3D"EN-US" class=
+=3D"">2</span>=C6=C0<span lang=3D"EN-US" class=3D"">,<span class=3D"Apple-c=
+onverted-space">&nbsp;</span></span>=BC=D6=B7=E7=BC=C7=BB=E7=BE=F7=C6=C0<sp=
+an lang=3D"EN-US" class=3D"">, NI</span>=BB=E7=BE=F7=C6=C0<span lang=3D"EN-=
+US" class=3D"">,<span class=3D"Apple-converted-space">&nbsp;</span></span>=
+=C4=C1=BC=B3=C6=C3=BB=E7=BE=F7=C6=C0=BF=A1=BC=AD =C0=DA=B9=DF=C0=FB=C0=B8=
+=B7=CE =C1=F6=BF=F8=C0=BB =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3D=
+"EN-US" class=3D"">.<o:p class=3D""></o:p></span></span></div><div style=3D=
+"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" cla=
+ss=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=
+=B5=F1'; color: rgb(31, 73, 125);" class=3D"">=C0=CF=C1=A4=C0=CC =B0=A1=B4=
+=C9=C7=CF=BD=C5 =BA=D0=C0=BA =B4=E4=C0=E5 =B9=D9=B6=F8=B4=CF=B4=D9<span lan=
+g=3D"EN-US" class=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span>=
+<o:p class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm 0.0=
+001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=
+=F1'; color: rgb(31, 73, 125);" class=3D""><o:p class=3D"">&nbsp;</o:p></sp=
+an></div><div class=3D""><div style=3D"border-style: solid none none; borde=
+r-top-color: rgb(181, 196, 223); border-top-width: 1pt; padding: 3pt 0cm 0c=
+m;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; fon=
+t-family: =B1=BC=B8=B2;" class=3D""><b class=3D""><span lang=3D"EN-US" styl=
+e=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">From:</s=
+pan></b><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma,=
+ sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span=
+></span><span style=3D"font-size: 10pt;" class=3D"">=B1=E8=C1=BE=BC=AE</spa=
+n><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-=
+serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>[<a h=
+ref=3D"mailto:bost12@agilesys.co.kr" style=3D"color: purple; text-decoratio=
+n: underline;" class=3D"">mailto:bost12@agilesys.co.kr</a>]<span class=3D"A=
+pple-converted-space">&nbsp;</span><br class=3D""><b class=3D"">Sent:</b><s=
+pan class=3D"Apple-converted-space">&nbsp;</span>Tuesday, April 26, 2016 1:=
+29 PM<br class=3D""><b class=3D"">To:</b><span class=3D"Apple-converted-spa=
+ce">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=B1=E8=
+=BA=B8=BC=B1</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-fami=
+ly: Tahoma, sans-serif;" class=3D""><br class=3D""><b class=3D"">Cc:</b><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=C0=CC=B5=CE=BF=AD</span><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><br class=
+=3D""><b class=3D"">Subject:</b><span class=3D"Apple-converted-space">&nbsp=
+;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=FC=B4=DE</sp=
+an><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans=
+-serif;" class=3D"">: LGU+ VDI (</span><span style=3D"font-size: 10pt;" cla=
+ss=3D"">=BE=F7=B9=AB</span><span style=3D"font-size: 10pt; font-family: Tah=
+oma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</=
+span></span><span style=3D"font-size: 10pt;" class=3D"">=B0=A1=BB=F3=C8=AD<=
+/span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span sty=
+le=3D"font-size: 10pt;" class=3D"">=BC=AD=BA=F1=BD=BA</span><span lang=3D"E=
+N-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"=
+">)<span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D=
+"font-size: 10pt;" class=3D"">=B3=B3=C7=B0</span><span style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-con=
+verted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D=
+"">=B0=FC=B7=C3</span><span style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+</span><span style=3D"font-size: 10pt;" class=3D"">=C7=CA=BF=E4</span><span=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=C0=CE=BF=F8</span><span style=3D"font-size: 10pt; =
+font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted=
+-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BF=
+=E4=C3=BB</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=B5=E5=B8=B3=B4=CF=B4=D9</span=
+><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D"">.<o:p class=3D""></o:p></span></div></div></div><div styl=
+e=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;"=
+ class=3D""><span lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></s=
+pan></div><div class=3D""><div class=3D""><div style=3D"margin: 0cm 0cm 0.0=
+001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" clas=
+s=3D"">LGU</span><span style=3D"font-size: 10pt;" class=3D"">=C7=C3=B7=AF=
+=BD=BA</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span>VDI<span class=3D"Apple-converted-space">&nbsp;</span></span><span st=
+yle=3D"font-size: 10pt;" class=3D"">=BC=AD=B9=F6</span><span style=3D"font-=
+size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"App=
+le-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" cl=
+ass=3D"">=B3=B3=C7=B0</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span><span style=3D"font-size: 10pt;" class=3D"">=B9=D7</span><span=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=BC=B3=C4=A1</span><span style=3D"font-size: 10pt; =
+font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted=
+-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C1=
+=F6=BF=F8</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=C0=CE=B7=C2</span><span style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: =
+10pt;" class=3D"">=BF=E4=C3=BB=C7=D5=B4=CF=B4=D9</span><span lang=3D"EN-US"=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o=
+:p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin=
+: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""=
+><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div class=
+=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family:=
+ =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=B0=
+=A1=B4=C9=C7=CF=B8=E9</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span><span style=3D"font-size: 10pt;" class=3D"">=BC=AD=BA=F1=BD=BA=
+=C1=F6=BF=F8=BA=BB=BA=CE=BF=A1=BC=AD</span><span style=3D"font-size: 10pt; =
+font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted=
+-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C1=
+=F8=C7=E0=C7=D2</span><span style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+</span><span style=3D"font-size: 10pt;" class=3D"">=B0=E8=C8=B9=C0=CC=C1=F6=
+=B8=B8</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D"">,<o:p class=3D""></o:p></span></div></div><di=
+v class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-=
+family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=3D""></=
+o:p></span></div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001=
+pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"E=
+N-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"=
+">29</span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF</span><span l=
+ang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" c=
+lass=3D"">&nbsp;(~30</span><span style=3D"font-size: 10pt;" class=3D"">=C0=
+=CF</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D"">)&nbsp;</span><span style=3D"font-size: 10pt;" c=
+lass=3D"">=C0=DB=BE=F7=C0=BA</span><span style=3D"font-size: 10pt; font-fam=
+ily: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">=
+&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BF=B5=BE=
+=F7=BA=BB=BA=CE=C0=C7</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=CE=B7=C2=C1=F6=
+=BF=F8=C0=CC</span><span style=3D"font-size: 10pt; font-family: Tahoma, san=
+s-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></s=
+pan><span style=3D"font-size: 10pt;" class=3D"">=C7=CA=BF=E4=C7=D5=B4=CF=B4=
+=D9</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div></div><div c=
+lass=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-fam=
+ily: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=3D""></o:p=
+></span></div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-U=
+S" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">2=
+9</span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF</span><span styl=
+e=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cl=
+ass=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size:=
+ 10pt;" class=3D"">=C7=CF=B7=E7=BF=A1</span><span style=3D"font-size: 10pt;=
+ font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converte=
+d-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=
+=C0=DB=BE=F7=C0=BB</span><span style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</sp=
+an></span><span style=3D"font-size: 10pt;" class=3D"">=BF=CF=B7=E1=C7=D2</s=
+pan><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=B0=E8=C8=B9=C0=CC=C1=F6=B8=B8</span><span=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=BB=F3=C8=B2=BF=A1</span><span style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-con=
+verted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D=
+"">=B5=FB=B6=F3=BC=AD</span><span lang=3D"EN-US" style=3D"font-size: 10pt; =
+font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted=
+-space">&nbsp;</span>30</span><span style=3D"font-size: 10pt;" class=3D"">=
+=C0=CF=B1=EE=C1=F6</span><span style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</sp=
+an></span><span style=3D"font-size: 10pt;" class=3D"">=C1=F8=C7=E0</span><s=
+pan style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">=
+<span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"fo=
+nt-size: 10pt;" class=3D"">=B5=C9=BC=F6</span><span style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-conver=
+ted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=
+=C0=D6=BD=C0=B4=CF=B4=D9</span><span lang=3D"EN-US" style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D"">.<o:p class=3D""></o:p></sp=
+an></div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font=
+-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" st=
+yle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;=
+<o:p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"marg=
+in: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D=
+""><span style=3D"font-size: 10pt;" class=3D"">=C1=F6=BF=F8=C0=CE=B7=C2</sp=
+an><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span><strong class=3D""=
+><span lang=3D"EN-US" style=3D"font-family: Tahoma, sans-serif;" class=3D""=
+>4</span></strong></span><strong class=3D""><span style=3D"font-size: 10pt;=
+ font-family: =B1=BC=B8=B2;" class=3D"">=B8=ED</span></strong><span style=
+=3D"font-size: 10pt;" class=3D"">=C0=CC</span><span style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-conver=
+ted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=
+=B0=A1=B4=C9=C7=CF=B0=DA=B4=C2=C1=F6=BF=E4</span><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span>?<o:p class=3D""></o:p></span></d=
+iv></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size:=
+ 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D=
+"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p c=
+lass=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: 0c=
+m 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><sp=
+an lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif=
+;" class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div id=3D"div=
+RpF204232" class=3D""><div class=3D"MsoNormal" align=3D"center" style=3D"ma=
+rgin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2; text-al=
+ign: center;"><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: T=
+ahoma, sans-serif;" class=3D""><hr size=3D"2" width=3D"100%" align=3D"cente=
+r" class=3D""></span></div><p class=3D"MsoNormal" style=3D"margin: 0cm 0cm =
+12pt; font-size: 12pt; font-family: =B1=BC=B8=B2;"><b class=3D""><span styl=
+e=3D"font-size: 10pt;" class=3D"">=BA=B8=B3=BD</span></b><b class=3D""><spa=
+n style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><s=
+pan class=3D"Apple-converted-space">&nbsp;</span></span></b><b class=3D""><=
+span style=3D"font-size: 10pt;" class=3D"">=BB=E7=B6=F7</span></b><b class=
+=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, s=
+ans-serif;" class=3D"">:</span></b><span lang=3D"EN-US" style=3D"font-size:=
+ 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-co=
+nverted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=C7=D1=C1=BE=B0=FC</span><span lang=3D"EN-US" style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D""><br class=3D""></span><b cl=
+ass=3D""><span style=3D"font-size: 10pt;" class=3D"">=BA=B8=B3=BD</span></b=
+><b class=3D""><span style=3D"font-size: 10pt; font-family: Tahoma, sans-se=
+rif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span>=
+</b><b class=3D""><span style=3D"font-size: 10pt;" class=3D"">=B3=AF=C2=A5<=
+/span></b><b class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font=
+-family: Tahoma, sans-serif;" class=3D"">:</span></b><span lang=3D"EN-US" s=
+tyle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span=
+ class=3D"Apple-converted-space">&nbsp;</span>2016</span><span style=3D"fon=
+t-size: 10pt;" class=3D"">=B3=E2</span><span lang=3D"EN-US" style=3D"font-s=
+ize: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Appl=
+e-converted-space">&nbsp;</span>4</span><span style=3D"font-size: 10pt;" cl=
+ass=3D"">=BF=F9</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-f=
+amily: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space=
+">&nbsp;</span>26</span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF<=
+/span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span sty=
+le=3D"font-size: 10pt;" class=3D"">=C8=AD=BF=E4=C0=CF</span><span style=3D"=
+font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=
+=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10=
+pt;" class=3D"">=BF=C0=C8=C4</span><span lang=3D"EN-US" style=3D"font-size:=
+ 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-co=
+nverted-space">&nbsp;</span>12:38<br class=3D""></span><b class=3D""><span =
+style=3D"font-size: 10pt;" class=3D"">=B9=DE=B4=C2</span></b><b class=3D"">=
+<span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"=
+"><span class=3D"Apple-converted-space">&nbsp;</span></span></b><b class=3D=
+""><span style=3D"font-size: 10pt;" class=3D"">=BB=E7=B6=F7</span></b><b cl=
+ass=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma=
+, sans-serif;" class=3D"">:</span></b><span lang=3D"EN-US" style=3D"font-si=
+ze: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple=
+-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" clas=
+s=3D"">=B1=E8=C1=BE=BC=AE</span><span lang=3D"EN-US" style=3D"font-size: 10=
+pt; font-family: Tahoma, sans-serif;" class=3D""><br class=3D""></span><b c=
+lass=3D""><span style=3D"font-size: 10pt;" class=3D"">=C1=A6=B8=F1</span></=
+b><b class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D"">:</span></b><span lang=3D"EN-US" style=3D"=
+font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=
+=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10=
+pt;" class=3D"">=C0=FC=B4=DE</span><span lang=3D"EN-US" style=3D"font-size:=
+ 10pt; font-family: Tahoma, sans-serif;" class=3D"">: LGU+ VDI (</span><spa=
+n style=3D"font-size: 10pt;" class=3D"">=BE=F7=B9=AB</span><span style=3D"f=
+ont-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D=
+"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;=
+" class=3D"">=B0=A1=BB=F3=C8=AD</span><span style=3D"font-size: 10pt; font-=
+family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-spac=
+e">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BC=AD=
+=BA=F1=BD=BA</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-fami=
+ly: Tahoma, sans-serif;" class=3D"">)<span class=3D"Apple-converted-space">=
+&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=B3=B3=C7=
+=B0</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=B0=FC=B7=C3</span><span style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"=
+Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;"=
+ class=3D"">=C7=CA=BF=E4</span><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=CE=BF=F8</s=
+pan><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=BF=E4=C3=BB</span><span style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-=
+converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=B5=E5=B8=B3=B4=CF=B4=D9</span><span lang=3D"EN-US" style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o:p class=3D""></o:=
+p></span></p></div><div class=3D""><div class=3D""><div class=3D""><div sty=
+le=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;=
+" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=BC=AD=B9=F6=C6=C0=
+</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cl=
+ass=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span st=
+yle=3D"font-size: 10pt;" class=3D"">=C1=F6=BF=F8=B0=A1=B4=C9</span><span la=
+ng=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cl=
+ass=3D""><span class=3D"Apple-converted-space">&nbsp;</span>10</span><span =
+style=3D"font-size: 10pt;" class=3D"">=B8=ED</span><span style=3D"font-size=
+: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-c=
+onverted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=C0=CC=C1=F6=B8=B8</span><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C7=D8=B4=E7=C0=
+=CF</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=C0=E5=BE=D6=B3=AA</span><span style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: =
+10pt;" class=3D"">=B1=E2=BC=FA=C1=F6=BF=F8</span><span style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-con=
+verted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D=
+"">=B9=DF=BB=FD=BD=C3</span><span lang=3D"EN-US" style=3D"font-size: 10pt; =
+font-family: Tahoma, sans-serif;" class=3D""><o:p class=3D""></o:p></span><=
+/div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-siz=
+e: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 1=
+0pt;" class=3D"">=B0=ED=B7=C1=C7=CF=B8=E9</span><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span>10</span><span style=3D"font-size=
+: 10pt;" class=3D"">=B8=ED=C0=CC</span><span style=3D"font-size: 10pt; font=
+-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-spa=
+ce">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BE=C6=
+=B5=CB=B4=CF=B4=D9</span><span lang=3D"EN-US" style=3D"font-size: 10pt; fon=
+t-family: Tahoma, sans-serif;" class=3D"">.<span class=3D"Apple-converted-s=
+pace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=
+=CC=C1=A1</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=B0=A8=BE=C8=C7=D8=BC=AD</span=
+><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D=
+""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D=
+"font-size: 10pt;" class=3D"">=C0=CE=BF=F8</span><span style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-con=
+verted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D=
+"">=C1=F6=BF=F8=BD=C3</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span lang=3D"EN-US" class=3D""><o:p class=3D=
+""></o:p></span></span></div></div><div class=3D""><div style=3D"margin: 0c=
+m 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><sp=
+an style=3D"font-size: 10pt;" class=3D"">=BF=A9=C0=AF=C0=D6=B0=D4</span><sp=
+an style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><=
+span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"fon=
+t-size: 10pt;" class=3D"">=C7=D2=B4=E7=C7=DF=C0=B8=B8=E9</span><span style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: =
+10pt;" class=3D"">=C1=C1=B0=DA=BD=C0=B4=CF=B4=D9</span><span lang=3D"EN-US"=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o=
+:p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin=
+: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""=
+><span style=3D"font-size: 10pt;" class=3D"">=B5=C7=B5=B5=B7=CF=C0=CC=B8=E9=
+</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+29</span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF=BF=A1</span><sp=
+an style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><=
+span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"fon=
+t-size: 10pt;" class=3D"">=C0=CF=C1=A4=C0=CC</span><span style=3D"font-size=
+: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-c=
+onverted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=BE=F8=C0=BB=B0=CD</span><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span><span style=3D"font-size: 10pt;" class=3D"">=B0=B0=C0=BA</s=
+pan><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=C0=CE=BF=F8=C0=B8=B7=CE</span><span style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: =
+10pt;" class=3D"">=B9=E8=C1=A4=C7=DF=C0=B8=B8=E9</span><span lang=3D"EN-US"=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><o:=
+p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin:=
+ 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D"">=
+<span style=3D"font-size: 10pt;" class=3D"">=C7=D5=B4=CF=B4=D9</span><span =
+lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=B9=E8=C1=A4</span><span style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"=
+Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;"=
+ class=3D"">=C7=D8=BC=AD</span><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BF=D4=B4=C2=B5=
+=A5</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=C0=CF=C0=CC</span><span style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"=
+Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;"=
+ class=3D"">=C0=D6=BE=EE=BC=AD</span><span style=3D"font-size: 10pt; font-f=
+amily: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space=
+">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BA=FC=C1=
+=AE=B9=F6=B8=AE=B8=E9</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF=C1=A4=BF=A1=
+</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><o:p class=3D""></o:p></span></div></div><div class=
+=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family:=
+ =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=BE=
+=EE=B7=C1=BF=F2=C0=CC</span><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=D6=C0=BB=B5=ED=
+</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cl=
+ass=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span st=
+yle=3D"font-size: 10pt;" class=3D"">=C7=D5=B4=CF=B4=D9</span><span lang=3D"=
+EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D=
+"">.<o:p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"=
+margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" clas=
+s=3D""><span style=3D"font-size: 10pt;" class=3D"">=C0=CF=C1=A4</span><span=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=C8=AE=C0=CE=C8=C4</span><span style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-con=
+verted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D=
+"">=C0=CE=BF=F8</span><span style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+</span><span style=3D"font-size: 10pt;" class=3D"">=B9=E8=C1=A4</span><span=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><sp=
+an class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-=
+size: 10pt;" class=3D"">=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9</span><span la=
+ng=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cl=
+ass=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span><o:p class=3D"=
+"></o:p></span></div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.=
+0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=
+=3D"font-size: 10pt;" class=3D"">=C8=AE=C0=CE=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=
+=B4=D9</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D"">.<span class=3D"Apple-converted-space">&nbsp;=
+</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=CC=BB=E7=B4=
+=D4</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div></div><div c=
+lass=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-fam=
+ily: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10p=
+t; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=3D""></o:p=
+></span></div></div><div class=3D""><div class=3D""><div style=3D"margin: 0=
+cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><b=
+ class=3D""><span lang=3D"EN-US" style=3D"" class=3D"">+~~+~~+~~+~~+~~+~~+~=
+~+~~+~~+~~+</span></b><span lang=3D"EN-US" style=3D"" class=3D""><o:p class=
+=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-size:=
+ 12pt; font-family: =B1=BC=B8=B2;" class=3D""><b class=3D""><span lang=3D"E=
+N-US" style=3D"" class=3D"">(</span><span style=3D"" class=3D"">=C1=D6<span=
+ lang=3D"EN-US" class=3D"">)</span>=BF=A1=C0=CC=BD=C3=BD=BA</span></b><span=
+ style=3D"" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+=BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE<span lang=3D"EN-US" class=3D"">&nbsp;<=
+/span>=C2=F7=C0=E5<span lang=3D"EN-US" class=3D"">&nbsp;&nbsp;</span><stron=
+g class=3D""><span style=3D"font-family: =B1=BC=B8=B2;" class=3D"">=C7=D1 =
+=C1=BE =B0=FC</span></strong><span lang=3D"EN-US" class=3D""><o:p class=3D"=
+"></o:p></span></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-si=
+ze: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=3D"" class=3D"=
+">=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3D"EN-US" cl=
+ass=3D""><span class=3D"Apple-converted-space">&nbsp;</span>67-3</span>=B9=
+=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3D"EN-US" class=3D""><span cla=
+ss=3D"Apple-converted-space">&nbsp;</span>3</span>=C3=FE<span lang=3D"EN-US=
+" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>137-804<o:p=
+ class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN=
+-US" style=3D"" class=3D"">Tel. 070-7114-0023<span class=3D"Apple-converted=
+-space">&nbsp;</span><strong class=3D""><span style=3D"font-family: =B1=BC=
+=B8=B2;" class=3D"">Mobile. 010-5607-5368</span></strong><o:p class=3D""></=
+o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; f=
+ont-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"" class=
+=3D"">Fax. (02)586-5070<strong class=3D""><span style=3D"font-family: =B1=
+=BC=B8=B2;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>E=
+-mail. jkhan</span></strong><a href=3D"mailto:s@agilesys.co.kr" style=3D"co=
+lor: purple; text-decoration: underline;" class=3D""><strong class=3D""><sp=
+an style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" cla=
+ss=3D"">@agilesys.co.kr</span></strong></a><o:p class=3D""></o:p></span></d=
+iv><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=B1=BC=B8=B2;" class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"" cla=
+ss=3D"">+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</span></b><span lang=3D"EN-US" styl=
+e=3D"" class=3D""><o:p class=3D""></o:p></span></div></div></div><div class=
+=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family:=
+ =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; f=
+ont-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=3D""></o:p></s=
+pan></div></div><div id=3D"divRpF80289" class=3D""><div class=3D"MsoNormal"=
+ align=3D"center" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-=
+family: =B1=BC=B8=B2; text-align: center;"><span lang=3D"EN-US" style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><hr size=3D"2" =
+width=3D"100%" align=3D"center" class=3D""></span></div><p class=3D"MsoNorm=
+al" style=3D"margin: 0cm 0cm 12pt; font-size: 12pt; font-family: =B1=BC=B8=
+=B2;"><b class=3D""><span style=3D"font-size: 10pt;" class=3D"">=BA=B8=B3=
+=BD</span></b><b class=3D""><span style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;<=
+/span></span></b><b class=3D""><span style=3D"font-size: 10pt;" class=3D"">=
+=BB=E7=B6=F7</span></b><b class=3D""><span lang=3D"EN-US" style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D"">:</span></b><span lan=
+g=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span sty=
+le=3D"font-size: 10pt;" class=3D"">=C0=AF=C0=E7=B4=EB</span><span lang=3D"E=
+N-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"=
+"><br class=3D""></span><b class=3D""><span style=3D"font-size: 10pt;" clas=
+s=3D"">=BA=B8=B3=BD</span></b><b class=3D""><span style=3D"font-size: 10pt;=
+ font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converte=
+d-space">&nbsp;</span></span></b><b class=3D""><span style=3D"font-size: 10=
+pt;" class=3D"">=B3=AF=C2=A5</span></b><b class=3D""><span lang=3D"EN-US" s=
+tyle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">:</sp=
+an></b><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>=
+2016</span><span style=3D"font-size: 10pt;" class=3D"">=B3=E2</span><span l=
+ang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" c=
+lass=3D""><span class=3D"Apple-converted-space">&nbsp;</span>4</span><span =
+style=3D"font-size: 10pt;" class=3D"">=BF=F9</span><span lang=3D"EN-US" sty=
+le=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span c=
+lass=3D"Apple-converted-space">&nbsp;</span>26</span><span style=3D"font-si=
+ze: 10pt;" class=3D"">=C0=CF</span><span style=3D"font-size: 10pt; font-fam=
+ily: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">=
+&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C8=AD=BF=
+=E4=C0=CF</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=BF=C0=C0=FC</span><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" clas=
+s=3D""><span class=3D"Apple-converted-space">&nbsp;</span>10:43<br class=3D=
+""></span><b class=3D""><span style=3D"font-size: 10pt;" class=3D"">=B9=DE=
+=B4=C2</span></b><b class=3D""><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span></b><b class=3D""><span style=3D"font-size: 10pt;" class=3D=
+"">=BB=E7=B6=F7</span></b><b class=3D""><span lang=3D"EN-US" style=3D"font-=
+size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">:</span></b><span =
+lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-size: 10pt;" class=3D"">=C7=D1=C1=BE=B0=FC</span><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" clas=
+s=3D""><br class=3D""></span><b class=3D""><span style=3D"font-size: 10pt;"=
+ class=3D"">=C2=FC=C1=B6</span></b><b class=3D""><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">:</span><=
+/b><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans=
+-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></sp=
+an><span style=3D"font-size: 10pt;" class=3D"">=B1=E8=C1=BE=BC=AE</span><sp=
+an lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif=
+;" class=3D"">;<span class=3D"Apple-converted-space">&nbsp;</span></span><s=
+pan style=3D"font-size: 10pt;" class=3D"">=BC=AD=BC=AE=C7=F6</span><span la=
+ng=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cl=
+ass=3D""><br class=3D""></span><b class=3D""><span style=3D"font-size: 10pt=
+;" class=3D"">=C1=A6=B8=F1</span></b><b class=3D""><span lang=3D"EN-US" sty=
+le=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">:</span=
+></b><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sa=
+ns-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>LG=
+U+ VDI (</span><span style=3D"font-size: 10pt;" class=3D"">=BE=F7=B9=AB</sp=
+an><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=B0=A1=BB=F3=C8=AD</span><span style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"=
+Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;"=
+ class=3D"">=BC=AD=BA=F1=BD=BA</span><span lang=3D"EN-US" style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D"">)<span class=3D"Apple=
+-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" clas=
+s=3D"">=B3=B3=C7=B0</span><span style=3D"font-size: 10pt; font-family: Taho=
+ma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</s=
+pan></span><span style=3D"font-size: 10pt;" class=3D"">=B0=FC=B7=C3</span><=
+span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""=
+><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"f=
+ont-size: 10pt;" class=3D"">=C7=CA=BF=E4</span><span style=3D"font-size: 10=
+pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-conve=
+rted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D""=
+>=C0=CE=BF=F8</span><span style=3D"font-size: 10pt; font-family: Tahoma, sa=
+ns-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></=
+span><span style=3D"font-size: 10pt;" class=3D"">=BF=E4=C3=BB</span><span s=
+tyle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span=
+ class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-si=
+ze: 10pt;" class=3D"">=B5=E5=B8=B3=B4=CF=B4=D9</span><span lang=3D"EN-US" s=
+tyle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o:p=
+ class=3D""></o:p></span></p></div><div class=3D""><div class=3D""><div cla=
+ss=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-famil=
+y: =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=
+=C0=AF=C2=F7=C0=E5=C0=D4=B4=CF=B4=D9</span><span lang=3D"EN-US" style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o:p class=3D"=
+"></o:p></span></div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.=
+0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" clas=
+s=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=
+=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=C0=CC=B9=F8</=
+span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sa=
+ns-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>LG=
+U+ VDI<span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=B3=B3=C7=B0</span><span style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-=
+converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=B0=FC=B7=C3</span><span style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</sp=
+an></span><span style=3D"font-size: 10pt;" class=3D"">=C7=CF=BF=A9</span><s=
+pan style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">=
+<span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"fo=
+nt-size: 10pt;" class=3D"">=B9=B0=B7=AE=C0=CC</span><span style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-=
+converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=B8=B9=BE=C6</span><span style=3D"font-size: 10pt; font-family: Tahom=
+a, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</sp=
+an></span><span style=3D"font-size: 10pt;" class=3D"">=C0=DB=BE=F7=C7=D2</s=
+pan><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=C7=CA=BF=E4</span><span style=3D"font-siz=
+e: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-=
+converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=
+=3D"">=C0=CE=BF=F8=C0=BB</span><span style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BF=E4=C3=BB</s=
+pan><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=
+=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=
+=3D"font-size: 10pt;" class=3D"">=B5=E5=B8=B3=B4=CF=B4=D9</span><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" clas=
+s=3D"">.<o:p class=3D""></o:p></span></div></div><div class=3D""><div style=
+=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Taho=
+ma, sans-serif;" class=3D"">&nbsp;#<span class=3D"Apple-converted-space">&n=
+bsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BC=AD=B9=F6=
+=C6=C0</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><s=
+pan style=3D"font-size: 10pt;" class=3D"">=C0=FC=C3=BC</span><span style=3D=
+"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=
+=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10=
+pt;" class=3D"">=C0=CE=BF=F8=C0=CC</span><span style=3D"font-size: 10pt; fo=
+nt-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-s=
+pace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C5=
+=F5=C0=D4</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=B5=C9</span><span style=3D"fo=
+nt-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"=
+Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;"=
+ class=3D"">=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9</span><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">.(8</span=
+><span style=3D"font-size: 10pt;" class=3D"">=B8=ED</span><span lang=3D"EN-=
+US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">=
++</span><span style=3D"font-size: 10pt;" class=3D"">=BD=C5=C0=D4</span><spa=
+n lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;=
+" class=3D"">2</span><span style=3D"font-size: 10pt;" class=3D"">=B8=ED</sp=
+an><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans=
+-serif;" class=3D"">=3D</span><span style=3D"font-size: 10pt;" class=3D"">=
+=C3=D1</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D"">10</span><span style=3D"font-size: 10pt;" cla=
+ss=3D"">=B8=ED</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-fa=
+mily: Tahoma, sans-serif;" class=3D"">)<o:p class=3D""></o:p></span></div><=
+/div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"fon=
+t-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=
+=3D""></o:p></span></div></div><div class=3D""><table class=3D"MsoNormalTab=
+le" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"647" style=3D=
+"width: 485pt; border-collapse: collapse;"><tbody class=3D""><tr style=3D"h=
+eight: 17.4pt;" class=3D""><td width=3D"149" style=3D"width: 112pt; border:=
+ 1pt solid windowtext; padding: 0cm; height: 17.4pt;" class=3D""><div style=
+=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" =
+class=3D""><strong class=3D""><span style=3D"font-size: 10pt; font-family: =
+'=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=B1=B8<span lang=3D"EN-US" class=
+=3D"">&nbsp;<span class=3D"Apple-converted-space">&nbsp;</span></span>=BA=
+=D0</span></strong><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></=
+span></div></td><td width=3D"83" style=3D"width: 62pt; border-style: solid =
+solid solid none; border-top-color: windowtext; border-right-color: windowt=
+ext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-w=
+idth: 1pt; border-bottom-width: 1pt; padding: 0cm; height: 17.4pt;" class=
+=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family:=
+ =B1=BC=B8=B2; text-align: center;" class=3D""><strong class=3D""><span sty=
+le=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"=
+">=C3=D1 =C0=CE=BF=F8<span lang=3D"EN-US" class=3D"">(</span>=B8=ED<span la=
+ng=3D"EN-US" class=3D"">)</span></span></strong><span lang=3D"EN-US" class=
+=3D""><o:p class=3D""></o:p></span></div></td><td width=3D"415" style=3D"wi=
+dth: 311pt; border-style: solid solid solid none; border-top-color: windowt=
+ext; border-right-color: windowtext; border-bottom-color: windowtext; borde=
+r-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; paddin=
+g: 0cm; height: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: =B1=BC=B8=B2; text-align: center;" class=3D"=
+"><strong class=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=
+=C0=BA =B0=ED=B5=F1';" class=3D"">=BA=F1<span lang=3D"EN-US" class=3D"">&nb=
+sp;&nbsp; &nbsp;</span>=B0=ED</span></strong><span lang=3D"EN-US" class=3D"=
+"><o:p class=3D""></o:p></span></div></td></tr><tr style=3D"height: 17.4pt;=
+" class=3D""><td style=3D"border-style: none solid solid; border-right-colo=
+r: windowtext; border-bottom-color: windowtext; border-left-color: windowte=
+xt; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1=
+pt; padding: 0cm; height: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm=
+ 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><strong =
+class=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=
+=ED=B5=F1';" class=3D"">=B0=FC=B8=AE =C0=CE=BF=F8</span></strong><span lang=
+=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td><td style=3D"=
+border-style: none solid solid none; border-bottom-color: windowtext; borde=
+r-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1p=
+t; padding: 0cm; height: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm =
+0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2; text-align: center;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=
+=BC=C0=BA =B0=ED=B5=F1';" class=3D"">2</span><span lang=3D"EN-US" class=3D"=
+"><o:p class=3D""></o:p></span></div></td><td style=3D"border-style: none s=
+olid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt;=
+ border-right-color: windowtext; border-right-width: 1pt; padding: 0cm; hei=
+ght: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size:=
+ 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D=
+"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">&nb=
+sp;</span><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=
+=B5=F1';" class=3D"">=BC=AD=B9=F6=C3=FE<span lang=3D"EN-US" class=3D"">(</s=
+pan>=BC=B3=C4=A1=C0=E5=BC=D2<span lang=3D"EN-US" class=3D"">) /<span class=
+=3D"Apple-converted-space">&nbsp;</span></span>=BE=C6=B7=A1=C3=FE<span lang=
+=3D"EN-US" class=3D"">(</span>=B9=B0=B7=F9=B3=B3=C7=B0<span lang=3D"EN-US" =
+class=3D"">)&nbsp;</span></span><span lang=3D"EN-US" class=3D""><o:p class=
+=3D""></o:p></span></div></td></tr><tr style=3D"height: 17.4pt;" class=3D""=
+><td style=3D"border-style: none solid solid; border-right-color: windowtex=
+t; border-bottom-color: windowtext; border-left-color: windowtext; border-r=
+ight-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding:=
+ 0cm; height: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; f=
+ont-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><strong class=3D""><=
+span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" c=
+lass=3D"">=C8=AE=C0=CE<span lang=3D"EN-US" class=3D"">/</span>=C1=A4=B8=AE =
+=C0=CE=BF=F8</span></strong><span lang=3D"EN-US" class=3D""><o:p class=3D""=
+></o:p></span></div></td><td style=3D"border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-col=
+or: windowtext; border-right-width: 1pt; padding: 0cm; height: 17.4pt;" cla=
+ss=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-famil=
+y: =B1=BC=B8=B2; text-align: center;" class=3D""><span lang=3D"EN-US" style=
+=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=
+2</span><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div>=
+</td><td style=3D"border-style: none solid solid none; border-bottom-color:=
+ windowtext; border-bottom-width: 1pt; border-right-color: windowtext; bord=
+er-right-width: 1pt; padding: 0cm; height: 17.4pt;" class=3D""><div style=
+=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=
+=BC=C0=BA =B0=ED=B5=F1';" class=3D"">&nbsp;</span><span style=3D"font-size:=
+ 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=C7=D2=B4=E7=
+=C7=D1 =B0=F8=B0=A3=BF=A1 =C0=E5=BA=F1 =C1=BE=B7=F9 =B9=D7<span lang=3D"EN-=
+US" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>S/N<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=BA=B0=B7=CE =C1=A4=B8=
+=AE</span><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></di=
+v></td></tr><tr style=3D"height: 17.4pt;" class=3D""><td style=3D"border-st=
+yle: none solid solid; border-right-color: windowtext; border-bottom-color:=
+ windowtext; border-left-color: windowtext; border-right-width: 1pt; border=
+-bottom-width: 1pt; border-left-width: 1pt; background-color: yellow; paddi=
+ng: 0cm; height: 17.4pt; background-position: initial initial; background-r=
+epeat: initial initial;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><strong class=3D""=
+><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =
+=B0=ED=B5=F1';" class=3D"">BOX<span class=3D"Apple-converted-space">&nbsp;<=
+/span></span></strong><strong class=3D""><span style=3D"font-size: 10pt; fo=
+nt-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=C7=D8=C3=BC =C0=CE=BF=
+=F8</span></strong><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></=
+span></div></td><td style=3D"border-style: none solid solid none; border-bo=
+ttom-color: windowtext; border-bottom-width: 1pt; border-right-color: windo=
+wtext; border-right-width: 1pt; background-color: yellow; padding: 0cm; hei=
+ght: 17.4pt; background-position: initial initial; background-repeat: initi=
+al initial;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: =
+12pt; font-family: =B1=BC=B8=B2; text-align: center;" class=3D""><span lang=
+=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=
+=F1';" class=3D"">6</span><span lang=3D"EN-US" class=3D""><o:p class=3D""><=
+/o:p></span></div></td><td rowspan=3D"2" style=3D"border-style: none solid =
+solid none; border-bottom-color: black; border-bottom-width: 1pt; border-ri=
+ght-color: windowtext; border-right-width: 1pt; background-color: yellow; p=
+adding: 0cm; height: 17.4pt; background-position: initial initial; backgrou=
+nd-repeat: initial initial;" class=3D""><div style=3D"margin: 0cm 0cm 0.000=
+1pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"=
+EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';"=
+ class=3D"">&nbsp;</span><span style=3D"font-size: 10pt; font-family: '=B8=
+=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=B8=B9=C0=BB =BC=F6=B7=CF =C1=C1=BD=C0=
+=B4=CF=B4=D9<span lang=3D"EN-US" class=3D"">.</span></span><span lang=3D"EN=
+-US" class=3D""><o:p class=3D""></o:p></span></div></td></tr><tr style=3D"h=
+eight: 17.4pt;" class=3D""><td style=3D"border-style: none solid solid; bor=
+der-right-color: windowtext; border-bottom-color: windowtext; border-left-c=
+olor: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border=
+-left-width: 1pt; background-color: yellow; padding: 0cm; height: 17.4pt; b=
+ackground-position: initial initial; background-repeat: initial initial;" c=
+lass=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-fam=
+ily: =B1=BC=B8=B2;" class=3D""><strong class=3D""><span lang=3D"EN-US" styl=
+e=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D""=
+>BOX<span class=3D"Apple-converted-space">&nbsp;</span></span></strong><str=
+ong class=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =
+=B0=ED=B5=F1';" class=3D"">=C1=A4=B8=AE =C0=CE=BF=F8</span></strong><span l=
+ang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td><td style=
+=3D"border-style: none solid solid none; border-bottom-color: windowtext; b=
+order-bottom-width: 1pt; border-right-color: windowtext; border-right-width=
+: 1pt; background-color: yellow; padding: 0cm; height: 17.4pt; background-p=
+osition: initial initial; background-repeat: initial initial;" class=3D""><=
+div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=
+=B8=B2; text-align: center;" class=3D""><span lang=3D"EN-US" style=3D"font-=
+size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">2</span><=
+span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td></tr=
+><tr style=3D"height: 26.4pt;" class=3D""><td style=3D"border-style: none s=
+olid solid; border-right-color: windowtext; border-bottom-color: windowtext=
+; border-left-color: windowtext; border-right-width: 1pt; border-bottom-wid=
+th: 1pt; border-left-width: 1pt; padding: 0cm; height: 26.4pt;" class=3D"">=
+<div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=
+=BC=B8=B2;" class=3D""><strong class=3D""><span lang=3D"EN-US" style=3D"fon=
+t-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">BOX<spa=
+n class=3D"Apple-converted-space">&nbsp;</span></span></strong><strong clas=
+s=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=
+=F1';" class=3D"">=B9=DD=C3=E2 =C0=CE=BF=F8</span></strong><span lang=3D"EN=
+-US" class=3D""><o:p class=3D""></o:p></span></div></td><td style=3D"border=
+-style: none solid solid none; border-bottom-color: windowtext; border-bott=
+om-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; pad=
+ding: 0cm; height: 26.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001=
+pt; font-size: 12pt; font-family: =B1=BC=B8=B2; text-align: center;" class=
+=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=
+=C0=BA =B0=ED=B5=F1';" class=3D"">2</span><span lang=3D"EN-US" class=3D""><=
+o:p class=3D""></o:p></span></div></td><td width=3D"415" style=3D"width: 31=
+1pt; border-style: none solid solid none; border-bottom-color: windowtext; =
+border-bottom-width: 1pt; border-right-color: windowtext; border-right-widt=
+h: 1pt; padding: 0cm; height: 26.4pt;" class=3D""><div style=3D"margin: 0cm=
+ 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><spa=
+n lang=3D"EN-US" style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=
+=ED=B5=F1';" class=3D"">&nbsp;</span><span style=3D"font-size: 10pt; font-f=
+amily: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=C8=AD=B9=B0<span lang=3D"E=
+N-US" class=3D"">(</span>=BF=EB=B4=DE<span lang=3D"EN-US" class=3D"">) 2</s=
+pan>=B4=EB =BA=CE=B8=A6 =BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span lang=3D"EN-US" =
+class=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span><br class=3D=
+"">&nbsp;</span>=B9=DA=BD=BA=B0=A1 =B8=B9=BE=C6 =C8=AD=B9=B0 =BE=C6=C0=FA=
+=BE=BE=BF=CD =C7=D4=B2=B2<span lang=3D"EN-US" class=3D""><span class=3D"App=
+le-converted-space">&nbsp;</span>1</span>=B8=ED=BE=BF =C2=F7=BF=A1 =C0=FB=
+=C0=E7=C7=CF=BF=A9 =B9=DD=C3=E2<span lang=3D"EN-US" class=3D"">.</span></sp=
+an><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td>=
+</tr><tr style=3D"height: 17.4pt;" class=3D""><td style=3D"border-style: no=
+ne solid solid; border-right-color: windowtext; border-bottom-color: window=
+text; border-left-color: windowtext; border-right-width: 1pt; border-bottom=
+-width: 1pt; border-left-width: 1pt; padding: 0cm; height: 17.4pt;" class=
+=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family:=
+ =B1=BC=B8=B2;" class=3D""><strong class=3D""><span lang=3D"EN-US" style=3D=
+"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">Rac=
+k PDU<span class=3D"Apple-converted-space">&nbsp;</span></span></strong><st=
+rong class=3D""><span style=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =
+=B0=ED=B5=F1';" class=3D"">=C0=E5=C2=F8 =C0=CE=BF=F8</span></strong><span l=
+ang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td><td style=
+=3D"border-style: none solid solid none; border-bottom-color: windowtext; b=
+order-bottom-width: 1pt; border-right-color: windowtext; border-right-width=
+: 1pt; padding: 0cm; height: 17.4pt;" class=3D""><div style=3D"margin: 0cm =
+0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2; text-align: cente=
+r;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: =
+'=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">2</span><span lang=3D"EN-US" class=
+=3D""><o:p class=3D""></o:p></span></div></td><td style=3D"border-style: no=
+ne solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0cm;=
+ height: 17.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-s=
+ize: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" styl=
+e=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D""=
+>&nbsp;<span class=3D"Apple-converted-space">&nbsp;</span></span><span styl=
+e=3D"font-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D""=
+>=C0=CE=BF=F8 =C0=CC =B8=B9=C0=B8=B8=E9 =B4=F5 =C3=DF=B0=A1=B5=C9 =BF=B9=C1=
+=A4 =C0=D4=B4=CF=B4=D9<span lang=3D"EN-US" class=3D"">.</span></span><span =
+lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td></tr><tr =
+style=3D"height: 17.4pt;" class=3D""><td style=3D"border-style: none solid =
+solid; border-right-color: windowtext; border-bottom-color: windowtext; bor=
+der-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1=
+pt; border-left-width: 1pt; padding: 0cm; height: 17.4pt;" class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=
+=B2;" class=3D""><strong class=3D""><span style=3D"font-size: 10pt; font-fa=
+mily: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=C7=D5=B0=E8</span></strong>=
+<span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></div></td><td=
+ colspan=3D"2" style=3D"border-style: none solid solid none; border-bottom-=
+color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext=
+; border-right-width: 1pt; padding: 0cm; height: 17.4pt;" class=3D""><div s=
+tyle=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=
+=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family=
+: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1=
+6<span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"f=
+ont-size: 10pt; font-family: '=B8=BC=C0=BA =B0=ED=B5=F1';" class=3D"">=B8=
+=ED</span><span lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></di=
+v></td></tr></tbody></table></div><div class=3D""><div style=3D"margin: 0cm=
+ 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><spa=
+n lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;=
+" class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div class=3D""=
+><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=
+=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-=
+family: Tahoma, sans-serif;" class=3D"">&nbsp;<o:p class=3D""></o:p></span>=
+</div></div><div class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-si=
+ze: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: =
+10pt;" class=3D"">=B3=B3=C7=B0</span><span style=3D"font-size: 10pt; font-f=
+amily: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space=
+">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=CF=C1=
+=A4=C0=BA</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbs=
+p;</span>04</span><span style=3D"font-size: 10pt;" class=3D"">=BF=F9</span>=
+<span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-se=
+rif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>29</spa=
+n><span style=3D"font-size: 10pt;" class=3D"">=C0=CF</span><span lang=3D"EN=
+-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""=
+>(</span><span style=3D"font-size: 10pt;" class=3D"">=B1=DD</span><span lan=
+g=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D"">)<span class=3D"Apple-converted-space">&nbsp;</span></span><span st=
+yle=3D"font-size: 10pt;" class=3D"">=C0=CC=B8=E7</span><span lang=3D"EN-US"=
+ style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D"">,<s=
+pan class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font=
+-size: 10pt;" class=3D"">=BF=C0=C0=FC</span><span lang=3D"EN-US" style=3D"f=
+ont-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D=
+"Apple-converted-space">&nbsp;</span>10</span><span style=3D"font-size: 10p=
+t;" class=3D"">=BD=C3=BA=CE=C5=CD</span><span style=3D"font-size: 10pt; fon=
+t-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-sp=
+ace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=B3=B3=
+=C7=B0</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><s=
+pan style=3D"font-size: 10pt;" class=3D"">=BF=B9=C1=A4=C0=CC=B8=E7</span><s=
+pan lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D"">,<span class=3D"Apple-converted-space">&nbsp;</span><o:p cla=
+ss=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: 0cm =
+0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span=
+ lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div class=3D"">=
+<div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=
+=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=C0=DB=
+=BE=F7</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><s=
+pan style=3D"font-size: 10pt;" class=3D"">=C1=BE=B7=E1</span><span style=3D=
+"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=
+=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10=
+pt;" class=3D"">=BD=C3=B0=A3=C0=BA</span><span style=3D"font-size: 10pt; fo=
+nt-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-s=
+pace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=
+=FA=B3=E1</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family:=
+ Tahoma, sans-serif;" class=3D"">(</span><span style=3D"font-size: 10pt;" c=
+lass=3D"">=BF=C0=C8=C4</span><span lang=3D"EN-US" style=3D"font-size: 10pt;=
+ font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converte=
+d-space">&nbsp;</span>10</span><span style=3D"font-size: 10pt;" class=3D"">=
+=BD=C3</span><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Ta=
+homa, sans-serif;" class=3D"">)</span><span style=3D"font-size: 10pt;" clas=
+s=3D"">=B1=EE=C1=F6</span><span style=3D"font-size: 10pt; font-family: Taho=
+ma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</s=
+pan></span><span style=3D"font-size: 10pt;" class=3D"">=C1=F6=BC=D3</span><=
+span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""=
+><span class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"f=
+ont-size: 10pt;" class=3D"">=B5=C9</span><span style=3D"font-size: 10pt; fo=
+nt-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-s=
+pace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BC=
+=F6</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=C0=D6=BD=C0=B4=CF=B4=D9</span><span=
+ lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;"=
+ class=3D"">.<o:p class=3D""></o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=
+=B2;" class=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family=
+: Tahoma, sans-serif;" class=3D"">(</span><span style=3D"font-size: 10pt;" =
+class=3D"">=BB=E7=B9=AB=BD=C7=BF=A1=BC=AD</span><span style=3D"font-size: 1=
+0pt; font-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-conv=
+erted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"=
+">=B3=B3=C7=B0=C7=D2</span><span style=3D"font-size: 10pt; font-family: Tah=
+oma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</=
+span></span><span style=3D"font-size: 10pt;" class=3D"">=C0=E5=BA=F1=B5=B5<=
+/span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span sty=
+le=3D"font-size: 10pt;" class=3D"">=C0=D6=BD=C0=B4=CF=B4=D9</span><span lan=
+g=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span></span><span st=
+yle=3D"font-size: 10pt;" class=3D"">=B3=AA=B8=D3=C1=F6=B4=C2</span><span st=
+yle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-siz=
+e: 10pt;" class=3D"">=B9=B0=B7=F9=BF=A1=BC=AD</span><span lang=3D"EN-US" st=
+yle=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>LGU+<span class=3D"Apple-conve=
+rted-space">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D""=
+>=BB=F3=BE=CF=B5=BF=C0=B8=B7=CE</span><span style=3D"font-size: 10pt; font-=
+family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-spac=
+e">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=B3=B3=
+=C7=B0</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><s=
+pan style=3D"font-size: 10pt;" class=3D"">=BF=B9=C1=A4</span><span lang=3D"=
+EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D=
+"">)<o:p class=3D""></o:p></span></div></div><div class=3D""><div style=3D"=
+margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" clas=
+s=3D""><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div=
+ class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-f=
+amily: =B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"=
+">=B3=EB=B6=F4=BB=F6</span><span style=3D"font-size: 10pt; font-family: Tah=
+oma, sans-serif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</=
+span></span><span style=3D"font-size: 10pt;" class=3D"">=BA=CE=BA=D0=BF=A1<=
+/span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" cla=
+ss=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span sty=
+le=3D"font-size: 10pt;" class=3D"">=C5=F5=C0=D4=C7=D2</span><span style=3D"=
+font-size: 10pt; font-family: Tahoma, sans-serif;" class=3D""><span class=
+=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"font-size: 10=
+pt;" class=3D"">=C0=CE=BF=F8=C0=BB</span><span style=3D"font-size: 10pt; fo=
+nt-family: Tahoma, sans-serif;" class=3D""><span class=3D"Apple-converted-s=
+pace">&nbsp;</span></span><span style=3D"font-size: 10pt;" class=3D"">=BF=
+=E4=C3=BB</span><span style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span=
+><span style=3D"font-size: 10pt;" class=3D"">=B5=E5=B8=B3=B4=CF=B4=D9</span=
+><span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-s=
+erif;" class=3D"">.<span class=3D"Apple-converted-space">&nbsp;</span><o:p =
+class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: 0=
+cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><s=
+pan lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, sans-seri=
+f;" class=3D"">&nbsp;<o:p class=3D""></o:p></span></div></div><div class=3D=
+""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=B1=BC=B8=B2;" class=3D""><span style=3D"font-size: 10pt;" class=3D"">=C0=
+=CC=BB=F3=C0=D4=B4=CF=B4=D9</span><span lang=3D"EN-US" style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D"">.<o:p class=3D""></o:p><=
+/span></div></div><div class=3D""><div class=3D""><div style=3D"margin: 0cm=
+ 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><spa=
+n lang=3D"EN-US" style=3D"" class=3D"">------------------------------------=
+-------------------------------<o:p class=3D""></o:p></span></div><div styl=
+e=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;"=
+ class=3D""><span lang=3D"EN-US" style=3D"" class=3D"">(</span><span style=
+=3D"" class=3D"">=C1=D6<span lang=3D"EN-US" class=3D"">)</span>=BF=A1=C0=CC=
+=BD=C3=BD=BA<span lang=3D"EN-US" class=3D"">&nbsp;</span>=BC=AD=BA=F1=BD=BA=
+=BB=E7=BE=F7=BA=CE<span lang=3D"EN-US" class=3D"">&nbsp;&nbsp;&nbsp;</span>=
+=C0=AF=C0=E7=B4=EB =C2=F7=C0=E5<span lang=3D"EN-US" class=3D""><o:p class=
+=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; fon=
+t-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span style=3D"" class=
+=3D"">=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3D=
+"EN-US" class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>67-3<=
+span class=3D"Apple-converted-space">&nbsp;</span></span>=B4=EB=B8=A2=BA=F4=
+=B5=F9<span lang=3D"EN-US" class=3D""><span class=3D"Apple-converted-space"=
+>&nbsp;</span>3</span>=C3=FE<span lang=3D"EN-US" class=3D""><o:p class=3D""=
+></o:p></span></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-siz=
+e: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=
+=3D"" class=3D"">T) 070-7114-0073 F) 02-586-5070 MP) 010-9076-7979<o:p clas=
+s=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; font-size=
+: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span lang=3D"EN-US" style=
+=3D"" class=3D"">E-Mail )<span class=3D"Apple-converted-space">&nbsp;</span=
+><a href=3D"http://kms.astglobal.co.kr/owa/redir.aspx?C=3D3776c32117f14172a=
+1163b6a035078b5&amp;URL=3Dmailto%3ajdyu%40agilesys.co.kr" target=3D"_blank"=
+ style=3D"color: purple; text-decoration: underline;" class=3D"">jdyu@agile=
+sys.co.kr</a><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm 0=
+cm 0.0001pt; font-size: 12pt; font-family: =B1=BC=B8=B2;" class=3D""><span =
+lang=3D"EN-US" style=3D"" class=3D"">--------------------------------------=
+-----------------------------</span></div></div></div></div></div></div></d=
+iv></div></div></div></blockquote></div><br class=3D""></div></body></html>=
+
+--_000_9C662C226E534AD59862257B7F9DD57Eagilesyscokr_--

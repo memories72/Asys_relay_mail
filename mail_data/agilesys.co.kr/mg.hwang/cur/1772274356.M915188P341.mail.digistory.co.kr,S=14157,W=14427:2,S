@@ -1,0 +1,270 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id GBCDNrTComlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:25:56 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id DE7C814C34
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:25:56 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1545229821774171102
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com (104.47.32.116)
+ by MAIL-SERVER.agilesys.co.kr (112.220.69.170) with Microsoft SMTP Server
+ (TLS) id 8.3.465.0; Mon, 12 Sep 2016 11:06:32 +0900
+Received: from AT5PR84MB0129.NAMPRD84.PROD.OUTLOOK.COM (10.162.137.23) by
+ AT5PR84MB0131.NAMPRD84.PROD.OUTLOOK.COM (10.162.137.25) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.1.619.10; Mon, 12 Sep 2016 02:06:10 +0000
+Received: from AT5PR84MB0129.NAMPRD84.PROD.OUTLOOK.COM ([10.162.137.23]) by
+ AT5PR84MB0129.NAMPRD84.PROD.OUTLOOK.COM ([10.162.137.23]) with mapi id
+ 15.01.0619.011; Mon, 12 Sep 2016 02:06:10 +0000
+From: "Galvez Campanelli, Javier" <javier.galvez@hpe.com>
+Content-Class: urn:content-classes:message
+Date: Mon, 12 Sep 2016 11:06:10 +0900
+Subject: CLOUD FORWARD: HPE Helion Stackato (PAAS)  training ( technical )
+ from beginner to expert level available on demand!!
+Thread-Topic: CLOUD FORWARD: HPE Helion Stackato (PAAS)  training (
+ technical ) from beginner to expert level available on demand!!
+Thread-Index: AdIMmjf+r1LPw+9yQ6KkDyc8NQygaw==
+Message-ID:
+ <AT5PR84MB01292007D3F375FEF4D5D29FE6FF0@AT5PR84MB0129.NAMPRD84.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+acceptlanguage: en-US
+authentication-results: agilesys.co.kr; dkim=none (message not signed)
+ header.d=none;agilesys.co.kr; dmarc=none action=none header.from=hpe.com;
+x-ms-office365-filtering-correlation-id: c766a784-aca9-42c9-dddd-08d3dab15db2
+x-microsoft-exchange-diagnostics:
+ 1;AT5PR84MB0131;6:MIzuJ60O/Z/sP/nC94SzzpfXAs7qifo1tEGE2l83ODaWCDY4jqz21fmzZ1KG9bJ4/Hj/onPuqL8YIx22aaciXz5mf9RLs7OGe16U2jXgeoyD2esGGDBI2uf/RkUabmeASXbGIKUMzwzLc9dsFMB9W6RyybKifxqkxiZPt3AzUrrV0P/wMd/c6E1ROY0lG/6tAbG47SHpGIQlQvDC63VrK2FTUQi1YHYWs01NthMh0tf9geT039F7mtwZ1iTq3+YH1q64YuW7HRs9o8sSMHQEVEm2whHs5chvaxJFTpNYJzs1Ht4dyvKy3eq+vQvZ73q6ArivXwKh1kBmukrA+AItbw==;5:dp1D3MvdfcD66kwQhLHE7vo8e22726dIOHY8qBqW92zWyJrT3fGLoRVd9WazR5Oxp4wKqSJVuhZ8E5przfFuvXLrrkJOWbgZ+mZ+5AaKCkwQRE8sWriucncVXu3YmIDmvaPdQvCOiEXbySnSZxBORw==;24:be0CM4kHBDZLuJ9xDBL0UVeN9ovX+j8lWjVToIhacXfBEOCwydlNB7YaV/jF57+E12AdROjAdZsVqM2y5YOrwadZ1NqsPCYs4lyHF8TCgwo=;7:/HMSuQywCj/yR4b2I0i/h19y9cclG1qvaVNXiFjXwgCDJFveiLWAOI1VfPof7koEk+s35QeeU12QZOKs1PQ5v+MNdArec9ZkM8EJtCum/6Kr5UOCb8nbZJXmdP3muSIFry9gC5wauenQlGsSG98Mnz1lcTKXo3WwjR8sl3UkX1osaFPts0/WE9lZ5CxA+4R9V3PKKTvAaAPfIL5uijTZ/E0Gaz39r2RQb0aJg697Fip+TIhKYVO/Gls3KPe2B2WM
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:AT5PR84MB0131;
+x-microsoft-antispam-prvs:
+ <AT5PR84MB01310893C53430BF07578837E6FF0@AT5PR84MB0131.NAMPRD84.PROD.OUTLOOK.COM>
+x-exchange-antispam-report-test:
+ UriScan:(227479698468861)(260659696264633)(21748063052155)(73583498263828);
+x-exchange-antispam-report-cfa-test:
+ BCL:0;PCL:0;RULEID:(6040176)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046)(6055026);SRVR:AT5PR84MB0131;BCL:0;PCL:0;RULEID:;SRVR:AT5PR84MB0131;
+x-forefront-prvs: 006339698F
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(7916002)(252514010)(377454003)(7366002)(7416002)(19618635001)(87936001)(7336002)(7406005)(586003)(102836003)(790700001)(87386001)(6116002)(7906003)(3846002)(4001450100002)(7736002)(74316002)(11100500001)(92566002)(107886002)(110136002)(4001520100001)(86362001)(189998001)(2906002)(5002640100001)(5660300001)(9686002)(3660700001)(5180700001)(3280700002)(10400500002)(19580405001)(19580395003)(19625215002)(33656002)(19300405004)(2900100001)(66066001)(881003)(50986999)(7846002)(1671002)(15975445007)(226693001)(7696004)(77096005)(54356999)(229853001)(19617315012)(8676002)(8936002)(109986004)(861006)(8666005)(81166006)(122556002)(18206015028)(16236675004)(15395725005)(99286002)(7099028)(5001760100003)(7059030)(225543005);DIR:OUT;SFP:1102;SCL:1;SRVR:AT5PR84MB0131;H:AT5PR84MB0129.NAMPRD84.PROD.OUTLOOK.COM;FPR:;SPF:None;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+x-originatororg: hpe.com
+x-ms-exchange-crosstenant-originalarrivaltime: 12 Sep 2016 02:06:10.3480
+ (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 105b2061-b669-4b31-92ac-24d304d195dc
+x-ms-exchange-transport-crosstenantheadersstamped: AT5PR84MB0131
+Content-Type: multipart/alternative;
+	boundary="_000_AT5PR84MB01292007D3F375FEF4D5D29FE6FF0AT5PR84MB0129NAMP_"
+MIME-Version: 1.0
+
+--_000_AT5PR84MB01292007D3F375FEF4D5D29FE6FF0AT5PR84MB0129NAMP_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Partner,
+Thanks in your interest to participate on our on demand HPE Helion Stackato=
+ training series: CLOUD FORWARD
+
+Below is the first series for September technical training line-up for Stac=
+kato. You can attend live (I will send 3 calendar invites in separate email=
+).
+Please distribute the invites to other interested people in your organizati=
+ons. (They only need to use the same domain as your corporate email address=
+)
+If you can't attend the webinar on this dates, you will have the access ava=
+ilable on-demand 10 days after the post.
+
+=95           Introduction to PaaS =96 (09/14/2016 04:00 PM PDT) =96 1 hour
+=95           12 Factors for Cloud Native Development (09/21/2016 08:00 AM =
+PDT) =96 1 hour
+=95           Microservices 101 =96 (09/28/2016 08:00 AM PDT) =96 1 hour
+
+We will send more study material in early October
+
+We have our own Stackato lab: http://helionit.io/ (public access and availa=
+ble for Channels to use and test your apps.)
+If you are interested to get access, just send me a note, and I will create=
+ accounts for you and your teams
+
+If you need help or you have haves questions, let me know and we can discus=
+s over skype any time
+
+Best Regards,
+Javier Galvez
+Solution Architect - Channels - Hybrid IT
+Asia-Pacific & Japan
+Address: 450 Alexandra Rd, Singapore, (S)119960
+Mobile: +65 8448 4605
+Email: javier.galvez@hpe.com<mailto:javier.galvez@hpe.com>
+
+[http://h71028.www7.hp.com/hpe_logo_email_signature/HPE_logo_email_signatur=
+e.png]<http://www.hpe.com/>
+
+
+--_000_AT5PR84MB01292007D3F375FEF4D5D29FE6FF0AT5PR84MB0129NAMP_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Segoe UI",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">Dear Partner,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">Thanks in your interest to participate on our on demand HPE Helion =
+Stackato training series: CLOUD FORWARD<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">Below is the first series for September technical training line-up =
+for Stackato. You can attend live (I will send 3 calendar invites in separa=
+te email).
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">Please distribute the invites to other interested people in your or=
+ganizations. (They only need to use the same domain as your corporate email=
+ address)
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">If you can't attend the webinar on this dates, you will have the ac=
+cess available on-demand 10 days after the post.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">=95&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Int=
+roduction to PaaS =96 (09/14/2016 04:00 PM PDT) =96 1 hour<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">=95&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12 =
+Factors for Cloud Native Development (09/21/2016 08:00 AM PDT) =96 1 hour<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">=95&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mic=
+roservices 101 =96 (09/28/2016 08:00 AM PDT) =96 1 hour<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">We will send more study material in early October
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">We have our own Stackato lab:
+<a href=3D"http://helionit.io/">http://helionit.io/</a> (public access and =
+available for Channels to use and test your apps.)
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">If you are interested to get access, just send me a note, and I wil=
+l create accounts for you and your teams<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">If you need help or you have haves questions, let me know and we ca=
+n discuss over skype any time<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif">Best Regards,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:black">Javier Galvez
+<br>
+</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif;color:black">Solution Architect - Channels - Hybrid IT<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">Asia-Pacific &amp; Japan<br>
+<b>Address:</b> 450 Alexandra Rd, Singapore, (S)119960<b><o:p></o:p></b></s=
+pan></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:black">Mobile:</span></b><span style=3D"font-=
+size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"> &#43;65 =
+8448 4605<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:black">Email:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">
+</span><a href=3D"mailto:javier.galvez@hpe.com"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0563C1">javier.galvez@=
+hpe.com</span></a><span style=3D"font-size:10.0pt;font-family:&quot;Arial&q=
+uot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black"><br>
+</span><a href=3D"http://www.hpe.com/"><span style=3D"font-size:10.0pt;font=
+-family:&quot;Arial&quot;,sans-serif;color:black;text-decoration:none"><img=
+ border=3D"0" width=3D"168" height=3D"65" style=3D"width:1.75in;height:.677=
+in" id=3D"_x0000_i1025" src=3D"http://h71028.www7.hp.com/hpe_logo_email_sig=
+nature/HPE_logo_email_signature.png" alt=3D"HPE logo"></span></a><span styl=
+e=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AT5PR84MB01292007D3F375FEF4D5D29FE6FF0AT5PR84MB0129NAMP_--

@@ -1,0 +1,272 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id KCN9AELFomnxAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:50 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 011D414C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:50 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552480908251948915
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp656535wme;
+        Wed, 30 Nov 2016 19:29:15 -0800 (PST)
+X-Received: by 10.25.221.82 with SMTP id u79mr14139899lfg.52.1480562955354;
+        Wed, 30 Nov 2016 19:29:15 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.25.216.103 with POP3 id p100mf107714412lfg.0;
+        Wed, 30 Nov 2016 19:29:14 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 14854 invoked by uid 700); 1 Dec 2016 12:06:12 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	1 Dec 2016 12:06:12 +0900
+Received: (qmail 823 invoked by uid 700); 1 Dec 2016 12:06:11 +0900
+Received: from unknown (HELO ?192.168.1.53?) (mg.hwang@agilesys.co.kr@210.222.57.79)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	1 Dec 2016 12:06:11 +0900
+Content-Type: multipart/alternative; boundary=Apple-Mail-90B548DE-4DD9-4D7A-AE63-B4B5C4207BDE
+Content-Transfer-Encoding: 7bit
+From: =?euc-kr?B?yLIguc6x1A==?= <mg.hwang@agilesys.co.kr>
+Mime-Version: 1.0 (1.0)
+Subject: =?euc-kr?Q?Re:_kB=B1=B9=B9=CE_=C4=AB=B5=E5_=B0=FC=B7=C3_=B8=DE?=
+ =?euc-kr?Q?=C0=CF_=BA=B8=B3=BB_=B5=E5=B8=B3=B4=CF=B4=D9.?=
+Date: Thu, 1 Dec 2016 12:06:01 +0900
+References: <00cd01d24b7e$f08c3a50$d1a4aef0$@agilesys.co.kr>
+In-Reply-To: <00cd01d24b7e$f08c3a50$d1a4aef0$@agilesys.co.kr>
+To: =?euc-kr?B?wOW8vL+1?= <zero@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <0E9FE16A-A0C5-4C13-A31E-0DDCE04D772F@agilesys.co.kr>
+
+
+--Apple-Mail-90B548DE-4DD9-4D7A-AE63-B4B5C4207BDE
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+
+7JmE66OM7JqUDQoNClNlbnQgZnJvbSBNaW4ncyBpUGhvbmUNCg0KMjAxNi4gMTIuIDEuIOyYpOyg
+hCAxMTo1OSDsnqXshLjsmIEgPHplcm9AYWdpbGVzeXMuY28ua3I+IOyekeyEsToNCg0KPiDsnqXs
+hLjsmIEg7J6F64uI64ukLg0KPiBLQuq1reuvvOy5tOuTnCDqtIDroKgg66mU7J28IOuztOuCtCDr
+k5zrpr3ri4jri6QuDQo+ICANCj4g66eO7J2AIOywuOyXrCDrtoDtg4Eg65Oc66a964uI64ukLg0K
+PiAgDQo+IOq1reuvvOy5tOuTnCDstJ3rrLTrtoAg7JaR7LCs7Jqx7LCo7J6lIOyeheuLiOuLpA0K
+PiDqsJHsnpDquLAg7Iuk7KCBIOuMgOyDgeydtCDsnojslrTshJwg67aA7YOB7KKAIOuTnOumveuL
+iOuLpA0KPiBLYuq1reuvvOy5tOuTnCBMaWl2ZSBtYXRlIOyVseyEpOy5mOyigCDtlbTso7zshLjs
+mpQg6rCA7J6F7ZWY7Iuc6rOgIOyEpOy5mOunjCDtlZjsi5zrqbQg65Cp64uI64ukLiAo6raM7Jyg
+7J6QOksxMDYzMzcs6rWt66+87Lm065OcKeuPmeujjCDsp4Hsm5DrtoTrk6Tsl5Dqsozrj4Qg66eO
+7J20IOyGjOqwnCDrtoDtg4Hrk5zrpr3ri4jri6QNCj4gIA0KPiDqsJHsnpDquLAga2LquIjsnLUN
+Cj4g7KeA6riIIExpaXZNYXRlIOqwgOyehe2VmOuptCAxLDAwMCDtj6zsnbjtirgg7KaJ7IucIOyg
+geumvSENCj4gIA0KPiDilqAgTGlpdiBNYXRlIEFwcCDshKTsuZgg67CU66Gc6rCA6riwDQo+IGh0
+dHBzOi8vbS5saWl2bWF0ZS5jb20va2F0d3MvbW9iaWxlL2FwcF9pbnN0YWxsLmpzcA0KPiAgDQo+
+ID09PT09PT09PT09PT09PT09PT09PT09PQ0KPiDilqDsnqzsp4Htmozsgqw6S0Lqta3rr7zsubTr
+k5wNCj4g4pag6raM7Jyg7KeB7JuQ67KI7Zi4OiBLMTA2MzM3DQo+IOKWoOy2lOyynOyduOy9lOuT
+nDrsnoXroKXtlZjsp4DslYrsnYwNCj4gPT09PT09PT09PT09PT09PT09PT09PT09DQo+IOyVseyE
+pOy5mD4g67O47J247ZmV7J24ID4g7JW96rSA64+Z7J2YPg0KPiAi7LaU7LKc7J24IOyehOyngeyb
+kCDsgqzrsogiIOyEoO2DneuyhO2KvCDtgbTrpq0+DQo+ICLqs4Tsl7Tsgqwg7ISg7YOdIiA+IOyC
+rOuyiOyeheugpSjsmIHrrLjrjIDrrLjsnpApLiDtmZXsnbjrsoTtirzquYzsp4Ag64iE66W066m0
+IOyZhOujjCEhDQo+ID09PT09PT09PT09PT09PT09PT09PT09PQ0KPiA+Pj7qtozsnKDsp4Hsm5Dr
+sojtmLgg6rytIOuEo+yWtOyjvOyEuOyalCE8PDwNCj4gPT09PT09PT09PT09PT09PT09PT09PT09
+DQo+IOu5hOuyiCDshKTsoJXtlZjqs6Ag64uk7J2M64uo6rOE66GcIOuEmOyWtOqwgOuptA0KPiDs
+hKTsuZjqsIAg7JmE66OM65CY6rOgIDEsMDAwcCDsponsi5zsoIHrpr0NCj4gIA0KPiDtmITsnqwg
+66qo67CU7J28IOy/oO2PsOydhCA1MCXtlaDsnbjrkJwg6rCA6rKp7Jy866GcIO2MkOunpO2VmOqz
+oCDsnojslrTsmpR+IOuwlOuhnCDqsIDsnoXtlZjqs6Ag7Zic7YOd67Cb7JWE67O07IS47JqU4p2k
+DQo+ICANCj4g4pagIExpaXYgTWF0ZeuegD8NCj4gOiDtj6zsnbjtirgg6riw67CYKOyggeumvS/s
+gqzsmqkv7Lap7KCEKSDsu6TrrqTri4jti7DquIjsnLUsIOyGjOu5hOyngOy2nOq0gOumrCwg7KCc
+7Zy07ISc67mE7IqkIOyXsOqzhCDrk7HsnZgg7ISc67mE7Iqk66W8IOygnOqzte2VmOuKlCDsg4jr
+oZzsmrQg66qo67CU7J28IOq4iOyctSDtlIzrnqvtj7wNCj4gIA0KPiDilqAg7KO87JqUIO2Kueyn
+lQ0KPiAxLiDrs7TrgrTquLAsIOyhsOultOq4sCwg7Lap7KCE7ZWY6riwLCBBVE3stpzquIgg65Ox
+IO2PrOyduO2KuOumrOulvCDtmITquIjsspjrn7wg7IKs7JqpDQo+IDIuIOygnO2ctOy/oO2PsCDs
+gqzsmqko67CU66Gc7JOw6riwJuyEoOusvO2VmOq4sCkNCj4gMy4gS0LquIjsnLXqt7jro7kg6rOE
+7Je07IKsIOyDge2SiOqxsOuemCDrsI8g7J2067Kk7Yq4DQo+ICANCj4g6rCQ7IKs7ZWp64uI64uk
+Lg0KPiAgDQo+ICANCj4gPGltYWdlMDAxLmpwZz4NCj4gIA0K
+--Apple-Mail-90B548DE-4DD9-4D7A-AE63-B4B5C4207BDE
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>=EC=99=84=EB=A3=8C=EC=9A=94<br><br>Sen=
+t from Min's iPhone</div><div><br>2016. 12. 1. =EC=98=A4=EC=A0=84 11:59 =EC=9E=
+=A5=EC=84=B8=EC=98=81 &lt;<a href=3D"mailto:zero@agilesys.co.kr">zero@agiles=
+ys.co.kr</a>&gt; =EC=9E=91=EC=84=B1:<br><br></div><blockquote type=3D"cite">=
+<div><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><!-=
+-[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--><div class=3D"WordSection1"><p class=3D"Ms=
+oNormal">=EC=9E=A5=EC=84=B8=EC=98=81 =EC=9E=85=EB=8B=88=EB=8B=A4<span lang=3D=
+"EN-US">. <o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">=
+KB</span>=EA=B5=AD=EB=AF=BC=EC=B9=B4=EB=93=9C =EA=B4=80=EB=A0=A8 =EB=A9=94=EC=
+=9D=BC =EB=B3=B4=EB=82=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D"=
+EN-US">.<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o=
+:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal">=EB=A7=8E=EC=9D=80 =EC=B0=B8=
+=EC=97=AC =EB=B6=80=ED=83=81 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D=
+"EN-US">.<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><=
+o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal">=EA=B5=AD=EB=AF=BC=EC=B9=B4=
+=EB=93=9C =EC=B4=9D=EB=AC=B4=EB=B6=80 =EC=96=91=EC=B0=AC=EC=9A=B1=EC=B0=A8=EC=
+=9E=A5 =EC=9E=85=EB=8B=88=EB=8B=A4<span lang=3D"EN-US"><o:p></o:p></span></p=
+><p class=3D"MsoNormal">=EA=B0=91=EC=9E=90=EA=B8=B0 =EC=8B=A4=EC=A0=81 =EB=8C=
+=80=EC=83=81=EC=9D=B4 =EC=9E=88=EC=96=B4=EC=84=9C =EB=B6=80=ED=83=81=EC=A2=80=
+ =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D"EN-US"><o:p></o:p></span>=
+</p><p class=3D"MsoNormal"><span lang=3D"EN-US">Kb</span>=EA=B5=AD=EB=AF=BC=EC=
+=B9=B4=EB=93=9C<span lang=3D"EN-US"> Liive mate </span>=EC=95=B1=EC=84=A4=EC=
+=B9=98=EC=A2=80 =ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94 =EA=B0=80=EC=9E=85=ED=95=
+=98=EC=8B=9C=EA=B3=A0 =EC=84=A4=EC=B9=98=EB=A7=8C =ED=95=98=EC=8B=9C=EB=A9=B4=
+ =EB=90=A9=EB=8B=88=EB=8B=A4<span lang=3D"EN-US">. (</span>=EA=B6=8C=EC=9C=A0=
+=EC=9E=90<span lang=3D"EN-US">:K106337,</span>=EA=B5=AD=EB=AF=BC=EC=B9=B4=EB=
+=93=9C<span lang=3D"EN-US">)</span>=EB=8F=99=EB=A3=8C =EC=A7=81=EC=9B=90=EB=B6=
+=84=EB=93=A4=EC=97=90=EA=B2=8C=EB=8F=84 =EB=A7=8E=EC=9D=B4 =EC=86=8C=EA=B0=9C=
+ =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D"EN-US">=
+<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp=
+;</o:p></span></p><p class=3D"MsoNormal">=EA=B0=91=EC=9E=90=EA=B8=B0<span la=
+ng=3D"EN-US"> kb</span>=EA=B8=88=EC=9C=B5<span lang=3D"EN-US"><o:p></o:p></s=
+pan></p><p class=3D"MsoNormal">=EC=A7=80=EA=B8=88<span lang=3D"EN-US"> LiivM=
+ate </span>=EA=B0=80=EC=9E=85=ED=95=98=EB=A9=B4<span lang=3D"EN-US"> 1,000 <=
+/span>=ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=A6=89=EC=8B=9C =EC=A0=81=EB=A6=BD<span=
+ lang=3D"EN-US">! <o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D=
+"EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal">=E2=96=A0<span la=
+ng=3D"EN-US"> Liiv Mate App </span>=EC=84=A4=EC=B9=98 =EB=B0=94=EB=A1=9C=EA=B0=
+=80=EA=B8=B0<span lang=3D"EN-US"> <o:p></o:p></span></p><p class=3D"MsoNorma=
+l"><span lang=3D"EN-US"><a href=3D"https://m.liivmate.com/katws/mobile/app_i=
+nstall.jsp">https://m.liivmate.com/katws/mobile/app_install.jsp</a> <o:p></o=
+:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p><=
+/span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p><p cla=
+ss=3D"MsoNormal">=E2=96=A0=EC=9E=AC=EC=A7=81=ED=9A=8C=EC=82=AC<span lang=3D"=
+EN-US">:KB</span>=EA=B5=AD=EB=AF=BC=EC=B9=B4=EB=93=9C<span lang=3D"EN-US"><o=
+:p></o:p></span></p><p class=3D"MsoNormal">=E2=96=A0=EA=B6=8C=EC=9C=A0=EC=A7=
+=81=EC=9B=90=EB=B2=88=ED=98=B8<span lang=3D"EN-US">: K106337<o:p></o:p></spa=
+n></p><p class=3D"MsoNormal">=E2=96=A0=EC=B6=94=EC=B2=9C=EC=9D=B8=EC=BD=94=EB=
+=93=9C<span lang=3D"EN-US">:</span>=EC=9E=85=EB=A0=A5=ED=95=98=EC=A7=80=EC=95=
+=8A=EC=9D=8C<span lang=3D"EN-US"><o:p></o:p></span></p><p class=3D"MsoNormal=
+"><span lang=3D"EN-US">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p><p class=3D"MsoNormal">=EC=95=B1=EC=84=
+=A4=EC=B9=98<span lang=3D"EN-US">&gt; </span>=EB=B3=B8=EC=9D=B8=ED=99=95=EC=9D=
+=B8<span lang=3D"EN-US"> &gt; </span>=EC=95=BD=EA=B4=80=EB=8F=99=EC=9D=98<sp=
+an lang=3D"EN-US">&gt;<o:p></o:p></span></p><p class=3D"MsoNormal"><span lan=
+g=3D"EN-US">"</span>=EC=B6=94=EC=B2=9C=EC=9D=B8 =EC=9E=84=EC=A7=81=EC=9B=90 =EC=
+=82=AC=EB=B2=88<span lang=3D"EN-US">" </span>=EC=84=A0=ED=83=9D=EB=B2=84=ED=8A=
+=BC =ED=81=B4=EB=A6=AD<span lang=3D"EN-US">&gt;<o:p></o:p></span></p><p clas=
+s=3D"MsoNormal"><span lang=3D"EN-US">"</span>=EA=B3=84=EC=97=B4=EC=82=AC =EC=
+=84=A0=ED=83=9D<span lang=3D"EN-US">" &gt; </span>=EC=82=AC=EB=B2=88=EC=9E=85=
+=EB=A0=A5<span lang=3D"EN-US">(</span>=EC=98=81=EB=AC=B8=EB=8C=80=EB=AC=B8=EC=
+=9E=90<span lang=3D"EN-US">). </span>=ED=99=95=EC=9D=B8=EB=B2=84=ED=8A=BC=EA=
+=B9=8C=EC=A7=80 =EB=88=84=EB=A5=B4=EB=A9=B4 =EC=99=84=EB=A3=8C<span lang=3D"=
+EN-US">!!<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></=
+o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">&gt;&gt;&gt;</spa=
+n>=EA=B6=8C=EC=9C=A0=EC=A7=81=EC=9B=90=EB=B2=88=ED=98=B8 =EA=BC=AD =EB=84=A3=
+=EC=96=B4=EC=A3=BC=EC=84=B8=EC=9A=94<span lang=3D"EN-US">!&lt;&lt;&lt;<o:p><=
+/o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>=
+<p class=3D"MsoNormal">=EB=B9=84=EB=B2=88 =EC=84=A4=EC=A0=95=ED=95=98=EA=B3=A0=
+ =EB=8B=A4=EC=9D=8C=EB=8B=A8=EA=B3=84=EB=A1=9C =EB=84=98=EC=96=B4=EA=B0=80=EB=
+=A9=B4<span lang=3D"EN-US"> <o:p></o:p></span></p><p class=3D"MsoNormal">=EC=
+=84=A4=EC=B9=98=EA=B0=80 =EC=99=84=EB=A3=8C=EB=90=98=EA=B3=A0<span lang=3D"E=
+N-US"> 1,000p </span>=EC=A6=89=EC=8B=9C=EC=A0=81=EB=A6=BD<span lang=3D"EN-US=
+"><o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nb=
+sp;</o:p></span></p><p class=3D"MsoNormal">=ED=98=84=EC=9E=AC =EB=AA=A8=EB=B0=
+=94=EC=9D=BC =EC=BF=A0=ED=8F=B0=EC=9D=84<span lang=3D"EN-US"> 50%</span>=ED=95=
+=A0=EC=9D=B8=EB=90=9C =EA=B0=80=EA=B2=A9=EC=9C=BC=EB=A1=9C =ED=8C=90=EB=A7=A4=
+=ED=95=98=EA=B3=A0 =EC=9E=88=EC=96=B4=EC=9A=94<span lang=3D"EN-US">~ </span>=
+=EB=B0=94=EB=A1=9C =EA=B0=80=EC=9E=85=ED=95=98=EA=B3=A0 =ED=98=9C=ED=83=9D=EB=
+=B0=9B=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94<span lang=3D"EN-US" style=3D"font=
+-family:&quot;MS Gothic&quot;">=E2=9D=A4</span><span lang=3D"EN-US"><o:p></o=
+:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p><=
+/span></p><p class=3D"MsoNormal">=E2=96=A0<span lang=3D"EN-US"> Liiv Mate</s=
+pan>=EB=9E=80<span lang=3D"EN-US">? <o:p></o:p></span></p><p class=3D"MsoNor=
+mal"><span lang=3D"EN-US">: </span>=ED=8F=AC=EC=9D=B8=ED=8A=B8 =EA=B8=B0=EB=B0=
+=98<span lang=3D"EN-US">(</span>=EC=A0=81=EB=A6=BD<span lang=3D"EN-US">/</sp=
+an>=EC=82=AC=EC=9A=A9<span lang=3D"EN-US">/</span>=EC=B6=A9=EC=A0=84<span la=
+ng=3D"EN-US">) </span>=EC=BB=A4=EB=AE=A4=EB=8B=88=ED=8B=B0=EA=B8=88=EC=9C=B5=
+<span lang=3D"EN-US">, </span>=EC=86=8C=EB=B9=84=EC=A7=80=EC=B6=9C=EA=B4=80=EB=
+=A6=AC<span lang=3D"EN-US">, </span>=EC=A0=9C=ED=9C=B4=EC=84=9C=EB=B9=84=EC=8A=
+=A4 =EC=97=B0=EA=B3=84 =EB=93=B1=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC=
+ =EC=A0=9C=EA=B3=B5=ED=95=98=EB=8A=94 =EC=83=88=EB=A1=9C=EC=9A=B4 =EB=AA=A8=EB=
+=B0=94=EC=9D=BC =EA=B8=88=EC=9C=B5 =ED=94=8C=EB=9E=AB=ED=8F=BC<span lang=3D"=
+EN-US"> <o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o=
+:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal">=E2=96=A0 =EC=A3=BC=EC=9A=94=
+ =ED=8A=B9=EC=A7=95<span lang=3D"EN-US"> <o:p></o:p></span></p><p class=3D"M=
+soNormal"><span lang=3D"EN-US">1. </span>=EB=B3=B4=EB=82=B4=EA=B8=B0<span la=
+ng=3D"EN-US">, </span>=EC=A1=B0=EB=A5=B4=EA=B8=B0<span lang=3D"EN-US">, </sp=
+an>=EC=B6=A9=EC=A0=84=ED=95=98=EA=B8=B0<span lang=3D"EN-US">, ATM</span>=EC=B6=
+=9C=EA=B8=88 =EB=93=B1 =ED=8F=AC=EC=9D=B8=ED=8A=B8=EB=A6=AC=EB=A5=BC =ED=98=84=
+=EA=B8=88=EC=B2=98=EB=9F=BC =EC=82=AC=EC=9A=A9<span lang=3D"EN-US"> <o:p></o=
+:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">2. </span>=EC=A0=9C=
+=ED=9C=B4=EC=BF=A0=ED=8F=B0 =EC=82=AC=EC=9A=A9<span lang=3D"EN-US">(</span>=EB=
+=B0=94=EB=A1=9C=EC=93=B0=EA=B8=B0<span lang=3D"EN-US">&amp;</span>=EC=84=A0=EB=
+=AC=BC=ED=95=98=EA=B8=B0<span lang=3D"EN-US">) <o:p></o:p></span></p><p clas=
+s=3D"MsoNormal"><span lang=3D"EN-US">3. KB</span>=EA=B8=88=EC=9C=B5=EA=B7=B8=
+=EB=A3=B9 =EA=B3=84=EC=97=B4=EC=82=AC =EC=83=81=ED=92=88=EA=B1=B0=EB=9E=98 =EB=
+=B0=8F =EC=9D=B4=EB=B2=A4=ED=8A=B8<span lang=3D"EN-US"><o:p></o:p></span></p=
+><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p><p c=
+lass=3D"MsoNormal">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4<span lang=3D=
+"EN-US">.<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><=
+o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>=
+&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US">&lt;image=
+001.jpg&gt;<o:p></o:p></span></p><p class=3D"MsoNormal"><span lang=3D"EN-US"=
+><o:p>&nbsp;</o:p></span></p></div></div></blockquote></body></html>=
+
+--Apple-Mail-90B548DE-4DD9-4D7A-AE63-B4B5C4207BDE--
+

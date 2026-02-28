@@ -10,6 +10,9 @@ const { syncMailbox, getCachedMailList } = require('./src/sync');
 const { getTags, createTag, deleteTag, addTagToEmail, removeTagFromEmail } = require('./src/tags');
 const { queueEmail, cancelOutboxJob, startOutboxProcessor } = require('./src/outbox');
 const { recordOpen } = require('./src/tracking');
+const { searchCachedMails } = require('./src/search');
+const { buildConversationThread } = require('./src/thread');
+const { getRulesList, createRule, deleteRule } = require('./src/rules');
 const nodemailer = require('nodemailer');
 
 const app = express();
@@ -666,6 +669,65 @@ app.delete('/api/mail/messages/tags', authenticateToken, async (req, res) => {
         for (const uid of uids) {
             try { await removeTagFromEmail(req.user.email, folder, uid, tagId); } catch (e) { }
         }
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// ==========================================
+// Full-Text Search and Threading API
+// ==========================================
+app.get('/api/mail/search', authenticateToken, async (req, res) => {
+    try {
+        const query = req.query.q || '';
+        if (query.trim().length === 0) return res.json({ status: 'OK', messages: [] });
+        const results = await searchCachedMails(req.user.email, query);
+        res.json({ status: 'OK', messages: results });
+    } catch (err) {
+        console.error('[Search] API error:', err.message);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.get('/api/mail/threads', authenticateToken, async (req, res) => {
+    try {
+        const folder = req.query.folder || 'INBOX';
+        const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 50;
+        const threads = await buildConversationThread(req.user.email, folder, limit);
+        res.json({ status: 'OK', threads });
+    } catch (err) {
+        console.error('[Threads] API error:', err.message);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// ==========================================
+// Mail Rules Engine API
+// ==========================================
+app.get('/api/mail/rules', authenticateToken, async (req, res) => {
+    try {
+        const rules = await getRulesList(req.user.email);
+        res.json({ status: 'OK', rules });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.post('/api/mail/rules', authenticateToken, async (req, res) => {
+    try {
+        const { name, conditions, actions } = req.body;
+        if (!name || !conditions || !actions) return res.status(400).json({ error: 'name, conditions, actions are required' });
+        const ruleId = await createRule(req.user.email, name, conditions, actions);
+        res.json({ status: 'OK', ruleId });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.delete('/api/mail/rules/:id', authenticateToken, async (req, res) => {
+    try {
+        await deleteRule(req.user.email, req.params.id);
         res.json({ status: 'OK' });
     } catch (err) {
         res.status(500).json({ error: err.message });

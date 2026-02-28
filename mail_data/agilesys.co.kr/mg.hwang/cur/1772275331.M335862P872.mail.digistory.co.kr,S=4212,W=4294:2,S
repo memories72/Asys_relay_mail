@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id qJf8E4PGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:42:11 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 5123714C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:42:11 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1554925372097590601
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp3560862wma;
+        Tue, 27 Dec 2016 19:05:21 -0800 (PST)
+X-Received: by 10.28.183.215 with SMTP id h206mr32504850wmf.60.1482894320225;
+        Tue, 27 Dec 2016 19:05:20 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning ccjjss7@agilesys.co.kr does not designate 110.45.130.213 as permitted sender) smtp.mailfrom=ccjjss7@agilesys.co.kr
+Received-SPF: softfail (google.com: domain of transitioning ccjjss7@agilesys.co.kr does not designate 110.45.130.213 as permitted sender) client-ip=110.45.130.213;
+Received: by 10.28.44.66 with POP3 id s63mf125899332wms.1;
+        Tue, 27 Dec 2016 19:05:19 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 11992 invoked by uid 700); 28 Dec 2016 11:33:12 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	28 Dec 2016 11:33:12 +0900
+Received: (qmail 8582 invoked by uid 700); 28 Dec 2016 11:33:11 +0900
+Received: from unknown (HELO whoisdesk.com) (110.45.130.213)
+	by 0 (knetqmail v1.06) with SMTP;
+	28 Dec 2016 11:33:11 +0900
+Date: Wed, 28 Dec 2016 11:33:11 +0900
+To: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+From: =?utf-8?B?7LWc7KGw7Iic?= <ccjjss7@agilesys.co.kr>
+Reply-to: ccjjss7@agilesys.co.kr
+Subject: =?utf-8?B?6riI7J28IOyYpO2bhCDrr7jtjIUg6rG0?=
+Message-ID: <e74c2eb4d6853dec00d11e47e93e2b7a@whoisdesk.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_e74c2eb4d6853dec00d11e47e93e2b7a"
+
+
+--b1_e74c2eb4d6853dec00d11e47e93e2b7a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7Jik64qYKOyImCkg7Jik7ZuEIDTsi5zqsr0g7Iuc6rCE7J20IOyWtOuWpOyngCwuLi7si5zqsITr
+kJjrqbQg66+47YyF7J2ECuqwhOuLqO2eiArtlansi5zri6QsLi4uLj09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0o7KO8KeyXkOydtOyLnOyK
+pMKgwqDCoApodHRwOi8vd3d3LmFnaWxlc3lzLmNvLmty7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1
+rCDsgqztj4nrjIDroZwgMTM4CuuMgOulreu5jOuUqSAz7Li17LWc7KGw7IicwqDCoMKgwqAgMDcw
+LTcxMTQtMDAyM8KgwqAgL8KgCjAxMC02MjExLTY1MDjCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgY2NqanNzN0BhZ2lsZXN5cy5jby5rcj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09Cg==
+
+
+--b1_e74c2eb4d6853dec00d11e47e93e2b7a
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PHA+7Jik64qYKOyImCkg7Jik7ZuEIDTsi5zqsr0g7Iuc6rCE7J20IOyWtOuWpOyngCwuLi48L3A+
+PHA+7Iuc6rCE65CY66m0IOuvuO2MheydhCDqsITri6jtnogg7ZWp7Iuc64ukLC4uLi48YnI+PC9w
+PjxkaXY+PHA+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PTwvcD48cD4o7KO8KeyXkOydtOyLnOyKpMKgwqDCoCA8YSBocmVmPSJodHRwOi8v
+d3d3LmFnaWxlc3lzLmNvLmtyIj5odHRwOi8vd3d3LmFnaWxlc3lzLmNvLmtyPC9hPjwvcD48cD7s
+hJzsmrjtirnrs4Tsi5wg7ISc7LSI6rWsIOyCrO2PieuMgOuhnCAxMzgg64yA66Wt67mM65SpIDPs
+uLU8L3A+PHA+7LWc7KGw7IicwqDCoMKgwqAgMDcwLTcxMTQtMDAyM8KgwqAgL8KgIDAxMC02MjEx
+LTY1MDg8L3A+PHA+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoDxhIGhyZWY9Im1haWx0bzpj
+Y2pqc3M3QGFnaWxlc3lzLmNvLmtyIj5jY2pqc3M3QGFnaWxlc3lzLmNvLmtyPC9hPjwvcD48cD49
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PTwvcD48cD48YnI+PC9wPjwvZGl2PjxpbWcgc3R5bGU9ImJvcmRlcjpub25lOyB3aWR0aDoxcHg7
+IGhlaWdodDoxcHg7IGRpc3BsYXk6bm9uZSIgc3JjPSJodHRwOi8vbWFpbC5hZ2lsZXN5cy5jby5r
+ci9jb21tb24vY29uZmlybVJlYWQvP21lc3NhZ2VJZD0xNGIyZWVjMS0xNWE2LTRmNTQtMTI1Yi01
+MzAzMWVlMzdiNjMmZW1haWw9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3IiIC8+
+
+
+
+--b1_e74c2eb4d6853dec00d11e47e93e2b7a--
+

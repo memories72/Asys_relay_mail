@@ -1,0 +1,202 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id QDGjDkHFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:49 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 3AA0414C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:36:49 +0000 (UTC)
+Authentication-Results: nas.agilesys.co.kr;
+	dkim=fail reason="key not found in DNS" header.d=ztmail9.biz header.i=@ztmail9.biz header.a=rsa-sha256 header.s=ztmail9 header.b=KQhDdrO0;
+	dkim-atps=neutral
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552480602912625580
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp650037wme;
+        Wed, 30 Nov 2016 19:02:40 -0800 (PST)
+X-Received: by 10.28.174.76 with SMTP id x73mr32057664wme.25.1480561360182;
+        Wed, 30 Nov 2016 19:02:40 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 50.22.16.130 is neither permitted nor denied by best guess record for domain of postmaster@cloud4.server.com) smtp.mailfrom=cloud4.server.com;
+       dkim=pass header.i=@ztmail9.biz
+Received-SPF: neutral (google.com: 50.22.16.130 is neither permitted nor denied by best guess record for domain of postmaster@cloud4.server.com) client-ip=50.22.16.130;
+Received: by 10.28.44.66 with POP3 id s63mf95697801wms.1;
+        Wed, 30 Nov 2016 19:02:38 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 9777 invoked by uid 700); 1 Dec 2016 11:56:19 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	1 Dec 2016 11:56:19 +0900
+Received: (qmail 29916 invoked by uid 700); 1 Dec 2016 11:56:18 +0900
+Received: from unknown (HELO cloud4.server.com) (50.22.16.130)
+	by 0 (knetqmail v1.06) with SMTP;
+	1 Dec 2016 11:56:18 +0900
+X-Spam-Level: *
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ztmail9.biz;
+	s=ztmail9; t=1480559692;
+	bh=ATgnEbWoPhsQebZg3swTNnQwTQxy/JZXz5PVX+3GlaQ=;
+	h=MIME-Version:Date:Content-Type:From:Subject:Reply-To:To:
+	 Message-Id;
+	b=KQhDdrO0Rk+CPZ9+e+wOiNb0cP8I5rrU1wS2Ok3HElJShiOdUVnhoInCw+POfw/tf
+	 2scJUWNHXMFeWooJWp18nKwF71AbeF+idh3WnKR5pvzQTzAoe6Fj5BNmGItCOZO8zW
+	 RnZsPIhtqJ+LrCA5qNqFwoOdV/WZHGTa/2yXkCpE=
+MIME-Version: 1.0
+Date: Wed, 30 Nov 2016 20:54:38 -0600
+Content-Type: multipart/alternative;
+	 boundary="------------070304040005010104080405"
+X-Priority: 3 (Normal)
+From: =?utf-8?Q?"=ED=95=9C=EA=B5=AD=EB=A0=88=EB=85=B8=EB=B2=84_=EB=A7=88=EC=BC=80=ED=8C=85?=<marketing_kr@lenovo.com> 
+	via" <messages@ztmail9.biz>
+Subject: =?utf-8?Q?Lenovo_U2L_=ED=8A=B9=EB=B3=84_=ED=94=84=EB=A1=9C=EB=AA=A8=EC=85=98_=EC=95=88=EB=82=B4_(=EC=84=A4=EB=AC=B8_=EC=B0=B8=EA=B0=80=EC=9E=90_50=EB=AA=85=EC=97=90=EA=B2=8C?=
+	=?utf-8?Q?_=EC=8A=A4=ED=83=80=EB=B2=85=EC=8A=A4_=EC=BB=A4=ED=94=BC=EC=BF=A0=ED=8F=B0=EC=9D=84_=EC=8F=A9=EB=8B=88=EB=8B=A4)?=
+Reply-To: =?utf-8?Q?=ED=95=9C=EA=B5=AD=EB=A0=88=EB=85=B8=EB=B2=84_=EB=A7=88=EC=BC=80=ED=8C=85?=<marketing_kr@lenovo.com>
+To: =?utf-8?Q?=EB=AF=BC=EA=B7=9C_=ED=99=A9?=<Mg.hwang@agilesys.co.kr>
+X-Campaign: 5469
+X-Campaignid: 5469
+X-MS-Reactions: disallow
+Message-Id: <20161201023452.8210C3D17BA@cloud4.server.com>
+
+--------------070304040005010104080405
+Content-Type: text/plain; charset=ks_c_5601-1987; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+
+--------------070304040005010104080405
+Content-Type: text/html; charset=ks_c_5601-1987
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><META http-equiv=3D"Content-Type" content=3D"text/html;charset=
+=3Dks_c_5601-1987"></head><body><table border=3D'0' cellspacing=3D'0' cellp=
+adding=3D'0' width=3D'100%' ><tbody><tr><td><table  style=3D'font-family:Ve=
+rdana, Arial, Helvetica, sans-serif; font-size:10px;width: 100%;'><tr align=
+=3D'center'><td align=3D'center'><a style =3D 'color:#666666' href=3D"http:=
+//redhat.zinfi.com/concierge//CRM/NewsLetter/eNsVib.aspx?campaignId=3D5469&=
+subid=3D595779">=C0=CC =C0=CC=B8=DE=C0=CF=C0=CC =BA=B8=C0=CC=C1=F6 =BE=CA=
+=B4=C2=B4=D9=B8=E9, =BF=A9=B1=E2=B8=A6 =C5=AC=B8=AF=C7=CF=BF=A9 =BF=C2=B6=
+=F3=C0=CE=B9=F6=C0=FC=C0=B8=B7=CE =C8=AE=C0=CE=C7=CF=BD=C3=B1=E2 =B9=D9=B6=
+=F8=B4=CF=B4=D9.</a></td></tr></table><center>
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"2235" i=
+d=3D"Table_01" style=3D"border:1px solid #f1f1f1;" width=3D"650">
+    <tbody>
+      <tr>
+        <td style=3D"line-height:0px;"><img alt=3D"=C1=F6=B1=DD Lenovo & Re=
+d Hat=B0=FA =C7=D4=B2=B2 =C0=AF=B4=D0=BD=BA=BF=A1=BC=AD =B8=AE=B4=AA=BD=BA=
+=B7=CE =B8=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7=C0=BB =B0=E8=C8=B9=C7=CF=BC=BC=
+=BF=E4!
+Red Hat Enterprise Linux=BC=D6=B7=E7=BC=C7=BF=A1 =B0=A1=C0=E5 =C3=D6=C0=FB=
+=C8=AD=B5=C8 x86=BC=AD=B9=F6=B4=C2 Lenovo x86=BC=AD=B9=F6=C0=D4=B4=CF=B4=D9=
+=2E
+" height=3D"280" src=3D"http://crentry.com/Lenovo/2016/11/redhat_2UL/images=
+/02_Head_lenovo.gif" width=3D"650" /></td>
+      </tr>
+      <tr>
+        <td style=3D"line-height:0px;"><img alt=3D"Lenovo U2L(Unix to Linux=
+) =C6=AF=BA=B0 =C0=CC=BA=A5=C6=AE!
+Event01. U2L =B8=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7 =BC=B3=B9=AE=BF=A1 =C2=FC=
+=BF=A9=C7=CF=BC=BC=BF=E4!
+Event02. U2L =B8=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7 =B9=AB=B7=E1 =C1=F8=B4=DC=
+ =BC=AD=BA=F1=BD=BA=B8=A6 =BD=C5=C3=BB=C7=CF=BC=BC=BF=E4!
+=B1=B8=B8=C5=B9=AE=C0=C7 : 080-835-0077/marketing_kr@lenovo.com
+ =C1=F6=B1=DD =C0=AF=B4=D0=BD=BA=BF=A1=BC=AD =B8=AE=B4=AA=BD=BA=B7=CE =B8=
+=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7=C7=D8=BE=DF=C7=CF=B4=C2 3=B0=A1=C1=F6 =C0=
+=CC=C0=AF!
+01. =C7=CF=B5=E5=BF=FE=BE=EE, OS =B5=B5=C0=D4=BA=F1=BF=EB =B9=D7 =C0=AF=C1=
+=F6=BA=B8=BC=F6 =BA=F1=BF=EB =C0=FD=B0=A8!
+02. =BF=C0=C7=C2 =C7=C3=B7=A7=C6=FB=C0=C7 =C0=AF=BF=AC=BC=BA=C0=B8=B7=CE =
+=C0=CE=C7=D1 =B4=D9=BE=E7=C7=D1 =BE=D6=C7=C3=B8=AE=C4=C9=C0=CC=BC=C7 =C6=F7=
+=C6=C3=C1=F6=BF=F8!
+03. =C0=AF=B4=D0=BD=BA =B1=E2=B9=DD=C0=C7 =B1=E2=B0=A3=B0=E8 =BD=C3=BD=BA=
+=C5=DB =B4=EB=BA=F1 =B0=A1=B0=DD=B4=EB=BA=F1 =BC=BA=B4=C9 =B9=D7 =BE=C8=C1=
+=A4=BC=BA!
+" border=3D"0" height=3D"710" src=3D"http://crentry.com/Lenovo/2016/11/redh=
+at_2UL/images/03_Event.png" usemap=3D"#Map" width=3D"650" /></td>
+      </tr>
+      <tr>
+        <td style=3D"line-height:0px;"><img alt=3D"Red Hat Enterprise Linux=
+ 7.3(RHEL)?
+ Lenovo U2L =B8=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7=B8=B8=C0=C7 =C6=AF=BC=BA!
+X86=BC=AD=B9=F6 =B1=E2=B9=DD=C0=C7 Lenovo U2L =B8=B6=C0=CC=B1=D7=B7=B9=C0=
+=CC=BC=C7 =B9=AB=B7=E1 =C1=F8=B4=DC =BC=AD=BA=F1=BD=BA!
+" border=3D"0" height=3D"950" src=3D"http://crentry.com/Lenovo/2016/11/redh=
+at_2UL/images/04_Contents.png" usemap=3D"#Map2" width=3D"650" /></td>
+      </tr>
+      <tr>
+        <td style=3D"line-height:0px;"><img alt=3D"=C0=CE=C5=DA =C0=CE=BB=
+=E7=C0=CC=B5=E5. =B4=F5 =B0=AD=B7=C2=C7=D1 =BC=D6=B7=E7=BC=C7 =BE=C6=BF=F4=
+=BB=E7=C0=CC=B5=E5
+=C0=CE=C5=DA =C1=A6=BF=C2 =C7=C1=B7=CE=BC=BC=BC=AD =C5=BE=C0=E7
+=B9=AE=C0=C7=C3=B3 : =C7=D1=B1=B9=B7=B9=B3=EB=B9=F6 080-835-0077/marketing_=
+kr@Lenovo.com
+" border=3D"0" height=3D"295" src=3D"http://crentry.com/Lenovo/2016/11/redh=
+at_2UL/images/05_footer.png" usemap=3D"#Map3" width=3D"650" /></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Footer -->
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"70" sty=
+le=3D"border-left:1px solid #87bbee; border-right:1px solid #87bbee; border=
+-bottom:1px solid #87bbee; border-top:0px; text-align:left; line-height:20p=
+x; font-family:Arial, Helvetica, sans-serif; font-size:11px; padding:20px;"=
+ width=3D"650">
+    <tbody>
+      <tr>
+        <td><strong>[=C7=D1=B1=B9=B7=B9=B3=EB=B9=F6 =C0=AF=C7=D1=C8=B8=BB=
+=E7]=BC=AD=BF=EF=BD=C3 =B0=AD=B3=B2=B1=B8 =BF=AA=BB=EF=B5=BF =C5=D7=C7=EC=
+=B6=F5=B7=CE 211, 12=C3=FE : 080-835-0077 (=BC=F6=BD=C5=C0=DA =B9=AB=B7=E1=
+=C0=FC=C8=AD) </strong><br />
+          <div style=3D"color:#999; font-weight:bold;"> &copy; 2016 <span s=
+tyle=3D"color:#e2231a;">Lenovo.</span> All Rights Reserved</div></td>
+      </tr>
+    </tbody>
+  </table>
+</center>
+<map name=3D"Map">
+  <area alt=3D"=BC=B3=B9=AE =C2=FC=BF=A9=C7=CF=B1=E2" coords=3D"106,340,246=
+,377" href=3D"http://redhat.zinfi.com/concierge//CRM/NewsLetter/eNsClickthr=
+ough.aspx?campainid=3D5469&subid=3D595779&LinkId=3D123483&page=3Dhttps://do=
+cs.google.com/forms/d/e/1FAIpQLSfGt2u2C78vq8ZZjcDavfY9LAZLxhL8VBPNEYaEKPdkk=
+sBs5g/viewform?c=3D0&amp;w=3D1&amp;usp=3Dmail_form_link" shape=3D"rect" tar=
+get=3D"_blank" />
+  <area alt=3D"U2L =B9=AB=B7=E1 =C1=F8=B4=DC =BC=AD=BA=F1=BD=BA =BD=C5=C3=
+=BB=C7=CF=B1=E2" coords=3D"365,340,586,377" href=3D"http://redhat.zinfi.com=
+/concierge//CRM/NewsLetter/eNsClickthrough.aspx?campainid=3D5469&subid=3D59=
+5779&LinkId=3D123484&page=3Dhttps://docs.google.com/forms/d/e/1FAIpQLSd16az=
+WxcMqJnRDxyJsaoWQmbLx15K_W6YrieCmV25PSE4tKQ/viewform?c=3D0&amp;w=3D1&amp;us=
+p=3Dmail_form_link" shape=3D"rect" target=3D"_blank" />
+  <area alt=3D"=B1=B8=B8=C5=B9=AE=C0=C7" coords=3D"403,405,607,429" href=3D=
+"mailto:marketing_kr@lenovo.com" shape=3D"rect" target=3D"_blank" />
+</map>
+<map name=3D"Map2">
+  <area alt=3D"=B4=F5 =C0=DA=BC=BC=C8=F7 =BA=B8" coords=3D"239,219,412,263"=
+ href=3D"http://redhat.zinfi.com/concierge//CRM/NewsLetter/eNsClickthrough.=
+aspx?campainid=3D5469&subid=3D595779&LinkId=3D123485&page=3Dhttp://red.ht/2=
+gHlW0X" shape=3D"rect" target=3D"_blank" />
+  <area alt=3D"U2L =B9=AB=B7=E1 =C1=F8=B4=DC =BC=AD=BA=F1=BD=BA =BD=C5=C3=
+=BB=C7=CF=B1=E2" coords=3D"204,893,443,938" href=3D"http://redhat.zinfi.com=
+/concierge//CRM/NewsLetter/eNsClickthrough.aspx?campainid=3D5469&subid=3D59=
+5779&LinkId=3D123486&page=3Dhttps://docs.google.com/forms/d/e/1FAIpQLSd16az=
+WxcMqJnRDxyJsaoWQmbLx15K_W6YrieCmV25PSE4tKQ/viewform?c=3D0&amp;w=3D1&amp;us=
+p=3Dmail_form_link" shape=3D"rect" target=3D"_blank" />
+</map>
+<map name=3D"Map3">
+  <area alt=3D"=B9=AE=C0=C7=C7=CF=B1=E2" coords=3D"323,241,577,268" href=3D=
+"mailto:marketing_kr@lenovo.com" shape=3D"rect" target=3D"_blank" />
+</map><img width=3D'1' height=3D'1' id=3D'img1' src=3D'http://redhat.zinfi.=
+com/concierge//CRM/NewsLetter/eNsSetIsRead.aspx?subid=3D595779&campainid=3D=
+5469&page=3Dhttp://zinfieNsSetIsRead.aspx.com' /><table  style=3D'font-fami=
+ly:Verdana, Arial, Helvetica, sans-serif; font-size:10px;width: 100%;'><tr =
+align=3D'center'><td align=3Dcenter'><a href=3D'http://redhat.zinfi.com/con=
+cierge//CRM/NewsLetter/eNsIsunsubscribed.aspx?campainid=3D5469&subid=3D5957=
+79' > <span style=3D'color:#666666;font-weight: normal;font-size: 8pt;font-=
+family: Verdana;text-decoration:none;'><u>=C3=DF=C8=C4 =B8=DE=C0=CF =BC=F6=
+=BD=C5=C0=BB =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 =BF=A9=B1=E2[=BC=
+=F6=BD=C5=B0=C5=BA=CE]=B8=A6 =C5=AC=B8=AF=C7=CF=BF=A9 =C1=D6=BD=C3=B1=E2 =
+=B9=D9=B6=F8=B4=CF=B4=D9.</br>To no longer receive our emails, click to uns=
+ubscribe.</u></span></a></td></tr></table></td></tr></tbody></table></body>=
+</html>
+--------------070304040005010104080405--
+

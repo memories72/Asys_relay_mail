@@ -1,0 +1,188 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id UN99G6a9omk9BAAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:04:22 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 6F8C214BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:04:22 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1526396514214784371
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from SujeongPC (118.130.109.244) by MAIL-SERVER.agilesys.co.kr
+ (112.220.69.170) with Microsoft SMTP Server id 8.3.389.2; Wed, 17 Feb 2016
+ 13:59:11 +0900
+From: =?ks_c_5601-1987?B?w9a89sGk?= <sujeong@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?sK3Io8H4?= <khj8493@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3A58jG?= <kjhoon88@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3Gx7yt?= <vkstj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sPu8usH4?= <bdksj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?scfH9r/t?= <wookhk@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?seiw5rnO?= <srvkkm@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?seizssij?= <nhkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei8usf1?= <ksh83@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei/68jx?= <yonghee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejB9sf1?= <jhkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?udq8urnO?= <psm7072@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?udq/tcO2?= <yc.park@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?uenH/b+s?= <bhy90@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK28rsf2?= <shseo@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK7BpMjG?= <jhseok@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vLrBvsiv?= <hwany@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vsjBpMjG?= <ajhof@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?v+y788ij?= <shwoo@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wK+9wsjG?= <ysh@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wK/A57Tr?= <jdyu@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wLG8rsL5?= <ysc1232@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wLG/9byx?= <usyoun@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy1v8iv?= <leedh@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy1zr+t?= <dylee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy8sbHU?= <sklee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy9vbHU?= <rapkyu222@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzBpLnO?= <jamescm83@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzBvrz2?= <jslee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzB2Mjx?= <juni328@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wNOx5sf2?= <khlim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wNPAz7HH?= <ilkwon@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wOWw5sij?= <khjang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wOW8vL+1?= <zero@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waS6tLmu?= <us129@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waTA58jG?= <jjh0224@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?w9bBvrHZ?= <andychoi@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?x9G1v8jG?= <alwaysdh@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?x9HBvrD8?= <jkhan@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?x9HH9rG4?= <hanhg@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yKu8vMDH?= <sehong@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLLBvr3C?= <oasis@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 17 Feb 2016 13:59:24 +0900
+Subject:
+ =?ks_c_5601-1987?B?W77Is7tduf3AzsL3t64gwaS6uCCx17fsv/6+7r+hvK0gyK7Azg==?=
+ =?ks_c_5601-1987?B?ILnZtvi0z7TZLg==?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?W77Is7tduf3AzsL3t64gwaS6uCCx17fsv/6+7r+hvK0gyK7Azg==?=
+ =?ks_c_5601-1987?B?ILnZtvi0z7TZLg==?=
+Thread-Index: AdFpP1o5ibqrN3kvTL6FeAzo6HP51g==
+Message-ID: <001501d1693f$f8de2820$ea9a7860$@agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 0a
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_001501d1693ff8de2820ea9a7860agilesyscokr_"
+MIME-Version: 1.0
+
+--_000_001501d1693ff8de2820ea9a7860agilesyscokr_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5CDD1rz2waTA1LTPtNkuDQq5/cDOwve3riDBpLq4uKYgsde37L/+vu6/oSC+97Wl
+wMzGriDHz7+0vcC0z7TZLg0KsKIgwve3rri2tNkgurjH6CC067vzIL+st8nAzCC02bijtM8gwve3
+riC757/rvcMgwvyw7SC52bb4tM+02S4NCrCou+fH1bTPtNk6KQ0KDQotLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0Kwda9xMi4u+cgIL+hwMy9w726
+ICCw5r+1wfa/+MbAICDD1rz2waQgtOu4rg0KVEVMKSAwNzAtNzExNC0wMDIxIC8gIE0pIDAxMC03
+Njc3LTQ3ODANCkUtbWFpbCkgc3VqZW9uZ0BhZ2lsZXN5cy5jby5rcjxtYWlsdG86c3VqZW9uZ0Bh
+Z2lsZXN5cy5jby5rcj4NCrytv++9wyC8rcPKsbggud3G97W/IDY3LTO5+MH2ILTruKK69LX5IDTD
+/g0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0N
+Cg0K
+
+--_000_001501d1693ff8de2820ea9a7860agilesyscokr_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 14 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal>=BE=C8=B3=E7=C7=CF=
+=BC=BC=BF=E4 =C3=D6=BC=F6=C1=A4=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p><=
+/o:p></span></p><p class=3DMsoNormal>=B9=FD=C0=CE=C2=F7=B7=AE =C1=A4=BA=B8=
+=B8=A6 =B1=D7=B7=EC=BF=FE=BE=EE=BF=A1 =BE=F7=B5=A5=C0=CC=C6=AE =C7=CF=BF=B4=
+=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoN=
+ormal>=B0=A2 =C2=F7=B7=AE=B8=B6=B4=D9 =BA=B8=C7=E8 =B4=EB=BB=F3 =BF=AC=B7=
+=C9=C0=CC =B4=D9=B8=A3=B4=CF =C2=F7=B7=AE =BB=E7=BF=EB=BD=C3 =C2=FC=B0=ED =
+=B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=
+=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US style=3D'font=
+-family:Wingdings'>J</span><span lang=3DEN-US><o:p></o:p></span></p><p clas=
+s=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'font-size:9.0pt'>-----------------------=
+------------------------------<o:p></o:p></span></p><p class=3DMsoNormal><s=
+pan style=3D'font-size:9.0pt'>=C1=D6=BD=C4=C8=B8=BB=E7<span lang=3DEN-US>&n=
+bsp; </span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp; </span>=B0=E6=
+=BF=B5=C1=F6=BF=F8=C6=C0<span lang=3DEN-US>&nbsp; </span>=C3=D6=BC=F6=C1=A4=
+ =B4=EB=B8=AE<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'font-size:9.0pt'>TEL) 070-7114-0021 /&nb=
+sp; M) 010-7677-4780<o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'font-size:9.0pt'>E-mail) <a href=3D"mailto:sujeong@agiles=
+ys.co.kr"><span style=3D'color:blue'>sujeong@agilesys.co.kr</span></a><o:p>=
+</o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:9.0pt'>=BC=
+=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67=
+-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=
+=C3=FE<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal>=
+<span lang=3DEN-US>-----------------------------------------------------</s=
+pan><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lan=
+g=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>=
+
+--_000_001501d1693ff8de2820ea9a7860agilesyscokr_--

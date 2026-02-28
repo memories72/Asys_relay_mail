@@ -1,0 +1,76 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id sB0MF4TFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:56 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 5D6E714C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:56 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553225954407321753
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp67628wma;
+        Fri, 9 Dec 2016 00:44:58 -0800 (PST)
+X-Received: by 10.200.35.250 with SMTP id r55mr78316760qtr.161.1481273097980;
+        Fri, 09 Dec 2016 00:44:57 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of postmaster@s6.maillink.co.kr designates 61.100.183.23 as permitted sender) smtp.mailfrom=s6.maillink.co.kr
+Received-SPF: pass (google.com: domain of postmaster@s6.maillink.co.kr designates 61.100.183.23 as permitted sender) client-ip=61.100.183.23;
+Received: by 10.55.157.202 with POP3 id g193mf31194463qke.3;
+        Fri, 09 Dec 2016 00:44:57 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 26031 invoked by uid 700); 9 Dec 2016 17:21:40 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	9 Dec 2016 17:21:40 +0900
+Received: (qmail 9450 invoked by uid 700); 9 Dec 2016 17:21:40 +0900
+Received: from unknown (HELO s6.maillink.co.kr) (61.100.183.23)
+	by 0 (knetqmail v1.06) with SMTP;
+	9 Dec 2016 17:21:40 +0900
+Date: Fri, 9 Dec 2016 17:21:40 +0900
+Subject: =?utf-8?B?7YyU66Gc7JWM7YagIOuEpO2KuOybjeyKpCBDWUJFUlNFQ1VSSVRZIFNVTU1JVOyXkCDsgqzsoITrk7HroZ3tlbQg7KO87IWU7IScIOqwkOyCrO2VqeuLiOuLpC4=?=
+From: "=?utf-8?B?7YyU66Gc7JWM7Yag64Sk7Yq47JuN7Iqk?=" <webmaster@paloaltonetworks.com>
+To: <mg.hwang@agilesys.co.kr>
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+Content-transfer-encoding: 8bit
+Message-ID: 1481271700241.3290440.1.1144
+X-NetpionMsgID: 1481271700241.3290440.1.1144
+
+
+<title>PaloAlto Networks Cybersecurity Summit</title>
+
+
+
+
+
+<table width="700" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img style="display: block;" src="http://www.paloaltonetworksevent.co.kr/css/edm/re_01.jpg" border="0" usemap="#Map2">
+      <map name="Map2" id="Map2">
+        <area href="http://track.maillink.co.kr/procresponse?a=6I-13290440I-41144I-4goaSoZE-8zPqrCF-123681932I-4ehhgzE-8D-7D-7DDDD-6gBaCBahCHPhDCuZzD-6oCbD-7I-3" shape="poly" name="AREA24236379" coords="497,104,660,70,672,128,510,161" target="_blank">
+    </map></td>
+  </tr>
+  <tr>
+    <td><img style="display: block;" src="http://www.paloaltonetworksevent.co.kr/css/edm/re_02.jpg" border="0" usemap="#Map2Map">
+      <map name="Map2Map" id="Map2Map"><area href="http://track.maillink.co.kr/procresponse?a=4I-13290440I-41144I-4goaSoZE-8zPqrCF-123681933I-4ehhgE-8D-7D-7DDDD-6gBaCBahCHPhDCuZzPcPHhD-6oCD-6ZuD-7ozzD-7PcPHhD-6gegI-3" shape="rect" name="AREA24236380" coords="369,451,473,474" target="_blank">
+        <area href="http://track.maillink.co.kr/procresponse?a=2I-13290440I-41144I-4goaSoZE-8zPqrCF-123681934I-4ehhgE-8D-7D-7DDDD-6gBaCBahCHPhDCuZzPcPHhD-6oCD-6ZuD-7ozzD-7BEPHJBD-6gegI-3" shape="rect" name="AREA24236381" coords="491,16,595,38" target="_blank">
+    </map></td>
+  </tr>
+  <tr>
+    <td><img style="display: block;" src="http://www.paloaltonetworksevent.co.kr/css/edm/re_03.jpg" border="0" usemap="#Map"></td>
+  </tr>
+</tbody></table>
+
+
+
+
+<map name="Map" id="Map">
+  <area href="mailto:mkang@paloaltonetworks.com" shape="rect" name="AREA24236382" coords="199,514,374,528">
+  <area href="mailto:december@jtmg.co.kr" shape="rect" name="AREA24236383" coords="413,371,553,388">
+</map><img height="1" width="1" border="0" src="http://track.maillink.co.kr/procresponse?a=4I-13290440I-41144I-4SbBEPI-4I-3" />
+

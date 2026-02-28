@@ -1,0 +1,321 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 0BUBN2vFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:31 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id E060514C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:31 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553152466947037371
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp293160wma;
+        Thu, 8 Dec 2016 05:52:56 -0800 (PST)
+X-Received: by 10.84.202.163 with SMTP id x32mr159411306pld.44.1481205175597;
+        Thu, 08 Dec 2016 05:52:55 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender) smtp.mailfrom=jslee@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender)
+Received: by 10.99.42.10 with POP3 id q10mf27824175pgq.3;
+        Thu, 08 Dec 2016 05:52:55 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 17394 invoked by uid 700); 8 Dec 2016 21:53:33 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	8 Dec 2016 21:53:33 +0900
+Received: (qmail 29486 invoked by uid 700); 8 Dec 2016 21:53:32 +0900
+Received: from unknown (HELO HP) (jslee@agilesys.co.kr@210.97.161.103)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	8 Dec 2016 21:53:32 +0900
+From: =?ks_c_5601-1987?B?wMzBvrz2?= <jslee@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>
+Subject: =?ks_c_5601-1987?B?Rlc6IDEyLzAxIMHWsKO+97mrILD8t8M=?=
+Date: Thu, 8 Dec 2016 21:53:37 +0900
+Message-ID: <001e01d25152$1817b260$48471720$@co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_001F_01D2519D.87FF5A60"
+Thread-Index: AdJGV2RDAthLBlbrQeak+NBckK6kKQFbCKLwAWOGD3A=
+Content-Language: ko
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_001F_01D2519D.87FF5A60
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+sd3B1iDB1rCjvve5qyDC/LDtx8+8vL/kDQoNCiANCg0KPMDMufjB1j4NCg0KvK2/773DIL26xPCz
+3SDHwbfOwafGriANCg0KLS4gvK26zrGzwLDB9r/4w7sguMG/rLW/ILnXILjwtM/Fzbi1DQoNCi0u
+ILCtvK2xs8Cwwfa/+MO7ILjBv6y1vyC51yC48LTPxc24tQ0KDQotLiC6u8O7ILbzv+zFzbCzxesg
+udcgwOW68byzxKENCg0KLS4gus+6zrGzwLDB9r/4w7sguMG/rLW/ILnXILjwtM/Fzbi1DQoNCi0g
+urvDuyDA/MivILnXILjwtM/Fzbi1DQoNCiANCg0KPLTZwL3B1j4NCg0KvK2/773DIL26xPCz3SDH
+wbfOwafGriANCg0KLS4gus+6zrGzwLDB9r/4w7sgtvO/7MXNs7PHsCC51yC4wb+stb8NCg0KLS4g
+vLq6z7GzwLDB9r/4w7sgtvO/7MXNs7PHsCC51yC4wb+stb8NCg0KLS4gtb+6zrGzwLDDuyC4wb+s
+tb8gudcguPC0z8XNuLUNCg0KLS4gvLq1v7GzwLDDuyC4wb+stb8gudcguPC0z8XNuLUNCg0KLS4g
+sK21v7GzwLDDuyC4wb+stb8gudcguPC0z8XNuLUNCg0KIA0KDQpGcm9tOiDAzMG+vPYgW21haWx0
+bzpqc2xlZUBhZ2lsZXN5cy5jby5rcl0gDQpTZW50OiBUaHVyc2RheSwgTm92ZW1iZXIgMjQsIDIw
+MTYgMTA6MzQgUE0NClRvOiAnyLK5zrHUJw0KU3ViamVjdDogMTEvMjQgwdawo773uasgsPy3ww0K
+DQogDQoNCrHdwdYgwdawo773uasgwvyw7cfPvLy/5A0KDQogDQoNCjzAzLn4wdY+DQoNCrytv++9
+wyC9usTws90gx8G3zsGnxq4NCg0KLS4gvK26zrGzwLDB9r/4w7sgwOW68bOzx7AgudcgvLPEoQ0K
+DQotLiCwrbytsbPAsMH2v/jDuyDA5brxs7PHsCC51yC8s8ShDQoNCi0uILytus6xs8Cww7sgQkdQ
+ILG4vLoNCg0KLS4gsbPAsMO7ILq7w7sgwOW68bOzx7AgudcgvLPEoQ0KDQotLiC8rbrOsbPAsMO7
+IEw0LUwzsbiwoyC/rLW/xde9usauDQoNCi0uILrPus6xs8Cwwfa/+MO7IMDluvGzs8ewILnXILyz
+xKENCg0KtOvA/MGkus7F68fVvL7FzQ0KDQotLiBMR8j3tNnC7iDAr8H2uri89iAouPC14rGzw7wg
+udcgTXVsdGkgVlJSULyzwaQgseK8+sH2v/gpDQoNCiANCg0KPLTZwL3B1j4NCg0KvK2/773DIL26
+xPCz3SDHwbfOwafGriANCg0KLS4gvLq6z7GzwLDB9r/4w7sgwOW68bOzx7AgudcgvLPEoQ0KDQot
+LiC1v7rOsbPAsMH2v/jDuyDA5brxs7PHsCC51yC8s8ShDQoNCi0uILy6tb+xs8Cwwfa/+MO7IMDl
+uvGzs8ewILnXILyzxKENCg0KLS4gsK21v7GzwLDB9r/4w7sgwOW68bOzx7AgudcgvLPEoQ0KDQog
+DQoNCiANCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tDQoowdYpv6HAzL3DvbogDQoNCrzWt+e8x7vnvve6u7rOIC8gTkm7
+5773xsAgLyDGwMDlDQoNCsDMIMG+ILz2DQq8rb/vvcMgvK3DyrG4ILvnxvK067fOIDEzOCwgNMP+
+ICi53cb3tb8gNjctMyC067iiuvS1+SA0w/4pDQpUKSAwNzAtNzExNC0wMDc1IA0KDQpGKSAwMi01
+ODYtNTA3MCANCg0KQ1ApIDAxMC0yMzYyLTcxMTgNCkUtTWFpbCApIGpzbGVlQGFnaWxlc3lzLmNv
+LmtyIA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tDQoNCiANCg0K
+
+------=_NextPart_000_001F_01D2519D.87FF5A60
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft =
+Word 12 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:9.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+class=3DMsoNormal>=B1=DD=C1=D6 =C1=D6=B0=A3=BE=F7=B9=AB =
+=C2=FC=B0=ED=C7=CF=BC=BC=BF=E4<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>&lt;</span>=C0=CC=B9=F8=C1=D6<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BC=AD=BF=EF=BD=C3 =BD=BA=C4=F0=B3=DD =
+=C7=C1=B7=CE=C1=A7=C6=AE <span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>-. =
+</span>=BC=AD=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =B8=C1=BF=AC=B5=BF =
+=B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B0=AD=BC=AD=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=B8=C1=BF=AC=B5=BF =B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BA=BB=C3=BB =B6=F3=BF=EC=C5=CD=B0=B3=C5=EB =
+=B9=D7 =C0=E5=BA=F1=BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BA=CF=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=B8=C1=BF=AC=B5=BF =B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>- </span>=BA=BB=C3=BB =C0=FC=C8=AF =B9=D7 =
+=B8=F0=B4=CF=C5=CD=B8=B5<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>&lt;</span>=B4=D9=C0=BD=C1=D6<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BC=AD=BF=EF=BD=C3 =BD=BA=C4=F0=B3=DD =
+=C7=C1=B7=CE=C1=A7=C6=AE <span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>-. =
+</span>=BA=CF=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=B6=F3=BF=EC=C5=CD=B3=B3=C7=B0 =B9=D7 =B8=C1=BF=AC=B5=BF<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BC=BA=BA=CF=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=B6=F3=BF=EC=C5=CD=B3=B3=C7=B0 =B9=D7 =B8=C1=BF=AC=B5=BF<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B5=BF=BA=CE=B1=B3=C0=B0=C3=BB =B8=C1=BF=AC=B5=BF =
+=B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BC=BA=B5=BF=B1=B3=C0=B0=C3=BB =B8=C1=BF=AC=B5=BF =
+=B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B0=AD=B5=BF=B1=B3=C0=B0=C3=BB =B8=C1=BF=AC=B5=BF =
+=B9=D7 =B8=F0=B4=CF=C5=CD=B8=B5<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-a=
+ll'><b><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C0=CC=C1=BE=BC=F6</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> [<a =
+href=3D"mailto:jslee@agilesys.co.kr">mailto:jslee@agilesys.co.kr</a>] =
+<br><b>Sent:</b> Thursday, November 24, 2016 10:34 PM<br><b>To:</b> =
+'</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C8=B2=B9=CE=B1=D4</span><span =
+lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>'<br><b>Subject:</b> 11/24 =
+</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C1=D6=B0=A3=BE=F7=B9=AB</span><span =
+style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B0=FC=B7=C3</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'><o:p></o:p></span></p></div><=
+/div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B1=DD=C1=D6 =C1=D6=B0=A3=BE=F7=B9=AB =
+=C2=FC=B0=ED=C7=CF=BC=BC=BF=E4<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>&lt;</span>=C0=CC=B9=F8=C1=D6<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BC=AD=BF=EF=BD=C3 =BD=BA=C4=F0=B3=DD =
+=C7=C1=B7=CE=C1=A7=C6=AE<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>-. =
+</span>=BC=AD=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B0=AD=BC=AD=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BC=AD=BA=CE=B1=B3=C0=B0=C3=BB<span lang=3DEN-US> =
+BGP </span>=B1=B8=BC=BA<span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>-. </span>=B1=B3=C0=B0=C3=BB =
+=BA=BB=C3=BB =C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BC=AD=BA=CE=B1=B3=C0=B0=C3=BB<span lang=3DEN-US> =
+L4-L3</span>=B1=B8=B0=A3 =BF=AC=B5=BF=C5=D7=BD=BA=C6=AE<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BA=CF=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal>=B4=EB=C0=FC=C1=A4=BA=CE=C5=EB=C7=D5=BC=BE=C5=CD<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. LG</span>=C8=F7=B4=D9=C2=EE =
+=C0=AF=C1=F6=BA=B8=BC=F6<span lang=3DEN-US> =
+(</span>=B8=F0=B5=E2=B1=B3=C3=BC =B9=D7<span lang=3DEN-US> Multi =
+VRRP</span>=BC=B3=C1=A4 =B1=E2=BC=FA=C1=F6=BF=F8<span =
+lang=3DEN-US>)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>&lt;</span>=B4=D9=C0=BD=C1=D6<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BC=AD=BF=EF=BD=C3 =BD=BA=C4=F0=B3=DD =
+=C7=C1=B7=CE=C1=A7=C6=AE <span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>-. =
+</span>=BC=BA=BA=CF=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B5=BF=BA=CE=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=BC=BA=B5=BF=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>-. </span>=B0=AD=B5=BF=B1=B3=C0=B0=C1=F6=BF=F8=C3=BB =
+=C0=E5=BA=F1=B3=B3=C7=B0 =B9=D7 =BC=B3=C4=A1<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;color:black'>----------------------------------=
+--------------------------------<br><b>(</b></span><b><span =
+style=3D'font-size:11.0pt;color:black'>=C1=D6<span =
+lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA</span></b><span =
+style=3D'font-size:11.0pt;color:black'> <span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;color:black'>=BC=D6=B7=E7=BC=C7=BB=E7=BE=F7=BA=BB=
+=BA=CE<span lang=3DEN-US> / NI</span>=BB=E7=BE=F7=C6=C0<span =
+lang=3DEN-US> / </span>=C6=C0=C0=E5<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;color:black'>=C0=CC =C1=BE =BC=F6<span =
+lang=3DEN-US><br></span>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =
+=BB=E7=C6=F2=B4=EB=B7=CE<span lang=3DEN-US> 138, 4</span>=C3=FE<span =
+lang=3DEN-US> (</span>=B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3 =
+</span>=B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=C3=FE<span =
+lang=3DEN-US>)<br>T) 070-7114-0075 <o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:black'>F) 02-586-5070 =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:black'>CP) 010-2362-7118<br>E-Mail ) <a =
+href=3D"mailto:jslee@agilesys.co.kr">jslee@agilesys.co.kr</a> =
+<br>------------------------------------------------------------------<o:=
+p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_001F_01D2519D.87FF5A60--
+

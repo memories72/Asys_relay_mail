@@ -1,0 +1,3326 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id UJwtBJHFomnxAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:38:09 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 1028A14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:38:09 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553522041357849996
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp746728wma;
+        Mon, 12 Dec 2016 07:37:33 -0800 (PST)
+X-Received: by 10.28.31.23 with SMTP id f23mr10625704wmf.94.1481557052686;
+        Mon, 12 Dec 2016 07:37:32 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender) smtp.mailfrom=jslee@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender)
+Received: by 10.28.157.23 with POP3 id g23mf314038645wme.1;
+        Mon, 12 Dec 2016 07:37:31 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 15936 invoked by uid 700); 12 Dec 2016 23:47:46 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	12 Dec 2016 23:47:46 +0900
+Received: (qmail 11385 invoked by uid 700); 12 Dec 2016 23:47:45 +0900
+Received: from unknown (HELO HP) (jslee@agilesys.co.kr@39.7.56.239)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	12 Dec 2016 23:47:45 +0900
+From: =?UTF-8?B?7J207KKF7IiY?= <jslee@agilesys.co.kr>
+To: <wogus8894@agilesys.co.kr>
+Cc: =?UTF-8?B?J+2ZqeuvvOq3nCc=?= <mg.hwang@agilesys.co.kr>
+References: <d23e8db5c8662b623782bae6ad30561d@whoisdesk.com>
+In-Reply-To: <d23e8db5c8662b623782bae6ad30561d@whoisdesk.com>
+Subject: =?UTF-8?B?UkU6IOq1kOycoeyyrSBjb25maWcgbG9nIOuwjyDqtZDsnKHssq0g64Kp?=
+	=?UTF-8?B?7ZKIIOydtOuvuOyngCDrs7TrgrTrk5zrpr3ri4jri6Q=?=
+Date: Mon, 12 Dec 2016 23:47:51 +0900
+Message-ID: <003901d25486$b75186d0$25f49470$@co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_003A_01D254D2.27392ED0"
+Thread-Index: AdJUWUyIlQtXB/3AR8mbqF7aCz7tCQALTyDA
+Content-Language: ko
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_003A_01D254D2.27392ED0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_003B_01D254D2.27392ED0"
+
+
+------=_NextPart_001_003B_01D254D2.27392ED0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+7J6s7ZiE7JWEDQoNCiANCg0K64K07J28IOuCqe2SiOyYrCDrlYwg7LKo67aA65CcIGNvbmZpZyDs
+tpzroKXtlbTshJwg7JmA7JW8IO2VnOuLpC4NCg0K67aA7YOB7ZW0fg0KDQogDQoNCkZyb206IOuw
+leyerO2YhCBbbWFpbHRvOndvZ3VzODg5NEBhZ2lsZXN5cy5jby5rcl0gDQpTZW50OiBNb25kYXks
+IERlY2VtYmVyIDEyLCAyMDE2IDY6MjMgUE0NClRvOiDsnbTsooXsiJjssKjsnqXri5gNClN1Ympl
+Y3Q6IOq1kOycoeyyrSBjb25maWcgbG9nIOuwjyDqtZDsnKHssq0g64Kp7ZKIIOydtOuvuOyngCDr
+s7TrgrTrk5zrpr3ri4jri6QNCg0KIA0KDQrslYjrhZXtlZjshLjsmpQg7LCo7J6l64uYLCDsl5Ds
+nbTsi5zsiqQg67CV7J6s7ZiE7J6F64uI64ukLg0KDQogDQoNCjEy7JuUIDEwKO2GoCkg67O47LKt
+DQoNCjEy7JuUIDEy7J28KOyblCkg7ISx67aBDQoNCiANCg0KY29uZmlnIGxvZyDrsI8g7ISx67aB
+6rWQ7Jyh7LKtIOuCqe2SiCDsnbTrr7jsp4Ag67O064K065Oc66a964uI64ukDQoNCiANCg0K7ZmV
+7J24IOu2gO2DgeuTnOumveuLiOuLpC4NCg0KIA0KDQrqsJDsgqztlanri4jri6QuDQoNCiANCg0K
+IA0KDQogDQoNCiANCg0KKOyjvCnsl5DsnbTsi5zsiqQg7ISc67mE7Iqk7IKs7JeF67aAIOuwleye
+rO2YhCDsgqzsm5ANCg0K7ISc7Jq47IucIOyEnOy0iOq1rCDrsJjtj6zrj5kgNjctM+uyiOyngCDr
+jIDrpa3ruYzrlKkgNOy4tSANCg0KVCkgMDcwLTcxMTQtMDA4NSBQKSAwMTAtOTYyMi0zODUyIC8g
+RS1tYWlsKSB3b2d1czg4OTQgPG1haWx0bzp3b2d1czg4OTRAYWdpbGVzeXMuY28ua3I+IEBhZ2ls
+ZXN5cy5jby5rcg0KDQogDQoNCiANCg0KKiDslYTrnpgg7LKo67aA7YyM7J287J2AIDIwMTbrhYQg
+MTLsm5QgMTnsnbzquYzsp4Ag7LSdIDXtmowg64uk7Jq066Gc65OcIOuwm+ydhCDsiJgg7J6I7Iq1
+64uI64ukLiANCg0KIDxodHRwOi8vbWFpbC5hZ2lsZXN5cy5jby5rci9jb21tb24vZG93bmxvYWRN
+YXNzQXR0YWNobWVudC8/bWVzc2FnZUlkPTM2ZWJlNDkzLTAwNGItMGM4ZC0zMmUzLWQxNTMwZjli
+MTcxNSZyZWNvcmRJbmRleD0wPiDshLHrtoEs67O47LKtX2NvbmZpZy56aXAgKDIxLjVLQikNCiA8
+aHR0cDovL21haWwuYWdpbGVzeXMuY28ua3IvY29tbW9uL2Rvd25sb2FkTWFzc0F0dGFjaG1lbnQv
+P21lc3NhZ2VJZD0zNmViZTQ5My0wMDRiLTBjOGQtMzJlMy1kMTUzMGY5YjE3MTUmcmVjb3JkSW5k
+ZXg9MT4g7ISx67aB6rWQ7Jyh7LKtIOuCqe2SiOyCrOynhC56aXAgKDIyMTQyLjZLQikNCg0KICA8
+aHR0cDovL21haWwuYWdpbGVzeXMuY28ua3IvY29tbW9uL2NvbmZpcm1SZWFkLz9tZXNzYWdlSWQ9
+MzZlYmU0OTMtMDA0Yi0wYzhkLTMyZTMtZDE1MzBmOWIxNzE1JmVtYWlsPWpzbGVlQGFnaWxlc3lz
+LmNvLmtyPiANCg0K
+
+------=_NextPart_001_003B_01D254D2.27392ED0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EA=B5=B4=EB=A6=BC";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=9E=AC=ED=98=84=EC=95=84<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EB=82=B4=EC=9D=BC =
+=EB=82=A9=ED=92=88=EC=98=AC =EB=95=8C =EC=B2=A8=EB=B6=80=EB=90=9C<span =
+lang=3DEN-US> config </span>=EC=B6=9C=EB=A0=A5=ED=95=B4=EC=84=9C =
+=EC=99=80=EC=95=BC =ED=95=9C=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EB=B6=80=ED=83=81=ED=95=B4<span =
+lang=3DEN-US>~<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EB=B0=95=EC=9E=AC=ED=98=84</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+[mailto:wogus8894@agilesys.co.kr] <br><b>Sent:</b> Monday, December 12, =
+2016 6:23 PM<br><b>To:</b> </span><span =
+style=3D'font-size:10.0pt'>=EC=9D=B4=EC=A2=85=EC=88=98=EC=B0=A8=EC=9E=A5=EB=
+=8B=98</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><br><b>Subje=
+ct:</b> </span><span =
+style=3D'font-size:10.0pt'>=EA=B5=90=EC=9C=A1=EC=B2=AD</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> config log =
+</span><span style=3D'font-size:10.0pt'>=EB=B0=8F</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B5=90=EC=9C=A1=EC=B2=AD</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=EB=82=A9=ED=92=88</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=9D=B4=EB=AF=B8=EC=A7=80</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=
+=8B=A4</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><o:p></o:p><=
+/span></p></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=EC=95=88=EB=85=95=ED=95=98=EC=
+=84=B8=EC=9A=94 =EC=B0=A8=EC=9E=A5=EB=8B=98<span lang=3DEN-US>, =
+</span>=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4 =
+=EB=B0=95=EC=9E=AC=ED=98=84=EC=9E=85=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US>12</span>=EC=9B=94<span lang=3DEN-US> =
+10(</span>=ED=86=A0<span lang=3DEN-US>) </span>=EB=B3=B8=EC=B2=AD<span =
+lang=3DEN-US><o:p></o:p></span></p><p><span =
+lang=3DEN-US>12</span>=EC=9B=94<span lang=3DEN-US> =
+12</span>=EC=9D=BC<span lang=3DEN-US>(</span>=EC=9B=94<span =
+lang=3DEN-US>) </span>=EC=84=B1=EB=B6=81<span =
+lang=3DEN-US><o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span lang=3DEN-US>config =
+log </span>=EB=B0=8F =EC=84=B1=EB=B6=81=EA=B5=90=EC=9C=A1=EC=B2=AD =
+=EB=82=A9=ED=92=88 =EC=9D=B4=EB=AF=B8=EC=A7=80 =
+=EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US><o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=ED=99=95=EC=9D=B8 =
+=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=EA=B0=90=EC=82=AC=ED=95=A9=EB=
+=8B=88=EB=8B=A4<span lang=3DEN-US>.<o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;-ms-word-brea=
+k: keep-all'><span lang=3DEN-US style=3D'color:black'>(</span><span =
+style=3D'color:black'>=EC=A3=BC<span =
+lang=3DEN-US>)</span>=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4 =
+=EC=84=9C=EB=B9=84=EC=8A=A4=EC=82=AC=EC=97=85=EB=B6=80 =
+=EB=B0=95=EC=9E=AC=ED=98=84 =EC=82=AC=EC=9B=90</span><span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;-ms-word-brea=
+k: keep-all'><span style=3D'color:black'>=EC=84=9C=EC=9A=B8=EC=8B=9C =
+=EC=84=9C=EC=B4=88=EA=B5=AC =EB=B0=98=ED=8F=AC=EB=8F=99<span =
+lang=3DEN-US> 67-3</span>=EB=B2=88=EC=A7=80 =
+=EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9<span lang=3DEN-US> =
+4</span>=EC=B8=B5 </span><span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;-ms-word-brea=
+k: keep-all'><span lang=3DEN-US style=3D'color:black'>T) 070-7114-0085 =
+P) 010-9622-3852 / E-mail) wogus8894<a =
+href=3D"mailto:wogus8894@agilesys.co.kr" target=3D"_blank"><span =
+style=3D'color:black;text-decoration:none'>@agilesys.co.kr</span></a></sp=
+an><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;-ms-word-brea=
+k: keep-all'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;-ms-word-brea=
+k: keep-all'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:8.5pt'>* =
+</span><span style=3D'font-size:8.5pt'>=EC=95=84=EB=9E=98 =
+=EC=B2=A8=EB=B6=80=ED=8C=8C=EC=9D=BC=EC=9D=80<span lang=3DEN-US> =
+2016</span>=EB=85=84<span lang=3DEN-US> 12</span>=EC=9B=94<span =
+lang=3DEN-US> 19</span>=EC=9D=BC=EA=B9=8C=EC=A7=80 =EC=B4=9D<span =
+lang=3DEN-US> 5</span>=ED=9A=8C =EB=8B=A4=EC=9A=B4=EB=A1=9C=EB=93=9C =
+=EB=B0=9B=EC=9D=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>. <o:p></o:p></span></span></p></div><div><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:8.5pt'><a =
+href=3D"http://mail.agilesys.co.kr/common/downloadMassAttachment/?message=
+Id=3D36ebe493-004b-0c8d-32e3-d1530f9b1715&amp;recordIndex=3D0" =
+target=3D"_blank"><span lang=3DEN-US><span =
+lang=3DEN-US>=EC=84=B1=EB=B6=81,</span></span><span lang=3DEN-US><span =
+lang=3DEN-US>=EB=B3=B8=EC=B2=AD_config.zip =
+(21.5KB)</span></span></a><br><a =
+href=3D"http://mail.agilesys.co.kr/common/downloadMassAttachment/?message=
+Id=3D36ebe493-004b-0c8d-32e3-d1530f9b1715&amp;recordIndex=3D1" =
+target=3D"_blank"><span lang=3DEN-US><span =
+lang=3DEN-US>=EC=84=B1=EB=B6=81=EA=B5=90=EC=9C=A1=EC=B2=AD</span></span><=
+span lang=3DEN-US><span lang=3DEN-US> </span></span><span =
+lang=3DEN-US><span lang=3DEN-US>=EB=82=A9=ED=92=88=EC=82=AC=EC=A7=84.zip =
+(22142.6KB)</span></span></a><o:p></o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DEN-US><img border=3D0 id=3D"_x0000_i1025" =
+src=3D"http://mail.agilesys.co.kr/common/confirmRead/?messageId=3D36ebe49=
+3-004b-0c8d-32e3-d1530f9b1715&amp;email=3Djslee@agilesys.co.kr"><o:p></o:=
+p></span></p></div></body></html>
+------=_NextPart_001_003B_01D254D2.27392ED0--
+
+------=_NextPart_000_003A_01D254D2.27392ED0
+Content-Type: application/octet-stream;
+	name="=?UTF-8?B?67aB67aA65287Jqw7YSwXzIwMTYxMjEy?="
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="=?UTF-8?B?67aB67aA65287Jqw7YSwXzIwMTYxMjEy?="
+
+=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D PuTTY log 2016.12.12 =
+23:22:27 =3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D
+=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]dis ver=0D
+               ^=0D
+ % Ambiguous command found at '^' position.=0D
+[BB_Router]dis ver=0D
+[BB_Router]dis version=0D
+HPE Comware Software, Version 7.1.070, Release 7523P01=0D
+Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP=0D
+HP 7503 uptime is 0 weeks, 4 days, 5 hours, 11 minutes=0D
+Last reboot reason : USER reboot=0D
+=0D
+Boot image: flash:/7500-CMW710-BOOT-R7523P01.bin=0D
+Boot image version: 7.1.070, Release 7523P01=0D
+  Compiled Jul 15 2016 16:00:00=0D
+System image: flash:/7500-CMW710-SYSTEM-R7523P01.bin=0D
+System image version: 7.1.070, Release 7523P01=0D
+  Compiled Jul 15 2016 16:00:00=0D
+=0D
+=0D
+MPU(M) Chassis 1 Slot 0:=0D
+Uptime is 0 weeks,4 days,5 hours,11 minutes=0D
+BOARD TYPE:         LSQM1SRP8X2QE0=0D
+DRAM:               4096M bytes=0D
+FLASH:              1024M bytes=0D
+NVRAM:              1M bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    117=0D
+CPLD 1 Version:     002=0D
+CPLD 2 Version:     001=0D
+---- More ----=0D=0D               =0DPowChip Version:    001=0D
+Release Version:    HP 7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     UserReboot=0D
+=0D
+MPU(S) Chassis 1 Slot 1:=0D
+Uptime is 0 weeks,4 days,5 hours,11 minutes=0D
+BOARD TYPE:         LSQM1SRP8X2QE0=0D
+DRAM:               4096M bytes=0D
+FLASH:              1024M bytes=0D
+NVRAM:              1M bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    117=0D
+CPLD 1 Version:     002=0D
+CPLD 2 Version:     001=0D
+PowChip Version:    001=0D
+Release Version:    HP 7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     UserReboot=0D
+=0D
+LPU Chassis 1 Slot 2:=0D
+Uptime is 0 weeks,4 days,4 hours,58 minutes=0D
+BOARD TYPE:         LSQM2TGS16SF0=0D
+---- More ----=0D=0D               =0DDRAM:               1024M bytes=0D
+FLASH:              0M bytes=0D
+NVRAM:              0K bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    113=0D
+CPLD 1 Version:     004=0D
+CPLD 2 Version:     003=0D
+PowChip Version:    002=0D
+Release Version:    HP 7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     UserReboot=0D
+=0D
+MPU(S) Chassis 2 Slot 0:=0D
+Uptime is 0 weeks,0 days,5 hours,22 minutes=0D
+BOARD TYPE:         LSQM1SRP8X2QE0=0D
+DRAM:               4096M bytes=0D
+FLASH:              1024M bytes=0D
+NVRAM:              1M bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    117=0D
+CPLD 1 Version:     002=0D
+CPLD 2 Version:     001=0D
+PowChip Version:    001=0D
+---- More ----=0D=0D               =0DRelease Version:    HP =
+7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     IRFMergeReboot=0D
+=0D
+MPU(S) Chassis 2 Slot 1:=0D
+Uptime is 0 weeks,0 days,5 hours,23 minutes=0D
+BOARD TYPE:         LSQM1SRP8X2QE0=0D
+DRAM:               4096M bytes=0D
+FLASH:              1024M bytes=0D
+NVRAM:              1M bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    117=0D
+CPLD 1 Version:     002=0D
+CPLD 2 Version:     001=0D
+PowChip Version:    001=0D
+Release Version:    HP 7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     IRFMergeReboot=0D
+=0D
+LPU Chassis 2 Slot 2:=0D
+Uptime is 0 weeks,0 days,5 hours,9 minutes=0D
+BOARD TYPE:         LSQM2TGS16SF0=0D
+DRAM:               1024M bytes=0D
+---- More ----=0D=0D               =0DFLASH:              0M bytes=0D
+NVRAM:              0K bytes=0D
+PCB 1 Version:      VER.B=0D
+Bootrom Version:    113=0D
+CPLD 1 Version:     004=0D
+CPLD 2 Version:     003=0D
+PowChip Version:    002=0D
+Release Version:    HP 7503-7523P01=0D
+Patch Version  :    None=0D
+Reboot Cause  :     IRFMergeReboot=0D
+[BB_Router]dis ip int b=0D
+*down: administratively down=0D
+(s): spoofing  (l): loopback=0D
+Interface           Physical Protocol IP address      VPN instance =
+Description  =0D
+Loop0               up       up(s)    10.49.0.201     --           ### =
+BGP Ro...=0D
+Loop1               up       up(s)    118.221.204.251 --           --=0D
+Loop2               up       up(s)    1.231.13.121    --           ### =
+intern...=0D
+MGE1/0/0/0          down     down     --              --           --=0D
+MGE1/0/0/1          down     down     --              --           --=0D
+MGE1/0/0/2          down     down     --              --           --=0D
+MGE1/0/0/3          down     down     --              --           --=0D
+XGE1/2/0/15         up       up       118.221.200.62  --           ### =
+SKB IR...=0D
+XGE1/2/0/16         down     down     118.221.200.66  --           ### =
+SKB IR...=0D
+XGE2/2/0/15         down     down     118.221.200.70  --           ### =
+SKB IR...=0D
+XGE2/2/0/16         down     down     118.221.200.74  --           ### =
+SKB IR...=0D
+Vlan200             up       up       10.49.0.241     --           --=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]dis cur=0D
+#=0D
+ version 7.1.070, Release 7523P01=0D
+#=0D
+mdc Admin id 1=0D
+#=0D
+ sysname BB_Router=0D
+#=0D
+ irf mac-address persistent always=0D
+ irf auto-update enable=0D
+ irf auto-merge enable=0D
+ undo irf link-delay=0D
+ irf member 1 priority 1=0D
+ irf member 2 priority 1=0D
+ irf mode normal=0D
+#=0D
+ system-working-mode standard=0D
+ xbar chassis 1 load-balance=0D
+ xbar chassis 2 load-balance=0D
+ password-recovery enable=0D
+#=0D
+vlan 1=0D
+#=0D
+vlan 200=0D
+---- More ----=0D=0D               =0D#=0D
+irf-port 1/1=0D
+ port group interface Ten-GigabitEthernet1/0/0/8 mode enhanced=0D
+ port group interface Ten-GigabitEthernet1/1/0/8 mode enhanced=0D
+#=0D
+irf-port 2/2=0D
+ port group interface Ten-GigabitEthernet2/0/0/8 mode enhanced=0D
+ port group interface Ten-GigabitEthernet2/1/0/8 mode enhanced=0D
+#=0D
+ stp global enable=0D
+#=0D
+ftth=0D
+#=0D
+interface Bridge-Aggregation1=0D
+ description ## TO L4 #1 ##=0D
+ port access vlan 200=0D
+#=0D
+interface Bridge-Aggregation2=0D
+ description ## TO L4 #2 ##=0D
+ port access vlan 200=0D
+#=0D
+interface NULL0=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface LoopBack0=0D
+ description ### BGP Router ID ###=0D
+ ip address 10.49.0.201 255.255.255.255=0D
+#=0D
+interface LoopBack1=0D
+ ip address 118.221.204.251 255.255.255.255=0D
+#=0D
+interface LoopBack2=0D
+ description ### internet test ###=0D
+ ip address 1.231.13.121 255.255.255.255=0D
+#=0D
+interface Vlan-interface200=0D
+ ip address 10.49.0.241 255.255.255.240=0D
+#=0D
+interface FortyGigE1/0/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE1/0/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE1/1/0/1=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface FortyGigE1/1/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE2/0/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE2/0/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE2/1/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface FortyGigE2/1/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface M-GigabitEthernet1/0/0/0=0D
+#=0D
+interface M-GigabitEthernet1/0/0/1=0D
+#=0D
+interface M-GigabitEthernet1/0/0/2=0D
+#=0D
+interface M-GigabitEthernet1/0/0/3=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface =
+Ten-GigabitEthernet1/2/0/15=0D
+ port link-mode route=0D
+ description ### SKB IRF#1(=C1=D6) ###=0D
+ ip address 118.221.200.62 255.255.255.252=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/16=0D
+ port link-mode route=0D
+ description ### SKB IRF#1(=BF=B9=BA=F1) ###=0D
+ ip address 118.221.200.66 255.255.255.252=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/15=0D
+ port link-mode route=0D
+ description ### SKB IRF#2(=C1=D6) ###=0D
+ ip address 118.221.200.70 255.255.255.252=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/16=0D
+ port link-mode route=0D
+ description ### SKB IRF#2(=C1(=BF=B9=BA=F1)###=0D
+ ip address 118.221.200.74 255.255.255.252=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/1=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface =
+Ten-GigabitEthernet1/0/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/2=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface Ten-GigabitEthernet1/1/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/1=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#1 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/2=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+ description ### To-EXT L4#1 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/3=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#1 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/4=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#1 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/6=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface =
+Ten-GigabitEthernet1/2/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/8=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/9=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/10=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/11=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/12=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/13=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/2/0/14=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface Ten-GigabitEthernet2/0/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/1=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/1=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#2 ###=0D
+---- More ----=0D=0D               =0D port access vlan 200=0D
+ port link-aggregation group 2=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/2=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#2 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 2=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/3=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#2 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 2=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/4=0D
+ port link-mode bridge=0D
+ description ### To-EXT L4#2 ###=0D
+ port access vlan 200=0D
+ port link-aggregation group 2=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/5=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface Ten-GigabitEthernet2/2/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/8=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/9=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/10=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/11=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/12=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/13=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/2/0/14=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/0/8=0D
+ description ### IRF ( inter-Link ) ###=0D
+#=0D
+interface Ten-GigabitEthernet1/1/0/8=0D
+ description ### IRF ( inter-Link ) ###=0D
+#=0D
+interface Ten-GigabitEthernet2/0/0/8=0D
+ description ### IRF ( inter-Link ) ###=0D
+#=0D
+interface Ten-GigabitEthernet2/1/0/8=0D
+ description ### IRF ( inter-Link ) ###=0D
+#=0D
+bgp 65000=0D
+ router-id 10.49.0.201=0D
+ peer 118.221.200.61 as-number 9318=0D
+ peer 118.221.200.61 password cipher =
+$c$3$DzTjeZ0Eb22bB4lr7fACw4ATIhDzdYXBA9BffhE=3D=0D
+ peer 118.221.200.65 as-number 9318=0D
+ peer 118.221.200.65 password cipher =
+$c$3$mulWEjjjCqYESZRKMW4+zYabgxVUKxlyln6z/1s=3D=0D
+---- More ----=0D=0D               =0D peer 118.221.200.69 as-number =
+9318=0D
+ peer 118.221.200.69 password cipher =
+$c$3$KaGo67LljErE14Y0CK8z7N6+M2oKxmU9JhZKRrU=3D=0D
+ peer 118.221.200.73 as-number 9318=0D
+ peer 118.221.200.73 password cipher =
+$c$3$CitruZLywJqnUC8VOooCs9gmPvYjO8oiPls4CgM=3D=0D
+ #=0D
+ address-family ipv4 unicast=0D
+  network 1.231.13.0 255.255.255.0=0D
+  network 118.221.204.0 255.255.255.0=0D
+  network 118.221.205.0 255.255.255.0=0D
+  peer 118.221.200.61 enable=0D
+  peer 118.221.200.65 enable=0D
+  peer 118.221.200.65 preferred-value 100=0D
+  peer 118.221.200.69 enable=0D
+  peer 118.221.200.73 enable=0D
+  peer 118.221.200.73 preferred-value 100=0D
+#=0D
+ scheduler logfile size 16=0D
+#=0D
+line class aux=0D
+ user-role network-admin=0D
+#=0D
+line class vty=0D
+ user-role network-operator=0D
+---- More ----=0D=0D               =0D#=0D
+line aux 1/0 2/1=0D
+ user-role network-admin=0D
+#=0D
+line vty 0 63=0D
+ user-role network-operator=0D
+#=0D
+ ip route-static 1.231.13.0 24 10.49.0.245=0D
+ ip route-static 10.49.0.0 28 10.49.0.245=0D
+ ip route-static 10.49.0.80 28 10.49.0.245=0D
+ ip route-static 10.49.0.224 28 10.49.0.245=0D
+ ip route-static 10.49.0.240 28 10.49.0.245=0D
+ ip route-static 118.221.204.0 24 10.49.0.245=0D
+ ip route-static 118.221.205.0 24 10.49.0.245=0D
+#=0D
+ info-center loghost 1=0D
+#=0D
+ ssh server enable=0D
+#=0D
+domain system=0D
+#=0D
+ domain default enable system=0D
+#=0D
+---- More ----=0D=0D               =0Drole name level-0=0D
+ description Predefined level-0 role=0D
+#=0D
+role name level-1=0D
+ description Predefined level-1 role=0D
+#=0D
+role name level-2=0D
+ description Predefined level-2 role=0D
+#=0D
+role name level-3=0D
+ description Predefined level-3 role=0D
+#=0D
+role name level-4=0D
+ description Predefined level-4 role=0D
+#=0D
+role name level-5=0D
+ description Predefined level-5 role=0D
+#=0D
+role name level-6=0D
+ description Predefined level-6 role=0D
+#=0D
+role name level-7=0D
+ description Predefined level-7 role=0D
+---- More ----=0D=0D               =0D#=0D
+role name level-8=0D
+ description Predefined level-8 role=0D
+#=0D
+role name level-9=0D
+ description Predefined level-9 role=0D
+#=0D
+role name level-10=0D
+ description Predefined level-10 role=0D
+#=0D
+role name level-11=0D
+ description Predefined level-11 role=0D
+#=0D
+role name level-12=0D
+ description Predefined level-12 role=0D
+#=0D
+role name level-13=0D
+ description Predefined level-13 role=0D
+#=0D
+role name level-14=0D
+ description Predefined level-14 role=0D
+#=0D
+user-group system=0D
+---- More ----=0D=0D               =0D#=0D
+local-user admin class manage=0D
+ password hash =
+$h$6$y2E+n4AJeyj2+Bqm$FzoMZzj20K0d6VU7BHSuSxkBQG72/Sj6jpFSpD+ya2Ld+qMku3z=
+6IfShV4lfirPwf3XUdwExHSV92xOK448N3Q=3D=3D=0D
+ service-type ftp=0D
+ service-type telnet ssh=0D
+ authorization-attribute user-role network-admin=0D
+ authorization-attribute user-role network-operator=0D
+#=0D
+ ftp server enable=0D
+#=0D
+return=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]=0D
+[BB_Router]
+<BB_IBB>
+#May 13 17:55:39:659 2000 BB_IBB SHELL/4/LOGIN:=20
+ Trap 1.3.6.1.4.1.25506.2.2.1.1.3.0.1: login from Console
+%May 13 17:55:39:790 2000 BB_IBB SHELL/5/SHELL_LOGIN: Console logged in =
+from aux0.
+<BB_IBB>
+<BB_IBB>
+<BB_IBB>
+<BB_IBB>
+<BB_IBB>sys
+System View: return to User View with Ctrl+Z.
+[BB_IBB]
+[BB_IBB]
+------=_NextPart_000_003A_01D254D2.27392ED0
+Content-Type: application/octet-stream;
+	name="=?UTF-8?B?67aB67aA7ISc67KE66edTDPsiqTsnITsuZhfMjAxNjEyMTI=?="
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="=?UTF-8?B?67aB67aA7ISc67KE66edTDPsiqTsnITsuZhfMjAxNjEyMTI=?="
+
+=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D PuTTY log 2016.12.12 =
+23:38:12 =3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D
+=0D
+<KB_SL3>=0D
+<KB_SL3>=0D
+<KB_SL3>=B4=A4=0D
+        ^=0D
+ % Unrecognized command found at '^' position.=0D
+<KB_SL3>sys=0D
+System View: return to User View with Ctrl+Z.=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]dis ip int b=0D
+*down: administratively down=0D
+(s): spoofing=0D
+Interface                     Physical Protocol IP Address      =
+Description =0D
+M-GE0/0/0                     down     down     unassigned      =
+M-Gigabit...=0D
+RAGG1                         up       up       10.49.0.22      =
+Route-Agg...=0D
+XGE1/0/25                     down     down     unassigned      =
+Ten-Gigab...=0D
+XGE2/0/25                     up       up       unassigned      =
+Ten-Gigab...=0D
+Vlan1                         up       up       1.231.13.97     =
+Vlan-inte...=0D
+Vlan100                       up       up       10.47.100.254   =
+Vlan-inte...=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]dis cu=0D
+[KB_SL3]dis current-configuration =0D
+#=0D
+ version 7.1.045, Release 1121=0D
+#=0D
+ sysname KB_SL3=0D
+#=0D
+ irf mac-address persistent timer=0D
+ irf auto-update enable=0D
+ undo irf link-delay=0D
+ irf member 1 priority 32=0D
+ irf member 2 priority 16=0D
+#=0D
+ ip ttl-expires enable=0D
+#=0D
+ lldp global enable=0D
+#=0D
+ fan prefer-direction slot 1 port-to-power =0D
+ fan prefer-direction slot 2 port-to-power =0D
+ password-recovery enable=0D
+#=0D
+vlan 1=0D
+#=0D
+vlan 100=0D
+#=0D
+---- More ----=0D=0D               =0Dirf-port 1/1=0D
+ port group interface Ten-GigabitEthernet1/0/27=0D
+ port group interface Ten-GigabitEthernet1/0/28=0D
+#=0D
+irf-port 2/2=0D
+ port group interface Ten-GigabitEthernet2/0/27=0D
+ port group interface Ten-GigabitEthernet2/0/28=0D
+#=0D
+ stp global enable=0D
+#=0D
+interface Bridge-Aggregation1=0D
+#=0D
+interface Bridge-Aggregation70=0D
+#=0D
+interface Route-Aggregation1=0D
+ ip address 10.49.0.22 255.255.255.252=0D
+#=0D
+interface NULL0=0D
+#=0D
+interface Vlan-interface1=0D
+ ip address 1.231.13.97 255.255.255.240=0D
+#=0D
+interface Vlan-interface100=0D
+---- More ----=0D=0D               =0D ip address 10.47.100.254 =
+255.255.255.0=0D
+#=0D
+interface GigabitEthernet1/0/1=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/7=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface GigabitEthernet1/0/8=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/9=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/10=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/11=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/12=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/13=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/14=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/15=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface GigabitEthernet1/0/16=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/17=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/18=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/19=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/20=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/21=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/22=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/23=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/24=0D
+ port link-mode bridge=0D
+ port link-type trunk=0D
+ port trunk permit vlan 1 100=0D
+#=0D
+interface GigabitEthernet2/0/1=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/2=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/3=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/4=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface GigabitEthernet2/0/5=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/6=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/7=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/8=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/9=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/10=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+---- More ----=0D=0D               =0D#=0D
+interface GigabitEthernet2/0/11=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/12=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/13=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/14=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/15=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/16=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/17=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/18=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/19=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/20=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/21=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/22=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/23=0D
+ port link-mode bridge=0D
+ port access vlan 100=0D
+#=0D
+interface GigabitEthernet2/0/24=0D
+ port link-mode bridge=0D
+ port link-type trunk=0D
+ port trunk permit vlan 1 100=0D
+#=0D
+interface M-GigabitEthernet0/0/0=0D
+ ip address dhcp-alloc=0D
+ ipv6 address auto=0D
+ ipv6 address dhcp-alloc=0D
+#=0D
+interface Ten-GigabitEthernet1/0/25=0D
+ port link-mode route=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet2/0/25=0D
+ port link-mode route=0D
+---- More ----=0D=0D               =0D port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet1/0/26=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/26=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/27=0D
+#=0D
+interface Ten-GigabitEthernet1/0/28=0D
+#=0D
+interface Ten-GigabitEthernet2/0/27=0D
+#=0D
+interface Ten-GigabitEthernet2/0/28=0D
+#=0D
+ scheduler logfile size 16=0D
+#=0D
+line class aux=0D
+ user-role network-admin=0D
+#=0D
+line class vty=0D
+ user-role network-operator=0D
+---- More ----=0D=0D               =0D#=0D
+line aux 0 1=0D
+ user-role network-admin=0D
+#=0D
+line vty 0 63=0D
+ user-role network-operator=0D
+#=0D
+ ip route-static 0.0.0.0 0 10.49.0.21=0D
+#=0D
+radius scheme system=0D
+ user-name-format without-domain=0D
+#=0D
+domain system=0D
+#=0D
+ domain default enable system=0D
+#=0D
+role name level-0=0D
+ description Predefined level-0 role=0D
+#=0D
+role name level-1=0D
+ description Predefined level-1 role=0D
+#=0D
+role name level-2=0D
+---- More ----=0D=0D               =0D description Predefined level-2 =
+role=0D
+#=0D
+role name level-3=0D
+ description Predefined level-3 role=0D
+#=0D
+role name level-4=0D
+ description Predefined level-4 role=0D
+#=0D
+role name level-5=0D
+ description Predefined level-5 role=0D
+#=0D
+role name level-6=0D
+ description Predefined level-6 role=0D
+#=0D
+role name level-7=0D
+ description Predefined level-7 role=0D
+#=0D
+role name level-8=0D
+ description Predefined level-8 role=0D
+#=0D
+role name level-9=0D
+ description Predefined level-9 role=0D
+#=0D
+---- More ----=0D=0D               =0Drole name level-10=0D
+ description Predefined level-10 role=0D
+#=0D
+role name level-11=0D
+ description Predefined level-11 role=0D
+#=0D
+role name level-12=0D
+ description Predefined level-12 role=0D
+#=0D
+role name level-13=0D
+ description Predefined level-13 role=0D
+#=0D
+role name level-14=0D
+ description Predefined level-14 role=0D
+#=0D
+user-group system=0D
+#=0D
+return=0D
+[KB_SL3] =0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]=0D
+[KB_SL3]
+------=_NextPart_000_003A_01D254D2.27392ED0
+Content-Type: application/octet-stream;
+	name="=?UTF-8?B?67aB67aA7KCE7Jqp7ZqM7ISgTDPsiqTsnITsuZhfMjAxNjEyMTI=?="
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="=?UTF-8?B?67aB67aA7KCE7Jqp7ZqM7ISgTDPsiqTsnITsuZhfMjAxNjEyMTI=?="
+
+=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D PuTTY log 2016.12.12 =
+23:35:49 =3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D
+=0D
+<KB_NL3>=0D
+<KB_NL3>=0D
+<KB_NL3>sys=0D
+System View: return to User View with Ctrl+Z.=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]dis ip int b=0D
+*down: administratively down=0D
+(s): spoofing=0D
+Interface                     Physical Protocol IP Address      =
+Description =0D
+GE1/0/5                       up       up       10.49.0.42      ### =
+To-=B1=E2...=0D
+M-GE0/0/0                     *down    down     unassigned      =
+M-Gigabit...=0D
+RAGG1                         up       up       192.168.220.102 ### To - =
+...=0D
+XGE1/0/26                     up       up       unassigned      ### =
+=C3=BB=B3=BB ...=0D
+XGE2/0/26                     up       up       unassigned      =
+Ten-Gigab...=0D
+Vlan50                        up       up       10.49.0.18      ### =
+To-=C1=FD...=0D
+[KB_NL3] =0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]dis ver=0D
+            ^=0D
+ % Ambiguous command found at '^' position.=0D
+[KB_NL3]dis ver=0D
+[KB_NL3]dis version=0D
+HPE Comware Software, Version 7.1.045, Release 1121=0D
+Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP=0D
+HPE 5510 24G 4SFP+ HI 1-slot Switch JH145A uptime is 2 weeks, 3 days, 6 =
+hours, 8 minutes=0D
+Last reboot reason : Cold reboot=0D
+=0D
+Boot image: flash:/5510hi-cmw710-boot-r1121.bin=0D
+Boot image version: 7.1.045, Release 1121=0D
+  Compiled Aug 17 2016 16:00:00=0D
+System image: flash:/5510hi-cmw710-system-r1121.bin=0D
+System image version: 7.1.045, Release 1121=0D
+  Compiled Aug 17 2016 16:00:00=0D
+=0D=0D
+=0D
+Slot 1:=0D
+Uptime is 2 weeks,3 days,6 hours,8 minutes=0D
+HPE 5510 24G 4SFP+ HI 1-slot Switch JH145A with 2 Processors=0D
+BOARD TYPE:         5510 24G 4SFP+ HI 1-slot Switch=0D
+DRAM:               1984M bytes=0D
+FLASH:              512M bytes=0D
+PCB 1 Version:      VER.A=0D
+Bootrom Version:    123=0D
+CPLD 1 Version:     003=0D
+Release Version:    HPE 5510 24G 4SFP+ HI 1-slot Switch JH145A-1121=0D
+---- More ----=0D=0D               =0DPatch Version  :    None=0D
+Reboot Cause  :     ColdReboot=0D
+[SubSlot 0] 24GE+4SFP Plus=0D
+=0D
+Slot 2:=0D
+Uptime is 0 weeks,0 days,5 hours,27 minutes=0D
+HPE 5510 24G 4SFP+ HI 1-slot Switch JH145A with 2 Processors=0D
+BOARD TYPE:         5510 24G 4SFP+ HI 1-slot Switch=0D
+DRAM:               1984M bytes=0D
+FLASH:              512M bytes=0D
+PCB 1 Version:      VER.A=0D
+Bootrom Version:    123=0D
+CPLD 1 Version:     003=0D
+Release Version:    HPE 5510 24G 4SFP+ HI 1-slot Switch JH145A-1121=0D
+Patch Version  :    None=0D
+Reboot Cause  :     IRFMergeReboot=0D
+[SubSlot 0] 24GE+4SFP Plus=0D
+[KB_NL3] dis cu=0D
+#=0D
+ version 7.1.045, Release 1121=0D
+#=0D
+ sysname KB_NL3=0D
+#=0D
+ irf mac-address persistent timer=0D
+ irf auto-update enable=0D
+ undo irf link-delay=0D
+ irf member 1 priority 32=0D
+ irf member 2 priority 16=0D
+#=0D
+ ip ttl-expires enable=0D
+#=0D
+ lldp global enable=0D
+#=0D
+ fan prefer-direction slot 1 port-to-power =0D
+ fan prefer-direction slot 2 port-to-power =0D
+ password-recovery enable=0D
+#=0D
+vlan 1=0D
+#=0D
+vlan 50=0D
+#=0D
+---- More ----=0D=0D               =0Dvlan 100=0D
+#=0D
+irf-port 1/1=0D
+ port group interface Ten-GigabitEthernet1/0/27=0D
+ port group interface Ten-GigabitEthernet1/0/28=0D
+#=0D
+irf-port 2/2=0D
+ port group interface Ten-GigabitEthernet2/0/27=0D
+ port group interface Ten-GigabitEthernet2/0/28=0D
+#=0D
+ stp global enable=0D
+#=0D
+interface Bridge-Aggregation50=0D
+ description ### To-=C1=FD=BC=B1L3 ###=0D
+ port access vlan 50=0D
+#=0D
+interface Route-Aggregation1=0D
+ description ### To - =C3=BB=B3=BBF/W ###=0D
+ ip address 192.168.220.102 255.255.255.252=0D
+ link-aggregation mode dynamic=0D
+#=0D
+interface NULL0=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface Vlan-interface50=0D
+ description ### To-=C1=FD=BC=B1L3 ###=0D
+ ip address 10.49.0.18 255.255.255.252=0D
+#=0D
+interface GigabitEthernet1/0/5=0D
+ port link-mode route=0D
+ description ### To-=B1=E2=C1=B8=C0=FC=BF=EBL3 ###=0D
+ ip address 10.49.0.42 255.255.255.252=0D
+#=0D
+interface GigabitEthernet1/0/1=0D
+ port link-mode bridge=0D
+ description ### To-=C1=FD=BC=B1L3 ###=0D
+ port access vlan 50=0D
+ port link-aggregation group 50=0D
+#=0D
+interface GigabitEthernet1/0/2=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/4=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface GigabitEthernet1/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/8=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/9=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/10=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/11=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/12=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/13=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/14=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/15=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/16=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/17=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/18=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/19=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/20=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface GigabitEthernet1/0/21=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/22=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet1/0/23=0D
+ port link-mode bridge=0D
+ description ## To-=BA=BB=C3=BB =BA=B8=BE=C8=C1=FD=BC=B1 =
+=BD=BA=C0=A7=C4=A1 ##=0D
+#=0D
+interface GigabitEthernet1/0/24=0D
+ port link-mode bridge=0D
+ description ## To-=BA=BB=C3=BB =B9=AB=BC=B1=C1=FD=BC=B1 =
+=BD=BA=C0=A7=C4=A1 ##=0D
+#=0D
+interface GigabitEthernet2/0/1=0D
+ port link-mode bridge=0D
+ description ### To-=C1=FD=BC=B1L3 ###=0D
+ port access vlan 50=0D
+ port link-aggregation group 50=0D
+#=0D
+interface GigabitEthernet2/0/2=0D
+ port link-mode bridge=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface GigabitEthernet2/0/3=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/4=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/5=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/6=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/7=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/8=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/9=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/10=0D
+ port link-mode bridge=0D
+---- More ----=0D=0D               =0D#=0D
+interface GigabitEthernet2/0/11=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/12=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/13=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/14=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/15=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/16=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/17=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/18=0D
+---- More ----=0D=0D               =0D port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/19=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/20=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/21=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/22=0D
+ port link-mode bridge=0D
+#=0D
+interface GigabitEthernet2/0/23=0D
+ port link-mode bridge=0D
+ description ## To-=BA=BB=C3=BB =BA=B8=BE=C8=C1=FD=BC=B1 =
+=BD=BA=C0=A7=C4=A1 ##=0D
+#=0D
+interface GigabitEthernet2/0/24=0D
+ port link-mode bridge=0D
+ description ## To-=BA=BB=C3=BB =B9=AB=BC=B1=C1=FD=BC=B1 =
+=BD=BA=C0=A7=C4=A1 ##=0D
+#=0D
+interface M-GigabitEthernet0/0/0=0D
+---- More ----=0D=0D               =0D shutdown=0D
+ ipv6 address auto=0D
+ ipv6 address dhcp-alloc=0D
+#=0D
+interface Ten-GigabitEthernet1/0/26=0D
+ port link-mode route=0D
+ description ### =C3=BB=B3=BB F/W ###=0D
+ port link-aggregation group 1=0D
+#=0D
+interface Ten-GigabitEthernet2/0/26=0D
+ port link-mode route=0D
+ port link-aggregation group 1=0D=0D
+#=0D
+interface Ten-GigabitEthernet1/0/25=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet2/0/25=0D
+ port link-mode bridge=0D
+#=0D
+interface Ten-GigabitEthernet1/0/27=0D
+#=0D
+interface Ten-GigabitEthernet1/0/28=0D
+#=0D
+---- More ----=0D=0D               =0Dinterface =
+Ten-GigabitEthernet2/0/27=0D
+#=0D
+interface Ten-GigabitEthernet2/0/28=0D
+#=0D
+ scheduler logfile size 16=0D
+#=0D
+line class aux=0D
+ user-role network-admin=0D
+#=0D
+line class vty=0D
+ user-role network-operator=0D
+#=0D
+line aux 0 1=0D
+ user-role network-admin=0D
+#=0D
+line vty 0 63=0D
+ user-role network-operator=0D
+#=0D
+ ip route-static 0.0.0.0 0 10.49.0.17=0D
+ ip route-static 1.231.13.0 26 10.49.0.41=0D
+ ip route-static 1.231.13.96 28 10.49.0.17=0D
+ ip route-static 1.231.13.192 26 192.168.220.101=0D
+ ip route-static 10.11.4.102 32 10.49.0.41=0D
+---- More ----=0D=0D               =0D ip route-static 10.17.2.17 32 =
+10.49.0.41=0D
+ ip route-static 10.17.2.18 32 10.49.0.41=0D
+ ip route-static 10.27.2.127 32 10.49.0.41=0D
+ ip route-static 10.27.2.129 32 10.49.0.41=0D
+ ip route-static 10.31.128.53 32 10.49.0.41=0D
+ ip route-static 10.37.1.24 32 10.49.0.41=0D
+ ip route-static 10.37.2.119 32 10.49.0.41=0D
+ ip route-static 10.37.3.109 32 10.49.0.41=0D
+ ip route-static 10.47.1.0 24 192.168.220.101=0D
+ ip route-static 10.47.2.0 24 192.168.220.101=0D
+ ip route-static 10.47.100.0 24 10.49.0.17=0D
+ ip route-static 10.48.1.0 24 192.168.220.101=0D
+ ip route-static 10.48.2.0 24 192.168.220.101=0D
+ ip route-static 10.57.2.12 32 10.49.0.41=0D
+ ip route-static 10.57.2.22 32 10.49.0.41=0D
+ ip route-static 10.61.11.1 32 10.49.0.41=0D
+ ip route-static 10.67.2.21 32 10.49.0.41=0D
+ ip route-static 10.67.2.34 32 10.49.0.41=0D
+ ip route-static 10.71.26.81 32 10.49.0.41=0D
+ ip route-static 10.77.2.18 32 10.49.0.41=0D
+ ip route-static 10.77.2.23 32 10.49.0.41=0D
+ ip route-static 10.87.2.13 32 10.49.0.41=0D
+ ip route-static 10.87.2.244 32 10.49.0.41=0D
+---- More ----=0D=0D               =0D ip route-static 10.97.2.129 32 =
+10.49.0.41=0D
+ ip route-static 10.97.2.133 32 10.49.0.41=0D
+ ip route-static 10.107.2.19 32 10.49.0.41=0D
+ ip route-static 10.107.2.224 32 10.49.0.41=0D
+ ip route-static 10.117.2.19 32 10.49.0.41=0D
+ ip route-static 10.117.2.21 32 10.49.0.41=0D
+ ip route-static 10.190.190.0 24 10.49.0.41=0D
+ ip route-static 192.168.0.0 16 10.49.0.41=0D
+ ip route-static 192.168.107.67 32 10.49.0.41=0D
+ ip route-static 202.171.249.0 24 10.49.0.41=0D
+ ip route-static 202.171.251.70 32 10.49.0.41=0D
+ ip route-static 202.171.251.71 32 10.49.0.41=0D
+ ip route-static 202.171.251.72 32 10.49.0.41=0D
+ ip route-static 202.171.251.73 32 10.49.0.41=0D
+ ip route-static 202.171.251.74 32 10.49.0.41=0D
+ ip route-static 202.171.251.75 32 10.49.0.41=0D
+ ip route-static 202.171.251.76 32 10.49.0.41=0D
+ ip route-static 202.171.251.80 32 10.49.0.41=0D
+ ip route-static 202.171.251.81 32 10.49.0.41=0D
+ ip route-static 202.171.251.84 32 10.49.0.41=0D
+ ip route-static 202.171.251.85 32 10.49.0.41=0D
+ ip route-static 202.171.251.86 32 10.49.0.41=0D
+ ip route-static 202.171.251.87 32 10.49.0.41=0D
+---- More ----=0D=0D               =0D ip route-static 202.171.251.101 =
+32 10.49.0.41=0D
+ ip route-static 202.171.251.102 32 10.49.0.41=0D
+ ip route-static 202.171.251.103 32 10.49.0.41=0D
+ ip route-static 202.171.251.104 32 10.49.0.41=0D
+#=0D
+radius scheme system=0D
+ user-name-format without-domain=0D
+#=0D
+domain system=0D
+#=0D
+ domain default enable system=0D
+#=0D
+role name level-0=0D
+ description Predefined level-0 role=0D
+#=0D
+role name level-1=0D
+ description Predefined level-1 role=0D
+#=0D
+role name level-2=0D
+ description Predefined level-2 role=0D
+#=0D
+role name level-3=0D
+ description Predefined level-3 role=0D
+---- More ----=0D=0D               =0D#=0D
+role name level-4=0D
+ description Predefined level-4 role=0D
+#=0D
+role name level-5=0D
+ description Predefined level-5 role=0D
+#=0D
+role name level-6=0D
+ description Predefined level-6 role=0D
+#=0D
+role name level-7=0D
+ description Predefined level-7 role=0D
+#=0D
+role name level-8=0D
+ description Predefined level-8 role=0D
+#=0D
+role name level-9=0D
+ description Predefined level-9 role=0D
+#=0D
+role name level-10=0D
+ description Predefined level-10 role=0D
+#=0D
+role name level-11=0D
+---- More ----=0D=0D               =0D description Predefined level-11 =
+role=0D
+#=0D
+role name level-12=0D
+ description Predefined level-12 role=0D
+#=0D
+role name level-13=0D
+ description Predefined level-13 role=0D
+#=0D
+role name level-14=0D
+ description Predefined level-14 role=0D
+#=0D
+user-group system=0D
+#=0D
+return=0D
+[KB_NL3] =0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]=0D
+[KB_NL3]
+
+<KB_SL3>=0D
+<KB_SL3>=0D
+<KB_SL3>%Jan 18 06:43:28:029 2013 KB_SL3 SHELL/5/SHELL_LOGIN: TTY logged =
+in from aux0.=0D
+=0D
+<KB_SL3>=0D
+<KB_SL3>=0D
+<KB_SL3>=0D
+<KB_SL3>
+------=_NextPart_000_003A_01D254D2.27392ED0
+Content-Type: application/octet-stream;
+	name="=?UTF-8?B?67aB67aA7KeR7ISg7Iqk7JyE7LmYXzIwMTYxMjEy?="
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="=?UTF-8?B?67aB67aA7KeR7ISg7Iqk7JyE7LmYXzIwMTYxMjEy?="
+
+=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D PuTTY log 2016.12.12 =
+23:25:01 =3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D
+
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]=BE=E1 =07=07=07=07=07=07=07=07=07=07=07=07=07=07=07=07=07
+        ^
+ % Unrecognized command found at '^' position.
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]=07dis ver=09
+[BB_IBB]dis version
+HPE Comware Platform Software
+Comware Software, Version 5.20.105, Release 1810P06
+Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP
+HPE 5820X-24XG-SFP+ Switch uptime is 2 weeks, 3 days, 5 hours, 56 =
+minutes
+
+HPE 5820X-24XG-SFP+ Switch with 2 Processors
+1792M   bytes SDRAM
+4M      bytes Nor Flash Memory
+512M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is Ver.C
+CPLDA Version is 002, CPLDB Version is 003
+BootRom Version is 303
+[SubSlot 0] 24SFP Plus+4GE Hardware Version is Ver.C
+
+[BB_IBB]=20
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis ip int b
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface          Physical Protocol IP Address      Description
+GE1/0/28           up       up       10.49.0.26      ##TO_L4#1 ##
+GE2/0/28           up       up       10.49.0.30      ##TO_L4#2 ##
+M-GE0/0/0          *down    down     --              --
+RAGG1              up       up       10.49.0.21      --
+RAGG2              down     down     10.49.0.9       ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/20          down     down     --              --
+XGE1/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/22          down     down     --              --
+XGE2/0/20          up       down     --              --
+XGE2/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE2/0/22          down     down     --              --
+Vlan50             up       up       10.49.0.17      ### To-=BA=CF=BA=CE =
+=C0=FC=BF=EB=C8=B8=BC=B1 L3 ...
+Vlan70             down     down     10.49.100.254   ### To - =
+=BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1...
+Vlan101            down     down     10.49.1.1       --
+Vlan102            down     down     10.49.1.9       --
+Vlan103            down     down     10.49.1.17      --
+Vlan104            down     down     10.49.1.25      --
+Vlan105            down     down     10.49.1.33      --
+Vlan106            down     down     10.49.1.41      --
+Vlan107            down     down     10.49.1.49      --
+Vlan108            down     down     10.49.1.57      --
+Vlan109            down     down     10.49.1.65      --
+  ---- More ----=1B[16D                =1B[16DVlan110            down    =
+ down     10.49.1.73      --
+Vlan111            down     down     10.49.1.81      --
+Vlan112            down     down     10.49.1.89      --
+Vlan113            down     down     10.49.1.97      --
+Vlan114            down     down     10.49.1.105     --
+Vlan115            down     down     10.49.1.113     --
+Vlan116            down     down     10.49.1.121     --
+Vlan117            down     down     10.49.1.129     --
+Vlan200            up       up       10.49.0.1       ### To - INT L4 ###
+Vlan201            down     down     10.49.2.1       --
+Vlan202            down     down     10.49.2.9       --
+Vlan203            down     down     10.49.2.17      --
+Vlan204            down     down     10.49.2.25      --
+Vlan205            down     down     10.49.2.33      --
+Vlan206            down     down     10.49.2.41      --
+Vlan207            down     down     10.49.2.49      --
+Vlan208            down     down     10.49.2.57      --
+Vlan209            down     down     10.49.2.65      --
+Vlan210            down     down     10.49.2.73      --
+Vlan211            down     down     10.49.2.81      --
+Vlan212            down     down     10.49.2.89      --
+Vlan213            down     down     10.49.2.97      --
+Vlan214            down     down     10.49.2.105     --
+  ---- More ----=1B[16D                =1B[16DVlan215            down    =
+ down     10.49.2.113     --
+Vlan216            down     down     10.49.2.121     --
+Vlan217            down     down     10.49.2.129     --
+Vlan301            down     down     10.49.3.1       --
+Vlan302            down     down     10.49.3.9       --
+Vlan303            down     down     10.49.3.17      --
+Vlan304            down     down     10.49.3.25      --
+Vlan305            down     down     10.49.3.33      --
+Vlan306            down     down     10.49.3.41      --
+Vlan307            down     down     10.49.3.49      --
+Vlan308            down     down     10.49.3.57      --
+Vlan309            down     down     10.49.3.65      --
+Vlan310            down     down     10.49.3.73      --
+Vlan311            down     down     10.49.3.81      --
+Vlan312            down     down     10.49.3.89      --
+Vlan313            down     down     10.49.3.97      --
+Vlan314            down     down     10.49.3.105     --
+Vlan315            down     down     10.49.3.113     --
+Vlan316            down     down     10.49.3.121     --
+Vlan317            down     down     10.49.3.129     --
+Vlan401            down     down     10.49.4.1       --
+Vlan402            down     down     10.49.4.9       --
+Vlan403            down     down     10.49.4.17      --
+  ---- More ----=1B[16D                =1B[16DVlan404            down    =
+ down     10.49.4.25      --
+Vlan405            down     down     10.49.4.33      --
+Vlan406            down     down     10.49.4.41      --
+Vlan407            down     down     10.49.4.49      --
+Vlan408            down     down     10.49.4.57      --
+Vlan409            down     down     10.49.4.65      --
+Vlan410            down     down     10.49.4.73      --
+Vlan411            down     down     10.49.4.81      --
+Vlan412            down     down     10.49.4.89      --
+Vlan413            down     down     10.49.4.97      --
+Vlan414            down     down     10.49.4.105     --
+Vlan415            down     down     10.49.4.113     --
+Vlan416            down     down     10.49.4.121     --
+Vlan417            down     down     10.49.4.129     --
+Vlan501            down     down     10.49.5.1       --
+Vlan502            down     down     10.49.5.9       --
+Vlan503            down     down     10.49.5.17      --
+Vlan504            down     down     10.49.5.25      --
+Vlan505            down     down     10.49.5.33      --
+Vlan506            down     down     10.49.5.41      --
+Vlan507            down     down     10.49.5.49      --
+Vlan508            down     down     10.49.5.57      --
+Vlan509            down     down     10.49.5.65      --
+  ---- More ----=1B[16D                =1B[16DVlan510            down    =
+ down     10.49.5.73      --
+Vlan511            down     down     10.49.5.81      --
+Vlan512            down     down     10.49.5.89      --
+Vlan513            down     down     10.49.5.97      --
+Vlan514            down     down     10.49.5.105     --
+Vlan515            down     down     10.49.5.113     --
+Vlan516            down     down     10.49.5.121     --
+Vlan517            down     down     10.49.5.129     --
+Vlan601            down     down     10.49.6.1       --
+Vlan602            down     down     10.49.6.9       --
+Vlan603            down     down     10.49.6.17      --
+Vlan604            down     down     10.49.6.25      --
+Vlan605            down     down     10.49.6.33      --
+Vlan606            down     down     10.49.6.41      --
+Vlan607            down     down     10.49.6.49      --
+Vlan608            down     down     10.49.6.57      --
+Vlan609            down     down     10.49.6.65      --
+Vlan610            down     down     10.49.6.73      --
+Vlan611            down     down     10.49.6.81      --
+Vlan612            down     down     10.49.6.89      --
+Vlan613            down     down     10.49.6.97      --
+Vlan614            down     down     10.49.6.105     --
+Vlan615            down     down     10.49.6.113     --
+  ---- More ----=1B[16D                =1B[16DVlan616            down    =
+ down     10.49.6.121     --
+Vlan617            down     down     10.49.6.129     --
+Vlan701            down     down     10.49.7.1       --
+Vlan702            down     down     10.49.7.9       --
+Vlan703            down     down     10.49.7.17      --
+Vlan704            down     down     10.49.7.25      --
+Vlan705            down     down     10.49.7.33      --
+Vlan706            down     down     10.49.7.41      --
+Vlan707            down     down     10.49.7.49      --
+Vlan708            down     down     10.49.7.57      --
+Vlan709            down     down     10.49.7.65      --
+Vlan710            down     down     10.49.7.73      --
+Vlan711            down     down     10.49.7.81      --
+Vlan712            down     down     10.49.7.89      --
+Vlan713            down     down     10.49.7.97      --
+Vlan714            down     down     10.49.7.105     --
+Vlan715            down     down     10.49.7.113     --
+Vlan716            down     down     10.49.7.121     --
+Vlan717            down     down     10.49.7.129     --
+[BB_IBB] q
+        ^
+ % Ambiguous command found at '^' position.
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis cu
+#
+ version 5.20.105, Release 1810P06
+#
+ sysname BB_IBB
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 32
+ irf member 2 priority 16
+#
+ domain default enable system
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 10
+#
+vlan 20
+#
+vlan 30
+#
+  ---- More ----=1B[16D                =1B[16Dvlan 50
+#
+vlan 70
+#
+vlan 101 to 120
+#
+vlan 200
+ description ### To- =BA=CF=BA=CE INT L4 ###
+#
+vlan 201 to 217
+#
+vlan 301 to 317
+#
+vlan 401 to 417
+#
+vlan 501 to 517
+#
+vlan 601 to 617
+#
+vlan 701 to 717
+#
+vlan 2000
+#
+  ---- More ----=1B[16D                =1B[16Ddomain system
+ access-limit disable
+ state active
+ idle-cut disable
+ self-service-url disable
+#
+user-group system
+ group-attribute allow-guest
+#
+stp region-configuration
+ region-name d894030d37e2
+ active region-configuration
+#
+ stp enable
+#
+cwmp
+ undo cwmp enable
+#
+interface Bridge-Aggregation1
+ description ### To - =BA=CF=BA=CE INT L4#1 ###
+ port access vlan 200
+#
+interface Bridge-Aggregation2
+  ---- More ----=1B[16D                =1B[16D description ### To - =
+=BA=CF=BA=CE INT L4#2 ###
+ port access vlan 200
+#
+interface Bridge-Aggregation3
+ description ### To- =C0=FC=BF=EB=C8=BA=BC=B1L3 ###
+#
+interface Bridge-Aggregation11
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#1 ###
+ port link-type trunk
+ port trunk permit vlan 1 101 to 117
+#
+interface Bridge-Aggregation12
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#2 ###
+ port link-type trunk
+ port trunk permit vlan 1 201 to 217
+#
+interface Bridge-Aggregation13
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#3 ###
+ port link-type trunk
+ port trunk permit vlan 1 301 to 317
+#
+interface Bridge-Aggregation14
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#4 ###
+  ---- More ----=1B[16D                =1B[16D
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis ip int br
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface          Physical Protocol IP Address      Description
+GE1/0/28           up       up       10.49.0.26      ##TO_L4#1 ##
+GE2/0/28           up       up       10.49.0.30      ##TO_L4#2 ##
+M-GE0/0/0          *down    down     --              --
+RAGG1              up       up       10.49.0.21      --
+RAGG2              down     down     10.49.0.9       ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/20          down     down     --              --
+XGE1/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/22          down     down     --              --
+XGE2/0/20          up       down     --              --
+XGE2/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE2/0/22          down     down     --              --
+Vlan50             up       up       10.49.0.17      ### To-=BA=CF=BA=CE =
+=C0=FC=BF=EB=C8=B8=BC=B1 L3 ...
+Vlan70             down     down     10.49.100.254   ### To - =
+=BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1...
+Vlan101            down     down     10.49.1.1       --
+Vlan102            down     down     10.49.1.9       --
+Vlan103            down     down     10.49.1.17      --
+Vlan104            down     down     10.49.1.25      --
+Vlan105            down     down     10.49.1.33      --
+Vlan106            down     down     10.49.1.41      --
+Vlan107            down     down     10.49.1.49      --
+Vlan108            down     down     10.49.1.57      --
+Vlan109            down     down     10.49.1.65      --
+  ---- More ----=1B[16D                =1B[16D
+[BB_IBB]dis ip int br
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface          Physical Protocol IP Address      Description
+GE1/0/28           up       up       10.49.0.26      ##TO_L4#1 ##
+GE2/0/28           up       up       10.49.0.30      ##TO_L4#2 ##
+M-GE0/0/0          *down    down     --              --
+RAGG1              up       up       10.49.0.21      --
+RAGG2              down     down     10.49.0.9       ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/20          down     down     --              --
+XGE1/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/22          down     down     --              --
+XGE2/0/20          up       down     --              --
+XGE2/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE2/0/22          down     down     --              --
+Vlan50             up       up       10.49.0.17      ### To-=BA=CF=BA=CE =
+=C0=FC=BF=EB=C8=B8=BC=B1 L3 ...
+Vlan70             down     down     10.49.100.254   ### To - =
+=BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1...
+Vlan101            down     down     10.49.1.1       --
+Vlan102            down     down     10.49.1.9       --
+Vlan103            down     down     10.49.1.17      --
+Vlan104            down     down     10.49.1.25      --
+Vlan105            down     down     10.49.1.33      --
+Vlan106            down     down     10.49.1.41      --
+Vlan107            down     down     10.49.1.49      --
+Vlan108            down     down     10.49.1.57      --
+Vlan109            down     down     10.49.1.65      --
+  ---- More ----=1B[16D                =1B[16DVlan110            down    =
+ down     10.49.1.73      --
+Vlan111            down     down     10.49.1.81      --
+Vlan112            down     down     10.49.1.89      --
+Vlan113            down     down     10.49.1.97      --
+Vlan114            down     down     10.49.1.105     --
+Vlan115            down     down     10.49.1.113     --
+Vlan116            down     down     10.49.1.121     --
+Vlan117            down     down     10.49.1.129     --
+Vlan200            up       up       10.49.0.1       ### To - INT L4 ###
+Vlan201            down     down     10.49.2.1       --
+Vlan202            down     down     10.49.2.9       --
+Vlan203            down     down     10.49.2.17      --
+Vlan204            down     down     10.49.2.25      --
+Vlan205            down     down     10.49.2.33      --
+Vlan206            down     down     10.49.2.41      --
+Vlan207            down     down     10.49.2.49      --
+Vlan208            down     down     10.49.2.57      --
+Vlan209            down     down     10.49.2.65      --
+Vlan210            down     down     10.49.2.73      --
+Vlan211            down     down     10.49.2.81      --
+Vlan212            down     down     10.49.2.89      --
+Vlan213            down     down     10.49.2.97      --
+Vlan214            down     down     10.49.2.105     --
+  ---- More ----=1B[16D                =1B[16DVlan215            down    =
+ down     10.49.2.113     --
+  ---- More ----=1B[16D                =1B[16DVlan216            down    =
+ down     10.49.2.121     --
+  ---- More ----=1B[16D                =1B[16DVlan217            down    =
+ down     10.49.2.129     --
+  ---- More ----=1B[16D                =1B[16DVlan301            down    =
+ down     10.49.3.1       --
+  ---- More ----=1B[16D                =1B[16DVlan302            down    =
+ down     10.49.3.9       --
+  ---- More ----=1B[16D                =1B[16DVlan303            down    =
+ down     10.49.3.17      --
+  ---- More ----=1B[16D                =1B[16DVlan304            down    =
+ down     10.49.3.25      --
+  ---- More ----=1B[16D                =1B[16D
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis ip int btr
+                   ^
+ % Wrong parameter found at '^' position.
+[BB_IBB]dis ip int btr=07=07=07
+                   ^
+ % Wrong parameter found at '^' position.
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis ip int bt=09
+[BB_IBB]dis ip int bt
+                   ^
+ % Wrong parameter found at '^' position.
+[BB_IBB]=07dis ip int bt=07=07=07
+                   ^
+ % Wrong parameter found at '^' position.
+[BB_IBB]dis ip int b
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface          Physical Protocol IP Address      Description
+GE1/0/28           up       up       10.49.0.26      ##TO_L4#1 ##
+GE2/0/28           up       up       10.49.0.30      ##TO_L4#2 ##
+M-GE0/0/0          *down    down     --              --
+RAGG1              up       up       10.49.0.21      --
+RAGG2              down     down     10.49.0.9       ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/20          down     down     --              --
+XGE1/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE1/0/22          down     down     --              --
+XGE2/0/20          up       down     --              --
+XGE2/0/21          down     down     --              ### DR - =
+=BA=CF=BA=CE ###
+XGE2/0/22          down     down     --              --
+Vlan50             up       up       10.49.0.17      ### To-=BA=CF=BA=CE =
+=C0=FC=BF=EB=C8=B8=BC=B1 L3 ...
+Vlan70             down     down     10.49.100.254   ### To - =
+=BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1...
+Vlan101            down     down     10.49.1.1       --
+Vlan102            down     down     10.49.1.9       --
+Vlan103            down     down     10.49.1.17      --
+Vlan104            down     down     10.49.1.25      --
+Vlan105            down     down     10.49.1.33      --
+Vlan106            down     down     10.49.1.41      --
+Vlan107            down     down     10.49.1.49      --
+Vlan108            down     down     10.49.1.57      --
+Vlan109            down     down     10.49.1.65      --
+  ---- More ----=1B[16D                =1B[16DVlan110            down    =
+ down     10.49.1.73      --
+Vlan111            down     down     10.49.1.81      --
+Vlan112            down     down     10.49.1.89      --
+Vlan113            down     down     10.49.1.97      --
+Vlan114            down     down     10.49.1.105     --
+Vlan115            down     down     10.49.1.113     --
+Vlan116            down     down     10.49.1.121     --
+Vlan117            down     down     10.49.1.129     --
+Vlan200            up       up       10.49.0.1       ### To - INT L4 ###
+Vlan201            down     down     10.49.2.1       --
+Vlan202            down     down     10.49.2.9       --
+Vlan203            down     down     10.49.2.17      --
+Vlan204            down     down     10.49.2.25      --
+Vlan205            down     down     10.49.2.33      --
+Vlan206            down     down     10.49.2.41      --
+Vlan207            down     down     10.49.2.49      --
+Vlan208            down     down     10.49.2.57      --
+Vlan209            down     down     10.49.2.65      --
+Vlan210            down     down     10.49.2.73      --
+Vlan211            down     down     10.49.2.81      --
+Vlan212            down     down     10.49.2.89      --
+Vlan213            down     down     10.49.2.97      --
+Vlan214            down     down     10.49.2.105     --
+  ---- More ----=1B[16D                =1B[16DVlan215            down    =
+ down     10.49.2.113     --
+Vlan216            down     down     10.49.2.121     --
+Vlan217            down     down     10.49.2.129     --
+Vlan301            down     down     10.49.3.1       --
+Vlan302            down     down     10.49.3.9       --
+Vlan303            down     down     10.49.3.17      --
+Vlan304            down     down     10.49.3.25      --
+Vlan305            down     down     10.49.3.33      --
+Vlan306            down     down     10.49.3.41      --
+Vlan307            down     down     10.49.3.49      --
+Vlan308            down     down     10.49.3.57      --
+Vlan309            down     down     10.49.3.65      --
+Vlan310            down     down     10.49.3.73      --
+Vlan311            down     down     10.49.3.81      --
+Vlan312            down     down     10.49.3.89      --
+Vlan313            down     down     10.49.3.97      --
+Vlan314            down     down     10.49.3.105     --
+Vlan315            down     down     10.49.3.113     --
+Vlan316            down     down     10.49.3.121     --
+Vlan317            down     down     10.49.3.129     --
+Vlan401            down     down     10.49.4.1       --
+Vlan402            down     down     10.49.4.9       --
+Vlan403            down     down     10.49.4.17      --
+  ---- More ----=1B[16D                =1B[16DVlan404            down    =
+ down     10.49.4.25      --
+Vlan405            down     down     10.49.4.33      --
+Vlan406            down     down     10.49.4.41      --
+Vlan407            down     down     10.49.4.49      --
+Vlan408            down     down     10.49.4.57      --
+Vlan409            down     down     10.49.4.65      --
+Vlan410            down     down     10.49.4.73      --
+Vlan411            down     down     10.49.4.81      --
+Vlan412            down     down     10.49.4.89      --
+Vlan413            down     down     10.49.4.97      --
+Vlan414            down     down     10.49.4.105     --
+Vlan415            down     down     10.49.4.113     --
+Vlan416            down     down     10.49.4.121     --
+Vlan417            down     down     10.49.4.129     --
+Vlan501            down     down     10.49.5.1       --
+Vlan502            down     down     10.49.5.9       --
+Vlan503            down     down     10.49.5.17      --
+Vlan504            down     down     10.49.5.25      --
+Vlan505            down     down     10.49.5.33      --
+Vlan506            down     down     10.49.5.41      --
+Vlan507            down     down     10.49.5.49      --
+Vlan508            down     down     10.49.5.57      --
+Vlan509            down     down     10.49.5.65      --
+  ---- More ----=1B[16D                =1B[16DVlan510            down    =
+ down     10.49.5.73      --
+Vlan511            down     down     10.49.5.81      --
+Vlan512            down     down     10.49.5.89      --
+Vlan513            down     down     10.49.5.97      --
+Vlan514            down     down     10.49.5.105     --
+Vlan515            down     down     10.49.5.113     --
+Vlan516            down     down     10.49.5.121     --
+Vlan517            down     down     10.49.5.129     --
+Vlan601            down     down     10.49.6.1       --
+Vlan602            down     down     10.49.6.9       --
+Vlan603            down     down     10.49.6.17      --
+Vlan604            down     down     10.49.6.25      --
+Vlan605            down     down     10.49.6.33      --
+Vlan606            down     down     10.49.6.41      --
+Vlan607            down     down     10.49.6.49      --
+Vlan608            down     down     10.49.6.57      --
+Vlan609            down     down     10.49.6.65      --
+Vlan610            down     down     10.49.6.73      --
+Vlan611            down     down     10.49.6.81      --
+Vlan612            down     down     10.49.6.89      --
+Vlan613            down     down     10.49.6.97      --
+Vlan614            down     down     10.49.6.105     --
+Vlan615            down     down     10.49.6.113     --
+  ---- More ----=1B[16D                =1B[16DVlan616            down    =
+ down     10.49.6.121     --
+Vlan617            down     down     10.49.6.129     --
+Vlan701            down     down     10.49.7.1       --
+Vlan702            down     down     10.49.7.9       --
+Vlan703            down     down     10.49.7.17      --
+Vlan704            down     down     10.49.7.25      --
+Vlan705            down     down     10.49.7.33      --
+Vlan706            down     down     10.49.7.41      --
+Vlan707            down     down     10.49.7.49      --
+Vlan708            down     down     10.49.7.57      --
+Vlan709            down     down     10.49.7.65      --
+Vlan710            down     down     10.49.7.73      --
+Vlan711            down     down     10.49.7.81      --
+Vlan712            down     down     10.49.7.89      --
+Vlan713            down     down     10.49.7.97      --
+Vlan714            down     down     10.49.7.105     --
+Vlan715            down     down     10.49.7.113     --
+Vlan716            down     down     10.49.7.121     --
+Vlan717            down     down     10.49.7.129     --
+[BB_IBB] =20
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis ver=09
+[BB_IBB]dis version
+HPE Comware Platform Software
+Comware Software, Version 5.20.105, Release 1810P06
+Copyright (c) 2010-2016 Hewlett Packard Enterprise Development LP
+HPE 5820X-24XG-SFP+ Switch uptime is 2 weeks, 3 days, 6 hours, 4 minutes
+
+HPE 5820X-24XG-SFP+ Switch with 2 Processors
+1792M   bytes SDRAM
+4M      bytes Nor Flash Memory
+512M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is Ver.C
+CPLDA Version is 002, CPLDB Version is 003
+BootRom Version is 303
+[SubSlot 0] 24SFP Plus+4GE Hardware Version is Ver.C
+
+[BB_IBB]=20
+[BB_IBB]
+[BB_IBB]dis ru=09
+[BB_IBB]dis ru
+            ^
+ % Unrecognized command found at '^' position.
+[BB_IBB]hd=07=07=07=07=07=07dis =07=07=07=07=07=07=07
+        ^
+ % Unrecognized command found at '^' position.
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]dis cur=09
+[BB_IBB]dis current-configuration=20
+#
+ version 5.20.105, Release 1810P06
+#
+ sysname BB_IBB
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 32
+ irf member 2 priority 16
+#
+ domain default enable system
+#
+ ip ttl-expires enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 10
+#
+vlan 20
+#
+  ---- More ----=1B[16D                =1B[16Dvlan 30
+#
+vlan 50
+#
+vlan 70
+#
+vlan 101 to 120
+#
+vlan 200
+ description ### To- =BA=CF=BA=CE INT L4 ###
+#
+vlan 201 to 217
+#
+vlan 301 to 317
+#
+vlan 401 to 417
+#
+vlan 501 to 517
+#
+vlan 601 to 617
+#
+vlan 701 to 717
+#
+  ---- More ----=1B[16D                =1B[16Dvlan 2000
+#
+domain system
+ access-limit disable
+ state active
+ idle-cut disable
+ self-service-url disable
+#
+user-group system
+ group-attribute allow-guest
+#
+stp region-configuration
+ region-name d894030d37e2
+ active region-configuration
+#
+ stp enable
+#
+cwmp
+ undo cwmp enable
+#
+interface Bridge-Aggregation1
+ description ### To - =BA=CF=BA=CE INT L4#1 ###
+ port access vlan 200
+  ---- More ----=1B[16D                =1B[16D#
+interface Bridge-Aggregation2
+ description ### To - =BA=CF=BA=CE INT L4#2 ###
+ port access vlan 200
+#
+interface Bridge-Aggregation3
+ description ### To- =C0=FC=BF=EB=C8=BA=BC=B1L3 ###
+#
+interface Bridge-Aggregation11
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#1 ###
+ port link-type trunk
+ port trunk permit vlan 1 101 to 117
+#
+interface Bridge-Aggregation12
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#2 ###
+ port link-type trunk
+ port trunk permit vlan 1 201 to 217
+#
+interface Bridge-Aggregation13
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#3 ###
+ port link-type trunk
+ port trunk permit vlan 1 301 to 317
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Bridge-Aggregation14
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#4 ###
+ port link-type trunk
+ port trunk permit vlan 1 401 to 417
+#
+interface Bridge-Aggregation15
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#5 ###
+ port link-type trunk
+ port trunk permit vlan 1 501 to 517
+#
+interface Bridge-Aggregation16
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#6 ###
+ port link-type trunk
+ port trunk permit vlan 1 601 to 617
+#
+interface Bridge-Aggregation17
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#7 ###
+ port link-type trunk
+ port trunk permit vlan 1 701 to 717
+#
+interface Bridge-Aggregation50
+ description ### To-=C0=FC=BF=EB=C8=B8=BC=B1L3 ###
+ port access vlan 50
+  ---- More ----=1B[16D                =1B[16D#
+interface Bridge-Aggregation70
+ description ### =BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1 ###
+ port access vlan 70
+#
+interface Route-Aggregation1
+ ip address 10.49.0.21 255.255.255.252
+#
+interface Route-Aggregation2
+ description ### DR - =BA=CF=BA=CE ###
+ ip address 10.49.0.9 255.255.255.252
+#
+interface NULL0
+#
+interface Vlan-interface50
+ description ### To-=BA=CF=BA=CE =C0=FC=BF=EB=C8=B8=BC=B1 L3 =
+=BD=BA=C0=A7=C4=A1###
+ ip address 10.49.0.17 255.255.255.252
+#
+interface Vlan-interface70
+ description ### To - =BC=AD=B9=F6=B8=C1L3 =BD=BA=C0=A7=C4=A1 ###
+ ip address 10.49.100.254 255.255.255.0
+#
+interface Vlan-interface101
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.1.1 =
+255.255.255.248
+#
+interface Vlan-interface102
+ ip address 10.49.1.9 255.255.255.248
+#
+interface Vlan-interface103
+ ip address 10.49.1.17 255.255.255.248
+#
+interface Vlan-interface104
+ ip address 10.49.1.25 255.255.255.248
+#
+interface Vlan-interface105
+ ip address 10.49.1.33 255.255.255.248
+#
+interface Vlan-interface106
+ ip address 10.49.1.41 255.255.255.248
+#
+interface Vlan-interface107
+ ip address 10.49.1.49 255.255.255.248
+#
+interface Vlan-interface108
+ ip address 10.49.1.57 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface109
+ ip address 10.49.1.65 255.255.255.248
+#
+interface Vlan-interface110
+ ip address 10.49.1.73 255.255.255.248
+#
+interface Vlan-interface111
+ ip address 10.49.1.81 255.255.255.248
+#
+interface Vlan-interface112
+ ip address 10.49.1.89 255.255.255.248
+#
+interface Vlan-interface113
+ ip address 10.49.1.97 255.255.255.248
+#
+interface Vlan-interface114
+ ip address 10.49.1.105 255.255.255.248
+#
+interface Vlan-interface115
+ ip address 10.49.1.113 255.255.255.248
+#
+interface Vlan-interface116
+ ip address 10.49.1.121 255.255.255.248
+  ---- More ----=1B[16D                =1B[16D#
+interface Vlan-interface117
+ ip address 10.49.1.129 255.255.255.248
+#
+interface Vlan-interface200
+ description ### To - INT L4 ###
+ ip address 10.49.0.1 255.255.255.240
+#
+interface Vlan-interface201
+ ip address 10.49.2.1 255.255.255.248
+#
+interface Vlan-interface202
+ ip address 10.49.2.9 255.255.255.248
+#
+interface Vlan-interface203
+ ip address 10.49.2.17 255.255.255.248
+#
+interface Vlan-interface204
+ ip address 10.49.2.25 255.255.255.248
+#
+interface Vlan-interface205
+ ip address 10.49.2.33 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface206
+ ip address 10.49.2.41 255.255.255.248
+#
+interface Vlan-interface207
+ ip address 10.49.2.49 255.255.255.248
+#
+interface Vlan-interface208
+ ip address 10.49.2.57 255.255.255.248
+#
+interface Vlan-interface209
+ ip address 10.49.2.65 255.255.255.248
+#
+interface Vlan-interface210
+ ip address 10.49.2.73 255.255.255.248
+#
+interface Vlan-interface211
+ ip address 10.49.2.81 255.255.255.248
+#
+interface Vlan-interface212
+ ip address 10.49.2.89 255.255.255.248
+#
+interface Vlan-interface213
+ ip address 10.49.2.97 255.255.255.248
+  ---- More ----=1B[16D                =1B[16D#
+interface Vlan-interface214
+ ip address 10.49.2.105 255.255.255.248
+#
+interface Vlan-interface215
+ ip address 10.49.2.113 255.255.255.248
+#
+interface Vlan-interface216
+ ip address 10.49.2.121 255.255.255.248
+#
+interface Vlan-interface217
+ ip address 10.49.2.129 255.255.255.248
+#
+interface Vlan-interface301
+ ip address 10.49.3.1 255.255.255.248
+#
+interface Vlan-interface302
+ ip address 10.49.3.9 255.255.255.248
+#
+interface Vlan-interface303
+ ip address 10.49.3.17 255.255.255.248
+#
+interface Vlan-interface304
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.3.25 =
+255.255.255.248
+#
+interface Vlan-interface305
+ ip address 10.49.3.33 255.255.255.248
+#
+interface Vlan-interface306
+ ip address 10.49.3.41 255.255.255.248
+#
+interface Vlan-interface307
+ ip address 10.49.3.49 255.255.255.248
+#
+interface Vlan-interface308
+ ip address 10.49.3.57 255.255.255.248
+#
+interface Vlan-interface309
+ ip address 10.49.3.65 255.255.255.248
+#
+interface Vlan-interface310
+ ip address 10.49.3.73 255.255.255.248
+#
+interface Vlan-interface311
+ ip address 10.49.3.81 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface312
+ ip address 10.49.3.89 255.255.255.248
+#
+interface Vlan-interface313
+ ip address 10.49.3.97 255.255.255.248
+#
+interface Vlan-interface314
+ ip address 10.49.3.105 255.255.255.248
+#
+interface Vlan-interface315
+ ip address 10.49.3.113 255.255.255.248
+#
+interface Vlan-interface316
+ ip address 10.49.3.121 255.255.255.248
+#
+interface Vlan-interface317
+ ip address 10.49.3.129 255.255.255.248
+#
+interface Vlan-interface401
+ ip address 10.49.4.1 255.255.255.248
+#
+interface Vlan-interface402
+ ip address 10.49.4.9 255.255.255.248
+  ---- More ----=1B[16D                =1B[16D#
+interface Vlan-interface403
+ ip address 10.49.4.17 255.255.255.248
+#
+interface Vlan-interface404
+ ip address 10.49.4.25 255.255.255.248
+#
+interface Vlan-interface405
+ ip address 10.49.4.33 255.255.255.248
+#
+interface Vlan-interface406
+ ip address 10.49.4.41 255.255.255.248
+#
+interface Vlan-interface407
+ ip address 10.49.4.49 255.255.255.248
+#
+interface Vlan-interface408
+ ip address 10.49.4.57 255.255.255.248
+#
+interface Vlan-interface409
+ ip address 10.49.4.65 255.255.255.248
+#
+interface Vlan-interface410
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.4.73 =
+255.255.255.248
+#
+interface Vlan-interface411
+ ip address 10.49.4.81 255.255.255.248
+#
+interface Vlan-interface412
+ ip address 10.49.4.89 255.255.255.248
+#
+interface Vlan-interface413
+ ip address 10.49.4.97 255.255.255.248
+#
+interface Vlan-interface414
+ ip address 10.49.4.105 255.255.255.248
+#
+interface Vlan-interface415
+ ip address 10.49.4.113 255.255.255.248
+#
+interface Vlan-interface416
+ ip address 10.49.4.121 255.255.255.248
+#
+interface Vlan-interface417
+ ip address 10.49.4.129 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface501
+ ip address 10.49.5.1 255.255.255.248
+#
+interface Vlan-interface502
+ ip address 10.49.5.9 255.255.255.248
+#
+interface Vlan-interface503
+ ip address 10.49.5.17 255.255.255.248
+#
+interface Vlan-interface504
+ ip address 10.49.5.25 255.255.255.248
+#
+interface Vlan-interface505
+ ip address 10.49.5.33 255.255.255.248
+#
+interface Vlan-interface506
+ ip address 10.49.5.41 255.255.255.248
+#
+interface Vlan-interface507
+ ip address 10.49.5.49 255.255.255.248
+#
+interface Vlan-interface508
+ ip address 10.49.5.57 255.255.255.248
+  ---- More ----=1B[16D                =1B[16D#
+interface Vlan-interface509
+ ip address 10.49.5.65 255.255.255.248
+#
+interface Vlan-interface510
+ ip address 10.49.5.73 255.255.255.248
+#
+interface Vlan-interface511
+ ip address 10.49.5.81 255.255.255.248
+#
+interface Vlan-interface512
+ ip address 10.49.5.89 255.255.255.248
+#
+interface Vlan-interface513
+ ip address 10.49.5.97 255.255.255.248
+#
+interface Vlan-interface514
+ ip address 10.49.5.105 255.255.255.248
+#
+interface Vlan-interface515
+ ip address 10.49.5.113 255.255.255.248
+#
+interface Vlan-interface516
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.5.121 =
+255.255.255.248
+#
+interface Vlan-interface517
+ ip address 10.49.5.129 255.255.255.248
+#
+interface Vlan-interface601
+ ip address 10.49.6.1 255.255.255.248
+#
+interface Vlan-interface602
+ ip address 10.49.6.9 255.255.255.248
+#
+interface Vlan-interface603
+ ip address 10.49.6.17 255.255.255.248
+#
+interface Vlan-interface604
+ ip address 10.49.6.25 255.255.255.248
+#
+interface Vlan-interface605
+ ip address 10.49.6.33 255.255.255.248
+#
+interface Vlan-interface606
+ ip address 10.49.6.41 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface607
+ ip address 10.49.6.49 255.255.255.248
+#
+interface Vlan-interface608
+ ip address 10.49.6.57 255.255.255.248
+#
+interface Vlan-interface609
+ ip address 10.49.6.65 255.255.255.248
+#
+interface Vlan-interface610
+ ip address 10.49.6.73 255.255.255.248
+#
+interface Vlan-interface611
+ ip address 10.49.6.81 255.255.255.248
+#
+interface Vlan-interface612
+ ip address 10.49.6.89 255.255.255.248
+#
+interface Vlan-interface613
+ ip address 10.49.6.97 255.255.255.248
+#
+interface Vlan-interface614
+ ip address 10.49.6.105 255.255.255.248
+  ---- More ----=1B[16D                =1B[16D#
+interface Vlan-interface615
+ ip address 10.49.6.113 255.255.255.248
+#
+interface Vlan-interface616
+ ip address 10.49.6.121 255.255.255.248
+#
+interface Vlan-interface617
+ ip address 10.49.6.129 255.255.255.248
+#
+interface Vlan-interface701
+ ip address 10.49.7.1 255.255.255.248
+#
+interface Vlan-interface702
+ ip address 10.49.7.9 255.255.255.248
+#
+interface Vlan-interface703
+ ip address 10.49.7.17 255.255.255.248
+#
+interface Vlan-interface704
+ ip address 10.49.7.25 255.255.255.248
+#
+interface Vlan-interface705
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.7.33 =
+255.255.255.248
+#
+interface Vlan-interface706
+ ip address 10.49.7.41 255.255.255.248
+#
+interface Vlan-interface707
+ ip address 10.49.7.49 255.255.255.248
+#
+interface Vlan-interface708
+ ip address 10.49.7.57 255.255.255.248
+#
+interface Vlan-interface709
+ ip address 10.49.7.65 255.255.255.248
+#
+interface Vlan-interface710
+ ip address 10.49.7.73 255.255.255.248
+#
+interface Vlan-interface711
+ ip address 10.49.7.81 255.255.255.248
+#
+interface Vlan-interface712
+ ip address 10.49.7.89 255.255.255.248
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Vlan-interface713
+ ip address 10.49.7.97 255.255.255.248
+#
+interface Vlan-interface714
+ ip address 10.49.7.105 255.255.255.248
+#
+interface Vlan-interface715
+ ip address 10.49.7.113 255.255.255.248
+#
+interface Vlan-interface716
+ ip address 10.49.7.121 255.255.255.248
+#
+interface Vlan-interface717
+ ip address 10.49.7.129 255.255.255.248
+#
+interface GigabitEthernet1/0/28
+ port link-mode route
+ description ##TO_L4#1 ##
+ ip address 10.49.0.26 255.255.255.252
+#
+interface GigabitEthernet2/0/28
+ port link-mode route
+ description ##TO_L4#2 ##
+  ---- More ----=1B[16D                =1B[16D ip address 10.49.0.30 =
+255.255.255.252
+#
+interface GigabitEthernet1/0/25
+ port link-mode bridge
+ description ### To-=C0=FC=BF=EB=C8=B8=BC=B1L3 ###
+ port access vlan 50
+ port link-aggregation group 50
+#
+interface GigabitEthernet1/0/26
+ port link-mode bridge
+ port access vlan 201
+#
+interface GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface GigabitEthernet2/0/25
+ port link-mode bridge
+ description ### To-=C0=FC=BF=EB=C8=B8=BC=B1L3 ###
+ port access vlan 50
+ port link-aggregation group 50
+#
+interface GigabitEthernet2/0/26
+ port link-mode bridge
+  ---- More ----=1B[16D                =1B[16D#
+interface GigabitEthernet2/0/27
+ port link-mode bridge
+#
+interface M-GigabitEthernet0/0/0
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/20
+ port link-mode route
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/21
+ port link-mode route
+ description ### DR - =BA=CF=BA=CE ###
+#
+interface Ten-GigabitEthernet1/0/22
+ port link-mode route
+ port link-aggregation group 2
+#
+interface Ten-GigabitEthernet2/0/20
+ port link-mode route
+ port link-aggregation group 1
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Ten-GigabitEthernet2/0/21
+ port link-mode route
+ description ### DR - =BA=CF=BA=CE ###
+#
+interface Ten-GigabitEthernet2/0/22
+ port link-mode route
+ port link-aggregation group 2
+#
+interface Ten-GigabitEthernet1/0/1
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/2
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/3
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+  ---- More ----=1B[16D                =1B[16D port access vlan 200
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/4
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/5
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#1 ###
+ port link-type trunk
+ port trunk permit vlan 1 101 to 117
+ port link-aggregation group 11
+#
+interface Ten-GigabitEthernet1/0/6
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#2 ###
+ port link-type trunk
+ port trunk permit vlan 1 201 to 217
+ port link-aggregation group 12
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Ten-GigabitEthernet1/0/7
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#3 ###
+ port link-type trunk
+ port trunk permit vlan 1 301 to 317
+ port link-aggregation group 13
+#
+interface Ten-GigabitEthernet1/0/8
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#4 ###
+ port link-type trunk
+ port trunk permit vlan 1 401 to 417
+ port link-aggregation group 14
+#
+interface Ten-GigabitEthernet1/0/9
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#5 ###
+ port link-type trunk
+ port trunk permit vlan 1 501 to 517
+ port link-aggregation group 15
+#
+interface Ten-GigabitEthernet1/0/10
+ port link-mode bridge
+  ---- More ----=1B[16D                =1B[16D description ### =
+=BA=CF=BA=CE=B1=B9=BB=E7#6 ###
+ port link-type trunk
+ port trunk permit vlan 1 601 to 617
+ port link-aggregation group 16
+#
+interface Ten-GigabitEthernet1/0/11
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#7 ###
+ port link-type trunk
+ port trunk permit vlan 1 701 to 717
+ port link-aggregation group 17
+#
+interface Ten-GigabitEthernet1/0/12
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet1/0/13
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet1/0/14
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+  ---- More ----=1B[16D                =1B[16D#
+interface Ten-GigabitEthernet1/0/15
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/18
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet2/0/1
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 2
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Ten-GigabitEthernet2/0/2
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 2
+#
+interface Ten-GigabitEthernet2/0/3
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 2
+#
+interface Ten-GigabitEthernet2/0/4
+ port link-mode bridge
+ description ### To - =BA=CF=BA=CEINT L4 ###
+ port access vlan 200
+ port link-aggregation group 2
+#
+interface Ten-GigabitEthernet2/0/5
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#1 ###
+ port link-type trunk
+ port trunk permit vlan 1 101 to 117
+  ---- More ----=1B[16D                =1B[16D port link-aggregation =
+group 11
+#
+interface Ten-GigabitEthernet2/0/6
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#2 ###
+ port link-type trunk
+ port trunk permit vlan 1 201 to 217
+ port link-aggregation group 12
+#
+interface Ten-GigabitEthernet2/0/7
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#3 ###
+ port link-type trunk
+ port trunk permit vlan 1 301 to 317
+ port link-aggregation group 13
+#
+interface Ten-GigabitEthernet2/0/8
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#4 ###
+ port link-type trunk
+ port trunk permit vlan 1 401 to 417
+ port link-aggregation group 14
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Ten-GigabitEthernet2/0/9
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#5 ###
+ port link-type trunk
+ port trunk permit vlan 1 501 to 517
+ port link-aggregation group 15
+#
+interface Ten-GigabitEthernet2/0/10
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#6 ###
+ port link-type trunk
+ port trunk permit vlan 1 601 to 617
+ port link-aggregation group 16
+#
+interface Ten-GigabitEthernet2/0/11
+ port link-mode bridge
+ description ### =BA=CF=BA=CE=B1=B9=BB=E7#7 ###
+ port link-type trunk
+ port trunk permit vlan 1 701 to 717
+ port link-aggregation group 17
+#
+interface Ten-GigabitEthernet2/0/12
+ port link-mode bridge
+  ---- More ----=1B[16D                =1B[16D description ## =
+To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet2/0/13
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet2/0/14
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet2/0/15
+ port link-mode bridge
+ description ## To-=B1=B9=BB=E7-HP5130  ##
+#
+interface Ten-GigabitEthernet2/0/16
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet2/0/17
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet2/0/18
+ port link-mode bridge
+#
+  ---- More ----=1B[16D                =1B[16Dinterface =
+Ten-GigabitEthernet2/0/19
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/23
+#
+interface Ten-GigabitEthernet1/0/24
+#
+interface Ten-GigabitEthernet2/0/23
+#
+interface Ten-GigabitEthernet2/0/24
+#
+ ip route-static 0.0.0.0 0.0.0.0 10.49.0.5
+ ip route-static 1.231.2.0 255.255.254.0 10.49.0.25
+ ip route-static 1.231.2.0 255.255.254.0 10.49.0.29
+ ip route-static 1.231.4.0 255.255.255.0 10.49.0.25
+ ip route-static 1.231.4.0 255.255.255.0 10.49.0.29
+ ip route-static 1.231.12.0 255.255.255.0 10.49.0.25
+ ip route-static 1.231.12.0 255.255.255.0 10.49.0.29
+ ip route-static 1.231.13.16 255.255.255.248 10.49.0.25
+ ip route-static 1.231.13.16 255.255.255.248 10.49.0.29
+ ip route-static 1.231.13.24 255.255.255.248 10.49.0.25
+ ip route-static 1.231.13.24 255.255.255.248 10.49.0.29
+ ip route-static 1.231.13.68 255.255.255.252 10.49.0.25
+  ---- More ----=1B[16D                =1B[16D ip route-static =
+1.231.13.68 255.255.255.252 10.49.0.29
+ ip route-static 1.231.13.76 255.255.255.252 10.49.0.25
+ ip route-static 1.231.13.76 255.255.255.252 10.49.0.29
+ ip route-static 1.231.13.84 255.255.255.252 10.49.0.25
+ ip route-static 1.231.13.84 255.255.255.252 10.49.0.29
+ ip route-static 1.231.13.96 255.255.255.240 10.49.0.22
+ ip route-static 1.231.13.128 255.255.255.128 10.49.0.18
+ ip route-static 1.231.13.129 255.255.255.255 10.49.0.25
+ ip route-static 1.231.13.129 255.255.255.255 10.49.0.29
+ ip route-static 1.231.13.148 255.255.255.252 10.49.0.25
+ ip route-static 1.231.13.148 255.255.255.252 10.49.0.29
+ ip route-static 1.231.13.192 255.255.255.192 10.49.0.25
+ ip route-static 1.231.13.192 255.255.255.192 10.49.0.29
+ ip route-static 10.37.1.24 255.255.255.255 10.49.0.25
+ ip route-static 10.37.1.24 255.255.255.255 10.49.0.29
+ ip route-static 10.41.0.0 255.255.192.0 10.49.0.25
+ ip route-static 10.41.0.0 255.255.192.0 10.49.0.29
+ ip route-static 10.41.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.41.64.0 255.255.192.0 10.49.0.20
+ ip route-static 10.41.128.0 255.255.192.0 10.49.0.25
+ ip route-static 10.41.128.0 255.255.192.0 10.49.0.29
+ ip route-static 10.42.0.0 255.255.192.0 10.49.0.25
+ ip route-static 10.42.0.0 255.255.192.0 10.49.0.29
+  ---- More ----=1B[16D                =1B[16D ip route-static =
+10.42.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.42.64.0 255.255.192.0 10.49.0.29
+ ip route-static 10.42.124.0 255.255.252.0 10.49.0.25
+ ip route-static 10.42.124.0 255.255.252.0 10.49.0.29
+ ip route-static 10.42.128.0 255.255.192.0 10.49.0.25
+ ip route-static 10.42.128.0 255.255.192.0 10.49.0.29
+ ip route-static 10.43.0.0 255.255.192.0 10.49.0.25
+ ip route-static 10.43.0.0 255.255.192.0 10.49.0.29
+ ip route-static 10.43.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.43.64.0 255.255.192.0 10.49.0.29
+ ip route-static 10.43.128.0 255.255.192.0 10.49.0.25
+ ip route-static 10.43.128.0 255.255.192.0 10.49.0.29
+ ip route-static 10.44.0.0 255.255.192.0 10.49.0.25
+ ip route-static 10.44.0.0 255.255.192.0 10.49.0.29
+ ip route-static 10.44.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.44.64.0 255.255.192.0 10.49.0.29
+ ip route-static 10.44.128.0 255.255.192.0 10.49.0.25
+ ip route-static 10.44.128.0 255.255.192.0 10.49.0.29
+ ip route-static 10.44.192.0 255.255.248.0 10.49.0.25
+ ip route-static 10.44.192.0 255.255.248.0 10.49.0.29
+ ip route-static 10.44.200.0 255.255.254.0 10.49.0.25
+ ip route-static 10.44.200.0 255.255.254.0 10.49.0.29
+ ip route-static 10.45.0.0 255.255.192.0 10.49.0.25
+  ---- More ----=1B[16D                =1B[16D ip route-static 10.45.0.0 =
+255.255.192.0 10.49.0.29
+ ip route-static 10.45.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.45.64.0 255.255.192.0 10.49.0.29
+ ip route-static 10.45.128.0 255.255.192.0 10.49.0.25
+ ip route-static 10.45.128.0 255.255.192.0 10.49.0.29
+ ip route-static 10.46.0.0 255.255.224.0 10.49.0.25
+ ip route-static 10.46.0.0 255.255.224.0 10.49.0.29
+ ip route-static 10.46.32.0 255.255.240.0 10.49.0.25
+ ip route-static 10.46.32.0 255.255.240.0 10.49.0.29
+ ip route-static 10.46.48.0 255.255.240.0 10.49.0.25
+ ip route-static 10.46.48.0 255.255.240.0 10.49.0.29
+ ip route-static 10.46.64.0 255.255.192.0 10.49.0.25
+ ip route-static 10.46.64.0 255.255.192.0 10.49.0.29
+ ip route-static 10.46.128.0 255.255.224.0 10.49.0.25
+ ip route-static 10.46.128.0 255.255.224.0 10.49.0.29
+ ip route-static 10.46.160.0 255.255.248.0 10.49.0.25
+ ip route-static 10.46.160.0 255.255.248.0 10.49.0.29
+ ip route-static 10.47.1.0 255.255.255.0 10.49.0.18
+ ip route-static 10.47.2.0 255.255.255.0 10.49.0.18
+ ip route-static 10.47.100.0 255.255.255.0 10.49.0.22
+ ip route-static 10.48.1.0 255.255.255.0 10.49.0.18
+ ip route-static 10.48.2.0 255.255.255.0 10.49.0.18
+ ip route-static 14.38.32.0 255.255.240.0 10.49.0.25
+  ---- More ----=1B[16D                =1B[16D ip route-static =
+14.38.32.0 255.255.240.0 10.49.0.29
+ ip route-static 14.38.48.0 255.255.254.0 10.49.0.25
+ ip route-static 14.38.48.0 255.255.254.0 10.49.0.29
+ ip route-static 58.29.2.0 255.255.255.0 10.49.0.25
+ ip route-static 58.29.2.0 255.255.255.0 10.49.0.29
+ ip route-static 58.29.32.0 255.255.252.0 10.49.0.25
+ ip route-static 58.29.32.0 255.255.252.0 10.49.0.29
+ ip route-static 58.29.36.0 255.255.255.0 10.49.0.25
+ ip route-static 58.29.36.0 255.255.255.0 10.49.0.29
+ ip route-static 58.29.38.0 255.255.255.0 10.49.0.25
+ ip route-static 58.29.38.0 255.255.255.0 10.49.0.29
+ ip route-static 58.29.39.129 255.255.255.255 10.49.0.25
+ ip route-static 58.29.39.129 255.255.255.255 10.49.0.29
+ ip route-static 112.77.150.0 255.255.254.0 10.49.0.25
+ ip route-static 112.77.150.0 255.255.254.0 10.49.0.29
+ ip route-static 124.3.46.0 255.255.255.0 10.49.0.25
+ ip route-static 124.3.46.0 255.255.255.0 10.49.0.29
+ ip route-static 125.240.192.0 255.255.224.0 10.49.0.25
+ ip route-static 125.240.192.0 255.255.224.0 10.49.0.29
+ ip route-static 125.241.96.0 255.255.240.0 10.49.0.25
+ ip route-static 125.241.96.0 255.255.240.0 10.49.0.29
+ ip route-static 125.241.168.0 255.255.248.0 10.49.0.25
+ ip route-static 125.241.168.0 255.255.248.0 10.49.0.29
+  ---- More ----=1B[16D                =1B[16D ip route-static =
+180.82.10.0 255.255.254.0 10.49.0.25
+ ip route-static 180.82.10.0 255.255.254.0 10.49.0.29
+ ip route-static 180.82.12.0 255.255.255.0 10.49.0.25
+ ip route-static 180.82.12.0 255.255.255.0 10.49.0.29
+ ip route-static 192.168.110.0 255.255.255.0 10.49.0.25
+ ip route-static 192.168.110.0 255.255.255.0 10.49.0.29
+ ip route-static 192.168.121.9 255.255.255.255 10.49.0.25
+ ip route-static 192.168.121.9 255.255.255.255 10.49.0.29
+ ip route-static 192.168.200.0 255.255.255.0 10.49.0.25
+ ip route-static 192.168.200.0 255.255.255.0 10.49.0.29
+ ip route-static 202.171.249.0 255.255.255.0 10.49.0.25
+ ip route-static 202.171.249.0 255.255.255.0 10.49.0.29
+ ip route-static 202.171.251.70 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.70 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.71 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.71 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.72 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.72 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.73 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.73 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.74 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.75 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.75 255.255.255.255 10.49.0.29
+  ---- More ----=1B[16D                =1B[16D ip route-static =
+202.171.251.76 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.76 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.80 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.81 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.81 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.84 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.84 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.85 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.85 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.86 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.86 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.87 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.87 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.101 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.101 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.102 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.102 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.103 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.103 255.255.255.255 10.49.0.29
+ ip route-static 202.171.251.104 255.255.255.255 10.49.0.25
+ ip route-static 202.171.251.104 255.255.255.255 10.49.0.29
+#
+ load xml-configuration
+  ---- More ----=1B[16D                =1B[16D#
+ load tr069-configuration
+#
+user-interface aux 0 1
+user-interface vty 0 15
+#
+irf-port 1/1
+ port group interface Ten-GigabitEthernet1/0/23 mode enhanced
+ port group interface Ten-GigabitEthernet1/0/24 mode enhanced
+#
+irf-port 2/2
+ port group interface Ten-GigabitEthernet2/0/23 mode enhanced
+ port group interface Ten-GigabitEthernet2/0/24 mode enhanced
+#
+return
+[BB_IBB] =20
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+[BB_IBB]
+
+
+<KB_NL3>=0D
+<KB_NL3>=0D
+<KB_NL3>=0D
+<KB_NL3>%Jan 18 06:07:03:304 2013 KB_NL3 SHELL/5/SHELL_LOGIN: TTY logged =
+in from aux0.=0D
+=0D
+<KB_NL3>=0D
+<KB_NL3>=0D
+<KB_NL3>=0D
+<KB_NL3>
+------=_NextPart_000_003A_01D254D2.27392ED0--
+

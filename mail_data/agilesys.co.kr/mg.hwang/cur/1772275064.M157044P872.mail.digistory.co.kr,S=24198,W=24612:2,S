@@ -1,0 +1,414 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id +AZNCXjFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:44 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 2542514C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:44 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553215922108619140
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp48727wma;
+        Thu, 8 Dec 2016 22:12:20 -0800 (PST)
+X-Received: by 10.28.167.199 with SMTP id q190mr5434601wme.15.1481263939742;
+        Thu, 08 Dec 2016 22:12:19 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.28.44.66 with POP3 id s63mf198028407wms.0;
+        Thu, 08 Dec 2016 22:12:17 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 23063 invoked by uid 700); 9 Dec 2016 14:42:15 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	9 Dec 2016 14:42:15 +0900
+Received: (qmail 12661 invoked by uid 700); 9 Dec 2016 14:42:14 +0900
+Received: from unknown (HELO ?192.168.101.41?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	9 Dec 2016 14:42:14 +0900
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_4622C0B0-72E0-4DAE-9098-6B42FA1568BC"
+Mime-Version: 1.0 (Mac OS X Mail 10.1 \(3251\))
+Subject: =?utf-8?B?UmU6ICjso7wp7KeA64uI7YWNX+yalOyyrSDsnpDro4w=?=
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+In-Reply-To: <01a501d251de$22fd2250$68f766f0$@agilesys.co.kr>
+Date: Fri, 9 Dec 2016 14:42:13 +0900
+Cc: =?utf-8?B?6rmA7ISx7ZiB?= <ksh83@agilesys.co.kr>,
+ =?utf-8?B?67CV7JiB7LKg?= <yc.park@agilesys.co.kr>,
+ =?utf-8?B?7J206rK97ZmU?= <khlee123@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <B78DFD7F-BF68-4040-8C81-13A53B83BC64@agilesys.co.kr>
+References: <001d01d251dc$18d0d580$4a728080$@genietec.co.kr>
+ <01a501d251de$22fd2250$68f766f0$@agilesys.co.kr>
+To: =?utf-8?B?7J2065GQ7Je0?= <dylee@agilesys.co.kr>
+
+
+--Apple-Mail=_4622C0B0-72E0-4DAE-9098-6B42FA1568BC
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+=ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4.
+
+=EC=B2=A8=EB=B6=80=EB=90=9C =EB=8D=B0=EC=9D=B4=ED=84=B0=EC=8B=9C=ED=8A=B8 =
+=EB=AA=A8=EB=8D=B8=EC=9D=80 4024=EB=84=A4=EC=9A=94?
+
+4408=EC=9D=B4 =EC=95=84=EB=8B=8C 4024=EB=A1=9C =EB=8B=A4=EC=8B=9C =EA=B2=AC=
+=EC=A0=81 =EB=B0=9B=EC=9C=BC=EC=85=94=EC=95=BC =ED=95=A0=EB=93=AF=ED=95=A9=
+=EB=8B=88=EB=8B=A4.
+
+=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+
+----------------------------------------------------------------------
+=C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+ NI Team
+ =ED=99=A9 =EB=AF=BC=EA=B7=9C =EC=B0=A8=EC=9E=A5
+ Phone : 070-7114-0049
+ Cellular : 010-3191-0811
+=C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+----------------------------------------------------------------------
+
+> 2016. 12. 9. =EC=98=A4=ED=9B=84 2:36, Leeduyeol <dylee@agilesys.co.kr> =
+=EC=9E=91=EC=84=B1:
+>=20
+> =20
+> =20
+> ------------------------------------------------
+> =E3=88=9C=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4  =EC=8B=9C=EC=8A=A4=ED=85=9C=
+=EC=82=AC=EC=97=85=EB=B6=80  =EC=9D=B4=EB=91=90=EC=97=B4 =EC=B0=A8=EC=9E=A5=
+
+> TEL) 070-7114-0070 / M) 010-2443-9353
+> E-Mail) dylee@agilesys.co.kr <mailto:dylee@agilesys.co.kr>
+> =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =EB=B0=98=ED=8F=AC=
+=EB=8F=99 67-3 =EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A94=EC=B8=B5
+> -------------------------------------------------
+> =20
+> From: =EC=9C=A0=ED=98=B8=EC=9D=B5 [mailto:hiyoo@genietec.co.kr =
+<mailto:hiyoo@genietec.co.kr>]=20
+> Sent: Friday, December 09, 2016 2:21 PM
+> To: 'Leeduyeol'
+> Subject: (=EC=A3=BC)=EC=A7=80=EB=8B=88=ED=85=8D_=EC=9A=94=EC=B2=AD =
+=EC=9E=90=EB=A3=8C
+> =20
+> =EC=B2=A8=EB=B6=80=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=9A=94=EC=B2=AD =
+=EC=9E=90=EB=A3=8C =EB=B3=B4=EB=82=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4=
+.
+> =20
+> =20
+> =20
+> =20
+> =20
+> ----------------------------------------------------------------=20
+> <image002.jpg>
+> =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=A7=80=EB=8B=88=ED=85=8D=20
+> =EC=98=81=EC=97=85=ED=8C=80 / =EC=B0=A8=EC=9E=A5 =EC=9C=A0=ED=98=B8=EC=9D=
+=B5=20
+> Mobile : 010-3374-5953   E-mail : hiyoo@genietec.co.kr =
+<mailto:hiyoo@genietec.co.kr>
+> =20
+> [=EC=84=9C=EC=9A=B8=EC=A7=80=EC=82=AC]
+> =EC=84=9C=EC=9A=B8=ED=8A=B9=EB=B3=84=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC=
+ =EC=84=9C=EC=B4=883=EB=8F=99 1599-11 =EB=A6=AC=EB=8D=94=EC=8A=A4=EB=B9=8C=
+=EB=94=A9 1507=ED=98=B8
+> TEL   : 02-521-0071   FAX   : 02-521-0678
+> [=EB=B3=B8    =EC=82=AC]
+> =EC=A0=84=EB=9D=BC=EB=82=A8=EB=8F=84 =EB=82=98=EC=A3=BC=EC=8B=9C =
+=EC=83=81=EC=95=BC2=EA=B8=B8 7 B-512=ED=98=B8 (=EB=B9=9B=EA=B0=80=EB=9E=8C=
+=EB=8F=99, =EC=A4=91=ED=9D=A5S=ED=81=B4=EB=9E=98=EC=8A=A4=EB=A9=94=EA=B0=80=
+=ED=8B=B0=EC=9B=80 1=EC=B0=A8)
+> TEL   : 061-333-1770  FAX  : 061-333-1780
+> -----------------------------------------------------------------
+> =20
+> <DataSheet.zip>
+
+
+--Apple-Mail=_4622C0B0-72E0-4DAE-9098-6B42FA1568BC
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4.<div =
+class=3D""><br class=3D""></div><div class=3D"">=EC=B2=A8=EB=B6=80=EB=90=9C=
+ =EB=8D=B0=EC=9D=B4=ED=84=B0=EC=8B=9C=ED=8A=B8 =EB=AA=A8=EB=8D=B8=EC=9D=80=
+ 4024=EB=84=A4=EC=9A=94?</div><div class=3D""><br class=3D""></div><div =
+class=3D"">4408=EC=9D=B4 =EC=95=84=EB=8B=8C 4024=EB=A1=9C =EB=8B=A4=EC=8B=9C=
+ =EA=B2=AC=EC=A0=81 =EB=B0=9B=EC=9C=BC=EC=85=94=EC=95=BC =
+=ED=95=A0=EB=93=AF=ED=95=A9=EB=8B=88=EB=8B=A4.</div><div class=3D""><br =
+class=3D""></div><div class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=
+=A4.</div><div class=3D""><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">---------------------------------------------------------------=
+-------</div><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS =
+Co. Ltd.</a></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;=ED=99=A9 =
+=EB=AF=BC=EA=B7=9C&nbsp;=EC=B0=A8=EC=9E=A5<div class=3D"">&nbsp;Phone : =
+070-7114-0049</div><div class=3D"">&nbsp;Cellular : 010-3191-0811<br =
+class=3D""><a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a></div><div =
+class=3D"">---------------------------------------------------------------=
+-------</div></div></div></div></div></div></div></div>
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">2016. 12. 9. =EC=98=A4=ED=9B=84 2:36, Leeduyeol &lt;<a =
+href=3D"mailto:dylee@agilesys.co.kr" =
+class=3D"">dylee@agilesys.co.kr</a>&gt; =EC=9E=91=EC=84=B1:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><div =
+class=3D"WordSection1" style=3D"page: WordSection1; font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant-caps: =
+normal; font-weight: normal; letter-spacing: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><span lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div class=3D""><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" =
+class=3D"">------------------------------------------------<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, 73, =
+125);" class=3D"">=E3=88=9C=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4<span =
+lang=3D"EN-US" class=3D"">&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=8B=9C=EC=8A=A4=ED=85=
+=9C=EC=82=AC=EC=97=85=EB=B6=80<span lang=3D"EN-US" class=3D"">&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9D=B4=EB=91=90=EC=97=
+=B4 =EC=B0=A8=EC=9E=A5<span lang=3D"EN-US" class=3D""><o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" class=3D"">TEL) 070-7114-0070 / M) =
+010-2443-9353<o:p class=3D""></o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" class=3D"">E-Mail)<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:dylee@agilesys.co.kr" style=3D"color: rgb(149, 79, 114); =
+text-decoration: underline;" class=3D""><span style=3D"color: blue;" =
+class=3D"">dylee@agilesys.co.kr</span></a><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, 73, =
+125);" class=3D"">=EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =
+=EB=B0=98=ED=8F=AC=EB=8F=99<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>67-3<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=8C=80=EB=A5=AD=EB=B9=
+=8C=EB=94=A9<span lang=3D"EN-US" class=3D"">4</span>=EC=B8=B5<span =
+lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" =
+class=3D"">-------------------------------------------------</span><span =
+lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D""></o:p></span></div></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div class=3D""><div =
+style=3D"border-style: solid none none; border-top-color: rgb(181, 196, =
+223); border-top-width: 1pt; padding: 3pt 0cm 0cm;" class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: left; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; word-break: =
+keep-all;" class=3D""><b class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: Tahoma, sans-serif;" =
+class=3D"">From:</span></b><span lang=3D"EN-US" style=3D"font-family: =
+Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D"">=EC=9C=A0=ED=98=B8=EC=9D=B5</span><span lang=3D"EN-US" =
+style=3D"font-family: Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>[<a =
+href=3D"mailto:hiyoo@genietec.co.kr" style=3D"color: rgb(149, 79, 114); =
+text-decoration: underline;" =
+class=3D"">mailto:hiyoo@genietec.co.kr</a>]<span =
+class=3D"Apple-converted-space">&nbsp;</span><br class=3D""><b =
+class=3D"">Sent:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span>Friday, December 09, 2016 =
+2:21 PM<br class=3D""><b class=3D"">To:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span>'Leeduyeol'<br class=3D""><b =
+class=3D"">Subject:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span>(</span><span =
+style=3D"font-family: =EA=B5=B4=EB=A6=BC;" class=3D"">=EC=A3=BC</span><spa=
+n lang=3D"EN-US" style=3D"font-family: Tahoma, sans-serif;" =
+class=3D"">)</span><span style=3D"font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D"">=EC=A7=80=EB=8B=88=ED=85=8D</span><span lang=3D"EN-US" =
+style=3D"font-family: Tahoma, sans-serif;" class=3D"">_</span><span =
+style=3D"font-family: =EA=B5=B4=EB=A6=BC;" class=3D"">=EC=9A=94=EC=B2=AD</=
+span><span style=3D"font-family: Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-family: =EA=B5=B4=EB=A6=BC;" class=3D"">=EC=9E=90=EB=A3=8C</=
+span><span lang=3D"EN-US" style=3D"font-family: Tahoma, sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div></div></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: left; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D"">=EC=B2=A8=EB=B6=80=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=9A=94=EC=B2=AD=
+ =EC=9E=90=EB=A3=8C =EB=B3=B4=EB=82=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4=
+<span lang=3D"EN-US" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" =
+class=3D"">---------------------------------------------------------------=
+-<span class=3D"Apple-converted-space">&nbsp;</span><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: gulim;" class=3D""><span =
+id=3D"cid:image002.jpg@01D25229.92A661C0">&lt;image002.jpg&gt;</span><br =
+class=3D""></span><b class=3D""><span style=3D"font-size: 9pt;" =
+class=3D"">=EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=A7=80=EB=8B=88=ED=85=8D=
+<span class=3D"Apple-converted-space">&nbsp;</span></span></b><span =
+lang=3D"EN-US" style=3D"font-size: 9pt;" class=3D""><br =
+class=3D""></span><span style=3D"font-size: 9pt;" class=3D"">=EC=98=81<b =
+class=3D"">=EC=97=85=ED=8C=80<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>/<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B0=A8=EC=9E=A5 =
+=EC=9C=A0=ED=98=B8=EC=9D=B5<span =
+class=3D"Apple-converted-space">&nbsp;</span><span lang=3D"EN-US" =
+class=3D""><o:p class=3D""></o:p></span></b></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 9pt;" =
+class=3D"">Mobile : 010-3374-5953&nbsp;&nbsp; E-mail :<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:hiyoo@genietec.co.kr" target=3D"_blank" style=3D"color: =
+rgb(149, 79, 114); text-decoration: underline;" class=3D""><span =
+style=3D"color: blue;" =
+class=3D"">hiyoo@genietec.co.kr</span></a></span></b><span lang=3D"EN-US" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span =
+lang=3D"EN-US" style=3D"font-size: 9pt;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></b></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span lang=3D"EN-US"=
+ style=3D"font-size: 9pt;" class=3D"">[</span></b><b class=3D""><span =
+style=3D"font-size: 9pt;" class=3D"">=EC=84=9C=EC=9A=B8=EC=A7=80=EC=82=AC<=
+span lang=3D"EN-US" class=3D"">]</span></span></b><span lang=3D"EN-US" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span =
+style=3D"font-size: 9pt;" class=3D"">=EC=84=9C=EC=9A=B8=ED=8A=B9=EB=B3=84=EC=
+=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =EC=84=9C=EC=B4=88<span lang=3D"EN-US" =
+class=3D"">3</span>=EB=8F=99<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>1599-11&nbsp;</span>=EB=A6=AC=
+=EB=8D=94=EC=8A=A4=EB=B9=8C=EB=94=A9<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>1507</span>=ED=98=B8</span></=
+b><span lang=3D"EN-US" style=3D"font-size: 9pt;" class=3D""><br =
+class=3D""><b class=3D"">TEL&nbsp;&nbsp; : 02-521-0071&nbsp;&nbsp; =
+FAX&nbsp;&nbsp; : 02-521-0678<o:p class=3D""></o:p></b></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 9pt;" =
+class=3D"">[</span></b><b class=3D""><span style=3D"font-size: 9pt;" =
+class=3D"">=EB=B3=B8<span lang=3D"EN-US" =
+class=3D"">&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=82=AC<span =
+lang=3D"EN-US" class=3D"">]<o:p =
+class=3D""></o:p></span></span></b></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span =
+style=3D"font-size: 9pt;" class=3D"">=EC=A0=84=EB=9D=BC=EB=82=A8=EB=8F=84 =
+=EB=82=98=EC=A3=BC=EC=8B=9C =EC=83=81=EC=95=BC<span lang=3D"EN-US" =
+class=3D"">2</span>=EA=B8=B8<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>7 B-512</span>=ED=98=B8<span =
+lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>(</span>=EB=B9=9B=EA=B0=80=EB=
+=9E=8C=EB=8F=99<span lang=3D"EN-US" class=3D"">,<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A4=91=ED=9D=A5<spa=
+n lang=3D"EN-US" class=3D"">S</span>=ED=81=B4=EB=9E=98=EC=8A=A4=EB=A9=94=EA=
+=B0=80=ED=8B=B0=EC=9B=80<span lang=3D"EN-US" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>1</span>=EC=B0=A8<span =
+lang=3D"EN-US" class=3D"">)<o:p =
+class=3D""></o:p></span></span></b></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span lang=3D"EN-US"=
+ style=3D"font-size: 9pt;" class=3D"">TEL &nbsp; : 061-333-1770&nbsp; =
+FAX&nbsp; : 061-333-1780<o:p class=3D""></o:p></span></b></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b =
+class=3D""><span lang=3D"EN-US" style=3D"font-size: 9pt;" =
+class=3D"">---------------------------------------------------------------=
+--</span></b><span lang=3D"EN-US" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><span =
+id=3D"cid:E4FA2D36-7648-4674-A9BE-C0B1AB3355D6">&lt;DataSheet.zip&gt;</spa=
+n></div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_4622C0B0-72E0-4DAE-9098-6B42FA1568BC--
+

@@ -1,0 +1,473 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id KDLUOnW9omk9BAAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:03:33 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id F058F14BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:03:33 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1524395144902001890
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Wed, 27 Jan 2016
+ 10:38:07 +0900
+From: =?ks_c_5601-1987?B?sO3A58jG?= <kjhoon88@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?wMy5rry6?= <mslee@ci-trus.com>
+CC: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?w9bBvrHZ?= <andychoi@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 27 Jan 2016 10:34:35 +0900
+Subject: =?ks_c_5601-1987?B?yLi9xTogtLq9ur/4IMDbvvfB9r/4ILD8t8M=?=
+Thread-Topic: =?ks_c_5601-1987?B?tLq9ur/4IMDbvvfB9r/4ILD8t8M=?=
+Thread-Index: AdFX4zVSJAP5ORGfS9e5ICIjjBESOgAv6uQj
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04889BA80071@MAIL-SERVER.agilesys.co.kr>
+References: <001f01d157e4$0357c9e0$0a075da0$@ci-trus.com>
+In-Reply-To: <001f01d157e4$0357c9e0$0a075da0$@ci-trus.com>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/related;
+	boundary="_004_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_"
+
+--_000_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5C4gv6HAzL3DvbogsO3A58jGwNS0z7TZLg0KDQq0ur26v/ggwNu+98H2v/ggsPy3
+w8fPv6kNCg0KtNnAvcHWIL/5v+TAzyC/wMjEIDK9w7+hILnmua7Hz7DavcC0z7TZLg0KDQqwqLvn
+x9W0z7TZLg0KDQoNCiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLQ0KKMHWKb+hwMy9w726ICAgIFNXILvnvvfGwCCw7cDnyMYgtOu4rg0K
+vK2/773DILytw8qxuCC53cb3tb8gNjctM7n4wfYgtOu4orr0tfkgNcP+DQpUKSAwNzAtNzExNC0w
+MTIwIC8gRikgMDItNTg2LTUwNzANClApIDAxMC00ODA3LTg4ODEgLyBFLW1haWwpIGtqaG9vbjg4
+QGFnaWxlc3lzLmNvLmtyPG1haWx0bzpramhvb244OEBhZ2lsZXN5cy5jby5rcj4NCi0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQpf
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KurizvSC757b3OiDAzLmuvLogW21zbGVl
+QGNpLXRydXMuY29tXQ0KurizvSCzr8KlOiAyMDE2s+IgMb/5IDI2wM8gyK2/5MDPIL/AwPwgMTE6
+NDgNCrnetMIgu+e29zogsO3A58jGOyDIsrnOsdQNCsL8wbY6IMPWwb6x2Q0Kwaa48TogtLq9ur/4
+IMDbvvfB9r/4ILD8t8MNCg0Kvsiz58fPvLy/5C4NCr6+xq63r726IMDMua68uiDC98DlwNS0z7TZ
+Lg0KDQq02binwMwgvsa0z7bzLCDB9rOtwda/oSC/rLb0teW4sLnZv80gsLDAzCDC98HWv6Egsdu3
+r726xc0gsbi8uiDA2773wLsgwfjH4MfSIL+5waTA1LTPtNkuDQq4u764x8+9xSC52b/NILCwwMwg
+u+e/68fPwfYgvsq0wiC8rbn2v6Egu/W3ziCxuLy6x9Igv7nBpMDUtM+02S4NCsD6yPHCyr+hvK0g
+wda4u7+hILytufa/zSC9usXkuK7B9iDA2773wLsgwfjH4MfSIL+5waTAzLjnLA0KsO2067iutNSy
+srytIL/5v+TAz8DMs6ogyK2/5MDPIL3DsKO1x73HILanIL3FsdS3ziCxuLy6IMH2v/jH2CDB1r3D
+uOkgtcu0z7TZLg0KDQq8rbn2ILG4vLrAuiDB9rOtufi/oSC4u764teW4sCC52b/NILCwwMwNCg0K
+MS4gICAgIExvY2FsIDogMjhUQiwgeGZzLCBMVk0sIDGwsyC6vLf9wLi3ziCxuLy6DQoNCjIuICAg
+ICBBRlAgOiAyMFRCLCB4ZnMsIExWTSwgMbCzILq8t/3AuLfOILG4vLoNCg0Ksdu3r726xc20wiBD
+ZW50T1MgNi42v6Egsdu3r726xc0gMy4yLjG3ziCxuLy6x9jB1r3DuOkgtcu0z7TZLg0Kvsa4trW1
+IHJlcGxpY2F0aW9uvvjAzCCxuLy6tcnF2bWlLCC058DPIMf5wMcgyMQgwfjH2MHWvcO46SC1y7TP
+tNkuDQoNCrHXt7MsIMDPwaQgyK7AziDIxCC+y7fBwda8vL/kfn4NCg0KsKi758fVtM+02S4NCg0K
+W2NpZDppbWFnZTAwMS5naWZAMDFEMTU4MkIuMEMyN0FEQTBdDQoNCsDMILmuILy6IML3wOUgLyDH
+w7enxvu75773xsANCg0Kvr7GrrevvboowdYpDQq8rb/vILi2xvexuCC4tsb3tOu3ziAxNSwgMTAw
+OCi4tsb3tb8sx/a067r0tfkpDQpURUw6IDAyLTcxNS0wMzA3IC8gRkFYOiAwMi02MjA5LTc1ODcN
+Ck1vYmlsZTogMDEwLTM3NjQtNzIxNg0KRS1tYWlsOiBtc2xlZUBjaS10cnVzLmNvbTxtYWlsdG86
+bXNsZWVAY2ktdHJ1cy5jb20+DQpIb21lcGFnZTogaHR0cDovL3d3dy5jaS10cnVzLmNvbTxodHRw
+Oi8vd3d3LmNpLXRydXMuY29tLz4NCg0KDQoNCg0KW2h0dHA6Ly9rcjEtbWFpbC53b3Jrc21vYmls
+ZS5jb20vcmVhZFJlY2VpcHQvbm90aWZ5Lz9pbWc9Q2RibUtBZ21LQXVtYXhNbUZBdXFLQXVzaEFn
+bUs2TW1LNnR3RnglMkIwRlZ0bUtxRVhNcTAwS1Z0bU14Z1hGNjNDS1YzZ01ydlIlMkJIaTliWmxv
+V3JkUWFyUjgxemVUV28yJTJGdHpKTjE2dzBiWDBxNzRGVDc0UlouZ2lmXQ0K
+
+--_000_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<style>@font-face {
+	font-family: =B1=BC=B8=B2;
+}
+@font-face {
+	font-family: Cambria Math;
+}
+@font-face {
+	font-family: =B8=BC=C0=BA =B0=ED=B5=F1;
+}
+@font-face {
+	font-family: @=B8=BC=C0=BA =B0=ED=B5=F1;
+}
+@font-face {
+	font-family: @=B1=BC=B8=B2;
+}
+@page WordSection1 {margin: 3.0cm 72.0pt 72.0pt 72.0pt; }
+P.MsoNormal {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+LI.MsoNormal {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+DIV.MsoNormal {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+P.MsoAcetate {
+	FONT-SIZE: 9pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: just=
+ify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+LI.MsoAcetate {
+	FONT-SIZE: 9pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: just=
+ify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+DIV.MsoAcetate {
+	FONT-SIZE: 9pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: just=
+ify; MARGIN: 0cm 0cm 0pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPACE:=20
+}
+P.MsoListParagraph {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt 40pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPA=
+CE:=20
+}
+LI.MsoListParagraph {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt 40pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPA=
+CE:=20
+}
+DIV.MsoListParagraph {
+	FONT-SIZE: 10pt; FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; TEXT-ALIGN: jus=
+tify; MARGIN: 0cm 0cm 0pt 40pt; TEXT-JUSTIFY: inter-ideograph; TEXT-AUTOSPA=
+CE:=20
+}
+SPAN.EmailStyle17 {
+	FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"; COLOR: windowtext
+}
+SPAN.Char {
+	FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"
+}
+.MsoChpDefault {
+	FONT-FAMILY: "=B8=BC=C0=BA =B0=ED=B5=F1"
+}
+DIV.WordSection1 {
+=09
+}
+OL {
+	MARGIN-BOTTOM: 0cm
+}
+UL {
+	MARGIN-BOTTOM: 0cm
+}
+</style>
+<meta name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.17609">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+--></style>
+</head>
+<body lang=3D"KO" link=3D"blue" vlink=3D"purple" ocsi=3D"x">
+<div style=3D"FONT-SIZE: x-small; FONT-FAMILY: Tahoma; COLOR: #000000; DIRE=
+CTION: ltr">
+<div>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4. =BF=A1=C0=CC=BD=C3=BD=BA =B0=ED=C0=E7=
+=C8=C6=C0=D4=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=B4=BA=BD=BA=BF=F8 =C0=DB=BE=F7=C1=F6=BF=F8 =B0=FC=B7=C3=C7=CF=BF=A9</=
+div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=B4=D9=C0=BD=C1=D6 =BF=F9=BF=E4=C0=CF =BF=C0=C8=C4 2=BD=C3=BF=A1 =B9=
+=E6=B9=AE=C7=CF=B0=DA=BD=C0=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>&nbsp;</div>
+<div>
+<div><font size=3D"2" face=3D"Tahoma">&nbsp;-------------------------------=
+----------------------------<br>
+(=C1=D6)=BF=A1=C0=CC=BD=C3=BD=BA&nbsp;&nbsp;&nbsp;&nbsp;SW =BB=E7=BE=F7=C6=
+=C0&nbsp;=B0=ED=C0=E7=C8=C6 =B4=EB=B8=AE</font></div>
+<div><font size=3D"2" face=3D"Tahoma">=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8=
+ =B9=DD=C6=F7=B5=BF 67-3=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9 5=C3=FE</font=
+></div>
+<div><font size=3D"2" face=3D"Tahoma">T) 070-7114-0120 / F) 02-586-5070</fo=
+nt></div>
+<div><font size=3D"2" face=3D"Tahoma">P) 010-4807-8881 / E-mail) <a href=3D=
+"mailto:kjhoon88@agilesys.co.kr">
+kjhoon88@agilesys.co.kr</a></font></div>
+<div><font size=3D"2" face=3D"Tahoma">-------------------------------------=
+-----------------------</font></div>
+</div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<div id=3D"divRpF312768" style=3D"DIRECTION: ltr">
+<hr tabindex=3D"-1">
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><b>=BA=B8=B3=BD =BB=E7=
+=B6=F7:</b> =C0=CC=B9=AE=BC=BA [mslee@ci-trus.com]<br>
+<b>=BA=B8=B3=BD =B3=AF=C2=A5:</b> 2016=B3=E2 1=BF=F9 26=C0=CF =C8=AD=BF=E4=
+=C0=CF =BF=C0=C0=FC 11:48<br>
+<b>=B9=DE=B4=C2 =BB=E7=B6=F7:</b> =B0=ED=C0=E7=C8=C6; =C8=B2=B9=CE=B1=D4<br=
+>
+<b>=C2=FC=C1=B6:</b> =C3=D6=C1=BE=B1=D9<br>
+<b>=C1=A6=B8=F1:</b> =B4=BA=BD=BA=BF=F8 =C0=DB=BE=F7=C1=F6=BF=F8 =B0=FC=B7=
+=C3<br>
+</font><br>
+</div>
+<div></div>
+<div>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4<span lang=3D"EN-US">.=
+</span></p>
+<p class=3D"MsoNormal">=BE=BE=C6=AE=B7=AF=BD=BA =C0=CC=B9=AE=BC=BA =C2=F7=
+=C0=E5=C0=D4=B4=CF=B4=D9<span lang=3D"EN-US">.</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal">=B4=D9=B8=A7=C0=CC =BE=C6=B4=CF=B6=F3<span lang=3D"E=
+N-US">, </span>=C1=F6=B3=AD=C1=D6=BF=A1 =BF=AC=B6=F4=B5=E5=B8=B0=B9=D9=BF=
+=CD =B0=B0=C0=CC =C2=F7=C1=D6=BF=A1 =B1=DB=B7=AF=BD=BA=C5=CD =B1=B8=BC=BA =
+=C0=DB=BE=F7=C0=BB =C1=F8=C7=E0=C7=D2 =BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span l=
+ang=3D"EN-US">.</span></p>
+<p class=3D"MsoNormal">=B8=BB=BE=B8=C7=CF=BD=C5 =B9=D9=BF=CD =B0=B0=C0=CC =
+=BB=E7=BF=EB=C7=CF=C1=F6 =BE=CA=B4=C2 =BC=AD=B9=F6=BF=A1 =BB=F5=B7=CE =B1=
+=B8=BC=BA=C7=D2 =BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span lang=3D"EN-US">.</span>=
+</p>
+<p class=3D"MsoNormal">=C0=FA=C8=F1=C2=CA=BF=A1=BC=AD =C1=D6=B8=BB=BF=A1 =
+=BC=AD=B9=F6=BF=CD =BD=BA=C5=E4=B8=AE=C1=F6 =C0=DB=BE=F7=C0=BB =C1=F8=C7=E0=
+=C7=D2 =BF=B9=C1=A4=C0=CC=B8=E7<span lang=3D"EN-US">, </span></p>
+<p class=3D"MsoNormal">=B0=ED=B4=EB=B8=AE=B4=D4=B2=B2=BC=AD =BF=F9=BF=E4=C0=
+=CF=C0=CC=B3=AA =C8=AD=BF=E4=C0=CF =BD=C3=B0=A3=B5=C7=BD=C7 =B6=A7 =BD=C5=
+=B1=D4=B7=CE =B1=B8=BC=BA =C1=F6=BF=F8=C7=D8 =C1=D6=BD=C3=B8=E9 =B5=CB=B4=
+=CF=B4=D9<span lang=3D"EN-US">.</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal">=BC=AD=B9=F6 =B1=B8=BC=BA=C0=BA =C1=F6=B3=AD=B9=F8=
+=BF=A1 =B8=BB=BE=B8=B5=E5=B8=B0 =B9=D9=BF=CD =B0=B0=C0=CC<span lang=3D"EN-U=
+S"></span></p>
+<p class=3D"MsoListParagraph" style=3D"MARGIN-LEFT: 38pt; TEXT-INDENT: -18p=
+t"><span lang=3D"EN-US"><span>1.<span style=3D"FONT: 7pt 'Times New Roman'"=
+>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span lang=3D"EN-US">Local : 28TB, xfs, LVM, 1</span>=
+=B0=B3 =BA=BC=B7=FD=C0=B8=B7=CE =B1=B8=BC=BA<span lang=3D"EN-US"></span></p=
+>
+<p class=3D"MsoListParagraph" style=3D"MARGIN-LEFT: 38pt; TEXT-INDENT: -18p=
+t"><span lang=3D"EN-US"><span>2.<span style=3D"FONT: 7pt 'Times New Roman'"=
+>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span lang=3D"EN-US">AFP : 20TB, xfs, LVM, 1</span>=B0=
+=B3 =BA=BC=B7=FD=C0=B8=B7=CE =B1=B8=BC=BA<span lang=3D"EN-US"></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal">=B1=DB=B7=AF=BD=BA=C5=CD=B4=C2 <span lang=3D"EN-US">=
+CentOS 6.6</span>=BF=A1 =B1=DB=B7=AF=BD=BA=C5=CD<span lang=3D"EN-US"> 3.2.1=
+</span>=B7=CE =B1=B8=BC=BA=C7=D8=C1=D6=BD=C3=B8=E9 =B5=CB=B4=CF=B4=D9<span =
+lang=3D"EN-US">.</span></p>
+<p class=3D"MsoNormal">=BE=C6=B8=B6=B5=B5<span lang=3D"EN-US"> replication<=
+/span>=BE=F8=C0=CC =B1=B8=BC=BA=B5=C9=C5=D9=B5=A5<span lang=3D"EN-US">,
+</span>=B4=E7=C0=CF =C7=F9=C0=C7 =C8=C4 =C1=F8=C7=D8=C1=D6=BD=C3=B8=E9 =B5=
+=CB=B4=CF=B4=D9<span lang=3D"EN-US">. </span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal">=B1=D7=B7=B3<span lang=3D"EN-US">, </span>=C0=CF=C1=
+=A4 =C8=AE=C0=CE =C8=C4 =BE=CB=B7=C1=C1=D6=BC=BC=BF=E4<span lang=3D"EN-US">=
+~~</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3D"EN-US">.=
+</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<table class=3D"MsoNormalTable" style=3D"BORDER-TOP: #a6ce39 1pt solid; BOR=
+DER-RIGHT: medium none; BORDER-BOTTOM: #a6ce39 1pt solid; BORDER-LEFT: medi=
+um none; WIDTH: 375pt" cellspacing=3D"3" cellpadding=3D"0" width=3D"750" bo=
+rder=3D"1">
+<tbody>
+<tr>
+<td style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOT=
+TOM: medium none; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT=
+: 0.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0.75pt">
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left; TEX=
+T-AUTOSPACE: " align=3D"left">
+<span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=B8=B2"><=
+img id=3D"=B1=D7=B8=B2_x0020_1" alt=3D"http://www.ci-trus.com/img/mailfoote=
+r.gif" src=3D"cid:image001.gif@01D1582B.0C27ADA0" width=3D"180" height=3D"8=
+0"></span><span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=
+=BC=B8=B2"></span></p>
+</td>
+<td style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOT=
+TOM: medium none; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT=
+: 0.75pt; BORDER-LEFT: medium none; PADDING-RIGHT: 0.75pt">
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left; TEX=
+T-AUTOSPACE: " align=3D"left">
+<b><span style=3D"FONT-SIZE: 8pt">=C0=CC =B9=AE =BC=BA</span></b><span styl=
+e=3D"FONT-SIZE: 8pt"> =C2=F7=C0=E5<span lang=3D"EN-US"> /
+</span>=C7=C3=B7=A7=C6=FB=BB=E7=BE=F7=C6=C0 <span lang=3D"EN-US"></span></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left; TEX=
+T-AUTOSPACE: " align=3D"left">
+<span lang=3D"EN-US" style=3D"FONT-SIZE: 8pt"></span>&nbsp;</p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left; TEX=
+T-AUTOSPACE: " align=3D"left">
+<span style=3D"FONT-SIZE: 8pt">=BE=BE=C6=AE=B7=AF=BD=BA<span lang=3D"EN-US"=
+>(</span>=C1=D6<span lang=3D"EN-US">)
+<br>
+</span>=BC=AD=BF=EF =B8=B6=C6=F7=B1=B8 =B8=B6=C6=F7=B4=EB=B7=CE<span lang=
+=3D"EN-US"> 15, 1008(</span>=B8=B6=C6=F7=B5=BF<span lang=3D"EN-US">,</span>=
+=C7=F6=B4=EB=BA=F4=B5=F9<span lang=3D"EN-US">)
+<br>
+TEL: 02-715-0307 / FAX: 02-6209-7587 <br>
+Mobile: 010-3764-7216 <br>
+E-mail: <a href=3D"mailto:mslee@ci-trus.com"><span style=3D"COLOR: blue">ms=
+lee@ci-trus.com</span></a>
+<br>
+Homepage: <a href=3D"http://www.ci-trus.com/" target=3D"_blank"><span style=
+=3D"COLOR: windowtext">http://www.ci-trus.com</span></a></span></span><span=
+ lang=3D"EN-US" style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =B1=BC=B8=B2">
+</span><span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=
+=B8=B2"></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"></span>&nbsp;</p>
+</div>
+<table>
+<tbody>
+<tr>
+<td><img border=3D"0" src=3D"http://kr1-mail.worksmobile.com/readReceipt/no=
+tify/?img=3DCdbmKAgmKAumaxMmFAuqKAushAgmK6MmK6twFx%2B0FVtmKqEXMq00KVtmMxgXF=
+63CKV3gMrvR%2BHi9bZloWrdQarR81zeTWo2%2FtzJN16w0bX0q74FT74RZ.gif"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
+
+--_000_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_--
+
+--_004_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_
+Content-Type: image/gif; name="image001.gif"
+Content-Description: image001.gif
+Content-Disposition: inline; filename="image001.gif"; size=5898;
+	creation-date="Tue, 26 Jan 2016 02:48:19 GMT";
+	modification-date="Wed, 27 Jan 2016 01:38:07 GMT"
+Content-ID: <image001.gif@01D1582B.0C27ADA0>
+Content-Transfer-Encoding: base64
+
+R0lGODlhtABQAPcAAP////24E6bOOTIvMavVOUVDRZqbnTUyM4qLjYOChP7mrYx0NtDml5NyIqPM
+Mqqrrf7KTyUiJP2zBNnqqvn5+f/z2fb29v7cjBsYGunq6pW3OOTk5SonKfHx8e3t7rbXXTEuMP21
+C7zaaW52POHh4vv89P3DOdmjGHp5eywpMn6WN93d3lRRU9na2oSFib69vmViZCckJkQ7LYyNkDw5
+O2xqay0qLKzRRW9ZJ6DLLP7WePz8/CIfIS8sLs3Nzra1tv/BEf/swSYjJdHR0uz11MHddcjIyiok
+MZGSlcLBwiQlM1tZWtXV1sXFxv2/Kv7+/pWWmLm5uqyEHqalpjk2OFdkMMGSGysoKmlnaf/67v23
+EJaUlefr9vT55ui2FiQhI7GwsnVzdKGipCwpK6KhouDf4IinN/+9EjAtL8TDw0VJMuLvvnx9gLa2
+uL27vEtSM/39+RkaJ6bOOo+Pkp2dn/O0E/7+/LKytJeYmv+4Eufn57m3uIeIi5CRk6WmqL6+wP7R
+Zz43L+WrFP28HX+AhM7Oz/24FMLCxDc1NeTwx8rKyzAsMbq6u/+4DZOTliMgIv24EqbOOOvr6+Li
+4/f67KOkpqjQOf+6EsfHx//242JgYa2tr+jo6N7e36eoqv7+/9bX2MPExUxBLfv7+6nQQIKAgR8b
+H05LTTMwMp+goq+vslhWWNLS04eFh/7PX6SjpEE+QNzc3MfIyVVHLHBtb/23EabNOczLy7Sys9TU
+1VBZM9DP0LDUUD0+MMzLzPPz8/T09Ozs7b+/wbGvsP+4EP7//6TNNv3hnLy8vsG/wLe3ud/g4MvM
+zT5AMrO0tuPj43d2eabPOaOhoomHiJWTlX19d57DOI+NjqCeoM/Q0Kmoqa+ur9jDJP39/V9dX5+e
+n/7vzv///rO7LpqYmX99fuzr7OTk5P39/tvc3KbSL/f39ycnM6PKOaHQO+jn6KjPPP7//v+7EKXM
+OaXPOmVnc7i3t7jJMby7u+/v78XExLW0tfH338jHyMbggP/46djY2SH/C1hNUCBEYXRhWE1QPD94
+cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1w
+bWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4w
+LWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4
+bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8
+cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5j
+b20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0v
+IiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNl
+UmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1N
+Okluc3RhbmNlSUQ9InhtcC5paWQ6QUJFM0Q2NzBFNENGMTFFMDhBQ0Q5MEYzNEFEQTY3MDkiIHht
+cE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUJFM0Q2NzFFNENGMTFFMDhBQ0Q5MEYzNEFEQTY3MDki
+PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQkUzRDY2RUU0
+Q0YxMUUwOEFDRDkwRjM0QURBNjcwOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQkUzRDY2
+RkU0Q0YxMUUwOEFDRDkwRjM0QURBNjcwOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRG
+PiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq
+6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7Kx
+sK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4
+d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/
+Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcG
+BQQDAgEAACH5BAAAAAAALAAAAAC0AFAAAAj/AAEIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq
+3Mixo0eOmYIcu0BSAbgSH1OqXMlyYJZjEAaFCCFBwsxaTnSAa8mzp8+Hx5zU1AIpgNEAkCDRrOWq
+ws+nUHv6c2XT0NGrRw1pkTBIwZOoYMNqrGBCQlGsaI0aonlBrNu3EDOVPZu27tYLn+Dq3TswHBwI
+EqxivQSkMJAzabWEUMC3MdwLZgcDqWNFSgMpJ84gxhrCib+8jkP/fJJJJtYzdRrIWKdkXQpUOE4A
+wVpLgg7RuH3qCHz1jKBZSlKAGEB8kRIQUmZfDTEoU+7nKrM4CdFbkCglxLMTR5UiRfKrkCQc/4NO
+vmMQ6leB4Finvf2AFIEEbTYqAUK48vgvhoPc+wSqRe61p0QDQORxVmf+5KcgRVSl1wB7AQ7QQwxf
+RBBIHY3MZJMWOxkUTgklfLXgiAQBlt567qFiQwSIwDBOEqyAA04QCuhQVhAD2UEEA0V8wAsvH4jA
+wBookaggYIIFcAaK2oEQAQ3XxEJQMcUAEE44dgRRgV8TfBBJDjk4IKaYYfLCACX3GUmeiUepByFx
+PUQQxjMO7fNBmJEIoOeeekbiQA43TKAmeYBI4GAK2dnQgzQPrXFDDnLwKemecvzZT5GDisbfUWf4
+B6ANNtTz0ATGOBDppKgK8KUImGba2Hl0Bf8ARANKLCLEFI0aYwyq0Vjia6o5FGGHq45lYQJ6RkFS
+xyxxoKCQHVlkMWwXpDggqZ8EWGKNNfIQQEA01+YgKLGNQRarbzhwgVAQNjrhhAk6iGAqpaWKMMIb
+vTSjRhVmeCsPnw68s0+V5L51ZWnIGnVGTlsK5FcQgNA0k2JeGHOqAJXKMQE8LpiyyMdHpFCFNQRI
+mkM/BfN1jAS1YNUIVxAAooMrJmxVS5IB2NPOPHsa804iAnVyQA/bgXCEGiTb0rPAKcPlF5JYQZJh
+TTa1fFUeXszDs55yiEsQDDG0d4QuloC7p9dNw2WsoXW1TQw37VzswAfwEESHEO4docK3Zwv/mzZc
+/szVNlpn1CJOO5SiPdAhYwyXHSpj862nA7y0+ndYWRQaQqxpESYIDv32HA0RBcWCCNHaLYKINZb0
+TEoXaV7ulgLHVj3YGZNJEYgSGpSspzGvF0QCFahnB0IKve8ZSST7yK7XEwoA4sRWNRVWxwkNiOLa
+ABq0/vsNlAhPfHsgLNK92cvvU7fzevkDjgLHHLMADqIYh2j5oas6NxwFrTB+6ohI3u9I0Tz27eVK
+APgEPeKwDscRR2+SO5lB8mEDBxInBW/I1p4oZzkDOk0YQrDgAK4wAt/5iXQFIQPexLY35TlABB4M
+zRNqwIP2YFCDEjRIDcL2uCO8QR5mw1gO/xgQw9BkgAWPcGD5epeDD3TwGf97YDME+Ds5FFAhFMjA
+MzJAgSJCZBQZMIcefhERSdAiAhEYA6i+UIV0XIpgBJmBx0A2NpIFUQDBWkgZrrEKGlCBBixAAJ0W
+sgtNYEETrEBIMgyJhUY68pHeQAZCOFGDRz4yDFvwBUMUAYND3qIgHYAGDLyBq4VMAgEs8CMVTkGL
+ZEQEGbQoAA1oUIBqAO0gXRhBLxCBiF7oQgWWIIDSeiYHFCJEG1R4BAfUaAMOPIIG91gII0whBAy4
+8iCvwEAMtsnNbsYAA99AyAp68AVvblMIX7hCAnagEFxQEwP6KEgwaMADDJBjIfmg5zKvMP+GK0RA
+CKVgJ0Q6sIExKqQf6WCHNTRAMg2ajAGxM8gUhNC4GHDABhZFxUWboJAXcAAEMUgCQrIphJJyABUD
+0GhJIwBOhJSBeKgYQ0lXyoEBoMEUr1DIDz4agz0UxAMFWFECFLIBWIQtBj1AxABiAIIe8MAAHplA
+DiLhK1/d8Wwi4B9CWAECRY0BBWkYwjBYcNIYsEAdCfEoSEV6kH/QgQxkmEIpbDBCckwBruNggkuJ
+d4Ua3JUMrzCAJq4wAA6cwgIJ2SlIfUoQoApVIVB4hE1L4YMV5OIaPQDBGGCBD46swQG7StXZPhA+
+hDyBFl8YYSkF0oElWBQDbUgrT9m6kFv/1DQCaWjIS8lJhoJQQBMcQMMAQJFYnjJ2II6NwFATgoVt
+woAg4YAGBiJgitxmxA4TAK1oMWaMHIigtAiZxNBigIUJ2oAFKNiFbNfakDTUVAhu0C3xImCAiAKA
+Dl9oqiyKu9ifBlW5CgHbFVjgAYL4oAYoKMU/NMIAMG23u+8g4kL0EYEBRAAMBqFALLrY0dm2973x
+ZchuI0AHg6BACGg4gJQQotie+vexCWkFD1BxhVN8owUc9kgXGMALMIlJV2TKASn6cUWFzCGJaBgC
+RdQa0g8PAL7yndA19GAOc2wgFthABRrMmmODtPi4AknuchHCBBXROAKoYEEp/oBYj5Rg/w0M8NEN
+bgCkfkyAEutjSCm+0AMqkGDJHmaIe58cYj0SDwQHoIKiqXCA4PozCjo17osBrBBtbHM4aPBnDE6h
+jY/AAx7FgAMlKFGCYUUkAV+wAQ04AWj2ChrEUVZRDK7Qg1qD4Aqw2MZCvjzpMSckGUtY0UWJwwEe
+IMC+etlzUlfQ6ia/mtBRHgANTkEFpqb4FWTctaQb+19fJ+QJhaCGJmiQUTRwABOhuUYSbeADg3RD
+DwxhMm0VMmgoi5h4QqDGLzqBgI/aYBUkQHZBknEFkEKa2zB+iDnAsIoroOILznIMLiocgdUOhAQ0
+0IQ0/owQeTvZ3oaOU4kFQo4voOIRLP/owEIUUUEXEyQDNFhRKxLSAgSgAAstKAg+TjEGDixBRHx5
+xtB8bpBx8OCbve14oBdS70IrZMT1FcgvTnFSHpRiIS2waQTGUboBgOARW0hIEt7J9YJoYtYsADpf
+wiDZGFxDoADwBRUUdYAyrNfZTIf1veME1YEkoeDm5odCPAALG4yhAMweSALCduGEeCDmNoBFzgfS
+BC0LgRaiiQUVKqqJKWxjGogYAyp4MPO7zzshTY8yfSNKjkegIgar6LJBUKvRAlBjGNqgRQVtQIVB
+IqQUM8b1Fu4RBQTEfABfwLBodlpTDlgUqQPgAQs6a/qPOz0hUC9IBmBBWCHkNCFMWKr/ioTgfGub
+Yg4L4UQBTG4Dil5BCD1AhSk0IfvGvKAAEbDoFTgghBhowhzS9E5/0BDJYArfBGYJsQI28AUYEHYF
+gQs8IAQzlngIkQSwUE4ccAX7FwHqNAoM0QIskH8cMIL8FwMwwGrPgQ9TQAsswAJLgALIoHYI0QKt
+gACtQIEKsQLTYIOTtxAecA0IkADoVhBPgA07WAocpRCSQAc1sAot6A0JoEkOYQFgEAZOyALeQA4v
+IIPPQQEW0A2yMwrqgFYUsQMWQIZelIZquIZs2IZu+IZwGIdyOIcI8QzZwAoZ0A3IMAkSQQFtIAlg
+YQEZIBF6oHIH0Q3CAAXq1RAtwApd/6YHLbACJLACLbABYIEPdDADYmAAnjAKCMAMEvELhLBiPdEN
+ksBOoYAA9bcQUDCEBmEELpANg7gQxdAGBiAGYpBjUeAIUJAAUOAIzgAR+NBmF0EBjiAGhkgBozAH
+iwgAq2gQo0ABfNAJGUYQ9bcDoFF/zygQzzADiPULGwB0sjcKYFgQUCB4A+GBAlEJd0AQ6kgB5TgQ
++OAC+NANLoCCANANTyAJfKAHTyAiowAaGQaGo+AIxIURiuACXbYDzAgAweAHUIAHieQBfqByHeAH
+rPYPEXkHCGB3A1EIeOAI2vAJ+ACReKBeHQAGhxCRJIAMc5AKKhcKwnAHjmAAdAIK7f8IAP/gDPhg
+AIRwkhsQjEPACM4wB8iYj3/gCHSADD8Ad3hgBADwA4dQCTOgDE+wCy4wB5tQBs6ADAYQDJuAB1AA
+igNhAXPwD4eAB7LnAXzAasHgDH8ABRvgCZ1lAZ7gj4wABQZgDm1ACFDgDOdwEZtQCQXBkENAAXOw
+DZLgC4RAApJACOUAAI85CRmQAIfACWCAAhwHAD5ACD6gB8ugDkjwABlQCISwAsBACJVAAg/ABspA
+AqMJAMqAAk2gBw/ABxQgC0ggEEbQBxTADHzQAh0wBDNQDIcADaEwCY7gBwBwCC6wApPQB3PglFBp
+AHzwD/9ACEPwCwbwAHqwAWxAB6j/2QK/wAQuAIgDsQnQUAkd0A3/QIzB0JYAAJ500AJ6kACD2AEu
+QAJMwAeS8AzgiAChwAl5RhEP8ACFOQdM0AJ8oI5ioAoe4ALB4JAuoAdeKRDA4ALUCABP4AiSJBDm
+SYZ+4AkZyofPwAeIJQt9IJt9J40t4AN4IBCKAAUA8AyqCABD4AgAIAw6CgCKgAQ70AdJyAx9QJ0A
+8A0HlwoYJgaQlgEVKnWY4AwJ0INNQAd+YABPkAF8YIgOKZ/3aYnxmZ98MAmdkABNwE7L2IMWEQXo
+RxAMCQo/OhBg4AeS4AIFxpZ64AwICgDqMI0CQQEIkEgyOgPl2AZ08At8YIkb0AeI/+ULu9kGzCkQ
+czAEICkQPkCjy4AAiJWjOwoFX+ELUKAOCHCQuVCkA/GU9/WhqYCgYhBbGYAAE0oCM3AHRnCdAmEB
+fCAl3fkHhDkQ8clqerClknmeAAAMCMBsrIAEfZABOzADB3kResAGoeCmCvoMhDChADAHfyCKf1YG
+hKAHTUCo88kGyyAQT8CJA1EGbABvAAAFUQAMfEAnGzAHwOCju7mLAvGYelAICCAQbaCjndCgOKqj
+ifgViuAI57qnd2CqAoGqdMAIArGqANCqAPCqgOgJhPkJtlqsLrBgHYoCluirXsoHndUBCYAO80kI
+GwoAeIBhCKCmFuEDCfANyHAHzv/giYUAAH4wB00gBkhARqkwA1GAB4QwCWZpAMhAB6c5ECugmsjA
+CKOwCTPQBJUwBx1gsnw4CXxQr/wwAwCADGzwAGkwA54AAOWQAFPwAzNAox6QAJ5gDqzgtS75FZjg
+tcvgAlOgCn0ABXCHBByFB7EFAAbAnHTQjpzgAoMYCi7QBA+AAs+qDC5wCMiABwjQBnCnr/OZAJ31
+BGKAAFHgkyTQAnfQBAiQswaABGSJEcHwB5twB0wAboO4A0awCcLQZsDACGDwDLlgkcqgChvABAU2
+EJzQBg9gBE/wCcywCX9Qr+qgCGT0Cz7QRfsqm2IwBMUrUJOgCsKQAUPwFf/gCSuMgA85OwnZIBCc
+sIgdEAr/YASeOhBDAG+5UK4AkAs5xwR2ZwHMgFjdIAubAAp4OBDgtgnKkAH4cAj1KhDNW6/AoAgc
+ZgHIoArPwAQdEAw/sA25IBDBoArT+jfOkAoaQVAA0AFzcHB0GBXIsKcYsQx94Ahz8ADbWMIsQQFo
+iBHqIAlcCsM4nMM6vMNzGBAAOw==
+
+--_004_327B51700086C0479B084D86D0B0E45C04889BA80071MAILSERVERa_--

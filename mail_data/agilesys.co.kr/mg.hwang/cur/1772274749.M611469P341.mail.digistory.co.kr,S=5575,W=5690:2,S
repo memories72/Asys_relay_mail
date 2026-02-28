@@ -1,0 +1,115 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id aD9hJD3EomlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:32:29 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 93EB014C39
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:32:29 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1551323347688778727
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.107.6 with SMTP id g6csp493023wmc;
+        Fri, 18 Nov 2016 21:35:25 -0800 (PST)
+X-Received: by 10.55.189.199 with SMTP id n190mr4401645qkf.139.1479533725157;
+        Fri, 18 Nov 2016 21:35:25 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender) smtp.mailfrom=bs.kim@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender)
+Received: by 10.200.39.170 with POP3 id w39mf75316484qtw.3;
+        Fri, 18 Nov 2016 21:35:24 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 25175 invoked by uid 700); 18 Nov 2016 17:20:33 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	18 Nov 2016 17:20:33 +0900
+Received: (qmail 13399 invoked by uid 700); 18 Nov 2016 17:20:32 +0900
+Received: from unknown (HELO PC) (bs.kim@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	18 Nov 2016 17:20:32 +0900
+From: =?utf-8?B?6rmA67O07ISg?= <bs.kim@agilesys.co.kr>
+To: =?utf-8?B?6rmA6rK966+8?= <srvkkm@agilesys.co.kr>,
+	=?utf-8?B?7Zmp66+86rec?= <mg.hwang@agilesys.co.kr>
+Subject: =?utf-8?B?7ZWc6rWt7Ja466Gg7J6s64uoIE5BUyBHYXRld2F5IA==?=
+Date: Fri, 18 Nov 2016 17:20:33 +0900
+Message-ID: <005601d24174$a1ffe6c0$e5ffb440$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: text/calendar; method=REQUEST;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Thread-Index: AdJBdIMj4o4FRLz2Qw6h7yh+2ko1ygAAB6FA
+Content-Language: ko
+
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Korea Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="ê¹ê²½ë¯¼ (srvkkm@agilesys.co.kr)";RSVP=TRUE:mailto:srvkkm@agi
+	lesys.co.kr
+ATTENDEE;CN="í©ë¯¼ê· (mg.hwang@agilesys.co.kr)";RSVP=TRUE:mailto:mg.hwang
+	@agilesys.co.kr
+CLASS:PUBLIC
+CREATED:20161118T082033Z
+DESCRIPTION:ìì¤í ê²í íì¬ í¥í TO-BE ìì¤íì ëí Guide
+	ë¥¼ ë£ê³  ì¶ë¤!!!!!!!!!!!!!!!!!!!!!!!!!\n
+DTEND;TZID="Korea Standard Time":20161121T200000
+DTSTAMP:20161118T082033Z
+DTSTART;TZID="Korea Standard Time":20161121T180000
+LAST-MODIFIED:20161118T082033Z
+LOCATION:ìì´ìì¤4ì¸µ
+ORGANIZER;CN="ê¹ë³´ì ":mailto:bs.kim@agilesys.co.kr
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=ko:íêµ­ì¸ë¡ ì¬ë¨ NAS Gateway 
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000C071CDE9BF41D201000000000000000
+	01000000041EF6735C6CBB342AD66D147EB7E3D13
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><FO
+	NT SIZE=2 FACE="ë§ì ê³ ë">ìì¤í</FONT></SPAN><SPAN LANG="en-us"><
+	FONT SIZE=2 FACE="ë§ì ê³ ë"></FONT></SPAN><SPAN LANG="en-us"> <FONT S
+	IZE=2 FACE="ë§ì ê³ ë">ê²í íì¬</FONT></SPAN><SPAN LANG="en-us"><F
+	ONT SIZE=2 FACE="ë§ì ê³ ë"></FONT></SPAN><SPAN LANG="en-us"> <FONT SI
+	ZE=2 FACE="ë§ì ê³ ë">í¥í</FONT></SPAN><SPAN LANG="en-us"><FONT SIZ
+	E=2 FACE="ë§ì ê³ ë"> TO-BE</FONT></SPAN><SPAN LANG="en-us"> <FONT SIZ
+	E=2 FACE="ë§ì ê³ ë">ìì¤íì</FONT></SPAN><SPAN LANG="en-us"><FON
+	T SIZE=2 FACE="ë§ì ê³ ë"></FONT></SPAN><SPAN LANG="en-us"> <FONT SIZE
+	=2 FACE="ë§ì ê³ ë">ëí</FONT></SPAN><SPAN LANG="en-us"><FONT SIZE=
+	2 FACE="ë§ì ê³ ë"> Guide</FONT></SPAN><SPAN LANG="en-us"><FONT SIZE=2
+	 FACE="ë§ì ê³ ë">ë¥¼</FONT></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FAC
+	E="ë§ì ê³ ë"></FONT></SPAN><SPAN LANG="en-us"> <FONT SIZE=2 FACE="ë§
+	ì ê³ ë">ë£ê³ </FONT></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="ë§
+	ì ê³ ë"></FONT></SPAN><SPAN LANG="en-us"> <FONT SIZE=2 FACE="ë§ì 
+	ê³ ë">ì¶ë¤</FONT></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="ë§ì 
+	ê³ ë">!!!!!!!!!!!!!!!!!!!!!!!!!</FONT></SPAN><SPAN LANG="en-us"></SPAN><
+	/P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

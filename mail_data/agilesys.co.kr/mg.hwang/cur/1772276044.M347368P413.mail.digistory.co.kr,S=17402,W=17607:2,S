@@ -1,0 +1,205 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id QNCjFEzJommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:54:04 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 535DE14C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:54:04 +0000 (UTC)
+Authentication-Results: nas.agilesys.co.kr;
+	dkim=pass (1024-bit key; unprotected) header.d=postman.co.kr header.i=@postman.co.kr header.a=rsa-sha256 header.s=sender header.b=KowL/Gc+;
+	dkim-atps=neutral
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp1872618wme;
+        Tue, 24 Jan 2017 22:48:23 -0800 (PST)
+X-Received: by 10.28.69.202 with SMTP id l71mr22083062wmi.68.1485326902696;
+        Tue, 24 Jan 2017 22:48:22 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of postmaster@send106.postman.co.kr designates 119.207.76.106 as permitted sender) smtp.mailfrom=send106.postman.co.kr;
+       dkim=pass header.i=@postman.co.kr
+Received-SPF: pass (google.com: domain of postmaster@send106.postman.co.kr designates 119.207.76.106 as permitted sender) client-ip=119.207.76.106;
+Received: by 10.28.31.76 with POP3 id f73mf24094661wmf.1;
+        Tue, 24 Jan 2017 22:48:22 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 737 invoked by uid 700); 25 Jan 2017 15:40:28 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	25 Jan 2017 15:40:28 +0900
+Received: (qmail 19035 invoked by uid 700); 25 Jan 2017 15:40:28 +0900
+Received: from unknown (HELO send106.postman.co.kr) (119.207.76.106)
+	by 0 (knetqmail v1.06) with SMTP;
+	25 Jan 2017 15:40:28 +0900
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1485326429;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=J3p3DNVTCKMCx+yRIW0HQG/4sNBzUiL7WSd8DyYNjBw=;
+	b=KowL/Gc+M/9623QHZPfzbMuRj2535J50GTm4AZB4/MqFdnKe4I/0KoKUYlxd7WrF
+	hog9D9Sn3Du/RXI3RD91olRxThGC8s0nT1Ck612gYcU0/HAzTG7/a4Fy3VPuh/Vf5LG
+	7fV1p01C+zeG6nCl8BLziuEyxWMibRjBBLT6j7co=
+From: "=?euc-kr?B?SFBFIEFydWJh?=" <aruba@neodigm.com>
+To: "=?euc-kr?B?sO2wtLTU?=" <mg.hwang@agilesys.co.kr>
+Reply-to: <aruba@neodigm.com>
+Subject: =?euc-kr?B?SFBFIEFydWJhIEZZMTcg?= =?euc-kr?B?xsTGrrPKIMWxv8DHwSC8vLnMs6q/oSDC/Lyu?= =?euc-kr?B?x9jB1rzFvK0gsKi758fVtM+02S4=?=
+Date: Wed, 25 Jan 2017 15:40:29 +0900
+X-WORKER_ID: <single.default_Worker_12>
+X-MAIL_ID: <UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw==>
+X-MEMBER_ID: <TV9JRD04NTg3OTg3Mjk4>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDE2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=klpoiuy&customer_id=8587987298>
+MIME-Version: 1.0
+Message-ID: <201701251540292869@send106.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+<title>Aruba FY17 Partner Kick-off =BC=BC=B9=CC=B3=AA</title>
+</head>
+<body>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border:1px solid #CCC;" width=3D"700">
+<tbody>
+<tr>
+<td style=3D"font-size:0px; line-height:0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><!--=C0=A5=BA=E4-->
+<tbody>
+<tr>
+<td align=3D"right" style=3D"padding:10px 20px; background-color:#e4e4e4; "><font style=3D"font-size:12px; font-family:'Malgun Gothic' ; mso-line-height-rule:exactly; color:444444; line-height:12px; margin:0;">HPE Aruba FY17 Partner Kick-off =BC=BC=B9=CC=B3=AA | <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/web/0123_FY17_KICKOFF_thx.html" style=3D"color:#444444;" target=3D"_blank">Web view</a></font></td>
+</tr>
+<!--=C0=A5=BA=E4-->
+<tr>
+<td style=3D"font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://www.arubanetworks.com/ko/" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_01.jpg" style=3D"display:block;" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_02.jpg" style=3D"display:block;" /></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_03.jpg" style=3D"display:block;" /></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_04.jpg" style=3D"display:block;" /></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/0123_FY17_KICKOFF_session1.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_05.jpg" style=3D"display:block;" /></a></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700">
+<tbody>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_06.jpg" style=3D"display:block;" /></td>
+<td rowspan=3D"2" style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/0123_FY17_KICKOFF_session2.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_07.jpg" style=3D"display:block;" /></a></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_08.jpg" style=3D"display:block;" /></td>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/Iris_License_Agreement.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_09.jpg" style=3D"display:block;" /></a></td>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/IRIS_Form.xlsx" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_10.jpg" style=3D"display:block;" /></a></td>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_11.jpg" style=3D"display:block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_12.jpg" style=3D"display:block;" /></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/0123_FY17_KICKOFF_session3.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_13.jpg" style=3D"display:block;" /></a></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/0123_FY17_KICKOFF_session4.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_14.jpg" style=3D"display:block;" /></a></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_15.jpg" style=3D"display:block;" /></td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"700">
+<tbody>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_16.jpg" style=3D"display:block;" /></td>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttp://event.eventservice.co.kr/aruba/2017/00/file/HPE_Aruba_Corporate_Overview.pdf" target=3D"_blank"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_17.jpg" style=3D"display:block;" /></a></td>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_18.jpg" style=3D"display:block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"margin:0px; padding:0px; font-size:0px; line-height:0px;"><img alt=3D"" border=3D"0" src=3D"http://event.eventservice.co.kr/aruba/2017/00/0123_hpearuba_thanks_19.jpg" style=3D"display:block;" /></td>
+</tr>
+<!-- Footer Start -->
+<tr>
+<td bgcolor=3D"#e4e4e4" style=3D"padding:15px 0;">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"92%">
+<tbody>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+</tr>
+<tr>
+<td valign=3D"top" width=3D"420"><font style=3D"font-family: Malgun Gothic, arial ; font-size: 12px;line-height:18px; color:#444444;">=BE=C6=B7=E7=B9=D9 =C8=DE=B7=BF=C6=D1=C4=BF=B5=E5 =BF=A3=C5=CD=C7=C1=B6=F3=C0=CC=C1=EE =C4=C4=C6=DB=B4=CF <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxMA=3D=3D&URL=3Dhttp://www.arubanetworks.com/ko/" style=3D"color:#444444;" target=3D"_blank">http://www.arubanetworks.com/ko/</a><br />
+=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BF=B5=B5=EE=C6=F7=B1=B8 =C0=C7=BB=E7=B4=E7=B4=EB=B7=CE 83, =C7=D1=B1=B9=C8=DE=B7=BF=C6=D1=C4=BF=B5=E5=BA=F4=B5=F9</font></td>
+<td valign=3D"top" width=3D"143">
+<div align=3D"right">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"92">
+<tbody>
+<tr>
+<td width=3D"21">
+<p><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxMQ=3D=3D&URL=3Dhttps://www.facebook.com/ArubaKorea/?fref=3Dts" target=3D"_blank"><img alt=3D"facebook" border=3D"0" height=3D"21" id=3D"_x0000_i1026" src=3D"http://page.arubanetworks.com/rs/arubanetworks/images/facebook_new.png" width=3D"21" /> </a></p>
+</td>
+<td width=3D"21">
+<p><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxMg=3D=3D&URL=3Dhttp://edm.arubanetworks.com/f00f20L001004U00RvRe000" target=3D"_blank"><img alt=3D"twitter" border=3D"0" height=3D"21" id=3D"_x0000_i1027" src=3D"http://page.arubanetworks.com/rs/arubanetworks/images/tweet_new.png" width=3D"21" /> </a></p>
+</td>
+<td width=3D"21">
+<p><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxMw=3D=3D&URL=3Dhttp://edm.arubanetworks.com/iffR0vU402L002000000R00" target=3D"_blank"><img alt=3D"linked in" border=3D"0" height=3D"21" id=3D"_x0000_i1028" src=3D"http://page.arubanetworks.com/rs/arubanetworks/images/linkedin_new.png" width=3D"21" /> </a></p>
+</td>
+<td width=3D"21">
+<p><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxNA=3D=3D&URL=3Dhttps://www.youtube.com/channel/UCi1R6U8kb8E-froleTOZ43A" target=3D"_blank"><img alt=3D"YouTube" border=3D"0" height=3D"21" id=3D"_x0000_i1029" src=3D"http://page.arubanetworks.com/rs/arubanetworks/images/youtube_new.png" width=3D"21" /> </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2"><font style=3D"font-family: Malgun Gothic, arial ; font-size: 11px; color:#444444;">Copyright &copy; 2016. Aruba, a Hewlett Packard Enterprise company. All right reserved.<br />
+1334 Crossman Ave., Sunnyvale, ca 94089-1113, +1.408.227.2500 </font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //Footer End -->
+</tbody>
+</table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"670">
+<tbody>
+<tr>
+<td align=3D"center" height=3D"30"><font size=3D"2" style=3D"font-family:Verdana; font-weight:bold; font-size:12px">=B4=F5 =C0=CC=BB=F3 =BC=F6=BD=C5=C0=BB =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1D&Q0lEPTAxNQ=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dklpoiuy&amp;customer_id=3D8587987298&amp;reject_script=3DK">=BC=F6=BD=C5=B0=C5=BA=CE</a>=B8=A6 =C5=AC=B8=AF=C7=D8=C1=D6=BC=BC=BF=E4. </font></td>
+</tr>
+</tbody>
+</table>
+<div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NTg3OTg3Mjk4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=3D&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDEyNTEwMDAwOTg4ODc2Nw=3D=3D&VEM9MjAxNzAyMDE=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>

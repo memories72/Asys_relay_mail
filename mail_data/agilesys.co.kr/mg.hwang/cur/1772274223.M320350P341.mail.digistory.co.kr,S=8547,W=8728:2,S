@@ -1,0 +1,181 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id eHsIEy/ComlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:43 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 4D2C314C34
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:43 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1542780312054754739
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Tue, 16 Aug 2016
+ 09:42:39 +0900
+From: =?ks_c_5601-1987?B?vLrBvsiv?= <hwany@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?sejH9sij?= <hyunho.kim@hpe.com>
+CC: =?ks_c_5601-1987?B?s+vFwsij?= <tae-ho.noh@hpe.com>,
+	=?ks_c_5601-1987?B?vbrF5LiuwfbGwA==?= <storage@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK259sbA?= <server@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wOW8vL+1?= <zero@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Tue, 16 Aug 2016 09:42:39 +0900
+Subject: =?ks_c_5601-1987?B?Q0ogw+LA1MDaILjttNzA1LTPtNkuICg4LzE2KQ==?=
+Thread-Topic: =?ks_c_5601-1987?B?Q0ogw+LA1MDaILjttNzA1LTPtNkuICg4LzE2KQ==?=
+Thread-Index: AQHR91cXtyb7aDfBAUSeRWcxqssPCA==
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04F2EEE06690@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04F2EEE06690MAILSERVERa_"
+MIME-Version: 1.0
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE06690MAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5C4gv6HAzL3DvbogvLrBvsivwNS0z7TZLg0KDQo4v/kgMTbAzyAoyK0pIMPiwNTA
+2iC47bTcILq4s7u15biztM+02S4NCg0KDQoNCg0KDQpbw+LA1MDOv/ggwaS6uF0NCg0KDQoNCkFT
+WVMNCg0KDQoNCg0KDQotILy6wb7IryA6IDAxMC00NzMxLTAyMDENCg0KLSAgaHdhbnlAYWdpbGVz
+eXMuY28ua3I8bWFpbHRvOmh3YW55QGFnaWxlc3lzLmNvLmtyPg0KDQoNCg0KLSDAzMHYyPEgOiAw
+MTAtNzM1My0wMzI4DQoNCi0ganVuaTMyOEBhZ2lsZXN5cy5jby5rcjxtYWlsdG86anVuaTMyOEBh
+Z2lsZXN5cy5jby5rcj4NCg0KDQoNCi0gsO3Gx7ytIDogMDEwLTI3MTUtNzM1OA0KDQotIHZrc3Rq
+QGFnaWxlc3lzLmNvLmtyPG1haWx0bzp2a3N0akBhZ2lsZXN5cy5jby5rcj4NCg0KDQoNCg0KDQpb
+uea5rsDPwNpdDQoNCg0KDQotIDIwMTaz4iA4v/kgMTbAzyjIrSkgMTQ6MDAgfg0KDQoNCg0KDQrI
+rsDOus7FubXluLO0z7TZLg0KDQqwqLvnx9W0z7TZLg0KDQorfn4rfn4rfn4rfn4rfn4rfn4rfn4r
+fn4rfn4rfn4rDQoowdYpv6HAzL3DvbogvK268b26u+e+97rOILD6wOUgvLogwb4gyK8NCrytv+8g
+vK3DyrG4ILndxve1vyA2Ny0zufjB9iC067iiuvS1+SA0w/4gMTM3LTgwNA0KVGVsLiAwNzAtNzEx
+NC0wMDQ4IE1vYmlsZS4gMDEwLTQ3MzEtMDIwMQ0KRmF4LiAoMDIpNTg2LTUwNzAgRS1tYWlsLiBo
+d2FueUBhZ2lsZXN5cy5jby5rcjxodHRwOi8va21zLmFnaWxlc3lzLmNvLmtyL293YS9yZWRpci5h
+c3B4P0M9S3JnaTdWWlIya3VkalV6Zzk3SkloU0twdVN1djY5QklnTkYwZjZGUjRnNGxJVUZYNkRP
+aHhGdGdyNk1lSF9GdTczaUxheVhfRUZNLiZVUkw9bWFpbHRvJTNhcyU0MGFnaWxlc3lzLmNvLmty
+Pg0KK35+K35+K35+K35+K35+K35+K35+K35+K35+K35+Kw0KDQo=
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE06690MAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-SIZE: x-small; FONT-FAMILY: Tahoma; COLOR: #000000; DIRE=
+CTION: ltr">
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma">=BE=C8=
+=B3=E7=C7=CF=BC=BC=BF=E4. =BF=A1=C0=CC=BD=C3=BD=BA =BC=BA=C1=BE=C8=AF=C0=D4=
+=B4=CF=B4=D9.</font></div>
+<div dir=3D"ltr"><font face=3D"tahoma"></font>&nbsp;</div>
+<div dir=3D"ltr"><font face=3D"tahoma">8=BF=F9 16=C0=CF (=C8=AD) =C3=E2=C0=
+=D4=C0=DA =B8=ED=B4=DC =BA=B8=B3=BB=B5=E5=B8=B3=B4=CF=B4=D9.</font></div>
+<div dir=3D"ltr"><font face=3D"tahoma">
+<p><strong></strong>&nbsp;</p>
+<p><strong></strong>&nbsp;</p>
+<p><strong>[=C3=E2=C0=D4=C0=CE=BF=F8 =C1=A4=BA=B8]</strong></p>
+<p>&nbsp;</p>
+<p><font face=3D"tahoma"></font><br>
+<strong>ASYS</strong></p>
+<p>&nbsp;</p>
+<p><font face=3D"tahoma"></font>&nbsp;</p>
+<font face=3D"tahoma">
+<p>-&nbsp;=BC=BA=C1=BE=C8=AF : <span lang=3D"EN-US">010-4731-0201</span></p=
+>
+<p><span lang=3D"EN-US"></span>-&nbsp; <a href=3D"mailto:hwany@agilesys.co.=
+kr"><font color=3D"#0000ff">hwany@agilesys.co.kr</font></a></p>
+<p><font face=3D"tahoma"></font></font><font color=3D"#0066cc" face=3D"taho=
+ma"></font>&nbsp;</p>
+<p></p>
+<p>-&nbsp;=C0=CC=C1=D8=C8=F1 : 010-7353-0328</p>
+<p>- juni328<a href=3D"mailto:juni328@agilesys.co.kr"><font color=3D"#0066c=
+c">@agilesys.co.kr</font></a></p>
+<p><font face=3D"tahoma"></font>&nbsp;</p>
+<font face=3D"tahoma">
+<p>-&nbsp;=B0=ED=C6=C7=BC=AD : 010-2715-7358</p>
+<p>- vkstj<a href=3D"mailto:vkstj@agilesys.co.kr"><font color=3D"#0066cc">@=
+agilesys.co.kr</font></a></p>
+</font><font color=3D"#0066cc" face=3D"tahoma"></font>
+<p><font color=3D"#0066cc" face=3D"tahoma"></font>&nbsp;</p>
+<p><font color=3D"#0066cc"></font>&nbsp;</p>
+<p><font face=3D"tahoma"><strong>[=B9=E6=B9=AE=C0=CF=C0=DA]</strong></p>
+<div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><font face=3D"tahoma">- </font>2016=B3=E2 8=BF=F9 16=C0=CF(=C8=AD) 14:=
+00 ~ </div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div><font face=3D"tahoma">=C8=AE=C0=CE=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9=
+.</font></div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div><font face=3D"tahoma">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</font></div>
+</div>
+</font></font><font face=3D"tahoma"></font></div>
+<div></div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<div><font size=3D"2" face=3D"Tahoma">
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">&#43;~~&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">(</span></b><b><span style=
+=3D"COLOR: black">=C1=D6<span lang=3D"EN-US">)</span>=BF=A1=C0=CC=BD=C3=BD=
+=BA</span></b><span style=3D"COLOR: black"> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=
+=BA=CE&nbsp;=B0=FA=C0=E5&nbsp;<strong>=BC=BA =C1=BE =C8=AF</strong></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span style=3D"COLOR: black">=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=
+=B5=BF<span lang=3D"EN-US"> 67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=
+=F9<span lang=3D"EN-US"> 4</span>=C3=FE<span lang=3D"EN-US"> 137-804</span>=
+</span><span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=
+=B8=B2; COLOR: black"></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span lang=3D"EN-US" style=3D"COLOR: black">Tel. 070-7114-0048 <strong>Mobi=
+le. 010-4731-0201</strong></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span lang=3D"EN-US" style=3D"COLOR: black"></span><span lang=3D"EN-US" sty=
+le=3D"COLOR: black">Fax. (02)586-5070<strong> E-mail. hwany</strong></span>=
+<span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=B8=B2; C=
+OLOR: black"><a href=3D"http://kms.agilesys.co.kr/owa/redir.aspx?C=3DKrgi7V=
+ZR2kudjUzg97JIhSKpuSuv69BIgNF0f6FR4g4lIUFX6DOhxFtgr6MeH_Fu73iLayX_EFM.&amp;=
+URL=3Dmailto%3as%40agilesys.co.kr"><span style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: '=B8=BC=C0=BA =B0=ED=B5=F1'; COLOR: black"><strong>@agilesys.co.kr</st=
+rong></span></a></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">&#43;~~&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b></p>
+</font></div>
+<div><font size=3D"2" face=3D"Tahoma">
+<div dir=3D"ltr">&nbsp;</div>
+</font></div>
+</div>
+</body>
+</html>
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE06690MAILSERVERa_--

@@ -1,0 +1,61 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id +P7bIkTGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:41:08 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 8DC5614C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:41:08 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1554102280903960307
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp546828wma;
+        Sun, 18 Dec 2016 16:40:44 -0800 (PST)
+X-Received: by 10.28.63.16 with SMTP id m16mr11609877wma.113.1482108043032;
+        Sun, 18 Dec 2016 16:40:43 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 59.29.225.251 is neither permitted nor denied by best guess record for domain of 22-0-20653-0-2-1-1-agilesys_co_kr@edm.hpec.co.kr) smtp.mailfrom=22-0-20653-0-2-1-1-agilesys_co_kr@edm.hpec.co.kr
+Received-SPF: neutral (google.com: 59.29.225.251 is neither permitted nor denied by best guess record for domain of 22-0-20653-0-2-1-1-agilesys_co_kr@edm.hpec.co.kr) client-ip=59.29.225.251;
+Received: by 10.28.44.66 with POP3 id s63mf25695682wms.1;
+        Sun, 18 Dec 2016 16:40:42 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 31331 invoked by uid 700); 19 Dec 2016 09:30:31 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	19 Dec 2016 09:30:31 +0900
+Received: (qmail 18378 invoked by uid 700); 19 Dec 2016 09:30:31 +0900
+Received: from unknown (HELO hpec.co.kr) (59.29.225.251)
+	by 0 (knetqmail v1.06) with SMTP;
+	19 Dec 2016 09:30:31 +0900
+Message-ID: <C_M_M_I_D.22_2_0_0_20653.1.1482107431@hpec.co.kr>
+From: =?euc-kr?B?sPy4rsDa?= <sung-sil.kim@hpe.com>
+To: =?euc-kr?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>
+Subject: =?euc-kr?B?W8fRsblIUEVdILz2sK27/bTUwMcgvPawrb3Fw7sgyK7AziC+yLO7uN7Az8DUtM+02S4=?=
+Date:  Mon, 19 Dec 2016 09:30:30 +0900
+MIME-Version: 1.0
+Reply-To: =?euc-kr?B?sPy4rsDa?= <sung-sil.kim@hpe.com>
+Errors-To: =?euc-kr?B?sPy4rsDa?= <sung-sil.kim@hpe.com>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><meta http-equiv="Content-Type" content="text/html; charset=euc-kr" /><title>ï¿½Ì¸ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½</title></HEAD><STYLE type=text/css>TABLE {	font-family:"HP Simplified", "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½", "HP Simplified Light";	font-size: 12px;}A {font-family:"HP Simplified", "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½", "HP Simplified Light"; text-decoration: none;}A:active {color: #333;}A:link {color: #333;}A:visited {color: #666;}.title{	font-family:"HP Simplified", "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½", "HP Simplified Light";	font-size: 16px;	font-weight:bold;	color:#555;	border-left:10px solid #3C9;	border-bottom:1px solid #3C9;	padding-left:15px;}</STYLE><BODY><TABLE Width="600" Border="0" Cellpadding="0" Cellspacing="0" align="center"><TR>	<TD><a href="https://www.h
+ petraining.co.kr/" target="_blank"><IMG SRC="http://www.hpetraining.co.kr/images/member/atmail_top.jpg" alt="HPE Education Services" height="60" border="0" /></A></TD></TR><TR>	<TD>    	<table width="600" height="200" border="0" cellpadding="0" cellspacing="0" bgcolor="#2673a8">        <tr>            <td width="330" height="100" align="left">            <IMG SRC="http://www.hpetraining.co.kr/images/member/atmail_bnr_left_top_ccm.jpg" width="330" height="100" border="0" align="top" /></td>            <td rowspan="2" width="270" height="200" align="right">            <IMG SRC="http://www.hpetraining.co.kr/images/member/atmail_bnr_right_ccm.jpg" width="270" height="200" border="0" /></td>        </tr>        <tr>            <td width="330" height="100" style="padding-left:26px; color:#FFF; line-height:18px; font-size:13px;">            ï¿½Ñ±ï¿½HPE ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.<br /><font color="#B0FF62">È²ï¿½Î±ï¿½</font>ï¿½
+ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <font color="#FFCC00">ï¿½ï¿½ï¿½ï¿½ï¿½</font>ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½å¸®ï¿½ï¿½<br /> ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È³ï¿½ï¿½ï¿½ ï¿½å¸³ï¿½Ï´ï¿½.</td>        </tr>        </table>	</TD></TR><TR>    <TD height="10"></TD></TR><TR>    <TD height="30" class="title">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã» ï¿½ï¿½ï¿½ï¿½</TD></TR><TR>	<TD height="10"></TD></TR><TR>
+    <TD>    	<table width="600" cellpadding="5" cellspacing="0" style="border-top:2px solid #CCC; border-bottom:2px solid #CCC; line-height:20px;">        <tr>            <th width="140" bgcolor="#E8E8E8" style="border-bottom:1px solid #CCC;">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</th>            <td width="460" style="padding-left:10px; border-bottom:1px solid #CCC;">HPE Aruba ï¿½Ç¹ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</td>       	</tr>       	<tr>            <th bgcolor="#E8E8E8" style="border-bottom:1px solid #CCC;">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</th>            <td style="padding-left:10px; border-bottom:1px solid #CCC;">2016-12-26~2016-12-28</td>        </tr>        <tr>            <th bgcolor="#E8E8E8" style="border-bottom:1px solid #CCC;">ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½</th>            <td style="padding-left:10px; border-bottom:1px solid #CCC;">09:00~18:00</td>        </tr> 
+        <tr>            <th bgcolor="#E8E8E8">ï¿½ï¿½ï¿½ï¿½ï¿½È³ï¿½</th>            <td style="padding-left:10px;">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·Îºï¿½ï¿½ï¿½ 6~7ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ smsï¿½ï¿½ ï¿½Ë·ï¿½ï¿½å¸³ï¿½Ï´ï¿½.</td>        </tr>        </table>	</TD></TR><TR>    <TD height="20"></TD></TR><TR>    <TD height="30" class="title">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ ï¿½È³ï¿½</TD></TR><TR>	<TD height="10"></TD></TR><TR>    <TD>   	 	<table width="600" cellpadding="5" cellspacing="0" style="border-top:2px solid #CCC; border-bottom:2px solid #CCC; line-height:20px;">        <tr>            <th width="200" style="padding-left:10px; border-bottom:1px solid #CCC;" bgcolor="#E8E8E8">HPE ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½</th>            <td width
+ ="400" style="padding-left:10px; border-bottom:1px solid #CCC;">HPE ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½Ï¼Ì½ï¿½ï¿½Ï´ï¿½.</td>        </tr>        <tr>            <td colspan="2" style="padding-left:10px; border-bottom:1px solid #CCC;">                <b>E-Mail :</b> sung-teck.cho@hpe.com</td>        </tr>        <tr>            <td colspan="2" style="padding-left:10px; padding-top:5px; padding-bottom:5px;">                ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <font color="#EB5F01"><b>ï¿½ï¿½ï¿½ï¿½ï¿½</b></font> ï¿½ï¿½ï¿½ï¿½ï¿½Ì½Ê´Ï´ï¿½.<br />                ï¿½ï¿½ï¿½ï¿½ï¿½È²ï¿½ï¿½ Webï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï½Ã°ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½è¼ºï¿½ï¿½ ï¿½ë¸®(<a href="mailto:sung-sil.kim@hpe.com"
+ style="color:#000;">sung-sil.kim@hpe.com</a>, 02-3470-2240)ï¿½ï¿½ï¿½ï¿½<br />È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ê½Ã¿ï¿½.</td>        </tr>        </table>	</TD></TR><TR>    <TD height="15"></TD></TR><TR>    <TD height="30" class="title">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½È³ï¿½</TD></TR><TR>	<TD height="10"></TD></TR><TR>    <TD>    	<table width="600" cellpadding="5" cellspacing="0" style="border-top:2px solid #CCC; border-bottom:2px solid #CCC; line-height:20px;">        <tr>            <td bgcolor="#E8E8E8" style="border-bottom:1px solid #CCC; padding:10px;"><b>* ï¿½ï¿½ï¿½ï¿½Ã³ È®ï¿½ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.</b></td>            <td bgcolor="#E8E8E8" style="border-bottom:1px solid #CCC; padding:10px;" align="right">[ ï¿½ï¿½ï¿½ï¿½ : mg.hwang@agilesys.co.kr / ï¿½ï¿½È­ : 010-3191-0811 ]</b></td>        </tr>        <tr>            <td colspan="2">ï¿½
+ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î¿ï¿½ï¿½ï¿½ ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Òµï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, <u>ï¿½ï¿½Òµï¿½ ï¿½ï¿½ì¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 6~7ï¿½ï¿½ ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</u>ï¿½ï¿½ ï¿½å¸³ï¿½Ï´ï¿½.</td>        </tr>        </table>	</TD></TR><TR>    <TD height="10"></TD></TR><TR>	<TD>		<table width="100%" border="0" cellspacing="0" cellpadding="10" height="60">		<tr>			<td width="50%" align="center" style="color:#FFF; background:rgba(10,98,120,1);background:-webkit-gradient(linear,right bottom,left top,color-stop(1.82%,rgba(6,155,194,1)),color-stop(100%,rgba(10,98,120,1)));background:
+ -webkit-linear-gradient(bottom right,rgba(6,155,194,1) 1.82%,rgba(10,98,120,1) 100%);background:-moz-linear-gradient(bottom right,rgba(6,155,194,1) 1.82%,rgba(10,98,120,1) 100%);background:-o-linear-gradient(bottom right,rgba(6,155,194,1) 1.82%,rgba(10,98,120,1) 100%);background:-ms-linear-gradient(bottom right,rgba(6,155,194,1) 1.82%,rgba(10,98,120,1) 100%);background:linear-gradient(to top left,rgba(6,155,194,1) 1.82%,rgba(10,98,120,1) 100%);filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#069bc2', endColorstr='#0a6278',GradientType=1);"><a href="https://www.hpetraining.co.kr/bbsQuestion/bbsQuestionInput.do" title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½" target="_blank" style="color:#FFF; font-size:14px;"><b>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½</b></td>
+			<td width="50%" align="center" style="background:rgba(55,14,93,1);background:-webkit-gradient(linear,right bottom,left top,color-stop(1.82%,rgba(138,46,225,1)),color-stop(100%,rgba(55,14,93,1)));background:-webkit-linear-gradient(bottom right,rgba(138,46,225,1) 1.82%,rgba(55,14,93,1) 100%);background:-moz-linear-gradient(bottom right,rgba(138,46,225,1) 1.82%,rgba(55,14,93,1) 100%);background:-o-linear-gradient(bottom right,rgba(138,46,225,1) 1.82%,rgba(55,14,93,1) 100%);background:-ms-linear-gradient(bottom right,rgba(138,46,225,1) 1.82%,rgba(55,14,93,1) 100%);background:linear-gradient(to top left,rgba(138,46,225,1) 1.82%,rgba(55,14,93,1) 100%);filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr='#8a2ee1', endColorstr='#370e5d',GradientType=1); color:#FFF;"><a href="https://www.hpetraining.co.kr/faq/faqList.do" title="ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½" target="_blank" style="color:#FFF; font-size:14px;"><b>ï¿½ï¿½ï¿½ï¿½ï¿½�
+ �´ï¿½ï¿½ï¿½ï¿½ï¿½</b></a></td>		</tr>		</table>	</TD></TR><TR>    <TD bgcolor="#000000" style="line-height:18px; color:#FFF; padding:15px 25px 5px 25px; font-size:11px; letter-spacing:-1px;">ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½È³ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ È¤ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.<br>    	ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½Ê°Å³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <a href="https://www.hpetraining.co.kr/main.do?se=y" target="_blank"><font color="#02b288">[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å»ï¿½ï¿½]</font></a>ï¿�
+ �ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.<br /> HPE Educationï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½Õ´Ï´ï¿½.<br />    	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ÜºÎ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½Ï´ï¿½ HPE Educationï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï°ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¸ï¿½ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. </td></TR><TR>    <TD bgcolor="#000000" height="35" style="text-align:center; color:#FFF; letter-spacing:0.5px;">ï¿½ï�
+ �½ Copyright 2016 Hewlett Packard Enterprise Development LP  TEL. 1661-9080 FAX. 02)3470-2200</TD></TR></TABLE></BODY></HTML>
+
+<img src="http://edm.hpec.co.kr:80/bin/checker?mode=6&dtime=0&module=22&service=2&etime=201612290930&mailidx=0&seqidx=1&dmidx=20653&emidx=0" width=0 height=0>
+

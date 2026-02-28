@@ -1,0 +1,242 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id aGcYNmLFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:22 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id DCC7814C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:22 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552942134637983504
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp370872wma;
+        Mon, 5 Dec 2016 21:13:02 -0800 (PST)
+X-Received: by 10.28.66.194 with SMTP id k63mr949136wmi.140.1481001182267;
+        Mon, 05 Dec 2016 21:13:02 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of khjang@agilesys.co.kr as permitted sender) smtp.mailfrom=khjang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of khjang@agilesys.co.kr as permitted sender)
+Received: by 10.28.44.66 with POP3 id s63mf163429279wms.0;
+        Mon, 05 Dec 2016 21:13:01 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 1237 invoked by uid 700); 6 Dec 2016 14:10:27 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	6 Dec 2016 14:10:27 +0900
+Received: (qmail 31870 invoked by uid 700); 6 Dec 2016 14:10:26 +0900
+Received: from unknown (HELO JangPC) (khjang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	6 Dec 2016 14:10:26 +0900
+From: =?ks_c_5601-1987?B?wOWw5sij?= <khjang@agilesys.co.kr>
+To: <ts.kim@hpe.com>
+Cc: =?ks_c_5601-1987?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?J8DMwb689ic=?= <jslee@agilesys.co.kr>
+Subject: =?ks_c_5601-1987?B?W7+hwMy9w726XSBMR1UrIFZESSCw/LfDIE9JRCC5rsDH?=
+Date: Tue, 6 Dec 2016 14:10:29 +0900
+Message-ID: <002901d24f7f$10052820$300f7860$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_002A_01D24FCA.7FEF6830"
+Thread-Index: AdJPfCZbyzUwMRhMRFuqsviUBuiabA==
+Content-Language: ko
+X-Antivirus: avast! (VPS 161205-0, 2016-12-05), Outbound message
+X-Antivirus-Status: Clean
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_002A_01D24FCA.7FEF6830
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvcq0z7HuLCC/ocDMvcO9uiDA5bDmyKPA1LTPtNkuDQoNCiANCg0KtNm4p8DMIL7GtM+2
+8yCw7bC0u+fD+CC/5MO7v6EgwMfH2CC+xrehv80gsLDAuiBPSUSwqsC7IMD8tN7Hz7+0vcC0z7TZ
+Lg0KDQoNCk1lbW9yeSBVc2VkDQoNCi4xLjMuNi4xLjQuMS4yNTUwNi4yLjYuMS4xLjEuMS44DQoN
+Cg0KTWVtb3J5IFRvdGFsDQoNCi4xLjMuNi4xLjQuMS4yNTUwNi4yLjYuMS4xLjEuMS4xMA0KDQoN
+CkNQVSBVc2VkDQoNCi4xLjMuNi4xLjQuMS4yNTUwNi4yLjYuMS4xLjEuMS42DQoNCiANCg0KwOW6
+8bjwtai6sLfOILvzvLzGrrius9G59rChILTZuKW1pSC48LWourAgs9G59rimILDtsLTD+L+hvK0g
+v+TDu8fVtM+02S4NCg0KTWVtb3J5IFVzZWQgICAgLjEuMy42LjEuNC4xLjI1NTA2LjIuNi4xLjEu
+MS4xLjguTg0KDQpNZW1vcnkgVG90YWwgICAgLjEuMy42LjEuNC4xLjI1NTA2LjIuNi4xLjEuMS4x
+LjEwLk4NCg0KQ1BVIFVzZWQgICAgICAgICAuMS4zLjYuMS40LjEuMjU1MDYuMi42LjEuMS4xLjEu
+Ni5ODQoNCiANCg0KSFAgRkYgNTkzMC0yU2xvdCsyUVNGUCsgLyBIUEUgNTEzMCA0OEcgNFNGUCsg
+MS1zbG90IEhJIFN3aXRjaA0KDQrApyC1zrChwfYguPC1qL+hILTrx9EgT0lEILvzvLzGrrius9G5
+9ihOKSCwqiCw+MCvILrOxbm15biztM+02S4NCg0KIA0KDQqwqLvnx9W0z7TZLg0KDQogDQoNCj09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCijB1im/ocDMvcO9
+ug0KvNa357zHu+e+97q7us4vTkm75773xsAgsPrA5SDA5bDmyKMNCrytv++9wyC8rcPKsbggud3G
+97W/IDY3LTO5+MH2ILTruKK69LX5IDTD/g0KVEVMIDogMDcwLTcxMTQtMDA4MiAgIEZBWCA6IDAy
+LTU4Ni01MDcwDQpNb2JpbGUgOiAwMTAtNTQ4NC0zMDI2DQpFLW1haWwgOiAgPG1haWx0bzpraGph
+bmdAYWdpbGVzeXMuY28ua3I+IGtoamFuZ0BhZ2lsZXN5cy5jby5rcg0KDQogDQoNCg0KDQotLS0N
+CsDMIMDMuN7Az8C6IEF2YXN0IL7Ixry52cDMt6+9uiC80sfBxq6//r7ut84gudnAzLevvbogsMu7
+57imIL/Pt+HH373AtM+02S4NCmh0dHBzOi8vd3d3LmF2YXN0LmNvbS9hbnRpdmlydXMNCg==
+------=_NextPart_000_002A_01D24FCA.7FEF6830
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3D"#0563C1" v=
+link=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal>=BE=C8=B3=
+=E7=C7=CF=BD=CA=B4=CF=B1=EE<span lang=3DEN-US>, </span>=BF=A1=C0=CC=BD=C3=
+=BD=BA =C0=E5=B0=E6=C8=A3=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p><=
+/span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal>=B4=D9=B8=A7=C0=CC =BE=C6=B4=CF=B6=F3 =B0=ED=B0=B4=
+=BB=E7=C3=F8 =BF=E4=C3=BB=BF=A1 =C0=C7=C7=D8 =BE=C6=B7=A1=BF=CD =B0=B0=C0=
+=BA <span lang=3DEN-US>OID</span>=B0=AA=C0=BB =C0=FC=B4=DE=C7=CF=BF=B4=BD=
+=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><table class=3DMso=
+NormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D351 style=3D=
+'width:263.15pt;margin-left:-.75pt;border-collapse:collapse'><tr style=3D'h=
+eight:16.5pt'><td width=3D111 nowrap style=3D'width:83.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'tex=
+t-align:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-size:11.0pt;color:#4472C4'>Memory Used<o:p></o:p></s=
+pan></p></td><td width=3D240 nowrap style=3D'width:180.15pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'te=
+xt-align:left;text-autospace:ideograph-other;word-break:keep-all'><span lan=
+g=3DEN-US style=3D'font-size:11.0pt;color:#4472C4'>.1.3.6.1.4.1.25506.2.6.1=
+=2E1.1.1.8<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td w=
+idth=3D111 nowrap style=3D'width:83.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-a=
+utospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;color:#4472C4'>Memory Total<o:p></o:p></span></p></td><td w=
+idth=3D240 nowrap style=3D'width:180.15pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D=
+'font-size:11.0pt;color:#4472C4'>.1.3.6.1.4.1.25506.2.6.1.1.1.1.10<o:p></o:=
+p></span></p></td></tr><tr style=3D'height:16.5pt'><td width=3D111 nowrap s=
+tyle=3D'width:83.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:#4472C4'>CPU Used<o:p></o:p></span></p></td><td width=3D240 nowrap styl=
+e=3D'width:180.15pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:#4472C4'>.1.3.6.1.4.1.25506.2.6.1.1.1.1.6<o:p></o:p></span></p></td></t=
+r></table><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span><=
+/p><p class=3DMsoNormal>=C0=E5=BA=F1=B8=F0=B5=A8=BA=B0=B7=CE =BB=F3=BC=BC=
+=C6=AE=B8=AE=B3=D1=B9=F6=B0=A1 =B4=D9=B8=A5=B5=A5 =B8=F0=B5=A8=BA=B0 =B3=D1=
+=B9=F6=B8=A6 =B0=ED=B0=B4=C3=F8=BF=A1=BC=AD =BF=E4=C3=BB=C7=D5=B4=CF=B4=D9<=
+span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US>Memory Used&nbsp;&nbsp;&nbsp; .1.3.6.1.4.1.25506.2.6.1.1.1.1.8.<b><sp=
+an style=3D'color:red'>N</span></b><o:p></o:p></span></p><p class=3DMsoNorm=
+al><span lang=3DEN-US>Memory Total&nbsp;&nbsp;&nbsp; .1.3.6.1.4.1.25506.2.6=
+=2E1.1.1.1.10.<b><span style=3D'color:red'>N</span></b><o:p></o:p></span></=
+p><p class=3DMsoNormal><span lang=3DEN-US>CPU Used&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; .1.3.6.1.4.1.25506.2.6.1.1.1.1.6.<b><span style=3D'=
+color:red'>N</span></b><o:p></o:p></span></p><p class=3DMsoNormal><span lan=
+g=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US>HP FF 5930-2Slot+2QSFP+ / HPE 5130 48G 4SFP+ 1-slot HI Switch<o:p></o:p>=
+</span></p><p class=3DMsoNormal>=C0=A7 =B5=CE=B0=A1=C1=F6 =B8=F0=B5=A8=BF=
+=A1 =B4=EB=C7=D1 <span lang=3DEN-US>OID </span>=BB=F3=BC=BC=C6=AE=B8=AE=B3=
+=D1=B9=F6<span lang=3DEN-US>(<b><span style=3D'color:red'>N</span></b>) </s=
+pan>=B0=AA =B0=F8=C0=AF =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN=
+-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nb=
+sp;</o:p></span></p><p class=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<spa=
+n lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;background:white'><span lang=3DEN-US style=3D'font-size:12.0=
+pt;font-family:=B1=BC=B8=B2;color:black'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left;line-height:18.0pt;background:white'><b><span=
+ lang=3DEN-US style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:black=
+'>(</span></b><b><span style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;co=
+lor:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA<span l=
+ang=3DEN-US><br></span></span></b><span style=3D'font-size:9.0pt;font-famil=
+y:=B1=BC=B8=B2;color:black'>=BC=D6=B7=E7=BC=C7=BB=E7=BE=F7=BA=BB=BA=CE<span=
+ lang=3DEN-US>/NI</span>=BB=E7=BE=F7=C6=C0 =B0=FA=C0=E5 =C0=E5=B0=E6=C8=A3<=
+span lang=3DEN-US><br></span>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=
+=C6=F7=B5=BF<span lang=3DEN-US> 67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=
+=B5=F9<span lang=3DEN-US> 4</span>=C3=FE<span lang=3DEN-US><br>TEL : 070-71=
+14-0082&nbsp;&nbsp; FAX : 02-586-5070<br>Mobile : 010-5484-3026<br>E-mail :=
+ </span></span><span lang=3DEN-US><a href=3D"mailto:khjang@agilesys.co.kr">=
+<span style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:blue'>khjang@=
+agilesys.co.kr</span></a></span><span lang=3DEN-US style=3D'color:#1F497D'>=
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</=
+o:p></span></p></div>
+<br /><br />
+<hr style=3D'border:none; color:#909090; background-color:#B0B0B0; height: =
+1px; width: 99%;' />
+<table style=3D'border-collapse:collapse;border:none;'>
+	<tr>
+		<td style=3D'border:none;padding:0px 15px 0px 8px'>
+			<a href=3D"https://www.avast.com/antivirus">
+				<img border=3D0 src=3D"http://static.avast.com/emails/avast-mail-stamp.=
+png" alt=3D"Avast logo" />
+			</a>
+		</td>
+		<td>
+			<p style=3D'color:#3d4d5a; font-family:"Calibri","Verdana","Arial","Helv=
+etica"; font-size:12pt;'>
+				=C0=CC =C0=CC=B8=DE=C0=CF=C0=BA Avast =BE=C8=C6=BC=B9=D9=C0=CC=B7=AF=BD=
+=BA =BC=D2=C7=C1=C6=AE=BF=FE=BE=EE=B7=CE =B9=D9=C0=CC=B7=AF=BD=BA =B0=CB=BB=
+=E7=B8=A6 =BF=CF=B7=E1=C7=DF=BD=C0=B4=CF=B4=D9.
+				<br><a href=3D"https://www.avast.com/antivirus">www.avast.com</a>
+			</p>
+		</td>
+	</tr>
+</table>
+<br />
+</body></html>
+------=_NextPart_000_002A_01D24FCA.7FEF6830--
+

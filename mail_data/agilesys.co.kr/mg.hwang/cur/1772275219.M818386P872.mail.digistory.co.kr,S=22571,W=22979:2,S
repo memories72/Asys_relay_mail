@@ -1,0 +1,408 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id cJu+MBPGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:19 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id C708C14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:19 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553670659616623994
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp1249534wma;
+        Tue, 13 Dec 2016 22:22:13 -0800 (PST)
+X-Received: by 10.25.145.87 with SMTP id y23mr23144823lfj.80.1481696532090;
+        Tue, 13 Dec 2016 22:22:12 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender) smtp.mailfrom=wy.jeung@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender)
+Received: by 10.25.79.16 with POP3 id d16mf35382972lfb.3;
+        Tue, 13 Dec 2016 22:22:11 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 25897 invoked by uid 700); 14 Dec 2016 15:10:07 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	14 Dec 2016 15:10:07 +0900
+Received: (qmail 3988 invoked by uid 700); 14 Dec 2016 15:10:06 +0900
+Received: from unknown (HELO SC201608251455) (wy.jeung@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	14 Dec 2016 15:10:06 +0900
+From: =?ks_c_5601-1987?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>
+Cc: =?ks_c_5601-1987?B?J8DlsObIoyc=?= <khjang@agilesys.co.kr>,
+	<wogus8894@agilesys.co.kr>
+Subject: =?ks_c_5601-1987?B?W3UrXSCx3b/kwM8gvLPEoSC/5MO7?=
+Date: Wed, 14 Dec 2016 15:10:04 +0900
+Message-ID: <000b01d255d0$b677d1b0$23677510$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000C_01D2561C.265F79B0"
+Thread-Index: AdJV0FI/NncqB4ZfTv+QqHjqduH2Qg==
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_000C_01D2561C.265F79B0
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+xsDA5bTUIA0KDQogDQoNCrG4tc63ziC4u764teW4sCBMRyB1KyDGx7jFu+cguPC52cDPIMH3waKw
+s8XrIEwzIFN3aXRjaCC8s8Shv+TDu7XluLO0z7TZLg0KDQogDQoNCsDMufjB1iCx3b/kwM8gv8DI
+xDa9wyi4wb+stb8gMTG9wykgDQoNCiANCg0KNTkzMC0yc2xvdCA0RUEgwMy45yBMR0NOUyCxx7Hi
+wb7C98DlIDAxMC0yOTA5LTc1MDcouavB9rmrwfYgvc+89r74tMINCrvntvfAzLHii6q/oSC+58fY
+us7FubXluLO0z7TZKQ0KDQogDQoNCrO7v6rAuiC+xrehv80gsLC9wLTPtNkuDQoNCiANCg0KDQox
+LiCw/Liuv+sgTDMgKEhQRSA1OTMwIDItc2xvdCAyUVNGUCsgU3dpdGNoKQ0KDQqhoQ0KDQqhoQ0K
+DQoJDQoNCqGhDQoNCkpIMTc4QQ0KDQpIUEUgNTkzMCAyLXNsb3QgMlFTRlArIFN3aXRjaCANCg0K
+NCANCg0KDQqhoQ0KDQpKQzY4MEENCg0KSFBFIDU4eDBBRiA2NTBXIEFDIFBvd2VyIFN1cHBseSAN
+Cg0KOCANCg0KDQqhoQ0KDQpKRzU1MkENCg0KSFBFIFg3MTEgRnJ0KHBydCkgQmNrKHB3cikgSFYg
+RmFuIFRyYXkgDQoNCjggDQoNCg0KoaENCg0KSkgxODBBDQoNCkhQRSA1OTMwIDI0cCBTRlArIGFu
+ZCAycCBRU0ZQKyBNb2QgDQoNCjQgDQoNCg0KoaENCg0KVTNZSjBFDQoNCkhQRSA1WSBGQyBOQkQg
+NTkzMC0zMlFTRlAgU3dpdGNoIFNWQyAgW2ZvciBKSDE3OEFdIA0KDQo0IA0KDQoNCqGhDQoNCkpE
+MDkyQg0KDQpIUEUgWDEzMCAxMEcgU0ZQKyBMQyBTUiBUcmFuc2NlaXZlciANCg0KOTYgDQoNCg0K
+oaENCg0KRkMgQ0FCTEUNCg0KICA1ME0gRkMgQ2FibGUgIA0KDQo0IA0KDQogDQoNCiANCg0KudrA
+58f2ILvnv/i01CC48b/kwM+x7sH2IMCnv6EgwabHsCC758H4wu++7rytIL/Dt8HB1r3DuOkgs7PH
+sMiuwM68rQ0KwNu8usfYteW4rrW1t88gx8+w2r3AtM+02S4NCg0KIA0KDQqwqLvnx9W0z7TZLg0K
+DQogDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KKMHWKSC/ocDMvcO9
+uiAvILytv++/tb73uru6ziAvICDBpL/4v+sgtOu4rg0KDQpUZWwuIDA3MC03MTE0LTAwODYgLyBG
+YXguIDAyLTU4Ni01MDcwDQoNCk1vYmlsZS4gMDEwLTU1NzgtMjY2Mw0KDQpFLU1haWwuICA8bWFp
+bHRvOnd5LmpldW5nQGFnaWxlc3lzLmNvLmtyPiB3eS5qZXVuZ0BhZ2lsZXN5cy5jby5rcg0KDQpB
+ZGRyZXNzLiC8rb/vvcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69LX5IDTD/iANCg0KPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQogDQoNCg==
+
+------=_NextPart_000_000C_01D2561C.265F79B0
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft =
+Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal>=C6=C0=C0=E5=B4=D4<span lang=3DEN-US> =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B1=B8=B5=CE=B7=CE =B8=BB=BE=B8=B5=E5=B8=B0 <span =
+lang=3DEN-US>LG u+ </span>=C6=C7=B8=C5=BB=E7 =B8=F0=B9=D9=C0=CF =
+=C1=F7=C1=A2=B0=B3=C5=EB <span lang=3DEN-US>L3 Switch =
+</span>=BC=B3=C4=A1=BF=E4=C3=BB=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=C0=CC=B9=F8=C1=D6 =B1=DD=BF=E4=C0=CF =
+=BF=C0=C8=C4<span lang=3DEN-US>6</span>=BD=C3<span =
+lang=3DEN-US>(</span>=B8=C1=BF=AC=B5=BF<span lang=3DEN-US> =
+11</span>=BD=C3<span lang=3DEN-US>) <o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>5930-2slot 4EA </span>=C0=CC=B8=E7 =
+<span lang=3DEN-US>LGCNS </span>=B1=C7=B1=E2=C1=BE=C2=F7=C0=E5<span =
+lang=3DEN-US> 010-2909-7507(</span>=B9=AB=C1=F6=B9=AB=C1=F6 =
+=BD=CF=BC=F6=BE=F8=B4=C2 =BB=E7=B6=F7=C0=CC=B1=E2=8B=AA=BF=A1 =
+=BE=E7=C7=D8=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US>)<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B3=BB=BF=AA=C0=BA =BE=C6=B7=A1=BF=CD =
+=B0=B0=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D569 =
+style=3D'width:427.0pt;margin-left:-.15pt;border-collapse:collapse'><tr =
+style=3D'height:16.5pt'><td width=3D72 nowrap =
+style=3D'width:54.0pt;border:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>1. </span><span =
+style=3D'color:black'>=B0=FC=B8=AE=BF=EB<span lang=3DEN-US> L3 (HPE 5930 =
+2-slot 2QSFP+ Switch)<o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D355 nowrap =
+style=3D'width:266.0pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;padding:0cm 4.95pt 0cm =
+4.95pt;height:16.5pt'></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>JH178A<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE 5930 2-slot =
+2QSFP+ Switch <o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>4 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>JC680A<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE 58x0AF 650W =
+AC Power Supply <o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>8 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>JG552A<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE X711 =
+Frt(prt) Bck(pwr) HV Fan Tray <o:p></o:p></span></p></td><td width=3D45 =
+nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>8 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>JH180A<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE 5930 24p =
+SFP+ and 2p QSFP+ Mod <o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>4 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>U3YJ0E<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE 5Y FC NBD =
+5930-32QSFP Switch SVC&nbsp; [for JH178A] <o:p></o:p></span></p></td><td =
+width=3D45 nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>4 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>JD092B<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US> HPE X130 10G =
+SFP+ LC SR Transceiver <o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>96 =
+<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D72 style=3D'width:54.0pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span =
+style=3D'color:black'>=A1=A1<span =
+lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D97 =
+style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>FC CABLE<o:p></o:p></span></p></td><td width=3D355 =
+style=3D'width:266.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>&nbsp; 50M FC =
+Cable&nbsp; <o:p></o:p></span></p></td><td width=3D45 nowrap =
+style=3D'width:34.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>4 =
+<o:p></o:p></span></p></td></tr></table><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B9=DA=C0=E7=C7=F6 =BB=E7=BF=F8=B4=D4 =
+=B8=F1=BF=E4=C0=CF=B1=EE=C1=F6 =C0=A7=BF=A1 =C1=A6=C7=B0 =
+=BB=E7=C1=F8=C2=EF=BE=EE=BC=AD =BF=C3=B7=C1=C1=D6=BD=C3=B8=E9 =
+=B3=B3=C7=B0=C8=AE=C0=CE=BC=AD =
+=C0=DB=BC=BA=C7=D8=B5=E5=B8=AE=B5=B5=B7=CF =
+=C7=CF=B0=DA=BD=C0=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>(</span>=C1=D6<span lang=3DEN-US>) =
+</span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US> / =
+</span>=BC=AD=BF=EF=BF=B5=BE=F7=BA=BB=BA=CE<span lang=3DEN-US> /&nbsp; =
+</span>=C1=A4=BF=F8=BF=EB =B4=EB=B8=AE<span =
+lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>Tel. 070-7114-0086 / Fax. =
+02-586-5070<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>Mobile. 010-5578-2663<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>E-Mail. <a =
+href=3D"mailto:wy.jeung@agilesys.co.kr"><span =
+style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr</span></a><o:p></o:p></sp=
+an></p><p class=3DMsoNormal><span lang=3DEN-US>Address. =
+</span>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span =
+lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> =
+4</span>=C3=FE <span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_000C_01D2561C.265F79B0--
+

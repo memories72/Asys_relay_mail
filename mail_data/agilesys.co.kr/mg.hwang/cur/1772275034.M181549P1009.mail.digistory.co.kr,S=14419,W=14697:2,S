@@ -1,0 +1,278 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id QOPHClrFomnxAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:14 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 2BA1714C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:14 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552594664978731549
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp210765wme;
+        Fri, 2 Dec 2016 01:26:28 -0800 (PST)
+X-Received: by 10.28.86.131 with SMTP id k125mr2014207wmb.89.1480670788008;
+        Fri, 02 Dec 2016 01:26:28 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender) smtp.mailfrom=bs.kim@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender)
+Received: by 10.28.157.23 with POP3 id g23mf151925054wme.1;
+        Fri, 02 Dec 2016 01:26:27 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 27259 invoked by uid 700); 2 Dec 2016 18:07:39 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	2 Dec 2016 18:07:39 +0900
+Received: (qmail 23006 invoked by uid 700); 2 Dec 2016 18:07:37 +0900
+Received: from unknown (HELO ?192.168.25.17?) (bs.kim@agilesys.co.kr@223.32.243.168)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	2 Dec 2016 18:07:37 +0900
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-27CA4A4C-3977-4186-ACA1-7C9D9E7D9926
+Mime-Version: 1.0 (1.0)
+Subject: =?euc-kr?Q?Fwd:_=C7=D1=B1=B9=BE=F0=B7=D0=C0=E7=B4=DC_NAS_Gateway?=
+ =?euc-kr?Q?_=C0=E7=B1=B8=C3=E0_=B0=FC=B7=C3?=
+From: "agilesys.co.kr" <bs.kim@agilesys.co.kr>
+Date: Fri, 2 Dec 2016 18:07:36 +0900
+Cc: =?euc-kr?B?seiw5rnO?= <srvkkm@agilesys.co.kr>,
+ =?euc-kr?B?sejBvryu?= <bost12@agilesys.co.kr>
+Content-Transfer-Encoding: 7bit
+X-MS-Reactions: disallow
+Message-Id: <636B0AF8-599D-49AD-AB66-932CC2A34687@agilesys.co.kr>
+References: <20161202081446.2141235.20932@groupware.hanbiro.net>
+To: =?euc-kr?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>,
+ =?euc-kr?B?wK/A57Tr?= <jdyu@agilesys.co.kr>,
+ =?euc-kr?B?sejFwrvz?= <ts.kim@agilesys.co.kr>
+
+
+--Apple-Mail-27CA4A4C-3977-4186-ACA1-7C9D9E7D9926
+Content-Type: text/plain;
+	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+=B0=CB=C5=E4=C7=CF=BD=C3=B0=ED =BF=F9=BF=E4=C0=CF =BF=C0=C8=C4=BF=A1 =B0=B0=C0=
+=CC =B9=CC=C6=C3=C7=D5=BD=C3=B4=D9.
+
+=B1=E8=BA=B8=BC=B1 =B9=E8=BB=F3
+
+=B3=AA=C0=C7 iPhone=BF=A1=BC=AD =BA=B8=B3=BF
+
+Begin forwarded message:
+
+> From: "=B8=B6=B4=EB=BC=BA" <draqura@youhost.co.kr>
+> Date: December 2, 2016 at 5:14:46 PM GMT+9
+> To: bs.kim@agilesys.co.kr
+> Cc: "=C1=B6=C7=FC=BC=B7/=BA=CE=C0=E5" <appleman@lguplus.co.kr>, "=C3=B5=B9=
+=CE=B1=E2" <chunmg@youhost.co.kr>, "=B8=B6=B4=EB=BC=BA" <draqura@youhost.co.=
+kr>
+> Subject: =C7=D1=B1=B9=BE=F0=B7=D0=C0=E7=B4=DC NAS Gateway =C0=E7=B1=B8=C3=E0=
+ =B0=FC=B7=C3
+> Reply-To: "=B8=B6=B4=EB=BC=BA" <draqura@youhost.co.kr>
+>=20
+> =BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE. =C0=AF=C8=A3=BD=BA=C6=AE IDC=B1=E2=BC=
+=FA=BA=CE =B8=B6=B4=EB=BC=BA=C0=D4=B4=CF=B4=D9.
+> =C7=D1=B1=B9=BE=F0=B7=D0=C1=F8=C8=EF=C0=E7=B4=DC 3 par =BD=BA=C5=E4=B8=AE=C1=
+=F6 =BF=EE=BF=B5 =B0=B3=BC=B1 =B9=E6=BE=C8=BF=A1 =B4=EB=C7=CF=BF=A9 =BE=C6=B7=
+=A1=BF=CD =B0=B0=C0=CC =C1=A4=B8=AE =C7=CF=BF=B4=BD=C0=B4=CF=B4=D9.
+> =C8=AE=C0=CE =C7=CA=BF=E4=C7=D1 =BA=CE=BA=D0=C0=BA =BA=B0=B5=B5 =C7=A5=BD=C3=
+ =C7=CF=BF=B4=BD=C0=B4=CF=B4=D9.
+> =B4=E4=BA=AF =BA=CE=C5=B9 =B5=E5=B8=B3=B4=CF=B4=D9.
+> =B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.
+> =20
+> =20
+> ---------------------------------------------------- =BE=C6       =B7=A1 -=
+---------------------------------------------------
+> =20
+>     =A2=C2 3-Par =BD=BA=C5=E4=B8=AE=C1=F6 NAS G/W =BE=F7=B1=D7=B7=B9=C0=CC=
+=B5=E5 =B0=FC=B7=C3 =BF=EE=BF=B5 =C7=B0=C1=FA =B0=B3=BC=B1 =B9=E6=BE=C8 =B9=D7=
+ =B1=E2=BC=FA=C0=FB =B0=CB=C1=F5
+>             1.   =BF=EE=BF=B5 =C7=B0=C1=FA =B0=B3=BC=B1 =B9=E6=BE=C8
+>                 - Oncommand System Manger =C1=F6=BF=F8(=BF=A1=C0=CC=BD=C3=BD=
+=BA)
+>                     > =BA=BC=B7=FD =BB=FD=BC=BA/=BB=E8=C1=A6/=C8=AE=C0=E5/=
+=B1=C7=C7=D1 =B5=EE =B1=E2=BA=BB=C0=FB=C0=CE NAS =B0=FC=B8=AE =C6=F7=C5=BB =B1=
+=E2=B4=C9 =C1=F6=BF=F8 =BF=A9=BA=CE =C3=BC=C5=A9
+>                     > =BB=F3=B1=E2 =B1=E2=B4=C9 =B0=A1=B4=C9=BD=C3 =BF=A3=C1=
+=F6=B4=CF=BE=EE Command =C0=DB=BE=F7 =BD=C3 =BD=C7=BC=F6 =B9=E6=C1=F6=20
+>               =20
+>                 - NAS G/W =BF=EE=BF=B5 =B1=B3=C0=B0 (=BF=A1=C0=CC=BD=C3=BD=
+=BA)   =20
+>                       =B1=E2=BA=BB =BF=EE=BF=B5, =C0=E5=BE=D6 =C6=AE=B7=AF=
+=BA=ED=BD=B4=C6=C3(=C7=E2=C8=C4 =B5=B5=C0=D4=B5=C9 NAS G/W=BF=A1 =B4=EB=C7=D1=
+ =C5=B8=B0=ED=B0=B4=BB=E7 =BF=EE=BF=B5=BD=C3 =C0=E5=BE=D6=B8=A6 =C0=A7=C1=D6=
+)
+>                 - =B8=C5=BF=F9 =C1=A4=B1=E2=C1=A1=B0=CB =BD=C3=C7=E0(=BF=F9=
+=B4=DC=C0=A7 =C1=A1=B0=CB=C0=BB =C5=EB=C7=D8 =C0=E5=BE=D6 =C0=FC=C1=B6=C1=F5=
+=BB=F3 =C8=AE=C0=CE-=C0=E5=BE=D6 =BF=B9=B9=E6) - (=BF=A1=C0=CC=BD=C3=BD=BA)
+> =20
+>             2.   =B0=CB=C1=F5 =BB=E7=C7=D7 =B9=D7 =B0=CB=C1=F5 =B9=E6=B9=FD=
+(=BF=A1=C0=CC=BD=C3=BD=BA)
+>                 - =B1=B8=BC=BA =BA=AF=B0=E6 =C8=C4 =C7=F6=B1=B8=BC=BA=BF=A1=
+=BC=AD =B9=DF=BB=FD=C7=CF=B4=C2 =B9=AE=C1=A6=C1=A1=C0=CC =C7=D8=BC=D2 =B0=A1=
+=B4=C9=BF=A9=BA=CE
+>                     > SteelEye=BF=A1 =B4=EB=C7=D1 =C5=B8=B0=ED=B0=B4=BB=E7=
+ =BF=EE=BF=B5=BF=A1 =B4=EB=C7=D1 =B7=B9=C6=DB=B7=B1=BD=BA =C8=AE=C0=CE
+>                 - =B1=B8=BC=BA =BA=AF=B0=E6 =B9=D7 =BE=F7=B1=D7=B7=B9=C0=CC=
+=B5=E5 =C1=F8=C7=E0=BD=C3 =C0=E5=BE=D6 =B9=DF=BB=FD =BF=E4=BC=D2/=BE=C8=C1=A4=
+=BC=BA =B0=CB=C1=F5
+>                     > =C5=B8=B0=ED=B0=B4=BB=E7 =BE=F7=B1=D7=B7=B9=C0=CC=B5=
+=E5 =B7=B9=C6=DB=B7=B1=BD=BA =C8=AE=C0=CE =B9=D7 =BB=E7=C0=FC =BD=C3=B9=C4=B7=
+=B9=C0=CC=BC=C7 =B0=CB=C1=F5
+>                 - =BF=EE=BF=B5=C1=DF =C0=E5=BE=D6 =B9=DF=BB=FD=BD=C3 =BD=C5=
+=BC=D3 =B4=EB=C0=C0 =B0=A1=B4=C9=C7=D1 =BF=A3=C1=F6=B4=CF=BE=EE =C8=AE=BA=B8=
+
+> =20
+
+--Apple-Mail-27CA4A4C-3977-4186-ACA1-7C9D9E7D9926
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div>=EA=B2=80=ED=86=A0=ED=95=98=EC=8B=9C=EA=
+=B3=A0 =EC=9B=94=EC=9A=94=EC=9D=BC =EC=98=A4=ED=9B=84=EC=97=90 =EA=B0=99=EC=9D=
+=B4 =EB=AF=B8=ED=8C=85=ED=95=A9=EC=8B=9C=EB=8B=A4.<br><br><div>=EA=B9=80=EB=B3=
+=B4=EC=84=A0 =EB=B0=B0=EC=83=81</div><div><span style=3D"font-size: 13pt;"><=
+br></span></div><div><span style=3D"font-size: 13pt;">=EB=82=98=EC=9D=98 iPh=
+one=EC=97=90=EC=84=9C =EB=B3=B4=EB=83=84</span></div></div><div><br>Begin fo=
+rwarded message:<br><br></div><blockquote type=3D"cite"><div><b>From:</b> "=EB=
+=A7=88=EB=8C=80=EC=84=B1" &lt;<a href=3D"mailto:draqura@youhost.co.kr">draqu=
+ra@youhost.co.kr</a>&gt;<br><b>Date:</b> December 2, 2016 at 5:14:46 PM GMT+=
+9<br><b>To:</b> <a href=3D"mailto:bs.kim@agilesys.co.kr">bs.kim@agilesys.co.=
+kr</a><br><b>Cc:</b> "=EC=A1=B0=ED=98=95=EC=84=AD/=EB=B6=80=EC=9E=A5" &lt;<a=
+ href=3D"mailto:appleman@lguplus.co.kr">appleman@lguplus.co.kr</a>&gt;, "=EC=
+=B2=9C=EB=AF=BC=EA=B8=B0" &lt;<a href=3D"mailto:chunmg@youhost.co.kr">chunmg=
+@youhost.co.kr</a>&gt;, "=EB=A7=88=EB=8C=80=EC=84=B1" &lt;<a href=3D"mailto:=
+draqura@youhost.co.kr">draqura@youhost.co.kr</a>&gt;<br><b>Subject:</b> <b>=ED=
+=95=9C=EA=B5=AD=EC=96=B8=EB=A1=A0=EC=9E=AC=EB=8B=A8 NAS Gateway =EC=9E=AC=EA=
+=B5=AC=EC=B6=95 =EA=B4=80=EB=A0=A8</b><br><b>Reply-To:</b> "=EB=A7=88=EB=8C=80=
+=EC=84=B1" &lt;<a href=3D"mailto:draqura@youhost.co.kr">draqura@youhost.co.k=
+r</a>&gt;<br><br></div></blockquote><blockquote type=3D"cite"><div><div styl=
+e=3D"font-family:Malgun Gothic,dotum,verdana,helvetica,arial,sans-serif;font=
+-size:14px;line-height: 1.5em;">
+<div>=EC=95=88=EB=85=95=ED=95=98=EC=8B=AD=EB=8B=88=EA=B9=8C. =EC=9C=A0=ED=98=
+=B8=EC=8A=A4=ED=8A=B8 IDC=EA=B8=B0=EC=88=A0=EB=B6=80 =EB=A7=88=EB=8C=80=EC=84=
+=B1=EC=9E=85=EB=8B=88=EB=8B=A4.</div>
+
+<div>=ED=95=9C=EA=B5=AD=EC=96=B8=EB=A1=A0=EC=A7=84=ED=9D=A5=EC=9E=AC=EB=8B=A8=
+ 3 par =EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80 =EC=9A=B4=EC=98=81 =EA=B0=9C=EC=84=
+=A0 =EB=B0=A9=EC=95=88=EC=97=90 =EB=8C=80=ED=95=98=EC=97=AC =EC=95=84=EB=9E=98=
+=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=A0=95=EB=A6=AC =ED=95=98=EC=98=80=EC=8A=B5=EB=
+=8B=88=EB=8B=A4.</div>
+
+<div>=ED=99=95=EC=9D=B8&nbsp;=ED=95=84=EC=9A=94=ED=95=9C =EB=B6=80=EB=B6=84=EC=
+=9D=80 =EB=B3=84=EB=8F=84 =ED=91=9C=EC=8B=9C =ED=95=98=EC=98=80=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.</div>
+
+<div>=EB=8B=B5=EB=B3=80 =EB=B6=80=ED=83=81 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=
+=A4.</div>
+
+<div>=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>---------------------------------------------------- =EC=95=84 &nbsp; &=
+nbsp; &nbsp; =EB=9E=98&nbsp;<span style=3D"font-family: &quot;Malgun Gothic&=
+quot;, dotum, verdana, helvetica, arial, sans-serif; font-size: 14px;">-----=
+-----------------------------------------------</span></div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp; &nbsp; =E2=97=88 3-Par =EC=8A=A4=ED=86=A0=EB=A6=AC=EC=A7=80 NAS G=
+/W =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C =EA=B4=80=EB=A0=A8 =EC=9A=B4=
+=EC=98=81 =ED=92=88=EC=A7=88 =EA=B0=9C=EC=84=A0 =EB=B0=A9=EC=95=88 =EB=B0=8F=
+ =EA=B8=B0=EC=88=A0=EC=A0=81 =EA=B2=80=EC=A6=9D</div>
+
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;1. &=
+nbsp; =EC=9A=B4=EC=98=81 =ED=92=88=EC=A7=88 =EA=B0=9C=EC=84=A0 =EB=B0=A9=EC=95=
+=88<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &=
+nbsp;- Oncommand System Manger =EC=A7=80=EC=9B=90<span style=3D"font-family:=
+ &quot;Malgun Gothic&quot;, dotum, verdana, helvetica, arial, sans-serif; fo=
+nt-size: 14px;">(=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4)</span><br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&gt; =EB=B3=BC=EB=A5=A8 =EC=83=9D=EC=84=B1/=EC=82=AD=EC=A0=
+=9C/=ED=99=95=EC=9E=A5/=EA=B6=8C=ED=95=9C =EB=93=B1 =EA=B8=B0=EB=B3=B8=EC=A0=
+=81=EC=9D=B8 NAS =EA=B4=80=EB=A6=AC =ED=8F=AC=ED=83=88 =EA=B8=B0=EB=8A=A5 =EC=
+=A7=80=EC=9B=90 =EC=97=AC=EB=B6=80&nbsp;=EC=B2=B4=ED=81=AC<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+ &nbsp; &nbsp;&gt; =EC=83=81=EA=B8=B0 =EA=B8=B0=EB=8A=A5 =EA=B0=80=EB=8A=A5=EC=
+=8B=9C =EC=97=94=EC=A7=80=EB=8B=88=EC=96=B4 Command =EC=9E=91=EC=97=85 =EC=8B=
+=9C =EC=8B=A4=EC=88=98 =EB=B0=A9=EC=A7=80&nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;- NAS G/W =EC=9A=B4=EC=98=81 =EA=B5=90=EC=9C=A1 (=EC=97=90=EC=9D=B4=EC=8B=
+=9C=EC=8A=A4)&nbsp;&nbsp; &nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &=
+nbsp;&nbsp;&nbsp; &nbsp; &nbsp;=EA=B8=B0=EB=B3=B8 =EC=9A=B4=EC=98=81, =EC=9E=
+=A5=EC=95=A0 =ED=8A=B8=EB=9F=AC=EB=B8=94=EC=8A=88=ED=8C=85(=ED=96=A5=ED=9B=84=
+ =EB=8F=84=EC=9E=85=EB=90=A0 NAS G/W=EC=97=90 =EB=8C=80=ED=95=9C =ED=83=80=EA=
+=B3=A0=EA=B0=9D=EC=82=AC =EC=9A=B4=EC=98=81=EC=8B=9C =EC=9E=A5=EC=95=A0=EB=A5=
+=BC =EC=9C=84=EC=A3=BC)</div>
+
+<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;- =EB=A7=A4=EC=9B=94 =EC=A0=95=EA=B8=B0=EC=A0=90=EA=B2=80 =EC=8B=9C=
+=ED=96=89(=EC=9B=94=EB=8B=A8=EC=9C=84 =EC=A0=90=EA=B2=80=EC=9D=84 =ED=86=B5=ED=
+=95=B4 =EC=9E=A5=EC=95=A0 =EC=A0=84=EC=A1=B0=EC=A6=9D=EC=83=81 =ED=99=95=EC=9D=
+=B8-=EC=9E=A5=EC=95=A0 =EC=98=88=EB=B0=A9) - (=EC=97=90=EC=9D=B4=EC=8B=9C=EC=
+=8A=A4)</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;2. &nbsp;=
+ =EA=B2=80=EC=A6=9D =EC=82=AC=ED=95=AD =EB=B0=8F =EA=B2=80=EC=A6=9D =EB=B0=A9=
+=EB=B2=95(=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4)<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &=
+nbsp;- =EA=B5=AC=EC=84=B1 =EB=B3=80=EA=B2=BD =ED=9B=84 =ED=98=84=EA=B5=AC=EC=
+=84=B1=EC=97=90=EC=84=9C =EB=B0=9C=EC=83=9D=ED=95=98=EB=8A=94 =EB=AC=B8=EC=A0=
+=9C=EC=A0=90=EC=9D=B4 =ED=95=B4=EC=86=8C =EA=B0=80=EB=8A=A5=EC=97=AC=EB=B6=80=
+<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; &nbsp;&gt; SteelEye=EC=97=90 =EB=8C=80=ED=95=9C =ED=83=80=EA=
+=B3=A0=EA=B0=9D=EC=82=AC =EC=9A=B4=EC=98=81=EC=97=90 =EB=8C=80=ED=95=9C =EB=A0=
+=88=ED=8D=BC=EB=9F=B0=EC=8A=A4 =ED=99=95=EC=9D=B8</div>
+
+<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; &nbsp;- =EA=B5=AC=EC=84=B1 =EB=B3=80=EA=B2=BD =EB=B0=8F =EC=97=85=EA=B7=B8=
+=EB=A0=88=EC=9D=B4=EB=93=9C =EC=A7=84=ED=96=89=EC=8B=9C =EC=9E=A5=EC=95=A0 =EB=
+=B0=9C=EC=83=9D =EC=9A=94=EC=86=8C/=EC=95=88=EC=A0=95=EC=84=B1 =EA=B2=80=EC=A6=
+=9D<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; =ED=83=80=EA=B3=A0=EA=B0=9D=EC=82=AC =EC=97=85=EA=
+=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C =EB=A0=88=ED=8D=BC=EB=9F=B0=EC=8A=A4 =ED=99=
+=95=EC=9D=B8 =EB=B0=8F =EC=82=AC=EC=A0=84 =EC=8B=9C=EB=AE=AC=EB=A0=88=EC=9D=B4=
+=EC=85=98 =EA=B2=80=EC=A6=9D<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;- =EC=9A=B4=EC=98=81=EC=A4=91 =EC=9E=A5=EC=95=A0 =EB=B0=9C=EC=83=9D=EC=8B=
+=9C =EC=8B=A0=EC=86=8D =EB=8C=80=EC=9D=91 =EA=B0=80=EB=8A=A5=ED=95=9C =EC=97=
+=94=EC=A7=80=EB=8B=88=EC=96=B4 =ED=99=95=EB=B3=B4</div>
+
+<div>&nbsp;</div>
+</div>
+
+<div>
+<div>
+<div>
+<div class=3D"WordSection1">
+<p align=3D"left" class=3D"MsoNormal" style=3D"text-align:left"><span lang=3D=
+"EN-US" style=3D"font-size:12.0pt;font-family:=EA=B5=B4=EB=A6=BC"><o:p></o:p=
+></span></p>
+</div>
+</div>
+</div>
+</div>
+
+<table name=3D"Hanbiro_Groupware_Acknowledgment" style=3D"display:none"><tbo=
+dy><tr><td><img src=3D"http://portal.youhost.co.kr/cgi-bin/NEW/receiveCheck.=
+do?q=3DZHJhcXVyYXx5b3Vob3N0LmNvLmtyfDE0ODA2NjY0ODYuMjE0MTIzNTB8L2hvbWUvdnBvc=
+G1haWwv%0AZG9tYWlucy8wL3lvdWhvc3QuY28ua3IvZHJhcXVyYQ%3D%3D" border=3D"0"></t=
+d></tr></tbody></table></div></blockquote></body></html>=
+
+--Apple-Mail-27CA4A4C-3977-4186-ACA1-7C9D9E7D9926--
+

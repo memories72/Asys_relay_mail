@@ -1,0 +1,1557 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id eOiGNt7EomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:10 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id D3CB714C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:10 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1551849711525144516
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp206052wme;
+        Wed, 23 Nov 2016 20:12:10 -0800 (PST)
+X-Received: by 10.194.121.6 with SMTP id lg6mr307492wjb.105.1479960729995;
+        Wed, 23 Nov 2016 20:12:09 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender) smtp.mailfrom=bs.kim@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender)
+Received: by 10.28.157.23 with POP3 id g23mf17939945wme.0;
+        Wed, 23 Nov 2016 20:12:08 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 10727 invoked by uid 700); 24 Nov 2016 12:46:55 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	24 Nov 2016 12:46:55 +0900
+Received: (qmail 23220 invoked by uid 700); 24 Nov 2016 12:46:54 +0900
+Received: from unknown (HELO PC) (bs.kim@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	24 Nov 2016 12:46:54 +0900
+From: =?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?w9bBvrHZ?= <andychoi@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?seizssij?= <nhkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Cc: =?ks_c_5601-1987?B?sPu8usH4?= <bdksj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wbaw5sDn?= <kj.cho@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yKu8vMDH?= <sehong@agilesys.co.kr>
+References: <b0bcb605e6be4a0480b062ea7fe7d2c9@BRMWP-EXMB11.corp.brocade.com> <90b26620ae63498db58d9b747910e394@BRMWP-EXMB11.corp.brocade.com>
+In-Reply-To: <90b26620ae63498db58d9b747910e394@BRMWP-EXMB11.corp.brocade.com>
+Subject: =?ks_c_5601-1987?B?Rlc6IEJyb2NhZGUgMjAxNyBQYXJ0bmVyIEtpY2tvZma/oQ==?=
+	=?ks_c_5601-1987?B?IMPKtOsgx9W0z7TZLg==?=
+Date: Thu, 24 Nov 2016 12:46:53 +0900
+Message-ID: <005801d24605$65b92920$312b7b60$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0059_01D24650.D5A89950"
+Thread-Index: AQLaVGBZ6Tdgi4LKvlAt4Pvk15zQTQIUinnznsa9WwA=
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0059_01D24650.D5A89950
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_005A_01D24650.D5A89950"
+
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_005B_01D24650.D5A89950"
+
+
+------=_NextPart_002_005B_01D24650.D5A89950
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+=C2=FC=B0=ED=C7=CF=BC=BC=BF=E4. =C0=FA=B4=C2 kick-off =B9=CC=C6=C3=BF=A1 =
+=C2=FC=BC=AE=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9.
+
+=20
+
+=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA =B1=E8=BA=B8=BC=B1=BB=F3=B9=AB
+
+Mobile) 010-5790-0519
+
+E-Mail)  <mailto:bs.kim@agilesys.co.kr> bs.kim@agilesys.co.kr /
+<mailto:kimbs498@gmail.com> kimbs498@gmail.com
+
+Address) =BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =BB=E7=C6=F2=B4=EB=B7=CE =
+138 =B4=EB=B8=A2=BA=F4=B5=F94=C3=FE
+
+=20
+
+From: Junhyeok Seong [mailto:jseong@Brocade.com]=20
+Sent: Thursday, November 24, 2016 12:20 PM
+Subject: FW: Brocade 2017 Partner Kickoff=BF=A1 =C3=CA=B4=EB =
+=C7=D5=B4=CF=B4=D9.
+
+=20
+
+=BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE?  =BA=EA=B7=CE=C4=C9=C0=CC=B5=E5 =
+=BC=BA=C1=D8=C7=F5=C0=D4=B4=CF=B4=D9.
+
+=BE=C6=B7=A1=BF=CD =B0=B0=C0=CC 2017=B3=E2=C0=BB =
+=BD=C3=C0=DB=C7=CF=B4=C2 =BD=C3=C1=A1=BF=A1 =C6=C4=C6=AE=B3=CA =
+Kick-Off=B8=A6 =BD=C3=C7=E0=C7=CF=B0=ED=C0=DA =C7=D5=B4=CF=B4=D9.
+
+=BE=C6=C1=F7 =B5=EE=B7=CF=C0=BB =C7=CF=C1=F6 =BE=CA=C0=B8=BD=C5 =
+=BA=D0=B5=E9=B2=B2=BC=AD=B4=C2 =BC=AD=B5=D1=B7=AF =B5=EE=B7=CF=C0=BB =
+=BA=CE=C5=B9 =B5=E5=B8=B3=B4=CF=B4=D9.
+
+=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.
+
+=20
+
+Thanks and best regards,
+
+=20
+
+Junhyeok Seong
+
+Territory Account Manager l Brocade Korea
+
+Mobile : +82-10-4532-6653
+
+Office : +82-2-320-8150
+
+e-mail :  <mailto:jseong@brocade.com> jseong@brocade.com
+
+=20
+
+cid:image002.png@01D0F5D7.814D3980
+
+ <https://twitter.com/BRCDcomm>
+http://intranet.brocade.com/Marketing/PublishingImages/esigtwtr.jpg
+<https://www.facebook.com/brocade?ref=3Dhl>
+http://intranet.brocade.com/Marketing/PublishingImages/esigfb.jpg
+<http://www.linkedin.com/company/brocade>
+http://intranet.brocade.com/Marketing/PublishingImages/esiglkin.jpg
+<http://www.pinterest.com/brcdcomm>
+http://intranet.brocade.com/Marketing/PublishingImages/esigpint.jpg
+<http://instagram.com/brcdcomm>
+http://intranet.brocade.com/Marketing/PublishingImages/esiginst.jpg
+<http://www.youtube.com/channel/UC42yfEDgSbHZm0EKYsb0oIg>
+http://intranet.brocade.com/Marketing/PublishingImages/esigyout.jpg
+<http://community.brocade.com/t5/Blogs/ct-p/Blogs>
+http://intranet.brocade.com/Marketing/PublishingImages/esigblog.jpg
+<http://community.brocade.com/>
+http://intranet.brocade.com/Marketing/PublishingImages/esigcomm.jpg
+
+=20
+
+From: Joong-Gil Lee=20
+Sent: Friday, November 18, 2016 10:23 AM
+To: Joong-Gil Lee <joonggil@Brocade.com>
+Cc: Korea Office <koreaoffice2@Brocade.COM>; Sophie Choi =
+<choik@Brocade.com>
+Subject: Brocade 2017 Partner Kickoff=BF=A1 =C3=CA=B4=EB =
+=C7=D5=B4=CF=B4=D9.
+
+=20
+
+=20
+
+=BA=BB =B8=DE=C0=CF=C0=CC =BA=B8=C0=CC=C1=F6 =BE=CA=B4=C2 =B0=E6=BF=EC =
+=C0=CC=B0=F7=C0=BB =B4=AD=B7=AF=C1=D6=BD=C3=B1=E2 =
+=B9=D9=B6=F8=B4=CF=B4=D9.
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_01.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_02.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_03.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_04.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_05.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_06.jpg>=20
+
+
+  <http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_07.jpg>=20
+
+
+
+=20
+
+
+=20
+
+
+ <mailto:korea-info@Brocade.com> =B9=AE=C0=C7=C3=B3
+
+
+=C4=BF=B9=C2=B4=CF=C6=BC =B0=A1=C0=D4
+
+
+Twitter
+
+  <http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif>=20
+
+Facebook
+
+  <http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif>=20
+
+LinkedIn
+
+  <http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif>=20
+
+youtube
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+
+=20
+
+
+
+=20
+
+Brocade =C0=CC=B8=DE=C0=CF=C0=BB =B4=F5 =C0=CC=BB=F3 =
+=BC=F6=BD=C5=C7=CF=B0=ED =BD=CD=C1=F6 =BE=CA=C0=BA =B0=E6=BF=EC =
+=BF=A9=B1=E2=B8=A6 =C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=C0
+=C6=AF=C1=A4 =C1=A6=C7=B0=C0=BB =BE=F7=B5=A5=C0=CC=C6=AE=C7=CF=B0=ED =
+=BD=CD=C0=BA =B0=E6=BF=EC =BF=A9=B1=E2=B8=A6 =
+=C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=C0.
+
+=A8=CF 2016 Brocade Communications Systems, Inc. All Rights Reserved. =
+Brocade
+=B9=D7 B-wing
+=B1=E2=C8=A3=B4=C2 Brocade Communications Systems, Inc.=C0=C7 =
+=B5=EE=B7=CF =BB=F3=C7=A5=C0=D4=B4=CF=B4=D9. =B1=E2=C5=B8=C0=C7
+=BA=EA=B7=A3=B5=E5,
+=C1=A6=C7=B0 =B6=C7=B4=C2 =BC=AD=BA=F1=BD=BA =B8=ED=C4=AA=C0=BA =B0=A2 =
+=BC=D2=C0=AF=C0=DA=C0=C7 =BB=F3=C7=A5=C0=CF =BC=F6 =
+=C0=D6=BD=C0=B4=CF=B4=D9.
+
+=B0=B3=C0=CE=C1=A4=BA=B8=BA=B8=C8=A3=C1=A4=C3=A5 | =
+=B9=FD=C0=FB=B0=ED=C1=F6
+
+=20
+
+
+=20
+
+=20
+<http://image.postman.co.kr:80/CheckNew.html?TV9JRD03MzMxNDQ5NDY2&U1RZUEU=
+9TU
+FTUw=3D=3D&RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty&TElTVF9UQUJMRT1FQkFEMTE2M=
+A=3D=3D&UE9
+TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ=3D=3D&VEM9MjAxNjExMjQ=3D&S0lORD1P>=20
+
+
+------=_NextPart_002_005B_01D24650.D5A89950
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft =
+Word 14 (filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><title>brocade_kickoff_161201_eDM</title><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:=B9=D9=C5=C1;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B5=B8=BF=F2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B9=D9=C5=C1";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B5=B8=BF=F2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Book";
+	panose-1:2 11 5 3 2 1 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI","sans-serif";}
+p.BalloonText, li.BalloonText, div.BalloonText
+	{mso-style-name:"Balloon Text";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+span.EmailStyle23
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle24
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle25
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle26
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EmailStyle27
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle29
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1030" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body bgcolor=3Dwhite lang=3DKO =
+link=3Dblue vlink=3Dpurple><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=C2=FC=B0=ED=C7=CF=BC=BC=BF=E4<span =
+lang=3DEN-US>. </span>=C0=FA=B4=C2 <span lang=3DEN-US>kick-off =
+</span>=B9=CC=C6=C3=BF=A1 =
+=C2=FC=BC=AE=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA =
+=B1=E8=BA=B8=BC=B1=BB=F3=B9=AB<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>Mobile) =
+010-5790-0519<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>E-Mail) <a =
+href=3D"mailto:bs.kim@agilesys.co.kr"><span =
+style=3D'color:blue'>bs.kim@agilesys.co.kr</span></a> / <a =
+href=3D"mailto:kimbs498@gmail.com"><span =
+style=3D'color:blue'>kimbs498@gmail.com</span></a><o:p></o:p></span></p><=
+p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>Address) </span><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =
+=BB=E7=C6=F2=B4=EB=B7=CE<span lang=3DEN-US> 138 =
+</span>=B4=EB=B8=A2=BA=F4=B5=F9<span =
+lang=3DEN-US>4</span>=C3=FE</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p></o:p></span></p></div><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> Junhyeok =
+Seong [mailto:jseong@Brocade.com] <br><b>Sent:</b> Thursday, November =
+24, 2016 12:20 PM<br><b>Subject:</b> FW: Brocade 2017 Partner =
+Kickoff</span><span style=3D'font-size:10.0pt'>=BF=A1</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=C3=CA=B4=EB</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=C7=D5=B4=CF=B4=D9</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>.<o:p></o:p>=
+</span></p></div></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><a name=3D"_MailEndCompose"><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE<span =
+lang=3DEN-US>?&nbsp; </span>=BA=EA=B7=CE=C4=C9=C0=CC=B5=E5 =
+=BC=BA=C1=D8=C7=F5=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.</span></span></a><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=BE=C6=B7=A1=BF=CD =B0=B0=C0=CC<span =
+lang=3DEN-US> 2017</span>=B3=E2=C0=BB =BD=C3=C0=DB=C7=CF=B4=C2 =
+=BD=C3=C1=A1=BF=A1 =C6=C4=C6=AE=B3=CA<span lang=3DEN-US> =
+Kick-Off</span>=B8=A6 =BD=C3=C7=E0=C7=CF=B0=ED=C0=DA =
+=C7=D5=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=BE=C6=C1=F7 =B5=EE=B7=CF=C0=BB =
+=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C5 =BA=D0=B5=E9=B2=B2=BC=AD=B4=C2 =
+=BC=AD=B5=D1=B7=AF =B5=EE=B7=CF=C0=BB =BA=CE=C5=B9 =
+=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>Thanks and best =
+regards,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:3.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>Junhyeok Seong<o:p></o:p></span></b></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>Territory Account Manager l Brocade =
+Korea<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>Mobile : =
++82-10-4532-6653<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>Office : =
++82-2-320-8150<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#323E4F'>e-mail : </span><span lang=3DEN-US><a =
+href=3D"mailto:jseong@brocade.com"><span =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#0563C1'>jseong@brocade.com</span></a></span><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:1.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'text-autospace:none;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><img border=3D0 width=3D82 height=3D26 =
+id=3D"=B1=D7=B8=B2_x0020_1" src=3D"cid:image001.png@01D24650.D52167F0" =
+alt=3D"cid:image002.png@01D0F5D7.814D3980"><o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:ju=
+stify;text-justify:inter-ideograph;text-autospace:none;word-break:break-h=
+angul'><span lang=3DEN-US><a href=3D"https://twitter.com/BRCDcomm" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_9" =
+src=3D"cid:image002.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigtwtr.jp=
+g"></span></a><a href=3D"https://www.facebook.com/brocade?ref=3Dhl" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_8" =
+src=3D"cid:image003.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigfb.jpg"=
+></span></a><a href=3D"http://www.linkedin.com/company/brocade" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_7" =
+src=3D"cid:image004.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esiglkin.jp=
+g"></span></a><a href=3D"http://www.pinterest.com/brcdcomm" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_6" =
+src=3D"cid:image005.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigpint.jp=
+g"></span></a><a href=3D"http://instagram.com/brcdcomm" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_5" =
+src=3D"cid:image006.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esiginst.jp=
+g"></span></a><a =
+href=3D"http://www.youtube.com/channel/UC42yfEDgSbHZm0EKYsb0oIg" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_4" =
+src=3D"cid:image007.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigyout.jp=
+g"></span></a><a =
+href=3D"http://community.brocade.com/t5/Blogs/ct-p/Blogs" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_3" =
+src=3D"cid:image008.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigblog.jp=
+g"></span></a><a href=3D"http://community.brocade.com/" =
+title=3D"&quot;&quot; "><span =
+style=3D'font-size:10.0pt;font-family:"Franklin Gothic =
+Book","sans-serif";text-decoration:none'><img border=3D0 width=3D30 =
+height=3D20 id=3D"Picture_x0020_2" =
+src=3D"cid:image009.jpg@01D24650.D52167F0" =
+alt=3D"http://intranet.brocade.com/Marketing/PublishingImages/esigcomm.jp=
+g"></span></a></span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p></o:p></span></p></div><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>From:</span=
+></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> Joong-Gil =
+Lee <br><b>Sent:</b> Friday, November 18, 2016 10:23 AM<br><b>To:</b> =
+Joong-Gil Lee &lt;<a =
+href=3D"mailto:joonggil@Brocade.com">joonggil@Brocade.com</a>&gt;<br><b>C=
+c:</b> Korea Office &lt;<a =
+href=3D"mailto:koreaoffice2@Brocade.COM">koreaoffice2@Brocade.COM</a>&gt;=
+; Sophie Choi &lt;<a =
+href=3D"mailto:choik@Brocade.com">choik@Brocade.com</a>&gt;<br><b>Subject=
+:</b> Brocade 2017 Partner Kickoff</span><span =
+style=3D'font-size:11.0pt'>=BF=A1</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span style=3D'font-size:11.0pt'>=C3=CA=B4=EB</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span style=3D'font-size:11.0pt'>=C7=D5=B4=CF=B4=D9</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>.<o:p></o:p=
+></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p align=3Dcenter =
+style=3D'text-align:center;line-height:12.0pt'><span =
+style=3D'font-size:8.5pt;font-family:=B5=B8=BF=F2;color:#999999'>=BA=BB =
+=B8=DE=C0=CF=C0=CC =BA=B8=C0=CC=C1=F6 =BE=CA=B4=C2 =B0=E6=BF=EC <span =
+lang=3DEN-US><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwMQ-3D-3D-26URL-3Dhttp-3A__maylife.co.kr_eDM_brocade-5Fk=
+ickoff-5F161201-5FeDM.html&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&=
+amp;r=3DPigVwkg92rVttjp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsu=
+sZmWubTz9vWKGK5Lw3YwSLooFOjkSA&amp;s=3DMD76xJ1VRsSq8xVUvndO-GD5ZM463D9GDl=
+gOxPTyCao&amp;e=3D" target=3D"_blank"><span lang=3DEN-US><span =
+lang=3DEN-US>=C0=CC=B0=F7</span></span></a></span>=C0=BB =
+=B4=AD=B7=AF=C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><div align=3Dcenter><table =
+class=3DMsoNormalTable border=3D1 cellspacing=3D0 cellpadding=3D0 =
+width=3D700 style=3D'width:525.0pt;border:solid #F0F0F0 1.0pt'><tr><td =
+style=3D'border:none;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><map name=3DMicrosoftOfficeMap0><area shape=3DRect =
+coords=3D"23, 14, 157, 58" =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D-26RU=
+1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3D-26U=
+E9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S0lORD=
+1D-26Q0lEPTAxNQ-3D-3D-26URL-3Dhttp-3A__www.brocadekorea.com_&amp;d=3DDgMF=
+JQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp19tM5N_IiAY2JdAA=
+ybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLooFOjkSA&amp;s=3D=
+3xUSO1vgkqK1fDOAloYH7j3HgcpcTji9w6COCDLJp9A&amp;e=3D" =
+target=3D"_blank"></map><img border=3D0 width=3D700 height=3D74 =
+id=3D"_x0000_i1034" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_01.jpg" =
+usemap=3D"#MicrosoftOfficeMap0"><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'border:none;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><map name=3DMicrosoftOfficeMap1><area shape=3DRect =
+coords=3D"318, 154, 362, 178" =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D-26RU=
+1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3D-26U=
+E9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S0lORD=
+1D-26Q0lEPTAxNA-3D-3D-26URL-3Dhttp-3A__www.parkruan.com_parkruan_location=
+.html&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVtt=
+jp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwS=
+LooFOjkSA&amp;s=3D1OQCaiZjLYny9cLQm1_f_ISgPENuU02UdA0_dXXdiao&amp;e=3D" =
+target=3D"_blank"></map><img border=3D0 width=3D700 height=3D208 =
+id=3D"_x0000_i1035" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_02.jpg" =
+usemap=3D"#MicrosoftOfficeMap1"><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'border:none;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><img border=3D0 width=3D700 id=3D"_x0000_i1036" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_03.jpg"><o:p><=
+/o:p></span></p></td></tr><tr><td style=3D'border:none;padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal><span lang=3DEN-US><img border=3D0 =
+width=3D700 id=3D"_x0000_i1037" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_04.jpg"><o:p><=
+/o:p></span></p></td></tr><tr><td style=3D'border:none;padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal><span lang=3DEN-US><map =
+name=3DMicrosoftOfficeMap2><area shape=3DRect coords=3D"248, 5, 438, 49" =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D-26RU=
+1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3D-26U=
+E9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S0lORD=
+1D-26Q0lEPTAxMw-3D-3D-26URL-3Dhttp-3A__maylife.co.kr_eDM_brocade-5Fkickof=
+f-5F161201-5Finput.php&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;=
+r=3DPigVwkg92rVttjp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmW=
+ubTz9vWKGK5Lw3YwSLooFOjkSA&amp;s=3DEsV1uyWWCycoFy9MGs-2NUstbMTBia0h-3N7kS=
+lUrh4&amp;e=3D" target=3D"_blank"></map><img border=3D0 width=3D700 =
+height=3D49 id=3D"_x0000_i1038" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_05.jpg" =
+usemap=3D"#MicrosoftOfficeMap2"><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'border:none;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><img border=3D0 width=3D700 id=3D"_x0000_i1039" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_06.jpg"><o:p><=
+/o:p></span></p></td></tr><tr><td style=3D'border:none;padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal><span lang=3DEN-US><map =
+name=3DMicrosoftOfficeMap3><area shape=3DRect coords=3D"266, 13, 474, =
+36" href=3D"mailto:brocade@pointcom.co.kr" target=3D"_blank"></map><img =
+border=3D0 width=3D700 height=3D47 id=3D"_x0000_i1040" =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_07.jpg" =
+usemap=3D"#MicrosoftOfficeMap3"><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'border:none;padding:0cm 0cm 0cm 0cm'><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D"100%" =
+style=3D'width:100.0%;background:#434343;border-collapse:collapse' =
+id=3Dfootertable><tr style=3D'height:7.5pt'><td width=3D"100%" =
+colspan=3D5 style=3D'width:100.0%;padding:0cm 0cm 0cm =
+0cm;height:7.5pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr><tr><td width=3D"3%" =
+style=3D'width:3.0%;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td><td width=3D"33%" =
+style=3D'width:33.0%;padding:0cm 0cm 0cm 0cm'><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D170 =
+style=3D'width:127.5pt;background:#434343;border-collapse:collapse' =
+id=3DTable2><tr><td style=3D'border:solid #A7A7A7 1.0pt;padding:.75pt =
+.75pt .75pt .75pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:ce=
+nter'><span lang=3DEN-US><a href=3D"mailto:korea-info@Brocade.com" =
+target=3D"_blank"><strong><span lang=3DEN-US =
+style=3D'font-size:8.5pt;font-family:=B1=BC=B8=B2;color:#A7A7A7;font-weig=
+ht:normal;text-decoration:none'><span =
+lang=3DEN-US>=B9=AE=C0=C7=C3=B3</span></span></strong></a><o:p></o:p></sp=
+an></p></td></tr></table></td><td width=3D"30%" =
+style=3D'width:30.0%;padding:0cm 0cm 0cm 0cm'><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D170 =
+style=3D'width:127.5pt;background:#434343;border-collapse:collapse' =
+id=3DTable3><tr><td style=3D'border:solid #A7A7A7 1.0pt;padding:.75pt =
+.75pt .75pt .75pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:ce=
+nter'><span lang=3DEN-US><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwMw-3D-3D-26URL-3Dhttp-3A__community.brocade.com_&amp;d=3D=
+DgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp19tM5N_IiAY2=
+JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLooFOjkSA&amp;=
+s=3DOFjIiOnUq76nfFKrgctVz9lc4G6i4_rcYkcEurwIK58&amp;e=3D" =
+target=3D"_blank"><strong><span lang=3DEN-US =
+style=3D'font-size:8.5pt;font-family:=B1=BC=B8=B2;color:#A7A7A7;font-weig=
+ht:normal;text-decoration:none'><span =
+lang=3DEN-US>=C4=BF=B9=C2=B4=CF=C6=BC</span></span></strong><strong><span=
+ lang=3DEN-US =
+style=3D'font-size:8.5pt;font-family:"Helvetica","sans-serif";color:#A7A7=
+A7;font-weight:normal;text-decoration:none'><span lang=3DEN-US> =
+</span></span></strong><strong><span lang=3DEN-US =
+style=3D'font-size:8.5pt;font-family:=B1=BC=B8=B2;color:#A7A7A7;font-weig=
+ht:normal;text-decoration:none'><span =
+lang=3DEN-US>=B0=A1=C0=D4</span></span></strong></a><o:p></o:p></span></p=
+></td></tr></table></td><td width=3D"27%" valign=3Dtop =
+style=3D'width:27.0%;padding:0cm 0cm 0cm 0cm'><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+align=3Dright width=3D137 =
+style=3D'width:102.75pt;border-collapse:collapse'><tr =
+style=3D'height:3.75pt'><td width=3D23 =
+style=3D'width:17.25pt;padding:0cm 0cm 0cm 0cm;height:3.75pt'><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:3.75pt'><span =
+lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwNA-3D-3D-26URL-3Dhttps-3A__twitter.com_brcdcomm&amp;d=3D=
+DgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp19tM5N_IiAY2=
+JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLooFOjkSA&amp;=
+s=3D34mx4-OlRqqLyOamFB6JZjMmAr28z4vciK9QR60nq9E&amp;e=3D"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D23 height=3D23 =
+id=3D"_x0000_i1041" src=3D"http://maylife.co.kr/eDM/icon_twitter.png" =
+alt=3DTwitter></span></a><o:p></o:p></span></p></td><td width=3D15 =
+valign=3Dtop style=3D'width:11.25pt;padding:0cm 0cm 0cm =
+0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><img =
+border=3D0 width=3D5 height=3D5 id=3D"_x0000_i1042" =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif"><o:p=
+></o:p></span></p></td><td width=3D23 style=3D'width:17.25pt;padding:0cm =
+0cm 0cm 0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwNQ-3D-3D-26URL-3Dhttps-3A__www.facebook.com_brocade&amp=
+;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp19tM5N_=
+IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLooFOjkSA=
+&amp;s=3DCXUoATbSBCZmDGmedkSyk9uS28XB0lsIe5rR4Ycl-cQ&amp;e=3D"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D23 height=3D23 =
+id=3D"_x0000_i1043" src=3D"http://maylife.co.kr/eDM/icon_facebook.png" =
+alt=3DFacebook></span></a><o:p></o:p></span></p></td><td width=3D15 =
+valign=3Dtop style=3D'width:11.25pt;padding:0cm 0cm 0cm =
+0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><img =
+border=3D0 width=3D5 height=3D5 id=3D"_x0000_i1044" =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif"><o:p=
+></o:p></span></p></td><td width=3D23 style=3D'width:17.25pt;padding:0cm =
+0cm 0cm 0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwNg-3D-3D-26URL-3Dhttp-3A__www.linkedin.com_company_broc=
+ade&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp=
+19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLo=
+oFOjkSA&amp;s=3DyZLEK8I7T-qMNKP8eoBl9AbJQUEPMtvTFiB2Rzh3ef0&amp;e=3D"><sp=
+an style=3D'text-decoration:none'><img border=3D0 width=3D23 height=3D23 =
+id=3D"_x0000_i1045" src=3D"http://maylife.co.kr/eDM/icon_in.png" =
+alt=3DLinkedIn></span></a><o:p></o:p></span></p></td><td width=3D15 =
+valign=3Dtop style=3D'width:11.25pt;padding:0cm 0cm 0cm =
+0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><img =
+border=3D0 width=3D5 height=3D5 id=3D"_x0000_i1046" =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif"><o:p=
+></o:p></span></p></td><td width=3D23 style=3D'width:17.25pt;padding:0cm =
+0cm 0cm 0cm;height:3.75pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:3.75pt'><span lang=3DEN-US =
+style=3D'font-family:"Helvetica","sans-serif";color:#999595'><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwNw-3D-3D-26URL-3Dhttps-3A__www.youtube.com_user_Brocade=
+Video&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVtt=
+jp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwS=
+LooFOjkSA&amp;s=3DwkWrAmbbDBDErZGW_PL3LKv6I_NULDXy8lU47M2rS6A&amp;e=3D"><=
+span style=3D'text-decoration:none'><img border=3D0 width=3D23 =
+height=3D23 id=3D"_x0000_i1047" =
+src=3D"http://maylife.co.kr/eDM/icon_youtube.png" =
+alt=3Dyoutube></span></a><o:p></o:p></span></p></td></tr></table></td><td=
+ width=3D"3%" style=3D'width:3.0%;padding:0cm 0cm 0cm 0cm'><p =
+class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:7.5pt'><td width=3D"3%" style=3D'width:3.0%;padding:0cm =
+0cm 0cm 0cm;height:7.5pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td><td width=3D"94%" =
+colspan=3D3 style=3D'width:94.0%;border:none;border-bottom:solid #898888 =
+1.0pt;padding:0cm 0cm 0cm 0cm;height:7.5pt'><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td><td width=3D"3%" =
+style=3D'width:3.0%;padding:0cm 0cm 0cm 0cm;height:7.5pt'><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:7.5pt'><td width=3D"100%" colspan=3D5 =
+style=3D'width:100.0%;padding:0cm 0cm 0cm 0cm;height:7.5pt'><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr></table></td></tr><tr>=
+<td style=3D'border:none;padding:0cm 0cm 0cm 0cm'><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D"100%" =
+style=3D'width:100.0%;background:#434343;border-collapse:collapse' =
+id=3DTable4><tr><td width=3D"3%" style=3D'width:3.0%;padding:0cm 0cm 0cm =
+0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td><td width=3D"68%" =
+style=3D'width:68.0%;padding:0cm 0cm 0cm 0cm'><div><p class=3DMsoNormal =
+style=3D'line-height:9.75pt;vertical-align:top'><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'>Brocade </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C0=CC=B8=DE=C0=CF=C0=BB</span><s=
+pan =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B4=F5</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C0=CC=BB=F3</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BC=F6=BD=C5=C7=CF=B0=ED</span><s=
+pan =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BD=CD=C1=F6</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BE=CA=C0=BA</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B0=E6=BF=EC</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> <span lang=3DEN-US><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwOA-3D-3D-26URL-3Dhttp-3A__www.brocade-2Dapac.com_pages_=
+unsubscribe.asp&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPig=
+Vwkg92rVttjp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vW=
+KGK5Lw3YwSLooFOjkSA&amp;s=3DcEIZhXzqnHI5Eouc2aA5GZzoFGXDwaiX8g6BFS1tg5I&a=
+mp;e=3D" target=3D"_blank"><span lang=3DEN-US =
+style=3D'font-family:=B1=BC=B8=B2;color:#C7C7C7'><span =
+lang=3DEN-US>=BF=A9=B1=E2</span></span></a></span></span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B8=A6</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=
+=C0</span><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'><br></span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C6=AF=C1=A4</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C1=A6=C7=B0=C0=BB</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BE=F7=B5=A5=C0=CC=C6=AE=C7=CF=B0=
+=ED</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BD=CD=C0=BA</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B0=E6=BF=EC</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> <span lang=3DEN-US><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAwOQ-3D-3D-26URL-3Dhttp-3A__www.brocade-2Dapac.com_pages_=
+verify.asp-3Femail-3D-26cty-3DSG-26lang-3D-26c-3D1&amp;d=3DDgMFJQ&amp;c=3D=
+IL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp19tM5N_IiAY2JdAAybvZwAbJrZC=
+g&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLooFOjkSA&amp;s=3DSVaxUCbV1gS=
+DicwlClBCWisLEUbY6W7SRpsqJmxVMR8&amp;e=3D" target=3D"_blank"><span =
+lang=3DEN-US style=3D'font-family:=B1=BC=B8=B2;color:#C7C7C7'><span =
+lang=3DEN-US>=BF=A9=B1=E2</span></span></a></span></span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B8=A6</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=
+=C0</span><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'>.<br><br>&copy; 2016 Brocade Communications Systems, Inc. All Rights =
+Reserved. Brocade </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B9=D7</span><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> B-wing<br></span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B1=E2=C8=A3=B4=C2</span><span =
+lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> Brocade Communications Systems, Inc.</span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C0=C7</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B5=EE=B7=CF</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BB=F3=C7=A5=C0=D4=B4=CF=B4=D9</s=
+pan><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'>. </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B1=E2=C5=B8=C0=C7</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BA=EA=B7=A3=B5=E5</span><span =
+lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'>,<br></span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C1=A6=C7=B0</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B6=C7=B4=C2</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BC=AD=BA=F1=BD=BA</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B8=ED=C4=AA=C0=BA</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=B0=A2</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BC=D2=C0=AF=C0=DA=C0=C7</span><s=
+pan =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BB=F3=C7=A5=C0=CF</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=BC=F6</span><span =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'> </span><span =
+style=3D'font-size:7.5pt;color:#999595'>=C0=D6=BD=C0=B4=CF=B4=D9</span><s=
+pan lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'>.<o:p></o:p></span></p></div></td><td width=3D"25%" valign=3Dtop =
+style=3D'width:25.0%;padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal =
+align=3Dright style=3D'text-align:right;line-height:11.25pt'><span =
+lang=3DEN-US =
+style=3D'font-size:8.5pt;font-family:"Helvetica","sans-serif";color:#9995=
+95'><a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAxMA-3D-3D-26URL-3Dhttp-3A__www.brocade.com_privacy_index=
+.page&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVtt=
+jp19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwS=
+LooFOjkSA&amp;s=3DK0mQZgfJ19Y3xkk1HrAOAA_ym_JCf0LhQL5IfPkfhjE&amp;e=3D"><=
+strong><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:=B1=BC=B8=B2;color:#999595;font-weig=
+ht:normal;text-decoration:none'><span =
+lang=3DEN-US>=B0=B3=C0=CE=C1=A4=BA=B8=BA=B8=C8=A3=C1=A4=C3=A5</span></spa=
+n></strong></a> | <a =
+href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__image.postm=
+an.co.kr-3A80_CheckNew.html-3FTV9JRD03MzMxNDQ5NDY2-26U1RZUEU9TUFTUw-3D-3D=
+-26RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty-26TElTVF9UQUJMRT1FQkFEMTE2MA-3D-3=
+D-26UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ-3D-3D-26VEM9MjAxNjExMjQ-3D-26S=
+0lORD1D-26Q0lEPTAxMQ-3D-3D-26URL-3Dhttp-3A__www.brocade.com_legal_index.p=
+age&amp;d=3DDgMFJQ&amp;c=3DIL_XqQWOjubgfqINi2jTzg&amp;r=3DPigVwkg92rVttjp=
+19tM5N_IiAY2JdAAybvZwAbJrZCg&amp;m=3D2-HkFAc6scUsusZmWubTz9vWKGK5Lw3YwSLo=
+oFOjkSA&amp;s=3DWzbyncUrrvXzNpEwXfAFrMFRl0a1sNZQZq0P7hVCa6M&amp;e=3D"><st=
+rong><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:=B1=BC=B8=B2;color:#999595;font-weig=
+ht:normal;text-decoration:none'><span =
+lang=3DEN-US>=B9=FD=C0=FB=B0=ED=C1=F6</span></span></strong></a><o:p></o:=
+p></span></p></td><td width=3D"3%" style=3D'width:3.0%;padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:7.5pt'><td width=3D"100%" colspan=3D4 =
+style=3D'width:100.0%;padding:0cm 0cm 0cm 0cm;height:7.5pt'><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:7.5pt'><span =
+lang=3DEN-US>&nbsp;<o:p></o:p></span></p></td></tr></table></td></tr></ta=
+ble></div><div><p class=3DMsoNormal><span lang=3DEN-US><img border=3D0 =
+width=3D1 height=3D1 id=3D"_x0000_i1048" =
+src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03MzMxNDQ5NDY2&a=
+mp;U1RZUEU9TUFTUw=3D=3D&amp;RU1BSUxfSUQ9bGhqQHBvaW50Y29tLmNvLmty&amp;TElT=
+VF9UQUJMRT1FQkFEMTE2MA=3D=3D&amp;UE9TVF9JRD0yMDE2MTExNzEwMDAwOTcyMDI3MQ=3D=
+=3D&amp;VEM9MjAxNjExMjQ=3D&amp;S0lORD1P"><o:p></o:p></span></p></div></di=
+v></body></html>
+------=_NextPart_002_005B_01D24650.D5A89950--
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D24650.D52167F0>
+
+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
+YII=
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image002.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDurjxE
+ttBLNKAUiBZjjJp0evrNGrxeSysoYYxnB9RXE3F8sqSwPIFEyFQx6A9qisTDaIWFkbedI8NMWyrf
+TnvTEen6Nfm9eYcYXHA6VrVxngS58+S6542KRXZ0hnhXiaT+yfEN3ZQIjQxOQnmDJA9M1lf2rLjH
+lQ4/3T/jRRTEep/DGJZdFlv2/wBdM+wgfdAXoAK7eiikM//Z
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image003.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5q2rz
+/wBqXO6OKRvMYbpBk9f5VZ061v8AU7GW8SOwit0JG+UY3EdhWTrJC6pMTnBlY/Xmunk1LRj4KR/7
+Nf7MZiqxb+Q+PvZpiLPgK+lurm6jZVRAoO1eFznqB2rtq4H4df8AH1cn1iH8676kM828R2UNrrc6
+RrlSd/zc4J64oYJ/wi0aeWm3z84xRRTEdB4Hs4ltZroA+Yx2ewA9K6qiikM//9k=
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image004.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image004.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDuE1s3
+F68TzLEoVm37NxJHaqy+I5igZowMjOfLOCPX6VleFroT67dqSDttZDXQ2uoypqGh6dmM29xaM0gK
+gk4HSmBf8P6mb8zA4+UA4HStyuK8DTBtS1KJfuocAegya7SkB4N4oJ0bxNe2lmSI0YhST82D2yO1
+ZX9q3O4Nv+ZRhTk5Ue3NFFMD1X4XWyNo01+2TPO+1ueMDpiu6oopAf/Z
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image005.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image005.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDtJbqa
+61K4gjhtmMZLSTTrkIvqagjNveyGOzktJrjB2xzWuxZP901nXerRQarq+nSbg906LEVGfmB+6fY1
+rX8Nz/wldveTCGDTrOMF5vMAGQOVx65piJvC135ms3MKQrAgiBeJBgBwcdOxrrR0rhPBd+upeJ9T
+uU4SQEqPbNd3SGcJrmiWlt4kGpRK4uEYSDLfLke1czf6RBc3E1xK8zSSuZH+fgk+1FFMR2Hw90q3
+s7O4uY95lkbaSxzwK7KiikM//9k=
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image006.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image006.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDaGq3d
+9fTQLLax3DM3lpMmWcD+InsKx7/U/EkVtMdOm0m/uYQGeCCLLqPUA9fwqJmt3vbiS5kMclxbNbLP
+knygTxx6ZqXS7e38PyLfzXcEl2qMIhBLvLMwx26KOvNMDrvhzqep6hZTDV7f7NcpgmMJtH1x2rtq
+4fwFdzXd7eNPK8j+WnLHJ7129IDwzxTL/Y3iK7srZUaGNzt8wZIzzjNZA1aUE4htxnriOiimB6n8
+MIVl0ibUGz58z7GA4UKvQAV3FFFID//Z
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image007.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image007.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDt9YuX
+gtXuo4oppTc+U3mDPBOBj6Gqn/CQ2UZZJdMhLKxXcD1x/I57Vja3q15DrOrW8dzIqQYkhRVBXcWA
+5z7mqEcfiCaDAvbb7SZNzAwjaR03dOtMWp6XZbItSCQKI43h3FV6Z7VrDpXCeAr2/u9Uvk1K7S6e
+D5VkQYGK7ukM4LxLoto2sTOVfdKo34br3/nVD7ErMSZZssck7/SiimI6bwfp8FuLi4QN5sh+Yk9a
+6eiikM//2Q==
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image008.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image008.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDtrnX7
+wXN0LeKNo7fl2YZIHrU51K+a2WW3MEj7N5iMW1seo9a57SrsTaprtuIxcSyRkpb7sGXDcqDSatr8
+fh66it9sh3RJOkLPua0fuufQjtTA6vw3rD6oZQ4UFB/CODXQVwngO/jvtW1GaBNkUv7xUz90E13d
+IDxPxjAml+K7mO2yMHzFYn5lJ5OD6VgyS+Y5eREd2OSzDJP40UUwPTfhbaRHTri9wRKzeXgfdCjn
+gV3tFFID/9k=
+
+------=_NextPart_001_005A_01D24650.D5A89950
+Content-Type: image/jpeg;
+	name="image009.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image009.jpg@01D24650.D52167F0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAUAB4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDuY9Ta
+QSTSvHHErbS7Lks3oKVNUgmcRxTosjcKJY8Bj9e1c1Y3K6mw0osySs5kgkAyAT1DD0962rXU9J0r
+SGt9UgjS7RSxQ4LSEHgj0pgbmgXr3M1zFIoVoiAyjsa264zwLetfXV/M5yzhW/nXZUgPENf/AOJX
+4hu7W3HyQuVRmPzAemRWabotktFET6kH/GiimB6b8NIEOkTXmMSyvsIHQAdMD8a7WiikB//Z
+
+------=_NextPart_001_005A_01D24650.D5A89950--
+
+------=_NextPart_000_0059_01D24650.D5A89950
+Content-Type: text/html;
+	name="=?ks_c_5601-1987?B?YnJvY2FkZV9raWNrb2ZmX2VETcPKw7vA5S5IVE1M?="
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="=?ks_c_5601-1987?B?YnJvY2FkZV9raWNrb2ZmX2VETcPKw7vA5S5IVE1M?="
+
+<html>
+<head>
+<title>brocade_kickoff_161201_eDM</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Deuc-kr">
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" topmargin=3D"0" =
+marginwidth=3D"0" marginheight=3D"0">
+<p align=3D"center" style=3D"font-family:Dotum; font-size:11px; =
+color:#999; line-height:16px; ">=BA=BB =B8=DE=C0=CF=C0=CC =
+=BA=B8=C0=CC=C1=F6 =BE=CA=B4=C2 =B0=E6=BF=EC <a =
+href=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM.html" =
+target=3D"_blank">=C0=CC=B0=F7</a>=C0=BB =B4=AD=B7=AF=C1=D6=BD=C3=B1=E2 =
+=B9=D9=B6=F8=B4=CF=B4=D9.</p>
+
+<table width=3D"700" border=3D"0" align=3D"center" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border:1px solid #F0F0F0">
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_01.jpg" =
+alt=3D"" width=3D"700" height=3D"74" border=3D"0" usemap=3D"#top"></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_02.jpg" =
+alt=3D"" width=3D"700" height=3D"208" border=3D"0" =
+usemap=3D"#location"></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_03.jpg" =
+width=3D"700" alt=3D""></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_04.jpg" =
+width=3D"700" alt=3D""></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_05.jpg" =
+alt=3D"" width=3D"700" height=3D"49" border=3D"0" =
+usemap=3D"#goLink"></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_06.jpg" =
+width=3D"700" alt=3D""></td>
+	</tr>
+	<tr>
+		<td>
+			<img =
+src=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_eDM_07.jpg" =
+alt=3D"" width=3D"700" height=3D"47" border=3D"0" =
+usemap=3D"#bottom"></td>
+	</tr>
+   =20
+     <tr>
+    <td colspan=3D"3"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"footertable" style=3D"background-color: #434343; =
+border: none; border-collapse: collapse; margin: 0 0 0 0; width: 100%;">
+      <tbody>
+        <tr>
+          <td class=3D"footercell footerph" colspan=3D"5" =
+style=3D"line-height: 8px; width: 100%; height:10px;"></td>
+        </tr>
+        <tr>
+          <td class=3D"footercell footerph" style=3D"width: =
+3%;">&nbsp;</td>
+          <td class=3D"footercell" style=3D"color: #999595; font-family: =
+'Helvetica', Arial, sans-serif; font-size: 11px; line-height: 15px; =
+width: 33%;"><table id=3D"Table2" style=3D"background-color: #434343; =
+border: 1px solid #A7A7A7; border-collapse: collapse; margin:auto; =
+width: 170px;">
+            <tbody>
+              <tr>
+                <td style=3D"text-align:center;"><a class=3D"inherit" =
+style=3D"display: inline !important;line-height:25px;color: #A7A7A7; =
+font-family: 'dual400', Arial Helvetica Neue, Helvetica, sans-serif; =
+font-size: 11px; font-weight: normal;text-decoration:none;" =
+href=3D"mailto:korea-info@Brocade.com" target=3D"_blank"><strong =
+style=3D"font-weight:normal;">=B9=AE=C0=C7=C3=B3</strong></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+          <td class=3D"footercell" style=3D"color: #999595; font-family: =
+'Helvetica', Arial, sans-serif; font-size: 11px; line-height: 15px; =
+width: 30%;"><table id=3D"Table3" style=3D"background-color: #434343; =
+border: 1px solid #A7A7A7; border-collapse: collapse; margin:auto; =
+width: 170px;">
+            <tbody>
+              <tr>
+                <td style=3D"text-align:center;"><a class=3D"inherit" =
+style=3D"display: inline !important;line-height:25px;color: #A7A7A7; =
+font-family: 'dual400', Arial Helvetica Neue, Helvetica, sans-serif; =
+font-size: 11px; font-weight: normal;text-decoration:none;" =
+href=3D"http://community.brocade.com/" target=3D"_blank"><strong =
+style=3D"font-weight:normal;">=C4=BF=B9=C2=B4=CF=C6=BC =
+=B0=A1=C0=D4</strong></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+          <td valign=3D"top" class=3D"footercell" style=3D"font-family: =
+'Helvetica', Arial, sans-serif; font-size: 11px; line-height: 15px; =
+text-align: right; width: 27%;"><div id=3D"sociallogos" =
+class=3D"pull-right" style=3D"max-width: 300px; text-align: right;">
+            <table align=3D"right" width=3D"137" height=3D"25" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse: collapse; color: #999595; font-family: =
+Helvetica, Arial, sans-serif; margin-top: 8px; table-layout: fixed;">
+              <tbody>
+                <tr>
+                  <td width=3D"23" align=3D"left" valign=3D"middle"><a =
+href=3D"https://twitter.com/brcdcomm" style=3D"padding-right: 5px; =
+text-decoration: none;"><img =
+src=3D"http://maylife.co.kr/eDM/icon_twitter.png" alt=3D"Twitter" =
+title=3D"Twitter" border=3D"0" width=3D"23" height=3D"23" /></a></td>
+                  <td width=3D"15" height=3D"5" align=3D"left" =
+valign=3D"top" style=3D"height: 5px; line-height: 5px;"><img =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif" =
+width=3D"5" height=3D"5" border=3D"0" alt=3D"" style=3D"display: block; =
+height: 5px; line-height: 5px;" /></td>
+                  <td width=3D"23" align=3D"left" valign=3D"middle"><a =
+href=3D"https://www.facebook.com/brocade" style=3D"padding-right: 5px; =
+text-decoration: none;"><img =
+src=3D"http://maylife.co.kr/eDM/icon_facebook.png" alt=3D"Facebook" =
+title=3D"Facebook" border=3D"0" width=3D"23" height=3D"23" /></a></td>
+                  <td width=3D"15" height=3D"5" align=3D"left" =
+valign=3D"top" style=3D"height: 5px; line-height: 5px;"><img =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif" =
+width=3D"5" height=3D"5" border=3D"0" alt=3D"" style=3D"display: block; =
+height: 5px; line-height: 5px;" /></td>
+                  <td width=3D"23" align=3D"left" valign=3D"middle"><a =
+href=3D"http://www.linkedin.com/company/brocade" style=3D"padding-right: =
+5px; text-decoration: none;"><img =
+src=3D"http://maylife.co.kr/eDM/icon_in.png" alt=3D"LinkedIn" =
+title=3D"LinkedIn" border=3D"0" width=3D"23" height=3D"23" /></a></td>
+                  <td width=3D"15" height=3D"5" align=3D"left" =
+valign=3D"top" style=3D"height: 5px; line-height: 5px;"><img =
+src=3D"http://accomplice.com.sg/Brocade/BRD_0255/images/aruba-s.gif" =
+width=3D"5" height=3D"5" border=3D"0" alt=3D"" style=3D"display: block; =
+height: 5px; line-height: 5px;" /></td>
+                  <td width=3D"23" align=3D"left" valign=3D"middle"><a =
+href=3D"https://www.youtube.com/user/BrocadeVideo" =
+style=3D"text-decoration: none;"><img =
+src=3D"http://maylife.co.kr/eDM/icon_youtube.png" alt=3D"youtube" =
+title=3D"youtube" border=3D"0" width=3D"23" height=3D"23" /></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div></td>
+          <td class=3D"footercell footerph" style=3D"width: =
+3%;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class=3D"footercell footerph" style=3D"height: 10px; =
+width: 3%;"></td>
+          <td class=3D"footercell footerph" colspan=3D"3" =
+style=3D"border-bottom: 1px solid #898888; height: 10px; width: =
+94%;"></td>
+          <td class=3D"footercell footerph" style=3D"height: 10px; =
+width: 3%;"></td>
+        </tr>
+        <tr>
+          <td class=3D"footercell" colspan=3D"5" style=3D"height: 10px; =
+width: 100%;"></td>
+        </tr>
+      </tbody>
+    </table></td>
+</tr>
+  <tr>
+    <td colspan=3D"3"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"Table4" style=3D"background-color: #434343; =
+border: none; border-collapse: collapse; margin: 0 0 0 0; width: 100%;">
+      <tbody>
+        <tr>
+          <td class=3D"footercell footerph" style=3D"width: =
+3%;">&nbsp;</td>
+          <td class=3D"footercell" colspan=3D"2" style=3D"color: =
+#999595; font-family: 'Helvetica', Arial, sans-serif; font-size: 11px; =
+line-height: 15px; width: 68%;"><div class=3D"socialtext" =
+style=3D"font-size: 10px; line-height: 13px; margin: 0; vertical-align: =
+top;">Brocade =C0=CC=B8=DE=C0=CF=C0=BB =B4=F5 =C0=CC=BB=F3 =
+=BC=F6=BD=C5=C7=CF=B0=ED =BD=CD=C1=F6 =BE=CA=C0=BA =B0=E6=BF=EC <a =
+href=3D"http://www.brocade-apac.com/pages/unsubscribe.asp" =
+target=3D"_blank" style=3D"color:#c7c7c7;">=BF=A9=B1=E2</a>=B8=A6 =
+=C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=C0<br />
+            =C6=AF=C1=A4 =C1=A6=C7=B0=C0=BB =
+=BE=F7=B5=A5=C0=CC=C6=AE=C7=CF=B0=ED =BD=CD=C0=BA =B0=E6=BF=EC <a =
+href=3D"http://www.brocade-apac.com/pages/verify.asp?email=3D&amp;cty=3DS=
+G&amp;lang=3D&amp;c=3D1" target=3D"_blank" =
+style=3D"color:#c7c7c7;">=BF=A9=B1=E2</a>=B8=A6 =
+=C5=AC=B8=AF=C7=CF=BD=CA=BD=C3=BF=C0.<br />
+            <br />
+            &copy; 2016 Brocade Communications Systems, Inc. All Rights =
+Reserved. Brocade =B9=D7 B-wing<br />
+            =B1=E2=C8=A3=B4=C2 Brocade Communications Systems, =
+Inc.=C0=C7 =B5=EE=B7=CF =BB=F3=C7=A5=C0=D4=B4=CF=B4=D9. =
+=B1=E2=C5=B8=C0=C7 =BA=EA=B7=A3=B5=E5,<br />
+            =C1=A6=C7=B0 =B6=C7=B4=C2 =BC=AD=BA=F1=BD=BA =
+=B8=ED=C4=AA=C0=BA =B0=A2 =BC=D2=C0=AF=C0=DA=C0=C7 =BB=F3=C7=A5=C0=CF =
+=BC=F6 =C0=D6=BD=C0=B4=CF=B4=D9.</div></td>
+          <td valign=3D"top" class=3D"footercell" style=3D"color: =
+#999595; font-family: 'Helvetica', Arial, sans-serif; font-size: 11px; =
+line-height: 15px; width: 25%;"><div class=3D"socialtext" =
+style=3D"max-width: 400px; text-align: right;"><a =
+href=3D"http://www.brocade.com/privacy/index.page" style=3D"color: =
+#999595; font-family: 'Helvetica', Arial, sans-serif; font-size: 10px; =
+line-height: 12px; text-decoration: none;"><strong =
+style=3D"font-weight:normal;">=B0=B3=C0=CE=C1=A4=BA=B8=BA=B8=C8=A3=C1=A4=C3=
+=A5</strong></a> | <a href=3D"http://www.brocade.com/legal/index.page" =
+style=3D"color: #999595; font-family: 'Helvetica', Arial, sans-serif; =
+font-size: 10px; line-height: 12px; text-decoration: none;"><strong =
+style=3D"font-weight:normal;">=B9=FD=C0=FB=B0=ED=C1=F6</strong></a></div>=
+</td>
+          <td class=3D"footercell footerph" style=3D"width: =
+3%;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class=3D"footercell footerph" colspan=3D"5" =
+style=3D"height: 10px; width: 100%;"></td>
+        </tr>
+      </tbody>
+    </table></td>
+  </tr>
+</table>
+
+			<map name=3D"bottom">
+			  <area shape=3D"rect" coords=3D"266,11,474,34" =
+href=3D"mailto:brocade@pointcom.co.kr" target=3D"_blank">
+		  </map>
+         =20
+			<map name=3D"goLink">
+			  <area shape=3D"rect" coords=3D"248,3,438,47" =
+href=3D"http://maylife.co.kr/eDM/brocade_kickoff_161201_input.php" =
+target=3D"_blank">
+		  </map>
+         =20
+			<map name=3D"location">
+			  <area shape=3D"rect" coords=3D"318,154,362,178" =
+href=3D"http://www.parkruan.com/parkruan/location.html" =
+target=3D"_blank">
+		  </map>
+         =20
+			<map name=3D"top">
+			  <area shape=3D"rect" coords=3D"23,14,157,58" =
+href=3D"http://www.brocadekorea.com/" target=3D"_blank">
+		  </map>
+</body>
+</html>
+------=_NextPart_000_0059_01D24650.D5A89950--
+

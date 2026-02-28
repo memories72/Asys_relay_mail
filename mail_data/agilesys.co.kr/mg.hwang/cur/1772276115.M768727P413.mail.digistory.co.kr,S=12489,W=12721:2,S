@@ -1,0 +1,232 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id gIHGLZPJommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:55:15 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id BAE3614C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:55:15 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1558002706360592295
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.147.134 with SMTP id v128csp928840wmd;
+        Mon, 30 Jan 2017 18:46:38 -0800 (PST)
+X-Received: by 10.28.154.3 with SMTP id c3mr2699066wme.59.1485830798098;
+        Mon, 30 Jan 2017 18:46:38 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of postmaster@nam03-co1-obe.outbound.protection.outlook.com designates 104.47.40.121 as permitted sender) smtp.mailfrom=NAM03-CO1-obe.outbound.protection.outlook.com
+Received-SPF: pass (google.com: domain of postmaster@nam03-co1-obe.outbound.protection.outlook.com designates 104.47.40.121 as permitted sender) client-ip=104.47.40.121;
+Received: by 10.28.236.152 with POP3 id h24mf7991994wmi.0;
+        Mon, 30 Jan 2017 18:46:37 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 26599 invoked by uid 700); 31 Jan 2017 11:17:51 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	31 Jan 2017 11:17:51 +0900
+Received: (qmail 29781 invoked by uid 700); 31 Jan 2017 11:17:50 +0900
+Received: from unknown (HELO NAM03-CO1-obe.outbound.protection.outlook.com) (104.47.40.121)
+	by 0 (knetqmail v1.06) with ESMTPS (AES256-SHA256 encrypted);
+	31 Jan 2017 11:17:50 +0900
+Received: from AT5PR84MB0017.NAMPRD84.PROD.OUTLOOK.COM (10.162.137.14) by
+ AT5PR84MB0178.NAMPRD84.PROD.OUTLOOK.COM (10.162.138.140) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.874.12; Tue, 31 Jan 2017 02:17:46 +0000
+Received: from AT5PR84MB0017.NAMPRD84.PROD.OUTLOOK.COM ([10.162.137.14]) by
+ AT5PR84MB0017.NAMPRD84.PROD.OUTLOOK.COM ([10.162.137.14]) with mapi id
+ 15.01.0874.019; Tue, 31 Jan 2017 02:17:46 +0000
+From: "Lee, Jong-Kyu" <jong-kyu.lee@hpe.com>
+To: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+CC: "Lee, Ho Jin" <ho-jin.lee@hpe.com>, "Gil, Yong Ho" <yong-ho.gil@hpe.com>
+Subject: =?ks_c_5601-1987?B?yLi9xTogv+y4rsC6x+AgvLq0ybD8uK4gvNLHwcauv/6+7ihXRVNN?=
+ =?ks_c_5601-1987?B?KSCw38D7ua7Ax7DH?=
+Thread-Topic: =?ks_c_5601-1987?B?v+y4rsC6x+AgvLq0ybD8uK4gvNLHwcauv/6+7ihXRVNNKSCw38D7?=
+ =?ks_c_5601-1987?B?ua7Ax7DH?=
+Thread-Index: AQHSe2Q35vYgLX8cfk6pVP9U5KBk0qFR2aPQ
+Date: Tue, 31 Jan 2017 02:17:45 +0000
+Message-ID: <alxwesiow2v0md38u9tyiqg6.1485828960867@email.android.com>
+References: <57FD8B5B-FE04-448B-A208-3FC94E913292@agilesys.co.kr>
+In-Reply-To: <57FD8B5B-FE04-448B-A208-3FC94E913292@agilesys.co.kr>
+Accept-Language: ko-KR, en-US
+Content-Language: ko-KR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=jong-kyu.lee@hpe.com; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-microsoft-exchange-diagnostics: 1;AT5PR84MB0178;7:Zy+D0GCdgWUfx6tN1oK6/uEUPBQTpamoEwuN9TOTnPtKN6DCR1CUxSqYMExEMSHyjG33fp4ErT4v0FVWF6JvZ4E3n61ha72qkgKd6HiXIdWqFwPJ6oWlt/EQdovC2JfAX28Eq/z6Yg5xl6AdXNdw0CVvophlYBBOdN+wGNPqj+Rc6YKG4QmvX0ApWfVRPGNZ8hVDZUygwC9z4X6iWpZz8tOKoVpFehltb2d4OW98hHrlOYjhXfJiJmibUpflpym0QmTbHhuBC8dj3UUNjKcVtbyPr57BvDOYsjTe8wVsCYfU2kBwy7EcIqOYS8D5V2YcT33e5zJ17bgcp0t2DmwP2hMsUQxDRrAFhFh5acIM8OrBMnGIpWEoCuyXPTHEROUj9Lb/wq57JsOuy32voodnnqQt+xz33Xx93CctTV+rMLm5aK/Fk0SsnRyeu3rQDSi+IEPXJa23EWYABvNPWCcrNg==
+x-forefront-antispam-report: SFV:SKI;SCL:-1SFV:NSPM;SFS:(10019020)(7916002)(39450400003)(39850400002)(39410400002)(39840400002)(39860400002)(189002)(199003)(81166006)(5660300001)(16601075003)(3660700001)(110136003)(53936002)(7906003)(7736002)(236005)(81156014)(33646002)(68736007)(63666004)(122556002)(450100001)(8936002)(6306002)(54896002)(2906002)(6512007)(106116001)(54906002)(51650200002)(66066001)(6486002)(6436002)(38730400001)(6116002)(4326007)(105586002)(92566002)(224303003)(229383001)(86362001)(3280700002)(9686003)(77096006)(76176999)(189998001)(101416001)(606005)(2950100002)(6916009)(95246002)(50986999)(54356999)(2900100001)(3846002)(6506006)(97736004)(102836003)(106356001);DIR:OUT;SFP:1102;SCL:1;SRVR:AT5PR84MB0178;H:AT5PR84MB0017.NAMPRD84.PROD.OUTLOOK.COM;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:ko;
+x-ms-office365-filtering-correlation-id: 98a86b2a-1e56-4455-ae48-08d4497f5882
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:AT5PR84MB0178;
+x-microsoft-antispam-prvs: <AT5PR84MB01784D09143D494D3F2DF5BACC4A0@AT5PR84MB0178.NAMPRD84.PROD.OUTLOOK.COM>
+x-exchange-antispam-report-test: UriScan:(227479698468861);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040375)(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001)(6055026)(6041248)(20161123560025)(20161123555025)(20161123564025)(20161123562025)(6072148);SRVR:AT5PR84MB0178;BCL:0;PCL:0;RULEID:;SRVR:AT5PR84MB0178;
+x-forefront-prvs: 0204F0BDE2
+received-spf: None (protection.outlook.com: hpe.com does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_alxwesiow2v0md38u9tyiqg61485828960867emailandroidcom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hpe.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 31 Jan 2017 02:17:45.8744
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 105b2061-b669-4b31-92ac-24d304d195dc
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AT5PR84MB0178
+
+--_000_alxwesiow2v0md38u9tyiqg61485828960867emailandroidcom_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+s9cuDQoNCg0KSFAgw6SzzrvnwM4gTjJNIMDTurS/wMDMu+fH0cXXILDfwPsgud7AuL3DuOkgtcu0
+z7TZDQoNCsD8yK25+MijtMIgMDEwLTgzODAtNDcxOcDUtM+02Q0KDQoNCrvvvLogsLa3sL3DIL26
+uLbGrsb5v6G8rSC6uLPCvcC0z7TZLg0KDQoNCi0tLS0tLS0tIL/4ursgwMy43sDPIC0tLS0tLS0t
+DQq6uLO9ILvntvc6IE1pbmd5dSBId2FuZyA8bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I+DQqzr8Kl
+OiAxNy8xLzMxIL/AwPwgMTA6NDkgKEdNVCswOTowMCkNCrnewLogu+e29zogIkxlZSwgSm9uZy1L
+eXUiIDxqb25nLWt5dS5sZWVAaHBlLmNvbT4NCsGmuPE6IL/suK7AusfgILy6tMmw/LiuILzSx8HG
+rr/+vu4oV0VTTSkgsN/A+7muwMewxw0KDQq+yLPnx8+8vL/kICjB1im/ocDMvcO9uiDIsrnOsdTA
+1LTPtNkuDQoNCr/suK7AusfgIEFMTSC9w726xdsgwOexuMPgILvnvve/oSBXRVNNvNLHwcauv/6+
+7iCzs8ewv6EgsPy3w8fRILDfwPsgua7AxyC15biztM+02S4NCg0KsN/A+7+hIMfKv+TH0SC9w726
+xdsgu+e+58C6IMO3us7GxMDPv6EgwNa9wLTPtNkuDQoNCrDLxeTHz73DsO0guvy4pci4vcUgus7F
+ubXluK6w2r3AtM+02S4NCg0KsKi758fVtM+02S4NCg0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogQVNZUyBD
+by4gTHRkLjxodHRwOi8vd3d3LmFnaWxlc3lzLmNvLmtyPg0KIE5JIFRlYW0NCiDIsiC5zrHUILrO
+wOUNCiBDZWxsdWxhciA6IDAxMC0zMTkxLTA4MTENCiBtZy5od2FuZ0BhZ2lsZXN5cy5jby5rcjxt
+YWlsdG86bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I+DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCg==
+
+--_000_alxwesiow2v0md38u9tyiqg61485828960867emailandroidcom_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<meta content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<div>=B3=D7.&nbsp;</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>HP =C3=A4=B3=CE=BB=E7=C0=CE N2M =C0=D3=BA=B4=BF=C0=C0=CC=BB=E7=C7=D1=
+=C5=D7 =B0=DF=C0=FB =B9=DE=C0=B8=BD=C3=B8=E9 =B5=CB=B4=CF=B4=D9&nbsp;</div>
+<div><br>
+</div>
+<div>=C0=FC=C8=AD=B9=F8=C8=A3=B4=C2 010-8380-4719=C0=D4=B4=CF=B4=D9</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div id=3D"composer_signature">
+<div dir=3D"auto" style=3D"font-size:85%; color:#575757">=BB=EF=BC=BA =B0=
+=B6=B7=B0=BD=C3 =BD=BA=B8=B6=C6=AE=C6=F9=BF=A1=BC=AD =BA=B8=B3=C2=BD=C0=B4=
+=CF=B4=D9.</div>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>-------- =BF=F8=BA=BB =C0=CC=B8=DE=C0=CF --------</div>
+<div>=BA=B8=B3=BD =BB=E7=B6=F7: Mingyu Hwang &lt;mg.hwang@agilesys.co.kr&gt=
+; </div>
+<div>=B3=AF=C2=A5: 17/1/31 =BF=C0=C0=FC 10:49 (GMT&#43;09:00) </div>
+<div>=B9=DE=C0=BA =BB=E7=B6=F7: &quot;Lee, Jong-Kyu&quot; &lt;jong-kyu.lee@=
+hpe.com&gt; </div>
+<div>=C1=A6=B8=F1: =BF=EC=B8=AE=C0=BA=C7=E0 =BC=BA=B4=C9=B0=FC=B8=AE =BC=D2=
+=C7=C1=C6=AE=BF=FE=BE=EE(WESM) =B0=DF=C0=FB=B9=AE=C0=C7=B0=C7 </div>
+<div><br>
+</div>
+<div>
+<div class=3D"" style=3D"word-wrap:break-word">=BE=C8=B3=E7=C7=CF=BC=BC=BF=
+=E4 (=C1=D6)=BF=A1=C0=CC=BD=C3=BD=BA =C8=B2=B9=CE=B1=D4=C0=D4=B4=CF=B4=D9.
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">=BF=EC=B8=AE=C0=BA=C7=E0 ALM =BD=C3=BD=BA=C5=DB =C0=E7=B1=
+=B8=C3=E0 =BB=E7=BE=F7=BF=A1 WESM=BC=D2=C7=C1=C6=AE=BF=FE=BE=EE =B3=B3=C7=
+=B0=BF=A1 =B0=FC=B7=C3=C7=D1 =B0=DF=C0=FB =B9=AE=C0=C7 =B5=E5=B8=B3=B4=CF=
+=B4=D9.</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">=B0=DF=C0=FB=BF=A1 =C7=CA=BF=E4=C7=D1 =BD=C3=BD=BA=C5=DB =
+=BB=E7=BE=E7=C0=BA =C3=B7=BA=CE=C6=C4=C0=CF=BF=A1 =C0=D6=BD=C0=B4=CF=B4=D9.=
+</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">=B0=CB=C5=E4=C7=CF=BD=C3=B0=ED =BA=FC=B8=A5=C8=B8=BD=C5 =BA=
+=CE=C5=B9=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</div>
+<div class=3D""></div>
+</div>
+<div class=3D"" style=3D"word-wrap:break-word">
+<div class=3D""></div>
+<br class=3D"">
+<br class=3D"">
+<div class=3D"">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+----------------------------------------------------------------------</div=
+>
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+<a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS Co. Ltd.</a></d=
+iv>
+<div class=3D"" style=3D"color:rgb(0,0,0); letter-spacing:normal; orphans:a=
+uto; text-align:start; text-indent:0px; text-transform:none; white-space:no=
+rmal; widows:auto; word-spacing:0px; word-wrap:break-word">
+&nbsp;NI Team<br class=3D"">
+&nbsp;=C8=B2 =B9=CE=B1=D4 =BA=CE=C0=E5
+<div class=3D"">&nbsp;Cellular : 010-3191-0811<br class=3D"">
+<a href=3D"mailto:mg.hwang@agilesys.co.kr" class=3D"">&nbsp;mg.hwang@agiles=
+ys.co.kr</a></div>
+<div class=3D"">-----------------------------------------------------------=
+-----------</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br class=3D"">
+</div>
+</div>
+</body>
+</html>
+
+--_000_alxwesiow2v0md38u9tyiqg61485828960867emailandroidcom_--
+

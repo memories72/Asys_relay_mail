@@ -1,0 +1,198 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id KDgnLYrHomk6AQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:46:34 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id B809B14C40
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:46:34 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp1026612wme;
+        Wed, 11 Jan 2017 23:11:36 -0800 (PST)
+X-Received: by 10.28.167.199 with SMTP id q190mr5822396wme.15.1484205095320;
+        Wed, 11 Jan 2017 23:11:35 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.28.29.146 with POP3 id d140mf5757042wmd.0;
+        Wed, 11 Jan 2017 23:11:34 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 25896 invoked by uid 700); 12 Jan 2017 16:01:40 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	12 Jan 2017 16:01:40 +0900
+Received: (qmail 25846 invoked by uid 700); 12 Jan 2017 16:01:40 +0900
+Received: from unknown (HELO ?192.168.102.192?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	12 Jan 2017 16:01:40 +0900
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+Remote-Attachment-Url: https://cvws.icloud-content.com/B/AfEqJ6AX91s1PsU66rARh-fOp56hAZtAqGrB0q3QOkB76b96BXJDUkeR/Asys_%E1%84%92%E1%85%AC%E1%84%89%E1%85%A1%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5_20161101%28Full%29.pptx?o=AnTTDaWbAHAle1oWgJcziQw5vvIuDLivFnAg7eWZXYgz&v=1&x=3&a=BeYRkcvYS32ZA2YXOQEA_wHIAP8Z2Dvv&e=1486796499&k=CjdBGa_hOmj9uD-_fpcdaA&fl=&r=F18E3345-0789-4108-AC03-20E12D27FF5E-1&ckc=com.apple.largeattachment&ckz=3806786B-A032-472A-B5F7-D928CC1A8A51&p=35&s=tcb9oQLnzaPMRiBWW5Ny_bbbPuY;
+ filename*=utf-8''Asys%5F%E1%84%92%E1%85%AC%E1%84%89%E1%85%A1%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%5F20161101%28Full%29.pptx;
+ mimeType="application/octet-stream"; filesize=27579200; x-mac-auto-archive=0;
+ expiration-date=1486796499
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_0C668A3D-61E4-428F-A997-C24E0CE60A3A"
+Mime-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Date: Thu, 12 Jan 2017 16:01:39 +0900
+Subject: =?utf-8?B?7JeQ7J207Iuc7IqkIO2ajOyCrOyGjOqwnOyEnA==?=
+Cc: =?utf-8?B?7KCV7JuQ7Jqp?= <wy.jeung@agilesys.co.kr>
+To: =?utf-8?B?6rO97ISx7KeE?= <bdksj@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <BEE655A2-DB08-4859-A589-252099C3D7CE@agilesys.co.kr>
+
+
+--Apple-Mail=_0C668A3D-61E4-428F-A997-C24E0CE60A3A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+2017. 2. 11.=EA=B9=8C=EC=A7=80 =EC=B2=A8=EB=B6=80 =ED=8C=8C=EC=9D=BC =
+=EC=82=AC=EC=9A=A9 =EA=B0=80=EB=8A=A5
+=EB=8B=A4=EC=9A=B4=EB=A1=9C=EB=93=9C=ED=95=98=EB=A0=A4=EB=A9=B4 =ED=81=B4=EB=
+=A6=AD
+ =
+<https://www.icloud.com/attachment/?u=3Dhttps%3A%2F%2Fcvws.icloud-content.=
+com%2FB%2FAfEqJ6AX91s1PsU66rARh-fOp56hAZtAqGrB0q3QOkB76b96BXJDUkeR%2F%24%7=
+Bf%7D%3Fo%3DAjGXywP_wkYfZzeoQUXFy2dHMS024VlgAzkKwUi0OxKB%26v%3D1%26x%3D3%2=
+6a%3DBY9XRa5waSUNA2YXOQEA_wHIAP9Ryxql%26e%3D1486796499%26k%3D%24%7Buk%7D%2=
+6fl%3D%26r%3DC78D0307-939B-46CD-8F2A-01DA31C51A4D-1%26ckc%3Dcom.apple.larg=
+eattachment%26ckz%3D3806786B-A032-472A-B5F7-D928CC1A8A51%26p%3D35%26s%3Dqj=
+VIicwUzZUo_Dr5OujcOTxw1Zc&uk=3DCjdBGa_hOmj9uD-_fpcdaA&f=3DAsys_%E1%84%92%E=
+1%85%AC%E1%84%89%E1%85%A1%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%E1%84%89%E1%=
+85%A5_20161101%28Full%29.pptx&sz=3D27579200>Asys_=E1=84=92=E1=85=AC=E1=84=89=
+=E1=85=A1=E1=84=89=E1=85=A9=E1=84=80=E1=85=A2=E1=84=89=E1=85=A5_20161101(F=
+ull).pptx
+27.6MB
+
+
+----------------------------------------------------------------------
+=C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+ NI Team
+ =ED=99=A9 =EB=AF=BC=EA=B7=9C =EC=B0=A8=EC=9E=A5
+ Phone : 070-7114-0049
+ Cellular : 010-3191-0811
+=C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+----------------------------------------------------------------------
+
+
+--Apple-Mail=_0C668A3D-61E4-428F-A997-C24E0CE60A3A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"><style contenteditable=3D"false">div.maildrop_icon =
+{background-image: =
+url('https://www.icloud.com/mail_resources/icloud_download.png');backgroun=
+d-repeat: no-repeat;display: inline-block;margin: 15px 18px 13px =
+18px;height: 25px;width: 26px}@media(-webkit-min-device-pixel-ratio: =
+2),(min-resolution: 192dpi) {div.maildrop_icon {background-image: =
+url('https://www.icloud.com/mail_resources/icloud_download@2x.png');backgr=
+ound-size: 25px 26px;}}</style><meta http-equiv=3D"Content-Type" =
+content=3D"text/html charset=3Dutf-8"></head><body style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space;" class=3D""><div class=3D"x-apple-maildropbanner" =
+data-expiration=3D"1486796499000.000000" style=3D"font: 13px 'Helvetica =
+Neue',sans-serif; color: #808080; font-weight: 300"><div =
+style=3D"height:0px; border-top:1px solid #ececec" class=3D""></div><div =
+style=3D"height:53px; overflow: auto" class=3D""><div style=3D"float:left;=
+ margin-top:13px; margin-right:62px" class=3D""><div style=3D"height:19px;=
+ display:table-cell; vertical-align:bottom" class=3D"">2017. 2. =
+11.=EA=B9=8C=EC=A7=80 =EC=B2=A8=EB=B6=80 =ED=8C=8C=EC=9D=BC =EC=82=AC=EC=9A=
+=A9 =EA=B0=80=EB=8A=A5</div></div></div><div style=3D"height:0px; =
+border-top:1px solid #ececec; margin-bottom:15px" =
+class=3D""></div></div><div class=3D"x-apple-maildrop" =
+data-url=3D"https://cvws.icloud-content.com/B/AfEqJ6AX91s1PsU66rARh-fOp56h=
+AZtAqGrB0q3QOkB76b96BXJDUkeR/Asys_%E1%84%92%E1%85%AC%E1%84%89%E1%85%A1%E1%=
+84%89%E1%85%A9%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5_20161101%28Full%29.pptx=
+?o=3DAnTTDaWbAHAle1oWgJcziQw5vvIuDLivFnAg7eWZXYgz&amp;v=3D1&amp;x=3D3&amp;=
+a=3DBeYRkcvYS32ZA2YXOQEA_wHIAP8Z2Dvv&amp;e=3D1486796499&amp;k=3DCjdBGa_hOm=
+j9uD-_fpcdaA&amp;fl=3D&amp;r=3DF18E3345-0789-4108-AC03-20E12D27FF5E-1&amp;=
+ckc=3Dcom.apple.largeattachment&amp;ckz=3D3806786B-A032-472A-B5F7-D928CC1A=
+8A51&amp;p=3D35&amp;s=3Dtcb9oQLnzaPMRiBWW5Ny_bbbPuY" =
+data-filename=3D"Asys_=E1=84=92=E1=85=AC=E1=84=89=E1=85=A1=E1=84=89=E1=85=A9=
+=E1=84=80=E1=85=A2=E1=84=89=E1=85=A5_20161101(Full).pptx" =
+data-size=3D"27579200" data-expiration=3D"1486796499000.000000" =
+style=3D"margin: 15px; border: 1px solid #CACACA; border-radius:15px; =
+height:134px; display:inline-block; min-width:159px; =
+font-family:'Helvetica Neue',sans-serif;"><a =
+href=3D"https://www.icloud.com/attachment/?u=3Dhttps%3A%2F%2Fcvws.icloud-c=
+ontent.com%2FB%2FAfEqJ6AX91s1PsU66rARh-fOp56hAZtAqGrB0q3QOkB76b96BXJDUkeR%=
+2F%24%7Bf%7D%3Fo%3DAjGXywP_wkYfZzeoQUXFy2dHMS024VlgAzkKwUi0OxKB%26v%3D1%26=
+x%3D3%26a%3DBY9XRa5waSUNA2YXOQEA_wHIAP9Ryxql%26e%3D1486796499%26k%3D%24%7B=
+uk%7D%26fl%3D%26r%3DC78D0307-939B-46CD-8F2A-01DA31C51A4D-1%26ckc%3Dcom.app=
+le.largeattachment%26ckz%3D3806786B-A032-472A-B5F7-D928CC1A8A51%26p%3D35%2=
+6s%3DqjVIicwUzZUo_Dr5OujcOTxw1Zc&amp;uk=3DCjdBGa_hOmj9uD-_fpcdaA&amp;f=3DA=
+sys_%E1%84%92%E1%85%AC%E1%84%89%E1%85%A1%E1%84%89%E1%85%A9%E1%84%80%E1%85%=
+A2%E1%84%89%E1%85%A5_20161101%28Full%29.pptx&amp;sz=3D27579200" =
+style=3D"text-align: center; text-decoration:none; font-size: 14px; =
+color: #007AFF; display:block; margin:40px 10px 0px" =
+class=3D"">=EB=8B=A4=EC=9A=B4=EB=A1=9C=EB=93=9C=ED=95=98=EB=A0=A4=EB=A9=B4=
+ =ED=81=B4=EB=A6=AD</a><div style=3D"text-align: center; font-size:12px; =
+color: #808080" class=3D""><div style=3D"margin:4px 10px 0px" =
+class=3D"">Asys_=E1=84=92=E1=85=AC=E1=84=89=E1=85=A1=E1=84=89=E1=85=A9=E1=84=
+=80=E1=85=A2=E1=84=89=E1=85=A5_20161101(Full).pptx</div><div =
+style=3D"margin:3px 10px 0px" class=3D"">27.6MB</div></div></div><br =
+class=3D""><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">---------------------------------------------------------------=
+-------</div><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS =
+Co. Ltd.</a></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;=ED=99=A9 =
+=EB=AF=BC=EA=B7=9C&nbsp;=EC=B0=A8=EC=9E=A5<div class=3D"">&nbsp;Phone : =
+070-7114-0049</div><div class=3D"">&nbsp;Cellular : 010-3191-0811<br =
+class=3D""><a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a></div><div =
+class=3D"">---------------------------------------------------------------=
+-------</div></div></div></div></div></div></div></div>
+</div>
+<br class=3D""></body></html>=
+
+--Apple-Mail=_0C668A3D-61E4-428F-A997-C24E0CE60A3A--

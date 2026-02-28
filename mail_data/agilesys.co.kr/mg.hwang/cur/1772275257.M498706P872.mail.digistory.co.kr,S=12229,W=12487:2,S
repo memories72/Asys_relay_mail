@@ -1,0 +1,258 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id AD2qHTnGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:57 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 78A3B14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:57 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553861608565145263
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp529246wma;
+        Sun, 18 Dec 2016 14:58:29 -0800 (PST)
+X-Received: by 10.194.95.35 with SMTP id dh3mr12529430wjb.141.1482101909430;
+        Sun, 18 Dec 2016 14:58:29 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender) smtp.mailfrom=bs.kim@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender)
+Received: by 10.28.44.66 with POP3 id s63mf24862554wms.1;
+        Sun, 18 Dec 2016 14:58:29 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 16812 invoked by uid 700); 19 Dec 2016 07:41:01 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	19 Dec 2016 07:41:01 +0900
+Received: (qmail 32121 invoked by uid 700); 19 Dec 2016 07:41:00 +0900
+Received: from unknown (HELO PC) (bs.kim@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	19 Dec 2016 07:41:00 +0900
+From: =?utf-8?B?6rmA67O07ISg?= <bs.kim@agilesys.co.kr>
+To: <bost12@agilesys.co.kr>
+Cc: =?utf-8?B?J+q5gO2DnOyDgSc=?= <ts.kim@agilesys.co.kr>,
+	=?utf-8?B?J+ycoOyerOuMgCc=?= <jdyu@agilesys.co.kr>,
+	=?utf-8?B?J+2ZqeuvvOq3nCc=?= <mg.hwang@agilesys.co.kr>,
+	=?utf-8?B?J+qzveyEseynhCAn?= <bdksj@agilesys.co.kr>,
+	=?utf-8?B?J+yEnOyEne2YhCAn?= <shseo@agilesys.co.kr>
+References: <b410de061f878084be31a0de5cb9cbb1@whoisdesk.com>
+In-Reply-To: <b410de061f878084be31a0de5cb9cbb1@whoisdesk.com>
+Subject: =?utf-8?B?UkU6IO2VnOq1reyWuOuhoOyerOuLqCBOQVMg7J6s6rWs7LaVIOq0gOugqA==?=
+	=?utf-8?B?IOyekOujjCDqs7XsnKDtlanri4jri6Qu?=
+Date: Mon, 19 Dec 2016 07:40:59 +0900
+Message-ID: <000001d2597f$ce5596c0$6b00c440$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0001_01D259CB.3E4024F0"
+Thread-Index: AQIGdyVkP2/kXEG3ujPvUohUYqxLuKCmEQCQ
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0001_01D259CB.3E4024F0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7IaM7JqU7Iuc6rCEIOuwmOuTnOyLnCDtj6ztlajtlZjsl6wgMuuyiOyViOycvOuhnCDsnpHsl4Xq
+s4Ttmo3shJwg67aA7YOBIOuTnOumveuLiOuLpC4NCg0KIA0KDQrjiJzsl5DsnbTsi5zsiqQg6rmA
+67O07ISg7IOB66y0DQoNCk1vYmlsZSkgMDEwLTU3OTAtMDUxOQ0KDQpFLU1haWwpIGJzLmtpbUBh
+Z2lsZXN5cy5jby5rciAvIGtpbWJzNDk4QGdtYWlsLmNvbQ0KDQpBZGRyZXNzKSDshJzsmrjsi5wg
+7ISc7LSI6rWsIOyCrO2PieuMgOuhnCAxMzgg64yA66Wt67mM65SpNOy4tQ0KDQogDQoNCkZyb206
+IOq5gOyiheyEnSBbbWFpbHRvOmJvc3QxMkBhZ2lsZXN5cy5jby5rcl0gDQpTZW50OiBGcmlkYXks
+IERlY2VtYmVyIDE2LCAyMDE2IDU6NDUgUE0NClRvOiDquYDrs7TshKAgDQpDYzog6rmA7YOc7IOB
+OyDsnKDsnqzrjIA7IO2ZqeuvvOq3nDsg6rO97ISx7KeEIDsg7ISc7ISd7ZiEIA0KU3ViamVjdDog
+7ZWc6rWt7Ja466Gg7J6s64uoIE5BUyDsnqzqtazstpUg6rSA66CoIOyekOujjCDqs7XsnKDtlanr
+i4jri6QuDQoNCiANCg0K7ZWc6rWt7Ja466Gg7J6s64uoIE5BUyDsnqzqtazstpUg6rSA66CoIOye
+kOujjCDqs7XsnKDtlanri4jri6QuDQoNCuyyqOu2gO2VnCDsnpDro4zsl5DshJwgMuyViCnsnLzr
+oZwg6rKw7KCV7ZW07JW8IO2VoCDrk6/tlanri4jri6QuDQoNCiAgPGh0dHA6Ly9tYWlsLmFnaWxl
+c3lzLmNvLmtyL2NvbW1vbi9jb25maXJtUmVhZC8/bWVzc2FnZUlkPTA2OWRjOTk5LTBhNTEtNGQy
+OS03MmQ5LWFhNmNiM2E1NDRjNCZlbWFpbD1icy5raW1AYWdpbGVzeXMuY28ua3I+IA0KDQo=
+
+------=_NextPart_000_0001_01D259CB.3E4024F0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 14 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=EA=B5=B4=EB=A6=BC";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=86=8C=EC=9A=94=EC=8B=9C=EA=B0=84 =
+=EB=B0=98=EB=93=9C=EC=8B=9C =ED=8F=AC=ED=95=A8=ED=95=98=EC=97=AC <span =
+lang=3DEN-US>2</span>=EB=B2=88=EC=95=88=EC=9C=BC=EB=A1=9C =
+=EC=9E=91=EC=97=85=EA=B3=84=ED=9A=8D=EC=84=9C =EB=B6=80=ED=83=81 =
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=E3=88=9C=EC=97=90=EC=9D=B4=EC=8B=9C=EC=
+=8A=A4 =EA=B9=80=EB=B3=B4=EC=84=A0=EC=83=81=EB=AC=B4<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Mobile) =
+010-5790-0519<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>E-Mail) <a =
+href=3D"mailto:bs.kim@agilesys.co.kr">bs.kim@agilesys.co.kr</a> / <a =
+href=3D"mailto:kimbs498@gmail.com">kimbs498@gmail.com</a><o:p></o:p></spa=
+n></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Address) </span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=84=9C=EC=9A=B8=EC=8B=9C =
+=EC=84=9C=EC=B4=88=EA=B5=AC =EC=82=AC=ED=8F=89=EB=8C=80=EB=A1=9C<span =
+lang=3DEN-US> 138 </span>=EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9<span =
+lang=3DEN-US>4</span>=EC=B8=B5</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B9=80=EC=A2=85=EC=84=9D</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+[mailto:bost12@agilesys.co.kr] <br><b>Sent:</b> Friday, December 16, =
+2016 5:45 PM<br><b>To:</b> </span><span =
+style=3D'font-size:10.0pt'>=EA=B9=80=EB=B3=B4=EC=84=A0</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+<br><b>Cc:</b> </span><span =
+style=3D'font-size:10.0pt'>=EA=B9=80=ED=83=9C=EC=83=81</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=9C=A0=EC=9E=AC=EB=8C=80</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+</span><span =
+style=3D'font-size:10.0pt'>=ED=99=A9=EB=AF=BC=EA=B7=9C</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B3=BD=EC=84=B1=EC=A7=84</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> ; =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=84=9C=EC=84=9D=ED=98=84</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+<br><b>Subject:</b> </span><span =
+style=3D'font-size:10.0pt'>=ED=95=9C=EA=B5=AD=EC=96=B8=EB=A1=A0=EC=9E=AC=EB=
+=8B=A8</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> NAS =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=9E=AC=EA=B5=AC=EC=B6=95</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=EA=B4=80=EB=A0=A8</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=EC=9E=90=EB=A3=8C</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B3=B5=EC=9C=A0=ED=95=A9=EB=8B=88=EB=8B=A4<=
+/span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>.<o:p></o:p>=
+</span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=ED=95=9C=EA=B5=AD=EC=96=B8=EB=
+=A1=A0=EC=9E=AC=EB=8B=A8<span lang=3DEN-US> NAS =
+</span>=EC=9E=AC=EA=B5=AC=EC=B6=95 =EA=B4=80=EB=A0=A8 =EC=9E=90=EB=A3=8C =
+=EA=B3=B5=EC=9C=A0=ED=95=A9=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p>=EC=B2=A8=EB=B6=80=ED=95=9C =
+=EC=9E=90=EB=A3=8C=EC=97=90=EC=84=9C<span lang=3DEN-US> =
+2</span>=EC=95=88<span lang=3DEN-US>)</span>=EC=9C=BC=EB=A1=9C =
+=EA=B2=B0=EC=A0=95=ED=95=B4=EC=95=BC =ED=95=A0 =
+=EB=93=AF=ED=95=A9=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><img border=3D0 id=3D"_x0000_i1025" =
+src=3D"http://mail.agilesys.co.kr/common/confirmRead/?messageId=3D069dc99=
+9-0a51-4d29-72d9-aa6cb3a544c4&amp;email=3Dbs.kim@agilesys.co.kr"><o:p></o=
+:p></span></p></div></body></html>
+------=_NextPart_000_0001_01D259CB.3E4024F0--
+

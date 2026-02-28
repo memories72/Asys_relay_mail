@@ -1,0 +1,2385 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id EDs2Lre+omltBQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:08:55 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id BBB3214BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:08:55 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1528920578245266516
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Wed, 16 Mar 2016
+ 10:38:03 +0900
+From: =?ks_c_5601-1987?B?vK28rsf2?= <shseo@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?v6HAzL3Dvbo=?= <astg_ast_astD@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 16 Mar 2016 10:37:29 +0900
+Subject:
+ =?ks_c_5601-1987?B?SFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaQ==?=
+ =?ks_c_5601-1987?B?dHMgwPu4syDH9siy?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?SFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaQ==?=
+ =?ks_c_5601-1987?B?dHMgwPu4syDH9siy?=
+Thread-Index: AdF0QLcDumV2rxa+S6KbrcPanuF1rwK43Bng
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04B32B15D96C@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04B32B15D96CMAILSERVERa_"
+MIME-Version: 1.0
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D96CMAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vK0gxsDA5cDUtM+02S4NCg0KSFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaXRzIMD7
+uLMgx/bIsiDA1LTPtNkuDQooVXBkYXRlIERhdGUgOiAyMDE2s+IgM7/5IDE2wM8pDQq+xrehILPr
+tvW79iC8v8C7IKGwMKGxIMC4t84guLi16b7uvt8gx9W0z7TZLiAhIQ0KDQpQcm9ncmFtDQoNClBh
+cnRuZXINClR5cGUNCg0KUmVxdWlyZW1lbnQgR3JvdXANCg0KQ29tcGV0ZW5jeQ0KDQpSZXF1aXJl
+ZCBBY3Rpdml0aWVzDQoNClJlcXVpcmVkDQpQZXJzb25zL0NyZWRpdHMNCg0KQWNoaWV2ZWQNClBl
+cnNvbnMvQ3JlZGl0cw0KDQpHYXANClBlcnNvbnMvQ3JlZGl0cw0KDQpSZXF1aXJlbWVudA0KR3Jv
+dXAgTWV0Pw0KDQpGWTE2IEhQIEtSIEVHIEdvbGQgQ2xvdWQgQnVpbGRlciBTcGVjaWFsaXN0DQoN
+CkFueQ0KDQpDbG91ZCBBcmNoaXRlY3QNCg0KVGVjaG5pY2FsDQoNCkhQIEFTRSAtIERhdGEgQ2Vu
+dGVyIGFuZCBDbG91ZCBBcmNoaXRlY3QgVjINCm9yDQpIUCBNYXN0ZXIgQVNFIC0gRGF0YSBDZW50
+ZXIgYW5kIENsb3VkIEFyY2hpdGVjdCBWMQ0KDQoxDQoNCjENCg0KMA0KDQpZZXMNCg0KQW55DQoN
+CkNsb3VkIEludGVncmF0aW9uLyBBVFAtQVNFIFNvZnR3YXJlDQoNClRlY2huaWNhbA0KDQpIUCBB
+U0UgLSBPcGVyYXRpb25zIE9yY2hlc3RyYXRpb24gdjEwDQpvcg0KSFAgQVNFIC0gU2VydmVyIEF1
+dG9tYXRpb24gdjEwDQpvcg0KSFAgQVRQIC0gQ2xvdWQgU2VydmljZSBBdXRvbWF0aW9uIHY0DQoN
+CjENCg0KMA0KDQoxDQoNCk5vDQoNCkFueQ0KDQpDbG91ZCBLbm93bGVkZ2UgQ3JlZGl0cw0KDQpL
+bm93bGVkZ2UgQ3JlZGl0cw0KDQpQbGVhc2Ugc2VlIFBMTVQgS25vd2xlZGdlIENyZWRpdHMgcGFn
+ZSBmb3IgZGV0YWlscw0KDQoxMDANCg0KMjcNCg0KNzMNCg0KTm8NCg0KQW55DQoNCkNsb3VkIFNh
+bGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBDZXJ0aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9u
+cyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0KWWVzDQoNCkZZMTYgSFAgS1IgRUcgR29sZCBOZXR3
+b3JraW5nIFNwZWNpYWxpc3QNCg0KQW55DQoNCk5ldHdvcmtpbmcgQVNFDQoNClRlY2huaWNhbA0K
+DQpIUCBBU0UgLSBGbGV4TmV0d29yayBBcmNoaXRlY3QgVjINCm9yDQpIUCBBU0UgLSBGbGV4TmV0
+d29yayBJbnRlZ3JhdG9yIFYxDQoNCjINCg0KMg0KDQowDQoNClllcw0KDQpBbnkNCg0KTmV0d29y
+a2luZyBLbm93bGVkZ2UgQ3JlZGl0DQoNCktub3dsZWRnZSBDcmVkaXRzDQoNClBsZWFzZSBzZWUg
+UExNVCBLbm93bGVkZ2UgQ3JlZGl0cyBwYWdlIGZvciBkZXRhaWxzDQoNCjEwMA0KDQozMA0KDQo3
+MA0KDQpObw0KDQpBbnkNCg0KTmV0d29ya2luZyBNQVNFDQoNClRlY2huaWNhbA0KDQpIUCBNYXN0
+ZXIgQVNFIC0gRmxleE5ldHdvcmsgU29sdXRpb25zIFYxDQpvcg0KSFBFIE1hc3RlciBBU0UgLSBG
+bGV4TmV0d29yayBTb2x1dGlvbnMgVjINCg0KMQ0KDQoxDQoNCjANCg0KWWVzDQoNCkFueQ0KDQpO
+ZXR3b3JraW5nIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBDZXJ0aWZpZWQgLSBFbnRlcnBy
+aXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0KWWVzDQoNCkZZMTYgSFAgS1Ig
+RUcgR29sZCBTZXJ2ZXIgU3BlY2lhbGlzdA0KDQpBbnkNCg0KU2VydmVyIEludGVncmF0aW9uDQoN
+ClRlY2huaWNhbA0KDQpIUCBBU0UgLSBQcm9MaWFudCBTZXJ2ZXIgU29sdXRpb25zIEludGVncmF0
+b3IgVjINCm9yDQpIUCBBU0UgLSBTZXJ2ZXIgU29sdXRpb25zIEFyY2hpdGVjdCBWMg0Kb3INCkhQ
+IEFTRSAtIFNlcnZlciBTb2x1dGlvbnMgSW50ZWdyYXRvciBWOC4xDQoNCjENCg0KMA0KDQoxDQoN
+Ck5vDQoNCkFueQ0KDQpTZXJ2ZXIgS25vd2xlZGdlIENyZWRpdHMNCg0KS25vd2xlZGdlIENyZWRp
+dHMNCg0KUGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBDcmVkaXRzIHBhZ2UgZm9yIGRldGFpbHMN
+Cg0KMTAwDQoNCjYNCg0KOTQNCg0KTm8NCg0KQW55DQoNClNlcnZlciBPbmVWaWV3DQoNClRlY2hu
+aWNhbA0KDQpIUCBQcm9kdWN0IENlcnRpZmllZCAtIEhQIE9uZVZpZXcgMS4yMA0KDQoxDQoNCjAN
+Cg0KMQ0KDQpObw0KDQpBbnkNCg0KU2VydmVyIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBD
+ZXJ0aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0K
+WWVzDQoNCkZZMTYgSFAgS1IgRUcgR29sZCBTZXJ2aWNlcyBTcGVjaWFsaXN0DQoNCkFueQ0KDQpT
+ZXJ2aWNlIEtub3dsZWRnZSBDcmVkaXRzDQoNCktub3dsZWRnZSBDcmVkaXRzDQoNClBsZWFzZSBz
+ZWUgUExNVCBLbm93bGVkZ2UgQ3JlZGl0cyBwYWdlIGZvciBkZXRhaWxzDQoNCjUwDQoNCjQwDQoN
+CjEwDQoNCk5vDQoNCkFueQ0KDQpTZXJ2aWNlIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBD
+ZXJ0aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0K
+WWVzDQoNCkZZMTYgSFAgS1IgRUcgR29sZCBTdG9yYWdlIFNwZWNpYWxpc3QNCg0KQW55DQoNClN0
+b3JhZ2UgSW50ZWdyYXRpb24gQVNFL01BU0UNCg0KVGVjaG5pY2FsDQoNCkhQIEFTRSAtIFN0b3Jh
+Z2UgU29sdXRpb25zIEFyY2hpdGVjdCBWMQ0Kb3INCkhQIE1hc3RlciBBU0UgLSBTdG9yYWdlIFNv
+bHV0aW9ucyBBcmNoaXRlY3QgVjENCm9yDQpIUEUgQVNFIC0gU3RvcmFnZSBTb2x1dGlvbnMgQXJj
+aGl0ZWN0IFYyDQpvcg0KSFBFIE1hc3RlciBBU0UgLSBTdG9yYWdlIFNvbHV0aW9ucyBBcmNoaXRl
+Y3QgVjINCg0KMQ0KDQoyDQoNCjANCg0KWWVzDQoNCkFueQ0KDQpTdG9yYWdlIEtub3dsZWRnZSBD
+cmVkaXQNCg0KS25vd2xlZGdlIENyZWRpdHMNCg0KUGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBD
+cmVkaXRzIHBhZ2UgZm9yIGRldGFpbHMNCg0KMTAwDQoNCjg0DQoNCjE2DQoNCk5vDQoNCkFueQ0K
+DQpTdG9yYWdlIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBDZXJ0aWZpZWQgLSBFbnRlcnBy
+aXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0KWWVzDQoNCg0KK35+K35+K35+
+K35+K35+K35+K35+K35+K35+K35+K35+K35+Kw0KKMHWKb+hwMy9w726ILytuvG9urvnvve6ziDG
+wMDlILytvK7H9g0KvK2/7yC8rcPKsbggud3G97W/IDY3LTO5+MH2ILTruKK69LX5IDPD/iAxMzct
+ODA0DQpUZWwuIDA3MC03MTE0LTAwNzEgTW9iaWxlLiAwMTAtMjQ5MS0yMzUyDQpGYXguICgwMik1
+ODYtNTA3MCBFLW1haWwuIHNoc2VvQGFnaWxlc3lzLmNvLmtyPG1haWx0bzpzaHNlb0BhZ2lsZXN5
+cy5jby5rcj4NCit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fisNCg0KRnJvbTog
+vK28rsf2DQpTZW50OiBXZWRuZXNkYXksIE1hcmNoIDAyLCAyMDE2IDI6MDMgUE0NClRvOiC/ocDM
+vcO9ug0KU3ViamVjdDogSFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaXRzIMD7uLMg
+x/bIsg0KDQq8rSDGwMDlwNS0z7TZLg0KDQpIUCBDZXJ0aWZpY2F0aW9uICYgS25vd2xlZGdlIENy
+ZWRpdHMgwPu4syDH9siyIMDUtM+02S4NCihVcGRhdGUgRGF0ZSA6IDIwMTaz4iAzv/kgMsDPKQ0K
+vsa3oSCz67b1u/YgvL/AuyChsDChsSDAuLfOILi4tem+7r7fIMfVtM+02S4gISENCg0KUHJvZ3Jh
+bQ0KDQpQYXJ0bmVyDQpUeXBlDQoNClJlcXVpcmVtZW50IEdyb3VwDQoNCkNvbXBldGVuY3kNCg0K
+UmVxdWlyZWQgQWN0aXZpdGllcw0KDQpSZXF1aXJlZA0KUGVyc29ucy9DcmVkaXRzDQoNCkFjaGll
+dmVkDQpQZXJzb25zL0NyZWRpdHMNCg0KR2FwDQpQZXJzb25zL0NyZWRpdHMNCg0KUmVxdWlyZW1l
+bnQNCkdyb3VwIE1ldD8NCg0KT3B0aW9uIFRleHQNCg0KRlkxNiBIUCBLUiBFRyBHb2xkDQpDbG91
+ZCBCdWlsZGVyIFNwZWNpYWxpc3QNCg0KQW55DQoNCkNsb3VkIEFyY2hpdGVjdA0KDQpUZWNobmlj
+YWwNCg0KSFAgQVNFIC0gRGF0YSBDZW50ZXIgYW5kIENsb3VkIEFyY2hpdGVjdCBWMg0Kb3INCkhQ
+IE1hc3RlciBBU0UgLSBEYXRhIENlbnRlciBhbmQgQ2xvdWQgQXJjaGl0ZWN0IFYxDQoNCjENCg0K
+MQ0KDQowDQoNClllcw0KDQqhoQ0KDQpBbnkNCg0KQ2xvdWQgSW50ZWdyYXRpb24vIEFUUA0KLUFT
+RSBTb2Z0d2FyZQ0KDQpUZWNobmljYWwNCg0KSFAgQVNFIC0gT3BlcmF0aW9ucyBPcmNoZXN0cmF0
+aW9uIHYxMA0Kb3INCkhQIEFTRSAtIFNlcnZlciBBdXRvbWF0aW9uIHYxMA0Kb3INCkhQIEFUUCAt
+IENsb3VkIFNlcnZpY2UgQXV0b21hdGlvbiB2NA0KDQoxDQoNCjANCg0KMQ0KDQpObw0KDQqhoQ0K
+DQpBbnkNCg0KQ2xvdWQgS25vd2xlZGdlIENyZWRpdHMNCg0KS25vd2xlZGdlIENyZWRpdHMNCg0K
+UGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBDcmVkaXRzIHBhZ2UgZm9yIGRldGFpbHMNCg0KMTAw
+DQoNCjYNCg0KOTQNCg0KTm8NCg0KoaENCg0KQW55DQoNCkNsb3VkIFNhbGVzDQoNClNhbGVzDQoN
+CkhQRSBTYWxlcyBDZXJ0aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0K
+DQo5DQoNCjANCg0KWWVzDQoNCqGhDQoNCkZZMTYgSFAgS1IgRUcgR29sZA0KTmV0d29ya2luZyBT
+cGVjaWFsaXN0DQoNCkFueQ0KDQpOZXR3b3JraW5nIEFTRQ0KDQpUZWNobmljYWwNCg0KSFAgQVNF
+IC0gRmxleE5ldHdvcmsgQXJjaGl0ZWN0IFYyDQpvcg0KSFAgQVNFIC0gRmxleE5ldHdvcmsgSW50
+ZWdyYXRvciBWMQ0KDQoyDQoNCjINCg0KMA0KDQpZZXMNCg0KoaENCg0KQW55DQoNCk5ldHdvcmtp
+bmcgS25vd2xlZGdlIENyZWRpdA0KDQpLbm93bGVkZ2UgQ3JlZGl0cw0KDQpQbGVhc2Ugc2VlIFBM
+TVQgS25vd2xlZGdlIENyZWRpdHMgcGFnZSBmb3IgZGV0YWlscw0KDQoxMDANCg0KMjgNCg0KNzIN
+Cg0KTm8NCg0KoaENCg0KQW55DQoNCk5ldHdvcmtpbmcgTUFTRQ0KDQpUZWNobmljYWwNCg0KSFAg
+TWFzdGVyIEFTRSAtIEZsZXhOZXR3b3JrIFNvbHV0aW9ucyBWMQ0Kb3INCkhQRSBNYXN0ZXIgQVNF
+IC0gRmxleE5ldHdvcmsgU29sdXRpb25zIFYyDQoNCjENCg0KMQ0KDQowDQoNClllcw0KDQqhoQ0K
+DQpBbnkNCg0KTmV0d29ya2luZyBTYWxlcw0KDQpTYWxlcw0KDQpIUEUgU2FsZXMgQ2VydGlmaWVk
+IC0gRW50ZXJwcmlzZSBTb2x1dGlvbnMgWzIwMTZdDQoNCjQNCg0KOQ0KDQowDQoNClllcw0KDQqh
+oQ0KDQpGWTE2IEhQIEtSIEVHIEdvbGQNClNlcnZlciBTcGVjaWFsaXN0DQoNCkFueQ0KDQpTZXJ2
+ZXIgSW50ZWdyYXRpb24NCg0KVGVjaG5pY2FsDQoNCkhQIEFTRSAtIFByb0xpYW50IFNlcnZlciBT
+b2x1dGlvbnMgSW50ZWdyYXRvciBWMg0Kb3INCkhQIEFTRSAtIFNlcnZlciBTb2x1dGlvbnMgQXJj
+aGl0ZWN0IFYyDQpvcg0KSFAgQVNFIC0gU2VydmVyIFNvbHV0aW9ucyBJbnRlZ3JhdG9yIFY4LjEN
+Cg0KMQ0KDQowDQoNCjENCg0KTm8NCg0KoaENCg0KQW55DQoNClNlcnZlciBLbm93bGVkZ2UgQ3Jl
+ZGl0cw0KDQpLbm93bGVkZ2UgQ3JlZGl0cw0KDQpQbGVhc2Ugc2VlIFBMTVQgS25vd2xlZGdlIENy
+ZWRpdHMgcGFnZSBmb3IgZGV0YWlscw0KDQoxMDANCg0KNg0KDQo5NA0KDQpObw0KDQqhoQ0KDQpB
+bnkNCg0KU2VydmVyIE9uZVZpZXcNCg0KVGVjaG5pY2FsDQoNCkhQIFByb2R1Y3QgQ2VydGlmaWVk
+IC0gSFAgT25lVmlldyAxLjIwDQoNCjENCg0KMA0KDQoxDQoNCk5vDQoNCqGhDQoNCkFueQ0KDQpT
+ZXJ2ZXIgU2FsZXMNCg0KU2FsZXMNCg0KSFBFIFNhbGVzIENlcnRpZmllZCAtIEVudGVycHJpc2Ug
+U29sdXRpb25zIFsyMDE2XQ0KDQo0DQoNCjkNCg0KMA0KDQpZZXMNCg0KoaENCg0KRlkxNiBIUCBL
+UiBFRyBHb2xkDQpTZXJ2aWNlcyBTcGVjaWFsaXN0DQoNCkFueQ0KDQpTZXJ2aWNlIEtub3dsZWRn
+ZSBDcmVkaXRzDQoNCktub3dsZWRnZSBDcmVkaXRzDQoNClBsZWFzZSBzZWUgUExNVCBLbm93bGVk
+Z2UgQ3JlZGl0cyBwYWdlIGZvciBkZXRhaWxzDQoNCjUwDQoNCjEyDQoNCjM4DQoNCk5vDQoNCqGh
+DQoNCkFueQ0KDQpTZXJ2aWNlIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBDZXJ0aWZpZWQg
+LSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0KWWVzDQoNCqGh
+DQoNCkZZMTYgSFAgS1IgRUcgR29sZA0KU3RvcmFnZSBTcGVjaWFsaXN0DQoNCkFueQ0KDQpTdG9y
+YWdlIEludGVncmF0aW9uIEFTRS9NQVNFDQoNClRlY2huaWNhbA0KDQpIUCBBU0UgLSBTdG9yYWdl
+IFNvbHV0aW9ucyBBcmNoaXRlY3QgVjENCm9yDQpIUCBNYXN0ZXIgQVNFIC0gU3RvcmFnZSBTb2x1
+dGlvbnMgQXJjaGl0ZWN0IFYxDQpvcg0KSFBFIEFTRSAtIFN0b3JhZ2UgU29sdXRpb25zIEFyY2hp
+dGVjdCBWMg0Kb3INCkhQRSBNYXN0ZXIgQVNFIC0gU3RvcmFnZSBTb2x1dGlvbnMgQXJjaGl0ZWN0
+IFYyDQoNCjENCg0KMg0KDQowDQoNClllcw0KDQqhoQ0KDQpBbnkNCg0KU3RvcmFnZSBLbm93bGVk
+Z2UgQ3JlZGl0DQoNCktub3dsZWRnZSBDcmVkaXRzDQoNClBsZWFzZSBzZWUgUExNVCBLbm93bGVk
+Z2UgQ3JlZGl0cyBwYWdlIGZvciBkZXRhaWxzDQoNCjEwMA0KDQozMg0KDQo2OA0KDQpObw0KDQqh
+oQ0KDQpBbnkNCg0KU3RvcmFnZSBTYWxlcw0KDQpTYWxlcw0KDQpIUEUgU2FsZXMgQ2VydGlmaWVk
+IC0gRW50ZXJwcmlzZSBTb2x1dGlvbnMgWzIwMTZdDQoNCjQNCg0KOQ0KDQowDQoNClllcw0KDQqh
+oQ0KDQoNCit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fisNCijB1im/ocDMvcO9
+uiC8rbrxvbq75773us4gxsDA5SC8rbyux/YNCrytv+8gvK3DyrG4ILndxve1vyA2Ny0zufjB9iC0
+67iiuvS1+SAzw/4gMTM3LTgwNA0KVGVsLiAwNzAtNzExNC0wMDcxIE1vYmlsZS4gMDEwLTI0OTEt
+MjM1Mg0KRmF4LiAoMDIpNTg2LTUwNzAgRS1tYWlsLiBzaHNlb0BhZ2lsZXN5cy5jby5rcjxtYWls
+dG86c2hzZW9AYWdpbGVzeXMuY28ua3I+DQorfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4r
+fn4rfn4rDQoNCkZyb206ILytvK7H9g0KU2VudDogVHVlc2RheSwgRmVicnVhcnkgMjMsIDIwMTYg
+NTozMCBQTQ0KVG86IL+hwMy9w726DQpTdWJqZWN0OiBIUCBLbm93bGVkZ2UgQ3JlZGl0cyDA+7iz
+ILnmuf0NCg0KvK0gxsDA5cDUtM+02S4NCg0Kw7e6ziDGxMDPwMcgS25vd2xlZGdlIENyZWRpdHMg
+wPu4syC55rn9IMiuwM7Hz73DsO0NCkJVurAgMTAwIENyZWRpdCDA+7izILnZtvi0z7TZLiAhIQ0K
+DQrH9sDnIMD7uLMgx/bIssC6IMDPud0gu+e/68DaIElEt860wiDIrsDOwMwgvsi1y7TPtNkuDQoN
+CjHB1sDPILTcwKe3ziDBprChIMiuwM4gx8+1tbfPIMfPsNq9wLTPtNkuDQoNCrCou+fH1bTPtNku
+DQorfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rDQoowdYpv6HAzL3DvbogvK26
+8b26u+e+97rOIMbAwOUgvK28rsf2DQq8rb/vILytw8qxuCC53cb3tb8gNjctM7n4wfYgtOu4orr0
+tfkgM8P+IDEzNy04MDQNClRlbC4gMDcwLTcxMTQtMDA3MSBNb2JpbGUuIDAxMC0yNDkxLTIzNTIN
+CkZheC4gKDAyKTU4Ni01MDcwIEUtbWFpbC4gc2hzZW9AYWdpbGVzeXMuY28ua3I8bWFpbHRvOnNo
+c2VvQGFnaWxlc3lzLmNvLmtyPg0KK35+K35+K35+K35+K35+K35+K35+K35+K35+K35+K35+K35+
+Kw0KDQpGcm9tOiC8rbyux/YNClNlbnQ6IFR1ZXNkYXksIEZlYnJ1YXJ5IDIzLCAyMDE2IDQ6Mzcg
+UE0NClRvOiDAzLXOv607ILHowb68rg0KQ2M6ILHouri8sTsgsPu8usH4DQpTdWJqZWN0OiBIUCBD
+ZXJ0aWZpY2F0aW9uICYgS25vd2xlZGdlIENyZWRpdHMgyK7AziC55rn9DQoNCrytIMbAwOXA1LTP
+tNkuDQoNCkhQIENlcnRpZmljYXRpb24gudcgS25vd2xlZGdlIENyZWRpdHMgx/bIsiDIrsDOILnm
+uf3A1LTPtNkuDQoNCrCou+fH1bTPtNkuDQorfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4r
+fn4rfn4rDQoowdYpv6HAzL3DvbogvK268b26u+e+97rOIMbAwOUgvK28rsf2DQq8rb/vILytw8qx
+uCC53cb3tb8gNjctM7n4wfYgtOu4orr0tfkgM8P+IDEzNy04MDQNClRlbC4gMDcwLTcxMTQtMDA3
+MSBNb2JpbGUuIDAxMC0yNDkxLTIzNTINCkZheC4gKDAyKTU4Ni01MDcwIEUtbWFpbC4gc2hzZW9A
+YWdpbGVzeXMuY28ua3I8bWFpbHRvOnNoc2VvQGFnaWxlc3lzLmNvLmtyPg0KK35+K35+K35+K35+
+K35+K35+K35+K35+K35+K35+K35+K35+Kw0KDQpGcm9tOiDAzLXOv60NClNlbnQ6IFR1ZXNkYXks
+IEZlYnJ1YXJ5IDIzLCAyMDE2IDM6NDggUE0NClRvOiCx6MG+vK47IMfRwb6w/DsgvK28rsf2DQpT
+dWJqZWN0OiBSRTogvsbAzLXwILnXIMbQvbq/9rXlDQoNCrD7vLrB+CC787mrDQpodHRwczovL3Bh
+cnRuZXIuaHBlLmNvbS9sb2dpbg0Kx8+x4rTCIL7GwMy18CC51yDG0L26v/a15bTCIGhwICC/wLT1
+v80gv6yw/LXHvu4guvG50Ln4yKMgNci4IL/At/kgvcMgsOjBpMDMIMDPwaQgvcOwoyC1v77IIMDh
+sem0z7TZLiDB1sDHx8+8vL/kLg0KvsbAzLXwIDogc2prd2FrDQrG0L26v/a15SA6IFNwaW5maXJl
+MTINCg0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0N
+CqLfv6HAzL3DvbogIL3DvbrF27vnvve6ziAgwMy1zr+tIML3wOUNClRFTCkgMDcwLTcxMTQtMDA3
+MCAvIE0pIDAxMC0yNDQzLTkzNTMNCkUtTWFpbCkgZHlsZWVAYWdpbGVzeXMuY28ua3I8bWFpbHRv
+OmR5bGVlQGFnaWxlc3lzLmNvLmtyPg0KvK2/773DILytw8qxuCC53cb3tb8gNjctMyC067iiuvQ0
+w/4NCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0K
+RnJvbTogTGVlZHV5ZW9sIFttYWlsdG86ZHlsZWVAYWdpbGVzeXMuY28ua3JdDQpTZW50OiBUdWVz
+ZGF5LCBGZWJydWFyeSAyMywgMjAxNiAzOjM2IFBNDQpUbzogYm9zdDEyQGFnaWxlc3lzLmNvLmty
+OyBraGFuQGFnaWxlc3lzLmNvLmtyOyBzaHNlb0BhZ2lsZXN5cy5jby5rcg0KU3ViamVjdDogvsbA
+zLXwILnXIMbQvbq/9rXlDQoNCg0KaHR0cHM6Ly9wYXJ0bmVyLmhwZS5jb20vbG9naW4NCg0KvsbA
+zLXwIDogc2FtZWNvZGUNCsbQvbq/9rXlIDogVHJ1NjR1bml4Pz8NCi0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0Kot+/ocDMvcO9uiAgvcO9usXbu+e+97rO
+ICDAzLXOv60gwvfA5Q0KVEVMKSAwNzAtNzExNC0wMDcwIC8gTSkgMDEwLTI0NDMtOTM1Mw0KRS1N
+YWlsKSBkeWxlZUBhZ2lsZXN5cy5jby5rcjxtYWlsdG86ZHlsZWVAYWdpbGVzeXMuY28ua3I+DQq8
+rb/vvcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69DTD/g0KLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQo=
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D96CMAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:m=3D"http://schema=
+s.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html=
+40"><head><meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dk=
+s_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft Word 14 (filtere=
+d medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:9.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle23
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle24
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an style=3D'color:black'>=BC=AD =C6=C0=C0=E5=C0=D4=B4=CF=B4=D9<span lang=3D=
+EN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US style=3D'color:black'><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>HP Cer=
+tification &amp; Knowledge Credits </span><span style=3D'color:black'>=C0=
+=FB=B8=B3 =C7=F6=C8=B2 =C0=D4=B4=CF=B4=D9<span lang=3DEN-US>. <o:p></o:p></=
+span></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US styl=
+e=3D'color:black'>(Update Date : 2016</span><span style=3D'color:black'>=B3=
+=E2 <span lang=3DEN-US>3</span>=BF=F9 <span lang=3DEN-US>16</span>=C0=CF<sp=
+an lang=3DEN-US>)<o:p></o:p></span></span></p><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left;text-autospace:ideograph-other;word-break:kee=
+p-all'><span style=3D'color:black'>=BE=C6=B7=A1 =B3=EB=B6=F5=BB=F6 =BC=BF=
+=C0=BB =A1=B0<span lang=3DEN-US>0</span>=A1=B1 =C0=B8=B7=CE =B8=B8=B5=E9=BE=
+=EE=BE=DF =C7=D5=B4=CF=B4=D9<span lang=3DEN-US>. !!<o:p></o:p></span></span=
+></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autosp=
+ace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:=
+black'><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable border=3D0=
+ cellspacing=3D0 cellpadding=3D0 width=3D1512 style=3D'width:40.0cm;margin-=
+left:-1.15pt;border-collapse:collapse'><tr style=3D'height:39.0pt'><td widt=
+h=3D280 nowrap style=3D'width:210.0pt;border:solid windowtext 1.0pt;backgro=
+und:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numer=
+ic ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font=
+-size:11.0pt;font-family:"Arial","sans-serif";color:white'>Program<o:p></o:=
+p></span></b></p></td><td width=3D99 style=3D'width:73.95pt;border:solid wi=
+ndowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.95pt 0cm 4=
+.95pt;height:39.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-alig=
+n:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Arial","sa=
+ns-serif";color:white'>Partner<br>Type<o:p></o:p></span></b></p></td><td wi=
+dth=3D224 nowrap style=3D'width:168.25pt;border:solid windowtext 1.0pt;bord=
+er-left:none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0pt=
+'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autos=
+pace:ideograph-numeric ideograph-other;word-break:keep-all'><b><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:w=
+hite'>Requirement Group<o:p></o:p></span></b></p></td><td width=3D117 nowra=
+p style=3D'width:88.0pt;border:solid windowtext 1.0pt;border-left:none;back=
+ground:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-nu=
+meric ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'f=
+ont-size:11.0pt;font-family:"Arial","sans-serif";color:white'>Competency<o:=
+p></o:p></span></b></p></td><td width=3D321 style=3D'width:240.8pt;border:s=
+olid windowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.95p=
+t 0cm 4.95pt;height:39.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Ari=
+al","sans-serif";color:white'>Required Activities<o:p></o:p></span></b></p>=
+</td><td width=3D124 style=3D'width:93.0pt;border:solid windowtext 1.0pt;bo=
+rder-left:none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-numeric ideograph-other;word-break:keep-all'><b><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:w=
+hite'>Required<br>Persons/Credits<o:p></o:p></span></b></p></td><td width=
+=3D124 style=3D'width:93.0pt;border:solid windowtext 1.0pt;border-left:none=
+;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-numeric ideograph-other;word-break:keep-all'><b><span lang=3DEN-US sty=
+le=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:white'>Achiev=
+ed<br>Persons/Credits<o:p></o:p></span></b></p></td><td width=3D124 style=
+=3D'width:93.0pt;border:solid windowtext 1.0pt;border-left:none;background:=
+#339966;padding:0cm 4.95pt 0cm 4.95pt;height:39.0pt'><p class=3DMsoNormal a=
+lign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric i=
+deograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-siz=
+e:11.0pt;font-family:"Arial","sans-serif";color:white'>Gap<br>Persons/Credi=
+ts<o:p></o:p></span></b></p></td><td width=3D99 style=3D'width:74.0pt;borde=
+r:solid windowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.=
+95pt 0cm 4.95pt;height:39.0pt'><p class=3DMsoNormal align=3Dcenter style=3D=
+'text-align:center;text-autospace:ideograph-numeric ideograph-other;word-br=
+eak:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"=
+Arial","sans-serif";color:white'>Requirement <br>Group Met?<o:p></o:p></spa=
+n></b></p></td></tr><tr style=3D'height:51.0pt'><td width=3D280 nowrap rows=
+pan=3D4 style=3D'width:210.0pt;border-top:none;border-left:solid windowtext=
+ 1.0pt;border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;=
+padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dc=
+enter style=3D'text-align:center;text-autospace:ideograph-numeric ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial"=
+,"sans-serif"'>FY16 HP KR EG Gold Cloud Builder Specialist<o:p></o:p></span=
+></p></td><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;bord=
+er-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid window=
+text 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNorma=
+l align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:=
+"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap =
+style=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0=
+cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Cloud Arc=
+hitect<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0=
+pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S style=3D'font-family:"Arial","sans-serif"'>Technical<o:p></o:p></span></p=
+></td><td width=3D321 style=3D'width:240.8pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left;text-autospace:ideograph-numeric ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","s=
+ans-serif"'>HP ASE - Data Center and Cloud Architect V2<br>or<br>HP Master =
+ASE - Data Center and Cloud Architect V1<o:p></o:p></span></p></td><td widt=
+h=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center;text-autospace:ideograph-numeric ideograph-other;=
+word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-=
+serif"'>1<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:9=
+3.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt=
+;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:5=
+1.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-=
+autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p>=
+</td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-le=
+ft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"=
+Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D99 nowrap styl=
+e=3D'width:74.0pt;border-top:none;border-left:none;border-bottom:solid wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:=
+center;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all=
+'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Yes<o:p></o=
+:p></span></p></td></tr><tr style=3D'height:76.5pt'><td width=3D99 nowrap s=
+tyle=3D'width:73.95pt;border-top:none;border-left:none;border-bottom:solid =
+windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-alig=
+n:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all=
+'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any<o:p></o=
+:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-to=
+p:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'f=
+ont-family:"Arial","sans-serif"'>Cloud Integration/ ATP-ASE Software<o:p></=
+o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'f=
+ont-family:"Arial","sans-serif"'>Technical<o:p></o:p></span></p></td><td wi=
+dth=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-bo=
+ttom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-numeric ideograph-other;word-b=
+reak:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"=
+'>HP ASE - Operations Orchestration v10<br>or<br>HP ASE - Server Automation=
+ v10<br>or<br>HP ATP - Cloud Service Automation v4<o:p></o:p></span></p></t=
+d><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>1<o:p></o:p></span></p></td><td width=3D124 nowrap style=
+=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>0<o:p></o:p>=
+</span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:76.=
+5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-au=
+tospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p>=
+</td><td width=3D99 nowrap style=3D'width:74.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal alig=
+n=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideo=
+graph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"A=
+rial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'height:1=
+2.75pt'><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"=
+Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap s=
+tyle=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Cloud Kno=
+wledge Credits<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'wi=
+dth:88.0pt;border-top:none;border-left:none;border-bottom:solid windowtext =
+1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Knowledge Credits<o:p=
+></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-nu=
+meric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font=
+-family:"Arial","sans-serif"'>Please see PLMT Knowledge Credits page for de=
+tails<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0p=
+t;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bor=
+der-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3D=
+EN-US style=3D'font-family:"Arial","sans-serif"'>100<o:p></o:p></span></p><=
+/td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"=
+Arial","sans-serif"'>27<o:p></o:p></span></p></td><td width=3D124 nowrap st=
+yle=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;background:yellow;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","san=
+s-serif"'>73<o:p></o:p></span></p></td><td width=3D99 nowrap style=3D'width=
+:74.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;te=
+xt-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>No<o:p></o:p></span>=
+</p></td></tr><tr style=3D'height:25.5pt'><td width=3D99 nowrap style=3D'wi=
+dth:73.95pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any<o:p></o:p></span>=
+</p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric i=
+deograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family=
+:"Arial","sans-serif"'>Cloud Sales<o:p></o:p></span></p></td><td width=3D11=
+7 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bott=
+om:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4=
+.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'=
+text-align:left;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Sa=
+les<o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogr=
+aph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-family:"Arial","sans-serif"'>HPE Sales Certified - Enterprise Solu=
+tions [2016]<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'widt=
+h:93.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.=
+0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;te=
+xt-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>4<o:p></o:p></span><=
+/p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal =
+align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-famil=
+y:"Arial","sans-serif"'>9<o:p></o:p></span></p></td><td width=3D124 nowrap =
+style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid =
+windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>0<o:p><=
+/o:p></span></p></td><td width=3D99 nowrap style=3D'width:74.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><t=
+r style=3D'height:51.0pt'><td width=3D280 nowrap rowspan=3D4 style=3D'width=
+:210.0pt;border-top:none;border-left:solid windowtext 1.0pt;border-bottom:s=
+olid black 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>FY16 HP=
+ KR EG Gold Networking Specialist<o:p></o:p></span></p></td><td width=3D99 =
+nowrap style=3D'width:73.95pt;border-top:none;border-left:none;border-botto=
+m:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;text-autospace:ideograph-numeric ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any=
+<o:p></o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;b=
+order-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border=
+-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'>=
+<p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:i=
+deograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US st=
+yle=3D'font-family:"Arial","sans-serif"'>Networking ASE<o:p></o:p></span></=
+p></td><td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal a=
+lign=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D321 styl=
+e=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:51.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>HP ASE - FlexN=
+etwork Architect V2<br>or<br>HP ASE - FlexNetwork Integrator V1<o:p></o:p><=
+/span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none=
+;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid w=
+indowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMso=
+Normal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-n=
+umeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fon=
+t-family:"Arial","sans-serif"'>2<o:p></o:p></span></p></td><td width=3D124 =
+nowrap style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom=
+:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center;text-autospace:ideograph-numeric ideograph-other;word-bre=
+ak:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>=
+2<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;bo=
+rder-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-=
+right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><=
+p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospac=
+e:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US=
+ style=3D'font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td=
+ width=3D99 nowrap style=3D'width:74.0pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcent=
+er style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","s=
+ans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr style=3D'height:12.75pt'=
+><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial"=
+,"sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap style=
+=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:=
+left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'>=
+<span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Networking Kn=
+owledge Credit<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'wi=
+dth:88.0pt;border-top:none;border-left:none;border-bottom:solid windowtext =
+1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Knowledge Credits<o:p=
+></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-nu=
+meric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font=
+-family:"Arial","sans-serif"'>Please see PLMT Knowledge Credits page for de=
+tails<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0p=
+t;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bor=
+der-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3D=
+EN-US style=3D'font-family:"Arial","sans-serif"'>100<o:p></o:p></span></p><=
+/td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"=
+Arial","sans-serif"'>30<o:p></o:p></span></p></td><td width=3D124 nowrap st=
+yle=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;background:yellow;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","san=
+s-serif"'>70<o:p></o:p></span></p></td><td width=3D99 nowrap style=3D'width=
+:74.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;te=
+xt-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>No<o:p></o:p></span>=
+</p></td></tr><tr style=3D'height:51.0pt'><td width=3D99 nowrap style=3D'wi=
+dth:73.95pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:51.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any<o:p></o:p></span>=
+</p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric i=
+deograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family=
+:"Arial","sans-serif"'>Networking MASE<o:p></o:p></span></p></td><td width=
+=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dleft styl=
+e=3D'text-align:left;text-autospace:ideograph-numeric ideograph-other;word-=
+break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif=
+"'>Technical<o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8=
+pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S style=3D'font-family:"Arial","sans-serif"'>HP Master ASE - FlexNetwork So=
+lutions V1<br>or<br>HPE Master ASE - FlexNetwork Solutions V2<o:p></o:p></s=
+pan></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-num=
+eric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-=
+family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td><td width=3D124 no=
+wrap style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>1<=
+o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US s=
+tyle=3D'font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td w=
+idth=3D99 nowrap style=3D'width:74.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","san=
+s-serif"'>Yes<o:p></o:p></span></p></td></tr><tr style=3D'height:25.5pt'><t=
+d width=3D99 nowrap style=3D'width:73.95pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dle=
+ft style=3D'text-align:left;text-autospace:ideograph-numeric ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","san=
+s-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap style=3D'wid=
+th:168.25pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Networking Sales<o:p>=
+</o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograp=
+h-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'=
+font-family:"Arial","sans-serif"'>Sales<o:p></o:p></span></p></td><td width=
+=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-botto=
+m:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;text-autospace:ideograph-numeric ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>HPE=
+ Sales Certified - Enterprise Solutions [2016]<o:p></o:p></span></p></td><t=
+d width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-=
+other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial",=
+"sans-serif"'>4<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'w=
+idth:93.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><spa=
+n lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>9<o:p></o:p></spa=
+n></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numer=
+ic ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-fa=
+mily:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D99 nowra=
+p style=3D'width:74.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0=
+cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-=
+align:center;text-autospace:ideograph-numeric ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Yes<o=
+:p></o:p></span></p></td></tr><tr style=3D'height:76.5pt'><td width=3D280 n=
+owrap rowspan=3D4 style=3D'width:210.0pt;border-top:none;border-left:solid =
+windowtext 1.0pt;border-bottom:solid black 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric=
+ ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-fami=
+ly:"Arial","sans-serif"'>FY16 HP KR EG Gold Server Specialist<o:p></o:p></s=
+pan></p></td><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNo=
+rmal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric=
+ ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-fami=
+ly:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowr=
+ap style=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-numeric ideograph-other;word-break:kee=
+p-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Server=
+ Integration<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'widt=
+h:88.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.=
+0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:76.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-a=
+utospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Technical<o:p></o:p></s=
+pan></p></td><td width=3D321 style=3D'width:240.8pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal a=
+lign=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>HP ASE - ProLiant Server Solutions Integrator V2<br>or<b=
+r>HP ASE - Server Solutions Architect V2<br>or<br>HP ASE - Server Solutions=
+ Integrator V8.1<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'=
+width:93.0pt;border-top:none;border-left:none;border-bottom:solid windowtex=
+t 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;h=
+eight:76.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>1<o:p></o:p></sp=
+an></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;bo=
+rder-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid wind=
+owtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-nume=
+ric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-f=
+amily:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D124 now=
+rap style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:yellow;=
+padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dc=
+enter style=3D'text-align:center;text-autospace:ideograph-numeric ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial"=
+,"sans-serif"'>1<o:p></o:p></span></p></td><td width=3D99 nowrap style=3D'w=
+idth:74.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:76.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><spa=
+n lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>No<o:p></o:p></sp=
+an></p></td></tr><tr style=3D'height:12.75pt'><td width=3D99 nowrap style=
+=3D'width:73.95pt;border-top:none;border-left:none;border-bottom:solid wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any<o:p></o:p>=
+</span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'f=
+ont-family:"Arial","sans-serif"'>Server Knowledge Credits<o:p></o:p></span>=
+</p></td><td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNorma=
+l align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:=
+"Arial","sans-serif"'>Knowledge Credits<o:p></o:p></span></p></td><td width=
+=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-botto=
+m:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'=
+text-align:left;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Pl=
+ease see PLMT Knowledge Credits page for details<o:p></o:p></span></p></td>=
+<td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>100<o:p></o:p></span></p></td><td width=3D124 nowrap sty=
+le=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-alig=
+n:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>6<o:p></o=
+:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:=
+none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:sol=
+id windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:=
+12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>94<o:p></o:p></span><=
+/p></td><td width=3D99 nowrap style=3D'width:74.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal =
+align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-famil=
+y:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'heig=
+ht:25.5pt'><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric i=
+deograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family=
+:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap=
+ style=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-a=
+lign:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-=
+all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Server O=
+neView<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0=
+pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S style=3D'font-family:"Arial","sans-serif"'>Technical<o:p></o:p></span></p=
+></td><td width=3D321 style=3D'width:240.8pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left;text-autospace:ideograph-numeric ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","s=
+ans-serif"'>HP Product Certified - HP OneView 1.20<o:p></o:p></span></p></t=
+d><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>1<o:p></o:p></span></p></td><td width=3D124 nowrap style=
+=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>0<o:p></o:p>=
+</span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:25.=
+5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-au=
+tospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p>=
+</td><td width=3D99 nowrap style=3D'width:74.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal alig=
+n=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideo=
+graph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"A=
+rial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'height:2=
+5.5pt'><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal a=
+lign=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap sty=
+le=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:solid w=
+indowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm =
+4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align=
+:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Server Sales=
+<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p=
+ class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ide=
+ograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US styl=
+e=3D'font-family:"Arial","sans-serif"'>Sales<o:p></o:p></span></p></td><td =
+width=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-=
+bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0=
+cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-numeric ideograph-other;word-b=
+reak:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"=
+'>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:p></span></p></=
+td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ar=
+ial","sans-serif"'>4<o:p></o:p></span></p></td><td width=3D124 nowrap style=
+=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>9<o:p></o:p>=
+</span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMs=
+oNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-=
+numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fo=
+nt-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D99 =
+nowrap style=3D'width:74.0pt;border-top:none;border-left:none;border-bottom=
+:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center;text-autospace:ideograph-numeric ideograph-other;word-bre=
+ak:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>=
+Yes<o:p></o:p></span></p></td></tr><tr style=3D'height:12.75pt'><td width=
+=3D280 nowrap rowspan=3D2 style=3D'width:210.0pt;border-top:none;border-lef=
+t:solid windowtext 1.0pt;border-bottom:solid black 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3D=
+MsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograp=
+h-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'=
+font-family:"Arial","sans-serif"'>FY16 HP KR EG Gold Services Specialist<o:=
+p></o:p></span></p></td><td width=3D99 nowrap style=3D'width:73.95pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideog=
+raph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td wid=
+th=3D224 nowrap style=3D'width:168.25pt;border-top:none;border-left:none;bo=
+rder-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:ideograph-numeric ideograph-other;=
+word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-=
+serif"'>Service Knowledge Credits<o:p></o:p></span></p></td><td width=3D117=
+ nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border-botto=
+m:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'=
+text-align:left;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Kn=
+owledge Credits<o:p></o:p></span></p></td><td width=3D321 style=3D'width:24=
+0.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt=
+;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:1=
+2.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3D=
+EN-US style=3D'font-family:"Arial","sans-serif"'>Please see PLMT Knowledge =
+Credits page for details<o:p></o:p></span></p></td><td width=3D124 nowrap s=
+tyle=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid w=
+indowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm =
+4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>50<o:p>=
+</o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ide=
+ograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US styl=
+e=3D'font-family:"Arial","sans-serif"'>40<o:p></o:p></span></p></td><td wid=
+th=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;bord=
+er-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;backgr=
+ound:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-nume=
+ric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-f=
+amily:"Arial","sans-serif"'>10<o:p></o:p></span></p></td><td width=3D99 now=
+rap style=3D'width:74.0pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt=
+ 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>No=
+<o:p></o:p></span></p></td></tr><tr style=3D'height:25.5pt'><td width=3D99 =
+nowrap style=3D'width:73.95pt;border-top:none;border-left:none;border-botto=
+m:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;text-autospace:ideograph-numeric ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any=
+<o:p></o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;b=
+order-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border=
+-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'>=
+<p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:i=
+deograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US st=
+yle=3D'font-family:"Arial","sans-serif"'>Service Sales<o:p></o:p></span></p=
+></td><td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideogr=
+aph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Ari=
+al","sans-serif"'>Sales<o:p></o:p></span></p></td><td width=3D321 style=3D'=
+width:240.8pt;border-top:none;border-left:none;border-bottom:solid windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span =
+lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>HPE Sales Certified=
+ - Enterprise Solutions [2016]<o:p></o:p></span></p></td><td width=3D124 no=
+wrap style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center;text-autospace:ideograph-numeric ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>4<=
+o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US s=
+tyle=3D'font-family:"Arial","sans-serif"'>9<o:p></o:p></span></p></td><td w=
+idth=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;bo=
+rder-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sa=
+ns-serif"'>0<o:p></o:p></span></p></td><td width=3D99 nowrap style=3D'width=
+:74.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tex=
+t-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span>=
+</p></td></tr><tr style=3D'height:102.0pt'><td width=3D280 nowrap rowspan=
+=3D3 style=3D'width:210.0pt;border-top:none;border-left:solid windowtext 1.=
+0pt;border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-o=
+ther;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","=
+sans-serif"'>FY16 HP KR EG Gold Storage Specialist<o:p></o:p></span></p></t=
+d><td width=3D99 nowrap style=3D'width:73.95pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial"=
+,"sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap style=
+=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:102.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:=
+left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'>=
+<span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Storage Integ=
+ration ASE/MASE<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'w=
+idth:88.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:102.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;te=
+xt-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Technical<o:p></o:p>=
+</span></p></td><td width=3D321 style=3D'width:240.8pt;border-top:none;bord=
+er-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid window=
+text 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-numeric i=
+deograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family=
+:"Arial","sans-serif"'>HP ASE - Storage Solutions Architect V1<br>or<br>HP =
+Master ASE - Storage Solutions Architect V1<br>or<br>HPE ASE - Storage Solu=
+tions Architect V2<br>or<br>HPE Master ASE - Storage Solutions Architect V2=
+<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><=
+p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospac=
+e:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US=
+ style=3D'font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td><td=
+ width=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center;text-autospace:ideograph-numeric ideograph-=
+other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial",=
+"sans-serif"'>2<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D'w=
+idth:93.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:102.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>0<o:p></o:p></sp=
+an></p></td><td width=3D99 nowrap style=3D'width:74.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-nume=
+ric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-f=
+amily:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr style=3D=
+'height:12.75pt'><td width=3D99 nowrap style=3D'width:73.95pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-nu=
+meric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font=
+-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224=
+ nowrap style=3D'width:168.25pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-numeric ideograph-other;word-b=
+reak:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"=
+'>Storage Knowledge Credit<o:p></o:p></span></p></td><td width=3D117 nowrap=
+ style=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Knowledge=
+ Credits<o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;b=
+order-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border=
+-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'=
+><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:=
+ideograph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US s=
+tyle=3D'font-family:"Arial","sans-serif"'>Please see PLMT Knowledge Credits=
+ page for details<o:p></o:p></span></p></td><td width=3D124 nowrap style=3D=
+'width:93.0pt;border-top:none;border-left:none;border-bottom:solid windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cen=
+ter;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>100<o:p></o:p>=
+</span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DM=
+soNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph=
+-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'f=
+ont-family:"Arial","sans-serif"'>84<o:p></o:p></span></p></td><td width=3D1=
+24 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:y=
+ellow;padding:0cm 4.95pt 0cm 4.95pt;height:12.75pt'><p class=3DMsoNormal al=
+ign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-numeric id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:=
+"Arial","sans-serif"'>16<o:p></o:p></span></p></td><td width=3D99 nowrap st=
+yle=3D'width:74.0pt;border-top:none;border-left:none;border-bottom:solid wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4=
+.95pt;height:12.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-ali=
+gn:center;text-autospace:ideograph-numeric ideograph-other;word-break:keep-=
+all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>No<o:p><=
+/o:p></span></p></td></tr><tr style=3D'height:25.5pt'><td width=3D99 nowrap=
+ style=3D'width:73.95pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0=
+cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Any<o:p><=
+/o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogra=
+ph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D=
+'font-family:"Arial","sans-serif"'>Storage Sales<o:p></o:p></span></p></td>=
+<td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3D=
+left style=3D'text-align:left;text-autospace:ideograph-numeric ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","s=
+ans-serif"'>Sales<o:p></o:p></span></p></td><td width=3D321 style=3D'width:=
+240.8pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:25.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-au=
+tospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>HPE Sales Certified - E=
+nterprise Solutions [2016]<o:p></o:p></span></p></td><td width=3D124 nowrap=
+ style=3D'width:93.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center;text-autospace:ideograph-numeric ideograph-other;word-break:kee=
+p-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif"'>4<o:p>=
+</o:p></span></p></td><td width=3D124 nowrap style=3D'width:93.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideo=
+graph-numeric ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-family:"Arial","sans-serif"'>9<o:p></o:p></span></p></td><td width=
+=3D124 nowrap style=3D'width:93.0pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter st=
+yle=3D'text-align:center;text-autospace:ideograph-numeric ideograph-other;w=
+ord-break:keep-all'><span lang=3DEN-US style=3D'font-family:"Arial","sans-s=
+erif"'>0<o:p></o:p></span></p></td><td width=3D99 nowrap style=3D'width:74.=
+0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;b=
+order-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.=
+5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-au=
+tospace:ideograph-numeric ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></=
+p></td></tr></table><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-=
+US style=3D'color:black'><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><b><span lang=3DEN-US style=3D'color:black'>+~~+~~+~~+~~+=
+~~+~~+~~+~~+~~+~~+~~+~~+</span></b><span lang=3DEN-US style=3D'font-size:12=
+.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'color:black'>(</=
+span></b><b><span style=3D'color:black'>=C1=D6<span lang=3DEN-US>)</span>=
+=BF=A1=C0=CC=BD=C3=BD=BA</span></b><span style=3D'color:black'> =BC=AD=BA=
+=F1=BD=BA=BB=E7=BE=F7=BA=CE =C6=C0=C0=E5 <b>=BC=AD=BC=AE=C7=F6</b></span><s=
+pan lang=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:b=
+lack'><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-other;word-break:keep-all'><span style=
+=3D'color:black'>=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span la=
+ng=3DEN-US> 67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN=
+-US> 3</span>=C3=FE<span lang=3DEN-US> 137-804</span></span><span lang=3DEN=
+-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></=
+o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'color:black'>Tel. 070-7114-0071 Mobile. 010-2491-2352 </span><span lang=
+=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o=
+:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US =
+style=3D'color:black'>Fax. (02)586-5070 E-mail. </span><span lang=3DEN-US s=
+tyle=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><a href=3D"m=
+ailto:shseo@agilesys.co.kr"><span style=3D'font-size:10.0pt;font-family:"=
+=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>shseo@agilesys.co.kr</span></a><o:p=
+></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US=
+ style=3D'color:black'>+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</span></b><b><=
+span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></b></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></=
+span></p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padd=
+ing:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-alig=
+n:left;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all=
+'><b><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>From:</=
+span></b><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> </=
+span><span style=3D'font-family:=B1=BC=B8=B2'>=BC=AD=BC=AE=C7=F6</span><spa=
+n lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> <br><b>Sent:</b=
+> Wednesday, March 02, 2016 2:03 PM<br><b>To:</b> </span><span style=3D'fon=
+t-family:=B1=BC=B8=B2'>=BF=A1=C0=CC=BD=C3=BD=BA</span><span lang=3DEN-US st=
+yle=3D'font-family:"Tahoma","sans-serif"'><br><b>Subject:</b> HP Certificat=
+ion &amp; Knowledge Credits </span><span style=3D'font-family:=B1=BC=B8=B2'=
+>=C0=FB=B8=B3</span><span style=3D'font-family:"Tahoma","sans-serif"'> </sp=
+an><span style=3D'font-family:=B1=BC=B8=B2'>=C7=F6=C8=B2</span><span lang=
+=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'><o:p></o:p></span></p>=
+</div></div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><sp=
+an lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dle=
+ft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-=
+all'><span style=3D'color:black'>=BC=AD =C6=C0=C0=E5=C0=D4=B4=CF=B4=D9<span=
+ lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal align=3Dle=
+ft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-=
+all'><span lang=3DEN-US style=3D'color:black'><o:p>&nbsp;</o:p></span></p><=
+p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'=
+>HP Certification &amp; Knowledge Credits </span><span style=3D'color:black=
+'>=C0=FB=B8=B3 =C7=F6=C8=B2 =C0=D4=B4=CF=B4=D9<span lang=3DEN-US>. <o:p></o=
+:p></span></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:=
+left;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US=
+ style=3D'color:black'>(Update Date : 2016</span><span style=3D'color:black=
+'>=B3=E2<span lang=3DEN-US> 3</span>=BF=F9<span lang=3DEN-US> 2</span>=C0=
+=CF<span lang=3DEN-US>)<o:p></o:p></span></span></p><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-bre=
+ak:keep-all'><span style=3D'color:black'>=BE=C6=B7=A1 =B3=EB=B6=F5=BB=F6 =
+=BC=BF=C0=BB =A1=B0<span lang=3DEN-US>0</span>=A1=B1 =C0=B8=B7=CE =B8=B8=B5=
+=E9=BE=EE=BE=DF =C7=D5=B4=CF=B4=D9<span lang=3DEN-US>. !!<o:p></o:p></span>=
+</span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'=
+color:black'><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable bord=
+er=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1521 style=3D'width:1141.0pt=
+;margin-left:-1.15pt;border-collapse:collapse'><tr style=3D'height:36.75pt'=
+><td width=3D167 nowrap style=3D'width:125.0pt;border:solid windowtext 1.0p=
+t;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11=
+.0pt;color:white'>Program<o:p></o:p></span></b></p></td><td width=3D67 styl=
+e=3D'width:50.0pt;border:solid windowtext 1.0pt;border-left:none;background=
+:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;w=
+ord-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;color:w=
+hite'>Partner<br>Type<o:p></o:p></span></b></p></td><td width=3D212 nowrap =
+style=3D'width:159.0pt;border:solid windowtext 1.0pt;border-left:none;backg=
+round:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-ot=
+her;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:white'>Requirement Group<o:p></o:p></span></b></p></td><td width=3D132 =
+nowrap style=3D'width:99.0pt;border:solid windowtext 1.0pt;border-left:none=
+;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11=
+.0pt;color:white'>Competency<o:p></o:p></span></b></p></td><td width=3D344 =
+style=3D'width:258.0pt;border:solid windowtext 1.0pt;border-left:none;backg=
+round:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-ot=
+her;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:white'>Required Activities<o:p></o:p></span></b></p></td><td width=3D13=
+1 style=3D'width:98.0pt;border:solid windowtext 1.0pt;border-left:none;back=
+ground:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p class=3DMso=
+Normal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-o=
+ther;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;c=
+olor:white'>Required<br>Persons/Credits<o:p></o:p></span></b></p></td><td w=
+idth=3D131 style=3D'width:98.0pt;border:solid windowtext 1.0pt;border-left:=
+none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75pt'><p cl=
+ass=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:id=
+eograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size=
+:11.0pt;color:white'>Achieved<br>Persons/Credits<o:p></o:p></span></b></p><=
+/td><td width=3D131 style=3D'width:98.0pt;border:solid windowtext 1.0pt;bor=
+der-left:none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:36.75=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'=
+font-size:11.0pt;color:white'>Gap<br>Persons/Credits<o:p></o:p></span></b><=
+/p></td><td width=3D107 style=3D'width:80.0pt;border:solid windowtext 1.0pt=
+;border-left:none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:3=
+6.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text=
+-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=
+=3D'font-size:11.0pt;color:white'>Requirement<br>Group Met?<o:p></o:p></spa=
+n></b></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border:solid wi=
+ndowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.95pt 0cm 4=
+.95pt;height:36.75pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-ali=
+gn:center;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=
+=3DEN-US style=3D'font-size:11.0pt;color:white'>Option Text<o:p></o:p></spa=
+n></b></p></td></tr><tr style=3D'height:40.5pt'><td width=3D167 rowspan=3D4=
+ style=3D'width:125.0pt;border-top:none;border-left:solid windowtext 1.0pt;=
+border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US>FY16 HP KR EG Gold<br>Cloud Builder Specialist<o:p></=
+o:p></span></p></td><td width=3D67 nowrap style=3D'width:50.0pt;border-top:=
+none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:sol=
+id windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p=
+></td><td width=3D212 nowrap style=3D'width:159.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal a=
+lign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US>Cloud Architect<o:p></o:p></span></p><=
+/td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal alig=
+n=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-b=
+reak:keep-all'><span lang=3DEN-US>Technical<o:p></o:p></span></p></td><td w=
+idth=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;border-b=
+ottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0c=
+m 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US>HP ASE - Data Center and Cloud Architect V2<br>or<br>HP Mas=
+ter ASE - Data Center and Cloud Architect V1<o:p></o:p></span></p></td><td =
+width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcent=
+er style=3D'text-align:center;text-autospace:ideograph-other;word-break:kee=
+p-all'><span lang=3DEN-US>1<o:p></o:p></span></p></td><td width=3D131 nowra=
+p style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0=
+cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-=
+align:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US>1<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:=
+98.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p></=
+o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p></o:p></span></p=
+></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal al=
+ign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word=
+-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><=
+tr style=3D'height:67.5pt'><td width=3D67 nowrap style=3D'width:50.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></spa=
+n></p></td><td width=3D212 style=3D'width:159.0pt;border-top:none;border-le=
+ft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-=
+break:keep-all'><span lang=3DEN-US>Cloud Integration/ ATP<br>-ASE Software<=
+o:p></o:p></span></p></td><td width=3D132 nowrap style=3D'width:99.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>Technical<o:p></o:p=
+></span></p></td><td width=3D344 style=3D'width:258.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US>HP ASE - Operations Orchestration v10<=
+br>or<br>HP ASE - Server Automation v10<br>or<br>HP ATP - Cloud Service Aut=
+omation v4<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:=
+98.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+67.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>1<o:p></=
+o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p></o:p></span></p><=
+/td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideo=
+graph-other;word-break:keep-all'><span lang=3DEN-US>1<o:p></o:p></span></p>=
+</td><td width=3D107 nowrap style=3D'width:80.0pt;border-top:none;border-le=
+ft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-=
+break:keep-all'><span lang=3DEN-US>No<o:p></o:p></span></p></td><td width=
+=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=3Dcenter st=
+yle=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all=
+'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'hei=
+ght:13.5pt'><td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other=
+;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td =
+width=3D212 nowrap style=3D'width:159.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>Cloud Knowledge Credits<o:p></o:p></span></p></t=
+d><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>Knowledge Credits<o:p></o:p></span></p></t=
+d><td width=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US>Please see PLMT Knowledge Credits page for details<o:=
+p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p cl=
+ass=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US>100<o:p></o:p></span>=
+</p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;w=
+ord-break:keep-all'><span lang=3DEN-US>6<o:p></o:p></span></p></td><td widt=
+h=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;backgro=
+und:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;=
+word-break:keep-all'><span lang=3DEN-US>94<o:p></o:p></span></p></td><td wi=
+dth=3D107 nowrap style=3D'width:80.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-=
+all'><span lang=3DEN-US>No<o:p></o:p></span></p></td><td width=3D101 nowrap=
+ style=3D'width:76.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center;text-autospace:ideograph-other;word-break:keep-all'>=A1=A1<span=
+ lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:13.5pt'><=
+td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center;text-autospace:ideograph-other;word-break:k=
+eep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td width=3D212 n=
+owrap style=3D'width:159.0pt;border-top:none;border-left:none;border-bottom=
+:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center;text-autospace:ideograph-other;word-break:keep-all'><span=
+ lang=3DEN-US>Cloud Sales<o:p></o:p></span></p></td><td width=3D132 nowrap =
+style=3D'width:99.0pt;border-top:none;border-left:none;border-bottom:solid =
+windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US>Sales<o:p></o:p></span></p></td><td width=3D344 style=3D'width:258=
+.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;=
+border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13=
+.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autos=
+pace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>HPE Sales Cert=
+ified - Enterprise Solutions [2016]<o:p></o:p></span></p></td><td width=3D1=
+31 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US>4<o:p></o:p></span></p></td><td width=3D131 nowrap style=
+=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S>9<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;=
+border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;borde=
+r-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autosp=
+ace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p></o:p></s=
+pan></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US>Yes<o:p></o:p></span></p></td><t=
+d width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center;text-autospace:ideograph-other;word-break:k=
+eep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=
+=3D'height:40.5pt'><td width=3D167 rowspan=3D4 style=3D'width:125.0pt;borde=
+r-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid black 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>FY16 HP=
+ KR EG Gold<br>Networking Specialist<o:p></o:p></span></p></td><td width=3D=
+67 nowrap style=3D'width:50.0pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US>Any<o:p></o:p></span></p></td><td width=3D212 nowrap styl=
+e=3D'width:159.0pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align=
+:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN=
+-US>Networking ASE<o:p></o:p></span></p></td><td width=3D132 nowrap style=
+=3D'width:99.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S>Technical<o:p></o:p></span></p></td><td width=3D344 style=3D'width:258.0p=
+t;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bor=
+der-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5p=
+t'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospac=
+e:ideograph-other;word-break:keep-all'><span lang=3DEN-US>HP ASE - FlexNetw=
+ork Architect V2<br>or<br>HP ASE - FlexNetwork Integrator V1<o:p></o:p></sp=
+an></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;bo=
+rder-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid wind=
+owtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US>2<o:p></o:p></span></p></td><td w=
+idth=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;bo=
+rder-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center;text-autospace:ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US>2<o:p></o:p></span></p></td><td width=3D131 nowrap=
+ style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US>0<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width:=
+80.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p>=
+</o:p></span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideo=
+graph-other;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span=
+></p></td></tr><tr style=3D'height:13.5pt'><td width=3D67 nowrap style=3D'w=
+idth:50.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any=
+<o:p></o:p></span></p></td><td width=3D212 nowrap style=3D'width:159.0pt;bo=
+rder-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-=
+right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><=
+p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospac=
+e:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Networking Knowle=
+dge Credit<o:p></o:p></span></p></td><td width=3D132 nowrap style=3D'width:=
+99.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Knowledg=
+e Credits<o:p></o:p></span></p></td><td width=3D344 style=3D'width:258.0pt;=
+border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;borde=
+r-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'=
+><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>Please see PLMT Kno=
+wledge Credits page for details<o:p></o:p></span></p></td><td width=3D131 n=
+owrap style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:=
+solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D't=
+ext-align:center;text-autospace:ideograph-other;word-break:keep-all'><span =
+lang=3DEN-US>100<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'=
+width:98.0pt;border-top:none;border-left:none;border-bottom:solid windowtex=
+t 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;h=
+eight:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>28=
+<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt=
+;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cen=
+ter;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>=
+72<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;b=
+order-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border=
+-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'>=
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospa=
+ce:ideograph-other;word-break:keep-all'><span lang=3DEN-US>No<o:p></o:p></s=
+pan></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-oth=
+er;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td=
+></tr><tr style=3D'height:40.5pt'><td width=3D67 nowrap style=3D'width:50.0=
+pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:=
+p></span></p></td><td width=3D212 nowrap style=3D'width:159.0pt;border-top:=
+none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:sol=
+id windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>Networking MASE<o:p></o:=
+p></span></p></td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3D=
+MsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograp=
+h-other;word-break:keep-all'><span lang=3DEN-US>Technical<o:p></o:p></span>=
+</p></td><td width=3D344 style=3D'width:258.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US>HP Master ASE - FlexNetwork Solutions V1<br>or=
+<br>HPE Master ASE - FlexNetwork Solutions V2<o:p></o:p></span></p></td><td=
+ width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>1<o:p></o:p></span></p></td><td width=3D131 nowr=
+ap style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text=
+-align:center;text-autospace:ideograph-other;word-break:keep-all'><span lan=
+g=3DEN-US>1<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width=
+:98.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:40.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p><=
+/o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-to=
+p:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p></o:p></span></p=
+></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:40.5pt'><p class=3DMsoNormal al=
+ign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word=
+-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><=
+tr style=3D'height:27.0pt'><td width=3D67 nowrap style=3D'width:50.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></spa=
+n></p></td><td width=3D212 nowrap style=3D'width:159.0pt;border-top:none;bo=
+rder-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid wind=
+owtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US>Networking Sales<o:p></o:p></span=
+></p></td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;bord=
+er-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid window=
+text 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;=
+word-break:keep-all'><span lang=3DEN-US>Sales<o:p></o:p></span></p></td><td=
+ width=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dleft styl=
+e=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><s=
+pan lang=3DEN-US>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:=
+p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3D=
+MsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograp=
+h-other;word-break:keep-all'><span lang=3DEN-US>4<o:p></o:p></span></p></td=
+><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>9<o:p></o:p></span></p></td><td width=3D13=
+1 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;border-bott=
+om:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4=
+.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US>0<o:p></o:p></span></p></td><td width=3D107 nowrap style=
+=3D'width:80.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S>Yes<o:p></o:p></span></p></td><td width=3D101 nowrap style=3D'width:76.0p=
+t;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bor=
+der-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0p=
+t'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-auto=
+space:ideograph-other;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></=
+o:p></span></p></td></tr><tr style=3D'height:67.5pt'><td width=3D167 rowspa=
+n=3D4 style=3D'width:125.0pt;border-top:none;border-left:solid windowtext 1=
+.0pt;border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>FY16 HP KR EG Gold<br>Server Specialist<o:p></o:=
+p></span></p></td><td width=3D67 nowrap style=3D'width:50.0pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DM=
+soNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></t=
+d><td width=3D212 nowrap style=3D'width:159.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>Server Integration<o:p></o:p></span></p></=
+td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>Technical<o:p></o:p></span></p></td><td wi=
+dth=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;border-bo=
+ttom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US>HP ASE - ProLiant Server Solutions Integrator V2<br>or<br>H=
+P ASE - Server Solutions Architect V2<br>or<br>HP ASE - Server Solutions In=
+tegrator V8.1<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'wid=
+th:98.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1=
+.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heig=
+ht:67.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>1<o:p=
+></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p></o:p></span></p=
+></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p cl=
+ass=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US>1<o:p></o:p></span></=
+p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal a=
+lign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US>No<o:p></o:p></span></p></td><td width=
+=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:67.5pt'><p class=3DMsoNormal align=3Dcenter st=
+yle=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all=
+'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'hei=
+ght:13.5pt'><td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other=
+;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td =
+width=3D212 nowrap style=3D'width:159.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>Server Knowledge Credits<o:p></o:p></span></p></=
+td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>Knowledge Credits<o:p></o:p></span></p></t=
+d><td width=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US>Please see PLMT Knowledge Credits page for details<o:=
+p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border=
+-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p cl=
+ass=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US>100<o:p></o:p></span>=
+</p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;w=
+ord-break:keep-all'><span lang=3DEN-US>6<o:p></o:p></span></p></td><td widt=
+h=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;backgro=
+und:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;=
+word-break:keep-all'><span lang=3DEN-US>94<o:p></o:p></span></p></td><td wi=
+dth=3D107 nowrap style=3D'width:80.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-=
+all'><span lang=3DEN-US>No<o:p></o:p></span></p></td><td width=3D101 nowrap=
+ style=3D'width:76.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center;text-autospace:ideograph-other;word-break:keep-all'>=A1=A1<span=
+ lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:27.0pt'><=
+td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center;text-autospace:ideograph-other;word-break:k=
+eep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td width=3D212 n=
+owrap style=3D'width:159.0pt;border-top:none;border-left:none;border-bottom=
+:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center;text-autospace:ideograph-other;word-break:keep-all'><span=
+ lang=3DEN-US>Server OneView<o:p></o:p></span></p></td><td width=3D132 nowr=
+ap style=3D'width:99.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text=
+-align:center;text-autospace:ideograph-other;word-break:keep-all'><span lan=
+g=3DEN-US>Technical<o:p></o:p></span></p></td><td width=3D344 style=3D'widt=
+h:258.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1=
+.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heig=
+ht:27.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>HP Produc=
+t Certified - HP OneView 1.20<o:p></o:p></span></p></td><td width=3D131 now=
+rap style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt=
+ 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'tex=
+t-align:center;text-autospace:ideograph-other;word-break:keep-all'><span la=
+ng=3DEN-US>1<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'widt=
+h:98.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.=
+0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;te=
+xt-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p>=
+</o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;heig=
+ht:27.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>1<o:p=
+></o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US>No<o:p></o:p></span></=
+p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:27.0pt'><p class=3DMsoNormal a=
+lign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;wor=
+d-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr>=
+<tr style=3D'height:13.5pt'><td width=3D67 nowrap style=3D'width:50.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p=
+ class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace=
+:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></sp=
+an></p></td><td width=3D212 nowrap style=3D'width:159.0pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US>Server Sales<o:p></o:p></span></=
+p></td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-=
+left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtex=
+t 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal a=
+lign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US>Sales<o:p></o:p></span></p></td><td wi=
+dth=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;border-bo=
+ttom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:p=
+></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DM=
+soNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US>4<o:p></o:p></span></p></td>=
+<td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3D=
+center style=3D'text-align:center;text-autospace:ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US>9<o:p></o:p></span></p></td><td width=3D131 n=
+owrap style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:=
+solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D't=
+ext-align:center;text-autospace:ideograph-other;word-break:keep-all'><span =
+lang=3DEN-US>0<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'wi=
+dth:80.0pt;border-top:none;border-left:none;border-bottom:solid windowtext =
+1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;=
+text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Yes<=
+o:p></o:p></span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-other;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></=
+span></p></td></tr><tr style=3D'height:13.5pt'><td width=3D167 rowspan=3D2 =
+style=3D'width:125.0pt;border-top:none;border-left:solid windowtext 1.0pt;b=
+order-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter st=
+yle=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all=
+'><span lang=3DEN-US>FY16 HP KR EG Gold<br>Services Specialist<o:p></o:p></=
+span></p></td><td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;b=
+order-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><t=
+d width=3D212 nowrap style=3D'width:159.0pt;border-top:none;border-left:non=
+e;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;=
+padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dc=
+enter style=3D'text-align:center;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US>Service Knowledge Credits<o:p></o:p></span></p=
+></td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal al=
+ign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word=
+-break:keep-all'><span lang=3DEN-US>Knowledge Credits<o:p></o:p></span></p>=
+</td><td width=3D344 style=3D'width:258.0pt;border-top:none;border-left:non=
+e;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;=
+padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US>Please see PLMT Knowledge Credits page for details=
+<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p=
+ class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace=
+:ideograph-other;word-break:keep-all'><span lang=3DEN-US>50<o:p></o:p></spa=
+n></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other=
+;word-break:keep-all'><span lang=3DEN-US>12<o:p></o:p></span></p></td><td w=
+idth=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;bo=
+rder-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;back=
+ground:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US>38<o:p></o:p></span></p></td><td=
+ width=3D107 nowrap style=3D'width:80.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>No<o:p></o:p></span></p></td><td width=3D101 now=
+rap style=3D'width:76.0pt;border-top:none;border-left:none;border-bottom:so=
+lid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt=
+ 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'tex=
+t-align:center;text-autospace:ideograph-other;word-break:keep-all'>=A1=A1<s=
+pan lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:13.5pt=
+'><td width=3D67 nowrap style=3D'width:50.0pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td width=3D=
+212 nowrap style=3D'width:159.0pt;border-top:none;border-left:none;border-b=
+ottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0c=
+m 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter styl=
+e=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'>=
+<span lang=3DEN-US>Service Sales<o:p></o:p></span></p></td><td width=3D132 =
+nowrap style=3D'width:99.0pt;border-top:none;border-left:none;border-bottom=
+:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center;text-autospace:ideograph-other;word-break:keep-all'><span=
+ lang=3DEN-US>Sales<o:p></o:p></span></p></td><td width=3D344 style=3D'widt=
+h:258.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1=
+.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heig=
+ht:13.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>HPE Sales=
+ Certified - Enterprise Solutions [2016]<o:p></o:p></span></p></td><td widt=
+h=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US>4<o:p></o:p></span></p></td><td width=3D131 nowrap st=
+yle=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:solid wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4=
+.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-alig=
+n:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DE=
+N-US>9<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.0=
+pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5=
+pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>0<o:p></o:p>=
+</span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMs=
+oNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-=
+other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p></o:p></span></p></td=
+><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:94.5pt'><td width=3D167 rowspan=3D3 style=3D'width:125.0pt;=
+border-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid blac=
+k 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;h=
+eight:94.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>FY=
+16 HP KR EG Gold<br>Storage Specialist<o:p></o:p></span></p></td><td width=
+=3D67 nowrap style=3D'width:50.0pt;border-top:none;border-left:none;border-=
+bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0=
+cm 4.95pt 0cm 4.95pt;height:94.5pt'><p class=3DMsoNormal align=3Dcenter sty=
+le=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US>Any<o:p></o:p></span></p></td><td width=3D212 nowrap st=
+yle=3D'width:159.0pt;border-top:none;border-left:none;border-bottom:solid w=
+indowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm =
+4.95pt;height:94.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-ali=
+gn:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=3D=
+EN-US>Storage Integration ASE/MASE<o:p></o:p></span></p></td><td width=3D13=
+2 nowrap style=3D'width:99.0pt;border-top:none;border-left:none;border-bott=
+om:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4=
+.95pt 0cm 4.95pt;height:94.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US>Technical<o:p></o:p></span></p></td><td width=3D344 style=
+=3D'width:258.0pt;border-top:none;border-left:none;border-bottom:solid wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:94.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:le=
+ft;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>H=
+P ASE - Storage Solutions Architect V1<br>or<br>HP Master ASE - Storage Sol=
+utions Architect V1<br>or<br>HPE ASE - Storage Solutions Architect V2<br>or=
+<br>HPE Master ASE - Storage Solutions Architect V2<o:p></o:p></span></p></=
+td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:94.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-br=
+eak:keep-all'><span lang=3DEN-US>1<o:p></o:p></span></p></td><td width=3D13=
+1 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;border-bott=
+om:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4=
+.95pt 0cm 4.95pt;height:94.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US>2<o:p></o:p></span></p></td><td width=3D131 nowrap style=
+=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:94.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S>0<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;=
+border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;borde=
+r-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:94.5pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autosp=
+ace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p></o:p><=
+/span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none=
+;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid w=
+indowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:94.5pt'><p class=3DMso=
+Normal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-o=
+ther;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></=
+td></tr><tr style=3D'height:13.5pt'><td width=3D67 nowrap style=3D'width:50=
+.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;=
+border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13=
+.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-a=
+utospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></=
+o:p></span></p></td><td width=3D212 nowrap style=3D'width:159.0pt;border-to=
+p:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>Storage Knowledge Credit=
+<o:p></o:p></span></p></td><td width=3D132 nowrap style=3D'width:99.0pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p=
+ class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace=
+:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Knowledge Credits<=
+o:p></o:p></span></p></td><td width=3D344 style=3D'width:258.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US>Please see PLMT Knowledge Cr=
+edits page for details<o:p></o:p></span></p></td><td width=3D131 nowrap sty=
+le=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:solid win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align=
+:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN=
+-US>100<o:p></o:p></span></p></td><td width=3D131 nowrap style=3D'width:98.=
+0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;b=
+order-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.=
+5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-au=
+tospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>32<o:p></o:=
+p></span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:1=
+3.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>68<o:p></=
+o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=
+=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ideog=
+raph-other;word-break:keep-all'><span lang=3DEN-US>No<o:p></o:p></span></p>=
+</td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-le=
+ft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word-=
+break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></span></p></td></tr><t=
+r style=3D'height:13.5pt'><td width=3D67 nowrap style=3D'width:50.0pt;borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-rig=
+ht:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p c=
+lass=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:i=
+deograph-other;word-break:keep-all'><span lang=3DEN-US>Any<o:p></o:p></span=
+></p></td><td width=3D212 nowrap style=3D'width:159.0pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other=
+;word-break:keep-all'><span lang=3DEN-US>Storage Sales<o:p></o:p></span></p=
+></td><td width=3D132 nowrap style=3D'width:99.0pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal al=
+ign=3Dcenter style=3D'text-align:center;text-autospace:ideograph-other;word=
+-break:keep-all'><span lang=3DEN-US>Sales<o:p></o:p></span></p></td><td wid=
+th=3D344 style=3D'width:258.0pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dleft style=3D=
+'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><span =
+lang=3DEN-US>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:p></=
+span></p></td><td width=3D131 nowrap style=3D'width:98.0pt;border-top:none;=
+border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid wi=
+ndowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US>4<o:p></o:p></span></p></td><td=
+ width=3D131 nowrap style=3D'width:98.0pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US>9<o:p></o:p></span></p></td><td width=3D131 nowr=
+ap style=3D'width:98.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text=
+-align:center;text-autospace:ideograph-other;word-break:keep-all'><span lan=
+g=3DEN-US>0<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width=
+:80.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:13.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US>Yes<o:p=
+></o:p></span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:13.5pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:ide=
+ograph-other;word-break:keep-all'>=A1=A1<span lang=3DEN-US><o:p></o:p></spa=
+n></p></td></tr></table><p class=3DMsoNormal align=3Dleft style=3D'text-ali=
+gn:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN=
+-US style=3D'color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-b=
+reak:keep-all'><b><span lang=3DEN-US style=3D'color:black'>+~~+~~+~~+~~+~~+=
+~~+~~+~~+~~+~~+~~+~~+</span></b><span lang=3DEN-US style=3D'font-size:12.0p=
+t;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=3DMs=
+oNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-othe=
+r;word-break:keep-all'><b><span lang=3DEN-US style=3D'color:black'>(</span>=
+<span style=3D'color:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=
+=BD=C3=BD=BA</span></b><span style=3D'color:black'> =BC=AD=BA=F1=BD=BA=BB=
+=E7=BE=F7=BA=CE =C6=C0=C0=E5 <b>=BC=AD=BC=AE=C7=F6</b></span><span lang=3DE=
+N-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p><=
+/o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><span style=3D'color:bl=
+ack'>=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> =
+67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 3</span=
+>=C3=FE<span lang=3DEN-US> 137-804</span></span><span lang=3DEN-US style=3D=
+'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span><=
+/p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospac=
+e:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:bl=
+ack'>Tel. 070-7114-0071 Mobile. 010-2491-2352 </span><span lang=3DEN-US sty=
+le=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></s=
+pan></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'col=
+or:black'>Fax. (02)586-5070 E-mail. </span><span lang=3DEN-US style=3D'font=
+-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><a href=3D"mailto:shseo@=
+agilesys.co.kr"><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =
+=B0=ED=B5=F1";color:black'>shseo@agilesys.co.kr</span></a><o:p></o:p></span=
+></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autosp=
+ace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'col=
+or:black'>+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+<o:p></o:p></span></b></p><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</=
+o:p></span></p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0p=
+t;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'tex=
+t-align:left;text-autospace:ideograph-other;word-break:keep-all'><b><span l=
+ang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><sp=
+an lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> </span><span s=
+tyle=3D'font-family:=B1=BC=B8=B2'>=BC=AD=BC=AE=C7=F6</span><span lang=3DEN-=
+US style=3D'font-family:"Tahoma","sans-serif"'> <br><b>Sent:</b> Tuesday, F=
+ebruary 23, 2016 5:30 PM<br><b>To:</b> </span><span style=3D'font-family:=
+=B1=BC=B8=B2'>=BF=A1=C0=CC=BD=C3=BD=BA</span><span lang=3DEN-US style=3D'fo=
+nt-family:"Tahoma","sans-serif"'><br><b>Subject:</b> HP Knowledge Credits <=
+/span><span style=3D'font-family:=B1=BC=B8=B2'>=C0=FB=B8=B3</span><span sty=
+le=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-family=
+:=B1=BC=B8=B2'>=B9=E6=B9=FD</span><span lang=3DEN-US style=3D'font-family:"=
+Tahoma","sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNorma=
+l align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span style=3D'color:black=
+'>=BC=AD =C6=C0=C0=E5=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></spa=
+n></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep=
+-all'><span style=3D'color:black'>=C3=B7=BA=CE =C6=C4=C0=CF=C0=C7 </span><s=
+pan lang=3DEN-US>Knowledge Credits </span>=C0=FB=B8=B3 =B9=E6=B9=FD =C8=AE=
+=C0=CE=C7=CF=BD=C3=B0=ED<span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US>BU</span>=BA=B0<span lang=3D=
+EN-US> 100 Credit </span>=C0=FB=B8=B3 =B9=D9=B6=F8=B4=CF=B4=D9<span lang=3D=
+EN-US>. !!<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'=
+text-align:left;text-autospace:ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft s=
+tyle=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'=
+>=C7=F6=C0=E7 =C0=FB=B8=B3 =C7=F6=C8=B2=C0=BA =C0=CF=B9=DD =BB=E7=BF=EB=C0=
+=DA<span lang=3DEN-US> ID</span>=B7=CE=B4=C2 =C8=AE=C0=CE=C0=CC =BE=C8=B5=
+=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US>1</span>=C1=D6=C0=CF =B4=DC=
+=C0=A7=B7=CE =C1=A6=B0=A1 =C8=AE=C0=CE =C7=CF=B5=B5=B7=CF =C7=CF=B0=DA=BD=
+=C0=B4=CF=B4=D9<span lang=3DEN-US>.<span style=3D'color:black'><o:p></o:p><=
+/span></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left=
+;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US sty=
+le=3D'color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span l=
+ang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-al=
+l'><b><span lang=3DEN-US style=3D'color:black'>+~~+~~+~~+~~+~~+~~+~~+~~+~~+=
+~~+~~+~~+</span></b><span lang=3DEN-US style=3D'font-size:12.0pt;font-famil=
+y:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=3DMsoNormal alig=
+n=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break=
+:keep-all'><b><span lang=3DEN-US style=3D'color:black'>(</span><span style=
+=3D'color:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA<=
+/span></b><span style=3D'color:black'> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE=
+ =C6=C0=C0=E5 <b>=BC=AD=BC=AE=C7=F6</b></span><span lang=3DEN-US style=3D'f=
+ont-size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p=
+><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:=
+ideograph-other;word-break:keep-all'><span style=3D'color:black'>=BC=AD=BF=
+=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3</span>=B9=
+=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 3</span>=C3=FE<span l=
+ang=3DEN-US> 137-804</span></span><span lang=3DEN-US style=3D'font-size:12.=
+0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>Tel. 070-=
+7114-0071 Mobile. 010-2491-2352 </span><span lang=3DEN-US style=3D'font-siz=
+e:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogra=
+ph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>Fax.=
+ (02)586-5070 E-mail. </span><span lang=3DEN-US style=3D'font-size:12.0pt;f=
+ont-family:=B1=BC=B8=B2;color:black'><a href=3D"mailto:shseo@agilesys.co.kr=
+"><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";c=
+olor:black'>shseo@agilesys.co.kr</span></a><o:p></o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'color:black'>+~~=
++~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+<o:p></o:p></span></b></p><p class=3DMsoN=
+ormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></=
+p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0=
+pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US s=
+tyle=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span lang=3DEN-=
+US style=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-=
+family:=B1=BC=B8=B2'>=BC=AD=BC=AE=C7=F6</span><span lang=3DEN-US style=3D'f=
+ont-family:"Tahoma","sans-serif"'> <br><b>Sent:</b> Tuesday, February 23, 2=
+016 4:37 PM<br><b>To:</b> </span><span style=3D'font-family:=B1=BC=B8=B2'>=
+=C0=CC=B5=CE=BF=AD</span><span lang=3DEN-US style=3D'font-family:"Tahoma","=
+sans-serif"'>; </span><span style=3D'font-family:=B1=BC=B8=B2'>=B1=E8=C1=BE=
+=BC=AE</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'=
+><br><b>Cc:</b> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B1=E8=BA=
+=B8=BC=B1</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-seri=
+f"'>; </span><span style=3D'font-family:=B1=BC=B8=B2'>=B0=FB=BC=BA=C1=F8</s=
+pan><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'><br><b>S=
+ubject:</b> HP Certification &amp; Knowledge Credits </span><span style=3D'=
+font-family:=B1=BC=B8=B2'>=C8=AE=C0=CE</span><span style=3D'font-family:"Ta=
+homa","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=E6=
+=B9=FD</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'=
+><o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p clas=
+s=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograp=
+h-other;word-break:keep-all'><span style=3D'color:black'>=BC=AD =C6=C0=C0=
+=E5=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogr=
+aph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-al=
+ign:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DE=
+N-US style=3D'color:black'>HP Certification </span><span style=3D'color:bla=
+ck'>=B9=D7<span lang=3DEN-US> Knowledge Credits </span>=C7=F6=C8=B2 =C8=AE=
+=C0=CE =B9=E6=B9=FD=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span>=
+</span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'=
+color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all=
+'><span style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN=
+-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><b>=
+<span lang=3DEN-US style=3D'color:black'>+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+=
+~~+</span></b><span lang=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=
+=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep=
+-all'><b><span lang=3DEN-US style=3D'color:black'>(</span><span style=3D'co=
+lor:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA</span>=
+</b><span style=3D'color:black'> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE =C6=
+=C0=C0=E5 <b>=BC=AD=BC=AE=C7=F6</b></span><span lang=3DEN-US style=3D'font-=
+size:12.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p =
+class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideo=
+graph-other;word-break:keep-all'><span style=3D'color:black'>=BC=AD=BF=EF =
+=BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3</span>=B9=F8=
+=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 3</span>=C3=FE<span lang=
+=3DEN-US> 137-804</span></span><span lang=3DEN-US style=3D'font-size:12.0pt=
+;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=3DMso=
+Normal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other=
+;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>Tel. 070-711=
+4-0071 Mobile. 010-2491-2352 </span><span lang=3DEN-US style=3D'font-size:1=
+2.0pt;font-family:=B1=BC=B8=B2;color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>Fax. (=
+02)586-5070 E-mail. </span><span lang=3DEN-US style=3D'font-size:12.0pt;fon=
+t-family:=B1=BC=B8=B2;color:black'><a href=3D"mailto:shseo@agilesys.co.kr">=
+<span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";col=
+or:black'>shseo@agilesys.co.kr</span></a><o:p></o:p></span></p><p class=3DM=
+soNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-oth=
+er;word-break:keep-all'><b><span lang=3DEN-US style=3D'color:black'>+~~+~~+=
+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+<o:p></o:p></span></b></p><p class=3DMsoNorma=
+l><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><d=
+iv><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0=
+cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=
+=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span lang=3DEN-US s=
+tyle=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-fami=
+ly:=B1=BC=B8=B2'>=C0=CC=B5=CE=BF=AD</span><span lang=3DEN-US style=3D'font-=
+family:"Tahoma","sans-serif"'> <br><b>Sent:</b> Tuesday, February 23, 2016 =
+3:48 PM<br><b>To:</b> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B1=
+=E8=C1=BE=BC=AE</span><span lang=3DEN-US style=3D'font-family:"Tahoma","san=
+s-serif"'>; </span><span style=3D'font-family:=B1=BC=B8=B2'>=C7=D1=C1=BE=B0=
+=FC</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>; =
+</span><span style=3D'font-family:=B1=BC=B8=B2'>=BC=AD=BC=AE=C7=F6</span><s=
+pan lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'><br><b>Subject=
+:</b> RE: </span><span style=3D'font-family:=B1=BC=B8=B2'>=BE=C6=C0=CC=B5=
+=F0</span><span style=3D'font-family:"Tahoma","sans-serif"'> </span><span s=
+tyle=3D'font-family:=B1=BC=B8=B2'>=B9=D7</span><span style=3D'font-family:"=
+Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=C6=
+=D0=BD=BA=BF=F6=B5=E5</span><span lang=3DEN-US style=3D'font-family:"Tahoma=
+","sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNormal alig=
+n=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></sp=
+an></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=B0=FB=BC=BA=C1=
+=F8 =BB=F3=B9=AB<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3D=
+MsoNormal><span lang=3DEN-US><a href=3D"https://partner.hpe.com/login">http=
+s://partner.hpe.com/login</a><o:p></o:p></span></p><p class=3DMsoNormal>=C7=
+=CF=B1=E2=B4=C2 =BE=C6=C0=CC=B5=F0 =B9=D7 =C6=D0=BD=BA=BF=F6=B5=E5=B4=C2<sp=
+an lang=3DEN-US> hp&nbsp; </span>=BF=C0=B4=F5=BF=CD =BF=AC=B0=FC=B5=C7=BE=
+=EE =BA=F1=B9=D0=B9=F8=C8=A3<span lang=3DEN-US> 5</span>=C8=B8 =BF=C0=B7=F9=
+ =BD=C3 =B0=E8=C1=A4=C0=CC =C0=CF=C1=A4 =BD=C3=B0=A3 =B5=BF=BE=C8 =C0=E1=B1=
+=E9=B4=CF=B4=D9<span lang=3DEN-US>. </span>=C1=D6=C0=C7=C7=CF=BC=BC=BF=E4<s=
+pan lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal>=BE=C6=C0=CC=
+=B5=F0<span lang=3DEN-US> : sjkwak<o:p></o:p></span></p><p class=3DMsoNorma=
+l>=C6=D0=BD=BA=BF=F6=B5=E5<span lang=3DEN-US> : Spinfire12<o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&=
+nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'colo=
+r:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'>------------------------------------------=
+------<o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'color:#1F49=
+7D'>=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp; </span>=BD=C3=
+=BD=BA=C5=DB=BB=E7=BE=F7=BA=CE<span lang=3DEN-US>&nbsp; </span>=C0=CC=B5=CE=
+=BF=AD =C2=F7=C0=E5<span lang=3DEN-US><o:p></o:p></span></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>TEL) 070-7114-0070 =
+/ M) 010-2443-9353<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DE=
+N-US style=3D'color:#1F497D'>E-Mail) <a href=3D"mailto:dylee@agilesys.co.kr=
+">dylee@agilesys.co.kr</a><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=
+=B5=BF<span lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4<span lang=3DEN-US>=
+4</span>=C3=FE<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMs=
+oNormal><span lang=3DEN-US style=3D'color:#1F497D'>------------------------=
+-------------------------<o:p></o:p></span></p></div><p class=3DMsoNormal><=
+span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div>=
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-au=
+tospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D=
+'font-family:"Tahoma","sans-serif"'>From:</span></b><span lang=3DEN-US styl=
+e=3D'font-family:"Tahoma","sans-serif"'> Leeduyeol [mailto:dylee@agilesys.c=
+o.kr] <br><b>Sent:</b> Tuesday, February 23, 2016 3:36 PM<br><b>To:</b> bos=
+t12@agilesys.co.kr; khan@agilesys.co.kr; shseo@agilesys.co.kr<br><b>Subject=
+:</b> </span><span style=3D'font-family:=B1=BC=B8=B2'>=BE=C6=C0=CC=B5=F0</s=
+pan><span style=3D'font-family:"Tahoma","sans-serif"'> </span><span style=
+=3D'font-family:=B1=BC=B8=B2'>=B9=D7</span><span style=3D'font-family:"Taho=
+ma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=C6=D0=
+=BD=BA=BF=F6=B5=E5</span><span lang=3DEN-US style=3D'font-family:"Tahoma","=
+sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US><a href=3D"https://partner.hpe.com/l=
+ogin">https://partner.hpe.com/login</a><o:p></o:p></span></p><p class=3DMso=
+Normal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal>=
+=BE=C6=C0=CC=B5=F0<span lang=3DEN-US> : samecode<o:p></o:p></span></p><p cl=
+ass=3DMsoNormal>=C6=D0=BD=BA=BF=F6=B5=E5<span lang=3DEN-US> : Tru64unix??<o=
+:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>---------------=
+---------------------------------<o:p></o:p></span></p><p class=3DMsoNormal=
+>=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp; </span>=BD=C3=BD=
+=BA=C5=DB=BB=E7=BE=F7=BA=CE<span lang=3DEN-US>&nbsp; </span>=C0=CC=B5=CE=BF=
+=AD =C2=F7=C0=E5<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNorm=
+al><span lang=3DEN-US>TEL) 070-7114-0070 / M) 010-2443-9353<o:p></o:p></spa=
+n></p><p class=3DMsoNormal><span lang=3DEN-US>E-Mail) <a href=3D"mailto:dyl=
+ee@agilesys.co.kr">dylee@agilesys.co.kr</a><o:p></o:p></span></p><p class=
+=3DMsoNormal>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span =
+lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4<span lang=3DEN-US>4</span>=C3=
+=FE<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US>-------------------------------------------------<o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p></=
+div></body></html>=
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D96CMAILSERVERa_--

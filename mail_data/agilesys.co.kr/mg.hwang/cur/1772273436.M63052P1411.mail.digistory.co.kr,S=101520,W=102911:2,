@@ -1,0 +1,1391 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id iPitAxy/ommDBQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:10:36 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 033D614BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:10:36 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1530093411598949956
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Tue, 29 Mar 2016
+ 09:19:43 +0900
+From: =?ks_c_5601-1987?B?vK28rsf2?= <shseo@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?v6HAzL3Dvbo=?= <ASYS@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Tue, 29 Mar 2016 09:19:38 +0900
+Subject:
+ =?ks_c_5601-1987?B?SFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaQ==?=
+ =?ks_c_5601-1987?B?dHMgwPu4syDH9siy?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?SFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaQ==?=
+ =?ks_c_5601-1987?B?dHMgwPu4syDH9siy?=
+Thread-Index: AdGJUJsA4Cz97EKTTwSpKU4p0oe5cA==
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04B32B15D97B@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach: yes
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/mixed;
+	boundary="_004_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_"
+MIME-Version: 1.0
+
+--_004_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_"
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vK0gxsDA5cDUtM+02S4NCg0KSFAgQ2VydGlmaWNhdGlvbiAmIEtub3dsZWRnZSBDcmVkaXRzIMD7
+uLMgx/bIsiDA1LTPtNkuDQooVXBkYXRlIERhdGUgOiAyMDE2s+IgM7/5IDI1wM8pDQq+xrehILPr
+tvW79iC8v8C7IKGwMKGxIMC4t84guLi16b7uvt8gx9W0z7TZLiAhIQ0KDQpGWTE2IEhQIEtSIEVH
+IEdvbGQgU3RvcmFnZSBTcGVjaWFsaXN0ICC/5LDHwLoguPC1ziDD5sG3ILXHvvq9wLTPtNkuDQoN
+Cg0KUHJvZ3JhbQ0KDQpQYXJ0bmVyDQpUeXBlDQoNClJlcXVpcmVtZW50IEdyb3VwDQoNCkNvbXBl
+dGVuY3kNCg0KUmVxdWlyZWQgQWN0aXZpdGllcw0KDQpSZXF1aXJlZA0KUGVyc29ucy9DcmVkaXRz
+DQoNCkFjaGlldmVkDQpQZXJzb25zL0NyZWRpdHMNCg0KR2FwDQpQZXJzb25zL0NyZWRpdHMNCg0K
+UmVxdWlyZW1lbnQNCkdyb3VwIE1ldD8NCg0KRlkxNiBIUCBLUiBFRyBHb2xkDQpDbG91ZCBCdWls
+ZGVyIFNwZWNpYWxpc3QNCg0KQW55DQoNCkNsb3VkIEFyY2hpdGVjdA0KDQpUZWNobmljYWwNCg0K
+SFAgQVNFIC0gRGF0YSBDZW50ZXIgYW5kIENsb3VkIEFyY2hpdGVjdCBWMg0Kb3INCkhQIE1hc3Rl
+ciBBU0UgLSBEYXRhIENlbnRlciBhbmQgQ2xvdWQgQXJjaGl0ZWN0IFYxDQpvcg0KSFBFIEFTRSAt
+IERhdGEgQ2VudGVyIGFuZCBDbG91ZCBBcmNoaXRlY3QgVjMNCg0KMQ0KDQoxDQoNCjANCg0KWWVz
+DQoNCkFueQ0KDQpDbG91ZCBJbnRlZ3JhdGlvbi8gQVRQLUFTRSBTb2Z0d2FyZQ0KDQpUZWNobmlj
+YWwNCg0KSFAgQVNFIC0gT3BlcmF0aW9ucyBPcmNoZXN0cmF0aW9uIHYxMA0Kb3INCkhQIEFTRSAt
+IFNlcnZlciBBdXRvbWF0aW9uIHYxMA0Kb3INCkhQIEFUUCAtIENsb3VkIFNlcnZpY2UgQXV0b21h
+dGlvbiB2NA0KDQoxDQoNCjANCg0KMQ0KDQpObw0KDQpBbnkNCg0KQ2xvdWQgS25vd2xlZGdlIENy
+ZWRpdHMNCg0KS25vd2xlZGdlIENyZWRpdHMNCg0KUGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBD
+cmVkaXRzIHBhZ2UgZm9yIGRldGFpbHMNCg0KMTAwDQoNCjI3DQoNCjczDQoNCk5vDQoNCkFueQ0K
+DQpDbG91ZCBTYWxlcw0KDQpTYWxlcw0KDQpIUEUgU2FsZXMgQ2VydGlmaWVkIC0gRW50ZXJwcmlz
+ZSBTb2x1dGlvbnMgWzIwMTZdDQoNCjQNCg0KOQ0KDQowDQoNClllcw0KDQpGWTE2IEhQIEtSIEVH
+IEdvbGQNCk5ldHdvcmtpbmcgU3BlY2lhbGlzdA0KDQpBbnkNCg0KTmV0d29ya2luZyBBU0UNCg0K
+VGVjaG5pY2FsDQoNCkhQIEFTRSAtIEZsZXhOZXR3b3JrIEFyY2hpdGVjdCBWMg0Kb3INCkhQIEFT
+RSAtIEZsZXhOZXR3b3JrIEludGVncmF0b3IgVjENCg0KMg0KDQoyDQoNCjANCg0KWWVzDQoNCkFu
+eQ0KDQpOZXR3b3JraW5nIEtub3dsZWRnZSBDcmVkaXQNCg0KS25vd2xlZGdlIENyZWRpdHMNCg0K
+UGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBDcmVkaXRzIHBhZ2UgZm9yIGRldGFpbHMNCg0KMTAw
+DQoNCjMxDQoNCjY5DQoNCk5vDQoNCkFueQ0KDQpOZXR3b3JraW5nIE1BU0UNCg0KVGVjaG5pY2Fs
+DQoNCkhQIE1hc3RlciBBU0UgLSBGbGV4TmV0d29yayBTb2x1dGlvbnMgVjENCm9yDQpIUEUgTWFz
+dGVyIEFTRSAtIEZsZXhOZXR3b3JrIFNvbHV0aW9ucyBWMg0KDQoxDQoNCjENCg0KMA0KDQpZZXMN
+Cg0KQW55DQoNCk5ldHdvcmtpbmcgU2FsZXMNCg0KU2FsZXMNCg0KSFBFIFNhbGVzIENlcnRpZmll
+ZCAtIEVudGVycHJpc2UgU29sdXRpb25zIFsyMDE2XQ0KDQo0DQoNCjkNCg0KMA0KDQpZZXMNCg0K
+RlkxNiBIUCBLUiBFRyBHb2xkDQpTZXJ2ZXIgU3BlY2lhbGlzdA0KDQpBbnkNCg0KU2VydmVyIElu
+dGVncmF0aW9uDQoNClRlY2huaWNhbA0KDQpIUCBBU0UgLSBQcm9MaWFudCBTZXJ2ZXIgU29sdXRp
+b25zIEludGVncmF0b3IgVjINCm9yDQpIUCBBU0UgLSBTZXJ2ZXIgU29sdXRpb25zIEFyY2hpdGVj
+dCBWMg0Kb3INCkhQIEFTRSAtIFNlcnZlciBTb2x1dGlvbnMgSW50ZWdyYXRvciBWOC4xDQoNCjEN
+Cg0KMA0KDQoxDQoNCk5vDQoNCkFueQ0KDQpTZXJ2ZXIgS25vd2xlZGdlIENyZWRpdHMNCg0KS25v
+d2xlZGdlIENyZWRpdHMNCg0KUGxlYXNlIHNlZSBQTE1UIEtub3dsZWRnZSBDcmVkaXRzIHBhZ2Ug
+Zm9yIGRldGFpbHMNCg0KMTAwDQoNCjYNCg0KOTQNCg0KTm8NCg0KQW55DQoNClNlcnZlciBPbmVW
+aWV3DQoNClRlY2huaWNhbA0KDQpIUCBQcm9kdWN0IENlcnRpZmllZCAtIEhQIE9uZVZpZXcgMS4y
+MA0KDQoxDQoNCjANCg0KMQ0KDQpObw0KDQpBbnkNCg0KU2VydmVyIFNhbGVzDQoNClNhbGVzDQoN
+CkhQRSBTYWxlcyBDZXJ0aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0K
+DQo5DQoNCjANCg0KWWVzDQoNCkZZMTYgSFAgS1IgRUcgR29sZA0KU2VydmljZXMgU3BlY2lhbGlz
+dA0KDQpBbnkNCg0KU2VydmljZSBLbm93bGVkZ2UgQ3JlZGl0cw0KDQpLbm93bGVkZ2UgQ3JlZGl0
+cw0KDQpQbGVhc2Ugc2VlIFBMTVQgS25vd2xlZGdlIENyZWRpdHMgcGFnZSBmb3IgZGV0YWlscw0K
+DQo1MA0KDQo0MA0KDQoxMA0KDQpObw0KDQpBbnkNCg0KU2VydmljZSBTYWxlcw0KDQpTYWxlcw0K
+DQpIUEUgU2FsZXMgQ2VydGlmaWVkIC0gRW50ZXJwcmlzZSBTb2x1dGlvbnMgWzIwMTZdDQoNCjQN
+Cg0KOQ0KDQowDQoNClllcw0KDQpGWTE2IEhQIEtSIEVHIEdvbGQNClN0b3JhZ2UgU3BlY2lhbGlz
+dA0KDQpBbnkNCg0KU3RvcmFnZSBJbnRlZ3JhdGlvbiBBU0UvTUFTRQ0KDQpUZWNobmljYWwNCg0K
+SFAgQVNFIC0gU3RvcmFnZSBTb2x1dGlvbnMgQXJjaGl0ZWN0IFYxDQpvcg0KSFAgTWFzdGVyIEFT
+RSAtIFN0b3JhZ2UgU29sdXRpb25zIEFyY2hpdGVjdCBWMQ0Kb3INCkhQRSBBU0UgLSBTdG9yYWdl
+IFNvbHV0aW9ucyBBcmNoaXRlY3QgVjINCm9yDQpIUEUgTWFzdGVyIEFTRSAtIFN0b3JhZ2UgU29s
+dXRpb25zIEFyY2hpdGVjdCBWMg0KDQoxDQoNCjINCg0KMA0KDQpZZXMNCg0KQW55DQoNClN0b3Jh
+Z2UgS25vd2xlZGdlIENyZWRpdA0KDQpLbm93bGVkZ2UgQ3JlZGl0cw0KDQpQbGVhc2Ugc2VlIFBM
+TVQgS25vd2xlZGdlIENyZWRpdHMgcGFnZSBmb3IgZGV0YWlscw0KDQoxMDANCg0KMTE2DQoNCjAN
+Cg0KWWVzDQoNCkFueQ0KDQpTdG9yYWdlIFNhbGVzDQoNClNhbGVzDQoNCkhQRSBTYWxlcyBDZXJ0
+aWZpZWQgLSBFbnRlcnByaXNlIFNvbHV0aW9ucyBbMjAxNl0NCg0KNA0KDQo5DQoNCjANCg0KWWVz
+DQoNCg0KK35+K35+K35+K35+K35+K35+K35+K35+K35+K35+K35+K35+Kw0KKMHWKb+hwMy9w726
+ILytuvG9urvnvve6ziDGwMDlILytvK7H9g0KvK2/7yC8rcPKsbggud3G97W/IDY3LTO5+MH2ILTr
+uKK69LX5IDPD/iAxMzctODA0DQpUZWwuIDA3MC03MTE0LTAwNzEgTW9iaWxlLiAwMTAtMjQ5MS0y
+MzUyDQpGYXguICgwMik1ODYtNTA3MCBFLW1haWwuIHNoc2VvQGFnaWxlc3lzLmNvLmtyPG1haWx0
+bzpzaHNlb0BhZ2lsZXN5cy5jby5rcj4NCit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fit+
+fit+fisNCg==
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:m=3D"http://schema=
+s.microsoft.com/office/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html=
+40"><head><meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dk=
+s_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft Word 14 (filtere=
+d medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span style=3D'fon=
+t-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>=BC=AD =C6=C0=C0=E5=C0=D4=
+=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";=
+color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>HP Cert=
+ification &amp; Knowledge Credits </span><span style=3D'font-family:"=B8=BC=
+=C0=BA =B0=ED=B5=F1";color:black'>=C0=FB=B8=B3 =C7=F6=C8=B2 =C0=D4=B4=CF=B4=
+=D9<span lang=3DEN-US>. <o:p></o:p></span></span></p><p class=3DMsoNormal><=
+span lang=3DEN-US style=3D'font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:bl=
+ack'>(Update Date : 2016</span><span style=3D'font-family:"=B8=BC=C0=BA =B0=
+=ED=B5=F1";color:black'>=B3=E2<span lang=3DEN-US> 3</span>=BF=F9 <span lang=
+=3DEN-US>25</span>=C0=CF<span lang=3DEN-US>)<o:p></o:p></span></span></p><p=
+ class=3DMsoNormal><span style=3D'font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";c=
+olor:black'>=BE=C6=B7=A1 =B3=EB=B6=F5=BB=F6 =BC=BF=C0=BB =A1=B0<span lang=
+=3DEN-US>0</span>=A1=B1 =C0=B8=B7=CE =B8=B8=B5=E9=BE=EE=BE=DF =C7=D5=B4=CF=
+=B4=D9<span lang=3DEN-US>. !!<o:p></o:p></span></span></p><p class=3DMsoNor=
+mal style=3D'text-autospace:ideograph-other'><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'><o:p>&n=
+bsp;</o:p></span></p><p class=3DMsoNormal style=3D'text-autospace:ideograph=
+-other'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>FY16 HP KR EG Gold Storage Specialist&nbsp; </span><span style=
+=3D'font-size:10.0pt'>=BF=E4=B0=C7=C0=BA</span><span style=3D'font-size:10.=
+0pt;font-family:"Arial","sans-serif"'> </span><span style=3D'font-size:10.0=
+pt'>=B8=F0=B5=CE</span><span style=3D'font-size:10.0pt;font-family:"Arial",=
+"sans-serif"'> </span><span style=3D'font-size:10.0pt'>=C3=E6=C1=B7</span><=
+span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'> </span><s=
+pan style=3D'font-size:10.0pt'>=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9</span><span l=
+ang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>.<o=
+:p></o:p></span></p><p class=3DMsoNormal style=3D'text-autospace:ideograph-=
+other'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sa=
+ns-serif"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal style=3D'text-a=
+utospace:ideograph-other'><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p><table class=3DMs=
+oNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1347 style=
+=3D'width:1010.0pt;margin-left:-1.15pt;border-collapse:collapse'><tr style=
+=3D'height:33.0pt'><td width=3D160 nowrap style=3D'width:120.0pt;border:sol=
+id windowtext 1.0pt;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height=
+:33.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b=
+><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-ser=
+if";color:white'>Program<o:p></o:p></span></b></p></td><td width=3D83 style=
+=3D'width:61.95pt;border:solid windowtext 1.0pt;border-left:none;background=
+:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:33.0pt'><p class=3DMsoNormal =
+align=3Dcenter style=3D'text-align:center'><b><span lang=3DEN-US style=3D'f=
+ont-size:10.0pt;font-family:"Arial","sans-serif";color:white'>Partner<br>Ty=
+pe<o:p></o:p></span></b></p></td><td width=3D224 nowrap style=3D'width:168.=
+25pt;border:solid windowtext 1.0pt;border-left:none;background:#339966;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:33.0pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center'><b><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Arial","sans-serif";color:white'>Requirement Group<o:p></o:=
+p></span></b></p></td><td width=3D117 nowrap style=3D'width:88.0pt;border:s=
+olid windowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.95p=
+t 0cm 4.95pt;height:33.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Arial","sans-serif";color:white'>Competency<o:p></o:p></span></b></p></t=
+d><td width=3D321 style=3D'width:240.8pt;border:solid windowtext 1.0pt;bord=
+er-left:none;background:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:33.0pt=
+'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";col=
+or:white'>Required Activities<o:p></o:p></span></b></p></td><td width=3D115=
+ style=3D'width:86.0pt;border:solid windowtext 1.0pt;border-left:none;backg=
+round:#339966;padding:0cm 4.95pt 0cm 4.95pt;height:33.0pt'><p class=3DMsoNo=
+rmal align=3Dcenter style=3D'text-align:center'><b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:white'>Required=
+<br>Persons/Credits<o:p></o:p></span></b></p></td><td width=3D115 style=3D'=
+width:86.0pt;border:solid windowtext 1.0pt;border-left:none;background:#339=
+966;padding:0cm 4.95pt 0cm 4.95pt;height:33.0pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><b><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Arial","sans-serif";color:white'>Achieved<br>Person=
+s/Credits<o:p></o:p></span></b></p></td><td width=3D115 style=3D'width:86.0=
+pt;border:solid windowtext 1.0pt;border-left:none;background:#339966;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:33.0pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><b><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Arial","sans-serif";color:white'>Gap<br>Persons/Credits<o:p><=
+/o:p></span></b></p></td><td width=3D97 style=3D'width:73.0pt;border:solid =
+windowtext 1.0pt;border-left:none;background:#339966;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:33.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center'><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Ar=
+ial","sans-serif";color:white'>Requirement<br>Group Met?<o:p></o:p></span><=
+/b></p></td></tr><tr style=3D'height:76.5pt'><td width=3D160 rowspan=3D4 st=
+yle=3D'width:120.0pt;border-top:none;border-left:solid windowtext 1.0pt;bor=
+der-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;padding:0c=
+m 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter styl=
+e=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-f=
+amily:"Arial","sans-serif"'>FY16 HP KR EG Gold<br>Cloud Builder Specialist<=
+o:p></o:p></span></p></td><td width=3D83 nowrap style=3D'width:61.95pt;bord=
+er-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p=
+ class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3D=
+EN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p><=
+/o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-=
+top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"A=
+rial","sans-serif"'>Cloud Architect<o:p></o:p></span></p></td><td width=3D1=
+17 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bot=
+tom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D=
+321 style=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:d=
+otted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>HP ASE - Data Center=
+ and Cloud Architect V2<br>or<br>HP Master ASE - Data Center and Cloud Arch=
+itect V1<br>or<br>HPE ASE - Data Center and Cloud Architect V3<o:p></o:p></=
+span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;=
+border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid w=
+indowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMso=
+Normal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span><=
+/p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border=
+-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fon=
+t-size:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td=
+><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:n=
+one;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td w=
+idth=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;bor=
+der-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;=
+font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr st=
+yle=3D'height:76.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-t=
+op:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p=
+></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:=
+none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Cloud Integration/ ATP-ASE Software<o:p></o:p></span></p><=
+/td><td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-lef=
+t:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-si=
+ze:10.0pt;font-family:"Arial","sans-serif"'>Technical<o:p></o:p></span></p>=
+</td><td width=3D321 style=3D'width:240.8pt;border-top:none;border-left:non=
+e;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>HP A=
+SE - Operations Orchestration v10<br>or<br>HP ASE - Server Automation v10<b=
+r>or<br>HP ATP - Cloud Service Automation v4<o:p></o:p></span></p></td><td =
+width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;b=
+order-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td><td width=
+=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D115 =
+nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border-bottom=
+:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:yel=
+low;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td><td w=
+idth=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;bor=
+der-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;=
+font-family:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr sty=
+le=3D'height:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-to=
+p:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p>=
+</span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:n=
+one;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:sol=
+id windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Cloud Knowledge Credits<o:p></o:p></span></p></td><td widt=
+h=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;borde=
+r-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fo=
+nt-family:"Arial","sans-serif"'>Knowledge Credits<o:p></o:p></span></p></td=
+><td width=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;bo=
+rder-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Please=
+ see PLMT Knowledge Credits page for details<o:p></o:p></span></p></td><td =
+width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;b=
+order-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Arial","sans-serif"'>100<o:p></o:p></span></p></td><td width=
+=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:"Arial","sans-serif"'>27<o:p></o:p></span></p></td><td width=3D115=
+ nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border-botto=
+m:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:ye=
+llow;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal alig=
+n=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-siz=
+e:10.0pt;font-family:"Arial","sans-serif"'>73<o:p></o:p></span></p></td><td=
+ width=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;b=
+order-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcen=
+ter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr s=
+tyle=3D'height:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p=
+></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:=
+none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:sol=
+id windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Cloud Sales<o:p></o:p></span></p></td><td width=3D117 nowr=
+ap style=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text=
+-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Ar=
+ial","sans-serif"'>Sales<o:p></o:p></span></p></td><td width=3D321 style=3D=
+'width:240.8pt;border-top:none;border-left:none;border-bottom:solid windowt=
+ext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt=
+;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:=
+10.0pt;font-family:"Arial","sans-serif"'>HPE Sales Certified - Enterprise S=
+olutions [2016]<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'w=
+idth:86.0pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-se=
+rif"'>4<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.=
+0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;b=
+order-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.=
+5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>9<=
+o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;bord=
+er-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DE=
+N-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:=
+p></span></p></td><td width=3D97 nowrap style=3D'width:73.0pt;border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid=
+ windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DM=
+soNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US styl=
+e=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Yes<o:p></o:p></spa=
+n></p></td></tr><tr style=3D'height:51.0pt'><td width=3D160 rowspan=3D4 sty=
+le=3D'width:120.0pt;border-top:none;border-left:solid windowtext 1.0pt;bord=
+er-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>FY16 HP KR EG Gold<br>Networking Specialist<o:p>=
+</o:p></span></p></td><td width=3D83 nowrap style=3D'width:61.95pt;border-t=
+op:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p=
+></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:=
+none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Networking ASE<o:p></o:p></span></p></td><td width=3D117 n=
+owrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:=
+dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family=
+:"Arial","sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D321 =
+style=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:dotte=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0=
+cm 4.95pt;height:51.0pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'f=
+ont-size:10.0pt;font-family:"Arial","sans-serif"'>HP ASE - FlexNetwork Arch=
+itect V2<br>or<br>HP ASE - FlexNetwork Integrator V1<o:p></o:p></span></p><=
+/td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-lef=
+t:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-si=
+ze:10.0pt;font-family:"Arial","sans-serif"'>2<o:p></o:p></span></p></td><td=
+ width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;=
+border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Arial","sans-serif"'>2<o:p></o:p></span></p></td><td width=
+=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=3D97 n=
+owrap style=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:=
+dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.9=
+5pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'=
+text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family=
+:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr style=3D'heig=
+ht:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-top:none;bor=
+der-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid wind=
+owtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'=
+font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p=
+></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:none;border=
+-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal=
+><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-ser=
+if"'>Networking Knowledge Credit<o:p></o:p></span></p></td><td width=3D117 =
+nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bottom=
+:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.=
+95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D=
+'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Arial","sans-serif"'>Knowledge Credits<o:p></o:p></span></p></td><td wid=
+th=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-bot=
+tom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US s=
+tyle=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Please see PLMT =
+Knowledge Credits page for details<o:p></o:p></span></p></td><td width=3D11=
+5 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border-bott=
+om:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>100<o:p></o:p></span></p></td><td width=3D115 no=
+wrap style=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:d=
+otted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D't=
+ext-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:=
+"Arial","sans-serif"'>31<o:p></o:p></span></p></td><td width=3D115 nowrap s=
+tyle=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:dotted =
+windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:yellow;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;=
+font-family:"Arial","sans-serif"'>69<o:p></o:p></span></p></td><td width=3D=
+97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;border-bot=
+tom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'h=
+eight:51.0pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-top:none;=
+border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid w=
+indowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMso=
+Normal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span=
+></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:none;bo=
+rder-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid win=
+dowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNo=
+rmal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans=
+-serif"'>Networking MASE<o:p></o:p></span></p></td><td width=3D117 nowrap s=
+tyle=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:dotted =
+windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm=
+ 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-al=
+ign:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial=
+","sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D321 style=
+=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:dotted win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:51.0pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Arial","sans-serif"'>HP Master ASE - FlexNetwork So=
+lutions V1<br>or<br>HPE Master ASE - FlexNetwork Solutions V2<o:p></o:p></s=
+pan></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;b=
+order-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid wi=
+ndowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span><=
+/p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border=
+-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal=
+ align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fon=
+t-size:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td=
+><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:n=
+one;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td w=
+idth=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;bor=
+der-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:51.0pt'><p class=3DMsoNormal align=3Dcente=
+r style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;=
+font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr st=
+yle=3D'height:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p>=
+</span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial",=
+"sans-serif"'>Networking Sales<o:p></o:p></span></p></td><td width=3D117 no=
+wrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'te=
+xt-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=
+Arial","sans-serif"'>Sales<o:p></o:p></span></p></td><td width=3D321 style=
+=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:solid wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-si=
+ze:10.0pt;font-family:"Arial","sans-serif"'>HPE Sales Certified - Enterpris=
+e Solutions [2016]<o:p></o:p></span></p></td><td width=3D115 nowrap style=
+=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sa=
+ns-serif"'>4<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'widt=
+h:86.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.=
+0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><=
+span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif=
+"'>9<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt=
+;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bord=
+er-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt=
+'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>0<o:p=
+></o:p></span></p></td><td width=3D97 nowrap style=3D'width:73.0pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Yes<o:p></o:p>=
+</span></p></td></tr><tr style=3D'height:76.5pt'><td width=3D160 rowspan=3D=
+4 style=3D'width:120.0pt;border-top:none;border-left:solid windowtext 1.0pt=
+;border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fo=
+nt-family:"Arial","sans-serif"'>FY16 HP KR EG Gold<br>Server Specialist<o:p=
+></o:p></span></p></td><td width=3D83 nowrap style=3D'width:61.95pt;border-=
+top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p cl=
+ass=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-=
+US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:=
+p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;border-top=
+:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>Server Integration<o:p></o:p></span></p></td><td width=3D1=
+17 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border-bot=
+tom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm=
+ 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D=
+321 style=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:d=
+otted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>HP ASE - ProLiant Se=
+rver Solutions Integrator V2<br>or<br>HP ASE - Server Solutions Architect V=
+2<br>or<br>HP ASE - Server Solutions Integrator V8.1<o:p></o:p></span></p><=
+/td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-lef=
+t:none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext =
+1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal ali=
+gn=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-si=
+ze:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></td><td=
+ width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;=
+border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td width=
+=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;backgro=
+und:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"Arial","sans-serif"'>1<o:p></o:p></span></p></t=
+d><td width=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:n=
+one;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:76.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr=
+><tr style=3D'height:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;b=
+order-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;borde=
+r-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:=
+p></o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;bord=
+er-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family=
+:"Arial","sans-serif"'>Server Knowledge Credits<o:p></o:p></span></p></td><=
+td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:non=
+e;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3D=
+center style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10=
+.0pt;font-family:"Arial","sans-serif"'>Knowledge Credits<o:p></o:p></span><=
+/p></td><td width=3D321 style=3D'width:240.8pt;border-top:none;border-left:=
+none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span=
+ lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>P=
+lease see PLMT Knowledge Credits page for details<o:p></o:p></span></p></td=
+><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:n=
+one;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>100<o:p></o:p></span></p></td><td=
+ width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;=
+border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Arial","sans-serif"'>6<o:p></o:p></span></p></td><td width=
+=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;backgro=
+und:yellow;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"Arial","sans-serif"'>94<o:p></o:p></span></p></=
+td><td width=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:=
+none;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>No<o:p></o:p></span></p></td></tr=
+><tr style=3D'height:25.5pt'><td width=3D83 nowrap style=3D'width:61.95pt;b=
+order-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;borde=
+r-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Any<o:=
+p></o:p></span></p></td><td width=3D224 nowrap style=3D'width:168.25pt;bord=
+er-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family=
+:"Arial","sans-serif"'>Server OneView<o:p></o:p></span></p></td><td width=
+=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:none;border=
+-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter s=
+tyle=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:"Arial","sans-serif"'>Technical<o:p></o:p></span></p></td><td widt=
+h=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-bott=
+om:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>HP Product Certif=
+ied - HP OneView 1.20<o:p></o:p></span></p></td><td width=3D115 nowrap styl=
+e=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:dotted win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align=
+:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","=
+sans-serif"'>1<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'wi=
+dth:86.0pt;border-top:none;border-left:none;border-bottom:dotted windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-se=
+rif"'>0<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.=
+0pt;border-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;=
+border-right:solid windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0c=
+m 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>1<o:p></o:p></span></p></td><td width=3D97 nowrap style=3D=
+'width:73.0pt;border-top:none;border-left:none;border-bottom:dotted windowt=
+ext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt=
+;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cen=
+ter'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans=
+-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'height:25.5pt'><td =
+width=3D83 nowrap style=3D'width:61.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcent=
+er style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=
+=3D224 nowrap style=3D'width:168.25pt;border-top:none;border-left:none;bord=
+er-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddin=
+g:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN=
+-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Server Sale=
+s<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt;bo=
+rder-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-=
+right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><=
+p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Sales<=
+o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;border-top=
+:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:so=
+lid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:=
+p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3D=
+MsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>4<o:p></o:p></span=
+></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;bord=
+er-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid window=
+text 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"Arial","sans-serif"'>9<o:p></o:p></span></p></t=
+d><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td w=
+idth=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;f=
+ont-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr sty=
+le=3D'height:25.5pt'><td width=3D160 rowspan=3D2 style=3D'width:120.0pt;bor=
+der-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid black 1=
+.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heig=
+ht:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-seri=
+f"'>FY16 HP KR EG Gold<br>Services Specialist<o:p></o:p></span></p></td><td=
+ width=3D83 nowrap style=3D'width:61.95pt;border-top:none;border-left:none;=
+border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dce=
+nter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td widt=
+h=3D224 nowrap style=3D'width:168.25pt;border-top:none;border-left:none;bor=
+der-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Service K=
+nowledge Credits<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'=
+width:88.0pt;border-top:none;border-left:none;border-bottom:dotted windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cent=
+er'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-=
+serif"'>Knowledge Credits<o:p></o:p></span></p></td><td width=3D321 style=
+=3D'width:240.8pt;border-top:none;border-left:none;border-bottom:dotted win=
+dowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Arial","sans-serif"'>Please see PLMT Knowledge Cred=
+its page for details<o:p></o:p></span></p></td><td width=3D115 nowrap style=
+=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:dotted wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:=
+center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>50<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'wi=
+dth:86.0pt;border-top:none;border-left:none;border-bottom:dotted windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-se=
+rif"'>40<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86=
+.0pt;border-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt=
+;border-right:solid windowtext 1.0pt;background:yellow;padding:0cm 4.95pt 0=
+cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-=
+align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Ari=
+al","sans-serif"'>10<o:p></o:p></span></p></td><td width=3D97 nowrap style=
+=3D'width:73.0pt;border-top:none;border-left:none;border-bottom:dotted wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:=
+center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>No<o:p></o:p></span></p></td></tr><tr style=3D'height:25.5pt'><=
+td width=3D83 nowrap style=3D'width:61.95pt;border-top:none;border-left:non=
+e;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;=
+padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dc=
+enter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.=
+0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td wid=
+th=3D224 nowrap style=3D'width:168.25pt;border-top:none;border-left:none;bo=
+rder-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padd=
+ing:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Service S=
+ales<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt=
+;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bord=
+er-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt=
+'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lan=
+g=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Sales=
+<o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8pt;border-to=
+p:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Aria=
+l","sans-serif"'>HPE Sales Certified - Enterprise Solutions [2016]<o:p></o:=
+p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:n=
+one;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3D=
+MsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>4<o:p></o:p></span=
+></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;bord=
+er-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid window=
+text 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNorma=
+l align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"Arial","sans-serif"'>9<o:p></o:p></span></p></t=
+d><td width=3D115 nowrap style=3D'width:86.0pt;border-top:none;border-left:=
+none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0=
+pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=
+=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size=
+:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></span></p></td><td w=
+idth=3D97 nowrap style=3D'width:73.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter=
+ style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;f=
+ont-family:"Arial","sans-serif"'>Yes<o:p></o:p></span></p></td></tr><tr sty=
+le=3D'height:102.0pt'><td width=3D160 rowspan=3D3 style=3D'width:120.0pt;bo=
+rder-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid black =
+1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:102.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center=
+'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-se=
+rif"'>FY16 HP KR EG Gold<br>Storage Specialist<o:p></o:p></span></p></td><t=
+d width=3D83 nowrap style=3D'width:61.95pt;border-top:none;border-left:none=
+;border-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;=
+padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNormal align=3D=
+center style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10=
+.0pt;font-family:"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td wi=
+dth=3D224 nowrap style=3D'width:168.25pt;border-top:none;border-left:none;b=
+order-bottom:dotted windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Storag=
+e Integration ASE/MASE<o:p></o:p></span></p></td><td width=3D117 nowrap sty=
+le=3D'width:88.0pt;border-top:none;border-left:none;border-bottom:dotted wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4=
+.95pt;height:102.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-ali=
+gn:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial"=
+,"sans-serif"'>Technical<o:p></o:p></span></p></td><td width=3D321 style=3D=
+'width:240.8pt;border-top:none;border-left:none;border-bottom:dotted window=
+text 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95p=
+t;height:102.0pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-siz=
+e:10.0pt;font-family:"Arial","sans-serif"'>HP ASE - Storage Solutions Archi=
+tect V1<br>or<br>HP Master ASE - Storage Solutions Architect V1<br>or<br>HP=
+E ASE - Storage Solutions Architect V2<br>or<br>HPE Master ASE - Storage So=
+lutions Architect V2<o:p></o:p></span></p></td><td width=3D115 nowrap style=
+=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:dotted wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:102.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align=
+:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","=
+sans-serif"'>1<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'wi=
+dth:86.0pt;border-top:none;border-left:none;border-bottom:dotted windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:102.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-s=
+erif"'>2<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86=
+.0pt;border-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt=
+;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:1=
+02.0pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><sp=
+an lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'=
+>0<o:p></o:p></span></p></td><td width=3D97 nowrap style=3D'width:73.0pt;bo=
+rder-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border=
+-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:102.0pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Yes<o:=
+p></o:p></span></p></td></tr><tr style=3D'height:25.5pt'><td width=3D83 now=
+rap style=3D'width:61.95pt;border-top:none;border-left:none;border-bottom:d=
+otted windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D't=
+ext-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:=
+"Arial","sans-serif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap =
+style=3D'width:168.25pt;border-top:none;border-left:none;border-bottom:dott=
+ed windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'=
+font-size:10.0pt;font-family:"Arial","sans-serif"'>Storage Knowledge Credit=
+<o:p></o:p></span></p></td><td width=3D117 nowrap style=3D'width:88.0pt;bor=
+der-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-=
+right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><=
+p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Knowle=
+dge Credits<o:p></o:p></span></p></td><td width=3D321 style=3D'width:240.8p=
+t;border-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;bo=
+rder-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5=
+pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-=
+family:"Arial","sans-serif"'>Please see PLMT Knowledge Credits page for det=
+ails<o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt=
+;border-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;bor=
+der-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5p=
+t'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>100<=
+o:p></o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;bord=
+er-top:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p=
+ class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3D=
+EN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>116<o:p><=
+/o:p></span></p></td><td width=3D115 nowrap style=3D'width:86.0pt;border-to=
+p:none;border-left:none;border-bottom:dotted windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p clas=
+s=3DMsoNormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>0<o:p></o:p></=
+span></p></td><td width=3D97 nowrap style=3D'width:73.0pt;border-top:none;b=
+order-left:none;border-bottom:dotted windowtext 1.0pt;border-right:solid wi=
+ndowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>Yes<o:p></o:p></span=
+></p></td></tr><tr style=3D'height:25.5pt'><td width=3D83 nowrap style=3D'w=
+idth:61.95pt;border-top:none;border-left:none;border-bottom:solid windowtex=
+t 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;h=
+eight:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-s=
+erif"'>Any<o:p></o:p></span></p></td><td width=3D224 nowrap style=3D'width:=
+168.25pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.=
+0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt=
+;font-family:"Arial","sans-serif"'>Storage Sales<o:p></o:p></span></p></td>=
+<td width=3D117 nowrap style=3D'width:88.0pt;border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;padding:0cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3D=
+center style=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10=
+.0pt;font-family:"Arial","sans-serif"'>Sales<o:p></o:p></span></p></td><td =
+width=3D321 style=3D'width:240.8pt;border-top:none;border-left:none;border-=
+bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0=
+cm 4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>HPE Sales Cert=
+ified - Enterprise Solutions [2016]<o:p></o:p></span></p></td><td width=3D1=
+15 nowrap style=3D'width:86.0pt;border-top:none;border-left:none;border-bot=
+tom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm =
+4.95pt 0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=
+=3D'text-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fa=
+mily:"Arial","sans-serif"'>4<o:p></o:p></span></p></td><td width=3D115 nowr=
+ap style=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:sol=
+id windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt =
+0cm 4.95pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text=
+-align:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Ar=
+ial","sans-serif"'>9<o:p></o:p></span></p></td><td width=3D115 nowrap style=
+=3D'width:86.0pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:c=
+enter'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sa=
+ns-serif"'>0<o:p></o:p></span></p></td><td width=3D97 nowrap style=3D'width=
+:73.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:25.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><s=
+pan lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"=
+'>Yes<o:p></o:p></span></p></td></tr></table><p class=3DMsoNormal style=3D'=
+text-autospace:ideograph-other'><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'><o:p>&nbsp;</o:p></s=
+pan></p><p class=3DMsoNormal style=3D'text-autospace:ideograph-other'><b><s=
+pan lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=
+=B5=F1";color:black'>+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</span></b><span =
+lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNorm=
+al style=3D'text-autospace:ideograph-other'><b><span lang=3DEN-US style=3D'=
+font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>(</sp=
+an></b><b><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=
+=B5=F1";color:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=
+=BA</span></b><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=
+=ED=B5=F1";color:black'> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE =C6=C0=C0=E5 =
+<b>=BC=AD=BC=AE=C7=F6</b></span><span lang=3DEN-US style=3D'color:black'><o=
+:p></o:p></span></p><p class=3DMsoNormal style=3D'text-autospace:ideograph-=
+other'><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=
+=F1";color:black'>=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span l=
+ang=3DEN-US> 67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DE=
+N-US> 3</span>=C3=FE<span lang=3DEN-US> 137-804</span></span><span lang=3DE=
+N-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=
+=3D'text-autospace:ideograph-other'><span lang=3DEN-US style=3D'font-size:1=
+0.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>Tel. 070-7114-00=
+71 Mobile. 010-2491-2352 </span><span lang=3DEN-US style=3D'color:black'><o=
+:p></o:p></span></p><p class=3DMsoNormal style=3D'text-autospace:ideograph-=
+other'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:black'>Fax. (02)586-5070 E-mail. </span><span lang=
+=3DEN-US style=3D'color:black'><a href=3D"mailto:shseo@agilesys.co.kr"><spa=
+n style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:b=
+lack'>shseo@agilesys.co.kr</span></a><o:p></o:p></span></p><p class=3DMsoNo=
+rmal style=3D'text-autospace:ideograph-other'><b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'>+=
+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</span></b><b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:black'><=
+o:p></o:p></span></b></p></div></body></html>=
+
+--_000_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_--
+
+--_004_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+	name="plmtGapAnalysis70467017_201603270658.xlsx"
+Content-Description: plmtGapAnalysis70467017_201603270658.xlsx
+Content-Disposition: attachment;
+	filename="plmtGapAnalysis70467017_201603270658.xlsx"; size=21454;
+	creation-date="Sun, 27 Mar 2016 12:19:30 GMT";
+	modification-date="Sun, 27 Mar 2016 12:19:30 GMT"
+Content-Transfer-Encoding: base64
+
+UEsDBBQABgAIAAAAIQAhjEY6dgEAAIwFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADE
+VMlqwzAQvRf6D0bXYivJoZQSJ4cuxzaQ9AMUa2yL2JLQTNLk7zt2FkrIgmmgFxtLmreMNW84XtdV
+tIKAxtlU9JOeiMBmThtbpOJr9h4/iQhJWa0qZyEVG0AxHt3fDWcbDxhxtcVUlET+WUrMSqgVJs6D
+5Z3chVoRf4ZCepUtVAFy0Os9ysxZAksxNRhiNHyFXC0rit7WvLxVMjdWRC/bcw1VKpT3lckUsVC5
+svqIJHZ5bjLQLlvWDJ2gD6A0lgBUV4kPhhnDFIjYGAp5kjNAhd1Id64SrmyFYWk8PrD1MwzNznlX
+u7pP/h3BaIgmKtCHqtm7XFfy24XF3LlFchmka2vaFiW1Mnav+wJ/exhl++rfWEjjrwXuqGPwTzqI
+7zrI9vn3VrQwV4wjbSrAG7vdgl5jLlUAPSWeouLmAn5jX9LBoz0JziOnR4DuXdiPalMdewaCQAYO
+w3rq0h8YOXq6Ex4FEjTZpkGf4JZtlo5+AAAA//8DAFBLAwQUAAYACAAAACEAtVUwI/UAAABMAgAA
+CwAIAl9yZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIySz07DMAzG70i8Q+T76m5ICKGlu0xIuyFUHsAk7h+1jaMk
+QPf2hAOCSmPb0fbnzz9b3u7maVQfHGIvTsO6KEGxM2J712p4rZ9WD6BiImdpFMcajhxhV93ebF94
+pJSbYtf7qLKLixq6lPwjYjQdTxQL8exypZEwUcphaNGTGahl3JTlPYa/HlAtPNXBaggHeweqPvo8
++bK3NE1veC/mfWKXToxAnhM7y3blQ2YLqc/bqJpCy0mDFfOc0xHJ+yJjA54m2lxP9P+2OHEiS4nQ
+SODzPN+Kc0Dr64Eun2ip+L3OPOKnhOFNZPhhwcUPVF8AAAD//wMAUEsDBBQABgAIAAAAIQBKqaZh
++gAAAEcDAAAaAAgBeGwvX3JlbHMvd29ya2Jvb2sueG1sLnJlbHMgogQBKKAAAQAAAAAAAAAAAAAA
+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
+7/nfxudnL7ubxy8399vHzYfzvzYv53//+J//8f6P7fOvL983m91ZqvD48uH8+2739NPFxcvt983D
+zcu77dPmMZGv2+eHm136z+dvFy9Pz5ubL1Wjh/uLbqczvHi4uXs831f46Tmnxvbr17vbzWx7+9vD
+5nG3L/K8ub/ZpfG/fL97enmt9nCbU+7h5vnX357+drt9eEolfrm7v9v9VRU9P3u4/Wn57XH7fPPL
+fXrdfxb9m9vX2tV/WPmHu9vn7cv26+5dKnexH6i/5snF5CJV+vj+y116BTHtZ8+brx/O/1H8dF10
+RucXH99XM/S/d5s/XuDvZzHhv2y3vwZYfvlw3kk1nm4eN2d//fMpDTvJOz/bbZ/Wm6+76eb+PlXs
+np/d3O7uft/8nA77cP7LdrfbPgSvlO7S//X1efvvzWPV5+Z+k45No4mafPC+yLHoy//tR9yNhhf1
+aPHvryOfV/p/fj77svl689v9brq9/9fdl933D+eTd0W/M+wOzl/Rf23/uNrcffser6T7bpRANc0/
+fflrtnm5TbLTS35XdXm7vU/10/+ePdzFSZtc3fxZ/fnHvnY/ncW3v72kV3vorIiR1g3SvFQN0p+H
+Bt3Ru+54UAyq8bS07B1apj8PLYvhu1HRmfRivC0N+4eG6c/Xhv16AlraparVUNOfr+067/rdwWhc
+xNS1tBweWqY/jy2zXuTo0DL9+dpymNdn2iuq0aY/Dy27nazpmRwapj9fGxadnPkpkum9/PSX19Em
+Oy0TU9TnS/pL3VvWMIvXMyf+cmjafzcYdXqnbBSvZ0785XWcRV7T13OngJMnufGXeLFfGNWCnN3s
+bj6+f97+cZa21fRCX9KyTpt08VNUaVxYaYHEsf9IB6el9pJ2l98/FuP3F7+ndX17gJ8IMpsi6zKb
+IesLvCTY45Zzgn2GC4IDhlcEhwyXBEcMS4IyBSuCE265RjjoMPxMsGB4TfA4QxdJYe0xnXX5HtPB
+tUeZt0/IZGamyGRiZsgGYuqSoPQ4JyimFgRlPFcEZUBLgmKqTDBO+epM7nc7veOsVmf6ChurSGQD
+gZ8RDsXydbfqb9TpD0ed4jheEpk2gXyR6eAfikRWiJApQREyQziUk/GSoEzbnKD0uSAofV4lmITs
+J2jS63c6csCSWstZUu5bv+rsd6XxqldNvJw+ayop8DPBo6vq9Lje12sXmTbTfJHp4B+KRGYiCcrL
+niEcyhK4JCin8RzhSE7jBcKh9HmV4FFkpzsp5BxZYuuRnF3lvnUtsicTv+rvrz28Qa6x5FBFEpSX
+cr2v1y4y3Uzli0wH/1AkMhNJUCZ1htBEElSRCE0kQhOZ4FFk04qk1roi961rkX2Z+NWgcUVSSRVJ
+UOpd7+u1i0z3u/ki08E/FInMRBJUkQhNJEEVidBEIjSRCbJIcbXE1iNZruW+9VGkrNjVcH9NkxWJ
+JW1FElSRh3qt18h0i5svMh38Q5HITCRBFYlwJFe6S4LSck5QVCwQmsgE20ViaxO5b/1jkaNGkVjS
+RBKUrfr6UK9VZCRI2e8+0sE/FImskI1jSlCGOUNoK5KgrkiEtiIRDmRAVwhHApcEZbRlgukUqCV2
+dDViYxnvGpndtyK0+9bx/tRoVZnen+erTAf/UCUyU0lQJmeGcKS3OwRlauYIB7omCYqtK4SmkqCM
+tkwQVPYmwlfYWMa7RmYqEZrKSYbKSE7yXcbRP5RJ0GwylQmYER3LdeKSqayDOVO5pi2I2uokak6Z
+ypjLoK1WqblqJWheiZrYRCOWab8DioDrDWYxeJDL2KcoVWt3s0RllmbUdqxXT6bS75yprlWibhZH
+5WaJypjLqNxuFpubWYRuFqmb3W/3J8xGopF9KY2QspYnM/yJoJvFphBiVG+MZ9R2LJvlJVOZ4TlR
+24WZSuUrom4WxzySfstoC2b7dlGl4mYWa7tZpG42JxCKWPgNZjG3MLMI3SxRmaVZDKM+ZcZ6dWUq
+czRnamsWK/uaRepmicqYy2rqjrdLfo2lgcmo1wTdLPY8lJ6vU9uM3TjSjvw1i0GGmUXoZonKWGcR
++9dmLe9jKlfSOVPZyRdE3Sz262aJypjLqExrVga2oq7NLNZ2s0jdbE5kVET8kW8Wkw0zi9DNEpVZ
+msUwarMTu4MiandQRGV6F1TZzWJbN0tUxlxWU9e6ZrG5mUXoZpG62ZwMqYg8JN8sRh1mFqGbJSqz
+NIth1GYtf2Aq/c6Z2m6Mld0sUjdLVMZcVlN3NNvXm4cVDczMYm03i9TN5oRKRQQk+WYx+yhksJ+i
+Vq2nKwtvSlRmaUZwIjvqJVMzi91OzCxSN4t0IvdXS+5XxlwGhd24o1vNiptLVkjQzeK4/A4qJ2Uq
+IjXJN4tRiJtF6maRyizNYhj1SeHveoiaWaJmFqmbRepmicqYy2rqjmu20FhlRS9KlsGaoJvFnt1s
+TuhURIiSbxaTETeLtCsXvGn0VMsrRM+MqC9abDuRtnNua2qxrSXC1et/fWxadIajcV8cLLm83LeX
+hwJ1oNiTvWqVDqg+7SGjXlNZC4aZSs3rQ832N7TdN4VQcfRRj8zBJ6KmlqipJWopFFO9h2Iqp9SC
+qKkNmvbU/TvEZrVUYKJqDwV+rDYd0KiWyppapqr2UPOE2ohSsldtF8MRW7VEXS21lXN4Rm1dLbYd
+m1qiphapq020VjsaFJ2uXOaXNLKJnM5lULjc9ntywCodUJmVCy1VdbE0ZhObE0J1I0nJF4vZiItF
+6mKR+ppF6mKJmliiJhapi020FjsZ9zt9qb6MGTruUx2Z5bKawOPltsHsYT9Qs1jWzRKVPq9Tn6ej
+im5KO95gFrMRN4vUzSJ1s0jtHipGWc/uWJb7nKleaIm62VS5Ntu8ZLFvX7L79vVm3JfdepW6b1yy
+WNXFEjWxORlUN4KU/CWL0YiLRap72jR6quXIfeaMoHvFpu6VqHlFavfG1G+hye9SsOwGZWDYiP3u
+mNrLLr0maHfHRO3uONGMRZvijje4xXDE3SLtyiRP4wPntVt9Xz8jas/YmcokzYnaU3aiLhdHZWEF
+tbWHAkFBrT8UoOYy6jVBV4vjcrU5MVQ35R1vUIvpiKtF6mqRulqk+ubwMkZZnxYjmaQ5UXvew1Ty
+iCuirpb6lb2mjLag1p8KUHEZ9Zqgq8WeXW1ODtWNMCV/R8Z4xNUidbVIXS1Sv4kiKrc583gNtfix
+bJsLor5qsa2rJWpqE21Xi81NLUJXi9TV5gRR3ZR4vEEt5iOuFqmrRepqkfrVlqjdRRGVC8EiXmEt
+3tUidbVETW2i7WqxualF6GqRutqcJKqbcpo3qMVUx9UidbVIXS1SewAfo6z1jGWK50R9Q8a2rhap
+qyUq/ZbV3MG7Hr0NW9HATC3WdrVIXW3Ox6F6b0qi4uh6ik0tUVNL1NQStSfwTGWS5kx11RI1tURN
+LVNVG7R11VJzGfWaoKklas98Ej19h9yLJCX7WhtHt6hF6mqRulqk9gie+h3K1XTOVJKkBVFXi/26
+WqKmNlFQ2+/IwFbUtanF2q4WqavNyaJ6kcXkq8WIxFctUleL1NUi1QdjlzHK+pSa6G0UU5nfBVFX
+i5VdLVFTmyio9Ttk6trUYm1Xi9TV5oRRvQhT8tViSOJqkbpapK4WqT2Ej1HWakd6G8XUNmRs62qR
+ulqipjZRUOsP4WlgphZru1qkrjYnjupFopKvFrOdrrxH/BS1agFdeSlTopYzEvVVi5V91RK1VYvU
+csbq9cNTn/TtcYn1ljS0oiMbfnmoUCeN+sGSVTogLowyrjWVtaSRqZxU14eS7U99epGo5KvFjMTV
+EjW1SF0tUvumcoyyPmkGtmqJ2qpF6moTTSvv9YFebzTRzpfUeaFfgS2rGYT7ZP+a6z46ksvImsq6
+Whq1nG3XqW3GbVQkKvlqMSNxtURNLVJXi1Rn97JH1NQSNbVIXW2iolY2oyV1XnSkfhkYt2VXu4+O
+TC2NSzr9TJ3am59EM9RGopKvFjMSV0vU1CJ1tUhdLVFTS1SmftFD6moTFbXy6GZJBdKTen42VwZu
+V7uPjkwtjUuqfqZOXW1OGtWLRCVfLWYkrpaoqUXqapG6WqKmlqipRepqE0W147GuumVMUX01SD/B
+pGr3Feprrd5krFL7WGKmFsv6hkzUNuScNKqXUo83qMWMxNUi1R/KmEZPxxmSCZoRtSc/TOWkmRO1
+Jz9E/Q4ZR+V3yERlzGVUxvVqaRR1LaNeE/Q7ZOzZV21OGhU/YJWvNo6u9ZhaoqaWqL35IWpPfpjK
+JM2JWtDIVDa+K6KmlqmqDQpq/X0tNZdRrwmaWqKmNtHT19p+JCrZG3Ic3aIWqatF6mqR2pMf6tc+
+F8VU3mQsiNqqJepqcVT2vDbatqvF5qYWoatF6mpz0qh+JCr5ajEj8VWL1NUidbVI7clPjLI+pexz
+Fkz1WkvU1WJlV0vUVm2i7WqxualF6GqRutqcNKofiUq+WsxIXC1SV4vU1SK1Jz8xyqNameI5Ud+Q
+sa2rRepqiUq/ZTV38I7WrrU0MFOLtV0tUlebk0b1U1bzBrWY7LhapK4WqatFak9+YpRHtTJJc6a2
+arGtq0Xqaoma2kTbVy02l1GvadSuFpta0JjaZlxrI43JX7WYkbhapK4WqatFak9++kTlajpnKkHg
+gqirxcqulqipTRTU+pMf6trUYm1Xi9TV5qRR/chS8tViguJqkbpapK4WqWXIMcp61VqGzFTEL4i6
+Wqzsaoma2kRBbcMdMjY3tQhdLVJXm5NG9SNLyVeLCYqrRepqkbpapPbkJ0ZZq7UnP0xtQ8a2rhap
+qyVqahMFtf7khwZmarG2q0XqanPSqH5kKflqMSPpydb3KWrVAnqSGU2JWhpF1DdkrGyP4rmtjGrB
+VEZ1FTTp2d9xNv4CJreXE6c8tD9mUdLBKh1QZVGymay5rLzd/sxUzqnrQ832Bz/9CFTyzWJE4maJ
+ykucRk+1dzeL1MIoajuU039O1MIoopYzBj1hlkZmZvfta7P2W4qpg2azVNbMEtWY8VCz3ezgTVlU
+HF3bMbNM1SxRM0vUzDJVs0TNLFEzG5TNirsltbef5Du0P5qVoHiVDgiz8sRhTVUtP2aqYg8lT4iN
+NCV7yQ4wH3GxRE0sUheL1K6z1K9dZ5mKmAVRF5v6PSGWRiZ7ahnVU/sWsXtkYrGqiyWqe3Hq8/Tb
+nkFkKfliMR1xsURlgqfRU73a7QaKqK9YbGt7MbX1FYtt7QaK28qWuGQqE1wGRakWVlBz2WfWBO0G
+iqiFFYlmqE15xxvUYjriaomaWqSuFqk9GBgQlUmaE7UciqnIuyJq98ZMTW0aFaj1tz3UXEa9Juhq
+8RW72pwcahBZSv6qxXTE1RI1tUhdLVJ7MBCjrFe8PRhgKhvmgqivWqzsaoma2kTb1WJzU4vQ1SJ1
+tTk51CCylHy1mI64WqKmFqmrRWoPBmKUR7VyDZ8zlX4XRF0tVna1RE1tou1qsbmpRehqkbranBxq
+EFlKvlpMR1wtUZniafRU63G1SO3BALW1r4QQ9Q0ZK7tapK6WqKlNFNT61y9pYKYWa7tapK42J4ca
+RJaSrxbTEVdL1NQidbVI7cFAjLI+LcYySXOm0u+CqKvFyq6WqKlNFNQ2XGuxuYx6zeMS+pmo5VCJ
+ZtxGRQ6TrxbzIFdLVKZ4OkDqapFaDkVtLYdiqjkUUVeL/bpaoqY2UVDrDwaoa5G3JuirFnt2tTmf
+ihpEkJKvFvMRV0vU1CJ1tUjtwUCMsl619mCAqd1GYVtXi9TVEjW1iYLahlWLzU0tQleL1NXmfCpq
++KYkKo6up9jUMlW1RE0tUQssmOptFFPpd0HU1BI1tUxVbVBQ6w8GqLmqJWhqiZraRE9vyMPIUrJX
+bRx9VCvvET8xlYmYEhU4I2ifUmVqZnFQdhfFbWXIV0SLjiRGS8Fipwx8dFuM9SOsK2ovrdcE3S2+
+KruPSm0z3Eakku8Wo52eTNSnIVHRNyUqcEawKCQyvRQsIe1csO7JhH3h4qgb9DIWQWXUJr0yKSvq
+XFqvCbpe7Nr15kRSw4hV8vViUOJ6icpLmUZP9bK3GJmp/kM/l4Jt9VLtwjZmxJYkV1Pw+lhvPOyM
+9MfaltK7GCwPBeooWT+jvkoHxELT73mtqa5lyUxlQVwfarY/JBhGspJvF7MSt0vU7CJ1u0h9ZyZq
+bomaWqSuNtG0+PYLIX0RrzfRL+MtY4qOp6XeLZTVDMJjAne7j5Bkx1lTWVeLnfrCzUmlhpGs5KvF
+rMTVEjW1SF0tUldL1NQSNbVIXW2iqLbhu3oxRUe19l29agZb1TZ/V4/Kulrs1NXmpFLDSFby1WJW
+4mqJmlqkrhapqyVqaomaWqSuNlFRK1vuMqYI1Er9sprBVrXN39Wjsq4WO3W1OanUMJKVfLUYs7ha
+oqYWqatF6mqJmlqiMvWLeIW1GVebqKi122Us4N/Vq2awVW3zd/V4XHI+fWYqd5fXiWbcKEeykq8W
+sxJXS9TUInW1RP1OirHJZWx2EbvdRGu748l4NJE77eUQ2xf6D5SXgVOB452UvPRVOiBMSNk1lfV1
+i536O9ycXGoY2Uq+XExLXC5ReYXT6KlePy6XqP5UxiU31t8lmAuWe5YFYZebuq7l/uBeikcnt6xl
+1G+3e/iUFH+Hc83jsqWLnfqunBNNjd4UTcXRtSGzy1TtEjW7TG3pCtalK1iXLmGzG7S2O+n2irG0
+X1L7Qn8UuDwU+PHSTQfE0pWoe01lbekylRPq+lCy/T3QKPKV7KUbR7fIJWpykbpcpHbJpX7tRy2Y
+ipkFUTeb+q3NpnXb8B1qKuDfoQ7cum7TAdX7W1m3VNbV4nzYuj2UPKE2spV8tZiW+LolamqRulqi
+vm4Z27plbHYRu91Ea7tp3fZ6ej81wvaF/uZzGbhd7v7ds15yqazLxU7tkpvanr6fGqXQ5g1yMeJx
+uURNLlKXS9TlMja5jE0uYpeb6FHuoDvSX6NfxiTV21Wh4URZzWHb/VQ6oHFTxrIul6htyjkflxpF
+MJO/cjEucblETS5Sl4vUN2WippaomUXqZhOtzaY3OWndyoVxGVMEaqV+Wc0gqNWvx6zSAY2bMpZ1
+tUT1fdCh5IlNOYKZfLUYl7haoqYWqatF6mqJmlqiMvWLEVJXmyip7fdl71xSgUK/9lQGxi3Z1TYH
+U1TW1dKoTW1OMDWKYCZfLcYlrpaoqUXqapG6WqKmlqipRepqE0W1g7F+ZGcZUwSrVjbHsprB1lXb
+HExRWVeLnfqtVE4wNYpgJl8tZjSulqipRepqkbpaoqaWqKlF6moTRbWjrv4bYcuYIlAr91llNYOt
+apuDKSrrarFTV5sTTI0iVMlXi2GJqyVqapG6WqSulqipJWpqkbraRGu14+GoMxB1y5ghMCsvq6wm
+sNXsPkKSK/iayrpZ7NTN5qRSowhU8s1iUOJmicoUTKOn4wyJnRlRN4tt/a0tUTOL1M0mejTblDfS
+yDxvrCaw1ew+PpIL+JrKulkatF1pcxKp8ZsSqTi6tmNmmapZorZmiZpZpnJWzJmqWaJmNmhttvFt
+LbX3t7WHAnUcZfdQ6YC4PVazVNbMMlWzh5Ltt8fjCFOy12wc3WKWqJlF6maRulmiZpaomUXqZhMl
+swNRsKTXXOg/d1lWE9i2ZtMBTe9pqaybpUGb2X3JE2YjSck3iwmJr1miZhapm0XqZomaWaJmFqmb
+TRTMDrpduftdjrF90ZPnD2XgVKBlze5zI73OUlk3i53adTa1jZPlhNnIYfLNYjziZomaWaRuFqmb
+JWpmiZpZpG42UTA7TA/2OOpdjrF9oZttGbjd7OETUlx2TWXdLHbqZnNyqHHkMPlmMR1xs0RlhqbR
+U72Tu1miFjJyY209F2xysbjLTbSWm6Ko4cCiKK6vuAyMdu3XD9IBscjktntNZd0ujVq2kutDyRPr
+NoKUfLsYkLhdomYXqfqZjZHatwmYyqY4ZyrXygVRV5v6PaUWh1a42n2Fekt2tfvcyNRiWVdL1NTm
+RFHjiGLy1WJA4mqJmlqkrhapb8lEbUsmaqsWqatNtFY76Q7H+l3fZczQccPRn9gpqwlsvdjuYyM5
+49ZU1s1ip74l5yRR40hi8s1iPuJmiZpZpG4WqZslamaJmlmkbjZRNitbwjJmCMxK+bKawFazzUEU
+lXWz2KmbzQmixhHE5JvFfMTNEjWzSN0sUjdL1MwSlalfxCuszbjZRNmsLK4ltS/0RZfVBLaabf54
+FJV1szRoe+uTE0SNI4jJN4v5iL7IT1GrnkP9KP6UqJvFtoXfRjE2t4xNLmKXm+hR7rAY9aX8kofe
+k8teWc0hypW3Oat0QGNiQcPST0dRp/Yg/lCy/S5q8qYsKo4+6pPhfGKqy5aoySVqy5apzP2cqZol
+amaDHs320/dDpP2S2hf6CYzyUKC+iVL1q3RAmJV9fk1lbdky1WV7KHnCbGQx2ct2ghGJLVumZhbb
+ulmkbpaomSUqZhY0Kjeb2oLZfk9/XGFJ7QvdjcrAqUCL2T2SfX5NZd0sviS71Ka2pxOLSUQp+WYx
+InGzRM0sUjeL1M0SNbNEzSxSN5somB1P9Is9y5ihep8q9H1NWU1gq9nmj0VRWTeLnbrZnCxqElFK
+vlmMSNwsUTOL1M0idbNEzSxRM4vUzSZ6NDtI27GMexkzBGZlVy2rCWw12/yZKCrrZrFTN5uTRU0i
+Rsk3i/GImyUqMzSNnmCGOHSbEXWz2Nae5nFbM4tt3WyiR7PjQWH5MVUv9GM1ZeD23XifQ8mN1ZrK
+ulkatF1nc76rN4kUJd8spiNulqiZReprlqjdHscwj6eFtp4LNrnY2uUmWsttThm5vkVR1STCuu3L
+DfQqHdCUMlJZt0ujlpLXh5In7qIiism3iwmJ2yVqdpGqn9kEqaWMTGVTnDOV25UFUVeb+j2lFofm
+KWPUx4XravfBkaaMPC55r/GZqanNyaImkcXkq8WIxNUSNbVIXS1RX7iM7XLL2BYuYreb6Cm7WKDB
+7r5CfZPsdvfhkdnFsr5wiZrdnDxqEnlMvl2MSdwuUbOL1O0i9YVL1BYuUVu4SF1toqfUYoEGtfsK
+LWr36ZGpxbKulqipzQmkJpHG5KvFCMXVItU3CtPo6XjRlMHOiNqP6DKVk2ZO1H5El6j9ZglR+7Eh
+pjLmMijuxvYjutRcRr0maL9YQtRvk3M+GlV03pRHVYfXgkwuY7PLWN9EzhjbL+kKlqmaM7YfHRIs
+l7crxuZYsEquMFj2XwvjAjL2NVPzzNhEBz4dYhSdiFeyV3F1eJtpjFUaTCNuMI1YH7Zdct/2y7qC
+dZtmbIuZcYNpHJr9s3tV6xOmsYCbRtpgGnGD6Zy4quhEXvMG05ijNKxpxA2mETeYRmy/s1sNtT7L
+7F/gE6z3WowbTGPfDaYJ+5pO+IRpLOCmkTaYRtxgOie+Sl9AfZtpzFUaTCNuMI24wTRi+9ndaqhH
+0zLbaffG1g27N2HfvRE3mCYsfZf7WYQ3w3aN5tG5aSzfYBpxg+mcOKvoRBzzhjWNOUuDacQNphE3
+mEZsv8JbDfVoWmYrmabWvqYRN6xpxA2mCbvphE+saSwgY0/XaaQNphHb88FonXOdjnDnDaYxc2kw
+jbjBNOIG04jtR3mLDmG5ECfThCUoXDBuMI2tG0wTdtMJg2n/aV7u3k1j+QbTiBtM53zqKgV3bzON
+uU+DacQNphE3mEZsb5urodZr2n6kV7CcCMk0Fm8wjbjBNGE3nTCYbrr3xgJuGmmDacQNpnOSr/Qr
+EG8zjXFMg2nEDaYRN5hGbD/ZWw21Nm3/yJBg372xeINpxA2mCbvphMG0/3Avj85NY/kG04gbTLem
+YBcv3zeb3exmd/Px/dP37eNmd3f78/PZ1+3jbvklfjTxbPfX0+bD+eN2un38ffP8crd9PL9Ix958
+23y+ef529/hydr/5mma+8y6+evx89+17/R+77VPcnpz9st3ttg/VX79vbr5snuPodPDX7Xb3+h+H
+mv/c7H57Ots+320edze71NmH86ft8+755m4X3e6bz6t2Zzf3d98e/3W3+34YSKoax1z8sX3+tXpZ
+H/9fAAAAAP//AwBQSwMEFAAGAAgAAAAhAMh71qn8BgAAih0AABMAAAB4bC90aGVtZS90aGVtZTEu
+eG1s7FlNbxtFGL4j8R9Ge29jJ04aR3Wq2LEbaNNGsVvU43g99k4zu7OaGSfxDbVHJCREQVyQuHFA
+QKVW4lJ+TaAIitS/wDszu+udeNw4IYCA5tB6Z5/3+2tm9vqN45ihQyIk5UkjqF6tBIgkIR/QZNQI
+7vU6V9YDJBVOBpjxhDSCCZHBjc1337mON1REYoKAPpEbuBFESqUbS0syhGUsr/KUJPBuyEWMFTyK
+0dJA4CPgG7Ol5UplbSnGNAlQgmNge3c4pCFBPc0y2MyZtxk8JkrqhZCJrmZNHAqDHRxUNUJOZIsJ
+dIhZIwA5A37UI8cqQAxLBS8aQcX8BUub15fwRkbE1BzaEl3H/GV0GcHgYNnIFKN+IbTaqdWvbRf8
+DYCpWVy73W61qwU/A8BhCJZaXco8a531ajPnWQLZn7O8W5XVSs3Fl/ivzOhcbzabq/VMF8vUgOzP
+2gx+vbJW21p28AZk8asz+Fpzq9Vac/AGZPFrM/jOtfpazcUbUMRocjCD1gHtdDLuBWTI2Y4Xvg7w
+9UoGn6IgG4rs0iKGPFHzci3GD7noAEADGVY0QWqSkiEOIYtbOO4LirUAvEFw6Y1dCuXMkpaFZCho
+qhrB+ymGipjye/3i29cvnqHXL56ePHp+8uiHk8ePTx59b3k5hDs4GZUJX339ye9ffoh+e/bVqyef
++fGyjP/5u49++vFTPxAqaKrRy8+f/vL86csvPv71myce+JbA/TK8R2Mi0R1yhPZ5DLYZx7iak744
+H0UvwtShwBHw9rBuq8gB3plg5sM1ieu8+wKahw94c/zQ0bUbibGiHsm3otgB7nLOmlx4HXBLyyp5
+uDdORn7hYlzG7WN86JPdwokT2vY4ha6ZJ6Xj+1ZEHDX3GE4UHpGEKKTf8QNCPNY9oNTx6y4NBZd8
+qNADipqYel3So30nkaZEOzSGuEx8NkOoHd/s3kdNznxWb5NDFwkFgZlH+R5hjhtv4rHCsY9lD8es
+7PDbWEU+JbsTEZZxbakg0iPCOGoPiJQ+mrsC7C0F/RaGfuUN+y6bxC5SKHrg43kbc15GbvODVoTj
+1Ift0iQqY9+TB5CiGO1x5YPvcrdC9DPEASdzw32fEifcZzeCe3TkqDRNEP1mLHQsoVE7/TemyZua
+MaPQjW0OvG3GjWALRpOvJHZOteB5uH9h493G42SPQK7PDp63ffdt3w3+8313Xi0v2m2nDRZ6r948
+2H2x2SXHczfJQ8pYV00YuS3NPlnCsBh0YFHTmQMiKQ5NaQQ/s+bu4EYCGxokuPqAqqgb4RT22NVA
+MxnJjPVIopRLONuZZS9vjYd9urInw1V9ZrD9QGK1ywd2eUUv50eDgo0ZOSNz/swFrWgGiwpbuZYx
+BbMvIqyqlVpYWtWoZlqdI60wGWI4axosFt6EXQiCvQt4eQ2O6Fo0nE0wIwPtdzuA87CYKPw1Icqs
+toZEeEBsiJzlkjerJnZ5Cpk7AkgpT+jO583Ca+C0s5UwaTE/fxZ0cs5g6mRddqeqiSXl2mIJOmoE
+9dXl1QCFOG0EQziVws84haBJvW/DbARXO6ESNmvPrEVTpFOL6/6sqsJFw5yCcco4FVJtYxnZGJpX
+WahYoiVZ/ZdXazrZLscAm6gX0GJlHVLkH9MCQu2GlgyHJFTlYJdWtO/sY9YJ+VgR0Y0GR6jPxmIf
+Q/jBp9qeAZVwuWAKWj/ATZj2tnnl9tas05TvnwzOrmOWRjjrlvomJa84Czf1VuhgnkrqgW1e3Y1x
+5zdFV/xlmVJO4/+ZKXocwGl/ZaAjEMJFrMBI12sj4EJFHLpQGtGwI2Dum94B2QK3qfAanA/XweZ/
+QQ71/7bmLA9T1nBoU/t0hASFcaIiQcgetCWTfWcwq2ajx7JkGSOTUSV1ZWrV7pNDwnq6B67pHhyg
+CFLddJOsDRjc6fxzn7MK6o/0HqVcb04PKUanrYG/e+NiixmMOrWX0Pmb+79Q0TP9LL0hz2dk2RD9
+YrpLquVV4Qy/ej0TdUEVFhnApVlrO9aMxcuruXIQxVmLYbHYz6RwZ4P0PzD/qAiZ/bagB2qP70Nv
+RfCpwPoPQVZf0V0NMkg3SPurD/seu2iTSbOyrs12Ptpr+bC+5I1qIfeUs7Vmi8T7nM4uNlGuOKcW
+L9PZmYcdX9u1ua6GyJ4uUVga5ucQExjzUar83Yj3H0Kgt+GGfszslySZwpOpg3RPmOzq88Ek+8mk
+Hbg26/QZRiNZsk+GiA6O8/NH4QlbQvZrRr5FNmhNphOtIFzxHRpcwgyvSe20LIiXzyYuKIxkaNkF
+sbkm8zGAb1lZ49ZHO8DbJmut1sWVe4olf8ZlCyjvd5n35LOoy+xB8Y2BuoDL1PGbXZZ5Cpw3m3jw
+NVJgOJp0Tf+FoWMz3aTs5h8AAAD//wMAUEsDBBQABgAIAAAAIQCFqyJS5wcAAFAhAAAYAAAAeGwv
+d29ya3NoZWV0cy9zaGVldDEueG1srFpNb+M2EL0X6H8QdF/blD8SG3GKxIotGVtg0W27Z0WmbWFt
+0ZWUzaa/vjMiRYlDRkiCXiJH8/hIvhk+UaZvfvt5Pnk/eFFmIl/6bDDyPZ6nYpflh6X/15/rT9e+
+V1ZJvktOIudL/4WX/m+3v/5y8yyK7+WR88oDhrxc+sequiyGwzI98nNSDsSF5xDZi+KcVPBvcRiW
+l4Inu7rR+TQMRqPZ8JxkuS8ZFsVbOMR+n6U8FOnTmeeVJCn4Kalg/OUxu5QN2zl9C905Kb4/XT6l
+4nwBisfslFUvNanvndNFfMhFkTyeYN4/2SRJG+76H4v+nKWFKMW+GgDdUA7UnvN8OB8C0+3NLoMZ
+oOxewfdL/44ttuzaH97e1AL9nfHnsvPZq5LHr/zE04rvIE++h/o/CvEdgTHcGgHlJcm59/L1ArOo
+MZW4fOb7asVPJ+gg8L0krbIf/AvAlv6jqCpxxnid4Qpu7QvxL8/rMdRd4eCQ0wRLEkn6eQaN/6kn
+AB9h8EM9+u7nZibruhq+FN6O75OnU7USp2/Zrjou/fmATUazYOo3oT/Ec8SzwxFnEgyuIFCrvti9
+hLxMIfcw5UGAXabiBPzw1ztnWMOQuuSn1EhyB8HgejqdzK6RpaxeMJ8w7kdeVmulVPpUghhqLEyx
+Sj6QreaD67PkY8zJ18MxVhxwVRxjoOtpMFEN4Np0OhtcsdF8bM6hhwLmWo8bropiMu2Mu6claFO3
+hKXfdj4JplfXDBP0bgXnig+uDd+4M5J38zEwKZli+NAwjjqM9tyGskjq4gyTKrm9KcSzB44D1VJC
+iYN/sQXyYr2NIU2SQlfgK9UHZYckd8iy9K98D1qXsBB/3I5uhj9gBaQKcS8RoIBGsMmViVnZLMxE
+hDYiMBEPEgGZ0/2MTcTaNRKC2bgwE5MncmGmJiZ2YWYmZisx09o8ICk6M7BArMxczQZQgE4jaFKB
+zZZ+AKxaATa5Nvu8lyDMtwaRoa8UpMtDRh46WEhKHxQELrojMpa1ZsGyIQnf9AUjI0gKLtbBtue5
+qcJWQmzlofw/ojw2g8VTmyeuint5g8FFT56qrCBgcxrCyExCBw2VWUGgNloaIuVa07h0NoJkAJEM
+BviEtTIU65adrsmi3EqMLTRM2xI6mGKJv89+kMdQXt7oVV5B4NJKRmwgdNAwYgMPCmNIT7K81jy1
+gCOi78YIByS3kYwq9a/IEGPdtjMNKr/E2PLDmF+Rv9dhsNnSn7R1Lm8weGxqKYkCKwXpPiEYtRMH
+DSNiPChM198ntNA1D6pN0rUxgsQQIiNIshTrYDtL0n4rIbbQuEmkD9kpOGuvzNjIMnLS470E9Rq5
+gnSNPCBzCx00VHkFAc/USQ6o8poGlSdVuOkLRkaQjC7WwbZrosNWQmzloeAs5T/iMMhjOIy80esw
+CgKrr1WMiBI6aCyHURgoLs3DyPpaax63wxjhMUlbJKPKYWZE2li37XRPprGVGFt+fHl+d+FjI0Nr
+eaNXawUxtCZWGTpoaJErSFfqgDjIWtPUUptbik1fMDKCtMh1sJWZZGIrIbbKsKu2VJZF3msw2Mzw
+cXmj18cVBPKtazEgtRg6aCwfVxiYkeaxfFzzuHzcCBKhIiNIhdbBtmvSfishttDos5bSb9iT1+2o
+l0/JwO4VqtfMG4zh5qSKwwbU3d4TzEODMfycbs0bkHPntzGjZDZRE507d41NtDtERl1FgRx5gOlb
+efiIrTMkMrxG3ek1mwZjuA2pobABwd5Xl7hl7Q2oaziWtzegsVTS2j6acbKrilRUufucuFncNu4M
+00qElMmRCHyFogb/Buth8tWr866k7vTrLluxru5jUnehi8gqfkXUlZ0+FdctkcvozSgZRKSir7wy
+tW37NJdjdGiOb1Mf0Vy+hXX27Sg2VH+v4TeYruOPSX2EDQh2YW2tW6Kr3no9v2Vymb4ZJSsuMqMk
+JXEbbcdIGLYK49AcSu4Vzd/3poq1C5KbX89MyYbsXqHQ/7Se5Cm7ajDdJ8GYrO6wAXWJbBOSY8Kq
+1L3ZJqRA8lFAn12btqM6b0T8qAmrhwEJx03YGCYpsq0COZIDy/j/SQ4SGTsiJu/0rxCFMVYIyVbo
+IrI2RQ2of4XoITlXiBEl9R01HcxcX9HGbbStA8KwVRhHEvANjLoSG0FN9e5BUVl7PZDU3ytU/3qQ
+TPg801U8Jh4UuogI5qHBdJfD2NoZqd5e2RkZUTKbqOlAtrXWgm7bzsPKgsQ4soAvYjQLH9oYIZG5
+MZJ30CK1vqTKV0xhwCs0ZkwGHzagLpHtSYoJylkz2Z6kh1Q/oe2NkRmnXzhF7UiwvZUI3bodApnL
+VjE4EoHvau5E9K8HbGdakLyDRaOVsHRXGBixxkzIfEI4XEVqg8i2IAWCS8tEHk/rlslpQbofjBLF
+IrMtGWPcRtvuCQMeEuM8OprLM1d5rHXmxYHj2WzppeIJT0mnYHb6rjprDhZ3dXt6f7a4m+P3mvQ+
+Gy3uoPJdkQlEnFwMyGCseCas6eCc9nKE3xFUWQqHwHuRV3h0jU7zcoFD2VysRK5+jIANL8mB/54U
+hywvvRMcVOORL55/FvJcWP4Dh9z1MZ48z64/HuFnBhxOIEb4VfpeiKr5R3F+5dXTxRNFBsfI9S8H
+lv5FFFWRZBWQLzIYUxHv6mNgSbWuObzklB3yb1l1VIPCU3ecn/4txO1/AAAA//8DAFBLAwQUAAYA
+CAAAACEAxMCWyAEKAAAEIAAAFAAAAHhsL3NoYXJlZFN0cmluZ3MueG1stFlbb9vIFX434P8w1UOR
+ArZ1t2XXVkArsq1asgRRcRoEeRiTI4sbiuSSQzvqUx5SoCgKtECxwG42Wyz6UKDAAkXR3W4X6K/Z
+x0T5D/2GF11mKNtJs48czpz7+c6ZM/v3n49tcsX8wHKdg1xxq5AjzDFc03IuD3IPB0ebtRwJOHVM
+arsOO8hNWJC7X19f2w8CTnDWCQ5yI869vXw+MEZsTIMt12MO/gxdf0w5Pv3LfOD5jJrBiDE+tvOl
+QmE7P6aWkyOGGzocfEs71RwJHevTkDWSpWo5V98PrPo+r/d899Kn4/08r+/nxVK83GefhpbPxszh
+5Nh3Q0/e0HDHHuPQZyL/SY6aRDO4dWVxiwXylqPHxW1y0iOnfdI8JseubZKG7YYmOQwt22Q+0T1m
+WNS2Ai4f1RyFYXxU842RxZmhnBgwY+RYBrUlUsLEe4FHDZgeNgyYf8VydUil6U2ySR5QTkkD+kMc
++CgRcMaFnJfW11x/fQ0HOjQQu+54rpiea971RBkxIfnnsWrU2AwtCAyHcsRcnmiD3qaQSneH/Jr6
+TKJyiwW6HosJBaQL47KAx5/kqlhIdUhU0IXxYIGQuwhM8F7eM+jBoLF8YqdlsKWtFVW/M1eStR4f
+P3Xca5uZl4w0fGZaXAmtWzf0bEYDRgLGSK/dGRDlAPEoyCPFiMk4tWyFRaIItVUf6FmLGgKTXcW5
+dI6gNskRiK9IvIzUOGP82vWfATZuyIuFTfC4ZLxbHH1ks+fJeZIZ4HFkL25LwwyKnCOgJX71BWlk
++96wtfMeki/l3KJkumuHIgKDSLA4Q5vLKbpiOxL6BuEyXZvhrSQVViNYsiG1IESVuN7iLQRO26LA
+5ZTTTOGUpHDKHJ1i5ymbb3C0sneRcG0rw9/JCdnXSuok+7oOO7fY9V31hsZmaHCgsc+tocVMoAlg
+N6FCilsl4JFErJ4qkZWRK9wGXApuSDFBUUDXnbQUG+8cMtz1BebcEDPJjtQRAmHh1/z7ZEwSBymv
+WdQsBMKsNC3ni36nM2k5u3H3LCyllLztkOLdRCTZF6v2ZbliVZ6hXoqgWQq3pugDPN9C5ZgDzJNS
+obj9VA29k16TtBn1HZTE1gNZpCPLR393RsdyOa630Udk/lisIIOJpxxc/J90XZMMzgvbZKHQ7aAm
+G1HTZ8o/W46JRs4MqU06jBPNtkk+qb/y1obF1f5MdJ2+snzoU8cYkbZrxB2Daqlee6dYLe/WikWZ
+zds/fvHui8/l1elX38pLCWTELOSfyIjNB42GSICS/O89+kD56PTl6+mr/8irp315BeqVapVSqVyT
+/7z917fTl1/Lq29+eCEvrWiCdGbbol2AEifMFmCR9CyzpBcdbYJnwQbps6stUqxsVRRD378vs9Td
+kI/IqYtbh/wr8le1VC3tyH+mv//h3Ze/U1ZfKzq2Bt3OHmm4jsE8HkSNd8+3HMPyREa6w8W+cd6V
+d6gD/IwuK6Jvi9J3Q+iHuwcpFgoyY828QuyhjnyIoYrVLTUgI19uF4s1RfUOHDEJZQlOrqlzKS/q
+jeYmgAYAU9yW/wlMeS9YkgkI5+zUajs7SqhPv/7s7T/+m7G/VCmUd6uKRr/qnh0T/aF8oN1sykvC
+KpVCdbeo0Jh++afpq7/L+yGJvBSRKNcKlbL8Bxny5vvX8mq0v1or1Cryn+lfvsmIQbG/BscVVBH/
++ts33ytmmX6XzbJQrVUUEs8mzHUuR8pd5pMM5wswShpTANK54qUZIC12rwu1WznwqK2dkYGPWQAi
+UDYGqJV2SwWiX1scIJykylmvRXSt3dRn58i9I3bhh9SfEBS7MsGOX2TQKu5WZVonvbMkYFMZyBMN
+FdQWhKpPyb1Hh4MNUqySseWEnAUKWdHbwCLiZoKMOFegCSrc6RIgi/vIcggfMULTgUHoo7BdUM5t
+RmCOEWATuTZB9b6coNM8c3F3u0ApF3LLxI5c23avI3qPMC/BdrRocbsqYJe7RHQ27Ihe+JYBKFK0
+UAkcM2c3wmZMjkjX81yfY3rDJ6LvNKJb4CZEUdJBJXRk02BEHMbMgLTyXSHMhVgRx5XsyDhuXUCh
+xog6DrOJ57vcNVwbp4XxGiNXdLgAZPHVcTG0cZZGJoKJEpLCo8Ie8KeIccUYsxi/sR1UjiGHi9Xq
+znZNcc+7z1+++e4b2WnvPsvK4cJ2rVzZVuw6ffkVqMgkUOPlJR3pdhRimifqELWDJMJrZOSGvhre
+sXfkaNE8z8asKhqhaIbB7GQEIzMbsGcDaj+DN1JT9cQIy0HN3Dxj16Sja4i2SoH8+OLP5BAV9FL0
+A+JPG6MICCdK6RDF0qQXli2iC9GB2oM8TwkmCRqJryRnZHLRmimBBGNNX/1TlvfNv/8gL81VOGUT
+iDYbcsx7elHMERNCItZFwU5BI5KJlAsrsWNOG3dHMRQU2oNSuaf1Y3Ki+UmzfQUDRek5VZD6dW+H
+nFvITYBHarIOxajHQc/x5HzzwWkjmKHcrQILyJGEi8A4uojMADS2R5M8sAIDqOSjeXZMwIxAJoSC
+cG8GIXRT2HuJdidIbk0PBZ5skGM08wMIDKTbgPOR6aInekR9dOaICBAU9UAVQR90+9oxMLLXbLS0
+dksf6Buk12/GpePndOz9kjS0QfO4239MOtoZ9vZ12f0RyCbyzCBWcxxcFox5Kyd2rdC2C6WuMEWI
+RnUZIpE7CpI6rwXeV1HmBRFJMeF2A3qBqtByhj7F+BNDiNBnG+QEdzB/c27XqJtOCgbgcqYCGlge
+eSRLhZsMckgDywgEroZgv7uX1IOoH07lTYLP+k0ks0wtiVWcTGyc4sMeXA7EBj6gChTm875IsT4z
+2TBqGFIwGGFsjD45JvLji79pl2gofraSW5pjUeRE/ffeLO+6OilvlbaKkXV71OeIu2AFJQSfSmph
+UTOph9cFRmIYbSDx4pntKrqgNtNZuCsCR3gQxdoGyAI202xeYdDUjmlBTBiR0DPF3flJJcb5p7JC
+d2A8sGCpzB7tNpEbrgfAjudSiinvwPlhIEYUYrYxxDuILPoS3jU20yaRPcebEHNID53J0MX1cgmW
+FdSEGKnt0kFenw2Zj7cjRo5DyxT5Ne+ZVgsxp5JWulmMiF8sgnQBkVFMyHQghgSwO4VCgZxQ3xRP
+I7gDD1FBR+ReAoSiiqtVe8kkEb15pAvAjBBYZrRwPUXEBS5SurSlXEpnGZtIukcO8eSCdwKK8iUm
+k0K1hx4ed0x8iBjuswtqC9BWXJ++wa2v9RDb4JlfnBR4I7w3gmbPB02Ht8yDXClHOEDtIOe4MayJ
+R8tcfulNUIvfMcyPSvSYeh+V3sLD5fpa9HIpZlbxFOMD9U4yfX1tNnr7QELq2Hl9LR7MrHj3/Ih8
+Fvoracz8EZmIDASg/LQMolz4CVkk9fL/5ZDHK379fwAAAP//AwBQSwMEFAAGAAgAAAAhAOwnWlY7
+AQAAWwIAABEACAFkb2NQcm9wcy9jb3JlLnhtbCCiBAEooAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAJSSX0vDMBTF3wW/Q8l7m6SFKaHtQGVPDgQnim8huduKzR+SaLdvb9putTJffMw95/7u
+uZeUy4Nqky9wvjG6QjQjKAEtjGz0rkIvm1V6ixIfuJa8NRoqdASPlvX1VSksE8bBkzMWXGjAJ5Gk
+PRO2QvsQLMPYiz0o7rPo0FHcGqd4iE+3w5aLD74DnBOywAoClzxw3ANTOxHRCSnFhLSfrh0AUmBo
+QYEOHtOM4h9vAKf8nw2DMnOqJhxt3OkUd86WYhQn98E3k7HruqwrhhgxP8Vv68fnYdW00f2tBKC6
+lIIJBzwYV/u9B1PiWaW/Xst9WMdDbxuQd8ez6VKIpCH4iAOZxChsDH5WXov7h80K1Tmhi5QUaX6z
+oTkjBcvJez/3V38fbSyo0/R/EemMeAbUJb74DvU3AAAA//8DAFBLAwQUAAYACAAAACEA+cEoY7IB
+AAAAKAAAJwAAAHhsL3ByaW50ZXJTZXR0aW5ncy9wcmludGVyU2V0dGluZ3MxLmJpbuyYu07DMBSG
+f9OUBhjKIzAgwYJUqoqBqRWwlSlCYmGolAohcZFokRjDnoGZ5+BdWHgCnoJjp0moSKKkbhHQ/6Tx
+/RzHX5342B4GuMEID7jFJbZwij720MY+DtCSvIch7nEl4QhZohw479jeab49KQWFj/U715e4gfMV
+SAzUJOyL/lgubWt+oq1LJ7ninRwd51ZaV+jeU4ly02VpLVPLSUDPh7XlHDpHXYLAZok2szSpzaL0
+4zqPstIAPbO+DHBt2X/07Q2CQOw880NsSfOfqDsVxnEmLtBYXJ2xTMUh/Aqai2nawqG4YF/von7i
+Ga+fu8gpKrKRVVeXQu3Ktb9dWa3zy6r8E/lWFlfTQ8fKeMzfygiVgWYMQfnyEir9Iia/zKltyCf4
+zS5kYiIpjE3mxEpLVJemctpWKp59HW5IP+I5Tkc633FfNvRtnqOLrsT1VccUK9lrwaRedy86ZvNl
+WjEgARIgARIgARIgARIggTkTKOtpz7lbmvs9BGSTRiEBSwIqOsC1tZLo258uKxdhGCYGmVh6ArLY
+peudPqGhkAAJkAAJkAAJkMAfIvAJAAD//wMAUEsDBBQABgAIAAAAIQAUg7ofsQEAAEcDAAAQAAgB
+ZG9jUHJvcHMvYXBwLnhtbCCiBAEooAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJyTwW7U
+MBCG70i8g+V71+lSIbRyXK1aoEggVtq098GebCwc27K90S43rsAb0EfgAXio9h1wNrSbwAGJ28z8
+v/58Gdv8fNca0mGI2tmSns4KStBKp7TdlPS6enXygpKYwCowzmJJ9xjpuXj6hK+C8xiSxkhyhI0l
+bVLyC8aibLCFOMuyzUrtQgspt2HDXF1riZdOblu0ic2L4jnDXUKrUJ34x0A6JC669L+hysmeL95U
+e5+BBa+w9QYSCs6O5dJ7oyWk/OvinZbBRVcn8nIn0XA2FnlGXqPcBp32ouBs3PK1BIMX+WuiBhOR
+s+OAXyH0m1yBDlHwLi06lMkFEvWnvMs5JR8gYs9Y0g6CBpsya28bmkNtfExB3H3/dv/5x93X2/sv
+PznLlmF8KMfuca3PxPxgyMXU2AcMKFmYQlY6GYzv6xWE9C/mA8NAPOC8Bk+WFsw+6jimfOR9Y5Xu
+tNqCIUvZaOywvwkT74TtD5q32n6M175yl/1Z/t73dMjXDQRU+Yge9OOAX+VVB9OHXDRgN6gePH8L
+PF+Am+FdiNOzWfGsyAc/mnF2fAHiFwAAAP//AwBQSwECLQAUAAYACAAAACEAIYxGOnYBAACMBQAA
+EwAAAAAAAAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQC1VTAj
+9QAAAEwCAAALAAAAAAAAAAAAAAAAAK8DAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQBKqaZh
++gAAAEcDAAAaAAAAAAAAAAAAAAAAANUGAAB4bC9fcmVscy93b3JrYm9vay54bWwucmVsc1BLAQIt
+ABQABgAIAAAAIQDgo1wxVAEAADgCAAAPAAAAAAAAAAAAAAAAAA8JAAB4bC93b3JrYm9vay54bWxQ
+SwECLQAUAAYACAAAACEAl0O5XXwFAADCHgAADQAAAAAAAAAAAAAAAACQCgAAeGwvc3R5bGVzLnht
+bFBLAQItABQABgAIAAAAIQA7bTJLwQAAAEIBAAAjAAAAAAAAAAAAAAAAADcQAAB4bC93b3Jrc2hl
+ZXRzL19yZWxzL3NoZWV0MS54bWwucmVsc1BLAQItABQABgAIAAAAIQA+ISF60B0AABzNAAAYAAAA
+AAAAAAAAAAAAADkRAAB4bC93b3Jrc2hlZXRzL3NoZWV0Mi54bWxQSwECLQAUAAYACAAAACEAyHvW
+qfwGAACKHQAAEwAAAAAAAAAAAAAAAAA/LwAAeGwvdGhlbWUvdGhlbWUxLnhtbFBLAQItABQABgAI
+AAAAIQCFqyJS5wcAAFAhAAAYAAAAAAAAAAAAAAAAAGw2AAB4bC93b3Jrc2hlZXRzL3NoZWV0MS54
+bWxQSwECLQAUAAYACAAAACEAxMCWyAEKAAAEIAAAFAAAAAAAAAAAAAAAAACJPgAAeGwvc2hhcmVk
+U3RyaW5ncy54bWxQSwECLQAUAAYACAAAACEA7CdaVjsBAABbAgAAEQAAAAAAAAAAAAAAAAC8SAAA
+ZG9jUHJvcHMvY29yZS54bWxQSwECLQAUAAYACAAAACEA+cEoY7IBAAAAKAAAJwAAAAAAAAAAAAAA
+AAAuSwAAeGwvcHJpbnRlclNldHRpbmdzL3ByaW50ZXJTZXR0aW5nczEuYmluUEsBAi0AFAAGAAgA
+AAAhABSDuh+xAQAARwMAABAAAAAAAAAAAAAAAAAAJU0AAGRvY1Byb3BzL2FwcC54bWxQSwUGAAAA
+AA0ADQBsAwAADFAAAAAA
+
+--_004_327B51700086C0479B084D86D0B0E45C04B32B15D97BMAILSERVERa_--

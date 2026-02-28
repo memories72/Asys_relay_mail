@@ -1,0 +1,942 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id mGzxDgnGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:09 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 3175314C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:09 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553648480809770331
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp1239410wma;
+        Tue, 13 Dec 2016 21:30:34 -0800 (PST)
+X-Received: by 10.55.78.147 with SMTP id c141mr98323018qkb.4.1481693433296;
+        Tue, 13 Dec 2016 21:30:33 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.200.39.170 with POP3 id w39mf264952767qtw.3;
+        Tue, 13 Dec 2016 21:30:32 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 6638 invoked by uid 700); 14 Dec 2016 13:53:41 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	14 Dec 2016 13:53:41 +0900
+Received: (qmail 14167 invoked by uid 700); 14 Dec 2016 13:53:41 +0900
+Received: from unknown (HELO ?192.168.101.41?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	14 Dec 2016 13:53:41 +0900
+Subject: =?utf-8?B?UmU6IEhQRSDtjIztirjrhIggRW5hYmxlbWVudCDrpbwg7JyE7ZWc?=
+ =?utf-8?B?IFByZXNhbGVzL0VuZ2luZWVyIOuLtOuLueyekCDtmZXsnbjsmpTssq0gKDE1?=
+ =?utf-8?B?7J286rmM7KeAIO2ajOyLoOyalOyyrSk=?=
+Mime-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_243F76EB-67CC-4BDD-BFBF-792F759021BE"
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+X-Priority: 3
+In-Reply-To: <d97f7494120e527aa048c17b57499f98@whoisdesk.com>
+Date: Wed, 14 Dec 2016 13:53:40 +0900
+Cc: =?utf-8?B?6rmA7YOc7IOB?= <ts.kim@agilesys.co.kr>,
+ =?utf-8?B?7Jyg7J6s64yA?= <jdyu@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <379F2F10-C13A-434D-9287-CB886EC7EF67@agilesys.co.kr>
+References: <d97f7494120e527aa048c17b57499f98@whoisdesk.com>
+To: =?utf-8?B?6rmA7KKF7ISd?= <bost12@agilesys.co.kr>
+
+
+--Apple-Mail=_243F76EB-67CC-4BDD-BFBF-792F759021BE
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+=EC=83=81=EB=AC=B4=EB=8B=98 =EC=9A=94=EC=B2=AD=ED=95=98=EC=8B=A0 =EB=AC=B8=
+=EC=84=9C =EC=B2=A8=EB=B6=80=ED=95=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.=
+
+
+=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+
+----------------------------------------------------------------------
+=C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+ NI Team
+ =ED=99=A9 =EB=AF=BC=EA=B7=9C =EC=B0=A8=EC=9E=A5
+ Phone : 070-7114-0049
+ Cellular : 010-3191-0811
+=C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+----------------------------------------------------------------------
+
+> 2016. 12. 14. =EC=98=A4=EC=A0=84 10:19, =EA=B9=80=EC=A2=85=EC=84=9D =
+<bost12@agilesys.co.kr> =EC=9E=91=EC=84=B1:
+>=20
+> =ED=8C=80=EC=9E=A5=EB=8B=98=EB=93=A4=EC=9D=80 =EC=B2=A8=EB=B6=80=EB=90=9C=
+ =ED=99=94=EC=9D=BC=EC=97=90 =EB=AA=85=EB=8B=A8 =EC=9E=91=EC=84=B1=ED=95=98=
+=EC=97=AC =EC=A0=80=ED=95=9C=ED=85=8C =EB=B3=B4=EB=82=B4=EC=A3=BC=EC=84=B8=
+=EC=9A=94
+>=20
+>=20
+> -----Original Message-----
+> From: =EC=84=9C=EC=84=9D=ED=98=84 <shseo@agilesys.co.kr>
+> To: =EA=B9=80=ED=83=9C=EC=83=81 <ts.kim@agilesys.co.kr>, =EC=9C=A0=EC=9E=
+=AC=EB=8C=80 <jdyu@agilesys.co.kr>, =EB=B0=95=EC=98=81=EC=B2=A0 =
+<yc.park@agilesys.co.kr>, =ED=99=A9=EB=AF=BC=EA=B7=9C =
+<mg.hwang@agilesys.co.kr>
+> Cc: =EA=B9=80=EC=A2=85=EC=84=9D <bost12@agilesys.co.kr>, =EA=B9=80=EB=B3=
+=B4=EC=84=A0 <bs.kim@agilesys.co.kr>
+> Sent: 2016-12-14 09:17:33 (=EC=88=98)
+> Subject: FW: HPE =ED=8C=8C=ED=8A=B8=EB=84=88 Enablement =EB=A5=BC =
+=EC=9C=84=ED=95=9C Presales/Engineer =EB=8B=B4=EB=8B=B9=EC=9E=90 =
+=ED=99=95=EC=9D=B8=EC=9A=94=EC=B2=AD (15=EC=9D=BC=EA=B9=8C=EC=A7=80 =
+=ED=9A=8C=EC=8B=A0=EC=9A=94=EC=B2=AD)
+> =EA=B0=81 =ED=8C=80=EC=9E=A5=EB=8B=98=EB=93=A4=EA=BB=98 =EC=A0=84=EB=8B=AC=
+ =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+> HP=EC=97=90 =ED=9A=8C=EC=8B=A0 =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4.
+> =20
+> -----Original Message-----
+> From: You, Jeongyeon
+> To:
+> Sent: 2016-12-13 23:49:26 (=ED=99=94)
+> Subject: HPE =ED=8C=8C=ED=8A=B8=EB=84=88 Enablement =EB=A5=BC =EC=9C=84=ED=
+=95=9C Presales/Engineer =EB=8B=B4=EB=8B=B9=EC=9E=90 =ED=99=95=EC=9D=B8=EC=
+=9A=94=EC=B2=AD (15=EC=9D=BC=EA=B9=8C=EC=A7=80 =ED=9A=8C=EC=8B=A0=EC=9A=94=
+=EC=B2=AD)
+> =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94Enablement=EC=9C=A0=EC=A0=95=
+=EC=97=B0=EC=9E=85=EB=8B=88=EB=8B=A4.
+>=20
+> =20
+> FY17=EC=97=90=EB=8A=94=ED=8C=8C=ED=8A=B8=EB=84=88=EC=82=AC=EC=9D=98skill=
+ enable=EC=9D=84=EC=9C=84=ED=95=9C=EB=B0=A9=EC=95=88=EC=9D=84  =
+=EA=B0=95=EA=B5=AC=ED=95=98=EA=B3=A0=EC=9E=90=EB=AA=A8=EC=83=89=ED=95=98=EA=
+=B3=A0=EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+>=20
+> =EC=9D=B4=EC=97=90=ED=8C=8C=ED=8A=B8=EB=84=88=EC=82=AC=EB=B6=84=EB=93=A4=
+=EC=9D=98=EA=B8=B0=EC=88=A0=EB=8B=B4=EB=8B=B9=EC=9E=90 =
+(Presales=ED=98=B9=EC=9D=80Engineer)=EB=AA=85=EB=8B=A8=EC=9D=84 =
+(=EC=84=B1=ED=95=A8/=EC=9D=B4=EB=A9=94=EC=9D=BC)=EC=9A=94=EC=B2=AD=EB=93=9C=
+=EB=A6=BD=EB=8B=88=EB=8B=A4.
+>=20
+> =20
+> =
+=EB=82=B4=EB=B6=80=EC=A0=81=EC=9C=BC=EB=A1=9C=EA=B5=90=EC=9C=A1=EC=A7=84=ED=
+=96=89=EC=8B=9C=EC=A0=84=EB=8B=AC=ED=95=B4=EC=A3=BC=EC=8B=A0Dedicated=EA=B8=
+=B0=EC=88=A0=EC=A0=84=EB=AC=B8=EC=A7=81=EC=9B=90=EB=B6=84=EB=93=A4=EC=9D=84=
+=EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C=ED=95=98=EC=97=AC=EC=A7=80=EC=86=8D=EC=
+=A0=81=EC=9C=BC=EB=A1=9C=EA=B4=80=EB=A6=AC=ED=95=98=EA=B3=A0=EC=9E=90=ED=95=
+=A8=EC=9E=85=EB=8B=88=EB=8B=A4.
+>=20
+> =
+=EB=A7=A4=EB=B2=88=EA=B5=90=EC=9C=A1=EB=95=8C=EB=A7=88=EB=8B=A4=ED=8C=8C=ED=
+=8A=B8=EB=84=88=EC=82=AC=EB=8C=80=ED=91=9C=EB=A1=9C=EC=B0=B8=EC=84=9D=ED=95=
+=B4=EC=A3=BC=EC=8B=9C=EB=8A=94=EC=97=94=EC=A7=80=EB=8B=88=EC=96=B4=EB=B6=84=
+=EC=9D=B4=EB=B0=94=EB=80=8C=EB=A9=B4=E2=80=93=EA=B5=90=EC=9C=A1=EA=B4=80=EB=
+=A6=AC=EB=B0=8F=EA=B8=B0=EC=88=A0=EC=9C=A0=EC=A7=80=EA=B0=80=EC=95=88=EB=90=
+=98=EC=84=9C=EC=9A=94~
+>=20
+> =20
+> =
+=EC=B2=A8=EB=B6=80=ED=95=9C=EC=97=91=EC=85=80=ED=8C=8C=EC=9D=BC=EC=97=90=ED=
+=95=B4=EB=8B=B9=EB=B6=80=EB=B6=84=EB=A7=8C=EA=B8=B0=EC=9E=AC=ED=95=98=EC=8B=
+=9C=EC=97=90=EC=A0=80=EC=97=90=EA=B2=8C=EC=A0=84=EB=8B=AC=EB=B6=80=ED=83=81=
+=EB=93=9C=EB=A6=AC=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.
+>=20
+> =20
+> =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+>=20
+> =EC=9C=A0=EC=A0=95=EC=97=B0=EB=93=9C=EB=A6=BC.
+>=20
+> =20
+> Jeongyeon You (Jenny)
+>=20
+> Country Manager
+>=20
+> Partner Ready Certification and Learning
+>=20
+> EG Enablement
+>=20
+>=20
+> Office +82 2 2199 0318 =20
+> Mobile +82 10 3909 4255 =20
+>=20
+>=20
+> My Learning Portal :www.mylearninghpe.com =
+<http://www.mylearninghpe.com/>
+> Contact support team atclsupport.kr@hpe.com
+>=20
+> =20
+> +~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+
+>=20
+>=20
+> (=EC=A3=BC)=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4 =EC=84=9C=EB=B9=84=EC=8A=
+=A4=EC=82=AC=EC=97=85=EB=B6=80 =EC=B0=A8=EC=9E=A5 =EC=84=9C=EC=84=9D=ED=98=
+=84
+>=20
+> =EC=84=9C=EC=9A=B8 =EC=84=9C=EC=B4=88=EA=B5=AC =EB=B0=98=ED=8F=AC=EB=8F=99=
+ 67-3=EB=B2=88=EC=A7=80 =EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9 3=EC=B8=B5 =
+137-804
+>=20
+> Tel. 070-7114-0071 Mobile. 010-2491-2352
+>=20
+> Fax. (02)586-5070 E-mail. shseo@agilesys.co.kr =
+<mailto:shseo@agilesys.co.kr>
+>=20
+> +~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+
+>=20
+> <=ED=8C=8C=ED=8A=B8=EB=84=88 =EA=B8=B0=EC=88=A0=EC=9D=B8=EB=A0=A5.xlsx>
+
+
+--Apple-Mail=_243F76EB-67CC-4BDD-BFBF-792F759021BE
+Content-Type: multipart/mixed;
+	boundary="Apple-Mail=_66968C67-6B65-427E-B895-963B2BAEB5F3"
+
+
+--Apple-Mail=_66968C67-6B65-427E-B895-963B2BAEB5F3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=EC=83=81=EB=AC=B4=EB=8B=98 =EC=9A=94=EC=B2=AD=ED=95=98=EC=8B=A0=
+ =EB=AC=B8=EC=84=9C =EC=B2=A8=EB=B6=80=ED=95=B4=EB=93=9C=EB=A6=BD=EB=8B=88=
+=EB=8B=A4.<div class=3D""><br class=3D""></div><div =
+class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.</div><div =
+class=3D""></div></body></html>=
+
+--Apple-Mail=_66968C67-6B65-427E-B895-963B2BAEB5F3
+Content-Disposition: attachment;
+	filename*=utf-8''%E1%84%91%E1%85%A1%E1%84%90%E1%85%B3%E1%84%82%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A7%E1%86%A8%5FASYS.xlsx
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+	x-unix-mode=0644;
+	name="=?utf-8?B?4YSR4YWh4YSQ4YWz4YSC4YWlIOGEgOGFteGEieGFruGGr+GEi+GFteGGqw==?=
+ =?utf-8?B?4YSF4YWn4YaoX0FTWVMueGxzeA==?="
+Content-Transfer-Encoding: base64
+
+UEsDBBQABgAIAAAAIQBU4NJlcAEAAAQFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs
+VEtuwjAQ3VfqHSJvq8TQRVVVBBb9LFsk6AFMPEksEtvyDBRu34kpqKpoEIJNoth+n3mZ8WiyaZtk
+DQGNs7kYZgORgC2cNrbKxef8LX0UCZKyWjXOQi62gGIyvr0ZzbceMGG0xVzURP5JSixqaBVmzoPl
+ndKFVhF/hkp6VSxVBfJ+MHiQhbMEllLqOMR49AKlWjWUvG54eeeE4SJ53p3rpHKhvG9MoYiNym5X
+HsUFaLAHuLb6j7v0x1nGyEiOtfF497/CwtjzBFxZmgK0K1YtF52hD6A01gDUNpkPhrMIMyDiyLGr
+6oN/RzAakqkK9K5arl1uGvnlwnLh3DLrj+ZIhb0GopGsVcbua+7Rj4dRxtfwyka6+iLxCR/EPQYy
+Pi+3EGlOCCJtG8Brxx5JTynXKoCeEfdIdXUDv7n7fHDjToPzyFMb4PwU9uPVoVPPRBDIwGHAjjXb
+QZFH/uLYobtTNOgj2jLeYeNvAAAA//8DAFBLAwQUAAYACAAAACEAUHxOwfMAAABMAgAACwAIAl9y
+ZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAKySz0oDMRCH74LvEObenW0FEWm2FxF6E6kPMCazf9hNJiRRt29vEBQX
+avXgMTOTb778yHY3u0m9ckyDeA3rqgbF3ogdfKfh6XC/ugGVMnlLk3jWcOQEu+byYvvIE+VyKfVD
+SKpQfNLQ5xxuEZPp2VGqJLAvnVaio1yOscNAZqSOcVPX1xi/M6BZMNXeaoh7uwZ1OIay+Xe2tO1g
++E7Mi2OfT6zA5UQhU+w4a5gnfJM4PouMVREGPO2y+bvLz+9Ex5ksZUIjkVchlpRiHkquXzpWzEMp
+p4+Jc0JX/xkOz5m9ZXteiUL4NMLFH2jeAQAA//8DAFBLAwQUAAYACAAAACEAjJbFbvMAAAC6AgAA
+GgAIAXhsL19yZWxzL3dvcmtib29rLnhtbC5yZWxzIKIEASigAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+cy54bWxQSwECLQAUAAYACAAAACEAiFHyVXYBAAB7BQAAIwAAAAAAAAAAAAAAAADaDQAAeGwvd29y
+a3NoZWV0cy9fcmVscy9zaGVldDEueG1sLnJlbHNQSwECLQAUAAYACAAAACEAbBOBq50GAACPGgAA
+EwAAAAAAAAAAAAAAAACRDwAAeGwvdGhlbWUvdGhlbWUxLnhtbFBLAQItABQABgAIAAAAIQDnlCzb
+IgQAACQOAAANAAAAAAAAAAAAAAAAAF8WAAB4bC9zdHlsZXMueG1sUEsBAi0AFAAGAAgAAAAhAHXs
+pNoDBwAACiUAABgAAAAAAAAAAAAAAAAArBoAAHhsL3dvcmtzaGVldHMvc2hlZXQxLnhtbFBLAQIt
+ABQABgAIAAAAIQA9srbobAEAAHgCAAARAAAAAAAAAAAAAAAAAOUhAABkb2NQcm9wcy9jb3JlLnht
+bFBLAQItABQABgAIAAAAIQCcocGm0gEAADgoAAAnAAAAAAAAAAAAAAAAAIgkAAB4bC9wcmludGVy
+U2V0dGluZ3MvcHJpbnRlclNldHRpbmdzMS5iaW5QSwECLQAUAAYACAAAACEAvwaAHa8BAAAsAwAA
+EAAAAAAAAAAAAAAAAACfJgAAZG9jUHJvcHMvYXBwLnhtbFBLBQYAAAAADAAMACYDAACEKQAAAAA=
+--Apple-Mail=_66968C67-6B65-427E-B895-963B2BAEB5F3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div class=3D""><br class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">---------------------------------------------------------------=
+-------</div><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS =
+Co. Ltd.</a></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;=ED=99=A9 =
+=EB=AF=BC=EA=B7=9C&nbsp;=EC=B0=A8=EC=9E=A5<div class=3D"">&nbsp;Phone : =
+070-7114-0049</div><div class=3D"">&nbsp;Cellular : 010-3191-0811<br =
+class=3D""><a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a></div><div =
+class=3D"">---------------------------------------------------------------=
+-------</div></div></div></div></div></div></div></div>
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">2016. 12. 14. =EC=98=A4=EC=A0=84 10:19, =EA=B9=80=EC=A2=85=EC=84=
+=9D &lt;<a href=3D"mailto:bost12@agilesys.co.kr" =
+class=3D"">bost12@agilesys.co.kr</a>&gt; =EC=9E=91=EC=84=B1:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><p =
+class=3D"">=ED=8C=80=EC=9E=A5=EB=8B=98=EB=93=A4=EC=9D=80 =EC=B2=A8=EB=B6=80=
+=EB=90=9C =ED=99=94=EC=9D=BC=EC=97=90 =EB=AA=85=EB=8B=A8 =EC=9E=91=EC=84=B1=
+=ED=95=98=EC=97=AC =EC=A0=80=ED=95=9C=ED=85=8C =EB=B3=B4=EB=82=B4=EC=A3=BC=
+=EC=84=B8=EC=9A=94</p><p class=3D""><br class=3D"">
+		</p><div style=3D"padding:20px 0 20px 10px" class=3D"">
+			<div class=3D"">-----Original Message-----</div>
+			<div class=3D""><strong class=3D"">From:</strong> =
+=EC=84=9C=EC=84=9D=ED=98=84 &lt;<a href=3D"mailto:shseo@agilesys.co.kr" =
+class=3D"">shseo@agilesys.co.kr</a>&gt;</div>
+			<div class=3D""><strong class=3D"">To:</strong> =
+=EA=B9=80=ED=83=9C=EC=83=81 &lt;<a href=3D"mailto:ts.kim@agilesys.co.kr" =
+class=3D"">ts.kim@agilesys.co.kr</a>&gt;, =EC=9C=A0=EC=9E=AC=EB=8C=80 =
+&lt;<a href=3D"mailto:jdyu@agilesys.co.kr" =
+class=3D"">jdyu@agilesys.co.kr</a>&gt;, =EB=B0=95=EC=98=81=EC=B2=A0 =
+&lt;<a href=3D"mailto:yc.park@agilesys.co.kr" =
+class=3D"">yc.park@agilesys.co.kr</a>&gt;, =ED=99=A9=EB=AF=BC=EA=B7=9C =
+&lt;<a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">mg.hwang@agilesys.co.kr</a>&gt;</div>
+						<div class=3D""><strong =
+class=3D"">Cc:</strong> =EA=B9=80=EC=A2=85=EC=84=9D &lt;<a =
+href=3D"mailto:bost12@agilesys.co.kr" =
+class=3D"">bost12@agilesys.co.kr</a>&gt;, =EA=B9=80=EB=B3=B4=EC=84=A0 =
+&lt;<a href=3D"mailto:bs.kim@agilesys.co.kr" =
+class=3D"">bs.kim@agilesys.co.kr</a>&gt;</div>
+						<div class=3D""><strong =
+class=3D"">Sent:</strong> 2016-12-14 09:17:33 (=EC=88=98)</div>
+			<div class=3D""><strong =
+class=3D"">Subject:</strong> FW: HPE =ED=8C=8C=ED=8A=B8=EB=84=88 =
+Enablement =EB=A5=BC =EC=9C=84=ED=95=9C Presales/Engineer =EB=8B=B4=EB=8B=B9=
+=EC=9E=90 =ED=99=95=EC=9D=B8=EC=9A=94=EC=B2=AD (15=EC=9D=BC=EA=B9=8C=EC=A7=
+=80 =ED=9A=8C=EC=8B=A0=EC=9A=94=EC=B2=AD)</div>
+		</div>
+		<div style=3D"padding: 20px 0px 20px 10px" class=3D"">		=
+=09
+<div class=3D"">=EA=B0=81 =ED=8C=80=EC=9E=A5=EB=8B=98=EB=93=A4=EA=BB=98 =
+=EC=A0=84=EB=8B=AC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.</div>
+<div class=3D"">HP=EC=97=90 =ED=9A=8C=EC=8B=A0 =EB=B6=80=ED=83=81=EB=93=9C=
+=EB=A6=BD=EB=8B=88=EB=8B=A4.</div>
+<div class=3D"">&nbsp;</div>
+<div class=3D"">-----Original Message-----</div>		=09
+<div class=3D""><strong class=3D"">From:</strong> You, Jeongyeon =
+<jeongyeon.you@hpe.com class=3D""></jeongyeon.you@hpe.com></div>		=
+=09
+<div class=3D""><strong class=3D"">To:</strong> </div>				=
+	=09
+<div class=3D""><strong class=3D"">Sent:</strong> 2016-12-13 23:49:26 =
+(=ED=99=94)</div>		=09
+<div class=3D""><strong class=3D"">Subject:</strong> HPE =ED=8C=8C=ED=8A=B8=
+=EB=84=88 Enablement =EB=A5=BC =EC=9C=84=ED=95=9C Presales/Engineer =
+=EB=8B=B4=EB=8B=B9=EC=9E=90 =ED=99=95=EC=9D=B8=EC=9A=94=EC=B2=AD =
+(15=EC=9D=BC=EA=B9=8C=EC=A7=80 =ED=9A=8C=EC=8B=A0=EC=9A=94=EC=B2=AD)</div>=
+		</div>	=09
+
+<!--/* Font Definitions */@font-face	{font-family:"Cambria Math";	=
+panose-1:2 4 5 3 5 4 6 3 2 4;}@font-face	{font-family:"=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95";	panose-1:2 11 5 3 2 0 0 2 0 =
+4;}@font-face	{font-family:Calibri;	panose-1:2 15 5 2 2 2 4 3 2 =
+4;}@font-face	{font-family:"HP Simplified";	panose-1:2 11 6 4 2 2 4 =
+2 2 4;}@font-face	{font-family:"@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+";	panose-1:2 11 5 3 2 0 0 2 0 4;}/* Style Definitions =
+*/p.MsoNormal, li.MsoNormal, div.MsoNormal	{margin:0cm;	=
+margin-bottom:.0001pt;	font-size:11.0pt;	=
+font-family:"Calibri",sans-serif;}a:link, span.MsoHyperlink	=
+{mso-style-priority:99;	color:#0563C1;	=
+text-decoration:underline;}a:visited, span.MsoHyperlinkFollowed	=
+{mso-style-priority:99;	color:#954F72;	=
+text-decoration:underline;}span.EmailStyle17	=
+{mso-style-type:personal-compose;	=
+font-family:"Calibri",sans-serif;	color:windowtext;}.MsoChpDefault	=
+{mso-style-type:export-only;	font-family:"Calibri",sans-serif;}@page =
+WordSection1	{size:612.0pt 792.0pt;	margin:3.0cm 72.0pt 72.0pt =
+72.0pt;}div.WordSection1	{page:WordSection1;}-->
+<!-- [if gte mso 9]><![endif] --><!-- [if gte mso 9]><![endif] -->
+<div class=3D"WordSection1"><p class=3D"MsoNormal"><span lang=3D"KO" =
+style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" =
+class=3D"">Enablement</span><span lang=3D"KO" style=3D"font-size: 10pt" =
+=EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9C=A0=EC=A0=95=EC=97=B0=EC=9E=85=EB=8B=88=EB=8B=A4</span><s=
+pan style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><div =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">&nbsp;</span><br =
+class=3D"webkit-block-placeholder"></div><p class=3D"MsoNormal"><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">FY17</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=97=90=EB=8A=94</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=ED=8C=8C=ED=8A=B8=EB=84=
+=88</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=82=AC=EC=9D=98</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">skill =
+enable</span><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=
+=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=9D=84</span><=
+span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=9C=84=ED=95=9C</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=B0=A9=EC=95=88=EC=9D=
+=84</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""> =
+&nbsp;</span><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=
+=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B0=95=EA=B5=AC=ED=95=98=EA=B3=A0=EC=9E=90</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=AA=A8=EC=83=89=ED=95=98=EA=B3=A0</span><span lang=3D"KO" =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4</span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><p =
+class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size: 10pt" =
+=EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9D=B4=EC=97=90</span><span lang=3D"KO" style=3D"font-size: =
+10pt" hp=3D"" simplified",sans-serif;color:#002060"=3D"" =
+class=3D""></span><u class=3D""><span lang=3D"KO" style=3D"font-size: =
+10pt" =EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=ED=8C=8C=ED=8A=B8=EB=84=88</span></u><u class=3D""><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=82=AC</span></u>=
+<u class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=B6=84=EB=93=A4=EC=9D=98</span></u><u class=3D""><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B8=B0=EC=88=A0=EB=8B=B4=EB=8B=B9=EC=9E=90</span></u><u =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""> =
+(Presales</span></u><u class=3D""><span lang=3D"KO" style=3D"font-size: =
+10pt" =EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=ED=98=B9=EC=9D=80</span></u><u class=3D""><span lang=3D"KO" =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span></u><u =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" =
+class=3D"">Engineer)</span></u><u class=3D""><span lang=3D"KO" =
+style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=AA=85=EB=8B=A8=EC=9D=
+=84</span></u><u class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""> (</span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=84=B1=ED=95=A8</=
+span></u><u class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">/</span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9D=B4=EB=A9=94=EC=9D=BC</span></u><u class=3D""><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">)</span></u><u =
+class=3D""><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D=
+"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9A=94=EC=B2=AD</span></u><span lang=3D"KO" =
+style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4</span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><div =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">&nbsp;</span><br =
+class=3D"webkit-block-placeholder"></div><p class=3D"MsoNormal"><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=82=B4=EB=B6=80=EC=A0=81=EC=9C=BC=EB=A1=9C</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B5=90=EC=9C=A1=EC=A7=84=ED=96=89=EC=8B=9C</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=A0=84=EB=8B=AC=ED=95=B4=EC=A3=BC=EC=8B=A0</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" =
+class=3D"">Dedicated</span><span lang=3D"KO" style=3D"font-size: 10pt" =
+=EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B8=B0=EC=88=A0</span><span lang=3D"KO" style=3D"font-size: =
+10pt" hp=3D"" simplified",sans-serif;color:#002060"=3D"" =
+class=3D""></span><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=
+=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=A0=84=EB=AC=B8</span><span lang=3D"KO" style=3D"font-size: =
+10pt" hp=3D"" simplified",sans-serif;color:#002060"=3D"" =
+class=3D""></span><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=
+=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=A7=81=EC=9B=90=EB=B6=84=EB=93=A4=EC=9D=84</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C</span><span lang=3D"KO" =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=ED=95=98=EC=97=AC</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=A7=80=EC=86=8D=EC=A0=81=EC=9C=BC=EB=A1=9C</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EA=B4=80=EB=A6=AC</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=ED=95=98=EA=B3=A0=EC=9E=
+=90</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=ED=95=A8=EC=9E=85=EB=8B=88=EB=8B=A4</span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><p =
+class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size: 10pt" =
+=EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=A7=A4=EB=B2=88</span><span lang=3D"KO" style=3D"font-size: =
+10pt" hp=3D"" simplified",sans-serif;color:#002060"=3D"" =
+class=3D""></span><span lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=
+=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B5=90=EC=9C=A1=EB=95=8C=EB=A7=88=EB=8B=A4</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=ED=8C=8C=ED=8A=B8=EB=84=
+=88</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=82=AC</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=8C=80=ED=91=9C=EB=A1=
+=9C</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=B0=B8=EC=84=9D=ED=95=B4=EC=A3=BC=EC=8B=9C=EB=8A=94</span><s=
+pan lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=97=94=EC=A7=80=EB=8B=88=EC=96=B4</span><span lang=3D"KO" =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=B6=84=EC=9D=B4</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=B0=94=EB=80=8C=EB=A9=
+=B4</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">=E2=80=93</span><spa=
+n lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EA=B5=90=EC=9C=A1</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EA=B4=80=EB=A6=AC</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=B0=8F</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EA=B8=B0=EC=88=A0</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=9C=A0=EC=A7=80=EA=B0=
+=80</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=95=88=EB=90=98=EC=84=9C=EC=9A=94</span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">~</span></p><div =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">&nbsp;</span><br =
+class=3D"webkit-block-placeholder"></div><p class=3D"MsoNormal"><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=B2=A8=EB=B6=80=ED=95=
+=9C</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=97=91=EC=85=80=ED=8C=8C=EC=9D=BC=EC=97=90</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=ED=95=B4=EB=8B=B9</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=B6=80=EB=B6=84=EB=A7=
+=8C</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B8=B0=EC=9E=AC=ED=95=98=EC=8B=9C=EC=97=90</span><span =
+lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=A0=80=EC=97=90=EA=B2=
+=8C</span><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EC=A0=84=EB=8B=AC</spa=
+n><span lang=3D"KO" style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=AC=EA=B2=A0=EC=8A=B5=EB=8B=88=
+=EB=8B=A4</span><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><div =
+class=3D""><span style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">&nbsp;</span><br =
+class=3D"webkit-block-placeholder"></div><p class=3D"MsoNormal"><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4</span><span =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D"">.</span></p><p =
+class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size: 10pt" =
+=EB=A7=91=EC=9D=80=3D"" =EA=B3=A0=EB=94=95";color:#002060"=3D"" =
+class=3D"">=EC=9C=A0=EC=A0=95=EC=97=B0</span><span lang=3D"KO" =
+style=3D"font-size: 10pt" hp=3D"" =
+simplified",sans-serif;color:#002060"=3D"" class=3D""></span><span =
+lang=3D"KO" style=3D"font-size: 10pt" =EB=A7=91=EC=9D=80=3D"" =
+=EA=B3=A0=EB=94=95";color:#002060"=3D"" class=3D"">=EB=93=9C=EB=A6=BC</spa=
+n><span style=3D"font-size: 10pt" hp=3D"" simplified",sans-serif"=3D"" =
+class=3D"">.</span></p><div class=3D"">&nbsp;<br =
+class=3D"webkit-block-placeholder"></div><p class=3D"MsoNormal"><b =
+class=3D""><span style=3D"font-size: 10pt" =
+arial",sans-serif;color:black"=3D"" class=3D"">Jeongyeon You =
+(Jenny)</span></b></p><p class=3D"MsoNormal"><span style=3D"font-size: =
+10pt" arial",sans-serif;color:black"=3D"" class=3D"">Country =
+Manager</span></p><p class=3D"MsoNormal"><span style=3D"font-size: 10pt" =
+arial",sans-serif;color:black"=3D"" class=3D"">Partner Ready =
+Certification and Learning</span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size: 10pt" arial",sans-serif;color:black"=3D"" =
+class=3D"">EG Enablement</span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size: 10pt" arial",sans-serif;color:black"=3D"" =
+class=3D""><br class=3D"">Office +82 2 2199 0318&nbsp;&nbsp;<br =
+class=3D"">Mobile +82 10 3909 4255&nbsp;&nbsp;<br class=3D""><br =
+class=3D""><b class=3D""></b></span></p><p class=3D"MsoNormal"><span =
+style=3D"font-size: 10pt" arial",sans-serif;color:black"=3D"" =
+class=3D"">My Learning Portal :</span><span style=3D"font-size: 10pt" =
+arial",sans-serif;color:#0070c0"=3D"" class=3D""><a =
+href=3D"http://www.mylearninghpe.com/" target=3D"_blank" class=3D""><span =
+style=3D"color: #0070c0" =
+class=3D"">www.mylearninghpe.com</span></a></span><span =
+style=3D"font-size: 10pt" arial",sans-serif;color:black"=3D"" =
+class=3D""></span></p><p class=3D"MsoNormal"><span style=3D"font-size: =
+10pt" arial",sans-serif;color:black"=3D"" class=3D"">Contact support =
+team at</span><u class=3D""><span style=3D"font-size: 10pt" =
+arial",sans-serif;color:#0070c0"=3D"" class=3D""><a =
+href=3D"mailto:clsupport.kr@hpe.com" =
+class=3D"">clsupport.kr@hpe.com</a></span></u></p><div =
+class=3D"">&nbsp;<br class=3D"webkit-block-placeholder"></div></div><div =
+class=3D""><p align=3D"left" class=3D"MsoNormal" style=3D"text-align: =
+left; -ms-word-break: keep-all;"><span lang=3D"EN-US" =
+style=3D"font-family: arial;" class=3D""><strong =
+class=3D"">+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</strong><strong =
+class=3D"">~~+</strong><strong class=3D""></strong></span></p><div =
+class=3D""><br class=3D"webkit-block-placeholder"></div><p align=3D"left" =
+class=3D"MsoNormal" style=3D"text-align: left; -ms-word-break: =
+keep-all;"><b class=3D""><span lang=3D"EN-US" style=3D"font-family: =
+arial;" class=3D"">(</span></b><b class=3D""><span style=3D"font-family: =
+arial;" class=3D"">=EC=A3=BC<span lang=3D"EN-US" style=3D"font-family: =
+arial;" class=3D"">)</span>=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4</span></b>=
+<span style=3D"font-family: arial;" class=3D""> =
+=EC=84=9C=EB=B9=84=EC=8A=A4=EC=82=AC=EC=97=85=EB=B6=80&nbsp;=EC=B0=A8=EC=9E=
+=A5 <b class=3D""><span style=3D"font-family: arial;" =
+class=3D"">=EC=84=9C=EC=84=9D=ED=98=84</span></b></span><span =
+lang=3D"EN-US" style=3D"font-family: =EA=B5=B4=EB=A6=BC; font-size: =
+12pt;" class=3D""></span></p><p align=3D"left" class=3D"MsoNormal" =
+style=3D"text-align: left; -ms-word-break: keep-all;"><span =
+style=3D"font-family: arial;" class=3D"">=EC=84=9C=EC=9A=B8 =EC=84=9C=EC=B4=
+=88=EA=B5=AC =EB=B0=98=ED=8F=AC=EB=8F=99<span lang=3D"EN-US" =
+style=3D"font-family: arial;" class=3D""> 67-3</span>=EB=B2=88=EC=A7=80 =
+=EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9<span lang=3D"EN-US" =
+style=3D"font-family: arial;" class=3D""> 3</span>=EC=B8=B5<span =
+lang=3D"EN-US" style=3D"font-family: arial;" class=3D""> =
+137-804</span></span><span lang=3D"EN-US" style=3D"font-family: =EA=B5=B4=EB=
+=A6=BC; font-size: 12pt;" class=3D""></span></p><p align=3D"left" =
+class=3D"MsoNormal" style=3D"text-align: left; -ms-word-break: =
+keep-all;"><span lang=3D"EN-US" style=3D"font-family: arial;" =
+class=3D"">Tel. 070-7114-0071 Mobile. 010-2491-2352 </span><span =
+lang=3D"EN-US" style=3D"font-family: =EA=B5=B4=EB=A6=BC; font-size: =
+12pt;" class=3D""></span></p><p align=3D"left" class=3D"MsoNormal" =
+style=3D"text-align: left; -ms-word-break: keep-all;"><span lang=3D"EN-US"=
+ style=3D"font-family: arial;" class=3D"">Fax. (02)586-5070 E-mail. =
+</span><span lang=3D"EN-US" style=3D"font-family: =EA=B5=B4=EB=A6=BC; =
+font-size: 12pt;" class=3D""><a href=3D"mailto:shseo@agilesys.co.kr" =
+target=3D"_blank" class=3D""><span style=3D"font-family: arial; =
+font-size: 10pt;" =
+class=3D"">shseo@agilesys.co.kr</span></a></span></p><div class=3D""><br =
+class=3D"webkit-block-placeholder"></div><p align=3D"left" =
+class=3D"MsoNormal" style=3D"text-align: left; -ms-word-break: =
+keep-all;"><span lang=3D"EN-US" style=3D"font-family: arial;" =
+class=3D""><strong =
+class=3D"">+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+~~+</strong><strong =
+class=3D"">~~+</strong><strong class=3D""></strong></span><br =
+class=3D""></p></div><img style=3D"border:none; width:1px; height:1px; =
+display:none" =
+src=3D"http://mail.agilesys.co.kr/common/confirmRead/?messageId=3De65472d7=
+-81c3-7fe6-e4ff-f9378053e1e3&amp;email=3Dbost12@agilesys.co.kr" =
+class=3D""><img style=3D"border:none; width:1px; height:1px; =
+display:none" =
+src=3D"http://mail.agilesys.co.kr/common/confirmRead/?messageId=3D3bbbcfbe=
+-99d1-511c-300b-13c146f702fd&amp;email=3Dmg.hwang@agilesys.co.kr" =
+class=3D""><span =
+id=3D"cid:38757924-A2B2-400B-9219-5AE7863A84C1">&lt;=ED=8C=8C=ED=8A=B8=EB=84=
+=88 =EA=B8=B0=EC=88=A0=EC=9D=B8=EB=A0=A5.xlsx&gt;</span></div></blockquote=
+></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_66968C67-6B65-427E-B895-963B2BAEB5F3--
+
+--Apple-Mail=_243F76EB-67CC-4BDD-BFBF-792F759021BE--
+

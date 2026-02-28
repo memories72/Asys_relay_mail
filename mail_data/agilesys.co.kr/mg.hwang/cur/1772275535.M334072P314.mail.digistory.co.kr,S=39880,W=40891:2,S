@@ -1,0 +1,1011 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id b6UNE0/Homk6AQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:45:35 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id BB4E314C25
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:45:27 +0000 (UTC)
+Authentication-Results: nas.agilesys.co.kr;
+	dkim=pass (1024-bit key; unprotected) header.d=themarketinggroup.onmicrosoft.com header.i=@themarketinggroup.onmicrosoft.com header.a=rsa-sha256 header.s=selector1-tmgllc-com header.b=Jr/NEoSK;
+	dkim-atps=neutral
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556176393432639101
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp409206wme;
+        Tue, 10 Jan 2017 14:09:15 -0800 (PST)
+X-Received: by 10.28.16.70 with SMTP id 67mr3255926wmq.142.1484086155255;
+        Tue, 10 Jan 2017 14:09:15 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of postmaster@nam02-bl2-obe.outbound.protection.outlook.com designates 104.47.38.131 as permitted sender) smtp.mailfrom=NAM02-BL2-obe.outbound.protection.outlook.com;
+       dkim=pass header.i=@themarketinggroup.onmicrosoft.com
+Received-SPF: pass (google.com: domain of postmaster@nam02-bl2-obe.outbound.protection.outlook.com designates 104.47.38.131 as permitted sender) client-ip=104.47.38.131;
+Received: by 10.28.44.66 with POP3 id s63mf55784110wms.0;
+        Tue, 10 Jan 2017 14:09:14 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 21695 invoked by uid 700); 11 Jan 2017 06:57:43 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	11 Jan 2017 06:57:43 +0900
+Received: (qmail 1935 invoked by uid 700); 11 Jan 2017 06:57:42 +0900
+Received: from unknown (HELO NAM02-BL2-obe.outbound.protection.outlook.com) (104.47.38.131)
+	by 0 (knetqmail v1.06) with ESMTPS (AES256-SHA256 encrypted);
+	11 Jan 2017 06:57:42 +0900
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=themarketinggroup.onmicrosoft.com; s=selector1-tmgllc-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=nTOqYur+K3nZxgOJJHqa7dMrEiLBh4O1PQePcV6Fsco=;
+ b=Jr/NEoSK+SNtPF4nxqQlz4FAhS4ey+4q65iBwaC69RkcjyIak5z3sbSFfS0PVm325SIHNaRCKKi3okDiQNUGy7Et6AXlTdJNEou85kKI0gGMxJ41B9uR5KAuSucrAUQDqk0betdH16gMhvjdj/nulbHwfKMSWMqxSxQ0fVyr7qk=
+Received: from CO2PR0601MB792.namprd06.prod.outlook.com (10.141.247.144) by
+ CO2PR0601MB789.namprd06.prod.outlook.com (10.141.247.141) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.817.10; Tue, 10 Jan 2017 21:57:39 +0000
+Received: from CO2PR0601MB792.namprd06.prod.outlook.com ([10.141.247.144]) by
+ CO2PR0601MB792.namprd06.prod.outlook.com ([10.141.247.144]) with mapi id
+ 15.01.0817.020; Tue, 10 Jan 2017 21:57:38 +0000
+From: WWAS <WWAS@tmgllc.com>
+To: "mg.hwang@agilesys.co.kr" <mg.hwang@agilesys.co.kr>
+Subject: Please register by this Friday for HPE WWAS 2017.
+Thread-Topic: Please register by this Friday for HPE WWAS 2017.
+Thread-Index: AdJrjIuIdY3aj0sTRxenyXxF01MgNg==
+Date: Tue, 10 Jan 2017 21:57:38 +0000
+Message-ID: <CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670@CO2PR0601MB792.namprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=WWAS@tmgllc.com; 
+x-ms-office365-filtering-correlation-id: 3d1084f9-2ea6-49f9-a1c7-08d439a3b1af
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001);SRVR:CO2PR0601MB789;
+x-microsoft-exchange-diagnostics: 1;CO2PR0601MB789;7:H430TZSO6ldgQS80rLQTEKz/DyTM2rR/i+x4CZBiiG1agnKVIQyRojJ7MI3jYSiwpWNKd0j5JTHGsPgFkkidjSv/XXSdxGq2FU7OktVMXTW6frJhVs80yWzWGhf5c2njUv+BHz2mDB54Uy+vBUSFkL5xL9thA/HcabUsmLoBSsf1P2EmNFC0oCRFh7ru6m6oS3La2GHuwlCOmu1UU8RDcQm/9Cpml3ku21du4hacyH1SSs2bHGX82diAAp9bF0ZssEroWWMxvyDWCJjYRd+QdOH2baViIjfXZtDQbPEuGPpVVX3fv104t4wt1kmaQyKfDN9dufytYYOnoVEeRHKr5MBbTb/m+FwiqpsXWbHTbaNcYJU1TTWdNz0X7COJioZBtb25+RIrc8AVqtVPIiHeH98fANCfKS4ZR72cD7ynPgHWi8AFhYPjLVAJehhhaSAabpeGmdfTbEpDP1p772ha2Q==
+x-microsoft-antispam-prvs: <CO2PR0601MB789F2C478250DD14CE3AAB8BA670@CO2PR0601MB789.namprd06.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(227479698468861)(21748063052155);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415395)(6040375)(601004)(2401047)(8121501046)(5005006)(3002001)(10201501046)(6041248)(20161123564025)(20161123562025)(2016111802025)(20161123555025)(20161123560025)(6072148)(6043046)(6042181);SRVR:CO2PR0601MB789;BCL:0;PCL:0;RULEID:;SRVR:CO2PR0601MB789;
+x-forefront-prvs: 01834E39B7
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(7916002)(189002)(199003)(37854004)(51414003)(101416001)(122556002)(105586002)(77096006)(6916009)(33656002)(110136003)(74316002)(6116002)(7696004)(38730400001)(8676002)(3280700002)(2900100001)(3846002)(97736004)(733005)(189998001)(606005)(81166006)(80792005)(66066001)(6436002)(107886002)(68736007)(5640700003)(790700001)(861006)(92566002)(6506006)(8936002)(54896002)(7736002)(450100001)(5660300001)(2501003)(106356001)(6306002)(81156014)(102836003)(9686003)(99936001)(25786008)(3660700001)(54556002)(50986999)(54356999)(2906002)(2351001)(236005)(99286003)(55016002)(86362001)(7906003)(10126002)(7099028)(217873001);DIR:OUT;SFP:1102;SCL:1;SRVR:CO2PR0601MB789;H:CO2PR0601MB792.namprd06.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: tmgllc.com does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: tmgllc.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jan 2017 21:57:38.8031
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: c0ab1767-79b6-4e93-8f86-6ff5730ac03a
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR0601MB789
+
+--_004_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_
+Content-Type: multipart/alternative;
+	boundary="_000_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_"
+
+--_000_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+[cid:image001.png@01D26B62.A2DCEBC0]
+
+
+Worldwide Ambassador Summit 2017
+
+Accelerate your digital transformation
+
+
+
+Please RSVP.
+Mingyu Hwang,
+
+
+Register before January 13, 2017!
+
+? If you do not register by the deadline, we will release your seat to anot=
+her Ambassador on the wait list.
+.
+To register:
+
+? Access >https://www.eventdetail.net/wwas17
+
+? Input this email address (mg.hwang@agilesys.co.kr). If you input another =
+email address, you will NOT be able to enter the registration site.
+
+? Click on the "Registration" tab on the right side of the landing page.
+Once registered, you can ONLY change your registration by contacting wwas@t=
+mgllc.com<mailto:wwas@tmgllc.com>. However, you can return to the the site =
+to get useful information for travel planning or to download the Letter of =
+Invitation for your travel visa. Just enter the same email address on the l=
+anding page and then click the tabs under "Meeting Information" on the righ=
+t.
+
+
+Hotel costs
+Your total hotel costs are $1230. The amount is based on the requirement th=
+at Partner Ambassadors attend ALL 5 days of the summit.
+
+? The $246/night room rate includes all taxes and service charges. You will=
+ be charged directly by the hotel when you check out.
+
+? You will NOT be charged for summit-sponsored sessions, meals, evening act=
+ivities or in-room internet access. Those costs have been paid for by the G=
+lobal SI Alliances Team.
+
+? Airfare and ground transportation costs are NOT included. You are respons=
+ible for making your own arrangements and paying for your travel expenses.
+
+
+Cancellations
+If you cancel your registration AFTER January 18, 2017, you may subject to =
+a Cancellation Fee of at least $246 (one night's hotel room rate).
+
+
+Support
+
+? Email wwas@tmgllc.com<mailto:wwas@tmgllc.com> for questions related to re=
+gistration and hotel accommodations.
+
+? Email nancy.stevens@hpe.com<mailto:wwas@hpe.com> for questions related to=
+ all other aspects of WWAS 2017.
+
+
+I look forward to meeting you at WWAS 2017,
+
+Tina Donle
+WW Partner Ambassador Program Manager
+
+
+
+
+
+--_000_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"HP Simplified";
+	panose-1:2 11 6 4 2 2 4 2 2 4;}
+@font-face
+	{font-family:"Arial Bold";
+	panose-1:2 11 7 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-name:"Normal\,Body-Normal";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-language:JA;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-style-link:"No Spacing Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;}
+p.Subheadline, li.Subheadline, div.Subheadline
+	{mso-style-name:Subheadline;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial Bold",serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+p.Headline, li.Headline, div.Headline
+	{mso-style-name:Headline;
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	mso-line-height-alt:20.0pt;
+	font-size:24.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+p.BodyBullets, li.BodyBullets, div.BodyBullets
+	{mso-style-name:"Body Bullets";
+	mso-style-link:"Body Bullets Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.15in;
+	line-height:14.0pt;
+	mso-list:l1 level1 lfo3;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+p.Numbered, li.Numbered, div.Numbered
+	{mso-style-name:Numbered;
+	mso-style-link:"Numbered Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+span.NumberedChar
+	{mso-style-name:"Numbered Char";
+	mso-style-link:Numbered;
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+p.Huperlink, li.Huperlink, div.Huperlink
+	{mso-style-name:Huperlink;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.15in;
+	line-height:14.0pt;
+	mso-list:l1 level1 lfo3;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+p.DashBullet, li.DashBullet, div.DashBullet
+	{mso-style-name:"Dash Bullet";
+	mso-style-link:"Dash Bullet Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.15in;
+	line-height:14.0pt;
+	mso-list:l0 level1 lfo5;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+span.DashBulletChar
+	{mso-style-name:"Dash Bullet Char";
+	mso-style-link:"Dash Bullet";
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+p.Theme, li.Theme, div.Theme
+	{mso-style-name:Theme;
+	mso-style-link:"Theme Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:14.0pt;
+	font-size:18.0pt;
+	font-family:"Arial",sans-serif;
+	color:#00B388;
+	mso-fareast-language:JA;}
+span.ThemeChar
+	{mso-style-name:"Theme Char";
+	mso-style-link:Theme;
+	font-family:"Arial",sans-serif;
+	color:#00B388;
+	mso-fareast-language:JA;}
+p.EventName, li.EventName, div.EventName
+	{mso-style-name:"Event Name";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-line-height-alt:18.0pt;
+	font-size:24.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+p.EmphasisHeader, li.EmphasisHeader, div.EmphasisHeader
+	{mso-style-name:"Emphasis Header";
+	mso-style-link:"Emphasis Header Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:14.0pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+span.NoSpacingChar
+	{mso-style-name:"No Spacing Char";
+	mso-style-priority:1;
+	mso-style-link:"No Spacing";
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;}
+span.EmphasisHeaderChar
+	{mso-style-name:"Emphasis Header Char";
+	mso-style-link:"Emphasis Header";
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+p.BodyHeading, li.BodyHeading, div.BodyHeading
+	{mso-style-name:"Body Heading";
+	mso-style-link:"Body Heading Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+span.BodyHeadingChar
+	{mso-style-name:"Body Heading Char";
+	mso-style-link:"Body Heading";
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+span.BodyBulletsChar
+	{mso-style-name:"Body Bullets Char";
+	mso-style-link:"Body Bullets";
+	font-family:"Arial",sans-serif;
+	color:black;
+	mso-fareast-language:JA;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-language:JA;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:11.0in 8.5in;
+	margin:1.0in 1.0in 2.5in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:200440253;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1356869536 2106080402 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Dash Bullet";
+	mso-level-text:\F02D;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.3in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.8in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.3in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.8in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.3in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.8in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.3in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.8in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:282811028;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2079099482 813838334 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Body Bullets";
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.15in;
+	text-indent:-.15in;
+	font-family:Wingdings;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:355548539;
+	mso-list-template-ids:652347958;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:Wingdings;
+	color:windowtext;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\2013;
+	mso-level-tab-stop:20.0pt;
+	mso-level-number-position:left;
+	margin-left:20.0pt;
+	text-indent:-10.0pt;
+	font-family:"HP Simplified",sans-serif;}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:30.0pt;
+	mso-level-number-position:left;
+	margin-left:30.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\2013;
+	mso-level-tab-stop:40.0pt;
+	mso-level-number-position:left;
+	margin-left:40.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:"HP Simplified",sans-serif;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:50.0pt;
+	mso-level-number-position:left;
+	margin-left:50.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\2013;
+	mso-level-tab-stop:60.0pt;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:"HP Simplified",sans-serif;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:70.0pt;
+	mso-level-number-position:left;
+	margin-left:70.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\2013;
+	mso-level-tab-stop:80.0pt;
+	mso-level-number-position:left;
+	margin-left:80.0pt;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:"HP Simplified",sans-serif;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-10.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1633366492;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1353776610 1025139004 2064144026 67698693 67698689 6=
+7698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.15in;
+	text-indent:-.15in;
+	font-family:Wingdings;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F02D;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<table class=3D"MsoTableGrid" border=3D"1" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"100%" style=3D"width:100.0%;border-collapse:collapse;border:no=
+ne">
+<tbody>
+<tr>
+<td width=3D"100%" valign=3D"top" style=3D"width:100.0%;border:solid window=
+text 1.0pt;padding:0in 5.4pt 0in 5.4pt">
+<p class=3D"MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" valign=3D"top" style=3D"width:100.0%;border:solid window=
+text 1.0pt;border-top:none;background:black;padding:0in 5.4pt 0in 5.4pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><img widt=
+h=3D"178" height=3D"64" id=3D"Picture_x0020_1" src=3D"cid:image001.png@01D2=
+6B62.A2DCEBC0"></span><b><o:p></o:p></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"100%" valign=3D"top" style=3D"width:100.0%;border:solid window=
+text 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt">
+<p class=3D"EventName">Worldwide Ambassador Summit 2017</p>
+<p class=3D"Theme">Accelerate your digital transformation</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+<p class=3D"Headline">Please RSVP.</p>
+<p class=3D"MsoNormal">Mingyu Hwang,</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"Subheadline"><span style=3D"color:red">Register before January =
+13, 2017!<o:p></o:p></span></p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo2"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>If you do not register by the deadline, we w=
+ill release your seat to another Ambassador on the wait list.
+<o:p></o:p></p>
+<p class=3D"MsoNormal">.</p>
+<p class=3D"MsoNormal">To register:</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span class=3D"MsoHyperlink"><span style=3D"font-family:Wingdings;colo=
+r:black;text-decoration:none"><span style=3D"mso-list:Ignore">&sect;<span s=
+tyle=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span></span><![endif]>Access &gt;<a href=3D"https://www.eve=
+ntdetail.net/wwas17"><span style=3D"color:windowtext">https://www.eventdeta=
+il.net/wwas17</span></a><span class=3D"MsoHyperlink"><span style=3D"color:b=
+lack;text-decoration:none"><o:p></o:p></span></span></p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>Input this email address (<b>mg.hwang@agiles=
+ys.co.kr</b>). If you input another email address, you will NOT be able to =
+enter the registration site.</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>Click on the &#8220;Registration&#8221; tab =
+on the right side of the landing page.
+</p>
+<p class=3D"MsoNormal">Once registered, you can ONLY change your registrati=
+on by contacting
+<a href=3D"mailto:wwas@tmgllc.com"><span style=3D"color:windowtext">wwas@tm=
+gllc.com</span></a>. However, you can return to the the site to get useful =
+information for travel planning or to download the Letter of Invitation for=
+ your travel visa. Just enter the same
+ email address on the landing page and then click the tabs under &#8220;Mee=
+ting Information&#8221; on the right.
+</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"Subheadline">Hotel costs<o:p></o:p></p>
+<p class=3D"MsoNormal">Your total hotel costs are $1230. The amount is base=
+d on the requirement that Partner Ambassadors attend
+<b>ALL</b> <b>5 days</b> of the summit. </p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>The $246/night room rate includes all taxes =
+and service charges. You will be charged directly by the hotel when you che=
+ck out.</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>You will <b>NOT</b> be charged for summit-sp=
+onsored sessions, meals, evening activities or in-room internet access. Tho=
+se costs have been paid for by the Global SI Alliances Team.
+</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>Airfare and ground transportation costs are<=
+span style=3D"color:windowtext">
+<b>NOT</b> </span>included. You are responsible for making your own arrange=
+ments and paying for your travel expenses.</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"Subheadline">Cancellations</p>
+<p class=3D"MsoNormal">If you cancel your registration <b>AFTER January 18,=
+ 2017</b>, you may subject to a Cancellation Fee of at least $246 (one nigh=
+t&#8217;s hotel room rate).</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"Subheadline">Support</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>Email <a href=3D"mailto:wwas@tmgllc.com">wwa=
+s@tmgllc.com</a> for questions related to registration and hotel accommodat=
+ions.</p>
+<p class=3D"BodyBullets" style=3D"mso-list:l1 level1 lfo3"><![if !supportLi=
+sts]><span style=3D"font-family:Wingdings"><span style=3D"mso-list:Ignore">=
+&sect;<span style=3D"font:7.0pt &quot;Times New Roman&quot;">
+</span></span></span><![endif]>Email <a href=3D"mailto:wwas@hpe.com">nancy.=
+stevens@hpe.com</a> for questions related to all other aspects of WWAS 2017=
+.</p>
+<p class=3D"BodyBullets" style=3D"mso-list:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">I look forward to meeting you at WWAS 2017,</p>
+<p class=3D"MsoNormal"><span style=3D"background:yellow;mso-highlight:yello=
+w"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">Tina Donle</p>
+<p class=3D"MsoNormal">WW Partner Ambassador Program Manager</p>
+<p class=3D"BodyHeading"><o:p>&nbsp;</o:p></p>
+<p class=3D"Subheadline"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_--
+
+--_004_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=6079;
+	creation-date="Tue, 10 Jan 2017 21:57:38 GMT";
+	modification-date="Tue, 10 Jan 2017 21:57:38 GMT"
+Content-ID: <image001.png@01D26B62.A2DCEBC0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_CO2PR0601MB7922FD2A2B7767A1A5BEBD3BA670CO2PR0601MB792na_--
+

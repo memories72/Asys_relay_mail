@@ -1,0 +1,389 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id IIh9L3fFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:43 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id C1D5E14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:43 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553202706052553302
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp26012wma;
+        Thu, 8 Dec 2016 18:42:22 -0800 (PST)
+X-Received: by 10.55.73.148 with SMTP id w142mr74724482qka.284.1481251341950;
+        Thu, 08 Dec 2016 18:42:21 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of postmaster@userp1040.oracle.com designates 156.151.31.81 as permitted sender) smtp.mailfrom=userp1040.oracle.com
+Received-SPF: pass (google.com: best guess record for domain of postmaster@userp1040.oracle.com designates 156.151.31.81 as permitted sender) client-ip=156.151.31.81;
+Received: by 10.200.39.170 with POP3 id w39mf197054146qtw.3;
+        Thu, 08 Dec 2016 18:42:21 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 19212 invoked by uid 700); 9 Dec 2016 11:12:25 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	9 Dec 2016 11:12:25 +0900
+Received: (qmail 21894 invoked by uid 700); 9 Dec 2016 11:12:24 +0900
+Received: from unknown (HELO userp1040.oracle.com) (156.151.31.81)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	9 Dec 2016 11:12:24 +0900
+Received: from aserv0022.oracle.com (aserv0022.oracle.com [141.146.126.234])
+	by userp1040.oracle.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id uB92CLTF026998
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <mg.hwang@agilesys.co.kr>; Fri, 9 Dec 2016 02:12:22 GMT
+Received: from aserv0121.oracle.com (aserv0121.oracle.com [141.146.126.235])
+	by aserv0022.oracle.com (8.14.4/8.14.4) with ESMTP id uB92CLZm028403
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <mg.hwang@agilesys.co.kr>; Fri, 9 Dec 2016 02:12:21 GMT
+Received: from abhmp0018.oracle.com (abhmp0018.oracle.com [141.146.116.24])
+	by aserv0121.oracle.com (8.13.8/8.13.8) with ESMTP id uB92CIMx016993
+	for <mg.hwang@agilesys.co.kr>; Fri, 9 Dec 2016 02:12:20 GMT
+MIME-Version: 1.0
+Message-ID: <f3637310-d600-4f1a-a379-9e3f17301738@default>
+Date: Thu, 8 Dec 2016 18:12:09 -0800 (PST)
+From: Kevin Lee <jin.kook.lee@oracle.com>
+Sender: Kevin Lee <jin.kook.lee@oracle.com>
+To: mg.hwang@agilesys.co.kr
+Subject: =?ks_c_5601-1987?B?W8fRsbm/wLbzxaxdIENsb3VkV28=?=
+ =?ks_c_5601-1987?B?cmxkIFZJUMTateUgwPy03sDHILDH?=
+References: <e962e565-71ad-46eb-ab67-47fd169504f1@default>
+ <9ca1ef78-719b-4780-bd2b-03e61214e820@default>
+ <be8c1d29-6840-478a-a358-30d1dfdff86d@default>
+ <0a2f2c80-c2d4-425f-8020-1c57762060ae@default>
+ <0bc36828-1a53-4d32-affd-ac48b317c51d@default>
+ <2858662c-8b15-452b-832b-98c096da9654@default>
+ <5fec0f90-e4b0-4a4c-b290-d40808ea4299@default>
+In-Reply-To: <5fec0f90-e4b0-4a4c-b290-d40808ea4299@default>
+X-Priority: 3
+Content-Type: multipart/mixed;
+ boundary="__1481249538653274247abhmp0018.oracle.com"
+X-Source-IP: aserv0022.oracle.com [141.146.126.234]
+
+--__1481249538653274247abhmp0018.oracle.com
+Content-Type: multipart/alternative;
+ boundary="__1481249538655274248abhmp0018.oracle.com"
+
+--__1481249538655274248abhmp0018.oracle.com
+Content-Type: text/plain; charset=ks_c_5601-1987
+Content-Transfer-Encoding: quoted-printable
+
+=C8=B2=B9=CE=B1=D4 =B4=E3=B4=E7=C0=DA=B4=D4 =BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=
+=B1=EE,
+
+=C7=D1=B1=B9=BF=C0=B6=F3=C5=AC =C0=CC=C1=F8=B1=B9=C0=D4=B4=CF=B4=D9.
+
+?
+
+2017 Oracle CloudWorld=BF=A1 =B5=EE=B7=CF =BD=C5=C3=BB=C7=D8=C1=D6=BC=C5=BC=
+=AD =B0=A8=BB=E7=B5=E5=B8=B3=B4=CF=B4=D9.
+
+?
+
+=C8=B2=B9=CE=B1=D4 =B4=E3=B4=E7=C0=DA=B4=D4=C0=C7 =C5=AC=B6=F3=BF=EC=B5=E5=
+=BF=F9=B5=E5 =B5=EE=B7=CF=C4=DA=B5=E5=B4=C2 IBDCO3I1 =C0=CC=B8=E7,
+
+=BF=C0=B6=F3=C5=AC=C0=C7 Customer=B7=CE=BC=AD =BA=BB =C7=E0=BB=E7=BF=A1=BC=
+=AD =C1=A6=B0=F8=B5=C7=B4=C2 =C7=FD=C5=C3(=BD=C4=BB=E7, =C0=CC=BA=A5=C6=AE =
+etc)=B8=A6 =B8=F0=B5=CE =B4=A9=B8=AE=BD=C7 =BC=F6 =C0=D6=C0=BD=C0=BB =B9=CC=
+=B8=AE =BE=C8=B3=BB =B5=E5=B8=B3=B4=CF=B4=D9.
+
+?
+
+=B9=AE=C0=C7=BB=E7=C7=D7=C0=CC =C0=D6=C0=B8=BD=C3=B8=E9 =BE=F0=C1=A6=B5=E7=
+=C1=F6 =BE=C6=B7=A1 =C0=FC=C8=AD=B9=F8=C8=A3=B7=CE =BF=AC=B6=F4=C1=D6=BD=CA=
+=BD=C3=BF=C0.
+
+=C3=DF=BF=EE =B3=AF=BE=BE=BF=A1 =B0=A8=B1=E2 =C1=B6=BD=C9=C7=CF=BD=C3=B0=ED=
+, =B1=D7=B7=B3 =C7=E0=BB=E7=C0=E5=BF=A1=BC=AD =BA=CB=B0=DA=BD=C0=B4=CF=B4=
+=D9.
+
+?
+
+=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9
+
+=C0=CC=C1=F8=B1=B9 =B5=E5=B8=B2
+
+http://www.oracle.com/
+Jin kook Lee | Business Development Consultant
+Phone: HYPERLINK "tel:+82%202%202194%208574"+82 2 2194 8574 | Mobile: HYPER=
+LINK "tel:+82%2010%207474%202584"+82 10 7474 2584=20
+Oracle Market Development Group, Asia-Pacific
+
+Oracle South Korea | 36F ASEM Tower 517, Yeongdong-daero, Gangnam -gu Seoul=
+=20
+
+http://www.oracle.com/commitment
+
+Oracle is committed to developing practices and products that help protect =
+the environment
+
+?
+
+--__1481249538655274248abhmp0018.oracle.com
+Content-Type: multipart/related;
+ boundary="__1481249538656274249abhmp0018.oracle.com"
+
+--__1481249538656274249abhmp0018.oracle.com
+Content-Type: text/html; charset=ks_c_5601-1987
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:ur=
+l(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+=09{font-family:=B1=BC=B8=B2;
+=09panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+=09{font-family:"Cambria Math";
+=09panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+=09{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+=09{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+=09panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+=09{font-family:"\@=B1=BC=B8=B2";
+=09panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+=09{font-family:Verdana;
+=09panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+=09{margin:0cm;
+=09margin-bottom:.0001pt;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09text-autospace:none;
+=09word-break:break-hangul;
+=09font-size:10.0pt;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:#954F72;
+=09text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+=09{mso-style-priority:34;
+=09margin-top:0cm;
+=09margin-right:0cm;
+=09margin-bottom:0cm;
+=09margin-left:40.0pt;
+=09margin-bottom:.0001pt;
+=09mso-para-margin-top:0cm;
+=09mso-para-margin-right:0cm;
+=09mso-para-margin-bottom:0cm;
+=09mso-para-margin-left:4.0gd;
+=09mso-para-margin-bottom:.0001pt;
+=09text-align:justify;
+=09text-justify:inter-ideograph;
+=09text-autospace:none;
+=09word-break:break-hangul;
+=09font-size:10.0pt;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle18
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle19
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle20
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle21
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle22
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle23
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle24
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle25
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle26
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle27
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle28
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle29
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle30
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle31
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle32
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle33
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle34
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+span.EmailStyle35
+=09{mso-style-type:personal;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:#1F497D;}
+span.EmailStyle36
+=09{mso-style-type:personal-compose;
+=09font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;}
+@page WordSection1
+=09{size:612.0pt 792.0pt;
+=09margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3D"#0563C1" v=
+link=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal>=C8=B2=B9=
+=CE=B1=D4 =B4=E3=B4=E7=C0=DA=B4=D4 =BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE<spa=
+n lang=3DEN-US>,<o:p></o:p></span></p><p class=3DMsoNormal>=C7=D1=B1=B9=BF=
+=C0=B6=F3=C5=AC =C0=CC=C1=F8=B1=B9=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:=
+p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p=
+></span></p><p class=3DMsoNormal><span lang=3DEN-US>2017 Oracle CloudWorld<=
+/span>=BF=A1 =B5=EE=B7=CF =BD=C5=C3=BB=C7=D8=C1=D6=BC=C5=BC=AD =B0=A8=BB=E7=
+=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoN=
+ormal>=C8=B2=B9=CE=B1=D4 =B4=E3=B4=E7=C0=DA=B4=D4=C0=C7 =C5=AC=B6=F3=BF=EC=
+=B5=E5=BF=F9=B5=E5 =B5=EE=B7=CF=C4=DA=B5=E5=B4=C2 <b><u><span lang=3DEN-US =
+style=3D'font-size:12.0pt;background:yellow;mso-highlight:yellow'>IBDCO3I1<=
+/span></u></b><span lang=3DEN-US> </span>=C0=CC=B8=E7<span lang=3DEN-US>,</=
+span><span lang=3DEN-US style=3D'font-size:12.0pt'><o:p></o:p></span></p><p=
+ class=3DMsoNormal>=BF=C0=B6=F3=C5=AC=C0=C7<span lang=3DEN-US> Customer</sp=
+an>=B7=CE=BC=AD =BA=BB =C7=E0=BB=E7=BF=A1=BC=AD =C1=A6=B0=F8=B5=C7=B4=C2 =
+=C7=FD=C5=C3<span lang=3DEN-US>(</span>=BD=C4=BB=E7<span lang=3DEN-US>, </s=
+pan>=C0=CC=BA=A5=C6=AE<span lang=3DEN-US> etc)</span>=B8=A6 =B8=F0=B5=CE =
+=B4=A9=B8=AE=BD=C7 =BC=F6 =C0=D6=C0=BD=C0=BB =B9=CC=B8=AE =BE=C8=B3=BB =B5=
+=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DM=
+soNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNorma=
+l>=B9=AE=C0=C7=BB=E7=C7=D7=C0=CC =C0=D6=C0=B8=BD=C3=B8=E9 =BE=F0=C1=A6=B5=
+=E7=C1=F6 =BE=C6=B7=A1 =C0=FC=C8=AD=B9=F8=C8=A3=B7=CE =BF=AC=B6=F4=C1=D6=BD=
+=CA=BD=C3=BF=C0<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNorm=
+al>=C3=DF=BF=EE =B3=AF=BE=BE=BF=A1 =B0=A8=B1=E2 =C1=B6=BD=C9=C7=CF=BD=C3=B0=
+=ED<span lang=3DEN-US>, </span>=B1=D7=B7=B3 =C7=E0=BB=E7=C0=E5=BF=A1=BC=AD =
+=BA=CB=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US><o:p></o:p></=
+span></p><p class=3DMsoNormal>=C0=CC=C1=F8=B1=B9 =B5=E5=B8=B2<span lang=3DE=
+N-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:left;text-autospac=
+e:ideograph-other;word-break:keep-all'><span lang=3DEN-US><a href=3D"http:/=
+/www.oracle.com/" target=3D"_blank"><span style=3D'font-size:12.0pt;font-fa=
+mily:"Times New Roman",serif;color:black;text-decoration:none'><img border=
+=3D0 width=3D114 height=3D26 id=3D"_x0000_i1025" src=3D"cid:image001.gif@01=
+D24FE1.35A69070" alt=3DOracle></span></a></span><span lang=3DEN-US style=3D=
+'font-size:12.0pt;font-family:"Times New Roman",serif'><br></span><span lan=
+g=3DEN-US style=3D'font-family:"Verdana",sans-serif;color:#666666'>Jin kook=
+ Lee | Business Development Consultant<br>Phone: <a href=3D"tel:+82%202%202=
+194%208574"><span style=3D'color:black'>+82 2 2194 8574</span></a> | Mobile=
+: <a href=3D"tel:+82%2010%207474%202584"><span style=3D'color:black'>+82 10=
+ 7474 2584</span></a> <br></span><span lang=3DEN-US style=3D'font-family:"V=
+erdana",sans-serif;color:red'>Oracle</span><span lang=3DEN-US style=3D'font=
+-family:"Verdana",sans-serif;color:#666666'> Market Development Group, Asia=
+-Pacific<br><br>Oracle South Korea | 36F ASEM Tower 517, Yeongdong-daero, G=
+angnam -gu Seoul</span><span lang=3DEN-US style=3D'font-size:12.0pt;font-fa=
+mily:"Times New Roman",serif'> <o:p></o:p></span></p><table class=3DMsoNorm=
+alTable border=3D0 cellpadding=3D0><tr><td style=3D'padding:.75pt .75pt .75=
+pt .75pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-a=
+utospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US><a href=3D=
+"http://www.oracle.com/commitment" target=3D"_blank"><span style=3D'font-si=
+ze:12.0pt;font-family:"Times New Roman",serif;color:black;text-decoration:n=
+one'><img border=3D0 width=3D44 height=3D28 id=3D"_x0000_i1026" src=3D"cid:=
+image002.gif@01D24FE1.35A69070" alt=3D"Green Oracle"></span></a></span><spa=
+n lang=3DEN-US style=3D'font-size:12.0pt;font-family:"Times New Roman",seri=
+f'><o:p></o:p></span></p></td><td style=3D'padding:.75pt .75pt .75pt .75pt'=
+><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:=
+7.5pt;font-family:"Verdana",sans-serif;color:#4B7D42'>Oracle is committed t=
+o developing practices and products that help protect the environment</span=
+><span lang=3DEN-US style=3D'font-size:12.0pt;font-family:"Times New Roman"=
+,serif'><o:p></o:p></span></p></td></tr></table><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+--__1481249538656274249abhmp0018.oracle.com
+Content-Type: image/gif; name="image001.gif"
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image001.gif"
+Content-ID: <image001.gif@01D24FE1.35A69070>
+
+R0lGODlhcgAaAMQAAP8QEP/w8P/Q0P/g4P8wMP9gYP8gIP+goP9QUP+QkP+wsP9wcP+AgP9AQP/A
+wP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAByABoAAAX/ICSOZGmeaKqubOu+cCzPdC0GCqPvvBKUDp5wp1gFdIPVIDfcOQa6A8yR
+aO4gweQoUHh4v2Bw4SdihM9egyBF8ALIpkEXDR44vA2XwkD/IgYGAAZbbX1nBGRmhl8AWiUJYicC
+AIsPDFh4LXOGjQ4NAAhrEIUPBQcOqKmoB5sEZV4JqqoHhQVxlGAOJQG4AAunsqg/dw95KwdfBgzB
+qKIEBMaQDwCiKpOwEIq6KANuJg14igZwEHPULMTGKbxetjF8D1ItxK7aKl8lCl8DAfALW1+2rUi3
+QtqgGN2mwYCXzYvAON624LoEQZ9DEfRcEFSBIE2DjyBDfnyIqRgMcA8a/z5AZQWXOxEdHxwUgfIg
+sX/zMqlAWclVCQFefLpAqdJBAFJn3owgtpJEQkslEWjUmYLnomokcDlS4s0eFzQNqvXDEyzmAwFP
+yaXYmGJBuxlzELWIacueiE0AFGyF4HbaNTquUEpFRxUFUC9YXQzARYAkEJSNipKQ9kDu0i9SKKNZ
+9iXswMIoYgI4oJYFskpgzkkmcdrviELqmPVt1HpRAaaLqCE1lBgjvEpqRtgl8Tevygd7TcCuiKvP
+m8OVEkAIYLYPThSsRIpEQJr1x94QBIT09FH6QJC6AiRAoB1kEb7tRb4MvyB+AwSlbejfz7+///8A
+BijggAQWaOCBCCao4A+CDDbo4IMQRijhhBQKGAIAOw==
+--__1481249538656274249abhmp0018.oracle.com
+Content-Type: image/gif; name="image002.gif"
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="image002.gif"
+Content-ID: <image002.gif@01D24FE1.35A69070>
+
+R0lGODlhLAAcAMQAAP///0x9RHmec9Pf0aa+oleFULHGrmKNW+nv6I+uivT39N7n3W6VZ7zPuZu2
+lsjXxYSmfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAsABwAQAXhICCOZGmeaDoaReC+sKAMR7GopIA6boIvLgPAVSAgALxjSYdrOp/Q6NPg
+YqIEPkTBV2taTwgGbEw+PAZo3FfKbqMQQfeJ8DoY0Hg0wxhAKBgHCl5XLgMqDwFCAAIFPIYDgidr
+OUQGkSh0cQMJAQyXOXKhoqOkpaanI2aoIwMErq+uCY0BMlANKpxkYwQGBH82TpMicD0pAgQACToD
+AchqhAG3KQ4HIlQNnErG0IYqB9EAiEQvwEsozC43hy0CAeXMwsLDLS8MAvf497ruCZ+gOA0gfNt3
+AIK0J/JWKVzIsEQIADs=
+--__1481249538656274249abhmp0018.oracle.com--
+
+--__1481249538655274248abhmp0018.oracle.com--
+
+--__1481249538653274247abhmp0018.oracle.com--
+

@@ -1,0 +1,1397 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id aKvSIy/LomluAgAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 11:02:07 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 879E214C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 11:02:07 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1557395206126391809
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp1853928wme;
+        Tue, 24 Jan 2017 21:32:24 -0800 (PST)
+X-Received: by 10.223.161.222 with SMTP id v30mr36203029wrv.114.1485322343135;
+        Tue, 24 Jan 2017 21:32:23 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.28.154.215 with POP3 id c206mf4959393wme.1;
+        Tue, 24 Jan 2017 21:32:22 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 19258 invoked by uid 700); 25 Jan 2017 14:18:25 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	25 Jan 2017 14:18:25 +0900
+Received: (qmail 25922 invoked by uid 700); 25 Jan 2017 14:18:24 +0900
+Received: from unknown (HELO ?192.168.0.46?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	25 Jan 2017 14:18:24 +0900
+Subject: Re: [HPE Aruba WLAN Training for Key Partners_FY17Q2]
+Mime-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_CE6685ED-E97F-45FC-B611-9584AE2316B5"
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+X-Priority: 1
+In-Reply-To: <CS1PR84MB0086EB03294DAEF289E321B6CD750@CS1PR84MB0086.NAMPRD84.PROD.OUTLOOK.COM>
+Date: Wed, 25 Jan 2017 14:18:23 +0900
+Cc: =?utf-8?B?7LWc7KGw7Iic?= <ccjjss7@agilesys.co.kr>,
+ =?utf-8?B?6rmA7ZmY7JiB?= <khy@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <0714CF80-5E60-4C5B-9B32-1E72DA609022@agilesys.co.kr>
+References: <CS1PR84MB0086EB03294DAEF289E321B6CD750@CS1PR84MB0086.NAMPRD84.PROD.OUTLOOK.COM>
+To: "Kim, Jae Ho" <jae-ho.kim@hpe.com>
+
+
+--Apple-Mail=_CE6685ED-E97F-45FC-B611-9584AE2316B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4 =ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=
+=8B=88=EB=8B=A4.
+
+=EA=B5=90=EC=9C=A1=EB=8C=80=EC=83=81=EC=9E=90 =EC=A0=95=EB=B3=B4 =
+=EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+
+=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+
+> Partner Name
+> First Name
+> Family Name
+> E-mail
+> Mobile
+> Aruba Certification
+>  ASYS
+>  Hwanyoung
+>  Kim
+>  khy@agilesys.co <mailto:khy@agilesys.co>.kr
+>  010-4043-7692
+> ACMA/ACMP
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+
+
+
+----------------------------------------------------------------------
+=C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+ NI Team
+ =ED=99=A9 =EB=AF=BC=EA=B7=9C =EB=B6=80=EC=9E=A5
+ Cellular : 010-3191-0811
+=C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+----------------------------------------------------------------------
+
+> 2017. 1. 24. =EC=98=A4=ED=9B=84 5:50, Kim, Jae Ho <jae-ho.kim@hpe.com> =
+=EC=9E=91=EC=84=B1:
+>=20
+> =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94!
+> =EA=B9=80=EC=9E=AC=ED=98=B8 =EC=9E=85=EB=8B=88=EB=8B=A4.
+> =20
+> =EB=8B=A4=EB=A6=84=EC=9D=B4 =EC=95=84=EB=8B=88=EC=98=A4=EB=9D=BC, MBC =
+Training =EA=B3=BC=EC=A0=95=EC=97=90 =EB=B9=A0=EC=A7=80=EC=8B=A0 =EB=B6=84=
+=EC=9D=B4 =EA=B3=84=EC=85=94=EC=84=9C
+> =EC=9E=90=EB=A6=AC=EB=A5=BC =EC=B1=84=EC=9A=B0=EA=B3=A0=EC=9E=90 =
+=EB=A8=BC=EC=A0=80 =EC=97=B0=EB=9D=BD =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4=
+.
+> =ED=98=84=EC=9E=AC 3=EC=9E=90=EB=A6=AC =EC=A0=95=EB=8F=84=EA=B0=80 =
+=EC=9E=88=EB=8A=94=EB=8D=B0, =ED=95=98=EA=B8=B0 =EB=B0=8F =EC=B2=A8=EB=B6=80=
+=ED=8C=8C=EC=9D=BC =EA=B2=80=ED=86=A0=ED=95=B4 =EB=B3=B4=EC=8B=9C=EA=B3=A0=
+
+> =EB=82=B4=EC=9D=BC=EA=B9=8C=EC=A7=80 =EC=97=B0=EB=9D=BD=EC=9D=84 =
+=EB=B6=80=ED=83=81 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+> =20
+> =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+> =EA=B9=80=EC=9E=AC=ED=98=B8 =EB=93=9C=EB=A6=BC
+> =20
+> Thanks & Best regards,
+> Jaeho. Kim
+> Korea EG HPE Aruba Sales Team
+> Channel Account Manager / =EC=B0=A8=EC=9E=A5
+> jae-ho.kim@hpe.com <mailto:jae-ho.kim@hpe.com>
+> 82-10-9500-8758
+> 82-2-2199-4517
+> =20
+> <image002.png>
+> =20
+> =20
+> =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+> =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94!
+> HPE Aruba =EA=B9=80=EC=9E=AC=ED=98=B8 =EC=9E=85=EB=8B=88=EB=8B=A4.
+> =20
+> =EB=8B=A4=EB=A6=84=EC=9D=B4 =EC=95=84=EB=8B=88=EC=98=A4=EB=9D=BC, =
+=EC=A7=80=EB=82=9C=ED=95=B4=EA=B9=8C=EC=A7=80 =EA=B3=B5=EC=8B=9D=EC=A0=81=EC=
+=9D=B8 WLAN =ED=8A=B8=EB=A0=88=EC=9D=B4=EB=8B=9D=EC=9D=B4 =EC=97=86=EC=97=88=
+=EC=A7=80=EB=A7=8C,
+> =EC=9D=B4=EB=B2=88 =EB=B6=84=EA=B8=B0=EB=B6=80=ED=84=B0 WLAN =
+Training=EC=9D=84 =EA=B3=B5=EC=8B=9D=EC=A0=81=EC=9C=BC=EB=A1=9C =
+=EC=98=A4=ED=94=88=ED=95=98=EC=97=AC WLAN Training=EC=9D=84 =EB=A7=88=EB=A0=
+=A8=ED=95=98=EA=B2=8C =EB=90=98=EC=96=B4=EC=84=9C
+> =EB=A9=94=EC=9D=BC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+> =EB=B3=B8 =EB=8C=80=EC=83=81=EC=9E=90=EB=8A=94 =EB=A8=BC=EC=A0=80 HPE =
+Aruba=EC=9D=98 Key Partner=EC=82=AC =EB=B6=84=EB=93=A4=EA=BB=98 =EB=A8=BC=EC=
+=A0=80 =EA=B8=B0=ED=9A=8C=EB=A5=BC =EB=93=9C=EB=A6=AC=EA=B3=A0=EC=9E=90 =
+=ED=95=98=EC=98=A4=EB=8B=88,
+> =EB=A7=8E=EC=9D=80 =EA=B4=80=EC=8B=AC =EB=B6=80=ED=83=81 =EB=93=9C=EB=A6=
+=BD=EB=8B=88=EB=8B=A4.
+> =20
+> 1.       Training Name : Aruba Mobility Boot Camp
+> 2.       Schedule : 2=EC=9B=94 13=EC=9D=BC =E2=80=93 17=EC=9D=BC
+> 3.       Training Course :
+> -          =EA=B5=90=EC=9C=A1 =EB=8C=80=EC=83=81 : =EC=A4=91=EA=B8=89 =
+=EC=97=94=EC=A7=80=EB=8B=88=EC=96=B4(=EA=B8=B0=EC=A1=B4 Cisco =EB=AC=B4=EC=
+=84=A0 =EB=98=90=EB=8A=94 =ED=83=80=EB=B2=A4=EB=8D=94 =EB=AC=B4=EC=84=A0 =
+=EA=B2=BD=ED=97=98=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0 =EC=97=94=EC=A7=80=
+=EB=8B=88=EC=96=B4)
+> -          =EA=B5=90=EC=9C=A1 =EB=B0=A9=EC=8B=9D : =EA=B0=95=EC=82=AC =
+=EC=A3=BC=EB=8F=84 =EA=B5=90=EC=9C=A1(=EC=99=B8=EA=B5=AD=EC=9D=B8, =
+English)
+> -          =EA=B5=90=EC=9C=A1 =EA=B8=B0=EA=B0=84 : 5=EC=9D=BC =EA=B3=BC=EC=
+=A0=95
+> -          =EC=9E=A5=EC=86=8C : HPE =EC=82=AC=EC=98=A5 =EB=98=90=EB=8A=94=
+ =ED=8C=8C=ED=8A=B8=EB=84=88=EC=82=AC =EA=B5=90=EC=9C=A1=EC=9E=A5 =EC=98=88=
+=EC=A0=95
+> -          =EC=BB=A4=EB=A6=AC=ED=81=90=EB=9F=BC : =EC=B2=A8=EB=B6=80=ED=8C=
+=8C=EC=9D=BC =EC=B0=B8=EC=A1=B0
+> 4.       =EB=B9=84=EC=9A=A9 : USD 3,250 / 1=EC=9D=B8 =3D> =EC=B2=AB =
+=EB=B2=88=EC=A7=B8=EB=A1=9C =EC=8B=9C=ED=96=89=ED=95=98=EB=8A=94 =
+=EA=B2=83=EC=9C=BC=EB=A1=9C 50% DC=EA=B0=80=EB=8A=A5, USD 1,625 / 1=EC=9D=B8=
+
+> =C3=B0  Training Order=EB=A5=BC =ED=95=B4=EC=95=BC=ED=95=A8(HPE =
+Aruba=EB=8A=94 =EC=A0=9C=ED=92=88 =EC=98=A4=EB=8D=94=EC=99=80 =EB=98=91=EA=
+=B0=99=EC=9D=B4 Training SKU=EA=B0=80 =EC=9E=88=EC=96=B4 =
+=EC=B4=9D=ED=8C=90=EC=82=AC=EB=A1=9C=EB=B6=80=ED=84=B0 =EC=98=A4=EB=8D=94=EB=
+=A5=BC =ED=95=98=EA=B2=8C =EB=90=A9=EB=8B=88=EB=8B=A4.)
+> 5.       =EC=B5=9C=EB=8C=80 1=ED=81=B4=EB=9E=98=EC=8A=A4=EB=8B=B9 =
+=EA=B0=80=EB=8A=A5 =EC=9D=B8=EC=9B=90 : 12=EB=AA=85
+> =C3=B0  =EC=9D=B4=EB=B2=88=EC=97=90=EB=8A=94 =EC=B5=9C=EB=8C=80 =
+1=ED=81=B4=EB=9E=98=EC=8A=A4=EB=A5=BC =EC=A7=84=ED=96=89=ED=95=B4=EB=B3=B4=
+=EA=B3=A0=EC=9E=90 =ED=95=98=EC=97=AC, 12=EB=AA=85=EA=B9=8C=EC=A7=80=EB=A7=
+=8C =EC=A0=9C=ED=95=9C =EB=91=98 =EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=
+=A4.
+> =ED=96=A5=ED=9B=84, =EB=B3=B8 =EA=B3=BC=EC=A0=95=EC=9D=B4 =ED=94=BC=EB=93=
+=9C=EB=B0=B1=EC=9D=B4 =EC=A2=8B=EB=8B=A4=EB=A9=B4 =ED=99=95=EB=8C=80 =
+=EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=A4.
+> 6.       =EC=B0=B8=EC=84=9D=EC=9E=90 =EC=9A=94=EC=B2=AD =
+=EC=96=91=EC=8B=9D(=EC=98=81=EC=96=B4=EB=A1=9C =EC=9E=91=EC=84=B1 =
+=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.)
+> Partner Name
+> First Name
+> Family Name
+> E-mail
+> Mobile
+> Aruba Certification
+> =20
+> =20
+> =20
+> =20
+> =20
+> ACMA/ACMP
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> 7.       =ED=96=A5=ED=9B=84 =ED=94=8C=EB=9E=9C
+> -          =EB=B3=B8 MBC Training=EC=9D=84 =EA=B1=B0=EC=B9=9C =ED=9B=84,=
+ ACMP=EC=9E=90=EA=B2=A9=EC=A6=9D=EC=9D=84 =EC=B7=A8=EB=93=9D=ED=95=98=EC=8B=
+=A0 =EC=97=94=EC=A7=80=EB=8B=88=EC=96=B4=EB=B6=84=EB=93=A4 =EB=8C=80=EC=83=
+=81=EC=9C=BC=EB=A1=9C 2=EC=9B=94 =EC=B4=88 ACMX=EB=A5=BC =EC=9D=91=EC=8B=9C=
+ =ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94
+> =EA=B8=B0=ED=9A=8C=EB=A5=BC =EB=93=9C=EB=A6=B4 =EC=98=88=EC=A0=95=EC=9E=85=
+=EB=8B=88=EB=8B=A4. ACMX=EB=8F=84 =ED=95=9C=EA=B5=AD=EC=97=90=EC=84=9C =
+=EC=B7=A8=EB=93=9D=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EB=8A=94 =
+=EC=9E=90=EB=A6=AC=EB=A5=BC =EB=A7=88=EB=A0=A8=ED=95=A0 =EA=B3=84=ED=9A=8D=
+=EC=9D=B4=EC=98=A4=EB=8B=88, =EC=B0=B8=EA=B3=A0=ED=95=98=EC=8B=9C=EA=B8=B0=
+ =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+> =20
+> =EB=B3=B8 =ED=8A=B8=EB=A0=88=EC=9D=B4=EB=8B=9D=EC=97=90 =EC=B0=B8=EC=84=9D=
+ =ED=95=98=EC=8B=A4 =EB=B6=84=EB=93=A4=EA=BB=98=EC=84=9C=EB=8A=94 =
+=EB=8A=A6=EC=96=B4=EB=8F=84 =EB=82=B4=EC=9D=BC=EA=B9=8C=EC=A7=80 =EC=A0=9C=
+=EA=B2=8C =EB=B3=B4=EB=82=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=
+=EB=8B=88=EB=8B=A4.
+> =20
+> =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+> =EA=B9=80=EC=9E=AC=ED=98=B8 =EB=93=9C=EB=A6=BC
+> =20
+> Thanks & Best regards,
+> Jaeho. Kim
+> Korea EG HPE Aruba Sales Team
+> Channel Account Manager / =EC=B0=A8=EC=9E=A5
+> jae-ho.kim@hpe.com <mailto:jae-ho.kim@hpe.com>
+> 82-10-9500-8758
+> 82-2-2199-4517
+> =20
+> <image001.png>
+> =20
+> <MBC.pdf>
+
+
+--Apple-Mail=_CE6685ED-E97F-45FC-B611-9584AE2316B5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4 =ED=99=A9=EB=AF=BC=EA=B7=9C=
+=EC=9E=85=EB=8B=88=EB=8B=A4.<div class=3D""><br class=3D""></div><div =
+class=3D"">=EA=B5=90=EC=9C=A1=EB=8C=80=EC=83=81=EC=9E=90 =EC=A0=95=EB=B3=B4=
+ =EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.</div><div =
+class=3D""><br class=3D""></div><div class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=
+=EB=8B=88=EB=8B=A4.</div><div class=3D""><br class=3D""></div><div =
+class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"WordSection1" style=3D"page: WordSection1;"><table =
+class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"margin-left: 38pt; border-collapse: collapse;"><tbody =
+class=3D""><tr class=3D""><td width=3D"125" valign=3D"top" class=3D"" =
+style=3D"width: 93.5pt; border: 1pt solid windowtext; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">Partner Name<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">First Name<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">Family Name<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">E-mail<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">Mobile<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+center; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95=
+';"><b class=3D""><span lang=3D"EN-US" class=3D"" style=3D"font-family: =
+'HP Simplified', sans-serif;">Aruba Certification<o:p =
+class=3D""></o:p></span></b></div></td></tr><tr class=3D""><td =
+width=3D"125" valign=3D"top" class=3D"" style=3D"width: 93.5pt; =
+border-style: none solid solid; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-left-color: windowtext; =
+border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: =
+1pt; padding: 0cm 5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;ASYS</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;Hwanyoung</span></div></td><td width=3D"125" =
+valign=3D"top" class=3D"" style=3D"width: 93.5pt; border-style: none =
+solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: =
+0cm 5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;Kim</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', sans-serif;">&nbsp;<a =
+href=3D"mailto:khy@agilesys.co" =
+class=3D"">khy@agilesys.co</a>.kr</span></div></td><td width=3D"125" =
+valign=3D"top" class=3D"" style=3D"width: 93.5pt; border-style: none =
+solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: =
+0cm 5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;010-4043-7692</span></div></td><td width=3D"125" =
+valign=3D"top" class=3D"" style=3D"width: 93.5pt; border-style: none =
+solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: =
+0cm 5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', sans-serif;">ACMA/ACMP<o:p =
+class=3D""></o:p></span></div></td></tr><tr class=3D""><td width=3D"125" =
+valign=3D"top" class=3D"" style=3D"width: 93.5pt; border-style: none =
+solid solid; border-right-color: windowtext; border-bottom-color: =
+windowtext; border-left-color: windowtext; border-right-width: 1pt; =
+border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td><td width=3D"125" valign=3D"top" =
+class=3D"" style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;"><div class=3D"" style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';"><span lang=3D"EN-US" class=3D"" =
+style=3D"font-family: 'HP Simplified', =
+sans-serif;">&nbsp;</span></div></td></tr></tbody></table></div></blockquo=
+te></div><div class=3D""><br class=3D""></div><div class=3D""><br =
+class=3D""><div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; orphans: =
+auto; text-align: start; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">---------------------------------------------------------------=
+-------</div><div style=3D"color: rgb(0, 0, 0); letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D""><a href=3D"http://www.agilesys.co.kr" class=3D"">&nbsp;ASYS =
+Co. Ltd.</a></div><div style=3D"color: rgb(0, 0, 0); letter-spacing: =
+normal; orphans: auto; text-align: start; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: auto; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;=ED=99=A9 =EB=AF=BC=EA=B7=9C =
+=EB=B6=80=EC=9E=A5<div class=3D"">&nbsp;Cellular : 010-3191-0811<br =
+class=3D""><a href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a></div><div =
+class=3D"">---------------------------------------------------------------=
+-------</div></div></div></div></div></div></div></div></div>
+</div>
+<br class=3D""><div><blockquote type=3D"cite" class=3D""><div =
+class=3D"">2017. 1. 24. =EC=98=A4=ED=9B=84 5:50, Kim, Jae Ho &lt;<a =
+href=3D"mailto:jae-ho.kim@hpe.com" class=3D"">jae-ho.kim@hpe.com</a>&gt; =
+=EC=9E=91=EC=84=B1:</div><br class=3D"Apple-interchange-newline"><div =
+class=3D""><div class=3D"WordSection1" style=3D"page: WordSection1; =
+font-family: Helvetica; font-size: 12px; font-style: normal; =
+font-variant-caps: normal; font-weight: normal; letter-spacing: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, 73, =
+125);" class=3D"">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94<span =
+lang=3D"EN-US" class=3D"">!<o:p class=3D""></o:p></span></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+style=3D"color: rgb(31, 73, 125);" class=3D"">=EA=B9=80=EC=9E=AC=ED=98=B8 =
+=EC=9E=85=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" class=3D"">.<o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, =
+73, 125);" class=3D"">=EB=8B=A4=EB=A6=84=EC=9D=B4 =EC=95=84=EB=8B=88=EC=98=
+=A4=EB=9D=BC<span lang=3D"EN-US" class=3D"">, MBC Training<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=BC=EC=A0=95=EC=97=
+=90 =EB=B9=A0=EC=A7=80=EC=8B=A0 =EB=B6=84=EC=9D=B4 =EA=B3=84=EC=85=94=EC=84=
+=9C<span lang=3D"EN-US" class=3D""><o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, =
+73, 125);" class=3D"">=EC=9E=90=EB=A6=AC=EB=A5=BC =EC=B1=84=EC=9A=B0=EA=B3=
+=A0=EC=9E=90 =EB=A8=BC=EC=A0=80 =EC=97=B0=EB=9D=BD =EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4<span lang=3D"EN-US" class=3D"">.<o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, =
+73, 125);" class=3D"">=ED=98=84=EC=9E=AC<span lang=3D"EN-US" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>3</span>=EC=9E=90=EB=A6=AC =
+=EC=A0=95=EB=8F=84=EA=B0=80 =EC=9E=88=EB=8A=94=EB=8D=B0<span =
+lang=3D"EN-US" class=3D"">,<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=98=EA=B8=B0 =
+=EB=B0=8F =EC=B2=A8=EB=B6=80=ED=8C=8C=EC=9D=BC =EA=B2=80=ED=86=A0=ED=95=B4=
+ =EB=B3=B4=EC=8B=9C=EA=B3=A0<span lang=3D"EN-US" class=3D""><o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, =
+73, 125);" class=3D"">=EB=82=B4=EC=9D=BC=EA=B9=8C=EC=A7=80 =EC=97=B0=EB=9D=
+=BD=EC=9D=84 =EB=B6=80=ED=83=81 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3D"EN-US" class=3D"">.<o:p class=3D""></o:p></span></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span style=3D"color: rgb(31, =
+73, 125);" class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4<span =
+lang=3D"EN-US" class=3D"">.<o:p class=3D""></o:p></span></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+style=3D"color: rgb(31, 73, 125);" class=3D"">=EA=B9=80=EC=9E=AC=ED=98=B8 =
+=EB=93=9C=EB=A6=BC<span lang=3D"EN-US" class=3D""><o:p =
+class=3D""></o:p></span></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif; color: rgb(31, 73, =
+125);" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif; =
+color: rgb(31, 73, 125);" class=3D"">Thanks &amp; Best =
+regards,</span><span lang=3D"EN-US" style=3D"font-family: 'Metric =
+Regular', sans-serif; color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif; color: rgb(31, 73, =
+125);" class=3D"">Jaeho. Kim<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif; =
+color: rgb(31, 73, 125);" class=3D"">Korea EG HPE Aruba Sales Team<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif; color: rgb(31, 73, =
+125);" class=3D"">Channel Account Manager /<span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"color: =
+rgb(31, 73, 125);" class=3D"">=EC=B0=A8=EC=9E=A5</span><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif; =
+color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif; color: rgb(31, 73, =
+125);" class=3D""><a href=3D"mailto:jae-ho.kim@hpe.com" style=3D"color: =
+rgb(149, 79, 114); text-decoration: underline;" class=3D""><span =
+style=3D"color: blue;" class=3D"">jae-ho.kim@hpe.com</span></a><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif; color: rgb(31, 73, =
+125);" class=3D"">82-10-9500-8758<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif; =
+color: rgb(31, 73, 125);" class=3D"">82-2-2199-4517<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" style=3D"font-size: =
+5pt; font-family: 'Metric Regular', sans-serif; color: rgb(31, 73, =
+125);" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" class=3D""><span =
+id=3D"cid:image002.png@01D2766A.48271EE0">&lt;image002.png&gt;</span><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif; color: rgb(31, 73, =
+125);" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"color: rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"color: rgb(31, 73, 125);" =
+class=3D"">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D"">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94<span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">!<o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D"">HPE =
+Aruba<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B9=80=EC=9E=AC=ED=98=
+=B8<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=85=EB=8B=88=EB=8B=
+=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D"">=EB=8B=A4=EB=A6=84=EC=
+=9D=B4<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=95=84=EB=8B=88=EC=98=
+=A4=EB=9D=BC<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">,<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A7=80=EB=82=9C=ED=95=
+=B4=EA=B9=8C=EC=A7=80<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=B5=EC=8B=9D=EC=A0=
+=81=EC=9D=B8<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>WLAN<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=8A=B8=EB=A0=88=EC=9D=
+=B4=EB=8B=9D=EC=9D=B4<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=97=86=EC=97=88=EC=A7=
+=80=EB=A7=8C<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">,<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D"">=EC=9D=B4=EB=B2=88<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B6=84=EA=B8=B0=EB=B6=
+=80=ED=84=B0<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>WLAN =
+Training</span>=EC=9D=84<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=B5=EC=8B=9D=EC=A0=
+=81=EC=9C=BC=EB=A1=9C<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=A4=ED=94=88=ED=95=
+=98=EC=97=AC<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>WLAN =
+Training</span>=EC=9D=84<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=A7=88=EB=A0=A8=ED=95=
+=98=EA=B2=8C<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=90=98=EC=96=B4=EC=84=
+=9C<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D"">=EB=A9=94=EC=9D=BC<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D"">=EB=B3=B8=
+<span style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span=
+ class=3D"Apple-converted-space">&nbsp;</span></span>=EB=8C=80=EC=83=81=EC=
+=9E=90=EB=8A=94<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=A8=BC=EC=A0=80<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>HPE =
+Aruba</span>=EC=9D=98<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>Key Partner</span>=EC=82=AC<s=
+pan style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B6=84=EB=93=A4=EA=BB=
+=98<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=A8=BC=EC=A0=80<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B8=B0=ED=9A=8C=EB=A5=
+=BC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=93=9C=EB=A6=AC=EA=B3=
+=A0=EC=9E=90<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=98=EC=98=A4=EB=8B=
+=88<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">,<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D"">=EB=A7=8E=EC=9D=80<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B4=80=EC=8B=AC<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B6=80=ED=83=81<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt 38pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: =
+-18pt;" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span class=3D"">1.<span =
+style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">Training Name : Aruba Mobility Boot Camp<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+38pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"">2.<span style=3D"font-style: normal; font-variant-caps: =
+normal; font-weight: normal; font-size: 7pt; line-height: normal; =
+font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">Schedule : 2</span>=EC=9B=94<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span><span lang=3D"EN-US" =
+class=3D"">13</span></span>=EC=9D=BC<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span><span lang=3D"EN-US" =
+class=3D"">=E2=80=93 17</span></span>=EC=9D=BC<span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+38pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"">3.<span style=3D"font-style: normal; font-variant-caps: =
+normal; font-weight: normal; font-size: 7pt; line-height: normal; =
+font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">Training Course :<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt 56pt; text-align: justify; font-size: =
+10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: =
+-18pt;" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span class=3D"">-<span =
+style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EA=B5=90=
+=EC=9C=A1<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=8C=80=EC=83=81<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>:<span =
+class=3D"Apple-converted-space">&nbsp;</span></span><b class=3D""><u =
+class=3D"">=EC=A4=91=EA=B8=89</u></b><b class=3D""><u class=3D""><span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=97=94=EC=A7=80=EB=8B=
+=88=EC=96=B4</u></b><b class=3D""><u class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">(</span>=EA=B8=B0=EC=A1=B4</u></b><b class=3D""><u =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>Cisco<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=AC=B4=EC=84=A0</u>=
+</b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=98=90=EB=8A=94</u>=
+</b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=83=80=EB=B2=A4=EB=8D=
+=94</u></b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=AC=B4=EC=84=A0</u>=
+</b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B2=BD=ED=97=98=EC=9D=
+=B4</u></b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=88=EC=9C=BC=EC=8B=
+=A0</u></b><b class=3D""><u class=3D""><span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=97=94=EC=A7=80=EB=8B=
+=88=EC=96=B4</u></b><b class=3D""><u class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">)</span></u></b><span lang=3D"EN-US" style=3D"font-family: =
+'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+56pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"">-<span style=3D"font-style: normal; font-variant-caps: =
+normal; font-weight: normal; font-size: 7pt; line-height: normal; =
+font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EA=B5=90=
+=EC=9C=A1<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B0=A9=EC=8B=9D<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>:<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B0=95=EC=82=AC<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A3=BC=EB=8F=84<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B5=90=EC=9C=A1<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">(</span><b class=3D""><u class=3D"">=EC=99=B8=EA=B5=AD=EC=9D=B8=
+</u></b><b class=3D""><u class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D"">, =
+English</span></u></b><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">)<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+56pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"">-<span style=3D"font-style: normal; font-variant-caps: =
+normal; font-weight: normal; font-size: 7pt; line-height: normal; =
+font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EA=B5=90=
+=EC=9C=A1<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B8=B0=EA=B0=84<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>: =
+5</span>=EC=9D=BC<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=BC=EC=A0=95<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt 56pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: -18pt;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span class=3D"">-<span style=3D"font-style: =
+normal; font-variant-caps: normal; font-weight: normal; font-size: 7pt; =
+line-height: normal; font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EC=9E=A5=
+=EC=86=8C<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>: HPE<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=82=AC=EC=98=A5<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=98=90=EB=8A=94<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=8C=8C=ED=8A=B8=EB=84=
+=88=EC=82=AC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B5=90=EC=9C=A1=EC=9E=
+=A5<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=88=EC=A0=95<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt 56pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: -18pt;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span class=3D"">-<span style=3D"font-style: =
+normal; font-variant-caps: normal; font-weight: normal; font-size: 7pt; =
+line-height: normal; font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EC=BB=A4=
+=EB=A6=AC=ED=81=90=EB=9F=BC<span lang=3D"EN-US" style=3D"font-family: =
+'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>:<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B2=A8=EB=B6=80=ED=8C=
+=8C=EC=9D=BC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B0=B8=EC=A1=B0<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt 38pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: -18pt;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span class=3D"">4.<span style=3D"font-style: =
+normal; font-variant-caps: normal; font-weight: normal; font-size: 7pt; =
+line-height: normal; font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EB=B9=84=
+=EC=9A=A9<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>: USD 3,250 / =
+1</span>=EC=9D=B8<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>=3D&gt;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B2=AB<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B2=88=EC=A7=B8=EB=A1=
+=9C<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=8B=9C=ED=96=89=ED=95=
+=98=EB=8A=94<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B2=83=EC=9C=BC=EB=A1=
+=9C<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>50% DC</span>=EA=B0=80=EB=8A=A5=
+<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">, USD 1,625 / 1</span>=EC=9D=B8<span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+56pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: Wingdings;" class=3D""><span class=3D"">=C3=B0<span=
+ style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" class=3D"">&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">Training Order</span>=EB=A5=BC<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=B4=EC=95=BC=ED=95=
+=A8<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">(HPE Aruba</span>=EB=8A=94<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A0=9C=ED=92=88<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=A4=EB=8D=94=EC=99=
+=80<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=98=91=EA=B0=99=EC=9D=
+=B4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>Training SKU</span>=EA=B0=80<=
+span style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=88=EC=96=B4<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B4=9D=ED=8C=90=EC=82=
+=AC=EB=A1=9C=EB=B6=80=ED=84=B0<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=A4=EB=8D=94=EB=A5=
+=BC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=98=EA=B2=8C<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=90=A9=EB=8B=88=EB=8B=
+=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.)<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt 38pt; text-align: justify; font-size: =
+10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: =
+-18pt;" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span class=3D"">5.<span =
+style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EC=B5=9C=
+=EB=8C=80<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>1</span>=ED=81=B4=EB=9E=98=EC=
+=8A=A4=EB=8B=B9<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B0=80=EB=8A=A5<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9D=B8=EC=9B=90<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>: =
+12</span>=EB=AA=85<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+56pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: Wingdings;" class=3D""><span class=3D"">=C3=B0<span=
+ style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" class=3D"">&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EC=9D=B4=
+=EB=B2=88=EC=97=90=EB=8A=94<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><b class=3D""><u =
+class=3D""><span style=3D"color: red;" class=3D"">=EC=B5=9C=EB=8C=80</span=
+></u></b><b class=3D""><u class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif; color: red;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>1</span><span style=3D"color:=
+ red;" class=3D"">=ED=81=B4=EB=9E=98=EC=8A=A4</span></u></b>=EB=A5=BC<span=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A7=84=ED=96=89=ED=95=
+=B4=EB=B3=B4=EA=B3=A0=EC=9E=90<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=98=EC=97=AC<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">, 12</span>=EB=AA=85=EA=B9=8C=EC=A7=80=EB=A7=8C<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A0=9C=ED=95=9C<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=91=98<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=88=EC=A0=95=EC=9E=
+=85=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">.<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+56pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95';" class=3D"">=ED=96=A5=ED=9B=84<span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D"">,<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B3=B8<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=BC=EC=A0=95=EC=9D=
+=B4<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=94=BC=EB=93=9C=EB=B0=
+=B1=EC=9D=B4<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A2=8B=EB=8B=A4=EB=A9=
+=B4<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=99=95=EB=8C=80<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=88=EC=A0=95=EC=9E=
+=85=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">.<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt =
+38pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95'; text-indent: -18pt;" class=3D""><span lang=3D"EN-US"=
+ style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"">6.<span style=3D"font-style: normal; font-variant-caps: =
+normal; font-weight: normal; font-size: 7pt; line-height: normal; =
+font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EC=B0=B8=
+=EC=84=9D=EC=9E=90<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9A=94=EC=B2=AD<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=96=91=EC=8B=9D<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">(</span><b class=3D""><u class=3D""><span style=3D"color: =
+red;" class=3D"">=EC=98=81=EC=96=B4=EB=A1=9C</span></u></b><b =
+class=3D""><u class=3D""><span style=3D"font-family: 'HP Simplified', =
+sans-serif; color: red;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"color: =
+red;" class=3D"">=EC=9E=91=EC=84=B1</span></u></b><span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B6=80=ED=83=81=EB=93=
+=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: =
+'HP Simplified', sans-serif;" class=3D"">.)<o:p =
+class=3D""></o:p></span></div><table class=3D"MsoNormalTable" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-left: 38pt; =
+border-collapse: collapse;"><tbody class=3D""><tr class=3D""><td =
+width=3D"125" valign=3D"top" style=3D"width: 93.5pt; border: 1pt solid =
+windowtext; padding: 0cm 5.4pt;" class=3D""><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: center; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><b class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">Partner Name<o:p class=3D""></o:p></span></b></div></td><td =
+width=3D"125" valign=3D"top" style=3D"width: 93.5pt; border-style: solid =
+solid solid none; border-top-color: windowtext; border-right-color: =
+windowtext; border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: center; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">First Name<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: center; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">Family Name<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: center; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">E-mail<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: center; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">Mobile<o:p =
+class=3D""></o:p></span></b></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: solid solid solid none; =
+border-top-color: windowtext; border-right-color: windowtext; =
+border-bottom-color: windowtext; border-top-width: 1pt; =
+border-right-width: 1pt; border-bottom-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: center; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><b class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">Aruba Certification<o:p =
+class=3D""></o:p></span></b></div></td></tr><tr class=3D""><td =
+width=3D"125" valign=3D"top" style=3D"width: 93.5pt; border-style: none =
+solid solid; border-right-color: windowtext; border-bottom-color: =
+windowtext; border-left-color: windowtext; border-right-width: 1pt; =
+border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div></td><td =
+width=3D"125" valign=3D"top" style=3D"width: 93.5pt; border-style: none =
+solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: =
+0cm 5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">ACMA/ACMP<o:p =
+class=3D""></o:p></span></div></td></tr><tr class=3D""><td width=3D"125" =
+valign=3D"top" style=3D"width: 93.5pt; border-style: none solid solid; =
+border-right-color: windowtext; border-bottom-color: windowtext; =
+border-left-color: windowtext; border-right-width: 1pt; =
+border-bottom-width: 1pt; border-left-width: 1pt; padding: 0cm 5.4pt;" =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; =
+font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div></td><td =
+width=3D"125" valign=3D"top" style=3D"width: 93.5pt; border-style: none =
+solid solid none; border-bottom-color: windowtext; border-bottom-width: =
+1pt; border-right-color: windowtext; border-right-width: 1pt; padding: =
+0cm 5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td><td width=3D"125" valign=3D"top" =
+style=3D"width: 93.5pt; border-style: none solid solid none; =
+border-bottom-color: windowtext; border-bottom-width: 1pt; =
+border-right-color: windowtext; border-right-width: 1pt; padding: 0cm =
+5.4pt;" class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; text-align: =
+justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=
+=95';" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></td></tr></tbody></table><div =
+style=3D"margin: 0cm 0cm 0.0001pt 38pt; text-align: justify; font-size: =
+10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: =
+-18pt;" class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span class=3D"">7.<span =
+style=3D"font-style: normal; font-variant-caps: normal; font-weight: =
+normal; font-size: 7pt; line-height: normal; font-family: 'Times New =
+Roman';" class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=ED=96=A5=
+=ED=9B=84<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=94=8C=EB=9E=9C<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt 56pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; text-indent: -18pt;" =
+class=3D""><span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span class=3D"">-<span style=3D"font-style: =
+normal; font-variant-caps: normal; font-weight: normal; font-size: 7pt; =
+line-height: normal; font-family: 'Times New Roman';" =
+class=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span></span></span></span>=EB=B3=B8=
+<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span>MBC =
+Training</span>=EC=9D=84<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B1=B0=EC=B9=9C<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=9B=84<span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D"">, ACMP</span>=EC=9E=90=EA=B2=A9=EC=A6=9D=EC=9D=84<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B7=A8=EB=93=9D=ED=95=
+=98=EC=8B=A0<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=97=94=EC=A7=80=EB=8B=
+=88=EC=96=B4=EB=B6=84=EB=93=A4<span style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=8C=80=EC=83=81=EC=9C=
+=BC=EB=A1=9C<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>2</span>=EC=9B=94<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B4=88<span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>ACMX</span>=EB=A5=BC<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9D=91=EC=8B=9C<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=A0<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=88=98<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=88=EB=8A=94<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt 56pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D"">=EA=B8=B0=ED=9A=8C=EB=
+=A5=BC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=93=9C=EB=A6=B4<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=98=88=EC=A0=95=EC=9E=
+=85=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">. ACMX</span>=EB=8F=84<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=9C=EA=B5=AD=EC=97=
+=90=EC=84=9C<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B7=A8=EB=93=9D=ED=95=
+=98=EC=8B=A4<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=88=98<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=88=EB=8A=94<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=9E=90=EB=A6=AC=EB=A5=
+=BC<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=A7=88=EB=A0=A8=ED=95=
+=A0<span style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EA=B3=84=ED=9A=8D=EC=9D=
+=B4=EC=98=A4=EB=8B=88<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">,<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B0=B8=EA=B3=A0=ED=95=
+=98=EC=8B=9C=EA=B8=B0<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D"">=EB=B3=B8<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=8A=B8=EB=A0=88=EC=9D=
+=B4=EB=8B=9D=EC=97=90<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B0=B8=EC=84=9D<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=ED=95=98=EC=8B=A4<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B6=84=EB=93=A4=EA=BB=
+=98=EC=84=9C=EB=8A=94<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><b class=3D""><u =
+class=3D""><span style=3D"color: red;" =
+class=3D"">=EB=8A=A6=EC=96=B4=EB=8F=84</span></u></b><b class=3D""><u =
+class=3D""><span style=3D"font-family: 'HP Simplified', sans-serif; =
+color: red;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span style=3D"color: =
+red;" class=3D"">=EB=82=B4=EC=9D=BC=EA=B9=8C=EC=A7=80</span></u></b><span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=A0=9C=EA=B2=8C<spa=
+n style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B3=B4=EB=82=B4=EC=A3=
+=BC=EC=8B=9C=EA=B8=B0<span style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP Simplified', =
+sans-serif;" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: =
+0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: =
+'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D"">=EA=B0=90=EC=82=AC=ED=
+=95=A9=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" style=3D"font-family: 'HP =
+Simplified', sans-serif;" class=3D"">.<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D"">=EA=B9=80=EC=9E=AC=ED=98=B8<span =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EB=93=9C=EB=A6=BC<spa=
+n lang=3D"EN-US" style=3D"font-family: 'HP Simplified', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'HP Simplified', sans-serif;" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=
+=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif;" class=3D"">Thanks =
+&amp; Best regards,<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif;" =
+class=3D"">Jaeho. Kim<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif;" =
+class=3D"">Korea EG HPE Aruba Sales Team<o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif;" class=3D"">Channel =
+Account Manager /<span =
+class=3D"Apple-converted-space">&nbsp;</span></span>=EC=B0=A8=EC=9E=A5<spa=
+n lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif;" =
+class=3D""><o:p class=3D""></o:p></span></div><div style=3D"margin: 0cm =
+0cm 0.0001pt; text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+class=3D""><a href=3D"mailto:jae-ho.kim@hpe.com" style=3D"color: =
+rgb(149, 79, 114); text-decoration: underline;" class=3D""><span =
+style=3D"font-family: 'Metric Regular', sans-serif; color: blue;" =
+class=3D"">jae-ho.kim@hpe.com</span></a></span><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif;" class=3D""><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" =
+style=3D"font-family: 'Metric Regular', sans-serif;" =
+class=3D"">82-10-9500-8758<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-family: 'Metric Regular', sans-serif;" =
+class=3D"">82-2-2199-4517<o:p class=3D""></o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" style=3D"font-size: 5pt; font-family: 'Metric Regular', =
+sans-serif;" class=3D""><o:p class=3D"">&nbsp;</o:p></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10pt; =
+font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95';" class=3D""><span =
+lang=3D"EN-US" class=3D""><span =
+id=3D"cid:image001.png@01D2605A.C5944F40">&lt;image001.png&gt;</span><o:p =
+class=3D""></o:p></span></div><div style=3D"margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: '=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95';" class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><span =
+id=3D"cid:28BD65F8-5765-4412-B34B-A24239748DA2">&lt;MBC.pdf&gt;</span></di=
+v></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_CE6685ED-E97F-45FC-B611-9584AE2316B5--
+

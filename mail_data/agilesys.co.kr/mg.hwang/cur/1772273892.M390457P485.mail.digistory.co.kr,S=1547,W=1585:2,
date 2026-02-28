@@ -1,0 +1,38 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id gHY9F+TAomnlAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:18:12 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 5EA0914C07
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:18:12 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1538008244073374113
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from SVVSA-SGH602X614-Node01 (118.130.109.246) by
+ MAIL-SERVER.agilesys.co.kr (112.220.69.170) with Microsoft SMTP Server id
+ 8.3.465.0; Fri, 24 Jun 2016 18:02:31 +0900
+From: SVVSA-SGH602X614-Node01 <admin@agilesys.co.kr>
+To: =?utf-8?B?7Zmp66+86rec?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Fri, 24 Jun 2016 18:02:31 +0900
+Subject: Quorum communication status for manager 'SVVSA-SGH602X614-Node01' =
+ 'Down'. WARNING (E00000300)
+Thread-Topic: Quorum communication status for manager
+ 'SVVSA-SGH602X614-Node01' = 'Down'. WARNING (E00000300)
+Thread-Index: AdHN9ynXb3TDVDSeSDuW7kET/Yw1yA==
+Message-ID: <1466758951.2721@SVVSA-SGH602X614-Node01>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+DQoNCg==

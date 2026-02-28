@@ -1,0 +1,492 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id kH9mEXbGomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:41:58 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 468E314C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:41:58 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp2983096wma;
+        Mon, 26 Dec 2016 01:44:02 -0800 (PST)
+X-Received: by 10.194.76.193 with SMTP id m1mr25656195wjw.70.1482745441765;
+        Mon, 26 Dec 2016 01:44:01 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender) smtp.mailfrom=jslee@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of jslee@agilesys.co.kr as permitted sender)
+Received: by 10.28.161.193 with POP3 id k184mf59413119wme.1;
+        Mon, 26 Dec 2016 01:44:01 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 7811 invoked by uid 700); 26 Dec 2016 17:46:00 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	26 Dec 2016 17:46:00 +0900
+Received: (qmail 31529 invoked by uid 700); 26 Dec 2016 17:45:58 +0900
+Received: from unknown (HELO HP) (jslee@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	26 Dec 2016 17:45:58 +0900
+From: =?ks_c_5601-1987?B?wMzBvrz2?= <jslee@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?J77nwaS/7Sc=?= <yangjw@sk.com>,
+	<wogus8894@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>
+Cc: <bgh8055@naver.com>,
+	<mmpt2014@gmail.com>,
+	<01064247114@urcorp.co.kr>,
+	=?ks_c_5601-1987?B?J7Dmtb/H9ic=?= <diora@sk.com>,
+	=?ks_c_5601-1987?B?J7D4v+sn?= <onc010@nate.com>,
+	<kmsfinal@naver.com>,
+	=?ks_c_5601-1987?B?J7Hox/y89ic=?= <zenphile@sk.com>,
+	"'OH JAE CHANG'" <eyechang@sk.com>,
+	"'pmmanager\(pmmanager\)/SKNS'" <SKNS.MAL.pmmanager@SK.COM>,
+	"'YU YONG HOON'" <lyuyh1122@sk.com>,
+	"'KO SUK BUM'" <sbkolcd@sk.com>,
+	=?ks_c_5601-1987?B?J8iyvLrIoyc=?= <hwangseongho@sk.com>,
+	"'LEE TAE HOON'" <thlee007@sk.com>,
+	"'SONG HOBEOM'" <hbsong@sk.com>,
+	"'KO SUK BUM'" <sbkolcd@sk.com>,
+	"'KIM YONG HO'" <kyho315@sk.com>,
+	"'JU HYANG MO'" <white981@sk.com>,
+	"'SEO IN SOO'" <seoinsu@sk.com>,
+	=?ks_c_5601-1987?B?J7muxcPIryc=?= <tttt34@sk.com>,
+	"'EOM CHUNGRYEOL'" <djarlgkr@sk.com>,
+	=?ks_c_5601-1987?B?J8CvurS/7Sc=?= <yoobw@sk.com>
+References: <1759D462DDB11044922C2638418271DB152059CB@SK-EXMBX-B02.sk.com>
+In-Reply-To: <1759D462DDB11044922C2638418271DB152059CB@SK-EXMBX-B02.sk.com>
+Subject: =?ks_c_5601-1987?B?UkU6IMDMv+ux4rD8ILzTtbUgNDAwTSDBpsfRILD8t8MgKL3HILzT?=
+	=?ks_c_5601-1987?B?tbXF1726xq4gvcMgNDAwTSDDyrD6x9Qp?=
+Date: Mon, 26 Dec 2016 17:45:58 +0900
+Message-ID: <000f01d25f54$7afd7c10$70f87430$@co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0010_01D25F9F.EAE52410"
+Thread-Index: AdJfMIp379g2Njm6TfahpsSjL83tSAAIYOnw
+Content-Language: ko
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0010_01D25F9F.EAE52410
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5CCw+sDltNQuDQoNCiANCg0Kxde9usaux9i6uLTPILHiwbggUW9TILyzwaTAuLfO
+tMIgwabH0cDMIL7Itcez17/kLg0KDQrH9sDntce0wiC8s8GkwLi3ziC79bfOIMDbvLrHz7+pILq4
+s7u15biztM+02S4gDQoNCrHiwbggY29uZmlndXJhdGlvbr+hvK0gvsa3oSC7obCju/Ygus660MC7
+IMPfsKHHz73DuOkgtcew7Swgx9i05yBRb1MgwabH0cC6DQrG98auurAgNDAwTWJwcyDBpsfRwNS0
+z7TZLg0KDQrC/LDtx8+9w7HiILnZtvi0z7TZLg0KDQogDQoNCiANCg0KIA0KDQo8UW9TILyzwaQ+
+DQoNCnRyYWZmaWMgY2xhc3NpZmllciBxb3MNCg0KaWYtbWF0Y2ggYW55DQoNCiANCg0KdHJhZmZp
+YyBiZWhhdmlvciBjYXI0MDBNDQoNCmNhciBjaXIgNDAwMDAwDQoNCiANCg0KcW9zIHBvbGljeSBs
+aW1pdDQwME0NCg0KY2xhc3NpZmllciBxb3MgYmVoYXZpb3IgY2FyNDAwTQ0KDQogDQoNCjzH2LTn
+IMDOxc3G5MDMvbq/oSBsaW1pdDQwME0gUW9TvLPBpCDD37ChPg0KDQppbnRlcmZhY2UgZ2lnYWJp
+dGV0aGVybmV0IDEvMC8xDQoNCnBvcnQgbGluay10eXBlIGFjY2Vzcw0KDQpxb3MgYXBwbHkgcG9s
+aWN5IGxpbWl0NDAwTSBpbmJvdW5kDQoNCnFvcyBhcHBseSBwb2xpY3kgbGltaXQ0MDBNIG91dGJv
+dW5kDQoNCiANCg0KaW50ZXJmYWNlIGdpZ2FiaXRldGhlcm5ldCAxLzAvMg0KDQpwb3J0IGxpbmst
+dHlwZSBhY2Nlc3MNCg0KcW9zIGFwcGx5IHBvbGljeSBsaW1pdDQwMDAgaW5ib3VuZA0KDQpxb3Mg
+YXBwbHkgcG9saWN5IGxpbWl0NDAwMCBvdXRib3VuZA0KDQogDQoNCmludGVyZmFjZSBnaWdhYml0
+ZXRoZXJuZXQgMS8wLzMNCg0KcG9ydCBsaW5rLXR5cGUgYWNjZXNzDQoNCnFvcyBhcHBseSBwb2xp
+Y3kgbGltaXQ0MDAwIGluYm91bmQNCg0KcW9zIGFwcGx5IHBvbGljeSBsaW1pdDQwMDAgb3V0Ym91
+bmQNCg0KKMfYtOe1x7TCIMb3xq6/oSDA+7/rKQ0KDQogDQoNCiANCg0KRnJvbTogvufBpL/tIFtt
+YWlsdG86eWFuZ2p3QHNrLmNvbV0gDQpTZW50OiBNb25kYXksIERlY2VtYmVyIDI2LCAyMDE2IDE6
+MzAgUE0NClRvOiBqc2xlZUBhZ2lsZXN5cy5jby5rcg0KQ2M6IGJnaDgwNTVAbmF2ZXIuY29tOyBt
+bXB0MjAxNEBnbWFpbC5jb207ICfBtsf2tPa068elwMy757TUJw0KKDAxMDY0MjQ3MTE0QHVyY29y
+cC5jby5rcikgKDAxMDY0MjQ3MTE0QHVyY29ycC5jby5rcik7ILDmtb/H9jsgsPi/6w0KKG9uYzAx
+MEBuYXRlLmNvbSk7IGttc2ZpbmFsQG5hdmVyLmNvbTsgsejH/Lz2OyBPSCBKQUUgQ0hBTkc7DQpw
+bW1hbmFnZXIocG1tYW5hZ2VyKS9TS05TOyBZVSBZT05HIEhPT047IEtPIFNVSyBCVU07IMiyvLrI
+ozsgTEVFIFRBRSBIT09OOw0KU09ORyBIT0JFT007IEtPIFNVSyBCVU07IEtJTSBZT05HIEhPOyBK
+VSBIWUFORyBNTzsgU0VPIElOIFNPTzsgua7Fw8ivOyBFT00NCkNIVU5HUllFT0w7IMCvurS/7Q0K
+U3ViamVjdDogwMy/67HisPwgvNO1tSA0MDBNIMGmx9EgsPy3wyAovccgvNO1tcXXvbrGriC9wyA0
+MDBNIMPKsPrH1CkNCg0KIA0KDQq+58Gkv+3A1LTPtNkuDQoNCiANCg0KwK+8scC4t84gua7Ax7Xl
+uLAgu+fH18DUtM+02S4NCg0KIA0KDQrAzL/rseKw/CC9w7n8wPzIr8C7IMfPtNm6uLjpIL3HwaYg
+vNO1tSDDvMWpIL3DIDQwME0guKYgw8qw+sfVtM+02S4gDQoNCri5wMwgs6q/wLTCIMfQsbO0wiA5
+MDBNILimILPRvu6wqbTPtNkuIChVcC9Eb3duILjwtc4pDQoNCiANCg0Kwd+9ybG5ILO7IEwyIL26
+wKfEob+htMIgQ0lSIDQwMCDAzCC8s8GkwMwgtce+7sDWvcC0z7TZLg0KDQoosKIgUG9ydCC/obW1
+ILW/wM/Hz7DUIFFvUyDA+7/rtcopDQoNCiANCg0KwMzBvrz2IMbAwOW01A0KDQrA2sO8IMXXvbrG
+riDIxCDIrsDOILrOxbm15biztM+02S4NCg0Kw9+wobfOIGNvbW1hbmS4piC09SCz1r7uvt8gx8+0
+wsH2ID8gvLPBpLqvsObAuyDH2L7ftce0wsH2ID8NCg0KIA0KDQrB373JsbkgTDIgvbrAp8ShIGNv
+bmZpZ3VyYXRpb24NCg0KIA0KDQp0cmFmZmljIGJlaGF2aW9yIGNhcl9pbmJvdW5kDQoNCmNhciBj
+aXIgNDAwDQoNCnRyYWZmaWMgYmVoYXZpb3IgY2FyX291dGJvdW5kDQoNCmNhciBjaXIgNDAwDQoN
+CiANCg0KdmxhbiAxMDENCg0KcG9ydCBnaWdhYml0ZXRoZXJuZXQgMS8wLzENCg0KIA0KDQpxb3Mg
+cG9saWN5IGNhcl9pbmJvdW5kDQoNCmNsYXNzaWZpZXIgcW9zIGJlaGF2aW9yIGNhcl9pbmJvdW5k
+DQoNCiANCg0KcW9zIHBvbGljeSBjYXJfb3V0Ym91bmQNCg0KY2xhc3NpZmllciBxb3MgYmVoYXZp
+b3IgY2FyX291dGJvdW5kDQoNCiANCg0KaW50ZXJmYWNlIGdpZ2FiaXRldGhlcm5ldCAxLzAvMQ0K
+DQpwb3J0IGxpbmstdHlwZSBhY2Nlc3MNCg0KcW9zIGFwcGx5IHBvbGljeSBjYXJfaW5ib3VuZCBp
+bmJvdW5kDQoNCnFvcyBhcHBseSBwb2xpY3kgY2FyX291dGJvdW5kIG91dGJvdW5kDQoNCiANCg0K
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNClNLs9fGrr/3vbq8rbrxvboo
+wdYpIE5Xv+6/68H2v/gyxsAgvufBpL/tILD6wOUNCg0Kwda80ii6u7vnKSA6ICgxMDAtNzM3KSC8
+rb/vvcMgwd+xuCC8rbzSua61vyAxMzW5+MH2IMbbvcPHyMW4v/YgMTRGDQoNCsHWvNIosdm5q8H2
+KSA6ICgxMDAtNzk4KSC8rb/vxq+6sL3DIMHfsbggxfCw6LfOIDM2ILvvvLG69LX5IDgwNsijDQoN
+ClRFTCA6IDA3MC00NzM1LTcwNTkgIEZBWCA6IDAyLTc3My05OTExDQoNCk1vYmlsZSA6IDAxMC0z
+MTI5LTE5NDINCg0KRS1tYWlsIDogIDxtYWlsdG86eWFuZ2p3QHNrLmNvbT4geWFuZ2p3QHNrLmNv
+bQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KIA0KDQo=
+
+------=_NextPart_000_0010_01D25F9F.EAE52410
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft =
+Word 12 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:4.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4 =
+=B0=FA=C0=E5=B4=D4<span lang=3DEN-US>.<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=C5=D7=BD=BA=C6=AE=C7=D8=BA=B8=B4=CF =
+=B1=E2=C1=B8<span lang=3DEN-US> QoS =
+</span>=BC=B3=C1=A4=C0=B8=B7=CE=B4=C2 =C1=A6=C7=D1=C0=CC =
+=BE=C8=B5=C7=B3=D7=BF=E4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=C7=F6=C0=E7=B5=C7=B4=C2 =
+=BC=B3=C1=A4=C0=B8=B7=CE =BB=F5=B7=CE =C0=DB=BC=BA=C7=CF=BF=A9 =
+=BA=B8=B3=BB=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>. =
+<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=B1=E2=C1=B8<span lang=3DEN-US> =
+configuration</span>=BF=A1=BC=AD =BE=C6=B7=A1 =BB=A1=B0=A3=BB=F6 =
+=BA=CE=BA=D0=C0=BB =C3=DF=B0=A1=C7=CF=BD=C3=B8=E9 =B5=C7=B0=ED<span =
+lang=3DEN-US>, </span>=C7=D8=B4=E7 <span lang=3DEN-US>QoS =
+</span>=C1=A6=C7=D1=C0=BA =C6=F7=C6=AE=BA=B0 <span lang=3DEN-US>400Mbps =
+</span>=C1=A6=C7=D1=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><div =
+style=3D'mso-element:para-border-div;border:none;border-bottom:solid =
+windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'><p class=3DMsoNormal =
+style=3D'border:none;padding:0cm'><span =
+style=3D'color:#1F497D'>=C2=FC=B0=ED=C7=CF=BD=C3=B1=E2 =
+=B9=D9=B6=F8=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'border:none;padding:0cm'><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'border:none;padding:0cm'><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>&lt;QoS </span></b><b><span =
+style=3D'font-size:11.0pt'>=BC=B3=C1=A4<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></span></b></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>traffic classifier =
+qos<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>if-match =
+any<o:p></o:p></span></p><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>traffic behavior =
+car400M<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>car cir =
+400000<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos policy =
+limit400M<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>classifier qos behavior =
+car400M<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>&lt;</span></b><b><span =
+style=3D'font-size:11.0pt'>=C7=D8=B4=E7 =
+=C0=CE=C5=CD=C6=E4=C0=CC=BD=BA=BF=A1 <span lang=3DEN-US>limit400M =
+QoS</span>=BC=B3=C1=A4 =C3=DF=B0=A1<span =
+lang=3DEN-US>&gt;<o:p></o:p></span></span></b></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>interface gigabitethernet =
+1/0/1<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>port link-type access<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit400M =
+inbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit400M =
+outbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>interface gigabitethernet =
+1/0/2<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>port link-type access<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit4000 =
+inbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit4000 =
+outbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>interface gigabitethernet =
+1/0/3<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>port link-type access<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit4000 =
+inbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;color:red'>qos apply policy limit4000 =
+outbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'> (</span><span =
+style=3D'font-size:11.0pt'>=C7=D8=B4=E7=B5=C7=B4=C2 =C6=F7=C6=AE=BF=A1 =
+=C0=FB=BF=EB<span lang=3DEN-US>)<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><b><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=BE=E7=C1=A4=BF=ED</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> =
+[mailto:yangjw@sk.com] <br><b>Sent:</b> Monday, December 26, 2016 1:30 =
+PM<br><b>To:</b> jslee@agilesys.co.kr<br><b>Cc:</b> bgh8055@naver.com; =
+mmpt2014@gmail.com; '</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C1=B6=C7=F6=B4=F6=B4=EB=C7=A5=C0=CC=BB=
+=E7=B4=D4</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>' (01064247114@urcorp.co.kr) =
+(01064247114@urcorp.co.kr); </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B0=E6=B5=BF=C7=F6</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>; </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B0=F8=BF=EB</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'> (onc010@nate.com); =
+kmsfinal@naver.com; </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B1=E8=C7=FC=BC=F6</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>; OH JAE CHANG; =
+pmmanager(pmmanager)/SKNS; YU YONG HOON; KO SUK BUM; </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C8=B2=BC=BA=C8=A3</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>; LEE TAE HOON; =
+SONG HOBEOM; KO SUK BUM; KIM YONG HO; JU HYANG MO; SEO IN SOO; =
+</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B9=AE=C5=C3=C8=AF</span><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>; EOM =
+CHUNGRYEOL; </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C0=AF=BA=B4=BF=ED</span><span =
+lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'><br><b>Subject:</b> =
+</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C0=CC=BF=EB=B1=E2=B0=FC</span><span =
+style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=BC=D3=B5=B5</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'> 400M </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C1=A6=C7=D1</span><span =
+style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B0=FC=B7=C3</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'> (</span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=BD=C7</span><span =
+style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=BC=D3=B5=B5=C5=D7=BD=BA=C6=AE</span><=
+span style=3D'font-family:"Tahoma","sans-serif"'> </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=BD=C3</span><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'> 400M </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=C3=CA=B0=FA=C7=D4</span><span =
+lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>)<o:p></o:p></span></p></div>=
+</div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BE=E7=C1=A4=BF=ED=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=C0=AF=BC=B1=C0=B8=B7=CE =B9=AE=C0=C7=B5=E5=B8=B0 =
+=BB=E7=C7=D7=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=C0=CC=BF=EB=B1=E2=B0=FC =
+=BD=C3=B9=FC=C0=FC=C8=AF=C0=BB =C7=CF=B4=D9=BA=B8=B8=E9 =BD=C7=C1=A6 =
+=BC=D3=B5=B5 =C3=BC=C5=A9 =BD=C3<span lang=3DEN-US> 400M </span>=B8=A6 =
+=C3=CA=B0=FA=C7=D5=B4=CF=B4=D9<span lang=3DEN-US>. =
+<o:p></o:p></span></p><p class=3DMsoNormal>=B8=B9=C0=CC =
+=B3=AA=BF=C0=B4=C2 =C7=D0=B1=B3=B4=C2<span lang=3DEN-US> 900M =
+</span>=B8=A6 =B3=D1=BE=EE=B0=A9=B4=CF=B4=D9<span lang=3DEN-US>. =
+(Up/Down </span>=B8=F0=B5=CE<span lang=3DEN-US>)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=C1=DF=BD=C9=B1=B9 =B3=BB<span lang=3DEN-US> L2 =
+</span>=BD=BA=C0=A7=C4=A1=BF=A1=B4=C2<span lang=3DEN-US> CIR 400 =
+</span>=C0=CC =BC=B3=C1=A4=C0=CC =
+=B5=C7=BE=EE=C0=D6=BD=C0=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>(</span>=B0=A2<span lang=3DEN-US> Port </span>=BF=A1=B5=B5 =
+=B5=BF=C0=CF=C7=CF=B0=D4<span lang=3DEN-US> QoS =
+</span>=C0=FB=BF=EB=B5=CA<span lang=3DEN-US>)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b>=C0=CC=C1=BE=BC=F6 =C6=C0=C0=E5=B4=D4<span =
+lang=3DEN-US><o:p></o:p></span></b></p><p class=3DMsoNormal>=C0=DA=C3=BC =
+=C5=D7=BD=BA=C6=AE =C8=C4 =C8=AE=C0=CE =
+=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p =
+class=3DMsoNormal>=C3=DF=B0=A1=B7=CE<span lang=3DEN-US> =
+command</span>=B8=A6 =B4=F5 =B3=D6=BE=EE=BE=DF =C7=CF=B4=C2=C1=F6<span =
+lang=3DEN-US> ? </span>=BC=B3=C1=A4=BA=AF=B0=E6=C0=BB =
+=C7=D8=BE=DF=B5=C7=B4=C2=C1=F6<span lang=3DEN-US> =
+?<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><b>=C1=DF=BD=C9=B1=B9<span lang=3DEN-US> L2 =
+</span>=BD=BA=C0=A7=C4=A1<span lang=3DEN-US> =
+configuration<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><span =
+lang=3DEN-US>traffic behavior car_inbound<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>car cir 400<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>traffic behavior =
+car_outbound<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>car cir 400<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><b><span =
+lang=3DEN-US style=3D'color:#C00000'>vlan =
+101<o:p></o:p></span></b></p><p class=3DMsoNormal><span =
+lang=3DEN-US>port gigabitethernet 1/0/1<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>qos policy =
+car_inbound<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>classifier qos behavior car_inbound<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>qos policy =
+car_outbound<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>classifier qos behavior =
+car_outbound<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><b><span =
+lang=3DEN-US style=3D'color:#C00000'>interface gigabitethernet =
+1/0/1<o:p></o:p></span></b></p><p class=3DMsoNormal><span =
+lang=3DEN-US>port link-type access<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>qos apply policy car_inbound =
+inbound<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US>qos =
+apply policy car_outbound outbound<o:p></o:p></span></p><p =
+class=3DMsoNormal id=3D"MIK_HID_AREA"><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>SK</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=B3=D7=C6=
+=AE=BF=F7=BD=BA=BC=AD=BA=F1=BD=BA</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>(</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=C1=D6</=
+span><span lang=3DEN-US style=3D'font-size:9.0pt;color:#262626'>) =
+NW</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=BF=EE=BF=
+=EB=C1=F6=BF=F8</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>2</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=C6=C0</=
+span><span style=3D'font-size:9.0pt;color:#262626'> </span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=BE=E7=C1=
+=A4=BF=ED</span><span style=3D'font-size:9.0pt;color:#262626'> =
+</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=B0=FA=C0=
+=E5</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=C1=D6=BC=
+=D2</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>(</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=BA=BB=BB=
+=E7</span><span lang=3DEN-US style=3D'font-size:9.0pt;color:#262626'>) : =
+(</span><span lang=3DEN-US style=3D'color:#262626'>100-737) </span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=BC=AD=BF=
+=EF=BD=C3 =C1=DF=B1=B8 =BC=AD=BC=D2=B9=AE=B5=BF </span><span =
+lang=3DEN-US style=3D'font-size:9.0pt;color:#262626'>135</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=B9=F8=C1=
+=F6 =C6=DB=BD=C3=C7=C8=C5=B8=BF=F6<span lang=3DEN-US> =
+14F<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=C1=D6=BC=
+=D2<span lang=3DEN-US>(</span>=B1=D9=B9=AB=C1=F6<span lang=3DEN-US>) : =
+(</span></span><span lang=3DEN-US style=3D'color:#262626'>100-798) =
+</span><span =
+style=3D'font-size:9.0pt;font-family:=B1=BC=B8=B2;color:#262626'>=BC=AD=BF=
+=EF=C6=AF=BA=B0=BD=C3 =C1=DF=B1=B8 =C5=F0=B0=E8=B7=CE<span lang=3DEN-US> =
+36 </span>=BB=EF=BC=B1=BA=F4=B5=F9<span lang=3DEN-US> =
+806</span>=C8=A3</span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>TEL : 070-4735-7059&nbsp; FAX : =
+02-773-9911<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>Mobile : =
+010-3129-1942<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:9.0pt;color:#262626'>E-mail : =
+</span><span lang=3DEN-US><a href=3D"mailto:yangjw@sk.com"><span =
+style=3D'font-size:9.0pt'>yangjw@sk.com</span></a></span><span =
+lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt;color:#262626'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_0010_01D25F9F.EAE52410--

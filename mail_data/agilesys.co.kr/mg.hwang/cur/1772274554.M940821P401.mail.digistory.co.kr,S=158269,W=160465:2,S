@@ -1,0 +1,2196 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 8D8BOHrDommRAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:29:14 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id E461414C34
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:29:14 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1549398203324392145
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from SC201608251455 (118.130.109.246) by MAIL-SERVER.agilesys.co.kr
+ (112.220.69.170) with Microsoft SMTP Server id 8.3.485.1; Wed, 2 Nov 2016
+ 09:20:34 +0900
+From: =?ks_c_5601-1987?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?Tkm75773xsA=?= <network@agilesys.co.kr>
+CC: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 2 Nov 2016 09:20:35 +0900
+Subject:
+ =?ks_c_5601-1987?B?Rlc6ILnawM7I1rDtsLS01CC53bOzsPy3wyC5rsDHuKYgteW4sw==?=
+ =?ks_c_5601-1987?B?tM+02Q==?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?udrAzsjWsO2wtLTUILnds7Ow/LfDILmuwMe4piC15biztM8=?=
+ =?ks_c_5601-1987?B?tNk=?=
+Thread-Index:
+ AQIrCST4y4rWYbjEmGGhqhE+MusKiQJRbu5QAjbbEwsCdpxBegIKUoZJATBEl54BGu+nbgGnmLC9AjHpUBgBi2ws9QI0ee+DAW7expACgnduzJ9cMTng
+Message-ID: <000501d2349e$ee373bc0$caa5b340$@agilesys.co.kr>
+References:
+ <D3C1084B9C44294DBB989CA9AA6B10F03F1D1988@MYKULWS2348.kul-dc.dhl.com>
+ <TU4PR84MB00617789ED40A6DD287FFFAFE5390@TU4PR84MB0061.NAMPRD84.PROD.OUTLOOK.COM>
+ <D3C1084B9C44294DBB989CA9AA6B10F03F1D19EB@MYKULWS2348.kul-dc.dhl.com>
+ <TU4PR84MB0061176004D225F8E5DC244EE5390@TU4PR84MB0061.NAMPRD84.PROD.OUTLOOK.COM>,<D3C1084B9C44294DBB989CA9AA6B10F047CB12D1@MYKULWS2348.kul-dc.dhl.com>
+ <CD85FFAB-02A8-44A5-A6D3-8F1EA5C843CB@hpe.com>
+ ,<D3C1084B9C44294DBB989CA9AA6B10F047CB161F@MYKULWS2348.kul-dc.dhl.com>
+ <B60139C2-2B47-412F-B993-617709477924@hpe.com>
+ <000701d2330a$f89e0200$e9da0600$@agilesys.co.kr>
+ <000001d2331f$e3d5ad40$ab8107c0$@agilesys.co.kr>
+ <D3C1084B9C44294DBB989CA9AA6B10F047CB2075@MYKULWS2348.kul-dc.dhl.com>
+ <000801d2332a$0a9537c0$1fbfa740$@agilesys.co.kr>
+ <D3C1084B9C44294DBB989CA9AA6B10F047CB2308@MYKULWS2348.kul-dc.dhl.com>
+In-Reply-To:
+ <D3C1084B9C44294DBB989CA9AA6B10F047CB2308@MYKULWS2348.kul-dc.dhl.com>
+Accept-Language: ko-KR
+Content-Language: ko
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 0a
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+Content-Type: multipart/related;
+	boundary="_005_000501d2349eee373bc0caa5b340agilesyscokr_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_005_000501d2349eee373bc0caa5b340agilesyscokr_
+Content-Type: multipart/alternative;
+	boundary="_000_000501d2349eee373bc0caa5b340agilesyscokr_"
+
+--_000_000501d2349eee373bc0caa5b340agilesyscokr_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsa3oSC53bOzsMcgx/bA5yDB+Mfgwd/A1LTPtNkuDQoNCsbEv/YgudcgNDgtUG9ydCBUILjwteIg
+x9EgsLO0wiCxpMHWv6G8rSDIuLz2x8+/qSCx3cDPILDtvNO59r26xcO56LfOILCts7IgsO2807n2
+vbrFzbnMs863ziC537zbv7nBpMDUtM+02S4NCg0Kx8i+9yC6zsW5teW4s7TPtNkuDQoNCi/AzL20
+u+fH18C6IDQ4LVBvcnQgVCC48LXiIDKws8HfIDGws7TCILnawM7I1rD6wOXAzCC53bOzx9GwybfO
+ILXHvu7A1sC4s6ogSFC/obyttMIgud2zsyDAzLfCwMwgvvi0wrDJt84gyK7AzrXLtM+02S4NCg0K
+x/bA5yDAzL20uriw7bytwNu8urXIILvnx9e16cC7IMXktOu3ziBIUL+hIExheWVyIDEgwsrAuLfO
+IMiuwM7AuyC/5MO7IMffvcC0z7TZLihMYXllciAxv6G8rSC53bOzs7u/qsDMIL74wLsgvcMgua7B
+prChILXJILz2IMDWvcC0z7TZLikNCg0KxsS/9iC51yA0OCAgUG9ydCBUuPC14iDH0SCws7TCILHd
+wM8gud6+xrytIEhQt84gud+827rOxbm15biztM+02S4NCg0KSFC53bOzIMHWvNK0wiC+xrehILTj
+tOfA2r+hsNQgua7AxyC6zsW5teW4s7TPtNkuDQoNCrCou+fH1bTPtNkuDQoNCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT0NCijB1ikgv6HAzL3DvbogLyC81rfnvMe75773us4gLyBO
+ScbAICDBpL/4v+sgtOu4rg0KVGVsLiAwNzAtNzExNC0wMDg2IC8gRmF4LiAwMi01ODYtNTA3MA0K
+TW9iaWxlLiAwMTAtNTU3OC0yNjYzDQpFLU1haWwuIHd5LmpldW5nQGFnaWxlc3lzLmNvLmtyPG1h
+aWx0bzp3eS5qZXVuZ0BhZ2lsZXN5cy5jby5rcj4NCkFkZHJlc3MuILytv++9wyC8rcPKsbggud3G
+97W/IDY3LTMgtOu4orr0tfkgNMP+DQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+DQoNCkZyb206IEhQU1BDIE9NMiAoREhMIEtSKSBbbWFpbHRvOkhQU1BDLk9NMkBkaGwuY29tXQ0K
+U2VudDogTW9uZGF5LCBPY3RvYmVyIDMxLCAyMDE2IDI6MjcgUE0NClRvOiDBpL/4v+sNCkNjOiBO
+SbvnvvfGwDsgWWFubiBLaW0gKERITCBLUikNClN1YmplY3Q6IFJFOiC52sDOyNaw7bC0tNQgud2z
+s7D8t8Mgua7Ax7imILXluLO0z7TZDQoNCr7Is+fHz7y8v+QgIMGkv/i/67TruK601A0KwPrI8cLK
+v6G8rSC52sDOyNaw7bC0tNSwx8C4t84gIMiuwM61x7TCIMGkuri0wiC+xrehv80gsLDAuLjnDQq+
+xsH3ILnds7Ozu7+qwLogvvi9wLTPtNkuDQoNCr3Fw7uzr8KlDQoNClJNQSBOTw0KDQpDQVNFIE5P
+DQoNClBBUlQgTk8NCg0KRGVzY3JpcHRpb24NCg0KMjAxNi0wNi0xNA0KDQoxMDAwMjM4NzU2OTQw
+MDAxDQoNCjUzMDk0MzYyMTUtNTMwLTENCg0KSkM2MTgtNjEwMDENCg0KSFAgQTEwNTAwIDQ4LXBv
+cnQgR2lnLVQgU0UgTW9kdWxlDQoNCjIwMTYtMDYtMjENCg0KMTAwMDIzODg0NzM1MDAwMQ0KDQo1
+MzA5NjQ3NzQwLTUzMC0xDQoNCkpDNjE4LTYxMTAxDQoNCkhQIEExMDUwMCA0OC1wb3J0IEdpZy1U
+IFNFIE1vZHVsZQ0KDQoyMDE2LTA3LTE4DQoNCjEwMDAyMzkzMDEyODAwMDENCg0KNTMxMDQzMDc2
+MC01MzAtMQ0KDQpKQzYxMC02MTEwMQ0KDQpIUCBBMTA1MDAgMjUwMFcgQUMgUG93ZXIgU3VwcGx5
+DQoNCg0KDQqwqLvnx9W0z7TZDQrBpMjxvK615biyDQoNCllvdXJzIHRydWx5LA0KDQpoZWUgc3Vr
+IGp1bmcvIMGkyPG8rg0Kb3BlcmF0aW9uIG1hbmFnZXINCkRITCBHYXNhbiBTUEMNClBob25lICs4
+MigyKTI2NjAtMzczMw0KRmF4ICs4MigyKTI2NjAtMzc5NQ0KTW9iaWxlICs4MigyKTEwLTQzODgt
+NTc4MQ0KaHBzcGMub20yQGRobC5jb208bWFpbHRvOmplbm4ua2ltQGRobC5jb20+DQp3d3cuZHBk
+aGwuY29tPGh0dHA6Ly93d3cuZHBkaGwuY29tLz4NClNhZmV0eSBpcyBFdmVyeW9uZaGvcyBSZXNw
+b25zaWJpbGl0eSENClAgUGxlYXNlIGNvbnNpZGVyIHRoZSBlbnZpcm9ubWVudCBiZWZvcmUgcHJp
+bnRpbmcgdGhpcyBlLW1haWwNCg0KDQpGcm9tOiDBpL/4v+sgW21haWx0bzp3eS5qZXVuZ0BhZ2ls
+ZXN5cy5jby5rcl0NClNlbnQ6IE1vbmRheSwgT2N0b2JlciAzMSwgMjAxNiAxMjo1MSBQTQ0KVG86
+IEhQU1BDIE9NMiAoREhMIEtSKQ0KQ2M6ICdOSbvnvvfGwCc7IFlhbm4gS2ltIChESEwgS1IpDQpT
+dWJqZWN0OiBSRTogudrAzsjWsO2wtLTUILnds7Ow/LfDILmuwMe4piC15biztM+02Q0KDQq+yLPn
+x8+8vL/kDQoNCrHXt7Mgvsa3oSDGxMauILnds7O1x77uwNW0wsH2IMiuwM66zsW5teW4s7TPtNku
+DQoNCsD6yPEgs7u/qr+hvK20wiC53bOzx9i+37XJsNQgSkM2MThBIDFFQSBKQzYxMEEgMUVBIMDU
+tM+02S4NCg0KOA0KDQpDTjJBRjM5MDA4DQoNCkhQIEExMDUwMCA0OC1wb3J0IEdpZy1UIFNFIE1v
+ZHVsZQ0KDQpKQzYxOEENCg0KtOuwy8L7w7sgwM7FzbPduMEgTDNfMSA1IFNsb3QgtOvDvL/rDQoN
+CjIwMTYtMDYtMTUNCg0KVEFDDQoNCjIwMTYtMDYtMjANCg0KxevH1by+xc0NCg0KoaENCg0KOQ0K
+DQpDTjU3RjM5MDJIDQoNCkhQIEExMDUwMCA0OC1wb3J0IEdpZy1UIFNFIE1vZHVsZQ0KDQpKQzYx
+OEENCg0KtOuwy8L7w7sgwM7FzbPduMEgTDNfMSA1IFNsb3QgwOW+1rjwteINCg0KMjAxNi0wNi0y
+MQ0KDQrF68fVvL7FzQ0KDQoyMDE2LTA2LTIyDQoNClRBQw0KDQpSTUHB+Mfgwd8NCg0KDQrH0bTr
+tMIgsbPDvCDIxCBSQU0gurizvbvzxcK3ziDIrsDOtcu0z7TZLg0KDQrIrsDOus7FubXluLO0z7TZ
+LiCwqLvnx9W0z7TZLg0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoowdYp
+IL+hwMy9w726IC8gvNa357zHu+e+97rOIC8gTknGwCAgwaS/+L/rILTruK4NClRlbC4gMDcwLTcx
+MTQtMDA4NiAvIEZheC4gMDItNTg2LTUwNzANCk1vYmlsZS4gMDEwLTU1NzgtMjY2Mw0KRS1NYWls
+LiB3eS5qZXVuZ0BhZ2lsZXN5cy5jby5rcjxtYWlsdG86d3kuamV1bmdAYWdpbGVzeXMuY28ua3I+
+DQpBZGRyZXNzLiC8rb/vvcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69LX5IDTD/g0KPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpGcm9tOiBIUFNQQyBPTTIgKERITCBLUikg
+W21haWx0bzpIUFNQQy5PTTJAZGhsLmNvbV0NClNlbnQ6IE1vbmRheSwgT2N0b2JlciAzMSwgMjAx
+NiAxMTo1MCBBTQ0KVG86IMGkv/i/6w0KQ2M6IE5Ju+e+98bAOyBZYW5uIEtpbSAoREhMIEtSKQ0K
+U3ViamVjdDogUkU6ILnawM7I1rDtsLS01CC53bOzsPy3wyC5rsDHuKYgteW4s7TPtNkNCkltcG9y
+dGFuY2U6IEhpZ2gNCg0Kvsiz58fPvcq0z7HuICDBpL/4v+u067iutNQNCkhQIFdhcmVob3VzZb+h
+IMGkyPG8rsDUtM+02S4NCg0KxN28vsXNuKYgxevH2CAgwOW+1sGivPawoSC1x7jnIMTdvL7Fzb+h
+vK0gx9i058fPtMIgus7HsLn4yKO/zSCw7bC0waS6uLimIMHWvcO46Q0Kx9i058fPtMIgus7HsLn4
+yKO4piAgw6Ow7SAgwaK89rXIIMGkuri067fOILDtsLS60LKyICDFw7not84gud+828C7IMfPsO0g
+wNa9wLTPtNkuDQrH2LTnwOW68b+hIMfYtOfHz7TCIL3DuK6+8yDBpLq4tMIgwPrI8cLKv6G8rSC+
+y7z2sKEgvvi9wLTPtNkuDQoNCsGkyK7H0SDBpLq4tMIgudrAzsjWsO2wtLTUwMyzqiBIUCCx6MH2
+yMaw+sDltNS/obDUILmuwMe4piDB1r3DuOkgsKi758fPsNq9wLTPtNkuDQoNCg0KsKi758fVtM+0
+2Q0KwaTI8byuteW4sg0KDQpZb3VycyB0cnVseSwNCg0KaGVlIHN1ayBqdW5nLyDBpMjxvK4NCm9w
+ZXJhdGlvbiBtYW5hZ2VyDQpESEwgR2FzYW4gU1BDDQpQaG9uZSArODIoMikyNjYwLTM3MzMNCkZh
+eCArODIoMikyNjYwLTM3OTUNCk1vYmlsZSArODIoMikxMC00Mzg4LTU3ODENCmhwc3BjLm9tMkBk
+aGwuY29tPG1haWx0bzpqZW5uLmtpbUBkaGwuY29tPg0Kd3d3LmRwZGhsLmNvbTxodHRwOi8vd3d3
+LmRwZGhsLmNvbS8+DQpTYWZldHkgaXMgRXZlcnlvbmWhr3MgUmVzcG9uc2liaWxpdHkhDQpQIFBs
+ZWFzZSBjb25zaWRlciB0aGUgZW52aXJvbm1lbnQgYmVmb3JlIHByaW50aW5nIHRoaXMgZS1tYWls
+DQoNCkZyb206IMGkv/i/6yBbbWFpbHRvOnd5LmpldW5nQGFnaWxlc3lzLmNvLmtyXQ0KU2VudDog
+TW9uZGF5LCBPY3RvYmVyIDMxLCAyMDE2IDExOjM5IEFNDQpUbzogSFBTUEMgT00yIChESEwgS1Ip
+DQpDYzogJ05Ju+e+98bAJw0KU3ViamVjdDogUkU6ILnawM7I1rDtsLS01CC53bOzsPy3wyC5rsDH
+uKYgteW4s7TPtNkNCg0Kvsiz58fPvLy/5A0KDQq/ocDMvcO9uiDBpL/4v+sgtOu4rsDUtM+02S4N
+Cg0KwPrI8bChILnds7PH2L7ftckgSkM2MTgguPC14iC9w7iuvvPBuyC+y7z2wNbAu7Chv+Q/DQoN
+CsGkyK7H0SC9w7iuvvMgus7FubXluLO0z7TZLg0KDQqwqLvnx9W0z7TZLg0KDQo9PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09DQoowdYpIL+hwMy9w726IC8gvNa357zHu+e+97rOIC8g
+TknGwCAgwaS/+L/rILTruK4NClRlbC4gMDcwLTcxMTQtMDA4NiAvIEZheC4gMDItNTg2LTUwNzAN
+Ck1vYmlsZS4gMDEwLTU1NzgtMjY2Mw0KRS1NYWlsLiB3eS5qZXVuZ0BhZ2lsZXN5cy5jby5rcjxt
+YWlsdG86d3kuamV1bmdAYWdpbGVzeXMuY28ua3I+DQpBZGRyZXNzLiC8rb/vvcMgvK3DyrG4ILnd
+xve1vyA2Ny0zILTruKK69LX5IDTD/g0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PQ0KDQpGcm9tOiDA5bDmyKMgW21haWx0bzpraGphbmdAYWdpbGVzeXMuY28ua3JdDQpTZW50OiBN
+b25kYXksIE9jdG9iZXIgMzEsIDIwMTYgOTowOSBBTQ0KVG86IMGkv/i/6w0KU3ViamVjdDogRlc6
+ILnawM7I1rDtsLS01CC53bOzsPy3wyC5rsDHuKYgteW4s7TPtNkNCg0KDQoNCsDlsObIoyC15biy
+DQowMTAtNTQ4NC0zMDI2DQpbY2lkOmltYWdlMDAxLnBuZ0AwMUQyMzM4Mi5DQjRCQzAzMF0NCg0K
+DQpGcm9tOiBLaW0sIEplZSBIb29uIChTRE4gQ29FIEV4dC4pIFttYWlsdG86amVlaG9vbi5raW1A
+aHBlLmNvbV0NClNlbnQ6IEZyaWRheSwgT2N0b2JlciAyOCwgMjAxNiAyOjEzIFBNDQpUbzogSFBT
+UEMgT00yIChESEwgS1IpDQpDYzogwOWw5sijOyC/67vzILHoOyBocHNwYyBpYjEgKERITCBLUik7
+IGhwc3BjIGliMiAoREhMIEtSKTsgTWluLCBCeW91bmcgU2FtOyBocHNwYyBvYjQgKERITCBLUikN
+ClN1YmplY3Q6IFJlOiC52sDOyNaw7bC0tNQgud2zs7D8t8Mgua7Ax7imILXluLO0z7TZDQoNCr7I
+s+fHz7y8v+QuICDBpMjxvK601C4NCryxw7O4riCwqLvnteW4s7TPtNkuDQoNCsDlsObIo7TULg0K
+tMq+7rW1ILTZwL3B1iDIrb/kwM+x7sH2tMIgssAgyLi9xSC6zsW5ILXluK6w2r3AtM+02S4NCrz2
+sO3Hz7y8v+QuDQoNCrOqwMcgaVBob25lv6G8rSC6uLO/DQoNCjIwMTYuIDEwLiAyOC4gv8DIxCAy
+OjEwIEhQU1BDIE9NMiAoREhMIEtSKSA8SFBTUEMuT00yQGRobC5jb208bWFpbHRvOkhQU1BDLk9N
+MkBkaGwuY29tPj4gwNu8ujoNCr7Is+fHz7y8v+QgsPrA5bTUDQrAz7TcILDou+q8rSC538fgtcfB
+9iC+yrDUIDHB1sDPtPUgv6zA5cC7IMfPtbW3zyDHz7DavcC0z7TZLg0KyKS9wyC/rMDlwMwgtPUg
+x8q/5MfPvcO46SDC98jEIMi4vcW6zsW5teW4rrDavcC0z7TZLg0KDQqwqLvnx9W0z7TZDQrBpMjx
+vK615biyDQoNCllvdXJzIHRydWx5LA0KDQpoZWUgc3VrIGp1bmcvIMGkyPG8rg0Kb3BlcmF0aW9u
+IG1hbmFnZXINCkRITCBHYXNhbiBTUEMNClBob25lICs4MigyKTI2NjAtMzczMw0KRmF4ICs4Migy
+KTI2NjAtMzc5NQ0KTW9iaWxlICs4MigyKTEwLTQzODgtNTc4MQ0KaHBzcGMub20yQGRobC5jb208
+bWFpbHRvOmplbm4ua2ltQGRobC5jb20+DQp3d3cuZHBkaGwuY29tPGh0dHA6Ly93d3cuZHBkaGwu
+Y29tLz4NClNhZmV0eSBpcyBFdmVyeW9uZaGvcyBSZXNwb25zaWJpbGl0eSENClAgUGxlYXNlIGNv
+bnNpZGVyIHRoZSBlbnZpcm9ubWVudCBiZWZvcmUgcHJpbnRpbmcgdGhpcyBlLW1haWwNCg0KDQoN
+CkZyb206IEhQU1BDIE9NMiAoREhMIEtSKQ0KU2VudDogRnJpZGF5LCBPY3RvYmVyIDI4LCAyMDE2
+IDE6MjAgUE0NClRvOiAnS2ltLCBKZWUgSG9vbiAoU0ROIENvRSBFeHQuKSc7IGtoamFuZ0BhZ2ls
+ZXN5cy5jby5rcjxtYWlsdG86a2hqYW5nQGFnaWxlc3lzLmNvLmtyPg0KQ2M6IFlhbm4gS2ltIChE
+SEwgS1IpOyBocHNwYyBpYjEgKERITCBLUik7IGhwc3BjIGliMiAoREhMIEtSKTsgTWluLCBCeW91
+bmcgU2FtOyBocHNwYyBvYjQgKERITCBLUikNClN1YmplY3Q6IFJFOiC52sDOyNaw7bC0tNQgud2z
+s7D8t8Mgua7Ax7imILXluLO0z7TZDQpJbXBvcnRhbmNlOiBIaWdoDQoNCr7Is+fHz7y8v+QgsPrA
+5bTUDQq+xsH3IMDUsO21x8H2IL7KvtK9wLTPtNkuDQq+8MGmse7B9iC/rMDlwLsgx8+46SC1ybex
+wfa/5D8NCsiuwM66zsW5teW4rrDavcC0z7TZLg0KDQoNCrCou+fH1bTPtNkNCsGkyPG8rrXluLIN
+Cg0KWW91cnMgdHJ1bHksDQoNCmhlZSBzdWsganVuZy8gwaTI8byuDQpvcGVyYXRpb24gbWFuYWdl
+cg0KREhMIEdhc2FuIFNQQw0KUGhvbmUgKzgyKDIpMjY2MC0zNzMzDQpGYXggKzgyKDIpMjY2MC0z
+Nzk1DQpNb2JpbGUgKzgyKDIpMTAtNDM4OC01NzgxDQpocHNwYy5vbTJAZGhsLmNvbTxtYWlsdG86
+amVubi5raW1AZGhsLmNvbT4NCnd3dy5kcGRobC5jb208aHR0cDovL3d3dy5kcGRobC5jb20vPg0K
+U2FmZXR5IGlzIEV2ZXJ5b25loa9zIFJlc3BvbnNpYmlsaXR5IQ0KUCBQbGVhc2UgY29uc2lkZXIg
+dGhlIGVudmlyb25tZW50IGJlZm9yZSBwcmludGluZyB0aGlzIGUtbWFpbA0KDQoNCg0KRnJvbTog
+S2ltLCBKZWUgSG9vbiAoU0ROIENvRSBFeHQuKSBbbWFpbHRvOmplZWhvb24ua2ltQGhwZS5jb21d
+DQpTZW50OiBGcmlkYXksIE9jdG9iZXIgMjgsIDIwMTYgMTA6NTIgQU0NClRvOiBIUFNQQyBPTTIg
+KERITCBLUik7IGtoamFuZ0BhZ2lsZXN5cy5jby5rcjxtYWlsdG86a2hqYW5nQGFnaWxlc3lzLmNv
+LmtyPg0KQ2M6IFlhbm4gS2ltIChESEwgS1IpOyBocHNwYyBpYjEgKERITCBLUik7IGhwc3BjIGli
+MiAoREhMIEtSKTsgTWluLCBCeW91bmcgU2FtOyBocHNwYyBvYjQgKERITCBLUikNClN1YmplY3Q6
+IFJlOiC52sDOyNaw7bC0tNQgud2zs7D8t8Mgua7Ax7imILXluLO0z7TZDQoNCr7Is+fHz7y8v+Qu
+ILHowfbIxsDUtM+02S4NCg0KwOWw5sijtNQsIL7Gt6G0wiC/ucD8v6EgudrAzsjWsPrA5bTUwLsg
+xevH2CDB+Mfgx9+++rT4ILGkwdbF68fVwPy76ry+xc0gQ1NSIMOzuK4gsMfA1LTPtNkuDQrD0SAz
+sMfAzrWlv+QuDQqw7bC0u+cgu+fBpMC4t84gxsTGriC53bOzIMH2v6wgvcXDu7XIILDHwM61pSDG
+xMauILnds7Mgv6m6ziDIrsDOILrOxbkgteW4s7TPtNkuDQq4uL7gIL7Gwfe1tSDGxMauILnds7PA
+zCC+yCC1x776tNm46SC53bOzIL+swOUgv6m6zrW1IMiuwM4gus7FubXluK6w2r3AtM+02S4NCrz2
+sO3Hz7y8v+QuDQoNCrOqwMcgaVBob25lv6G8rSC6uLO/DQoNCjIwMTYuIDEwLiAyOC4gv8DA/CAx
+MDozMSBIUFNQQyBPTTIgKERITCBLUikgPEhQU1BDLk9NMkBkaGwuY29tPG1haWx0bzpIUFNQQy5P
+TTJAZGhsLmNvbT4+IMDbvLo6DQq+yLPnx8+8vL/kILHowfbIxrD6wOW01A0KSFAgV2FyZWhvdXNl
+v6EgwaTI8byuwNS0z7TZLg0KDQq+xrehILnawM7I1rDtsLS01CAgM7DHILO7wM/AzCC53bOzuLi3
+4cDPwNS0z7TZLg0Kv6zA5cDMILT1IMfKv+THz73Fwfa/5D8gyK7AzrrOxbm15biusNq9wLTPtNku
+DQoNClJNQSBOTw0KDQpDQVNFIE5PDQoNClBBUlQgTk8NCg0KsO2wtA0KDQrB1rzSDQoNCjEwMDAy
+Mzg3NTY5NDAwMDENCg0KNTMwOTQzNjIxNS01MzAtMQ0KDQpKQzYxOC02MTAwMQ0KDQq52sDOyNYN
+Cg0KsaTB1rGkv6q9wyC8rbG4ILvzuavB377Tt84xMTAgv+zDvLG5urjH6LGkwdbIuLD8MTLD/iA8
+waS/+L+jvcO9uj4NCg0KMTAwMDIzODg0NzM1MDAwMQ0KDQo1MzA5NjQ3NzQwLTUzMC0xDQoNCkpD
+NjE4LTYxMTAxDQoNCrnawM7I1g0KDQqxpMHWsaS/qr3DILytsbggu/O5q8HfvtO3zjExMCC/7MO8
+sbm6uMfosaTB1si4sPwxMsP+IDzBpL/4v6O9w726Pg0KDQoxMDAwMjM5MzAxMjgwMDAxDQoNCjUz
+MTA0MzA3NjAtNTMwLTENCg0KSkM2MTAtNjExMDENCg0KudrAzsjWDQoNCrGkwdaxpL+qvcMgvK2x
+uCC787mrwd++07fOMTEwIL/sw7yxubq4x+ixpMHWyLiw/DEyw/4gPMGkv/i/o73Dvbo+DQoNCg0K
+DQqwqLvnx9W0z7TZDQrBpMjxvK615biyDQoNCllvdXJzIHRydWx5LA0KDQpoZWUgc3VrIGp1bmcv
+IMGkyPG8rg0Kb3BlcmF0aW9uIG1hbmFnZXINCkRITCBHYXNhbiBTUEMNClBob25lICs4MigyKTI2
+NjAtMzczMw0KRmF4ICs4MigyKTI2NjAtMzc5NQ0KTW9iaWxlICs4MigyKTEwLTQzODgtNTc4MQ0K
+aHBzcGMub20yQGRobC5jb208bWFpbHRvOmplbm4ua2ltQGRobC5jb20+DQp3d3cuZHBkaGwuY29t
+PGh0dHA6Ly93d3cuZHBkaGwuY29tLz4NClNhZmV0eSBpcyBFdmVyeW9uZaGvcyBSZXNwb25zaWJp
+bGl0eSENClAgUGxlYXNlIGNvbnNpZGVyIHRoZSBlbnZpcm9ubWVudCBiZWZvcmUgcHJpbnRpbmcg
+dGhpcyBlLW1haWwNCg0KDQpGcm9tOiBLaW0sIEplZSBIb29uIChTRE4gQ29FIEV4dC4pIFttYWls
+dG86amVlaG9vbi5raW1AaHBlLmNvbV0NClNlbnQ6IFR1ZXNkYXksIEp1bHkgMDUsIDIwMTYgMToy
+NyBQTQ0KVG86IEhQU1BDIE9NMiAoREhMIEtSKQ0KQ2M6IFlhbm4gS2ltIChESEwgS1IpOyBocHNw
+YyBpYjEgKERITCBLUik7IGhwc3BjIGliMiAoREhMIEtSKTsgTWluLCBCeW91bmcgU2FtDQpTdWJq
+ZWN0OiBSRTogudrAzsjWsO2wtLTUILnds7Ow/LfDILmuwMe4piC15biztM+02Q0KDQq+yLPnx8+8
+vL/kLg0KDQq6/LilIMOzuK4gsKi757XluLO0z7TZLg0KvPaw7cfPvLy/5C4NCg0KQmVzdCBSZWdh
+cmRzLA0KDQpKZWVIb29uIEtpbSAoSFBFIE1BU0UuIENJU1NQLiBDSVNBKQ0KQ3VzdG9tZXIgU29s
+dXRpb24gQ2VudGVyIC8gR2xvYmFsIFN1cHBvcnQgRGVsaXZlcnkNClRlY2hub2xvZ3kgU2Vydmlj
+ZXMgU3VwcG9ydCwgRW50ZXJwcmlzZSBHcm91cA0KSGV3bGV0dCBQYWNrYXJkIEVudGVycHJpc2Ug
+TFRELg0KDQpGcm9tOiBIUFNQQyBPTTIgKERITCBLUikgW21haWx0bzpIUFNQQy5PTTJAZGhsLmNv
+bV0NClNlbnQ6IFR1ZXNkYXksIEp1bHkgMDUsIDIwMTYgMToyNSBQTQ0KVG86IEtpbSwgSmVlIEhv
+b24gKFNETiBDb0UgRXh0LikgPGplZWhvb24ua2ltQGhwZS5jb208bWFpbHRvOmplZWhvb24ua2lt
+QGhwZS5jb20+Pg0KQ2M6IL/ru/MgseggPFlhbm4uS2ltQGRobC5jb208bWFpbHRvOllhbm4uS2lt
+QGRobC5jb20+PjsgaHBzcGMgaWIxIChESEwgS1IpIDxocHNwYy5pYjFAZGhsLmNvbTxtYWlsdG86
+aHBzcGMuaWIxQGRobC5jb20+PjsgaHBzcGMgaWIyIChESEwgS1IpIDxocHNwYy5pYjJAZGhsLmNv
+bTxtYWlsdG86aHBzcGMuaWIyQGRobC5jb20+PjsgTWluLCBCeW91bmcgU2FtIDxieW91bmctc2Ft
+Lm1pbkBocGUuY29tPG1haWx0bzpieW91bmctc2FtLm1pbkBocGUuY29tPj4NClN1YmplY3Q6IFJF
+OiC52sDOyNaw7bC0tNQgud2zs7D8t8Mgua7Ax7imILXluLO0z7TZDQpJbXBvcnRhbmNlOiBIaWdo
+DQoNCr7Is+fHz7y8v+QgsPrA5bTUDQrH9sDnu/PIsiCzu7/rIML8sO3Hz7DtIL73uavHz7W1t88g
+x8+w2sC4uOcgv+TDu8fPvcUgs6/CpbHuwfYgv6zA5cfPtbW3zyDHz7DavcC0z7TZLg0KyK7AzsfY
+wda8xbytILCou+e15biztM+02S4NCg0KDQqwqLvnx9W0z7TZDQrBpMjxvK615biyDQoNCllvdXJz
+IHRydWx5LA0KDQpoZWUgc3VrIGp1bmcvIMGkyPG8rg0Kb3BlcmF0aW9uIG1hbmFnZXINCkRITCBH
+YXNhbiBTUEMNClBob25lICs4MigyKTI2NjAtMzczMw0KRmF4ICs4MigyKTI2NjAtMzc5NQ0KTW9i
+aWxlICs4MigyKTEwLTQzODgtNTc4MQ0KaHBzcGMub20yQGRobC5jb208bWFpbHRvOmplbm4ua2lt
+QGRobC5jb20+DQp3d3cuZHBkaGwuY29tPGh0dHA6Ly93d3cuZHBkaGwuY29tLz4NClNhZmV0eSBp
+cyBFdmVyeW9uZaGvcyBSZXNwb25zaWJpbGl0eSENClAgUGxlYXNlIGNvbnNpZGVyIHRoZSBlbnZp
+cm9ubWVudCBiZWZvcmUgcHJpbnRpbmcgdGhpcyBlLW1haWwNCg0KRnJvbTogS2ltLCBKZWUgSG9v
+biAoU0ROIENvRSBFeHQuKSBbbWFpbHRvOmplZWhvb24ua2ltQGhwZS5jb21dDQpTZW50OiBUdWVz
+ZGF5LCBKdWx5IDA1LCAyMDE2IDE6MjEgUE0NClRvOiBIUFNQQyBPTTIgKERITCBLUikNCkNjOiBZ
+YW5uIEtpbSAoREhMIEtSKTsgaHBzcGMgaWIxIChESEwgS1IpOyBocHNwYyBpYjIgKERITCBLUik7
+IE1pbiwgQnlvdW5nIFNhbQ0KU3ViamVjdDogUkU6ILnawM7I1rDtsLS01CC53bOzsPy3wyC5rsDH
+uKYgteW4s7TPtNkNCg0Kvsiz58fPvLy/5C4gsejB9sjGwNS0z7TZLg0KDQpSTUEgTk8NCg0KQ0FT
+RSBOTw0KDQpQQVJUIE5PDQoNCrDtsLQNCg0Kwda80g0KDQq758CvDQoNCsf2wOcgu/PIsg0KDQox
+MDAwMjM4NzU2OTQwMDAxDQoNCjUzMDk0MzYyMTUtNTMwLTENCg0KSkM2MTgtNjEwMDENCg0KudrA
+zsjWDQoNCrGkwdaxpL+qvcMgvK2xuCC787mrwd++07fOMTEwIL/sw7yxubq4x+ixpMHWyLiw/DEy
+w/4gsaTB1sXrx9XA/LvqvL7FzQ0KDQpIUCCx6MH2yMaw+sDltNS/obDUILnds7MNCg0Kud2zsyDA
+5brxIENBVENIIElJSSDHwbfOvLy9uiDB+Mfgwd8NCg0KMTAwMDIzODg0NzM1MDAwMQ0KDQo1MzA5
+NjQ3NzQwLTUzMC0xDQoNCkpDNjE4LTYxMTAxDQoNCrnawM7I1g0KDQqxpMHWsaS/qr3DILytsbgg
+u/O5q8HfvtO3zjExMCC/7MO8sbm6uMfosaTB1si4sPwxMsP+ILGkwdbF68fVwPy76ry+xc0NCg0K
+SFAgsejB9sjGsPrA5bTUwMwgwfW788bEvsfIxCDA2773v7nBpA0KDQq53bOzIMDluvGwoSC+xsH3
+ILnMsbPDvLXIILvzyLIuDQo1MzA5NDM2MjE1LTUzMC0xIMTJwMy9usDHIENBVENIIElJSSDHwbfO
+vLy9uiC/+MDOILrQvK4gsOGw+rChILOqv8C0wrTrt84gsbPDvCC/ucGkICiw7bC0IMLKIL/ksbi7
+58fXKQ0KDQoNCjUzMDk0MzYyMTUtNTMwLTEgLCA1MzA5NjQ3NzQwLTUzMC0xIMTJwMy9uiC48LXO
+IMfRtN4gyMQgKDi/+SA1wM8pt84gv6zA5SC6zsW5ILXluLO0z7TZLg0KvPaw7cfPvLy/5C4NCg0K
+QmVzdCBSZWdhcmRzLA0KDQpKZWVIb29uIEtpbSAoSFBFIE1BU0UuIENJU1NQLiBDSVNBKQ0KQ3Vz
+dG9tZXIgU29sdXRpb24gQ2VudGVyIC8gR2xvYmFsIFN1cHBvcnQgRGVsaXZlcnkNClRlY2hub2xv
+Z3kgU2VydmljZXMgU3VwcG9ydCwgRW50ZXJwcmlzZSBHcm91cA0KSGV3bGV0dCBQYWNrYXJkIEVu
+dGVycHJpc2UgTFRELg0KDQpGcm9tOiBIUFNQQyBPTTIgKERITCBLUikgW21haWx0bzpIUFNQQy5P
+TTJAZGhsLmNvbV0NClNlbnQ6IFR1ZXNkYXksIEp1bHkgMDUsIDIwMTYgMToxNiBQTQ0KVG86IEtp
+bSwgSmVlIEhvb24gKFNETiBDb0UgRXh0LikgPGplZWhvb24ua2ltQGhwZS5jb208bWFpbHRvOmpl
+ZWhvb24ua2ltQGhwZS5jb20+Pg0KQ2M6IL/ru/MgseggPFlhbm4uS2ltQGRobC5jb208bWFpbHRv
+Ollhbm4uS2ltQGRobC5jb20+PjsgaHBzcGMgaWIxIChESEwgS1IpIDxocHNwYy5pYjFAZGhsLmNv
+bTxtYWlsdG86aHBzcGMuaWIxQGRobC5jb20+PjsgaHBzcGMgaWIyIChESEwgS1IpIDxocHNwYy5p
+YjJAZGhsLmNvbTxtYWlsdG86aHBzcGMuaWIyQGRobC5jb20+Pg0KU3ViamVjdDogudrAzsjWsO2w
+tLTUILnds7Ow/LfDILmuwMe4piC15biztM+02Q0KSW1wb3J0YW5jZTogSGlnaA0KDQq+yLPnx8+9
+yrTPse4gsejB9sjGsPrA5bTUDQpIUCBXYXJlaG91c2W/oSDBpMjxvK7A1LTPtNkuDQoNCr7Gt6Gw
+xyC53bOzsPy3w8fPv6kgudrAzsjWsO2wtLTUsrIgua7Ax7imICC15biutM8gvsa3ocDHILvnwK+2
+9cDHILO7v+vDs7ezILTkuq/AuyDB1rzMvcC0z7TZLg0Kw7m5+MKwsMfAuiCw+sDltNS/obDUILnd
+s7PAuyDHz7zMtNmw7SDHz7+0wLi45yC1zrn4wrC0wiAgw7m5+MKwsMe/oSC068fRIMH1u/PGxL7H
+wMwgtcjIxCCxs8O8sKEgwMy3577uwfqwzcDMtvOw7SDHz73KtM+02S4NCrXOsMe48LXOILO7wM/A
+zCC53bOzuLi34cDPwM61pb/kLCC+8MGmse7B9iC/rMDlwLsgx8+46SC1ybexwfa/5D8NCsiuwM7I
+xCC05LqvwLsgus7FubXluK6w2r3AtM+02S4NCg0KUk1BIE5PDQoNCkNBU0UgTk8NCg0KUEFSVCBO
+Tw0KDQqw7bC0DQoNCsHWvNINCg0Ku+fArw0KDQoxMDAwMjM4NzU2OTQwMDAxDQoNCjUzMDk0MzYy
+MTUtNTMwLTENCg0KSkM2MTgtNjEwMDENCg0KudrAzsjWDQoNCrGkwdaxpL+qvcMgvK2xuCC787mr
+wd++07fOMTEwIL/sw7yxubq4x+ixpMHWyLiw/DEyw/4gsaTB1sXrx9XA/LvqvL7FzQ0KDQpIUCCx
+6MH2yMaw+sDltNS/obDUILnds7MNCg0KMTAwMDIzODg0NzM1MDAwMQ0KDQo1MzA5NjQ3NzQwLTUz
+MC0xDQoNCkpDNjE4LTYxMTAxDQoNCrnawM7I1g0KDQqxpMHWsaS/qr3DILytsbggu/O5q8HfvtO3
+zjExMCC/7MO8sbm6uMfosaTB1si4sPwxMsP+ILGkwdbF68fVwPy76ry+xc0NCg0KSFAgsejB9sjG
+sPrA5bTUwMwgwfW788bEvsfIxCDA2773v7nBpA0KDQoNCrCou+fH1bTPtNkNCsGkyPG8rrXluLIN
+Cg0KWW91cnMgdHJ1bHksDQoNCmhlZSBzdWsganVuZy8gwaTI8byuDQpvcGVyYXRpb24gbWFuYWdl
+cg0KREhMIEdhc2FuIFNQQw0KUGhvbmUgKzgyKDIpMjY2MC0zNzMzDQpGYXggKzgyKDIpMjY2MC0z
+Nzk1DQpNb2JpbGUgKzgyKDIpMTAtNDM4OC01NzgxDQpocHNwYy5vbTJAZGhsLmNvbTxtYWlsdG86
+amVubi5raW1AZGhsLmNvbT4NCnd3dy5kcGRobC5jb208aHR0cDovL3d3dy5kcGRobC5jb20vPg0K
+U2FmZXR5IGlzIEV2ZXJ5b25loa9zIFJlc3BvbnNpYmlsaXR5IQ0KUCBQbGVhc2UgY29uc2lkZXIg
+dGhlIGVudmlyb25tZW50IGJlZm9yZSBwcmludGluZyB0aGlzIGUtbWFpbA0KDQoNCl9fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fDQpbY2lkOmltYWdlMDAyLmpwZ0AwMUQyMzM4Mi5DQjRC
+QzAzMF08aHR0cHM6Ly93d3cuYXZhc3QuY29tL2FudGl2aXJ1cz4NCg0KDQrAzCDAzLjewM/AuiBB
+dmFzdCC+yMa8udnAzLevvbogvNLHwcauv/6+7rfOILnZwMy3r726ILDLu+e4piC/z7fhx9+9wLTP
+tNkuDQp3d3cuYXZhc3QuY29tPGh0dHBzOi8vd3d3LmF2YXN0LmNvbS9hbnRpdmlydXM+DQoNCg0K
+
+--_000_000501d2349eee373bc0caa5b340agilesyscokr_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:ur=
+l(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B9=D9=C5=C1;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=B9=D9=C5=C1";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"HP Simplified";}
+@font-face
+	{font-family:=B3=AA=B4=AE=B0=ED=B5=F1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:9.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"HP Simplified";
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle23
+	{mso-style-type:personal;
+	font-family:"HP Simplified";
+	color:#1F497D;}
+span.EmailStyle24
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle25
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle26
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle27
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle28
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle29
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle30
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle31
+	{mso-style-type:personal;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.EmailStyle32
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span style=3D'col=
+or:#1F497D'>=BE=C6=B7=A1 =B9=DD=B3=B3=B0=C7 =C7=F6=C0=E7 =C1=F8=C7=E0=C1=DF=
+=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></=
+span></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=C6=C4=BF=F6 =
+=B9=D7 <span lang=3DEN-US>48-Port T </span>=B8=F0=B5=E2 =C7=D1 =B0=B3=B4=C2=
+ =B1=A4=C1=D6=BF=A1=BC=AD =C8=B8=BC=F6=C7=CF=BF=A9 =B1=DD=C0=CF =B0=ED=BC=
+=D3=B9=F6=BD=BA=C5=C3=B9=E8=B7=CE =B0=AD=B3=B2 =B0=ED=BC=D3=B9=F6=BD=BA=C5=
+=CD=B9=CC=B3=CE=B7=CE =B9=DF=BC=DB=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span lang=
+=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN=
+-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNorma=
+l><span style=3D'color:#1F497D'>=C7=C8=BE=F7 =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=
+=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal=
+><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>/</span><span =
+style=3D'color:#1F497D'>=C0=CC=BD=B4=BB=E7=C7=D7=C0=BA <span lang=3DEN-US>4=
+8-Port T </span>=B8=F0=B5=E2<span lang=3DEN-US> 2</span>=B0=B3=C1=DF<span l=
+ang=3DEN-US> 1</span>=B0=B3=B4=C2 =B9=DA=C0=CE=C8=D6=B0=FA=C0=E5=C0=CC =B9=
+=DD=B3=B3=C7=D1=B0=C9=B7=CE =B5=C7=BE=EE=C0=D6=C0=B8=B3=AA <span lang=3DEN-=
+US>HP</span>=BF=A1=BC=AD=B4=C2 =B9=DD=B3=B3 =C0=CC=B7=C2=C0=CC =BE=F8=B4=C2=
+=B0=C9=B7=CE =C8=AE=C0=CE=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p><=
+/span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F=
+497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'color=
+:#1F497D'>=C7=F6=C0=E7 =C0=CC=BD=B4=BA=B8=B0=ED=BC=AD=C0=DB=BC=BA=B5=C8 =BB=
+=E7=C7=D7=B5=E9=C0=BB =C5=E4=B4=EB=B7=CE <span lang=3DEN-US>HP</span>=BF=A1=
+ <span lang=3DEN-US>Layer 1 </span>=C2=CA=C0=B8=B7=CE =C8=AE=C0=CE=C0=BB =
+=BF=E4=C3=BB =C7=DF=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.(Layer 1</span>=BF=
+=A1=BC=AD =B9=DD=B3=B3=B3=BB=BF=AA=C0=CC =BE=F8=C0=BB =BD=C3 =B9=AE=C1=A6=
+=B0=A1 =B5=C9 =BC=F6 =C0=D6=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.)<o:p></o:=
+p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:=
+#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'co=
+lor:#1F497D'>=C6=C4=BF=F6 =B9=D7 <span lang=3DEN-US>48&nbsp; Port T</span>=
+=B8=F0=B5=E2 =C7=D1 =B0=B3=B4=C2 =B1=DD=C0=CF =B9=DE=BE=C6=BC=AD <span lang=
+=3DEN-US>HP</span>=B7=CE =B9=DF=BC=DB=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<s=
+pan lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span l=
+ang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>HP</span><span style=
+=3D'color:#1F497D'>=B9=DD=B3=B3 =C1=D6=BC=D2=B4=C2 =BE=C6=B7=A1 =B4=E3=B4=
+=E7=C0=DA=BF=A1=B0=D4 =B9=AE=C0=C7 =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<spa=
+n lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lan=
+g=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMs=
+oNormal><span style=3D'color:#1F497D'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span l=
+ang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US styl=
+e=3D'color:#1F497D'>(</span><span style=3D'color:#1F497D'>=C1=D6<span lang=
+=3DEN-US>) </span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US> / </span>=BC=
+=D6=B7=E7=BC=C7=BB=E7=BE=F7=BA=CE<span lang=3DEN-US> / NI</span>=C6=C0<span=
+ lang=3DEN-US>&nbsp; </span>=C1=A4=BF=F8=BF=EB =B4=EB=B8=AE<span lang=3DEN-=
+US><o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US sty=
+le=3D'color:#1F497D'>Tel. 070-7114-0086 / Fax. 02-586-5070<o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Mobile=
+. 010-5578-2663<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'color:#1F497D'>E-Mail. <a href=3D"mailto:wy.jeung@agilesys.co.kr=
+"><span style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr</span></a><o:p></o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D=
+'>Address. </span><span style=3D'color:#1F497D'>=BC=AD=BF=EF=BD=C3 =BC=AD=
+=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=
+=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=C3=FE <span lang=3DEN-US><o:p></o:=
+p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:=
+#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p></div><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></spa=
+n></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding=
+:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all'><=
+b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-=
+serif"'>From:</span></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-f=
+amily:"Calibri","sans-serif"'> HPSPC OM2 (DHL KR) [mailto:HPSPC.OM2@dhl.com=
+] <br><b>Sent:</b> Monday, October 31, 2016 2:27 PM<br><b>To:</b> </span><s=
+pan style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=C1=A4=BF=F8=BF=EB<=
+/span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","s=
+ans-serif"'><br><b>Cc:</b> NI</span><span style=3D'font-size:11.0pt;font-fa=
+mily:=B1=BC=B8=B2'>=BB=E7=BE=F7=C6=C0</span><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;font-family:"Calibri","sans-serif"'>; Yann Kim (DHL KR)<br><b=
+>Subject:</b> RE: </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=
+=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'font-size=
+:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D'font-siz=
+e:11.0pt;font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span sty=
+le=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span st=
+yle=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span>=
+<span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span=
+><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=
+=CF=B4=D9</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"C=
+alibri","sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNorma=
+l align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=BE=C8=B3=
+=E7=C7=CF=BC=BC=BF=E4<span lang=3DEN-US>&nbsp; </span>=C1=A4=BF=F8=BF=EB=B4=
+=EB=B8=AE=B4=D4<span lang=3DEN-US><o:p></o:p></span></span></b></p><p class=
+=3DMsoNormal><b><span style=3D'color:black'>=C0=FA=C8=F1=C2=CA=BF=A1=BC=AD =
+=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4=B0=C7=C0=B8=B7=CE<span lang=3DEN-US>&n=
+bsp; </span>=C8=AE=C0=CE=B5=C7=B4=C2 =C1=A4=BA=B8=B4=C2 =BE=C6=B7=A1=BF=CD =
+=B0=B0=C0=B8=B8=E7<span lang=3DEN-US><o:p></o:p></span></span></b></p><p cl=
+ass=3DMsoNormal><b><span style=3D'color:black'>=BE=C6=C1=F7 =B9=DD=B3=B3=B3=
+=BB=BF=AA=C0=BA =BE=F8=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></sp=
+an></span></b></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1=
+F497D'><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable border=3D0=
+ cellspacing=3D0 cellpadding=3D0 width=3D805 style=3D'width:604.0pt;margin-=
+left:-1.15pt;border-collapse:collapse'><tr style=3D'height:16.5pt'><td widt=
+h=3D89 nowrap style=3D'width:67.0pt;border:solid windowtext 1.0pt;backgroun=
+d:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-=
+break:keep-all'><b><span style=3D'font-size:11.0pt;color:black'>=BD=C5=C3=
+=BB=B3=AF=C2=A5<span lang=3DEN-US><o:p></o:p></span></span></b></p></td><td=
+ width=3D147 nowrap style=3D'width:110.0pt;border:solid windowtext 1.0pt;bo=
+rder-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font=
+-size:11.0pt;color:black'>RMA NO<o:p></o:p></span></b></p></td><td width=3D=
+143 nowrap style=3D'width:107.0pt;border:solid windowtext 1.0pt;border-left=
+:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogr=
+aph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.=
+0pt;color:black'>CASE NO<o:p></o:p></span></b></p></td><td width=3D143 nowr=
+ap style=3D'width:107.0pt;border:solid windowtext 1.0pt;border-left:none;ba=
+ckground:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMs=
+oNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-othe=
+r;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;colo=
+r:black'>PART NO<o:p></o:p></span></b></p></td><td width=3D284 nowrap style=
+=3D'width:213.0pt;border:solid windowtext 1.0pt;border-left:none;background=
+:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-b=
+reak:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'=
+>Description<o:p></o:p></span></b></p></td></tr><tr style=3D'height:16.5pt'=
+><td width=3D89 nowrap style=3D'width:67.0pt;border:solid windowtext 1.0pt;=
+border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMso=
+Normal align=3Dright style=3D'text-align:right;text-autospace:ideograph-oth=
+er;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:=
+black'>2016-06-14<o:p></o:p></span></p></td><td width=3D147 nowrap style=3D=
+'width:110.0pt;border-top:none;border-left:none;border-bottom:solid windowt=
+ext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt=
+;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US styl=
+e=3D'font-size:11.0pt;color:black'>1000238756940001<o:p></o:p></span></p></=
+td><td width=3D143 nowrap style=3D'width:107.0pt;border-top:none;border-lef=
+t:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1=
+.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal alig=
+n=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break=
+:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>530943=
+6215-530-1<o:p></o:p></span></p></td><td width=3D143 nowrap style=3D'width:=
+107.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0=
+pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height=
+:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-au=
+tospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fo=
+nt-size:11.0pt;color:black'>JC618-61001<o:p></o:p></span></p></td><td width=
+=3D284 nowrap style=3D'width:213.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>HP A10500 48-port =
+Gig-T SE Module<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'>=
+<td width=3D89 nowrap style=3D'width:67.0pt;border:solid windowtext 1.0pt;b=
+order-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoN=
+ormal align=3Dright style=3D'text-align:right;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:b=
+lack'>2016-06-21<o:p></o:p></span></p></td><td width=3D147 nowrap style=3D'=
+width:110.0pt;border-top:none;border-left:none;border-bottom:solid windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-size:11.0pt;color:black'>1000238847350001<o:p></o:p></span></p></t=
+d><td width=3D143 nowrap style=3D'width:107.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>5309647=
+740-530-1<o:p></o:p></span></p></td><td width=3D143 nowrap style=3D'width:1=
+07.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;color:black'>JC618-61101<o:p></o:p></span></p></td><td width=
+=3D284 nowrap style=3D'width:213.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>HP A10500 48-port =
+Gig-T SE Module<o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'>=
+<td width=3D89 nowrap style=3D'width:67.0pt;border:solid windowtext 1.0pt;b=
+order-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoN=
+ormal align=3Dright style=3D'text-align:right;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:b=
+lack'>2016-07-18<o:p></o:p></span></p></td><td width=3D147 nowrap style=3D'=
+width:110.0pt;border-top:none;border-left:none;border-bottom:solid windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-size:11.0pt;color:black'>1000239301280001<o:p></o:p></span></p></t=
+d><td width=3D143 nowrap style=3D'width:107.0pt;border-top:none;border-left=
+:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.=
+0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>5310430=
+760-530-1<o:p></o:p></span></p></td><td width=3D143 nowrap style=3D'width:1=
+07.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;color:black'>JC610-61101<o:p></o:p></span></p></td><td width=
+=3D284 nowrap style=3D'width:213.0pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>HP A10500 2500W AC=
+ Power Supply<o:p></o:p></span></p></td></tr></table><p class=3DMsoNormal><=
+span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p=
+></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=B0=A8=BB=
+=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US><o:p></o:p></span></span></b></p><p=
+ class=3DMsoNormal><b><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE=B5=E5=
+=B8=B2<span lang=3DEN-US><o:p></o:p></span></span></b></p><p class=3DMsoNor=
+mal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>Yours truly</=
+span><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif";color:bla=
+ck'>,<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'font-family:"Arial","sans-serif";color:black'><o:p>&nbsp;</o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","sans-=
+serif";color:black'>hee suk jung/ </span><span style=3D'color:black'>=C1=A4=
+=C8=F1=BC=AE</span><span lang=3DEN-US style=3D'font-family:"Arial","sans-se=
+rif";color:black'><o:p></o:p></span></p><p class=3DMsoNormal style=3D'margi=
+n-bottom:6.0pt;background:whitesmoke;vertical-align:top'><span lang=3DEN-US=
+ style=3D'color:black'>operation manager<o:p></o:p></span></p><p class=3DMs=
+oNormal align=3Dleft style=3D'margin-bottom:12.0pt;text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'col=
+or:black'>DHL Gasan SPC<o:p></o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US style=3D'color:black;mso-fareast-language:EN-US'>P=
+hone +82(2)2660-3733<br>Fax +82(2)2660-3795<span style=3D'background:yellow=
+;mso-highlight:yellow'><br></span>Mobile +82(2)10-4388-5781</span><span lan=
+g=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span lang=3DE=
+N-US style=3D'color:#1F497D'><a href=3D"mailto:jenn.kim@dhl.com"><span lang=
+=3DIT style=3D'font-family:"Arial","sans-serif"'>hpspc.om2@dhl.com</span></=
+a></span><span lang=3DIT style=3D'font-family:"Arial","sans-serif";color:bl=
+ack;mso-fareast-language:EN-US'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:6.0pt;background:whitesmoke;vertical-align:top'><spa=
+n lang=3DEN-US style=3D'color:#1F497D'><a href=3D"http://www.dpdhl.com/"><s=
+pan style=3D'color:black;text-decoration:none'>www.dpdhl.com</span></a></sp=
+an><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p class=
+=3DMsoNormal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=
+=ED=B5=F1;color:#D40511'>Safety is Everyone</span></i></b><b><i><span lang=
+=3DEN-US style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>=A1=
+=AF</span></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=
+=AE=B0=ED=B5=F1;color:#D40511'>s Responsibility!</span></i></b><span lang=
+=3DIT style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:blue;mso-fareast-=
+language:EN-US'><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lang=
+=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>P</span=
+></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=
+=B5=F1;color:black'> </span></i></b><b><i><span lang=3DEN-GB style=3D'font-=
+family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>Please consider the environmen=
+t before printing this e-mail</span></i></b><span lang=3DIT style=3D'font-f=
+amily:=B3=AA=B4=AE=B0=ED=B5=F1;color:blue'><o:p></o:p></span></p><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o=
+:p>&nbsp;</o:p></span></p><div><div style=3D'border:none;border-top:solid #=
+B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft s=
+tyle=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'=
+><b><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>From:</s=
+pan></b><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> </s=
+pan><span style=3D'font-family:=B1=BC=B8=B2'>=C1=A4=BF=F8=BF=EB</span><span=
+ style=3D'font-family:"Tahoma","sans-serif"'> <span lang=3DEN-US>[<a href=
+=3D"mailto:wy.jeung@agilesys.co.kr">mailto:wy.jeung@agilesys.co.kr</a>] <br=
+><b>Sent:</b> Monday, October 31, 2016 12:51 PM<br><b>To:</b> HPSPC OM2 (DH=
+L KR)<br><b>Cc:</b> 'NI</span></span><span style=3D'font-family:=B1=BC=B8=
+=B2'>=BB=E7=BE=F7=C6=C0</span><span lang=3DEN-US style=3D'font-family:"Taho=
+ma","sans-serif"'>'; Yann Kim (DHL KR)<br><b>Subject:</b> RE: </span><span =
+style=3D'font-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</sp=
+an><span style=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D=
+'font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D'fo=
+nt-family:"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=
+=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span style=3D'font-family:"Tahoma","sans-=
+serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=CF=
+=B4=D9</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'=
+><o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p clas=
+s=3DMsoNormal><span style=3D'color:#1F497D'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4<=
+span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span l=
+ang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3D=
+MsoNormal><span style=3D'color:#1F497D'>=B1=D7=B7=B3 =BE=C6=B7=A1 =C6=C4=C6=
+=AE =B9=DD=B3=B3=B5=C7=BE=EE=C0=D5=B4=C2=C1=F6 =C8=AE=C0=CE=BA=CE=C5=B9=B5=
+=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></p><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p=
+></span></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=C0=FA=C8=F1=
+ =B3=BB=BF=AA=BF=A1=BC=AD=B4=C2 =B9=DD=B3=B3=C7=D8=BE=DF=B5=C9=B0=D4<span l=
+ang=3DEN-US> JC618A 1EA JC610A 1EA </span>=C0=D4=B4=CF=B4=D9<span lang=3DEN=
+-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US s=
+tyle=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormal=
+Table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1471 style=3D'widt=
+h:1103.0pt;margin-left:-.15pt;border-collapse:collapse'><tr style=3D'height=
+:16.5pt'><td width=3D68 nowrap style=3D'width:51.0pt;border:solid windowtex=
+t 1.0pt;background:#F8CBAD;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:=
+11.0pt;color:black'>8<o:p></o:p></span></p></td><td width=3D129 nowrap styl=
+e=3D'width:97.0pt;border:solid windowtext 1.0pt;border-left:none;padding:0c=
+m 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter styl=
+e=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'>=
+<span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>CN2AF39008<o:p></=
+o:p></span></p></td><td width=3D320 nowrap style=3D'width:240.0pt;border:so=
+lid windowtext 1.0pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:=
+16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'fon=
+t-size:11.0pt;color:black'>HP A10500 48-port Gig-T SE Module<o:p></o:p></sp=
+an></p></td><td width=3D151 nowrap style=3D'width:113.0pt;border:solid wind=
+owtext 1.0pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'>=
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;text-autospa=
+ce:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-si=
+ze:11.0pt;color:black'>JC618A<o:p></o:p></span></p></td><td width=3D303 now=
+rap style=3D'width:227.0pt;border:solid windowtext 1.0pt;border-left:none;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dle=
+ft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-=
+all'><span style=3D'font-size:11.0pt;color:black'>=B4=EB=B0=CB=C2=FB=C3=BB =
+=C0=CE=C5=CD=B3=DD=B8=C1<span lang=3DEN-US> L3_1 5 Slot </span>=B4=EB=C3=BC=
+=BF=EB<span lang=3DEN-US><o:p></o:p></span></span></p></td><td width=3D89 n=
+owrap style=3D'width:67.0pt;border:solid windowtext 1.0pt;border-left:none;=
+padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dr=
+ight style=3D'text-align:right;text-autospace:ideograph-other;word-break:ke=
+ep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>2016-06-1=
+5<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;bo=
+rder-top:solid windowtext 1.0pt;border-left:none;border-bottom:solid window=
+text 1.0pt;border-right:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><=
+p class=3DMsoNormal align=3Dright style=3D'text-align:right;text-autospace:=
+ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:=
+11.0pt;color:black'>TAC<o:p></o:p></span></p></td><td width=3D101 nowrap st=
+yle=3D'width:76.0pt;border:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.=
+95pt;height:16.5pt'><p class=3DMsoNormal align=3Dright style=3D'text-align:=
+right;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-U=
+S style=3D'font-size:11.0pt;color:black'>2016-06-20<o:p></o:p></span></p></=
+td><td width=3D101 nowrap style=3D'width:76.0pt;border:solid windowtext 1.0=
+pt;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=
+=3DMsoNormal align=3Dright style=3D'text-align:right;text-autospace:ideogra=
+ph-other;word-break:keep-all'><span style=3D'font-size:11.0pt;color:black'>=
+=C5=EB=C7=D5=BC=BE=C5=CD<span lang=3DEN-US><o:p></o:p></span></span></p></t=
+d><td width=3D101 nowrap style=3D'width:76.0pt;border:solid windowtext 1.0p=
+t;border-left:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-ot=
+her;word-break:keep-all'><span style=3D'font-size:11.0pt;color:black'>=A1=
+=A1<span lang=3DEN-US><o:p></o:p></span></span></p></td></tr><tr style=3D'h=
+eight:16.5pt'><td width=3D68 nowrap style=3D'width:51.0pt;border:solid wind=
+owtext 1.0pt;border-top:none;background:red;padding:0cm 4.95pt 0cm 4.95pt;h=
+eight:16.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:cente=
+r;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US st=
+yle=3D'font-size:11.0pt'>9<o:p></o:p></span></p></td><td width=3D129 nowrap=
+ style=3D'width:97.0pt;border-top:none;border-left:none;border-bottom:solid=
+ windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0c=
+m 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-a=
+lign:center;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-size:11.0pt;color:red'>CN57F3902H<o:p></o:p></span><=
+/p></td><td width=3D320 nowrap style=3D'width:240.0pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-=
+break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:red'>HP =
+A10500 48-port Gig-T SE Module<o:p></o:p></span></p></td><td width=3D151 no=
+wrap style=3D'width:113.0pt;border-top:none;border-left:none;border-bottom:=
+solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95=
+pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dcenter style=3D't=
+ext-align:center;text-autospace:ideograph-other;word-break:keep-all'><span =
+lang=3DEN-US style=3D'font-size:11.0pt;color:red'>JC618A<o:p></o:p></span><=
+/p></td><td width=3D303 nowrap style=3D'width:227.0pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-=
+break:keep-all'><span style=3D'font-size:11.0pt;color:red'>=B4=EB=B0=CB=C2=
+=FB=C3=BB =C0=CE=C5=CD=B3=DD=B8=C1<span lang=3DEN-US> L3_1 5 Slot </span>=
+=C0=E5=BE=D6=B8=F0=B5=E2<span lang=3DEN-US><o:p></o:p></span></span></p></t=
+d><td width=3D89 nowrap style=3D'width:67.0pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=
+=3Dright style=3D'text-align:right;text-autospace:ideograph-other;word-brea=
+k:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:red'>2016-06=
+-21<o:p></o:p></span></p></td><td width=3D107 nowrap style=3D'width:80.0pt;=
+border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:16.5pt'><p class=3DMsoNormal align=3Dright style=3D'text-align:r=
+ight;text-autospace:ideograph-other;word-break:keep-all'><span style=3D'fon=
+t-size:11.0pt;color:red'>=C5=EB=C7=D5=BC=BE=C5=CD<span lang=3DEN-US><o:p></=
+o:p></span></span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;bor=
+der:solid windowtext 1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;he=
+ight:16.5pt'><p class=3DMsoNormal align=3Dright style=3D'text-align:right;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'font-size:11.0pt;color:red'>2016-06-22<o:p></o:p></span></p></td><td wi=
+dth=3D101 nowrap style=3D'width:76.0pt;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US style=3D'font-size:11.0pt;color:red'>TAC<o:p></o:p></=
+span></p></td><td width=3D101 nowrap style=3D'width:76.0pt;border-top:none;=
+border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid wi=
+ndowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoN=
+ormal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color=
+:red'>RMA</span><span style=3D'font-size:11.0pt;color:red'>=C1=F8=C7=E0=C1=
+=DF<span lang=3DEN-US><o:p></o:p></span></span></p></td></tr></table><p cla=
+ss=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p>=
+</span></p><p class=3DMsoNormal><span style=3D'color:#1F497D'>=C7=D1=B4=EB=
+=B4=C2 =B1=B3=C3=BC =C8=C4<span lang=3DEN-US> RAM </span>=BA=B8=B3=BD=BB=F3=
+=C5=C2=B7=CE =C8=AE=C0=CE=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p><=
+/span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F=
+497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'color=
+:#1F497D'>=C8=AE=C0=CE=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-U=
+S>. </span>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></s=
+pan></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F49=
+7D'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>(</span><s=
+pan style=3D'color:#1F497D'>=C1=D6<span lang=3DEN-US>) </span>=BF=A1=C0=CC=
+=BD=C3=BD=BA<span lang=3DEN-US> / </span>=BC=D6=B7=E7=BC=C7=BB=E7=BE=F7=BA=
+=CE<span lang=3DEN-US> / NI</span>=C6=C0<span lang=3DEN-US>&nbsp; </span>=
+=C1=A4=BF=F8=BF=EB =B4=EB=B8=AE<span lang=3DEN-US><o:p></o:p></span></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Tel. 07=
+0-7114-0086 / Fax. 02-586-5070<o:p></o:p></span></p><p class=3DMsoNormal><s=
+pan lang=3DEN-US style=3D'color:#1F497D'>Mobile. 010-5578-2663<o:p></o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>E-=
+Mail. </span><span lang=3DEN-US><a href=3D"mailto:wy.jeung@agilesys.co.kr">=
+<span style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr</span></a><span style=
+=3D'color:#1F497D'><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'color:#1F497D'>Address. </span><span style=3D'color:#=
+1F497D'>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=
+=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=
+=C3=FE <span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal=
+><span lang=3DEN-US style=3D'color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:=
+p></o:p></span></p></div><p class=3DMsoNormal><span lang=3DEN-US style=3D'c=
+olor:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div style=3D'border:none;bo=
+rder-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNorma=
+l align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word=
+-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-famil=
+y:"Calibri","sans-serif"'>From:</span></b><span lang=3DEN-US style=3D'font-=
+size:11.0pt;font-family:"Calibri","sans-serif"'> HPSPC OM2 (DHL KR) [<a hre=
+f=3D"mailto:HPSPC.OM2@dhl.com">mailto:HPSPC.OM2@dhl.com</a>] <br><b>Sent:</=
+b> Monday, October 31, 2016 11:50 AM<br><b>To:</b> </span><span style=3D'fo=
+nt-size:11.0pt;font-family:=B1=BC=B8=B2'>=C1=A4=BF=F8=BF=EB</span><span lan=
+g=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><br=
+><b>Cc:</b> NI</span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=
+=B2'>=BB=E7=BE=F7=C6=C0</span><span lang=3DEN-US style=3D'font-size:11.0pt;=
+font-family:"Calibri","sans-serif"'>; Yann Kim (DHL KR)<br><b>Subject:</b> =
+RE: </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=DA=
+=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'font-size:11.0pt;font-f=
+amily:"Calibri","sans-serif"'> </span><span style=3D'font-size:11.0pt;font-=
+family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D'font-siz=
+e:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D'font-si=
+ze:11.0pt;font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span style=3D=
+'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=
+=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=D9</sp=
+an><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans=
+-serif"'><br><b>Importance:</b> High<o:p></o:p></span></p></div></div><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><=
+o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><b><span style=3D'color:bla=
+ck'>=BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE<span lang=3DEN-US>&nbsp; </span>=
+=C1=A4=BF=F8=BF=EB=B4=EB=B8=AE=B4=D4<span lang=3DEN-US><o:p></o:p></span></=
+span></b></p><p class=3DMsoNormal><b><span lang=3DEN-US style=3D'color:blac=
+k'>HP Warehouse</span><span style=3D'color:black'>=BF=A1 =C1=A4=C8=F1=BC=AE=
+=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></span></b></p><p c=
+lass=3DMsoNormal><b><span lang=3DEN-US style=3D'color:black'><o:p>&nbsp;</o=
+:p></span></b></p><p class=3DMsoNormal><b><span style=3D'color:black'>=C4=
+=DD=BC=BE=C5=CD=B8=A6 =C5=EB=C7=D8<span lang=3DEN-US> &nbsp;</span>=C0=E5=
+=BE=D6=C1=A2=BC=F6=B0=A1 =B5=C7=B8=E7 =C4=DD=BC=BE=C5=CD=BF=A1=BC=AD =C7=D8=
+=B4=E7=C7=CF=B4=C2 =BA=CE=C7=B0=B9=F8=C8=A3=BF=CD =B0=ED=B0=B4=C1=A4=BA=B8=
+=B8=A6 =C1=D6=BD=C3=B8=E9<span lang=3DEN-US><o:p></o:p></span></span></b></=
+p><p class=3DMsoNormal><b><span style=3D'color:black'>=C7=D8=B4=E7=C7=CF=B4=
+=C2 =BA=CE=C7=B0=B9=F8=C8=A3=B8=A6<span lang=3DEN-US>&nbsp; </span>=C3=A3=
+=B0=ED<span lang=3DEN-US>&nbsp; </span>=C1=A2=BC=F6=B5=C8 =C1=A4=BA=B8=B4=
+=EB=B7=CE =B0=ED=B0=B4=BA=D0=B2=B2<span lang=3DEN-US>&nbsp; </span>=C5=C3=
+=B9=E8=B7=CE =B9=DF=BC=DB=C0=BB =C7=CF=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></span></b></p><p class=3DMsoNormal><b><spa=
+n style=3D'color:black'>=C7=D8=B4=E7=C0=E5=BA=F1=BF=A1 =C7=D8=B4=E7=C7=CF=
+=B4=C2 =BD=C3=B8=AE=BE=F3 =C1=A4=BA=B8=B4=C2 =C0=FA=C8=F1=C2=CA=BF=A1=BC=AD=
+ =BE=CB=BC=F6=B0=A1 =BE=F8=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p>=
+</span></span></b></p><p class=3DMsoNormal><b><span lang=3DEN-US style=3D'c=
+olor:black'><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><b><span s=
+tyle=3D'color:black'>=C1=A4=C8=AE=C7=D1 =C1=A4=BA=B8=B4=C2 =B9=DA=C0=CE=C8=
+=D6=B0=ED=B0=B4=B4=D4=C0=CC=B3=AA<span lang=3DEN-US> HP </span>=B1=E8=C1=F6=
+=C8=C6=B0=FA=C0=E5=B4=D4=BF=A1=B0=D4 =B9=AE=C0=C7=B8=A6 =C1=D6=BD=C3=B8=E9 =
+=B0=A8=BB=E7=C7=CF=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></=
+span></span></b></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:=
+#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal>=
+<b><span style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DE=
+N-US><o:p></o:p></span></span></b></p><p class=3DMsoNormal><b><span style=
+=3D'color:black'>=C1=A4=C8=F1=BC=AE=B5=E5=B8=B2<span lang=3DEN-US><o:p></o:=
+p></span></span></b></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'co=
+lor:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'color:black'>Yours truly</span><span lang=3DEN-US style=3D'f=
+ont-family:"Arial","sans-serif";color:black'>,<o:p></o:p></span></p><p clas=
+s=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","sans-serif";=
+color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-family:"Arial","sans-serif";color:black'>hee suk jung/ =
+</span><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE</span><span lang=3DEN=
+-US style=3D'font-family:"Arial","sans-serif";color:black'><o:p></o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;background:whitesmo=
+ke;vertical-align:top'><span lang=3DEN-US style=3D'color:black'>operation m=
+anager<o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'marg=
+in-bottom:12.0pt;text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'color:black'>DHL Gasan SPC<o:p></o:p>=
+</span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-=
+autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'=
+color:black;mso-fareast-language:EN-US'>Phone +82(2)2660-3733<br>Fax +82(2)=
+2660-3795<span style=3D'background:yellow;mso-highlight:yellow'><br></span>=
+Mobile +82(2)10-4388-5781</span><span lang=3DEN-US style=3D'color:black'><o=
+:p></o:p></span></p><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto'><span lang=3DEN-US><a href=3D"mailto:jenn.kim@dh=
+l.com"><span lang=3DIT style=3D'font-family:"Arial","sans-serif"'>hpspc.om2=
+@dhl.com</span></a></span><span lang=3DIT style=3D'font-family:"Arial","san=
+s-serif";color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p><p c=
+lass=3DMsoNormal style=3D'margin-bottom:6.0pt;background:whitesmoke;vertica=
+l-align:top'><span lang=3DEN-US><a href=3D"http://www.dpdhl.com/"><span sty=
+le=3D'color:black;text-decoration:none'>www.dpdhl.com</span></a><span style=
+=3D'color:black'><o:p></o:p></span></span></p><p class=3DMsoNormal><b><i><s=
+pan lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D4051=
+1'>Safety is Everyone</span></i></b><b><i><span lang=3DEN-US style=3D'font-=
+family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>=A1=AF</span></i></b><b><i><=
+span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D405=
+11'>s Responsibility!</span></i></b><span lang=3DIT style=3D'font-family:=
+=B3=AA=B4=AE=B0=ED=B5=F1;color:blue;mso-fareast-language:EN-US'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><b><i><span lang=3DEN-GB style=3D'font-fami=
+ly:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>P</span></i></b><b><i><span lang=
+=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:black'> </span=
+></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=
+=B5=F1;color:green'>Please consider the environment before printing this e-=
+mail</span></i></b><span lang=3DIT style=3D'font-family:=B3=AA=B4=AE=B0=ED=
+=B5=F1;color:blue'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div style=
+=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><=
+p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:id=
+eograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-fami=
+ly:"Tahoma","sans-serif"'>From:</span></b><span lang=3DEN-US style=3D'font-=
+family:"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=
+=B2'>=C1=A4=BF=F8=BF=EB</span><span lang=3DEN-US style=3D'font-family:"Taho=
+ma","sans-serif"'> [</span><span lang=3DEN-US><a href=3D"mailto:wy.jeung@ag=
+ilesys.co.kr"><span style=3D'font-family:"Tahoma","sans-serif"'>mailto:wy.j=
+eung@agilesys.co.kr</span></a></span><span lang=3DEN-US style=3D'font-famil=
+y:"Tahoma","sans-serif"'>] <br><b>Sent:</b> Monday, October 31, 2016 11:39 =
+AM<br><b>To:</b> HPSPC OM2 (DHL KR)<br><b>Cc:</b> 'NI</span><span style=3D'=
+font-family:=B1=BC=B8=B2'>=BB=E7=BE=F7=C6=C0</span><span lang=3DEN-US style=
+=3D'font-family:"Tahoma","sans-serif"'>'<br><b>Subject:</b> RE: </span><spa=
+n style=3D'font-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</=
+span><span style=3D'font-family:"Tahoma","sans-serif"'> </span><span style=
+=3D'font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D=
+'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=
+=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span style=3D'font-family:"Tahoma","sa=
+ns-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=
+=CF=B4=D9</span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-seri=
+f"'><o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p cl=
+ass=3DMsoNormal><span style=3D'color:#1F497D'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=
+=E4 <span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><s=
+pan lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p cla=
+ss=3DMsoNormal><span style=3D'color:#1F497D'>=BF=A1=C0=CC=BD=C3=BD=BA =C1=
+=A4=BF=F8=BF=EB =B4=EB=B8=AE=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:=
+p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:=
+#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span style=3D'co=
+lor:#1F497D'>=C0=FA=C8=F1=B0=A1 =B9=DD=B3=B3=C7=D8=BE=DF=B5=C9<span lang=3D=
+EN-US> JC618 </span>=B8=F0=B5=E2 =BD=C3=B8=AE=BE=F3=C1=BB =BE=CB=BC=F6=C0=
+=D6=C0=BB=B0=A1=BF=E4<span lang=3DEN-US>?<o:p></o:p></span></span></p><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p=
+></span></p><div><p class=3DMsoNormal><span style=3D'color:#1F497D'>=C1=A4=
+=C8=AE=C7=D1 =BD=C3=B8=AE=BE=F3 =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span l=
+ang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMso=
+Normal><span style=3D'color:#1F497D'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span la=
+ng=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNor=
+mal><span lang=3DEN-US style=3D'color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'colo=
+r:#1F497D'>(</span><span style=3D'color:#1F497D'>=C1=D6<span lang=3DEN-US>)=
+ </span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US> / </span>=BC=D6=B7=E7=
+=BC=C7=BB=E7=BE=F7=BA=CE<span lang=3DEN-US> / NI</span>=C6=C0<span lang=3DE=
+N-US>&nbsp; </span>=C1=A4=BF=F8=BF=EB =B4=EB=B8=AE<span lang=3DEN-US><o:p><=
+/o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'col=
+or:#1F497D'>Tel. 070-7114-0086 / Fax. 02-586-5070<o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Mobile. 010-557=
+8-2663<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'color:#1F497D'>E-Mail. </span><span lang=3DEN-US><a href=3D"mailto:wy.j=
+eung@agilesys.co.kr"><span style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr<=
+/span></a><span style=3D'color:#1F497D'><o:p></o:p></span></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Address. </span><=
+span style=3D'color:#1F497D'>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=
+=C6=F7=B5=BF<span lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4=B5=F9<span l=
+ang=3DEN-US> 4</span>=C3=FE <span lang=3DEN-US><o:p></o:p></span></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p></div><p class=3DMsoNormal><span la=
+ng=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div st=
+yle=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm=
+'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-s=
+ize:11.0pt;font-family:"Calibri","sans-serif"'>From:</span></b><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </s=
+pan><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=C0=E5=B0=E6=
+=C8=A3</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Cali=
+bri","sans-serif"'> [</span><span lang=3DEN-US><a href=3D"mailto:khjang@agi=
+lesys.co.kr"><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-se=
+rif"'>mailto:khjang@agilesys.co.kr</span></a></span><span lang=3DEN-US styl=
+e=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>] <br><b>Sent:</b=
+> Monday, October 31, 2016 9:09 AM<br><b>To:</b> </span><span style=3D'font=
+-size:11.0pt;font-family:=B1=BC=B8=B2'>=C1=A4=BF=F8=BF=EB</span><span lang=
+=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><br>=
+<b>Subject:</b> FW: </span><span style=3D'font-size:11.0pt;font-family:=B1=
+=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'font-s=
+ize:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D'font-=
+size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span=
+ style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</sp=
+an><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </s=
+pan><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=
+=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family=
+:"Calibri","sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNo=
+rmal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;<=
+/o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F4=
+97D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-=
+break:keep-all'><b><span style=3D'font-size:11.0pt;color:#1F497D'>=C0=E5=B0=
+=E6=C8=A3 =B5=E5=B8=B2<span lang=3DEN-US><o:p></o:p></span></span></b></p><=
+p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:id=
+eograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size=
+:11.0pt;color:#1F497D'>010-5484-3026<o:p></o:p></span></b></p><p class=3DMs=
+oNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;font-fa=
+mily:"HP Simplified";color:#002060'><img border=3D0 width=3D103 height=3D60=
+ id=3D"=B1=D7=B8=B2_x0020_1" src=3D"cid:image001.png@01D23382.CB4BC030" alt=
+=3D=C4=B8=C3=B3><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-indent:5.5pt;text-autospace:ideograph-other;word=
+-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"=
+HP Simplified";color:#002060'><o:p>&nbsp;</o:p></span></p></div><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></spa=
+n></p><div><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding=
+:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-align:l=
+eft;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-=
+US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>From:</spa=
+n></b><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","s=
+ans-serif"'> Kim, Jee Hoon (SDN CoE Ext.) [</span><span lang=3DEN-US><a hre=
+f=3D"mailto:jeehoon.kim@hpe.com"><span style=3D'font-size:11.0pt;font-famil=
+y:"Calibri","sans-serif"'>mailto:jeehoon.kim@hpe.com</span></a></span><span=
+ lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'=
+>] <br><b>Sent:</b> Friday, October 28, 2016 2:13 PM<br><b>To:</b> HPSPC OM=
+2 (DHL KR)<br><b>Cc:</b> </span><span style=3D'font-size:11.0pt;font-family=
+:=B1=BC=B8=B2'>=C0=E5=B0=E6=C8=A3</span><span lang=3DEN-US style=3D'font-si=
+ze:11.0pt;font-family:"Calibri","sans-serif"'>; </span><span style=3D'font-=
+size:11.0pt;font-family:=B1=BC=B8=B2'>=BF=EB=BB=F3</span><span style=3D'fon=
+t-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D'fo=
+nt-size:11.0pt;font-family:=B1=BC=B8=B2'>=B1=E8</span><span lang=3DEN-US st=
+yle=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>; hpspc ib1 (DH=
+L KR); hpspc ib2 (DHL KR); Min, Byoung Sam; hpspc ob4 (DHL KR)<br><b>Subjec=
+t:</b> Re: </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'=
+>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'font-size:11.0pt=
+;font-family:"Calibri","sans-serif"'> </span><span style=3D'font-size:11.0p=
+t;font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D'f=
+ont-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D'=
+font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span s=
+tyle=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span =
+style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=
+=D9</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri=
+","sans-serif"'><o:p></o:p></span></p></div></div><p class=3DMsoNormal alig=
+n=3Dleft style=3D'text-align:left'><span lang=3DEN-US><o:p>&nbsp;</o:p></sp=
+an></p><div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:ideograph-other;word-break:keep-all'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=
+=E4<span lang=3DEN-US>. &nbsp;</span>=C1=A4=C8=F1=BC=AE=B4=D4<span lang=3DE=
+N-US>.<o:p></o:p></span></p></div><div id=3DAppleMailSignature><p class=3DM=
+soNormal>=BC=B1=C3=B3=B8=AE =B0=A8=BB=E7=B5=E5=B8=B3=B4=CF=B4=D9<span lang=
+=3DEN-US>.<o:p></o:p></span></p></div><div id=3DAppleMailSignature><p class=
+=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div><div id=
+=3DAppleMailSignature><p class=3DMsoNormal>=C0=E5=B0=E6=C8=A3=B4=D4<span la=
+ng=3DEN-US>.<o:p></o:p></span></p></div><div id=3DAppleMailSignature><p cla=
+ss=3DMsoNormal>=B4=CA=BE=EE=B5=B5 =B4=D9=C0=BD=C1=D6 =C8=AD=BF=E4=C0=CF=B1=
+=EE=C1=F6=B4=C2 =B2=C0 =C8=B8=BD=C5 =BA=CE=C5=B9 =B5=E5=B8=AE=B0=DA=BD=C0=
+=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p></div><div id=3DApple=
+MailSignature><p class=3DMsoNormal>=BC=F6=B0=ED=C7=CF=BC=BC=BF=E4<span lang=
+=3DEN-US>.<br><br></span>=B3=AA=C0=C7<span lang=3DEN-US> iPhone</span>=BF=
+=A1=BC=AD =BA=B8=B3=BF<span lang=3DEN-US><o:p></o:p></span></p></div><div><=
+p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span lang=3DEN-US><br>2=
+016. 10. 28. </span>=BF=C0=C8=C4<span lang=3DEN-US> 2:10 HPSPC OM2 (DHL KR)=
+ &lt;<a href=3D"mailto:HPSPC.OM2@dhl.com">HPSPC.OM2@dhl.com</a>&gt; </span>=
+=C0=DB=BC=BA<span lang=3DEN-US>:<o:p></o:p></span></p></div><blockquote sty=
+le=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p class=3DMsoNormal><b><s=
+pan style=3D'color:black'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4 =B0=FA=C0=E5=B4=D4=
+</span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b=
+><span style=3D'color:black'>=C0=CF=B4=DC =B0=E8=BB=EA=BC=AD =B9=DF=C7=E0=
+=B5=C7=C1=F6 =BE=CA=B0=D4<span lang=3DEN-US> 1</span>=C1=D6=C0=CF=B4=F5 =BF=
+=AC=C0=E5=C0=BB =C7=CF=B5=B5=B7=CF =C7=CF=B0=DA=BD=C0=B4=CF=B4=D9<span lang=
+=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><b><span style=3D'color:black'>=C8=A4=BD=C3 =BF=AC=C0=E5=C0=
+=CC =B4=F5 =C7=CA=BF=E4=C7=CF=BD=C3=B8=E9 =C2=F7=C8=C4 =C8=B8=BD=C5=BA=CE=
+=C5=B9=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.</span></span=
+></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span la=
+ng=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o=
+:p></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=B0=A8=BB=
+=E7=C7=D5=B4=CF=B4=D9</span></b><span lang=3DEN-US><o:p></o:p></span></p><p=
+ class=3DMsoNormal><b><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE=B5=E5=
+=B8=B2</span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNor=
+mal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN=
+-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'=
+color:black'>Yours truly</span><span lang=3DEN-US style=3D'font-family:"Ari=
+al","sans-serif";color:black'>,</span><span lang=3DEN-US><o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","s=
+ans-serif";color:black'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","sa=
+ns-serif";color:black'>hee suk jung/ </span><span style=3D'color:black'>=C1=
+=A4=C8=F1=BC=AE</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DM=
+soNormal style=3D'margin-bottom:6.0pt;background:whitesmoke;vertical-align:=
+top'><span lang=3DEN-US style=3D'color:black'>operation manager</span><span=
+ lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=
+=3D'margin-bottom:12.0pt;text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span lang=3DEN-US style=3D'color:black'>DHL Gasan SPC</s=
+pan><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dl=
+eft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep=
+-all'><span lang=3DEN-US style=3D'color:black;mso-fareast-language:EN-US'>P=
+hone +82(2)2660-3733<br>Fax +82(2)2660-3795<span style=3D'background:yellow=
+;mso-highlight:yellow'><br></span>Mobile +82(2)10-4388-5781</span><span lan=
+g=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal style=3D'mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto'><span lang=3DEN-US><a href=3D"mailto=
+:jenn.kim@dhl.com"><span lang=3DIT style=3D'font-family:"Arial","sans-serif=
+"'>hpspc.om2@dhl.com</span></a><o:p></o:p></span></p><p class=3DMsoNormal s=
+tyle=3D'margin-bottom:6.0pt;background:whitesmoke;vertical-align:top'><span=
+ lang=3DEN-US><a href=3D"http://www.dpdhl.com/"><span style=3D'color:black;=
+text-decoration:none'>www.dpdhl.com</span></a><o:p></o:p></span></p><p clas=
+s=3DMsoNormal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=
+=ED=B5=F1;color:#D40511'>Safety is Everyone</span></i></b><b><i><span lang=
+=3DEN-US style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>=A1=
+=AF</span></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=
+=AE=B0=ED=B5=F1;color:#D40511'>s Responsibility!</span></i></b><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lang=3DEN-G=
+B style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>P</span></i></=
+b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;co=
+lor:black'> </span></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=
+=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>Please consider the environment befor=
+e printing this e-mail</span></i></b><span lang=3DEN-US><o:p></o:p></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</=
+span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span la=
+ng=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o=
+:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497=
+D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><div><div style=3D=
+'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideog=
+raph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-family:=
+"Tahoma","sans-serif"'>From:</span></b><span lang=3DEN-US style=3D'font-fam=
+ily:"Tahoma","sans-serif"'> HPSPC OM2 (DHL KR) <br><b>Sent:</b> Friday, Oct=
+ober 28, 2016 1:20 PM<br><b>To:</b> 'Kim, Jee Hoon (SDN CoE Ext.)'; </span>=
+<span lang=3DEN-US><a href=3D"mailto:khjang@agilesys.co.kr"><span style=3D'=
+font-family:"Tahoma","sans-serif"'>khjang@agilesys.co.kr</span></a></span><=
+span lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'><br><b>Cc:</b=
+> Yann Kim (DHL KR); hpspc ib1 (DHL KR); hpspc ib2 (DHL KR); Min, Byoung Sa=
+m; hpspc ob4 (DHL KR)<br><b>Subject:</b> RE: </span><span style=3D'font-fam=
+ily:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D=
+'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=
+=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D'font-family:"Tahom=
+a","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=AE=C0=
+=C7=B8=A6</span><span style=3D'font-family:"Tahoma","sans-serif"'> </span><=
+span style=3D'font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=D9</span><spa=
+n lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'><br><b>Importanc=
+e:</b> High</span><span lang=3DEN-US><o:p></o:p></span></p></div></div><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=3DEN-US>=
+&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'color:bl=
+ack'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4 =B0=FA=C0=E5=B4=D4</span></b><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'color=
+:black'>=BE=C6=C1=F7 =C0=D4=B0=ED=B5=C7=C1=F6 =BE=CA=BE=D2=BD=C0=B4=CF=B4=
+=D9<span lang=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></sp=
+an></p><p class=3DMsoNormal><b><span style=3D'color:black'>=BE=F0=C1=A6=B1=
+=EE=C1=F6 =BF=AC=C0=E5=C0=BB =C7=CF=B8=E9 =B5=C9=B7=B1=C1=F6=BF=E4<span lan=
+g=3DEN-US>?</span></span></b><span lang=3DEN-US><o:p></o:p></span></p><p cl=
+ass=3DMsoNormal><b><span style=3D'color:black'>=C8=AE=C0=CE=BA=CE=C5=B9=B5=
+=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.</span></span></b><spa=
+n lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span=
+></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;=
+</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><sp=
+an style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</span></b><span lan=
+g=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'colo=
+r:black'>=C1=A4=C8=F1=BC=AE=B5=E5=B8=B2</span></b><span lang=3DEN-US><o:p><=
+/o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F4=
+97D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNo=
+rmal><span lang=3DEN-US style=3D'color:black'>Yours truly</span><span lang=
+=3DEN-US style=3D'font-family:"Arial","sans-serif";color:black'>,</span><sp=
+an lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US style=3D'font-family:"Arial","sans-serif";color:black'>&nbsp;</span><spa=
+n lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'font-family:"Arial","sans-serif";color:black'>hee suk jung/ </sp=
+an><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE</span><span lang=3DEN-US>=
+<o:p></o:p></span></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;bac=
+kground:whitesmoke;vertical-align:top'><span lang=3DEN-US style=3D'color:bl=
+ack'>operation manager</span><span lang=3DEN-US><o:p></o:p></span></p><p cl=
+ass=3DMsoNormal align=3Dleft style=3D'margin-bottom:12.0pt;text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US styl=
+e=3D'color:black'>DHL Gasan SPC</span><span lang=3DEN-US><o:p></o:p></span>=
+</p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:b=
+lack;mso-fareast-language:EN-US'>Phone +82(2)2660-3733<br>Fax +82(2)2660-37=
+95<span style=3D'background:yellow;mso-highlight:yellow'><br></span>Mobile =
++82(2)10-4388-5781</span><span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><=
+span lang=3DEN-US><a href=3D"mailto:jenn.kim@dhl.com"><span lang=3DIT style=
+=3D'font-family:"Arial","sans-serif"'>hpspc.om2@dhl.com</span></a><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;background:w=
+hitesmoke;vertical-align:top'><span lang=3DEN-US><a href=3D"http://www.dpdh=
+l.com/"><span style=3D'color:black;text-decoration:none'>www.dpdhl.com</spa=
+n></a><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lang=3DEN-GB s=
+tyle=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>Safety is Every=
+one</span></i></b><b><i><span lang=3DEN-US style=3D'font-family:=B3=AA=B4=
+=AE=B0=ED=B5=F1;color:#D40511'>=A1=AF</span></i></b><b><i><span lang=3DEN-G=
+B style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>s Responsibi=
+lity!</span></i></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMso=
+Normal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=
+=F1;color:green'>P</span></i></b><b><i><span lang=3DEN-GB style=3D'font-fam=
+ily:=B3=AA=B4=AE=B0=ED=B5=F1;color:black'> </span></i></b><b><i><span lang=
+=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>Please =
+consider the environment before printing this e-mail</span></i></b><span la=
+ng=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</sp=
+an><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p=
+></span></p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;p=
+adding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-a=
+lign:left;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=
+=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> Kim, Jee Hoon (SD=
+N CoE Ext.) [</span><span lang=3DEN-US><a href=3D"mailto:jeehoon.kim@hpe.co=
+m"><span style=3D'font-family:"Tahoma","sans-serif"'>mailto:jeehoon.kim@hpe=
+.com</span></a></span><span lang=3DEN-US style=3D'font-family:"Tahoma","san=
+s-serif"'>] <br><b>Sent:</b> Friday, October 28, 2016 10:52 AM<br><b>To:</b=
+> HPSPC OM2 (DHL KR); </span><span lang=3DEN-US><a href=3D"mailto:khjang@ag=
+ilesys.co.kr"><span style=3D'font-family:"Tahoma","sans-serif"'>khjang@agil=
+esys.co.kr</span></a></span><span lang=3DEN-US style=3D'font-family:"Tahoma=
+","sans-serif"'><br><b>Cc:</b> Yann Kim (DHL KR); hpspc ib1 (DHL KR); hpspc=
+ ib2 (DHL KR); Min, Byoung Sam; hpspc ob4 (DHL KR)<br><b>Subject:</b> Re: <=
+/span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=
+=B4=B4=D4</span><span style=3D'font-family:"Tahoma","sans-serif"'> </span><=
+span style=3D'font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><spa=
+n style=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-f=
+amily:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span style=3D'font-family:"Ta=
+homa","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B5=E5=
+=B8=B3=B4=CF=B4=D9</span><span lang=3DEN-US><o:p></o:p></span></p></div></d=
+iv><p class=3DMsoNormal align=3Dleft style=3D'text-align:left'><span lang=
+=3DEN-US>&nbsp;<o:p></o:p></span></p><div><p class=3DMsoNormal>=BE=C8=B3=E7=
+=C7=CF=BC=BC=BF=E4<span lang=3DEN-US>. </span>=B1=E8=C1=F6=C8=C6=C0=D4=B4=
+=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p></div><div><p class=3DMs=
+oNormal><span lang=3DEN-US>&nbsp;<o:p></o:p></span></p></div><div><p class=
+=3DMsoNormal>=C0=E5=B0=E6=C8=A3=B4=D4<span lang=3DEN-US>, </span>=BE=C6=B7=
+=A1=B4=C2 =BF=B9=C0=FC=BF=A1 =B9=DA=C0=CE=C8=D6=B0=FA=C0=E5=B4=D4=C0=BB =C5=
+=EB=C7=D8 =C1=F8=C7=E0=C7=DF=BE=FA=B4=F8 =B1=A4=C1=D6=C5=EB=C7=D5=C0=FC=BB=
+=EA=BC=BE=C5=CD<span lang=3DEN-US> CSR </span>=C3=B3=B8=AE =B0=C7=C0=D4=B4=
+=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p></div><div><p class=3DMs=
+oNormal>=C3=D1<span lang=3DEN-US> 3</span>=B0=C7=C0=CE=B5=A5=BF=E4<span lan=
+g=3DEN-US>.&nbsp;<o:p></o:p></span></p></div><div><p class=3DMsoNormal>=B0=
+=ED=B0=B4=BB=E7 =BB=E7=C1=A4=C0=B8=B7=CE =C6=C4=C6=AE =B9=DD=B3=B3 =C1=F6=
+=BF=AC =BD=C5=C3=BB=B5=C8 =B0=C7=C0=CE=B5=A5 =C6=C4=C6=AE =B9=DD=B3=B3 =BF=
+=A9=BA=CE =C8=AE=C0=CE =BA=CE=C5=B9 =B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN=
+-US>.<o:p></o:p></span></p></div><div><p class=3DMsoNormal>=B8=B8=BE=E0 =BE=
+=C6=C1=F7=B5=B5 =C6=C4=C6=AE =B9=DD=B3=B3=C0=CC =BE=C8 =B5=C7=BE=FA=B4=D9=
+=B8=E9 =B9=DD=B3=B3 =BF=AC=C0=E5 =BF=A9=BA=CE=B5=B5 =C8=AE=C0=CE =BA=CE=C5=
+=B9=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></spa=
+n></p></div><div><p class=3DMsoNormal>=BC=F6=B0=ED=C7=CF=BC=BC=BF=E4<span l=
+ang=3DEN-US>.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span la=
+ng=3DEN-US>&nbsp;<o:p></o:p></span></p><div><p class=3DMsoNormal>=B3=AA=C0=
+=C7<span lang=3DEN-US> iPhone</span>=BF=A1=BC=AD =BA=B8=B3=BF<span lang=3DE=
+N-US><o:p></o:p></span></p></div></div><div><p class=3DMsoNormal style=3D'm=
+argin-bottom:12.0pt'><span lang=3DEN-US><br>2016. 10. 28. </span>=BF=C0=C0=
+=FC <span lang=3DEN-US>10:31 HPSPC OM2 (DHL KR) &lt;<a href=3D"mailto:HPSPC=
+.OM2@dhl.com">HPSPC.OM2@dhl.com</a>&gt; </span>=C0=DB=BC=BA<span lang=3DEN-=
+US>:<o:p></o:p></span></p></div><blockquote style=3D'margin-top:5.0pt;margi=
+n-bottom:5.0pt'><div><p class=3DMsoNormal><b><span style=3D'color:black'>=
+=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4 =B1=E8=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4</span><=
+/b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span l=
+ang=3DEN-US style=3D'color:black'>HP Warehouse</span><span style=3D'color:b=
+lack'>=BF=A1 =C1=A4=C8=F1=BC=AE=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.</span=
+></span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><=
+b><span lang=3DEN-US style=3D'color:black'>&nbsp;</span></b><span lang=3DEN=
+-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'color:blac=
+k'>=BE=C6=B7=A1 =B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4<span lang=3DEN-US> &nb=
+sp;3</span>=B0=C7 =B3=BB=C0=CF=C0=CC =B9=DD=B3=B3=B8=B8=B7=E1=C0=CF=C0=D4=
+=B4=CF=B4=D9<span lang=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p><=
+/o:p></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=BF=AC=
+=C0=E5=C0=CC =B4=F5 =C7=CA=BF=E4=C7=CF=BD=C5=C1=F6=BF=E4<span lang=3DEN-US>=
+? </span>=C8=AE=C0=CE=BA=CE=C5=B9=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9<span =
+lang=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></span></p><p=
+ class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</span>=
+<span lang=3DEN-US><o:p></o:p></span></p><table class=3DMsoNormalTable bord=
+er=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1004 style=3D'width:753.0pt;=
+margin-left:-1.15pt;border-collapse:collapse'><tr style=3D'height:16.5pt'><=
+td width=3D153 nowrap style=3D'width:114.9pt;border:solid windowtext 1.0pt;=
+background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-ot=
+her;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:black'>RMA NO</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><=
+td width=3D149 nowrap style=3D'width:111.9pt;border:solid windowtext 1.0pt;=
+border-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16=
+.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autos=
+pace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'fo=
+nt-size:11.0pt;color:black'>CASE NO</span></b><span lang=3DEN-US><o:p></o:p=
+></span></p></td><td width=3D110 nowrap style=3D'width:82.65pt;border:solid=
+ windowtext 1.0pt;border-left:none;background:#E26B0A;padding:0cm 4.95pt 0c=
+m 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-ali=
+gn:left;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=
+=3DEN-US style=3D'font-size:11.0pt;color:black'>PART NO</span></b><span lan=
+g=3DEN-US><o:p></o:p></span></p></td><td width=3D70 nowrap style=3D'width:5=
+2.65pt;border:solid windowtext 1.0pt;border-left:none;background:#E26B0A;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-a=
+ll'><b><span style=3D'font-size:11.0pt;color:black'>=B0=ED=B0=B4</span></b>=
+<span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D521 nowrap style=
+=3D'width:390.9pt;border:solid windowtext 1.0pt;border-left:none;background=
+:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-b=
+reak:keep-all'><b><span style=3D'font-size:11.0pt;color:black'>=C1=D6=BC=D2=
+</span></b><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'=
+height:16.5pt'><td width=3D153 nowrap style=3D'width:114.9pt;border:solid w=
+indowtext 1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt=
+'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size=
+:11.0pt;color:black'>1000238756940001</span><span lang=3DEN-US><o:p></o:p><=
+/span></p></td><td width=3D149 nowrap style=3D'width:111.9pt;border-top:non=
+e;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid =
+windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMs=
+oNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-othe=
+r;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:b=
+lack'>5309436215-530-1</span><span lang=3DEN-US><o:p></o:p></span></p></td>=
+<td width=3D110 nowrap style=3D'width:82.65pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>JC618-6=
+1001</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D70 now=
+rap style=3D'width:52.65pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-other;word-break:keep-all'><span style=
+=3D'font-size:11.0pt;color:black'>=B9=DA=C0=CE=C8=D6</span><span lang=3DEN-=
+US><o:p></o:p></span></p></td><td width=3D521 nowrap style=3D'width:390.9pt=
+;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bord=
+er-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt=
+'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:ideograph-other;word-break:keep-all'><span style=3D'font-size:11.0pt;color=
+:black'>=B1=A4=C1=D6=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=
+=D3=B7=CE<span lang=3DEN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=
+=C1=D6=C8=B8=B0=FC<span lang=3DEN-US>12</span>=C3=FE<span lang=3DEN-US> &lt=
+;</span>=C1=A4=BF=F8=BF=A3=BD=C3=BD=BA<span lang=3DEN-US>&gt;</span></span>=
+<span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:16.5=
+pt'><td width=3D153 nowrap style=3D'width:114.9pt;border:solid windowtext 1=
+.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=
+=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph=
+-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;co=
+lor:black'>1000238847350001</span><span lang=3DEN-US><o:p></o:p></span></p>=
+</td><td width=3D149 nowrap style=3D'width:111.9pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-bre=
+ak:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>5309=
+647740-530-1</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=
+=3D110 nowrap style=3D'width:82.65pt;border-top:none;border-left:none;borde=
+r-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding=
+:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft sty=
+le=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><=
+span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>JC618-61101</span>=
+<span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D70 nowrap style=
+=3D'width:52.65pt;border-top:none;border-left:none;border-bottom:solid wind=
+owtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.9=
+5pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:le=
+ft;text-autospace:ideograph-other;word-break:keep-all'><span style=3D'font-=
+size:11.0pt;color:black'>=B9=DA=C0=CE=C8=D6</span><span lang=3DEN-US><o:p><=
+/o:p></span></p></td><td width=3D521 nowrap style=3D'width:390.9pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p clas=
+s=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograp=
+h-other;word-break:keep-all'><span style=3D'font-size:11.0pt;color:black'>=
+=B1=A4=C1=D6=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=CE<=
+span lang=3DEN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=C8=
+=B8=B0=FC<span lang=3DEN-US>12</span>=C3=FE<span lang=3DEN-US> &lt;</span>=
+=C1=A4=BF=F8=BF=A3=BD=C3=BD=BA<span lang=3DEN-US>&gt;</span></span><span la=
+ng=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D153 nowrap style=3D'width:114.9pt;border:solid windowtext 1.0pt;bor=
+der-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNor=
+mal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wo=
+rd-break:keep-all'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black=
+'>1000239301280001</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D149 nowrap style=3D'width:111.9pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'font-size:11.0pt;color:black'>5310430760-53=
+0-1</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D110 now=
+rap style=3D'width:82.65pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'font-size:11.0pt;color:black'>JC610-61101</span><span lan=
+g=3DEN-US><o:p></o:p></span></p></td><td width=3D70 nowrap style=3D'width:5=
+2.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span style=3D'font-size:11.0pt=
+;color:black'>=B9=DA=C0=CE=C8=D6</span><span lang=3DEN-US><o:p></o:p></span=
+></p></td><td width=3D521 nowrap style=3D'width:390.9pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span style=3D'font-size:11.0pt;color:black'>=B1=A4=C1=D6=
+=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=CE<span lang=3D=
+EN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=C8=B8=B0=FC<spa=
+n lang=3DEN-US>12</span>=C3=FE<span lang=3DEN-US> &lt;</span>=C1=A4=BF=F8=
+=BF=A3=BD=C3=BD=BA<span lang=3DEN-US>&gt;</span></span><span lang=3DEN-US><=
+o:p></o:p></span></p></td></tr></table><p class=3DMsoNormal><span lang=3DEN=
+-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></sp=
+an></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbs=
+p;</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><=
+span style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</span></b><span l=
+ang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'co=
+lor:black'>=C1=A4=C8=F1=BC=AE=B5=E5=B8=B2</span></b><span lang=3DEN-US><o:p=
+></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1=
+F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'color:black'>Yours truly</span><span lan=
+g=3DEN-US style=3D'font-family:"Arial","sans-serif";color:black'>,</span><s=
+pan lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN=
+-US style=3D'font-family:"Arial","sans-serif";color:black'>&nbsp;</span><sp=
+an lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-=
+US style=3D'font-family:"Arial","sans-serif";color:black'>hee suk jung/ </s=
+pan><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE</span><span lang=3DEN-US=
+><o:p></o:p></span></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;ba=
+ckground:whitesmoke;vertical-align:top'><span lang=3DEN-US style=3D'color:b=
+lack'>operation manager</span><span lang=3DEN-US><o:p></o:p></span></p><p c=
+lass=3DMsoNormal align=3Dleft style=3D'margin-bottom:12.0pt;text-align:left=
+;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US sty=
+le=3D'color:black'>DHL Gasan SPC</span><span lang=3DEN-US><o:p></o:p></span=
+></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autosp=
+ace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:=
+black;mso-fareast-language:EN-US'>Phone +82(2)2660-3733<br>Fax +82(2)2660-3=
+795<span style=3D'background:yellow;mso-highlight:yellow'><br></span>Mobile=
+ +82(2)10-4388-5781</span><span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><=
+span lang=3DEN-US><a href=3D"mailto:jenn.kim@dhl.com"><span lang=3DIT style=
+=3D'font-family:"Arial","sans-serif"'>hpspc.om2@dhl.com</span></a><o:p></o:=
+p></span></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;background:w=
+hitesmoke;vertical-align:top'><span lang=3DEN-US><a href=3D"http://www.dpdh=
+l.com/"><span style=3D'color:black;text-decoration:none'>www.dpdhl.com</spa=
+n></a><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lang=3DEN-GB s=
+tyle=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>Safety is Every=
+one</span></i></b><b><i><span lang=3DEN-US style=3D'font-family:=B3=AA=B4=
+=AE=B0=ED=B5=F1;color:#D40511'>=A1=AF</span></i></b><b><i><span lang=3DEN-G=
+B style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>s Responsibi=
+lity!</span></i></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMso=
+Normal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=
+=F1;color:green'>P</span></i></b><b><i><span lang=3DEN-GB style=3D'font-fam=
+ily:=B3=AA=B4=AE=B0=ED=B5=F1;color:black'> </span></i></b><b><i><span lang=
+=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>Please =
+consider the environment before printing this e-mail</span></i></b><span la=
+ng=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</sp=
+an><span lang=3DEN-US><o:p></o:p></span></p><div><div style=3D'border:none;=
+border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNor=
+mal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wo=
+rd-break:keep-all'><b><span lang=3DEN-US style=3D'font-family:"Tahoma","san=
+s-serif"'>From:</span></b><span lang=3DEN-US style=3D'font-family:"Tahoma",=
+"sans-serif"'> Kim, Jee Hoon (SDN CoE Ext.) [</span><span lang=3DEN-US><a h=
+ref=3D"mailto:jeehoon.kim@hpe.com"><span style=3D'font-family:"Tahoma","san=
+s-serif"'>mailto:jeehoon.kim@hpe.com</span></a></span><span lang=3DEN-US st=
+yle=3D'font-family:"Tahoma","sans-serif"'>] <br><b>Sent:</b> Tuesday, July =
+05, 2016 1:27 PM<br><b>To:</b> HPSPC OM2 (DHL KR)<br><b>Cc:</b> Yann Kim (D=
+HL KR); hpspc ib1 (DHL KR); hpspc ib2 (DHL KR); Min, Byoung Sam<br><b>Subje=
+ct:</b> RE: </span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=
+=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'font-family:"Tahoma","sans-serif=
+"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=
+=C3</span><span style=3D'font-family:"Tahoma","sans-serif"'> </span><span s=
+tyle=3D'font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=A6</span><span style=3D'f=
+ont-family:"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=
+=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=D9</span><span lang=3DEN-US><o:p></o:p></span=
+></p></div></div><p class=3DMsoNormal align=3Dleft style=3D'text-align:left=
+'><span lang=3DEN-US>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span=
+ style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:#1F497D'>=BE=C8=
+=B3=E7=C7=CF=BC=BC=BF=E4</span><span lang=3DEN-US style=3D'font-size:11.0pt=
+;font-family:"HP Simplified";color:#1F497D'>. </span><span lang=3DEN-US><o:=
+p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-si=
+ze:11.0pt;font-family:"HP Simplified";color:#1F497D'>&nbsp;</span><span lan=
+g=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-si=
+ze:11.0pt;font-family:=B1=BC=B8=B2;color:#1F497D'>=BA=FC=B8=A5</span><span =
+style=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F497D'> </spa=
+n><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:#1F497D'>=
+=C3=B3=B8=AE</span><span style=3D'font-size:11.0pt;font-family:"HP Simplifi=
+ed";color:#1F497D'> </span><span style=3D'font-size:11.0pt;font-family:=B1=
+=BC=B8=B2;color:#1F497D'>=B0=A8=BB=E7=B5=E5=B8=B3=B4=CF=B4=D9</span><span l=
+ang=3DEN-US style=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F=
+497D'>. </span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNorma=
+l><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:#1F497D'>=
+=BC=F6=B0=ED=C7=CF=BC=BC=BF=E4</span><span lang=3DEN-US style=3D'font-size:=
+11.0pt;font-family:"HP Simplified";color:#1F497D'>. </span><span lang=3DEN-=
+US><o:p></o:p></span></p><div><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:#221E1F'>&nbsp;</span><=
+span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DE=
+N-US style=3D'font-family:"HP Simplified";color:#221E1F'>Best Regards,</spa=
+n><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:black'>=
+&nbsp;</span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNor=
+mal><b><span lang=3DEN-US style=3D'font-family:"HP Simplified";color:black'=
+>JeeHoon Kim (HPE MASE. CISSP. CISA)</span></b><span lang=3DEN-US><o:p></o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"=
+HP Simplified";color:black'>Customer Solution Center / Global Support Deliv=
+ery</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'font-family:"HP Simplified";color:black'>Technolog=
+y Services Support, Enterprise Group</span><span lang=3DEN-US><o:p></o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP S=
+implified";color:black'>Hewlett Packard Enterprise LTD.</span><span lang=3D=
+EN-US><o:p></o:p></span></p></div><p class=3DMsoNormal><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F497D'>&nbsp;<=
+/span><span lang=3DEN-US><o:p></o:p></span></p><div><div style=3D'border:no=
+ne;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMso=
+Normal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other=
+;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:"Calibri","sans-serif"'>From:</span></b><span lang=3DEN-US style=3D'=
+font-size:11.0pt;font-family:"Calibri","sans-serif"'> HPSPC OM2 (DHL KR) [<=
+/span><span lang=3DEN-US><a href=3D"mailto:HPSPC.OM2@dhl.com"><span style=
+=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>mailto:HPSPC.OM2@d=
+hl.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-f=
+amily:"Calibri","sans-serif"'>] <br><b>Sent:</b> Tuesday, July 05, 2016 1:2=
+5 PM<br><b>To:</b> Kim, Jee Hoon (SDN CoE Ext.) &lt;</span><span lang=3DEN-=
+US><a href=3D"mailto:jeehoon.kim@hpe.com"><span style=3D'font-size:11.0pt;f=
+ont-family:"Calibri","sans-serif"'>jeehoon.kim@hpe.com</span></a></span><sp=
+an lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif=
+"'>&gt;<br><b>Cc:</b> </span><span style=3D'font-size:11.0pt;font-family:=
+=B1=BC=B8=B2'>=BF=EB=BB=F3</span><span style=3D'font-size:11.0pt;font-famil=
+y:"Calibri","sans-serif"'> </span><span style=3D'font-size:11.0pt;font-fami=
+ly:=B1=BC=B8=B2'>=B1=E8</span><span lang=3DEN-US style=3D'font-size:11.0pt;=
+font-family:"Calibri","sans-serif"'> &lt;</span><span lang=3DEN-US><a href=
+=3D"mailto:Yann.Kim@dhl.com"><span style=3D'font-size:11.0pt;font-family:"C=
+alibri","sans-serif"'>Yann.Kim@dhl.com</span></a></span><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&gt;; hpspc i=
+b1 (DHL KR) &lt;</span><span lang=3DEN-US><a href=3D"mailto:hpspc.ib1@dhl.c=
+om"><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>hps=
+pc.ib1@dhl.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0p=
+t;font-family:"Calibri","sans-serif"'>&gt;; hpspc ib2 (DHL KR) &lt;</span><=
+span lang=3DEN-US><a href=3D"mailto:hpspc.ib2@dhl.com"><span style=3D'font-=
+size:11.0pt;font-family:"Calibri","sans-serif"'>hpspc.ib2@dhl.com</span></a=
+></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'>&gt;; Min, Byoung Sam &lt;</span><span lang=3DEN-US><a href=
+=3D"mailto:byoung-sam.min@hpe.com"><span style=3D'font-size:11.0pt;font-fam=
+ily:"Calibri","sans-serif"'>byoung-sam.min@hpe.com</span></a></span><span l=
+ang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&=
+gt;<br><b>Subject:</b> RE: </span><span style=3D'font-size:11.0pt;font-fami=
+ly:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span style=3D'=
+font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><span style=3D=
+'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span>=
+<span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span=
+><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=AE=C0=C7=B8=
+=A6</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif=
+"'> </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B5=E5=
+=B8=B3=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:"Calibri","sans-serif"'><br><b>Importance:</b> High</span><span lang=
+=3DEN-US><o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left'><span lang=3DEN-US>&nbsp;<o:p></o:p></span></p>=
+<p class=3DMsoNormal><b><span style=3D'color:black'>=BE=C8=B3=E7=C7=CF=BC=
+=BC=BF=E4 =B0=FA=C0=E5=B4=D4</span></b><span lang=3DEN-US><o:p></o:p></span=
+></p><p class=3DMsoNormal><b><span style=3D'color:black'>=C7=F6=C0=E7=BB=F3=
+=C8=B2 =B3=BB=BF=EB =C2=FC=B0=ED=C7=CF=B0=ED =BE=F7=B9=AB=C7=CF=B5=B5=B7=CF=
+ =C7=CF=B0=DA=C0=B8=B8=E7 =BF=E4=C3=BB=C7=CF=BD=C5 =B3=AF=C2=A5=B1=EE=C1=F6=
+ =BF=AC=C0=E5=C7=CF=B5=B5=B7=CF =C7=CF=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3D=
+EN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal><b><span style=3D'color:black'>=C8=AE=C0=CE=C7=D8=C1=D6=BC=C5=
+=BC=AD =B0=A8=BB=E7=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.</span></spa=
+n></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span l=
+ang=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></=
+o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F49=
+7D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNor=
+mal><b><span style=3D'color:black'>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</span></b=
+><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span sty=
+le=3D'color:black'>=C1=A4=C8=F1=BC=AE=B5=E5=B8=B2</span></b><span lang=3DEN=
+-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'=
+color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>Yours truly</span><=
+span lang=3DEN-US style=3D'font-family:"Arial","sans-serif";color:black'>,<=
+/span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span l=
+ang=3DEN-US style=3D'font-family:"Arial","sans-serif";color:black'>&nbsp;</=
+span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span la=
+ng=3DEN-US style=3D'font-family:"Arial","sans-serif";color:black'>hee suk j=
+ung/ </span><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE</span><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal style=3D'margin-bottom:=
+6.0pt;background:whitesmoke;vertical-align:top'><span lang=3DEN-US style=3D=
+'color:black'>operation manager</span><span lang=3DEN-US><o:p></o:p></span>=
+</p><p class=3DMsoNormal align=3Dleft style=3D'margin-bottom:12.0pt;text-al=
+ign:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DE=
+N-US style=3D'color:black'>DHL Gasan SPC</span><span lang=3DEN-US><o:p></o:=
+p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;tex=
+t-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=
+=3D'color:black;mso-fareast-language:EN-US'>Phone +82(2)2660-3733<br>Fax +8=
+2(2)2660-3795<span style=3D'background:yellow;mso-highlight:yellow'><br></s=
+pan>Mobile +82(2)10-4388-5781</span><span lang=3DEN-US><o:p></o:p></span></=
+p><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span lang=3DEN-US><a href=3D"mailto:jenn.kim@dhl.com"><span lang=
+=3DIT style=3D'font-family:"Arial","sans-serif"'>hpspc.om2@dhl.com</span></=
+a><o:p></o:p></span></p><p class=3DMsoNormal style=3D'margin-bottom:6.0pt;b=
+ackground:whitesmoke;vertical-align:top'><span lang=3DEN-US><a href=3D"http=
+://www.dpdhl.com/"><span style=3D'color:black;text-decoration:none'>www.dpd=
+hl.com</span></a><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lan=
+g=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>Safe=
+ty is Everyone</span></i></b><b><i><span lang=3DEN-US style=3D'font-family:=
+=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>=A1=AF</span></i></b><b><i><span la=
+ng=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>s R=
+esponsibility!</span></i></b><span lang=3DEN-US><o:p></o:p></span></p><p cl=
+ass=3DMsoNormal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=
+=B0=ED=B5=F1;color:green'>P</span></i></b><b><i><span lang=3DEN-GB style=3D=
+'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:black'> </span></i></b><b><i><s=
+pan lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'=
+>Please consider the environment before printing this e-mail</span></i></b>=
+<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></=
+span></p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padd=
+ing:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal align=3Dleft style=3D'text-alig=
+n:left;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3D=
+EN-US style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span lan=
+g=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> Kim, Jee Hoon (SDN C=
+oE Ext.) [</span><span lang=3DEN-US><a href=3D"mailto:jeehoon.kim@hpe.com">=
+<span style=3D'font-family:"Tahoma","sans-serif"'>mailto:jeehoon.kim@hpe.co=
+m</span></a></span><span lang=3DEN-US style=3D'font-family:"Tahoma","sans-s=
+erif"'>] <br><b>Sent:</b> Tuesday, July 05, 2016 1:21 PM<br><b>To:</b> HPSP=
+C OM2 (DHL KR)<br><b>Cc:</b> Yann Kim (DHL KR); hpspc ib1 (DHL KR); hpspc i=
+b2 (DHL KR); Min, Byoung Sam<br><b>Subject:</b> RE: </span><span style=3D'f=
+ont-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><span s=
+tyle=3D'font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-fami=
+ly:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=B7=C3</span><span style=3D'font-family:=
+"Tahoma","sans-serif"'> </span><span style=3D'font-family:=B1=BC=B8=B2'>=B9=
+=AE=C0=C7=B8=A6</span><span style=3D'font-family:"Tahoma","sans-serif"'> </=
+span><span style=3D'font-family:=B1=BC=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=D9</spa=
+n><span lang=3DEN-US><o:p></o:p></span></p></div></div><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left'><span lang=3DEN-US>&nbsp;<o:p></o:p=
+></span></p><p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-famil=
+y:=B1=BC=B8=B2;color:#1F497D'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</span><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F4=
+97D'>. </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;colo=
+r:#1F497D'>=B1=E8=C1=F6=C8=C6=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US st=
+yle=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F497D'>.</span>=
+<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3D=
+EN-US style=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F497D'>=
+&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><table class=3DMsoNor=
+malTable border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1286 style=3D'w=
+idth:964.65pt;margin-left:-1.15pt;border-collapse:collapse'><tr style=3D'he=
+ight:16.5pt'><td width=3D143 nowrap style=3D'width:107.25pt;border:solid wi=
+ndowtext 1.0pt;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'colo=
+r:black'>RMA NO</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><td=
+ width=3D139 nowrap style=3D'width:104.3pt;border:solid windowtext 1.0pt;bo=
+rder-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'colo=
+r:black'>CASE NO</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><t=
+d width=3D96 nowrap style=3D'width:72.3pt;border:solid windowtext 1.0pt;bor=
+der-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5p=
+t'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospac=
+e:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US style=3D'color=
+:black'>PART NO</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><td=
+ width=3D57 nowrap style=3D'width:42.9pt;border:solid windowtext 1.0pt;bord=
+er-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt=
+'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:ideograph-other;word-break:keep-all'><b><span style=3D'color:black'>=B0=ED=
+=B0=B4</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D=
+359 nowrap style=3D'width:269.35pt;border:solid windowtext 1.0pt;border-lef=
+t:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p c=
+lass=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideog=
+raph-other;word-break:keep-all'><b><span style=3D'color:black'>=C1=D6=BC=D2=
+</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D246 no=
+wrap style=3D'width:184.3pt;border:solid windowtext 1.0pt;border-left:none;=
+background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-ot=
+her;word-break:keep-all'><b><span style=3D'color:black'>=BB=E7=C0=AF</span>=
+</b><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D246 valign=3D=
+top style=3D'width:184.25pt;border:solid windowtext 1.0pt;border-left:none;=
+background:#E26B0A;padding:0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNor=
+mal align=3Dcenter style=3D'text-align:center;text-autospace:ideograph-othe=
+r;word-break:keep-all'><b><span style=3D'color:black'>=C7=F6=C0=E7 =BB=F3=
+=C8=B2</span></b><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr sty=
+le=3D'height:16.5pt'><td width=3D143 nowrap style=3D'width:107.25pt;border:=
+solid windowtext 1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height=
+:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-au=
+tospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'co=
+lor:black'>1000238756940001</span><span lang=3DEN-US><o:p></o:p></span></p>=
+</td><td width=3D139 nowrap style=3D'width:104.3pt;border-top:none;border-l=
+eft:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal al=
+ign=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-bre=
+ak:keep-all'><span lang=3DEN-US style=3D'color:black'>5309436215-530-1</spa=
+n><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D96 nowrap style=
+=3D'width:72.3pt;border-top:none;border-left:none;border-bottom:solid windo=
+wtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95=
+pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US st=
+yle=3D'color:black'>JC618-61001</span><span lang=3DEN-US><o:p></o:p></span>=
+</p></td><td width=3D57 nowrap style=3D'width:42.9pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-b=
+reak:keep-all'><span style=3D'color:black'>=B9=DA=C0=CE=C8=D6</span><span l=
+ang=3DEN-US><o:p></o:p></span></p></td><td width=3D359 nowrap style=3D'widt=
+h:269.35pt;border-top:none;border-left:none;border-bottom:solid windowtext =
+1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:ideograph-other;word-break:keep-all'><span style=3D'color:black'=
+>=B1=A4=C1=D6=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=CE=
+<span lang=3DEN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=C8=
+=B8=B0=FC<span lang=3DEN-US>12</span>=C3=FE =B1=A4=C1=D6=C5=EB=C7=D5=C0=FC=
+=BB=EA=BC=BE=C5=CD</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D246 nowrap style=3D'width:184.3pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dlef=
+t style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-a=
+ll'><span lang=3DEN-US style=3D'color:black'>HP </span><span style=3D'color=
+:black'>=B1=E8=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4=BF=A1=B0=D4 =B9=DD=B3=B3</span=
+><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D246 style=3D'wid=
+th:184.25pt;border-top:none;border-left:none;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 0cm 0cm 0cm;height:1=
+6.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-auto=
+space:ideograph-other;word-break:keep-all'><span style=3D'color:black;backg=
+round:yellow;mso-highlight:yellow'>=B9=DD=B3=B3 =C0=E5=BA=F1<span lang=3DEN=
+-US> CATCH III </span>=C7=C1=B7=CE=BC=BC=BD=BA =C1=F8=C7=E0=C1=DF</span><sp=
+an lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'height:16.5pt'=
+><td width=3D143 nowrap style=3D'width:107.25pt;border:solid windowtext 1.0=
+pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3D=
+MsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-ot=
+her;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>100023884=
+7350001</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D139=
+ nowrap style=3D'width:104.3pt;border-top:none;border-left:none;border-bott=
+om:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4=
+.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'=
+text-align:left;text-autospace:ideograph-other;word-break:keep-all'><span l=
+ang=3DEN-US style=3D'color:black'>5309647740-530-1</span><span lang=3DEN-US=
+><o:p></o:p></span></p></td><td width=3D96 nowrap style=3D'width:72.3pt;bor=
+der-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-r=
+ight:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p=
+ class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ide=
+ograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'>=
+JC618-61101</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=
+=3D57 nowrap style=3D'width:42.9pt;border-top:none;border-left:none;border-=
+bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0=
+cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an style=3D'color:black'>=B9=DA=C0=CE=C8=D6</span><span lang=3DEN-US><o:p><=
+/o:p></span></p></td><td width=3D359 nowrap style=3D'width:269.35pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p cla=
+ss=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideogra=
+ph-other;word-break:keep-all'><span style=3D'color:black'>=B1=A4=C1=D6=B1=
+=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=CE<span lang=3DEN-=
+US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=C8=B8=B0=FC<span l=
+ang=3DEN-US>12</span>=C3=FE =B1=A4=C1=D6=C5=EB=C7=D5=C0=FC=BB=EA=BC=BE=C5=
+=CD</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D246 now=
+rap style=3D'width:184.3pt;border-top:none;border-left:none;border-bottom:s=
+olid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95p=
+t 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'color:black'>HP </span><span style=3D'color:black'>=B1=E8=
+=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4=C0=CC =C1=F5=BB=F3=C6=C4=BE=C7=C8=C4 =C0=DB=
+=BE=F7=BF=B9=C1=A4</span><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D246 style=3D'width:184.25pt;border-top:none;border-left:none;border=
+-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:=
+0cm 0cm 0cm 0cm;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D't=
+ext-align:left;text-autospace:ideograph-other;word-break:keep-all'><span st=
+yle=3D'color:black'>=B9=DD=B3=B3 =C0=E5=BA=F1=B0=A1 =BE=C6=C1=F7 =B9=CC=B1=
+=B3=C3=BC=B5=C8 =BB=F3=C8=B2<span lang=3DEN-US>.</span></span><span lang=3D=
+EN-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'text=
+-align:left;text-autospace:ideograph-other;word-break:keep-all'><span lang=
+=3DEN-US style=3D'color:black'>5309436215-530-1 </span><span style=3D'color=
+:black'>=C4=C9=C0=CC=BD=BA=C0=C7<span lang=3DEN-US> CATCH III </span>=C7=C1=
+=B7=CE=BC=BC=BD=BA =BF=F8=C0=CE =BA=D0=BC=AE =B0=E1=B0=FA=B0=A1 =B3=AA=BF=
+=C0=B4=C2=B4=EB=B7=CE =B1=B3=C3=BC =BF=B9=C1=A4<span lang=3DEN-US> (</span>=
+=B0=ED=B0=B4 =C2=CA =BF=E4=B1=B8=BB=E7=C7=D7<span lang=3DEN-US>) </span></s=
+pan><span lang=3DEN-US><o:p></o:p></span></p></td></tr></table><p class=3DM=
+soNormal><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"HP Simpl=
+ified";color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black;background:ye=
+llow;mso-highlight:yellow'>5309436215-530-1 , 5309647740-530-1 </span><span=
+ style=3D'color:black;background:yellow;mso-highlight:yellow'>=C4=C9=C0=CC=
+=BD=BA =B8=F0=B5=CE =C7=D1=B4=DE =C8=C4<span lang=3DEN-US> (8</span>=BF=F9<=
+span lang=3DEN-US> 5</span>=C0=CF<span lang=3DEN-US>)</span>=B7=CE =BF=AC=
+=C0=E5 =BA=CE=C5=B9 =B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.</span></sp=
+an><span lang=3DEN-US style=3D'color:black'> </span><span lang=3DEN-US><o:p=
+></o:p></span></p><p class=3DMsoNormal><span style=3D'color:black'>=BC=F6=
+=B0=ED=C7=CF=BC=BC=BF=E4<span lang=3DEN-US>. </span></span><span lang=3DEN-=
+US><o:p></o:p></span></p><div><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:#221E1F'>&nbsp;</span><=
+span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DE=
+N-US style=3D'font-family:"HP Simplified";color:#221E1F'>Best Regards,</spa=
+n><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span la=
+ng=3DEN-US style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2;color:black'>=
+&nbsp;</span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNor=
+mal><b><span lang=3DEN-US style=3D'font-family:"HP Simplified";color:black'=
+>JeeHoon Kim (HPE MASE. CISSP. CISA)</span></b><span lang=3DEN-US><o:p></o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"=
+HP Simplified";color:black'>Customer Solution Center / Global Support Deliv=
+ery</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'font-family:"HP Simplified";color:black'>Technolog=
+y Services Support, Enterprise Group</span><span lang=3DEN-US><o:p></o:p></=
+span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP S=
+implified";color:black'>Hewlett Packard Enterprise LTD.</span><span lang=3D=
+EN-US><o:p></o:p></span></p></div><p class=3DMsoNormal><span lang=3DEN-US s=
+tyle=3D'font-size:11.0pt;font-family:"HP Simplified";color:#1F497D'>&nbsp;<=
+/span><span lang=3DEN-US><o:p></o:p></span></p><div><div style=3D'border:no=
+ne;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMso=
+Normal align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other=
+;word-break:keep-all'><b><span lang=3DEN-US style=3D'font-size:11.0pt;font-=
+family:"Calibri","sans-serif"'>From:</span></b><span lang=3DEN-US style=3D'=
+font-size:11.0pt;font-family:"Calibri","sans-serif"'> HPSPC OM2 (DHL KR) [<=
+/span><span lang=3DEN-US><a href=3D"mailto:HPSPC.OM2@dhl.com"><span style=
+=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>mailto:HPSPC.OM2@d=
+hl.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-f=
+amily:"Calibri","sans-serif"'>] <br><b>Sent:</b> Tuesday, July 05, 2016 1:1=
+6 PM<br><b>To:</b> Kim, Jee Hoon (SDN CoE Ext.) &lt;</span><span lang=3DEN-=
+US><a href=3D"mailto:jeehoon.kim@hpe.com"><span style=3D'font-size:11.0pt;f=
+ont-family:"Calibri","sans-serif"'>jeehoon.kim@hpe.com</span></a></span><sp=
+an lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif=
+"'>&gt;<br><b>Cc:</b> </span><span style=3D'font-size:11.0pt;font-family:=
+=B1=BC=B8=B2'>=BF=EB=BB=F3</span><span style=3D'font-size:11.0pt;font-famil=
+y:"Calibri","sans-serif"'> </span><span style=3D'font-size:11.0pt;font-fami=
+ly:=B1=BC=B8=B2'>=B1=E8</span><span lang=3DEN-US style=3D'font-size:11.0pt;=
+font-family:"Calibri","sans-serif"'> &lt;</span><span lang=3DEN-US><a href=
+=3D"mailto:Yann.Kim@dhl.com"><span style=3D'font-size:11.0pt;font-family:"C=
+alibri","sans-serif"'>Yann.Kim@dhl.com</span></a></span><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&gt;; hpspc i=
+b1 (DHL KR) &lt;</span><span lang=3DEN-US><a href=3D"mailto:hpspc.ib1@dhl.c=
+om"><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>hps=
+pc.ib1@dhl.com</span></a></span><span lang=3DEN-US style=3D'font-size:11.0p=
+t;font-family:"Calibri","sans-serif"'>&gt;; hpspc ib2 (DHL KR) &lt;</span><=
+span lang=3DEN-US><a href=3D"mailto:hpspc.ib2@dhl.com"><span style=3D'font-=
+size:11.0pt;font-family:"Calibri","sans-serif"'>hpspc.ib2@dhl.com</span></a=
+></span><span lang=3DEN-US style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'>&gt;<br><b>Subject:</b> </span><span style=3D'font-size:11.0p=
+t;font-family:=B1=BC=B8=B2'>=B9=DA=C0=CE=C8=D6=B0=ED=B0=B4=B4=D4</span><spa=
+n style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> </span><sp=
+an style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=DD=B3=B3=B0=FC=
+=B7=C3</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-se=
+rif"'> </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=B8=B2'>=B9=
+=AE=C0=C7=B8=A6</span><span style=3D'font-size:11.0pt;font-family:"Calibri"=
+,"sans-serif"'> </span><span style=3D'font-size:11.0pt;font-family:=B1=BC=
+=B8=B2'>=B5=E5=B8=B3=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font-siz=
+e:11.0pt;font-family:"Calibri","sans-serif"'><br><b>Importance:</b> High</s=
+pan><span lang=3DEN-US><o:p></o:p></span></p></div></div><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left'><span lang=3DEN-US>&nbsp;<o:p></o=
+:p></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=BE=C8=B3=
+=E7=C7=CF=BD=CA=B4=CF=B1=EE =B1=E8=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4</span></b>=
+<span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><span lang=
+=3DEN-US style=3D'color:black'>HP Warehouse</span><span style=3D'color:blac=
+k'>=BF=A1 =C1=A4=C8=F1=BC=AE=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.</span></=
+span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><=
+span lang=3DEN-US style=3D'color:black'>&nbsp;</span></b><span lang=3DEN-US=
+><o:p></o:p></span></p><p class=3DMsoNormal><b><span style=3D'color:black'>=
+=BE=C6=B7=A1=B0=C7 =B9=DD=B3=B3=B0=FC=B7=C3=C7=CF=BF=A9 =B9=DA=C0=CE=C8=D6=
+=B0=ED=B0=B4=B4=D4=B2=B2 =B9=AE=C0=C7=B8=A6<span lang=3DEN-US> &nbsp;</span=
+>=B5=E5=B8=AE=B4=CF =BE=C6=B7=A1=C0=C7 =BB=E7=C0=AF=B6=F5=C0=C7 =B3=BB=BF=
+=EB=C3=B3=B7=B3 =B4=E4=BA=AF=C0=BB =C1=D6=BC=CC=BD=C0=B4=CF=B4=D9<span lang=
+=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><b><span style=3D'color:black'>=C3=B9=B9=F8=C2=B0=B0=C7=C0=
+=BA =B0=FA=C0=E5=B4=D4=BF=A1=B0=D4 =B9=DD=B3=B3=C0=BB =C7=CF=BC=CC=B4=D9=B0=
+=ED =C7=CF=BF=B4=C0=B8=B8=E7 =B5=CE=B9=F8=C2=B0=B4=C2<span lang=3DEN-US>&nb=
+sp; </span>=C3=B9=B9=F8=C2=B0=B0=C7=BF=A1 =B4=EB=C7=D1 =C1=F5=BB=F3=C6=C4=
+=BE=C7=C0=CC =B5=C8=C8=C4 =B1=B3=C3=BC=B0=A1 =C0=CC=B7=E7=BE=EE=C1=FA=B0=CD=
+=C0=CC=B6=F3=B0=ED =C7=CF=BD=CA=B4=CF=B4=D9<span lang=3DEN-US>.</span></spa=
+n></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><b><spa=
+n style=3D'color:black'>=B5=CE=B0=C7=B8=F0=B5=CE =B3=BB=C0=CF=C0=CC =B9=DD=
+=B3=B3=B8=B8=B7=E1=C0=CF=C0=CE=B5=A5=BF=E4<span lang=3DEN-US>, </span>=BE=
+=F0=C1=A6=B1=EE=C1=F6 =BF=AC=C0=E5=C0=BB =C7=CF=B8=E9 =B5=C9=B7=B1=C1=F6=BF=
+=E4<span lang=3DEN-US>?</span></span></b><span lang=3DEN-US><o:p></o:p></sp=
+an></p><p class=3DMsoNormal><b><span style=3D'color:black'>=C8=AE=C0=CE=C8=
+=C4 =B4=E4=BA=AF=C0=BB =BA=CE=C5=B9=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9<spa=
+n lang=3DEN-US>.</span></span></b><span lang=3DEN-US><o:p></o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US>&nbsp;<o:p></o:p></span></p><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D1=
+242 style=3D'width:931.35pt;margin-left:-1.15pt;border-collapse:collapse'><=
+tr style=3D'height:16.5pt'><td width=3D143 nowrap style=3D'width:107.25pt;b=
+order:solid windowtext 1.0pt;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95=
+pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US=
+ style=3D'color:black'>RMA NO</span></b><span lang=3DEN-US><o:p></o:p></spa=
+n></p></td><td width=3D139 nowrap style=3D'width:104.3pt;border:solid windo=
+wtext 1.0pt;border-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95=
+pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:lef=
+t;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US=
+ style=3D'color:black'>CASE NO</span></b><span lang=3DEN-US><o:p></o:p></sp=
+an></p></td><td width=3D96 nowrap style=3D'width:72.3pt;border:solid window=
+text 1.0pt;border-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95p=
+t;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left=
+;text-autospace:ideograph-other;word-break:keep-all'><b><span lang=3DEN-US =
+style=3D'color:black'>PART NO</span></b><span lang=3DEN-US><o:p></o:p></spa=
+n></p></td><td width=3D57 nowrap style=3D'width:42.9pt;border:solid windowt=
+ext 1.0pt;border-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt=
+;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;=
+text-autospace:ideograph-other;word-break:keep-all'><b><span style=3D'color=
+:black'>=B0=ED=B0=B4</span></b><span lang=3DEN-US><o:p></o:p></span></p></t=
+d><td width=3D536 nowrap style=3D'width:402.15pt;border:solid windowtext 1.=
+0pt;border-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;heigh=
+t:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-a=
+utospace:ideograph-other;word-break:keep-all'><b><span style=3D'color:black=
+'>=C1=D6=BC=D2</span></b><span lang=3DEN-US><o:p></o:p></span></p></td><td =
+width=3D270 nowrap style=3D'width:202.45pt;border:solid windowtext 1.0pt;bo=
+rder-left:none;background:#E26B0A;padding:0cm 4.95pt 0cm 4.95pt;height:16.5=
+pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospa=
+ce:ideograph-other;word-break:keep-all'><b><span style=3D'color:black'>=BB=
+=E7=C0=AF</span></b><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr =
+style=3D'height:16.5pt'><td width=3D143 nowrap style=3D'width:107.25pt;bord=
+er:solid windowtext 1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;hei=
+ght:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text=
+-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D=
+'color:black'>1000238756940001</span><span lang=3DEN-US><o:p></o:p></span><=
+/p></td><td width=3D139 nowrap style=3D'width:104.3pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal=
+ align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-=
+break:keep-all'><span lang=3DEN-US style=3D'color:black'>5309436215-530-1</=
+span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D96 nowrap st=
+yle=3D'width:72.3pt;border-top:none;border-left:none;border-bottom:solid wi=
+ndowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4=
+.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:=
+left;text-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US=
+ style=3D'color:black'>JC618-61001</span><span lang=3DEN-US><o:p></o:p></sp=
+an></p></td><td width=3D57 nowrap style=3D'width:42.9pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windo=
+wtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNorm=
+al align=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;wor=
+d-break:keep-all'><span style=3D'color:black'>=B9=DA=C0=CE=C8=D6</span><spa=
+n lang=3DEN-US><o:p></o:p></span></p></td><td width=3D536 nowrap style=3D'w=
+idth:402.15pt;border-top:none;border-left:none;border-bottom:solid windowte=
+xt 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;=
+height:16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;t=
+ext-autospace:ideograph-other;word-break:keep-all'><span style=3D'color:bla=
+ck'>=B1=A4=C1=D6=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=
+=CE<span lang=3DEN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=
+=C8=B8=B0=FC<span lang=3DEN-US>12</span>=C3=FE =B1=A4=C1=D6=C5=EB=C7=D5=C0=
+=FC=BB=EA=BC=BE=C5=CD</span><span lang=3DEN-US><o:p></o:p></span></p></td><=
+td width=3D270 nowrap style=3D'width:202.45pt;border-top:none;border-left:n=
+one;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0p=
+t;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=
+=3Dleft style=3D'text-align:left;text-autospace:ideograph-other;word-break:=
+keep-all'><span lang=3DEN-US style=3D'color:black'>HP </span><span style=3D=
+'color:black'>=B1=E8=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4=BF=A1=B0=D4 =B9=DD=B3=B3=
+</span><span lang=3DEN-US><o:p></o:p></span></p></td></tr><tr style=3D'heig=
+ht:16.5pt'><td width=3D143 nowrap style=3D'width:107.25pt;border:solid wind=
+owtext 1.0pt;border-top:none;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><=
+p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:id=
+eograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'color:black'=
+>1000238847350001</span><span lang=3DEN-US><o:p></o:p></span></p></td><td w=
+idth=3D139 nowrap style=3D'width:104.3pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft=
+ style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-al=
+l'><span lang=3DEN-US style=3D'color:black'>5309647740-530-1</span><span la=
+ng=3DEN-US><o:p></o:p></span></p></td><td width=3D96 nowrap style=3D'width:=
+72.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:=
+16.5pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-aut=
+ospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US style=3D'col=
+or:black'>JC618-61101</span><span lang=3DEN-US><o:p></o:p></span></p></td><=
+td width=3D57 nowrap style=3D'width:42.9pt;border-top:none;border-left:none=
+;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;p=
+adding:0cm 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dle=
+ft style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-=
+all'><span style=3D'color:black'>=B9=DA=C0=CE=C8=D6</span><span lang=3DEN-U=
+S><o:p></o:p></span></p></td><td width=3D536 nowrap style=3D'width:402.15pt=
+;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;bord=
+er-right:solid windowtext 1.0pt;padding:0cm 4.95pt 0cm 4.95pt;height:16.5pt=
+'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace=
+:ideograph-other;word-break:keep-all'><span style=3D'color:black'>=B1=A4=C1=
+=D6=B1=A4=BF=AA=BD=C3 =BC=AD=B1=B8 =BB=F3=B9=AB=C1=DF=BE=D3=B7=CE<span lang=
+=3DEN-US>110 </span>=BF=EC=C3=BC=B1=B9=BA=B8=C7=E8=B1=A4=C1=D6=C8=B8=B0=FC<=
+span lang=3DEN-US>12</span>=C3=FE =B1=A4=C1=D6=C5=EB=C7=D5=C0=FC=BB=EA=BC=
+=BE=C5=CD</span><span lang=3DEN-US><o:p></o:p></span></p></td><td width=3D2=
+70 nowrap style=3D'width:202.45pt;border-top:none;border-left:none;border-b=
+ottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0c=
+m 4.95pt 0cm 4.95pt;height:16.5pt'><p class=3DMsoNormal align=3Dleft style=
+=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'><sp=
+an lang=3DEN-US style=3D'color:black'>HP </span><span style=3D'color:black'=
+>=B1=E8=C1=F6=C8=C6=B0=FA=C0=E5=B4=D4=C0=CC =C1=F5=BB=F3=C6=C4=BE=C7=C8=C4 =
+=C0=DB=BE=F7=BF=B9=C1=A4</span><span lang=3DEN-US><o:p></o:p></span></p></t=
+d></tr></table><p class=3DMsoNormal><span lang=3DEN-US>&nbsp;<o:p></o:p></s=
+pan></p><p class=3DMsoNormal><b><span style=3D'color:black'>=B0=A8=BB=E7=C7=
+=D5=B4=CF=B4=D9</span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=
+=3DMsoNormal><b><span style=3D'color:black'>=C1=A4=C8=F1=BC=AE=B5=E5=B8=B2<=
+/span></b><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'color:#1F497D'>&nbsp;</span><span lang=3DEN-US><o:=
+p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:b=
+lack'>Yours truly</span><span lang=3DEN-US style=3D'font-family:"Arial","sa=
+ns-serif";color:black'>,</span><span lang=3DEN-US><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","sans-ser=
+if";color:black'>&nbsp;</span><span lang=3DEN-US><o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Arial","sans-seri=
+f";color:black'>hee suk jung/ </span><span style=3D'color:black'>=C1=A4=C8=
+=F1=BC=AE</span><span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNorm=
+al style=3D'margin-bottom:6.0pt;background:whitesmoke;vertical-align:top'><=
+span lang=3DEN-US style=3D'color:black'>operation manager</span><span lang=
+=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft style=3D'm=
+argin-bottom:12.0pt;text-align:left;text-autospace:ideograph-other;word-bre=
+ak:keep-all'><span lang=3DEN-US style=3D'color:black'>DHL Gasan SPC</span><=
+span lang=3DEN-US><o:p></o:p></span></p><p class=3DMsoNormal align=3Dleft s=
+tyle=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-all'=
+><span lang=3DEN-US style=3D'color:black;mso-fareast-language:EN-US'>Phone =
++82(2)2660-3733<br>Fax +82(2)2660-3795<span style=3D'background:yellow;mso-=
+highlight:yellow'><br></span>Mobile +82(2)10-4388-5781</span><span lang=3DE=
+N-US><o:p></o:p></span></p><p class=3DMsoNormal style=3D'mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto'><span lang=3DEN-US><a href=3D"mailto:jenn=
+.kim@dhl.com"><span lang=3DIT style=3D'font-family:"Arial","sans-serif"'>hp=
+spc.om2@dhl.com</span></a><o:p></o:p></span></p><p class=3DMsoNormal style=
+=3D'margin-bottom:6.0pt;background:whitesmoke;vertical-align:top'><span lan=
+g=3DEN-US><a href=3D"http://www.dpdhl.com/"><span style=3D'color:black;text=
+-decoration:none'>www.dpdhl.com</span></a><o:p></o:p></span></p><p class=3D=
+MsoNormal><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=
+=B5=F1;color:#D40511'>Safety is Everyone</span></i></b><b><i><span lang=3DE=
+N-US style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:#D40511'>=A1=AF</s=
+pan></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=
+=ED=B5=F1;color:#D40511'>s Responsibility!</span></i></b><span lang=3DEN-US=
+><o:p></o:p></span></p><p class=3DMsoNormal><b><i><span lang=3DEN-GB style=
+=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:green'>P</span></i></b><b><i=
+><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=AE=B0=ED=B5=F1;color:bla=
+ck'> </span></i></b><b><i><span lang=3DEN-GB style=3D'font-family:=B3=AA=B4=
+=AE=B0=ED=B5=F1;color:green'>Please consider the environment before printin=
+g this e-mail</span></i></b><span lang=3DEN-US><o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span lang=3DEN-US>&nbsp;<o:p></o:p></span></p></div></block=
+quote></div></blockquote><p class=3DMsoNormal align=3Dleft style=3D'margin-=
+bottom:12.0pt;text-align:left;text-autospace:ideograph-other;word-break:kee=
+p-all'><span lang=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=
+=B2'><o:p>&nbsp;</o:p></span></p><div class=3DMsoNormal align=3Dcenter styl=
+e=3D'text-align:center;text-autospace:ideograph-other;word-break:keep-all'>=
+<span lang=3DEN-US style=3D'font-size:12.0pt;font-family:=B1=BC=B8=B2'><hr =
+size=3D1 width=3D"99%" noshade style=3D'color:#909090' align=3Dcenter></spa=
+n></div><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpaddin=
+g=3D0 style=3D'border-collapse:collapse'><tr><td style=3D'padding:0cm 11.25=
+pt 0cm 6.0pt'><p class=3DMsoNormal align=3Dleft style=3D'text-align:left;te=
+xt-autospace:ideograph-other;word-break:keep-all'><span lang=3DEN-US><a hre=
+f=3D"https://www.avast.com/antivirus"><span style=3D'font-size:12.0pt;font-=
+family:=B1=BC=B8=B2;border:solid windowtext 1.0pt;padding:0cm;text-decorati=
+on:none'><img border=3D0 width=3D100 height=3D100 id=3D"_x0000_i1027" src=
+=3D"cid:image002.jpg@01D23382.CB4BC030" alt=3D"=BA=B8=B3=BD =BB=E7=B6=F7=C0=
+=CC =C1=A6=B0=C5=C7=D1 =C0=CC=B9=CC=C1=F6=C0=D4=B4=CF=B4=D9. Avast logo"></=
+span></a></span><span lang=3DEN-US style=3D'font-size:12.0pt;font-family:=
+=B1=BC=B8=B2'><o:p></o:p></span></p></td><td style=3D'padding:.75pt .75pt .=
+75pt .75pt'><p><span style=3D'color:#3D4D5A'>=C0=CC</span><span style=3D'fo=
+nt-family:"Calibri","sans-serif";color:#3D4D5A'> </span><span style=3D'colo=
+r:#3D4D5A'>=C0=CC=B8=DE=C0=CF=C0=BA</span><span lang=3DEN-US style=3D'font-=
+family:"Calibri","sans-serif";color:#3D4D5A'> Avast </span><span style=3D'c=
+olor:#3D4D5A'>=BE=C8=C6=BC=B9=D9=C0=CC=B7=AF=BD=BA</span><span style=3D'fon=
+t-family:"Calibri","sans-serif";color:#3D4D5A'> </span><span style=3D'color=
+:#3D4D5A'>=BC=D2=C7=C1=C6=AE=BF=FE=BE=EE=B7=CE</span><span style=3D'font-fa=
+mily:"Calibri","sans-serif";color:#3D4D5A'> </span><span style=3D'color:#3D=
+4D5A'>=B9=D9=C0=CC=B7=AF=BD=BA</span><span style=3D'font-family:"Calibri","=
+sans-serif";color:#3D4D5A'> </span><span style=3D'color:#3D4D5A'>=B0=CB=BB=
+=E7=B8=A6</span><span style=3D'font-family:"Calibri","sans-serif";color:#3D=
+4D5A'> </span><span style=3D'color:#3D4D5A'>=BF=CF=B7=E1=C7=DF=BD=C0=B4=CF=
+=B4=D9</span><span lang=3DEN-US style=3D'font-family:"Calibri","sans-serif"=
+;color:#3D4D5A'>. <br></span><span lang=3DEN-US><a href=3D"https://www.avas=
+t.com/antivirus"><span style=3D'font-family:"Calibri","sans-serif"'>www.ava=
+st.com</span></a></span><span lang=3DEN-US style=3D'font-family:"Calibri","=
+sans-serif";color:#3D4D5A'> <o:p></o:p></span></p></td></tr></table><p clas=
+s=3DMsoNormal align=3Dleft style=3D'text-align:left;text-autospace:ideograp=
+h-other;word-break:keep-all'><span lang=3DEN-US style=3D'font-size:12.0pt;f=
+ont-family:=B1=BC=B8=B2'><o:p>&nbsp;</o:p></span></p></div></body></html>=
+
+--_000_000501d2349eee373bc0caa5b340agilesyscokr_--
+
+--_005_000501d2349eee373bc0caa5b340agilesyscokr_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=3532;
+	creation-date="Wed, 02 Nov 2016 00:20:35 GMT";
+	modification-date="Wed, 02 Nov 2016 00:20:35 GMT"
+Content-ID: <image001.png@01D23382.CB4BC030>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAGcAAAA8CAYAAAB7CKTNAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA0gSURBVHhe7ZwPjE3ZHcdHiEhWVFU1KipKVqhW
+iFTEipClUSuqJFQiIlRKbITYilCJELEss7Ok1qxZK2NrrT8JlU7Hv63ZsEZi6Y76s+xUa2eVdFBj
+vTfmz6/vc+aecd6Zc++773mPZ8w3+WXNvefcufd8z/n9vr/fObM50oKsRQs5WYwWcrIYLeRkMVrI
+yWK0kJPFeO7IOX/+vFy/ft37qXnjuSLnwIEDMmjQILl27Zp3pXnjuSFny5Yt0qZNGxk2bJh3pfkj
+q8ipq6uTe/fuya1bt+Tq1aty5swZKSwslFGjRklOTo6yVatWea2bP54JOQ8ePJDS0lLZsWOHLF++
+XObMmSOTJk2SMWPGKLfVp08f6dixYyMhph09etR7SvPHUyOHFbF//36ZOXOmdOvWTdq1a+cc/CCD
+sBdFDICMkxONRmXz5s3Sv39/54AnY0OGDJGqqirvyeFQV1EqUv3A++nJ8NnNS/Ll3a+9n1JH5Rff
+SPXdh95P/sgoOcjekSNHOgfaZV26dAlcUbi/ZFD/4D8Szf+pPDr6hncldVTX1cjPP3pdfvLhb+VO
+9L53NXnURmqkZM7H8kXuCamvrfOuupExck6ePCldu3Z1DnKPHj0UafPnz1cqrKioSK5cuaKCf9u2
+bZ19sHXr1nlPD4eakpUS2fA9ieR2ldrSjd7V1LD36qeSkxsTJhtGyGsH/yCR2mrvTnL46uNzUvTL
+fCkamy+XC2KrOgAZIefChQtOYgYPHqwIuHnzptfyMVBoCAG7j7bWrVvLvn37vNaJUX+3XKLv9pPI
+O90luulHMYJ+ILVlhd7d5FBTVyuv7FmkiMnJGyM5b70iMw6vl7r6eq9FOEQrv5VPZu6Sv47fJsW/
+el+KXntPkeWHtJPDh7hc2dy5c5UocOHhw4cyduzYJn1Me+mll5TCC4uGVdNZIpt6SnRzT4nkdZfI
+5h9L7ZcHvBbhoVZN3qvKWr3zi0aCfn9ym9ciHK7t+lz+MnarFE/aLodjVjyhQA5PfF8qjl31WsQj
+7eTs2bOnycBOmDBB5TB+WLx4cZM+thGPbt++7fUIRv3dr1SsieR1ayAmRpAyfo6tprp/Hos1Cjfr
+cV/EmZyNIxQx2hRBMTe3+syf1IRMhMitKvmbt2ogRpsiaNIHcrOk3Gv5GGklp6amRuUq5qAS4Ekm
+/eAi02W9e/f2eiQGAoBYAzGN5MTcW+TtrhJ5s71U750cWsFtKTukiIEMm5ic9cPkO+9OlH9UJpb3
+l7adVqsmjpiYa4OsQ69ukdNv/Nlr+RhpJae8vFzNcHNQBwwYoNyWCxcvXpTu3bvHtfczSA+D+ttl
+MUJ6xQjp0WCQsvH76t+QUntpr1JxYVbO/UcP5Wcf/i5u1SiiNo6UlwtnyqozO5W0TiQOvq34nxyb
+VqjI0KQgCvgvpPy76LKKRzbSSs6JEyekVatWcYOKMrtx44bX4jHIf0aPHh3XllXmJwqIWWHwqPj1
+BoUWWyXRjV0k8seX1bW668e9FuGhVg0iwFNpOW+PklH7FsvOy8cUcWFx6b3PFBmsElTakSk75O9v
+fSK3S/8VOEnSSs7BgwedA7tr1y6vxWOsWLGiSbuVK1fG1dFMW7NmjdfTHyScarWs/65UfzBMaj5d
+reJPKiCX+WHBbyTnzSHKdaHOjt74XOU7yeB+eaUiA9d1YtZHiiiuhUFayTly5IhzYGfNmuW1aEBJ
+SUmTZHPixInK/dluURuxKRCxQas+MF2ihSOVZK6v+sa7kTyQyLisTlt/LStPF6qYUlsfnDC6UB97
+DiuEpBPXhShIBmklh32WTp06NRlY6mkad+7ckX79+sXd79y5s6qZUYkmnzHvYWwVnDp1ynuCG/XR
+ew0qLMmZ7QKrg1XyddV/vSupgWoArquuOrGacyGt5DBTlixZEjewDDabZBrEDvM+lp+fr+7t3r27
+yT2Mgifi4UVDWskB5DOUZHBTkydPlkOHDnl3RFWl7YGfOnWqIhWsXbu2yX2sb9++oXOc5oS0k6MB
+SXrQAYPbs2fPuEFHRptbALNnz467r42KQ5hEzwZlorNnz6o869y5c3GSnpyMet7TAO+BWMrNzVX1
+QfaxcOEaVD6OH2+qJjNGjg1EgT3oO3fu9O42uEQ7gdU2ZcoUr1U48LHTp09vMhnYyNu6dauq43Gf
+KjclpXHjxqnNPj8bP368qnJs2rTJ+w0NwCtwHdNteRZeg0nBhFq9erVKoM33wBA+KNbt27erOE07
+G0+FHIqd9stNmzbNu9sABonBs9thlHfCIi8vT9Xh6EfONWPGDLW1jYvVz9OVbwabXVnznssQLBs2
+bFAFXRMk3Vzv0KFDY1vyOvaviJEQpa+zn8XEIK4yKfR1bWyv2Mg4OXwAL2y+iO3OAO38thiIYWGA
+y9B92rdvr2KcCVaqlvAQhKTXGDEilmR6fU1D0NjPscHWB20HDhwoFRUV6ppNDKvVBCJIJ+yMh2sT
+MePk4D70S2pz5SzEBNdeDh9gigo/FBcXK8mt++FqXGAVcZ/VYFbJmQC6r2mQGaQUccdshbBa9exf
+unRp3DOIMS5oAlm5rsJwRslh/8UcMMxvN5ODG2Y7bRCWSEYzyNTwzH6sBFOQaLBCeaZ9xMpVesJY
+OSTXfuAbaac3AnF9doLtV91gJXPfFW9AxshhGdvujOXtVwRldplttTHDiQtBYGXZ/RhUAq4LvIcd
+x4LcakFBgdcqHnwLz4JoaoVg4cKFTfoT/MvKytR9E6w04pXfJmLGyHGpM2Yz9TMSVdOWLVvm6/NZ
+EfrD/bBgwQJnX8xFENfsAWH1ETNcz+D4lgsEfjyDdmeoMz9RA4mmfAb8TjYZ/TxDRsihIuByEakY
+fjloow4gXV19teFKzRUL2S7C/aQ8is8GA03lgviigcjh2JfrGRgE2bkVOZBfDpd2clzu7EmMxDQR
+/JJX0xj4ysrgarCrtISxqm0yyWnIo0yVlYgcjGpH0OajibSSQwAOM1DJmF/cMMFKdfW1DYKC4hc5
+i6sfSaQphdkC4bp9+pSqA8rN7m8be1ZhDuOnlRwksq3OKL3gsxlklxGDCKI6cbRNF0WDgMtKdEBE
+GzmJH1y1P4ygreMCJCEczEq7CT+CbUNEJDogmTZy2O20lzQ+NpErAfhhv7PRiRJADZI/XIbrGaYx
+efwCMIHdtWWB6YQV10e5xe+7GHAG3vUM26i1BSEt5BCw7aCM1ncV81zALbkGhXyE/CMscBVhBsZv
+NbLXRGXB1YeyC3tKCB3+HQRiDxPT9RzThg8f7ptagLSQQz3L/sW4qrBw9cfIDxIloDaofvupLm12
+AVODoO8XM3CHyHrcZxig5hKtZKS7WaWw8cTkcOzWLPxhfGAYd6bhStww1JCuVblAIRFibTDIFFZd
+z8T8XCWCxq8IiicgIXYFcjwHk8KW/Lhre9fXtIySAwF22YSPSLSlbIKBtE/haEuUgFI/Y7POBfqZ
+xUdtrEa7CGnC3sk1zW/FMYH4BteEpPLgRxDvh8LzQ8rkkDi5ZmeYUzIm8M9+YsCuf5lgljLz+HA/
+Askn7DoX1YQgEI/M9tpQna5aHeD3EB9dR8AA3sWlRv3I1kiZHLM8rw1fHzTTXdCFQ5fZez4azDZi
+kVaH5hkFE6xgkxzcpOsQvQnqdHZ1A7cdlDjiXmnnOgIGmEj2+XES9USuPyVy8Nl2eR/tb9eOwsC1
+paCNwZw3b54q81O5xQjMZOf8V78Dq8c1a82MH5LYVkgEdjDtGOpXW9Mg56Ed8coFVpxNTpj8LWly
+yIptNxRmQ8oFZnEqpR5yFdulknUjcQnCVIAXLVrUKM8J5H6z2gbxyNzeppAZVFVgVWhVxmRxVZjZ
+qzIlOhMyzJmIpMghb3GdSyPTTwXsn9vPCmNMjqFDh6rZSEXbL6eAHPIve3s5CAy2ltOstqC9HGAn
+0Kw6vgv3jvulv3nEmPMQQbmNidDk4ItdxPDxycYZwIvjBnr16qWSMVwVbohyDm6Ceww+A89Mph3G
+v7mHq9Oqi49l4jBJeA4KjmNWyZBiQstp3icROB/BJCD/4f30uBAPTVIgmomUzFg1koMrQD1g+GZc
+DhkzcQSFY6seDLWU6nkyyGHwkKF+SxxfTdCkjTZiS6LNtycFs5vBTSQeAOpU74LyfqwaTuvQH9nO
+HxkzaXBtyUKRg6qxVwVLlWqsixSMWIGGb27Q8jtsjPKT1+mAIoeZ4iLAzzgtksyfAGYbyK1cK54V
+jIsluc3koIeFIofg6iLBZbS1d/OeF+CmiGfIfuQ3pzBNUCUmoENeNkCRE+ZvMlnq5BxBtaBsBu9t
+n1OgfKJB/EPumqdQnzUUOagevwMWzCTcXjL1smwEhzHsb9N/N4TaQz77VSSeFRQ5APXErCF504Zy
+S7Zkn40gd0Fi2+RAGMTw13S4uWQq6U8DjeQ0Z0CO64QOVW8UKQInG+PoC0EO4H/h4qoMI3BSqQk+
+Dbww5ACSa+InUpn6FnUw3Hm24oUi5/mCyP8Bt4X8fckTVZ8AAAAASUVORK5CYII=
+
+--_005_000501d2349eee373bc0caa5b340agilesyscokr_
+Content-Type: image/jpeg; name="image002.jpg"
+Content-Description: image002.jpg
+Content-Disposition: inline; filename="image002.jpg"; size=888;
+	creation-date="Wed, 02 Nov 2016 00:20:35 GMT";
+	modification-date="Wed, 02 Nov 2016 00:20:35 GMT"
+Content-ID: <image002.jpg@01D23382.CB4BC030>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABkAGQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+
+--_005_000501d2349eee373bc0caa5b340agilesyscokr_--

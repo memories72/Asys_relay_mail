@@ -1,0 +1,902 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id GDoBDDDComlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:44 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 2592814C34
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:44 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1542780312054754739
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from NAM02-BL2-obe.outbound.protection.outlook.com (104.47.38.104)
+ by MAIL-SERVER.agilesys.co.kr (112.220.69.170) with Microsoft SMTP Server
+ (TLS) id 8.3.465.0; Tue, 16 Aug 2016 10:12:38 +0900
+Received: from CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM (10.162.190.153) by
+ CS1PR84MB0232.NAMPRD84.PROD.OUTLOOK.COM (10.162.190.154) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.557.21; Tue, 16 Aug 2016 01:12:33 +0000
+Received: from CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM ([10.162.190.153]) by
+ CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM ([10.162.190.153]) with mapi id
+ 15.01.0549.027; Tue, 16 Aug 2016 01:12:31 +0000
+From: "Kim, Hyun-Ho (Storage Technical Consultant)" <hyunho.kim@hpe.com>
+To: =?ks_c_5601-1987?B?wMzBvrG4tNQ=?= <jonggu.lee@cj.net>,
+	=?ks_c_5601-1987?B?x9G788ijtNQ=?= <sh.han8@cj.net>
+CC: "Noh, Tae Ho" <tae-ho.noh@hpe.com>, "Kim, Hyun Seok" <hskim@hpe.com>,
+	"Kim, Dong Yeon (TS Consulting)" <dongyeon.kim@hpe.com>,
+	=?ks_c_5601-1987?B?vbrF5LiuwfbGwA==?= <storage@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK259sbA?= <server@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wOW8vL+1?= <zero@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Tue, 16 Aug 2016 10:12:30 +0900
+Subject: =?ks_c_5601-1987?B?Rlc6IENKIMPiwNTA2iC47bTcwNS0z7TZLiAoOC8xNik=?=
+Thread-Topic: =?ks_c_5601-1987?B?Q0ogw+LA1MDaILjttNzA1LTPtNkuICg4LzE2KQ==?=
+Thread-Index: AQHR91cXtyb7aDfBAUSeRWcxqssPCKBKv8zggAADXuSAAACWAA==
+Message-ID:
+ <CS1PR84MB02313E2B41FA0D4586A3EAE384130@CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM>
+References:
+ <327B51700086C0479B084D86D0B0E45C04F2EEE06690@MAIL-SERVER.agilesys.co.kr>,<CS1PR84MB0231B83645A77922B9DC07C584130@CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM>
+ <327B51700086C0479B084D86D0B0E45C04F2EEE06691@MAIL-SERVER.agilesys.co.kr>
+In-Reply-To:
+ <327B51700086C0479B084D86D0B0E45C04F2EEE06691@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+acceptlanguage: en-US
+received-spf: None (protection.outlook.com: hpe.com does not designate
+ permitted sender hosts)
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=hyunho.kim@hpe.com; 
+x-ms-office365-filtering-correlation-id: 69fe33ad-d6a2-4e4b-6741-08d3c57265a6
+x-microsoft-exchange-diagnostics:
+ 1;CS1PR84MB0232;6:VNt8aCbyFzpfioGAaaTYGaq72tRRsR8LyldnkJ/DP9PMNzQFtugIUzDWBe1Tz4u45/cGeADb3dGC69kSJpAU3UzURbIFVdh4iYCuFw3frO0vPawW6b63Jk7jexb3Dj+lS5ZrLE5ppDev4HfVED52KARWUW0ZrfbFTU42iESUTb2omH2jL0b/ZXn5ixBFjlNNQknnbjX+8+trXzZf0WPCnUjgTLldm3ARGc6Gvfo+II2B85Mx+RzxxECheQpGwtfhwhbmzHRQqMW6ND5aoxCLvBIC2fxetmn0kyEZXz0EgQhN2RIhhqWRyzXu3blmv8SjlVp+wW4lZSh8iWRqyfWkXA==;5:/KNqO3CTfKudVWC5jXFejpfxqNs8bJ3Fadv8hsdKROx3pSyg8UeDnu9Sf0893ZEBuWt/1ga2Vs0UGReRXzmyw/zF2ur6lVkrDTM64FINMz4wPEvkCVl2YV2fqJqNUYZrQLt/R9WMOZXIn+OHygCGyg==;24:z2cXuABg5mlvfuDRobwP557xuccfVYbtlZcfVsc/rZWa/r+YaBE8jXseYa8BV2fnSwMGU7Ev1LFU1uBQEp9ruD2FmQZZFtc5ZZzlTx8AEr4=;7:wgJ/RhAeH7TP28QFJ3DDIbhjDdHAStBlPeiEx5bCpxA+fmS3UJHWRIA0HGAZn5WJ4ks6oCaMJd64ikYMak6wJQuoqhn9HwFm4EZNZMWVpxVeXwrSTEfGeQmtv42IbW1wVav5s1fWuenTqKBrCKRpuNrK1BwkiNDz+0DOSlp2EGOtlvqePahtiQ+pVdNY5KX4l+0uOkcz3vO9C1vqwK8jWs2uUJ05XpttmROQ1KCrUFfRw/qJ6L/mKra2zFhO4SYc
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:CS1PR84MB0232;
+x-microsoft-antispam-prvs:
+ <CS1PR84MB023214F6DB9793074809D28684130@CS1PR84MB0232.NAMPRD84.PROD.OUTLOOK.COM>
+x-exchange-antispam-report-test:
+ UriScan:(227479698468861)(244887542470375)(21748063052155);
+x-exchange-antispam-report-cfa-test:
+ BCL:0;PCL:0;RULEID:(102415321)(6040176)(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001)(6055026);SRVR:CS1PR84MB0232;BCL:0;PCL:0;RULEID:;SRVR:CS1PR84MB0232;
+x-forefront-prvs: 0036736630
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(7916002)(199003)(377454003)(189002)(5001770100001)(17760045003)(2950100001)(2900100001)(97736004)(77096005)(33656002)(16236675004)(10400500002)(9686002)(15975445007)(19580405001)(4326007)(86362001)(790700001)(101416001)(6116002)(586003)(19625215002)(66066001)(122556002)(19580395003)(50986999)(2906002)(76176999)(19609705001)(54356999)(7696003)(7846002)(189998001)(3846002)(74316002)(229383001)(105586002)(99936001)(7906003)(7736002)(87936001)(81166006)(68736007)(3660700001)(224303003)(19300405004)(102836003)(3280700002)(19617315012)(106356001)(99286002)(18206015028)(5002640100001)(92566002)(8936002)(81156014)(106116001)(19627595001)(7099028);DIR:OUT;SFP:1102;SCL:1;SRVR:CS1PR84MB0232;H:CS1PR84MB0231.NAMPRD84.PROD.OUTLOOK.COM;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:ko;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+x-originatororg: hpe.com
+x-ms-exchange-crosstenant-originalarrivaltime: 16 Aug 2016 01:12:30.8977
+ (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 105b2061-b669-4b31-92ac-24d304d195dc
+x-ms-exchange-transport-crosstenantheadersstamped: CS1PR84MB0232
+Content-Type: multipart/related;
+	boundary="_004_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_
+Content-Type: multipart/alternative;
+	boundary="_000_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_"
+
+--_000_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5C4NCg0Kv8C0wyDA2773wNogw+LA1LjttNzA1LTPtNkuDQoNCg0KWzIwMTaz4iA4
+v/kxNsDPIL/AyMQyvcMgIERhZHlEQiDA2773IMPiwNTAzr/4IMGkurhdDQpIUEUNCg0Ks+vFwsij
+ILrOwOUNCg0KNjkxMDEzDQoNCjAxMCAyMjQzIDIzMjcNCg0KdGFlLWhvLm5vaEBocGUuY29tDQoN
+CkhQRQ0KDQqx6Mf2vK4gus7A5Q0KDQo3MTA5MTINCg0KMDEwLTM3MzUtMTMxMg0KDQpoc2tpbUBo
+cGUuY29tDQoNCkhQRQ0KDQqx6LW/v6wgwvfA5Q0KDQo3NDAyMjgNCg0KMDEwIDMzMzYgNDgwMw0K
+DQpkb25neWVvbi5raW1AaHBlLmNvbQ0KDQpBU1lTDQoNCry6wb7Irw0KDQo4MzA5MDENCg0KMDEw
+LTQ3MzEtMDIwMQ0KDQpod2FueUBhZ2lsZXN5cy5jby5rcg0KDQpBU1lTDQoNCsDMwdjI8Q0KDQo4
+ODAzMjgNCg0KMDEwLTczNTMtMDMyOA0KDQpqdW5pMzI4QGFnaWxlc3lzLmNvLmtyDQoNCkFTWVMN
+Cg0KsO3Gx7ytDQoNCjkyMDEwNA0KDQowMTAtMjcxNS03MzU4DQoNCiAgdmtzdGpAYWdpbGVzeXMu
+Y28ua3INCg0KDQoNCg0KDQqwqLvnx9W0z7TZLg0KDQpCZXN0IHJlZ2FyZHMsDQoNCkh5dW5obywg
+S2ltLg0KU3RvcmFnZSBUQyAvIFNvbHV0aW9uIERlbGl2ZXJ5IC8gR1NEIC8gVFMNCkVudGVycHJp
+c2UgR3JvdXAgLyBIZXdsZXR0IFBhY2thcmQgRW50ZXJwcmlzZSBLb3JlYQ0KTW9iaWxlIFBob25l
+IDogODItMTAtMzIxOS04NTEwLCBGQVggOiA4MjItMjE5OS00MzIwDQpFLW1haWwgOiBoeXVuaG8u
+a2ltQGhwZS5jb208bWFpbHRvOmh5dW5oby5raW1AaHBlLmNvbT4NCg0KW2NpZDppbWFnZTAwMS5w
+bmdAMDFEMUY3QTIuRTE2MTU0RjBdDQoNCkZyb206ILy6wb7IryBbbWFpbHRvOmh3YW55QGFnaWxl
+c3lzLmNvLmtyXQ0KU2VudDogVHVlc2RheSwgQXVndXN0IDE2LCAyMDE2IDk6NTYgQU0NClRvOiBL
+aW0sIEh5dW4tSG8gKFN0b3JhZ2UgVGVjaG5pY2FsIENvbnN1bHRhbnQpIDxoeXVuaG8ua2ltQGhw
+ZS5jb20+DQpTdWJqZWN0OiDIuL3FOiBDSiDD4sDUwNoguO203MDUtM+02S4gKDgvMTYpDQoNCr7I
+s+fHz7y8v+QuIL+hwMy9w726ILy6wb7Ir8DUtM+02S4NCg0Kwda5zrXut8+5+MijIL7VwNq4riDG
+98fUx9i8rSC6uLO7teW4s7TPtNkuDQoNCrCou+fH1bTPtNkuDQoNCji/+SAxNsDPICjIrSkgw+LA
+1MDaILjttNwgurizu7XluLO0z7TZLg0KDQoNCg0KDQoNClvD4sDUwM6/+CDBpLq4XQ0KDQoNCg0K
+QVNZUw0KDQoNCg0KDQoNCi0gvLrBvsivIDogMDEwLTQ3MzEtMDIwMSAvICA4MzA5MDENCg0KLSAg
+aHdhbnlAYWdpbGVzeXMuY28ua3I8bWFpbHRvOmh3YW55QGFnaWxlc3lzLmNvLmtyPg0KDQoNCg0K
+LSDAzMHYyPEgOiAwMTAtNzM1My0wMzI4IC8gIDg4MDMyOA0KDQotIGp1bmkzMjhAYWdpbGVzeXMu
+Y28ua3I8bWFpbHRvOmp1bmkzMjhAYWdpbGVzeXMuY28ua3I+DQoNCg0KDQotILDtxse8rSA6IDAx
+MC0yNzE1LTczNTggLyAgOTIwMTA0DQoNCi0gdmtzdGpAYWdpbGVzeXMuY28ua3I8bWFpbHRvOnZr
+c3RqQGFnaWxlc3lzLmNvLmtyPg0KDQoNCg0KDQoNClu55rmuwM/A2l0NCg0KDQotIDIwMTaz4iA4
+v/kgMTbAzyjIrSkgMTQ6MDAgfg0KDQoNCit+fit+fit+fit+fit+fit+fit+fit+fit+fit+fisN
+CijB1im/ocDMvcO9uiC8rbrxvbq75773us4gsPrA5SC8uiDBviDIrw0KvK2/7yC8rcPKsbggud3G
+97W/IDY3LTO5+MH2ILTruKK69LX5IDTD/iAxMzctODA0DQpUZWwuIDA3MC03MTE0LTAwNDggTW9i
+aWxlLiAwMTAtNDczMS0wMjAxDQpGYXguICgwMik1ODYtNTA3MCBFLW1haWwuIGh3YW55QGFnaWxl
+c3lzLmNvLmtyPGh0dHA6Ly9rbXMuYWdpbGVzeXMuY28ua3Ivb3dhL3JlZGlyLmFzcHg/Qz1Lcmdp
+N1ZaUjJrdWRqVXpnOTdKSWhTS3B1U3V2NjlCSWdORjBmNkZSNGc0bElVRlg2RE9oeEZ0Z3I2TWVI
+X0Z1NzNpTGF5WF9FRk0uJlVSTD1tYWlsdG8lM2FzJTQwYWdpbGVzeXMuY28ua3I+DQorfn4rfn4r
+fn4rfn4rfn4rfn4rfn4rfn4rfn4rfn4rDQoNCg==
+
+--_000_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B9=D9=C5=C1;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"HP Simplified";
+	panose-1:2 11 6 4 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@=B9=D9=C5=C1";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:=B1=BC=B8=B2;}
+span.emailstyle19
+	{mso-style-name:emailstyle19;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:11.0pt;font-fam=
+ily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</=
+span><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,=
+sans-serif">.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:11.0pt;font-fam=
+ily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=BF=C0=B4=C3</span><span lang=3D=
+"KO" style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-s=
+erif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;">=C0=DB=BE=F7=C0=DA</span><span lang=3D"KO" style=
+=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;">=C3=E2=C0=D4=B8=ED=B4=DC=C0=D4=B4=CF=B4=D9</span=
+><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans=
+-serif">.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><strong><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&=
+quot;,sans-serif">[2016</span></strong><strong><span lang=3D"KO" style=3D"f=
+ont-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=B3=E2</=
+span></strong><strong><span style=3D"font-size:11.0pt;font-family:&quot;HP =
+Simplified&quot;,sans-serif">
+ 8</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-=
+family:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=BF=F9</span></strong><strong=
+><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans=
+-serif">16</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0=
+pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=C0=CF</span></strong=
+><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;HP S=
+implified&quot;,sans-serif">
+</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-fa=
+mily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=BF=C0=C8=C4</span></strong><st=
+rong><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,=
+sans-serif">2</span></strong><strong><span lang=3D"KO" style=3D"font-size:1=
+1.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=BD=C3</span></str=
+ong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;H=
+P Simplified&quot;,sans-serif">
+ &nbsp;</span></strong><strong><span style=3D"font-size:11.0pt;font-family:=
+&quot;HP Simplified&quot;,sans-serif">DadyDB
+</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-fa=
+mily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=C0=DB=BE=F7</span></strong><st=
+rong><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;HP Simpl=
+ified&quot;,sans-serif">
+</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-fa=
+mily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=C3=E2=C0=D4=C0=CE=BF=F8</span>=
+</strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&q=
+uot;HP Simplified&quot;,sans-serif">
+</span></strong><strong><span lang=3D"KO" style=3D"font-size:11.0pt;font-fa=
+mily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=C1=A4=BA=B8</span></strong><st=
+rong><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,=
+sans-serif">]<o:p></o:p></span></strong></p>
+<table class=3D"MsoNormalTable" border=3D"1" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"margin-left:30.2pt;border-collapse:collapse;border:none">
+<tbody>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;paddin=
+g:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+HPE</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-serif">=
+<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border:solid windowtext 1.0pt;bord=
+er-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=B3=EB=C5=C2=C8=A3</span><span lang=3D"KO" style=3D"font-size=
+:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;">=BA=CE=C0=E5</span><span style=3D"font-family:&q=
+uot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border:solid windowtext 1.0pt;border=
+-left:none;padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+691013</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-seri=
+f"><o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border:solid windowtext 1.0pt;bord=
+er-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010 2243 2327</span><span style=3D"font-family:&quot;HP Simplified&quot;,sa=
+ns-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border:solid windowtext 1.0pt;bor=
+der-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+tae-ho.noh@hpe.com
+</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-serif"><o:=
+p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+HPE</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-serif">=
+<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=B1=E8=C7=F6=BC=AE</span><span lang=3D"KO" style=3D"font-size=
+:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;">=BA=CE=C0=E5</span><span style=3D"font-family:&q=
+uot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+710912</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-seri=
+f"><o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010-3735-1312</span><span style=3D"font-family:&quot;HP Simplified&quot;,sa=
+ns-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+hskim@hpe.com
+</span><span style=3D"font-family:&quot;HP Simplified&quot;,sans-serif"><o:=
+p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+HPE<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=B1=E8=B5=BF=BF=AC</span><span lang=3D"KO" style=3D"font-size=
+:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;">=C2=F7=C0=E5</span><span style=3D"font-size:11.0=
+pt;font-family:&quot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+740228<o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010 3336 4803<o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+dongyeon.kim@hpe.com
+<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+ASYS<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=BC=BA=C1=BE=C8=AF</span><span style=3D"font-size:11.0pt;font=
+-family:&quot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+830901</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplifie=
+d&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010-4731-0201</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Si=
+mplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+hwany@agilesys.co.kr</span><span style=3D"font-size:11.0pt;font-family:&quo=
+t;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+ASYS<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=C0=CC=C1=D8=C8=F1</span><span style=3D"font-size:11.0pt;font=
+-family:&quot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+880328&nbsp;
+</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot=
+;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010-7353-0328</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Si=
+mplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+juni328@agilesys.co.kr</span><span style=3D"font-size:11.0pt;font-family:&q=
+uot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"79" style=3D"width:59.3pt;border:solid windowtext 1.0pt;border=
+-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+ASYS<o:p></o:p></span></p>
+</td>
+<td width=3D"104" style=3D"width:77.95pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span l=
+ang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;=B8=BC=C0=BA =B0=ED=
+=B5=F1&quot;">=B0=ED=C6=C7=BC=AD</span><span style=3D"font-size:11.0pt;font=
+-family:&quot;HP Simplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"113" style=3D"width:3.0cm;border-top:none;border-left:none;bor=
+der-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;paddi=
+ng:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+920104</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplifie=
+d&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"132" style=3D"width:99.25pt;border-top:none;border-left:none;b=
+order-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+010-2715-7358</span><span style=3D"font-size:11.0pt;font-family:&quot;HP Si=
+mplified&quot;,sans-serif"><o:p></o:p></span></p>
+</td>
+<td width=3D"180" style=3D"width:134.65pt;border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pa=
+dding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sans-serif">=
+&nbsp; vkstj@agilesys.co.kr<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&=
+quot;,sans-serif"><o:p>&nbsp;</o:p></span></strong></p>
+<p><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,sa=
+ns-serif">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:11.0pt;font-fam=
+ily:&quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</=
+span><span style=3D"font-size:11.0pt;font-family:&quot;HP Simplified&quot;,=
+sans-serif">.<o:p></o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">Best regards,<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">Hyunho, Kim.<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">Storage TC / Solution Delivery / =
+GSD / TS<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">Enterprise Group /
+<b>Hewlett Packard Enterprise Korea</b><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">Mobile Phone : 82-10-3219-8510, F=
+AX : 822-2199-4320<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black">E-mail :
+<a href=3D"mailto:hyunho.kim@hpe.com"><span style=3D"color:#0563C1">hyunho.=
+kim@hpe.com</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;HP=
+ Simplified&quot;,sans-serif;color:#1F497D"><img border=3D"0" width=3D"180"=
+ height=3D"69" id=3D"Picture_x0020_1" src=3D"cid:image001.png@01D1F7A2.E161=
+54F0" alt=3D"cid:image001.png@01D15CE4.31F84C70"></span><span style=3D"font=
+-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D"><o:p=
+></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1F497D"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt">=BC=BA=C1=BE=C8=AF</spa=
+n><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-seri=
+f"> [mailto:hwany@agilesys.co.kr]
+<br>
+<b>Sent:</b> Tuesday, August 16, 2016 9:56 AM<br>
+<b>To:</b> Kim, Hyun-Ho (Storage Technical Consultant) &lt;hyunho.kim@hpe.c=
+om&gt;<br>
+<b>Subject:</b> </span><span lang=3D"KO" style=3D"font-size:11.0pt">=C8=B8=
+=BD=C5</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot=
+;,sans-serif">: CJ
+</span><span lang=3D"KO" style=3D"font-size:11.0pt">=C3=E2=C0=D4=C0=DA</spa=
+n><span lang=3D"KO" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quo=
+t;,sans-serif">
+</span><span lang=3D"KO" style=3D"font-size:11.0pt">=B8=ED=B4=DC=C0=D4=B4=
+=CF=B4=D9</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&q=
+uot;,sans-serif">. (8/16)<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:10.0pt;color:bl=
+ack">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</span><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif;color:black">.
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=BF=A1=C0=
+=CC=BD=C3=BD=BA</span><span lang=3D"KO" style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=BC=BA=C1=
+=BE=C8=AF=C0=D4=B4=CF=B4=D9</span><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:10.0pt;color:bl=
+ack">=C1=D6=B9=CE=B5=EE=B7=CF=B9=F8=C8=A3</span><span lang=3D"KO" style=3D"=
+font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=BE=D5=C0=
+=DA=B8=AE</span><span lang=3D"KO" style=3D"font-size:10.0pt;font-family:&qu=
+ot;Tahoma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=C6=F7=C7=
+=D4=C7=D8=BC=AD</span><span lang=3D"KO" style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=BA=B8=B3=
+=BB=B5=E5=B8=B3=B4=CF=B4=D9</span><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">.<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"font-size:10.0pt;color:bl=
+ack">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</span><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif;color:black">.<o:p></o:p></span></=
+p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">8</span><span lang=3D"KO" style=3D"font-=
+size:10.0pt;color:black">=BF=F9</span><span style=3D"font-size:10.0pt;font-=
+family:&quot;Tahoma&quot;,sans-serif;color:black"> 16</span><span lang=3D"K=
+O" style=3D"font-size:10.0pt;color:black">=C0=CF</span><span style=3D"font-=
+size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black">
+ (</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=C8=AD</s=
+pan><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-ser=
+if;color:black">)
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=C3=E2=C0=
+=D4=C0=DA</span><span lang=3D"KO" style=3D"font-size:10.0pt;font-family:&qu=
+ot;Tahoma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=B8=ED=B4=
+=DC</span><span lang=3D"KO" style=3D"font-size:10.0pt;font-family:&quot;Tah=
+oma&quot;,sans-serif;color:black">
+</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=BA=B8=B3=
+=BB=B5=E5=B8=B3=B4=CF=B4=D9</span><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">.<o:p></o:p></span></p>
+</div>
+<div>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><strong><span style=3D"font-family:=B1=BC=B8=B2;color:black">[<span lang=
+=3D"KO">=C3=E2=C0=D4=C0=CE=BF=F8 =C1=A4=BA=B8</span>]</span></strong><span =
+style=3D"color:black"><o:p></o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black"><br>
+<strong><span style=3D"font-family:=B1=BC=B8=B2">ASYS</span></strong><o:p><=
+/o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">-&nbsp;<span lang=3D"KO">=BC=BA=C1=BE=C8=AF<=
+/span> : 010-4731-0201 /&nbsp; 830901<o:p></o:p></span></p>
+<p><span style=3D"color:black">-&nbsp; <a href=3D"mailto:hwany@agilesys.co.=
+kr">hwany@agilesys.co.kr</a><o:p></o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">-&nbsp;<span lang=3D"KO">=C0=CC=C1=D8=C8=F1<=
+/span> : 010-7353-0328 /&nbsp; 880328<o:p></o:p></span></p>
+<p><span style=3D"color:black">- juni328<a href=3D"mailto:juni328@agilesys.=
+co.kr"><span style=3D"color:#0066CC">@agilesys.co.kr</span></a><o:p></o:p><=
+/span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">-&nbsp;<span lang=3D"KO">=B0=ED=C6=C7=BC=AD<=
+/span> : 010-2715-7358 /&nbsp; 920104<o:p></o:p></span></p>
+<p><span style=3D"color:black">- vkstj<a href=3D"mailto:vkstj@agilesys.co.k=
+r"><span style=3D"color:#0066CC">@agilesys.co.kr</span></a><o:p></o:p></spa=
+n></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"color:black">&nbsp;<o:p></o:p></span></p>
+<p><strong><span style=3D"font-family:&quot;Tahoma&quot;,sans-serif;color:b=
+lack">[</span></strong><strong><span lang=3D"KO" style=3D"font-family:=B1=
+=BC=B8=B2;color:black">=B9=E6=B9=AE=C0=CF=C0=DA</span></strong><strong><spa=
+n style=3D"font-family:&quot;Tahoma&quot;,sans-serif;color:black">]</span><=
+/strong><span style=3D"font-family:&quot;Tahoma&quot;,sans-serif;color:blac=
+k"><o:p></o:p></span></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">- 2016</span><span lang=3D"KO" style=3D"=
+font-size:10.0pt;color:black">=B3=E2</span><span style=3D"font-size:10.0pt;=
+font-family:&quot;Tahoma&quot;,sans-serif;color:black"> 8</span><span lang=
+=3D"KO" style=3D"font-size:10.0pt;color:black">=BF=F9</span><span style=3D"=
+font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black">
+ 16</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:black">=C0=CF</=
+span><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-se=
+rif;color:black">(</span><span lang=3D"KO" style=3D"font-size:10.0pt;color:=
+black">=C8=AD</span><span style=3D"font-size:10.0pt;font-family:&quot;Tahom=
+a&quot;,sans-serif;color:black">)
+ 14:00 ~ <o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,sans-serif;color:black">&nbsp;<o:p></o:p></span></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b><span styl=
+e=3D"color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">(<span lang=3D"KO">=
+=C1=D6</span>)<span lang=3D"KO">=BF=A1=C0=CC=BD=C3=BD=BA</span></span></b><=
+span lang=3D"KO" style=3D"color:black"> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=
+=CE</span><span style=3D"color:black">&nbsp;<span lang=3D"KO">=B0=FA=C0=E5<=
+/span>&nbsp;<strong><span lang=3D"KO" style=3D"font-family:=B1=BC=B8=B2">=
+=BC=BA
+ =C1=BE =C8=AF</span></strong><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"color:black">=BC=AD=BF=EF=
+ =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF</span><span style=3D"color:black"> 6=
+7-3<span lang=3D"KO">=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=F9</span> 4<span la=
+ng=3D"KO">=C3=FE</span> 137-804<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Tel. 070-7114-0048 <stro=
+ng><span style=3D"font-family:=B1=BC=B8=B2">Mobile. 010-4731-0201</span></s=
+trong><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black">Fax. (02)586-5070<strong=
+><span style=3D"font-family:=B1=BC=B8=B2"> E-mail. hwany</span></strong><a =
+href=3D"http://kms.agilesys.co.kr/owa/redir.aspx?C=3DKrgi7VZR2kudjUzg97JIhS=
+KpuSuv69BIgNF0f6FR4g4lIUFX6DOhxFtgr6MeH_Fu73iLayX_EFM.&amp;URL=3Dmailto%3as=
+%40agilesys.co.kr"><strong><span style=3D"font-size:10.0pt;font-family:&quo=
+t;=B8=BC=C0=BA =B0=ED=B5=F1&quot;;color:black">@agilesys.co.kr</span></stro=
+ng></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"color:black">&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b><span styl=
+e=3D"color:#1F497D"><o:p></o:p></span></p>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">&nbsp;<o:p></o:p></span>=
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_--
+
+--_004_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=6220;
+	creation-date="Tue, 16 Aug 2016 00:45:12 GMT";
+	modification-date="Tue, 16 Aug 2016 00:57:03 GMT"
+Content-ID: <image001.png@01D1F7A2.E16154F0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_CS1PR84MB02313E2B41FA0D4586A3EAE384130CS1PR84MB0231NAMP_--

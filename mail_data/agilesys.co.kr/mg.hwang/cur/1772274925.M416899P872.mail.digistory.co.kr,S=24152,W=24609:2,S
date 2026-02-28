@@ -1,0 +1,457 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id KGDIGO3EomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:25 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 64BB414C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:25 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1552149748054997136
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp1385019wme;
+        Sun, 27 Nov 2016 16:31:29 -0800 (PST)
+X-Received: by 10.28.1.135 with SMTP id 129mr18055770wmb.108.1480293088488;
+        Sun, 27 Nov 2016 16:31:28 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender) smtp.mailfrom=wy.jeung@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of wy.jeung@agilesys.co.kr as permitted sender)
+Received: by 10.28.44.66 with POP3 id s63mf68958378wms.0;
+        Sun, 27 Nov 2016 16:31:28 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 11182 invoked by uid 700); 28 Nov 2016 09:31:22 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	28 Nov 2016 09:31:22 +0900
+Received: (qmail 7302 invoked by uid 700); 28 Nov 2016 09:31:22 +0900
+Received: from unknown (HELO SC201608251455) (wy.jeung@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	28 Nov 2016 09:31:22 +0900
+From: =?utf-8?B?7KCV7JuQ7Jqp?= <wy.jeung@agilesys.co.kr>
+To: <jin-woo.park@hpe.com>
+Cc: =?utf-8?B?J+ydtOyiheyImCc=?= <jslee@agilesys.co.kr>,
+	=?utf-8?B?J+2ZqeuvvOq3nCc=?= <mg.hwang@agilesys.co.kr>
+References: <001a01d2489f$9cebba60$d6c32f20$@co.kr>
+In-Reply-To: <001a01d2489f$9cebba60$d6c32f20$@co.kr>
+Subject: =?utf-8?B?Rlc6IOyduOymneyEnCDrsI8g7Iuc7ZeY6rKw6rO87IScIOyalOyyreydmCDqsbQ=?=
+Date: Mon, 28 Nov 2016 09:31:21 +0900
+Message-ID: <000401d2490e$be8199a0$3b84cce0$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0005_01D2495A.2E6BB2A0"
+Thread-Index: AQFHzwTkq9sMRu9LMej3i+8YXH0bUaICfxGA
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0005_01D2495A.2E6BB2A0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7JWI64WV7ZWY7IS47JqUIOu2gOyepeuLmA0KDQogDQoNCuymkOqxsOyatCDsm5TsmpTsnbwg7JWE
+7Lmo4oCm4oCm4oCm4oCm4oCmICDsiqTsv6jrhLcg6rSA66CoIA0KDQrslYTrnpgg7J6l67mE7JeQ
+IOuMgO2VnCDqta3soJwgQ0Mg7J247Kad7ISc7JmAIOyLnO2XmOqysOqzvOyEnCjsoITsnpDtjIzs
+oIHtlakoRU1DKSDsi5ztl5jshLHsoIHshJwg7Y+s7ZWoKSAg7JqU7LKt65Oc66a964uI64ukLg0K
+DQpIUEUgMTA1MDggLCA3NTEwICwgNTEzMCwgMTkyMCANCg0KIA0KDQrtmozsnZjspJHsnbTsi6Tq
+urwg6rCZ7JWE7IScIOyghO2ZlOyViOuTnOumrOqzoCDrqZTsnbzrk5zrpr3ri4jri6QuDQoNCiAN
+Cg0K6rCQ7IKs7ZWp64uI64ukLg0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+DQoNCijso7wpIOyXkOydtOyLnOyKpCAvIOyEnOyauOyYgeyXheuzuOu2gCAvICDsoJXsm5Dsmqkg
+64yA66asDQoNClRlbC4gMDcwLTcxMTQtMDA4NiAvIEZheC4gMDItNTg2LTUwNzANCg0KTW9iaWxl
+LiAwMTAtNTU3OC0yNjYzDQoNCkUtTWFpbC4gIDxtYWlsdG86d3kuamV1bmdAYWdpbGVzeXMuY28u
+a3I+IHd5LmpldW5nQGFnaWxlc3lzLmNvLmtyDQoNCkFkZHJlc3MuIOyEnOyauOyLnCDshJzstIjq
+tawg67CY7Y+s64+ZIDY3LTMg64yA66Wt67mM65SpIDTsuLUgDQoNCj09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT0NCg0KIA0KDQpGcm9tOiDsnbTsooXsiJggW21haWx0bzpqc2xlZUBh
+Z2lsZXN5cy5jby5rcl0gDQpTZW50OiBTdW5kYXksIE5vdmVtYmVyIDI3LCAyMDE2IDg6MTYgUE0N
+ClRvOiDsoJXsm5DsmqnrjIDrpqwNCkNjOiAn7Zmp66+86recJw0KU3ViamVjdDogRlc6IOyduOym
+neyEnCDrsI8g7Iuc7ZeY6rKw6rO87IScIOyalOyyreydmCDqsbQNCg0KIA0KDQrsm5DsmqnslYQN
+Cg0KIA0KDQrslYTrnpgg6rWt7KCcQ0Psnbjspp3shJzsmYAg7Iuc7ZeY6rKw6rO87IScIOuypOuN
+lOyXkCDsmpTssq3tlbTshJwg7JWE656YIOqwleuPmeyZhCDrtoDsnqXsl5Dqsowg67O064K07KSY
+DQoNCiANCg0K7IiY6rOgfg0KDQogDQoNCkZyb206IOqwleuPmeyZhCBbbWFpbHRvOmR3a2FuZ0Br
+b3JuZWMuY29tXSANClNlbnQ6IFNhdHVyZGF5LCBOb3ZlbWJlciAyNiwgMjAxNiA2OjU3IFBNDQpU
+bzog7J207KKF7IiY7YyA7J6l64uYOyDquYDspIDtmLjri5gNCkNjOiBzZW4yMDE2c2tiOyBkaW9y
+YQ0KU3ViamVjdDog7J247Kad7IScIOuwjyDsi5ztl5jqsrDqs7zshJwg7JqU7LKt7J2YIOqxtA0K
+DQogDQoNCuydtOyiheyImCDtjIDsnqXri5gNCg0K7JWE656YIOyepeu5hOyXkCDrjIDtlZwg6rWt
+7KCcIENDIOyduOymneyEnOyZgCDsi5ztl5jqsrDqs7zshJwo7KCE7J6Q7YyM7KCB7ZWpKEVNQykg
+7Iuc7ZeY7ISx7KCB7IScIO2PrO2VqCkgIOyalOyyreuTnOumveuLiOuLpC4NCg0KSFBFIDEwNTA4
+ICwgNzUxMCAsIDUxMzAsIDE5MjAgDQoNCiANCg0KIA0KDQrquYDspIDtmLjso7zsnoTri5gNCg0K
+IEFFTiAyMDI0MCDsl5Ag64yA7ZWcIOyLnO2XmOqysOqzvOyEnCjsoITsnpDtjIzsoIHtlakoRU1D
+KSDsi5ztl5jshLHsoIHshJwg7Y+s7ZWoKSDsmYAg7J247Kad7IScKOyeiOuKlCDqsr3smrDsl5Ap
+IOyalOyyreuTnOumveuLiOuLpC4NCg0KIA0KDQrsm5TsmpTsnbwg7Jik7KCE6rmM7KeAIOu2gO2D
+geuTnOumveuLiOuLpC4NCg0K7Jik7ZuE7JeQIOyjvOustOq0gOuLmOq7mCDsoJzstpzsmIjsoJXs
+noXri4jri6QuDQoNCiANCg0KIA0KDQogIDxodHRwOi8vaWZpbGUuZWNvdW50ZXJwLmNvbTo4MDAw
+L3dlYmRhdi9rb3JuZWMuY29tL2R3a2FuZy9zaWduL29fMWFhZHZjYjVqMTJsNzFzOTExMnYxMXBu
+aTNqbGIucG5nPiDqsJXrj5nsmYQg67aA7J6lL+2MgOyepSBAIElUT+yCrOyXhe2MgCAvIOOInOy9
+lOuEpQ0KDQpNb2JpbGUuIDAxMC0zNDYyLTg5MjMgRS1tYWlsLiAgPG1haWx0bzpkd2thbmdAa29y
+bmVjLmNvbT4gZHdrYW5nQGtvcm5lYy5jb20NCg0K7ISc7Jq47Yq567OE7IucIOyEseuPmeq1rCDs
+hLHsiJjsnbzroZw06ri4IDI1LCA5MDjtmLggKDEzMy0xMjApDQoNCijshLHsiJjrj5ky6rCALCDs
+hJzsmrjsiLLsvZTsmKTrobHrlJTsp4DthLjtg4Dsm4wx7LCoKQ0KDQpULiAwMi01NjMtNTg4OCBG
+LiAwMi01NjMtNTg4Nw0KDQogDQoNCiANCg0KIA0KDQogDQoNCiANCg0KIA0KDQoNCiA8aHR0cDov
+L3dtYWlsLmtvcm5lYy5jb20vc2VydmljZS9jYW5jZWxSZWFkTWFpbC9iWE5uYVdROU1qQXhOakV4
+TWpZeE9EVTNNakF1T1RNM01qYzVMak14UXpNM01UY21aVzFoYVd3OWFuTnNaV1ZBWVdkcGJHVnpl
+WE11WTI4dWEzSV8+IA0KDQogDQoNCg==
+
+------=_NextPart_000_0005_01D2495A.2E6BB2A0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=EB=B0=94=ED=83=95;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EA=B5=B4=EB=A6=BC";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@=EB=B0=94=ED=83=95";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:#1F497D;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=
+=9A=94 =EB=B6=80=EC=9E=A5=EB=8B=98<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=A6=90=EA=B1=B0=EC=9A=B4 =
+=EC=9B=94=EC=9A=94=EC=9D=BC =EC=95=84=EC=B9=A8<span =
+lang=3DEN-US>=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6 =
+=C2=A0</span>=EC=8A=A4=EC=BF=A8=EB=84=B7 =EA=B4=80=EB=A0=A8 <span =
+lang=3DEN-US><o:p></o:p></span></span></p><p>=EC=95=84=EB=9E=98 =
+=EC=9E=A5=EB=B9=84=EC=97=90 =EB=8C=80=ED=95=9C =EA=B5=AD=EC=A0=9C<span =
+lang=3DEN-US> CC </span>=EC=9D=B8=EC=A6=9D=EC=84=9C=EC=99=80 =
+=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C<span =
+lang=3DEN-US>(</span>=EC=A0=84=EC=9E=90=ED=8C=8C=EC=A0=81=ED=95=A9<span =
+lang=3DEN-US>(EMC) </span>=EC=8B=9C=ED=97=98=EC=84=B1=EC=A0=81=EC=84=9C =
+=ED=8F=AC=ED=95=A8<span lang=3DEN-US>)&nbsp; =
+</span>=EC=9A=94=EC=B2=AD=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span lang=3DEN-US>HPE 10508 , =
+7510 , 5130, 1920 <o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=ED=9A=8C=EC=9D=98=EC=A4=91=EC=9D=B4=EC=
+=8B=A4=EA=BA=BC =EA=B0=99=EC=95=84=EC=84=9C =
+=EC=A0=84=ED=99=94=EC=95=88=EB=93=9C=EB=A6=AC=EA=B3=A0 =
+=EB=A9=94=EC=9D=BC=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=
+=8B=A4<span lang=3DEN-US>.<o:p></o:p></span></span></p><div><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p=
+></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>(</span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=A3=BC<span lang=3DEN-US>) =
+</span>=EC=97=90=EC=9D=B4=EC=8B=9C=EC=8A=A4<span lang=3DEN-US> / =
+</span>=EC=84=9C=EC=9A=B8=EC=98=81=EC=97=85=EB=B3=B8=EB=B6=80<span =
+lang=3DEN-US> /&nbsp; </span>=EC=A0=95=EC=9B=90=EC=9A=A9 =
+=EB=8C=80=EB=A6=AC<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Tel. 070-7114-0086 / Fax. =
+02-586-5070<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Mobile. =
+010-5578-2663<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>E-Mail. <a =
+href=3D"mailto:wy.jeung@agilesys.co.kr"><span =
+style=3D'color:#0563C1'>wy.jeung@agilesys.co.kr</span></a><o:p></o:p></sp=
+an></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>Address. </span><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=84=9C=EC=9A=B8=EC=8B=9C =
+=EC=84=9C=EC=B4=88=EA=B5=AC =EB=B0=98=ED=8F=AC=EB=8F=99<span =
+lang=3DEN-US> 67-3 </span>=EB=8C=80=EB=A5=AD=EB=B9=8C=EB=94=A9<span =
+lang=3DEN-US> 4</span>=EC=B8=B5 <span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify;text-justify:inter-ideograph;text-autospace:n=
+one;word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p=
+></span></p></div><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>From:</span=
+></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span =
+style=3D'font-size:11.0pt'>=EC=9D=B4=EC=A2=85=EC=88=98</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+[mailto:jslee@agilesys.co.kr] <br><b>Sent:</b> Sunday, November 27, 2016 =
+8:16 PM<br><b>To:</b> </span><span =
+style=3D'font-size:11.0pt'>=EC=A0=95=EC=9B=90=EC=9A=A9=EB=8C=80=EB=A6=AC<=
+/span><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><br><b>Cc:<=
+/b> '</span><span =
+style=3D'font-size:11.0pt'>=ED=99=A9=EB=AF=BC=EA=B7=9C</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>'<br><b>Sub=
+ject:</b> FW: </span><span =
+style=3D'font-size:11.0pt'>=EC=9D=B8=EC=A6=9D=EC=84=9C</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span style=3D'font-size:11.0pt'>=EB=B0=8F</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span =
+style=3D'font-size:11.0pt'>=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C<=
+/span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span =
+style=3D'font-size:11.0pt'>=EC=9A=94=EC=B2=AD=EC=9D=98</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> =
+</span><span style=3D'font-size:11.0pt'>=EA=B1=B4</span><span =
+lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p></div></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=9B=90=EC=9A=A9=EC=95=84<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=95=84=EB=9E=98 =
+=EA=B5=AD=EC=A0=9C<span =
+lang=3DEN-US>CC</span>=EC=9D=B8=EC=A6=9D=EC=84=9C=EC=99=80 =
+=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C =
+=EB=B2=A4=EB=8D=94=EC=97=90 =EC=9A=94=EC=B2=AD=ED=95=B4=EC=84=9C =
+=EC=95=84=EB=9E=98 =EA=B0=95=EB=8F=99=EC=99=84 =
+=EB=B6=80=EC=9E=A5=EC=97=90=EA=B2=8C =EB=B3=B4=EB=82=B4=EC=A4=98<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'>=EC=88=98=EA=B3=A0<span =
+lang=3DEN-US>~<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#1F497D'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span>=
+</b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B0=95=EB=8F=99=EC=99=84</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> [<a =
+href=3D"mailto:dwkang@kornec.com">mailto:dwkang@kornec.com</a>] =
+<br><b>Sent:</b> Saturday, November 26, 2016 6:57 PM<br><b>To:</b> =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=9D=B4=EC=A2=85=EC=88=98=ED=8C=80=EC=9E=A5=EB=
+=8B=98</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>; =
+</span><span =
+style=3D'font-size:10.0pt'>=EA=B9=80=EC=A4=80=ED=98=B8=EB=8B=98</span><sp=
+an lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><br><b>Cc:</=
+b> sen2016skb; diora<br><b>Subject:</b> </span><span =
+style=3D'font-size:10.0pt'>=EC=9D=B8=EC=A6=9D=EC=84=9C</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=EB=B0=8F</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C<=
+/span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span =
+style=3D'font-size:10.0pt'>=EC=9A=94=EC=B2=AD=EC=9D=98</span><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+</span><span style=3D'font-size:10.0pt'>=EA=B1=B4</span><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><o:p></o:p><=
+/span></p></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=EC=9D=B4=EC=A2=85=EC=88=98 =
+=ED=8C=80=EC=9E=A5=EB=8B=98<span =
+lang=3DEN-US><o:p></o:p></span></p><p>=EC=95=84=EB=9E=98 =
+=EC=9E=A5=EB=B9=84=EC=97=90 =EB=8C=80=ED=95=9C =EA=B5=AD=EC=A0=9C<span =
+lang=3DEN-US> CC </span>=EC=9D=B8=EC=A6=9D=EC=84=9C=EC=99=80 =
+=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C<span =
+lang=3DEN-US>(</span>=EC=A0=84=EC=9E=90=ED=8C=8C=EC=A0=81=ED=95=A9<span =
+lang=3DEN-US>(EMC) </span>=EC=8B=9C=ED=97=98=EC=84=B1=EC=A0=81=EC=84=9C =
+=ED=8F=AC=ED=95=A8<span lang=3DEN-US>)&nbsp; =
+</span>=EC=9A=94=EC=B2=AD=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span lang=3DEN-US>HPE 10508 , =
+7510 , 5130, 1920 <o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=EA=B9=80=EC=A4=80=ED=98=B8=EC=
+=A3=BC=EC=9E=84=EB=8B=98<span =
+lang=3DEN-US><o:p></o:p></span></p><p><span lang=3DEN-US>&nbsp;AEN 20240 =
+</span>=EC=97=90 =EB=8C=80=ED=95=9C =
+=EC=8B=9C=ED=97=98=EA=B2=B0=EA=B3=BC=EC=84=9C<span =
+lang=3DEN-US>(</span>=EC=A0=84=EC=9E=90=ED=8C=8C=EC=A0=81=ED=95=A9<span =
+lang=3DEN-US>(EMC) </span>=EC=8B=9C=ED=97=98=EC=84=B1=EC=A0=81=EC=84=9C =
+=ED=8F=AC=ED=95=A8<span lang=3DEN-US>) </span>=EC=99=80 =
+=EC=9D=B8=EC=A6=9D=EC=84=9C<span lang=3DEN-US>(</span>=EC=9E=88=EB=8A=94 =
+=EA=B2=BD=EC=9A=B0=EC=97=90<span lang=3DEN-US>) =
+</span>=EC=9A=94=EC=B2=AD=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p>=EC=9B=94=EC=9A=94=EC=9D=BC =
+=EC=98=A4=EC=A0=84=EA=B9=8C=EC=A7=80 =
+=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p>=EC=98=A4=ED=9B=84=EC=97=90 =
+=EC=A3=BC=EB=AC=B4=EA=B4=80=EB=8B=98=EA=BB=98 =
+=EC=A0=9C=EC=B6=9C=EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span lang=3DEN-US =
+style=3D'color:#1F497D'><img border=3D0 id=3D"_x0000_i1025" =
+src=3D"http://ifile.ecounterp.com:8000/webdav/kornec.com/dwkang/sign/o_1a=
+advcb5j12l71s9112v11pni3jlb.png"></span><b><span =
+style=3D'color:#1F497D'>=EA=B0=95=EB=8F=99=EC=99=84 =
+=EB=B6=80=EC=9E=A5<span lang=3DEN-US>/</span>=ED=8C=80=EC=9E=A5<span =
+lang=3DEN-US> @ ITO</span>=EC=82=AC=EC=97=85=ED=8C=80<span lang=3DEN-US> =
+/ </span>=E3=88=9C=EC=BD=94=EB=84=A5</span></b><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p></o:p></span></p><p><b><span lang=3DEN-US =
+style=3D'color:#002060'>Mobile. 010-3462-8923 E-mail. <a =
+href=3D"mailto:dwkang@kornec.com" target=3D"_blank"><span =
+style=3D'color:#0563C1'>dwkang@kornec.com</span></a></span></b><span =
+lang=3DEN-US style=3D'color:#1F497D'><o:p></o:p></span></p><p><span =
+style=3D'color:#002060'>=EC=84=9C=EC=9A=B8=ED=8A=B9=EB=B3=84=EC=8B=9C =
+=EC=84=B1=EB=8F=99=EA=B5=AC =EC=84=B1=EC=88=98=EC=9D=BC=EB=A1=9C<span =
+lang=3DEN-US>4</span>=EA=B8=B8<span lang=3DEN-US> 25, =
+908</span>=ED=98=B8<span lang=3DEN-US> (133-120)</span></span><span =
+lang=3DEN-US style=3D'color:#1F497D'><o:p></o:p></span></p><p><span =
+lang=3DEN-US style=3D'color:#002060'>(</span><span =
+style=3D'color:#002060'>=EC=84=B1=EC=88=98=EB=8F=99<span =
+lang=3DEN-US>2</span>=EA=B0=80<span lang=3DEN-US>, =
+</span>=EC=84=9C=EC=9A=B8=EC=88=B2=EC=BD=94=EC=98=A4=EB=A1=B1=EB=94=94=EC=
+=A7=80=ED=84=B8=ED=83=80=EC=9B=8C<span =
+lang=3DEN-US>1</span>=EC=B0=A8<span lang=3DEN-US>)</span></span><span =
+lang=3DEN-US style=3D'color:#1F497D'><o:p></o:p></span></p><p><span =
+lang=3DEN-US style=3D'color:#002060'>T. 02-563-5888 F. =
+02-563-5887</span><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D3 cellpadding=3D0 id=3D"ecma_tracking"><tr><td =
+style=3D'padding:.75pt .75pt .75pt .75pt'><p class=3DMsoNormal><span =
+lang=3DEN-US><a =
+href=3D"http://wmail.kornec.com/service/cancelReadMail/bXNnaWQ9MjAxNjExMj=
+YxODU3MjAuOTM3Mjc5LjMxQzM3MTcmZW1haWw9anNsZWVAYWdpbGVzeXMuY28ua3I_" =
+target=3D"_new"><span style=3D'text-decoration:none'><img border=3D0 =
+id=3D"_x0000_i1026" =
+src=3D"http://wmail.kornec.com/api/serviceApi/trackReadMail/bXNnaWQ9MjAxN=
+jExMjYxODU3MjAuOTM3Mjc5LjMxQzM3MTcmZW1haWw9anNsZWVAYWdpbGVzeXMuY28ua3I_">=
+</span></a><o:p></o:p></span></p></td></tr></table><p =
+class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_0005_01D2495A.2E6BB2A0--
+

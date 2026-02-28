@@ -1,0 +1,428 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 2J6XGWjFomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:28 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 67C2614C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:37:28 +0000 (UTC)
+Authentication-Results: nas.agilesys.co.kr;
+	dkim=pass (1024-bit key; unprotected) header.d=sendgrid.me header.i=@sendgrid.me header.a=rsa-sha1 header.s=smtpapi header.b=ZlPOGHSn;
+	dkim-atps=neutral
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1553069005450745445
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp119788wma;
+        Wed, 7 Dec 2016 07:32:02 -0800 (PST)
+X-Received: by 10.28.166.20 with SMTP id p20mr3367188wme.87.1481124721401;
+        Wed, 07 Dec 2016 07:32:01 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of postmaster@o5.24nn.shared.sendgrid.net designates 50.31.63.1 as permitted sender) smtp.mailfrom=o5.24nn.shared.sendgrid.net;
+       dkim=pass header.i=@sendgrid.me
+Received-SPF: pass (google.com: best guess record for domain of postmaster@o5.24nn.shared.sendgrid.net designates 50.31.63.1 as permitted sender) client-ip=50.31.63.1;
+Received: by 10.28.44.66 with POP3 id s63mf61272254wms.0;
+        Wed, 07 Dec 2016 07:32:01 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 18651 invoked by uid 700); 7 Dec 2016 23:47:15 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	7 Dec 2016 23:47:15 +0900
+Received: (qmail 14509 invoked by uid 700); 7 Dec 2016 23:47:15 +0900
+Received: from unknown (HELO o5.24nn.shared.sendgrid.net) (50.31.63.1)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES128-GCM-SHA256 encrypted);
+	7 Dec 2016 23:47:15 +0900
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.me; 
+	h=content-transfer-encoding:content-type:from:mime-version:reply-to:to:subject; 
+	s=smtpapi; bh=nbTlbXCVqAVRWKJtJ1Tm1VXsG0U=; b=ZlPOGHSnqNIYgclRZb
+	L43aG4fQYnjxMLvzcAmjxsART71Y+VebzGL3hbw2hDw/igrJTxU2F5xu9qdZSynP
+	6kqN30v5HhRPzHsYnpo+n0ZQp+5EaW+REq9+z8TTJ9QbctVUVFR7o1Tl+XzRHuKW
+	IQeKfI5mdiFnfFR9Fth03mfzo=
+Received: by filter0650p1mdw1.sendgrid.net with SMTP id filter0650p1mdw1-15466-584820E6-2B
+        2016-12-07 14:47:02.495082591 +0000 UTC
+Received: from MzU2MTQw (ec2-52-7-151-49.compute-1.amazonaws.com [52.7.151.49])
+	by ismtpd0004p1iad1.sendgrid.net (SG) with HTTP id Oo5eAP0LShSOfwKLcsSAWw
+	Wed, 07 Dec 2016 14:47:02.495 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 07 Dec 2016 14:47:02 +0000
+From: "HPE Press" <hpepress@epac.com>
+Mime-Version: 1.0
+Reply-To: "HPE Press" <hpepress@epac.com>
+To: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+Message-ID: <Oo5eAP0LShSOfwKLcsSAWw@ismtpd0004p1iad1.sendgrid.net>
+Subject: New Flash Storage eBook from HPE Press
+X-SG-EID: 6YDrTrWXqscQ2CZRwqGPcFURyhG32X6JTFybflxTMZvXFljXghhHY+U1wQIIQ4XYrXCnilR9wKZtmH
+ aI6619QkmPXTijjhbiBe1eU6c3SmLc+3dBFLqkBFPG0C3OlJZ6JQjjeSqbXXcihKwKL2xo9uH8rM6N
+ UJc8YmQG+gsabl1+ks5sGqTq2mioHqcFMqwoQjwnJDilfh55Ubhuu6g+cnRmGwQiEBUB+Tv/ZJLqyI
+ M=
+X-SG-ID: Gm48JgajZ3jaHshBCeo9zd2ViC1JAjedefyFL77lysQ+lyfcS+oAxsr6yVMG9HC6
+
+    <body style=3D"background: #ebebeb;">
+        <style type=3D"text/css">
+            * {
+                margin:0;
+                padding:0;
+            }
+            a {
+            }
+            a:hover {
+                text-decoration:none;
+            }
+            .justify {
+                text-align: justify !important;
+            }
+            .block {
+                display: block;
+                text-decoration: none;
+                text-shadow:none;
+            }
+            table {
+                border-spacing: 0;
+            }
+        </style>
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100%;">
+  <tr>
+    <td align=3D"center">
+        <table id=3D"layout_wrap" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"650" style=3D"margin:0 auto; background: #e9e9e9;">
+            <tbody>
+                                <tr>
+                    <td>
+                        <table id=3D"layout" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"650" style=3D"margin-top: 8px;" >
+                            <tbody>
+                                <tr>
+                                    <td id=3D"td_header" style=3D"font: 11p=
+x Tahoma; text-align: center; color: #425563;">
+                                        Having problems viewing this email?=
+ <a href=3D"https://u356140.ct.sendgrid.net/wf/click?upn=3DcRmvj0oqY3yMJI5v=
+7bwAsBVwiS5AAbjjhP-2BFOkp0UuVZuv-2BfSek3YXaiaBWER6kPBYOobtaFK3ay0F7M6n1-2Bn=
+uj7oh6kw4FeKG8StVJ7-2FNGRzrzli4i1B6cGzC0MQQLXpIvccxo8X0murPWXALeYng-3D-3D_0=
+vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5BHgYh-2FuVF=
+JWIvmdTbVVxHc8yzZiNXVIyfbPbQUmA3pE1VmyFLKarmflop5ika3qFOgLSsiyHafe2xWLM8PA8=
+a-2BQ24cbaTHgScFn7qtoOjzHaNi6Fqqm1l4UTDlmY68n-2BIwAv-2F7781CNm5Y-2BK-2FsH6K=
+MegHnOjNbuMyIFq3yJ53pvTGuji4s-2BOyZkXjHeGCmNhl6hb4NAOGyKyzaJ1tCJ5onQ2w-3D-3=
+D">Click here</a>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                    <td id=3D"td_footer">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                                <tr>
+                    <td height=3D"10" style=3D"line-height: 0;"><img style=
+=3D"height: 10px;" src=3D"https://hpepress.hpe.com/images/blast/blank.gif" =
+alt=3D""></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"650" style=3D"background: #425563;">
+                            <tr>
+                                <td width=3D"25"><img height=3D"25" src=3D"=
+https://hpepress.hpe.com/images/blast/blank.gif" alt=3D""></td>
+                                <td style=3D"height: 75px;">
+                                    <a href=3D"https://u356140.ct.sendgrid.=
+net/wf/click?upn=3DfgRB7livvFYLVtdMeZ4LXBehoQbikx1PZdQouAc38ZI-3D_0vdxcmF86=
+C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5BHgYh-2FuVFJWIvmdTb=
+VVxHc8y-2FOAESW7-2BbllY1j1AjHRyld3ICcpPAFoGLb0XrTf7D-2FwhSvOUIFDTiozUe3AYWD=
+c3rjFhbGFUJvtKUCQV58czIOTJZ4wb4-2FlmhJXC6K6oKuAPo17EracMRPYG4mPcI5ihTLm9fAt=
+iYhG-2FNeIA8O3LF3h0V4gDi1-2FJWLEJISoo6oyh8EJ3XRzyMhn-2Bs5vA0w13w-3D-3D" sty=
+le=3D"font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; font-siz=
+e: 30px; line-height: 29px; color: #FFFFFF; text-decoration:none; font-weig=
+ht: 600;">HPE Press</a>
+                                </td>
+                                <td width=3D"25"><img height=3D"25" src=3D"=
+https://hpepress.hpe.com/images/blast/blank.gif" alt=3D""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"background: #fff;text-shadow: 1px 1px 1px #e9e9e9;" width=3D"650" border=
+=3D"0">
+                            <tr>
+                                <td colspan=3D"5" background=3D"https://hpe=
+press.hpe.com/images/blast/flash.png" style=3D"height: 220px;font-family: O=
+pen Sans, Arial; font-size: 14px; color: #2B3944;">
+                                    <!--[if gte mso 9]>
+                                    <img src=3D"https://hpepress.hpe.com/im=
+ages/blast/flash.png" alt=3D"replace" height=3D"220" width=3D"650" border=
+=3D"0" style=3D"display: block;" />
+                                    <v:rect xmlns:v=3D"urn:schemas-microsof=
+t-com:vml" fill=3D"false" stroke=3D"false" style=3D"position:relative;top:2=
+0px;left:30px;width:620px;height:220px;margin-top:40px">
+                                    <v:textbox inset=3D"0,0,0,0" >
+                                    <![endif]-->
+                                    <h1 style=3D"font-family: Open Sans, Ar=
+ial;color: #2B3944;font-size: 25px;padding-left:30px;">Thinking about Flash=
+<br>
+                                        Storage?                           =
+             </h1>
+                                    <h1 style=3D"font-family: Open Sans, Ar=
+ial;color: #2B3944;font-size: 25px;padding-left:30px;padding-top: 10px;">Re=
+ad this first.</h1>
+                                    <!--[if gte mso 9]>
+                                    </v:textbox>
+                                    </v:rect>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=3D"5" style=3D"height: 20px;pad=
+ding-left:30px;padding-right: 30px;"></td>
+                            </tr>
+                            <tr>
+                                <td colspan=3D"5" style=3D"padding-left:30p=
+x;padding-right: 30px;font-family: Open Sans, Arial; font-size: 13px;  colo=
+r: #2B3944;">
+                                    <p style=3D'margin-top: 10px; line-heig=
+ht: 1.8em; font-size: 14px;' align=3D"justify" class=3D"justify">
+                                        If you or your customers have been =
+considering implementing Flash for their IT infrastructure, this new book i=
+s a must read. Covering Flash storage from a practical perspective, this bo=
+ok answers customers critical questions: =E2=80=9CHow will Flash technology=
+ make a difference in my datacenter? What are my choices? How do I implemen=
+t it?=E2=80=9D</p>
+                                    <p style=3D'margin-top: 10px; line-heig=
+ht: 1.8em; font-size: 14px;' align=3D"justify" class=3D"justify">
+                                        Ideal for CTOs, IT managers, projec=
+t managers, and solution architects, this book covers different Flash techn=
+ologies, deployment options, and best practices. </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=3D"5" style=3D"height: 30px;pad=
+ding-left:30px;padding-right: 30px;"></td>
+                            </tr>
+                            <tr>
+                                <td style=3D"margin-top:30px;height: 30px;w=
+idth:30px;font-size:1px;"><img style=3D"height: 10px;" src=3D"https://hpepr=
+ess.hpe.com/images/blast/blank.gif" alt=3D""></td>
+                                <td style=3D"height: 30px;width: 400px; fon=
+t-family: Open Sans, Arial; font-size: 14px;  color: #2B3944;text-align: le=
+ft;">
+                                    <p style=3D'margin: 0;color:#00b388;fon=
+t-size: 25px;font-weight: bolder;'>25% off until December 31<span style=3D"=
+vertical-align: text-top; mso-text-raise: 60%;font-size: 14px;">st*</span><=
+/p>
+                                </td>
+                                <td style=3D"height: 30px;width:30px;font-s=
+ize:1px;"><img style=3D"height: 10px;" src=3D"https://hpepress.hpe.com/imag=
+es/blast/blank.gif" alt=3D""></td>
+                                <td style=3D"height: 30px;width: 130px;font=
+-family: Open Sans, Arial; font-size: 14px;  color: #fff;text-align: center=
+;">
+                                    <a style=3D'color:#fff;font-size: 18px;=
+ display: block;font-weight: bold;text-decoration: none;text-shadow:none;ma=
+rgin-top: 5px;' href=3D"https://u356140.ct.sendgrid.net/wf/click?upn=3DcRmv=
+j0oqY3yMJI5v7bwAsBVwiS5AAbjjhP-2BFOkp0UuWazr250AnhgJVd9mTJnZyQWrtufvi3jLQd1=
+gdc9p30ARX3GauJAw-2F0QHIpMPVXQCUZRw3kqPNCsiEEI0SC5G24LG7soSVb-2BO-2BjYPfLHZ=
+3wTA-3D-3D_0vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha=
+5BHgYh-2FuVFJWIvmdTbVVxHc8y3NFL3KjGnUT3vZXz9Qrksb9dPusmAeqaL7KacVtDM5p05rMP=
+viiYuVQQSZqNAJeKuwIOvvSiveMwhSwkDWRMYxJ2MJFm6-2FITd-2BXjZHq0TMBlGBa4pDx4gQw=
+jSItpYb9cI6ritPEBdplqRMPlxcWX3MyTJnv2-2FuA7pNk8khxEsM0iNzQ2VJnrAPgqgUHv8lih=
+w-3D-3D" title=3D"Buy Now" target=3D"_blank" class=3D"block" alt=3D"BUY NOW=
+">
+                                        <img style=3D"height: 41px;width: 1=
+32px;" height=3D"41px" width=3D"132px" src=3D"https://hpepress.hpe.com/imag=
+es/blast/buy-now-s22.png" alt=3D"BUY NOW">
+                                    </a>
+                                </td>
+                                <td style=3D"height: 30px;width:30px;font-s=
+ize:1px;"><img style=3D"height: 10px;" src=3D"https://hpepress.hpe.com/imag=
+es/blast/blank.gif" alt=3D""></td>
+                            </tr>
+                            <tr>
+                                <td colspan=3D"5" style=3D"padding-left:30p=
+x;padding-top: 30px;padding-right: 30px;padding-bottom: 20px;font-family: O=
+pen Sans, Arial; font-size: 14px;  color: #2B3944;">
+                                    <p style=3D"font-size: 12px;"  class=3D=
+"justify">*This offer is only valid online at <a style=3D"text-decoration: =
+none; color: #00b48d;" href=3D"https://u356140.ct.sendgrid.net/wf/click?upn=
+=3DcRmvj0oqY3yMJI5v7bwAsL26CuHYdX3QPi8fQBGdZkE-3D_0vdxcmF86C6rzejIgZRVVADdX=
+aKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5BHgYh-2FuVFJWIvmdTbVVxHc8y8BM99wnyh=
+7C1RLpBG1y1TIusYh9mWW79rc6FHDWCJjjpNQdzHPyRRxfmx40JWTQjvlkV94ryV4QH3SxKReiI=
+ennxm-2BNDO2KfVNGAd9akfjCmhf6b3m7g-2F-2FQynduKZLH6B12jqL5JUy0lkkPO1uxywsWJW=
+mxW61wm7FbFHi59P1JPFY8oaSztNYzo42-2BiJ4-2Ffw-3D-3D">hpepress.hpe.com</a>.
+                                        Cannot be combined with any other p=
+romotion or coupon code. Promo ends on December 31<span style=3D"vertical-a=
+lign: text-top; mso-text-raise: 60%;font-size: 9px;">st</span> 2016 at 11:5=
+9 PDT</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <table cellpadding=3D"0" cellspacing=3D"0" style=3D"bac=
+kground: #425563;" width=3D"650">
+                        <tr>
+                            <td>
+                                <table width=3D"650" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"margin: 0 auto;">
+                                    <tr>
+                                        <!--[if gte mso 9]>
+                                        <td width=3D"30"><img height=3D"25"=
+ src=3D"https://hpepress.hpe.com/images/blast/blank.gif" alt=3D""></td>
+                                        <td height=3D"83">
+                                                                           =
+             <p style=3D"font-family: Lucida Sans Unicode, Lucida Grande, s=
+ans-serif; font-size: 10px; color: #fff; line-height: 20px;">
+                                                Stay in the loop! Add <a st=
+yle=3D"text-decoration: none; color: #00b48d;" href=3D"mailto:hpepress@epac=
+.com">hpepress@epac.com</a> to your address book. Please visit us again soo=
+n at <a style=3D"text-decoration: none; color: #00b48d;" href=3D"https://u3=
+56140.ct.sendgrid.net/wf/click?upn=3DcRmvj0oqY3yMJI5v7bwAsL26CuHYdX3QPi8fQB=
+GdZkE-3D_0vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5B=
+HgYh-2FuVFJWIvmdTbVVxHc8y2wzwuLzpaG-2BdfhiLFIfIYXQ-2BAgAmdTuZssQ-2BRC-2BMK8=
+iKcPT2ed10KEEwQYawsXkT8ekLOOSRFVOgTdg9UJYkBF98lxJCeYXLl1GQJT5ubsz6O9srFFTP4=
+pG4sXg7YBYDI-2F6FlcFSIMtSu-2FHOKCIdnJXNqgCzykAYNcOePwC3G8oSeIMSHqieUdax80Av=
+rFMoA-3D-3D">hpepress.hpe.com</a>
+                                                <br />This email was sent t=
+o <a style=3D"text-decoration: none; color: #00b48d;"  href=3D"mailto:mg.hw=
+ang@agilesys.co.kr">mg.hwang@agilesys.co.kr</a>.
+                                            </p>
+                                                                           =
+         </td>
+                                        <td width=3D"30" style=3D"width: 30=
+px;"><img height=3D"25" src=3D"https://hpepress.hpe.com/images/blast/blank.=
+gif" alt=3D""></td>
+                                        <![endif]-->
+                                        <!--[if !mso]><!-- -->
+                                        <td style=3D"width: 30px;"><img hei=
+ght=3D"25" src=3D"https://hpepress.hpe.com/images/blast/blank.gif" alt=3D""=
+></td>
+                                        <td style=3D"height: 83px;">
+                                                                           =
+                 <p style=3D"font-family: Lucida Sans Unicode, Lucida Grand=
+e, sans-serif; font-size: 11px; color: #fff; line-height: 20px;">
+                                                    Stay in the loop! Add <=
+a style=3D"text-decoration: none; color: #00b48d;" href=3D"mailto:hpepress@=
+epac.com">hpepress@epac.com</a> to your address book. Please visit us again=
+ soon at <a style=3D"text-decoration: none; color: #00b48d;" href=3D"https:=
+//u356140.ct.sendgrid.net/wf/click?upn=3DcRmvj0oqY3yMJI5v7bwAsL26CuHYdX3QPi=
+8fQBGdZkE-3D_0vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6=
+ha5BHgYh-2FuVFJWIvmdTbVVxHc8y-2Bc6JvdaPXNbTTPCTH-2BF3gyfsd8ikY6jAXneBbN3NDq=
+vX0jMvd1uX2xqiKqYbTF-2F9rogmhy44Dyn4puxAeWNktsQ0R2S-2B68bjw7GQGOmdv4voxxxqz=
+TWK4JACaRNtLs7Vu5zQM5hUNq4l9Z1Nde1IfGT-2FvseyGJJIoOpGMc6rPIt1-2BtJIVKeOulGq=
+zU-2BRJOM9w-3D-3D">hpepress.hpe.com</a>
+                                                    <br />This email was se=
+nt to <a style=3D"text-decoration: none; color: #00b48d;"  href=3D"mailto:m=
+g.hwang@agilesys.co.kr">mg.hwang@agilesys.co.kr</a>.
+                                                </p>
+                                                                           =
+         </td>
+                                        <td style=3D"width: 20px;"><img hei=
+ght=3D"1" width=3D"1" src=3D"https://hpepress.hpe.com/images/blast/blank.gi=
+f" alt=3D""></td>
+                                        <!--<![endif]-->
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width=3D"650" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"">
+                            <tr><td  height=3D"10" style=3D"line-height: 0;=
+"><img height=3D"1" src=3D"https://hpepress.hpe.com/images/blast/blank.gif"=
+ alt=3D""></td></tr>
+                            <tr>
+                                <td align=3D"center" >
+                                    <p style=3D"font-family: Lucida Sans Un=
+icode, Lucida Grande, sans-serif; font-size: 11px; color: #9a9a9a; line-hei=
+ght: 20px;">
+                                        &copy;2016 Developed by EPAC for HP=
+E Press Program | 660 4th St. #802, San Francisco, CA 94107 USA
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr><td  height=3D"0" style=3D"line-height: 0; =
+font-size: 0;"><img height=3D"1" width=3D"1" src=3D"https://hpepress.hpe.co=
+m/images/blast/blank.gif" alt=3D""></td></tr>
+                            <tr>
+                                <td align=3D"center">
+                                    <table>
+                                        <tr>
+                                            <td><a href=3D"https://u356140.=
+ct.sendgrid.net/wf/click?upn=3D76oymYsC9z129VNaEJVALgbHa2BkACeI396Aq-2BndkU=
+3iH0450M0TyRrJZ2qY0Y2S4m2M0ra9ie-2Bzwr6VZolUgg-3D-3D_0vdxcmF86C6rzejIgZRVVA=
+DdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5BHgYh-2FuVFJWIvmdTbVVxHc8yyvQOm4=
+5vO6xKbF9KHK39uMXmF-2FyuPReymaIneMy-2Fm8s7eCY6wYt5ULBbEPpqN-2F5mhGBHBmNM7Sp=
+quKe22LBTtaXY-2Bh-2Bj1Mu-2B0QsmVDfMHDzVHWDnMuf28p7xAUklFKSpuzSg5Vt3vdZDQcdn=
+J51CpAEpWSi88hgeo2ttP1PpSoWkXtp335-2BK5yvz6dl-2BYgNDw-3D-3D" style=3D"font-=
+family: Lucida Sans Unicode, Lucida Grande, sans-serif; font-size: 11px; co=
+lor: #00b48d; line-height: 20px; text-decoration: none;">Privacy policy</a>=
+</td>
+                                            <td width=3D"25" align=3D"cente=
+r"><span style=3D"font-family: Lucida Sans Unicode, Lucida Grande, sans-ser=
+if; font-size: 11px; color: #9a9a9a; line-height: 20px; text-decoration: no=
+ne;">|</span></td>
+                                            <td><a href=3D"https://u356140.=
+ct.sendgrid.net/wf/click?upn=3DcRmvj0oqY3yMJI5v7bwAsBVwiS5AAbjjhP-2BFOkp0Uu=
+UzpkAZ3ipNmFIJ51JuJ-2Bz0_0vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY=
+83yI525spVG6ha5BHgYh-2FuVFJWIvmdTbVVxHc8y0lNoOf-2B8C8uGyYJIKrNfUM94Sx-2F6Xi=
+tzW4JDlVXKcFMniiTTiFl30aJRbBJ7-2BmLmviAYY09XcxBNz6ezDtrMVKsx9SMrOLowIUN7sHO=
+XYIRMT2-2F3Rbuf4vX3oQW9Q7h5Dq9twBu71jLweaqC4gCLkO2OSENr7BN4m41Lj8y3LDXbphhE=
+3Z-2FWuuwTebErMmYGQ-3D-3D" style=3D"font-family: Lucida Sans Unicode, Lucid=
+a Grande, sans-serif; font-size: 11px; color: #00b48d; line-height: 20px; t=
+ext-decoration: none;">Terms and Conditions</a></td>
+                                            <td width=3D"25" align=3D"cente=
+r"><span style=3D"font-family: Lucida Sans Unicode, Lucida Grande, sans-ser=
+if; font-size: 11px; color: #9a9a9a; line-height: 20px; text-decoration: no=
+ne;">|</span></td>
+                                            <td><a href=3D"https://u356140.=
+ct.sendgrid.net/wf/click?upn=3DcRmvj0oqY3yMJI5v7bwAsBVwiS5AAbjjhP-2BFOkp0Uu=
+Xuqp-2BkpDjUlTMJfMRiQTNuNmrMCqt0I38nC-2BHfEzpxTrISEkM2x1GmbPWPPu8v8ediLfV2Y=
+h-2FSZqelyNdPhWWD_0vdxcmF86C6rzejIgZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525=
+spVG6ha5BHgYh-2FuVFJWIvmdTbVVxHc8y3-2Fx1TdAOPQKs02-2BdXejfH55-2BXBuYP98GAuU=
+-2BI6x6KBmCkZGYe11uIc-2Fy830ZzbWxyVgueM3fDjNj1Zcoa05ygbRvhqqsYE89-2FPHDrSVV=
+6IyPdeqtoWx-2BOLNdQHmYU9UqkjMr8eF06i3dDZWUPclZdU-2Fv1U1APABHav6pSD7cQeyMWaT=
+QoRaQ7-2BAM2FkBr3mSw-3D-3D" style=3D"font-family: Lucida Sans Unicode, Luci=
+da Grande, sans-serif; font-size: 11px; color: #00b48d; line-height: 20px; =
+text-decoration: none;">Unsubscribe</a></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td  height=3D"30" style=3D"line-height: 0; font-size: =
+0;"><img height=3D"1" width=3D"1" src=3D"https://hpepress.hpe.com/images/bl=
+ast/blank.gif" alt=3D""></td></tr>
+            </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+<img src=3D"https://u356140.ct.sendgrid.net/wf/open?upn=3D0vdxcmF86C6rzejIg=
+ZRVVADdXaKnoutR-2Bng6pnnrA-2BzlBY83yI525spVG6ha5BHgILkgHp-2F0ODGM5nJAt1-2Fv=
+5Laga-2FYmibkb-2B9j48Fg3EXWOI4u7s940blqdKS0p-2B1wCIwwOTS-2F-2BI063qui3hqsp1=
+5eC-2Fv56ECy96faywsq58-2F5coFLgksUofsJA6Yxf1tJe3eMab135yjQayha5hi4zZ7tF8bWi=
+r9SwSI9hjY20RJdf2Dawueq1vwHGe244kLejzF1PMkfy-2BqtVdrqxq4IirQ-3D-3D" alt=3D"=
+" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;widt=
+h:1px !important;border-width:0 !important;margin-top:0 !important;margin-b=
+ottom:0 !important;margin-right:0 !important;margin-left:0 !important;paddi=
+ng-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;=
+padding-left:0 !important;"/>
+</body>
+

@@ -1,0 +1,674 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id sNrFJy2/ommDBQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:10:53 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 97EAC14BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:10:53 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1530836968754953594
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from LeeduyeolPC (118.130.109.246) by MAIL-SERVER.agilesys.co.kr
+ (112.220.69.170) with Microsoft SMTP Server id 8.3.389.2; Wed, 6 Apr 2016
+ 14:31:05 +0900
+From: =?ks_c_5601-1987?B?wMy1zr+t?= <dylee@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?wK/A57Tr?= <jdyu@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>
+CC: =?ks_c_5601-1987?B?v6HAzL3Dvbo=?= <ASYS@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 6 Apr 2016 14:30:55 +0900
+Subject: =?ks_c_5601-1987?B?UkU6IFuw+MH2XSBIUEUgSHlwZXItQ29udmVyZ2VkMjUw?=
+ =?ks_c_5601-1987?B?ILyzxKEgsbPAsCDAz8GkILqvsOY=?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?W7D4wfZdIEhQRSBIeXBlci1Db252ZXJnZWQyNTAgvLM=?=
+ =?ks_c_5601-1987?B?xKEgsbPAsCDAz8GkILqvsOY=?=
+Thread-Index: AQHo9NGGDc/sYVYbqPiwpho3WugR+wHVArJHAbDzx4ABIqcQQ58oW/Fw
+Message-ID: <013d01d18fc5$8138fd20$83aaf760$@agilesys.co.kr>
+References:
+ <327B51700086C0479B084D86D0B0E45C04B32B40BF7A@MAIL-SERVER.agilesys.co.kr>
+ <327B51700086C0479B084D86D0B0E45C04B32B40BF7F@MAIL-SERVER.agilesys.co.kr>,<000a01d18fc3$bc7fecb0$357fc610$@agilesys.co.kr>
+ <327B51700086C0479B084D86D0B0E45C04B32B40BF80@MAIL-SERVER.agilesys.co.kr>
+In-Reply-To:
+ <327B51700086C0479B084D86D0B0E45C04B32B40BF80@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 07
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_013d01d18fc58138fd2083aaf760agilesyscokr_"
+MIME-Version: 1.0
+
+--_000_013d01d18fc58138fd2083aaf760agilesyscokr_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+Q1MyNTAgsPy3wyBIL1e0wiC758H4wLsgwu++7r7ftcu0z7TZLg0KTURGIMH1uvnA2rfht84gwabD
+4sfYvt+1y7TPtNkuDQpCT1ggsLO6wCC/5MO7teW4s7TPtNkuICi8rbn2ILnXILPXxq6/9yC48LXO
+KQ0KDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0K
+ot+/ocDMvcO9uiAgvcO9usXbu+e+97rOICDAzLXOv60gwvfA5Q0KVEVMKSAwNzAtNzExNC0wMDcw
+IC8gTSkgMDEwLTI0NDMtOTM1Mw0KRS1NYWlsKSBkeWxlZUBhZ2lsZXN5cy5jby5rcjxtYWlsdG86
+ZHlsZWVAYWdpbGVzeXMuY28ua3I+DQq8rb/vvcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69DTD
+/g0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQpG
+cm9tOiDAr8DntOsgW21haWx0bzpqZHl1QGFnaWxlc3lzLmNvLmtyXQ0KU2VudDogV2VkbmVzZGF5
+LCBBcHJpbCAwNiwgMjAxNiAyOjIzIFBNDQpUbzogsei6uLyxDQpDYzogv6HAzL3DvboNClN1Ympl
+Y3Q6IMi4vcU6IFuw+MH2XSBIUEUgSHlwZXItQ29udmVyZ2VkMjUwILyzxKEgsbPAsCDAz8GkILqv
+sOYNCg0KwK/C98DlIMDUtM+02S4NCg0Ks9cgvsuw2r3AtM+02S4gv8DA/L+htMIgSGFyZHdhcmUg
+vLPBpCC4wsPftMIgus660LW1IMDWvu68rSC/wMD8v6G0wiAzw/4gvK259r3Hv6G8rSDB+Mfgx8+w
+7SwNCr/AyMQgMb3DILrOxc0gyLjAx73HILvnv+vHz7DavcC0z7TZLg0KDQrAzLvzwNS0z7TZLg0K
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLQ0KKMHWKb+hwMy9w726ILytuvG9urvnvve6ziAgIMCvwOe06yDC98DlDQq8rb/v
+vcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69LX5IDPD/g0KVCkgMDcwLTcxMTQtMDA3MyBGKSAw
+Mi01ODYtNTA3MCBNUCkgMDEwLTkwNzYtNzk3OQ0KRS1NYWlsICkgamR5dUBhZ2lsZXN5cy5jby5r
+cjxodHRwOi8va21zLmFzdGdsb2JhbC5jby5rci9vd2EvcmVkaXIuYXNweD9DPTM3NzZjMzIxMTdm
+MTQxNzJhMTE2M2I2YTAzNTA3OGI1JlVSTD1tYWlsdG8lM2FqZHl1JTQwYWdpbGVzeXMuY28ua3I+
+DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQq6uLO9ILvn
+tvc6ILHouri8sQ0KurizvSCzr8KlOiAyMDE2s+IgNL/5IDbAzyC89r/kwM8gv8DIxCAyOjE4DQq5
+3rTCILvntvc6IMCvwOe06w0KwvzBtjogv6HAzL3DvboNCsGmuPE6IFJFOiBbsPjB9l0gSFBFIEh5
+cGVyLUNvbnZlcmdlZDI1MCC8s8ShILGzwLAgwM/BpCC6r7DmDQrAr8L3wOW01CwNCg0Ksd2/5MDP
+KDjAzykgv8DA/DEwvcO6zsXNIDExvcOx7sH2tMIguODF2L+hvK0gVTJMsPogQVBNv6EgtOvH0SC8
+1rfnvMcgvNKwsyC9w7CjwMwgv7nBpLXHvu4gwNa9wLTPtNkuDQpDUzI1MCCxs8CwwLogMTG9wyDA
+zMjEs6ogv8DIxDG9w7rOxc0gwfjH4MfPvcnAzCDBwbDas9e/5C4NCg0KQlMNCg0KRnJvbTogwK/A
+57TrIFttYWlsdG86amR5dUBhZ2lsZXN5cy5jby5rcl0NClNlbnQ6IFdlZG5lc2RheSwgQXByaWwg
+MDYsIDIwMTYgMToxMiBQTQ0KVG86IL+hwMy9w726DQpTdWJqZWN0OiDIuL3FOiBbsPjB9l0gSFBF
+IEh5cGVyLUNvbnZlcmdlZDI1MCC8s8ShILGzwLAgwM/BpCC6r7DmDQoNCr7Is+fHz7y8v+QuIMCv
+wOe06yDC98DlwNS0z7TZLg0KDQpDUzI1MCCxs8CwIMDPwaTAzCC6r7Dmtce+7iDA5yCw+MH2ILXl
+uLO0z7TZLg0KDQrA5SC80iA6ILytv+8guru75yA0w/4gyLjAx73HDQq9wyCwoyA6IDIwMTaz4iAw
+NL/5IDA4wM8osd0pIL/AwPwgMTA6MzAgfiAxODowMA0KDQrAzLvnwNS0z7TZLg0KLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LQ0KKMHWKb+hwMy9w726ILytuvG9urvnvve6ziAgIMCvwOe06yDC98DlDQq8rb/vvcMgvK3DyrG4
+ILndxve1vyA2Ny0zILTruKK69LX5IDPD/g0KVCkgMDcwLTcxMTQtMDA3MyBGKSAwMi01ODYtNTA3
+MCBNUCkgMDEwLTkwNzYtNzk3OQ0KRS1NYWlsICkgamR5dUBhZ2lsZXN5cy5jby5rcjxodHRwOi8v
+a21zLmFzdGdsb2JhbC5jby5rci9vd2EvcmVkaXIuYXNweD9DPTM3NzZjMzIxMTdmMTQxNzJhMTE2
+M2I2YTAzNTA3OGI1JlVSTD1tYWlsdG8lM2FqZHl1JTQwYWdpbGVzeXMuY28ua3I+DQotLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQq6uLO9ILvntvc6IMCvwOe0
+6w0KurizvSCzr8KlOiAyMDE2s+IgNL/5IDTAzyC/+b/kwM8gv8DIxCA0OjM5DQq53rTCILvntvc6
+IL+hwMy9w726DQrBprjxOiBbsPjB9l0gSFBFIEh5cGVyLUNvbnZlcmdlZDI1MCC8s8ShILGzwLAN
+Cr7Is+fHz7y8v+QuILytuvG9uiC75773xsAgwK/A57TrIML3wOXA1LTPtNkuDQoNCkhQRSBDUzI1
+MCC8s8ShILGzwLAgwM/BpMC4t84gNMP+IMi4wMe9x8C7ILvnv+sgv7nBpMDUtM+02S4NCg0KwOUg
+vNIgOiC8rb/vILq7u+cgNMP+IMi4wMe9xw0KvcMgsKMgOiAwNL/5IDA3wM8gv8DA/CAxMDozMCB+
+IDE4OjAwDQoNCiogv8DA/CAtIEgvVyCxuLy6DQoqIL/AyMQgLSBTVyiwobvzyK0pILG4vLoNCg0K
+wMy788DUtM+02S4NCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KKMHWKb+hwMy9w726ILytuvG9urvnvve6ziAgIMCv
+wOe06yDC98DlDQq8rb/vvcMgvK3DyrG4ILndxve1vyA2Ny0zILTruKK69LX5IDPD/g0KVCkgMDcw
+LTcxMTQtMDA3MyBGKSAwMi01ODYtNTA3MCBNUCkgMDEwLTkwNzYtNzk3OQ0KRS1NYWlsICkgamR5
+dUBhZ2lsZXN5cy5jby5rcjxodHRwOi8va21zLmFzdGdsb2JhbC5jby5rci9vd2EvcmVkaXIuYXNw
+eD9DPTM3NzZjMzIxMTdmMTQxNzJhMTE2M2I2YTAzNTA3OGI1JlVSTD1tYWlsdG8lM2FqZHl1JTQw
+YWdpbGVzeXMuY28ua3I+DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQo=
+
+--_000_013d01d18fc58138fd2083aaf760agilesyscokr_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 14 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:ur=
+l(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:=B1=BC=B8=B2;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.emailstyle18
+	{mso-style-name:emailstyle18;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.char0
+	{mso-style-name:char;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle22
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1=
+F497D'>CS250 </span><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:#1F497D'>=B0=FC=B7=C3<span lang=3DEN-US> H/W</span>=
+=B4=C2 =BB=E7=C1=F8=C0=BB =C2=EF=BE=EE=BE=DF=B5=CB=B4=CF=B4=D9<span lang=3D=
+EN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1=
+F497D'> MDF </span><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:#1F497D'>=C1=F5=BA=F9=C0=DA=B7=E1=B7=CE =C1=A6=C3=
+=E2=C7=D8=BE=DF=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></sp=
+an></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;fo=
+nt-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'>BOX </span><span style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'=
+>=B0=B3=BA=C0 =BF=E4=C3=BB=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>. (</s=
+pan>=BC=AD=B9=F6 =B9=D7 =B3=D7=C6=AE=BF=F7 =B8=F0=B5=CE<span lang=3DEN-US>)=
+<o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'=
+><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'=
+><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal style=3D'text-align:=
+justify;text-justify:inter-ideograph;text-autospace:none;word-break:break-h=
+angul'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:#1F497D'>------------------------------------------=
+------<o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-align:justif=
+y;text-justify:inter-ideograph;text-autospace:none;word-break:break-hangul'=
+><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";co=
+lor:#1F497D'>=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp; </span=
+>=BD=C3=BD=BA=C5=DB=BB=E7=BE=F7=BA=CE<span lang=3DEN-US>&nbsp; </span>=C0=
+=CC=B5=CE=BF=AD =C2=F7=C0=E5<span lang=3DEN-US><o:p></o:p></span></span></p=
+><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ideogr=
+aph;text-autospace:none;word-break:break-hangul'><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'=
+>TEL) 070-7114-0070 / M) 010-2443-9353<o:p></o:p></span></p><p class=3DMsoN=
+ormal style=3D'text-align:justify;text-justify:inter-ideograph;text-autospa=
+ce:none;word-break:break-hangul'><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'>E-Mail) <a href=
+=3D"mailto:dylee@agilesys.co.kr">dylee@agilesys.co.kr</a><o:p></o:p></span>=
+</p><p class=3DMsoNormal style=3D'text-align:justify;text-justify:inter-ide=
+ograph;text-autospace:none;word-break:break-hangul'><span style=3D'font-siz=
+e:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'>=BC=AD=BF=
+=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3 </s=
+pan>=B4=EB=B8=A2=BA=F4<span lang=3DEN-US>4</span>=C3=FE<span lang=3DEN-US><=
+o:p></o:p></span></span></p><p class=3DMsoNormal style=3D'text-align:justif=
+y;text-justify:inter-ideograph;text-autospace:none;word-break:break-hangul'=
+><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=
+=ED=B5=F1";color:#1F497D'>-------------------------------------------------=
+</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:#1F497D'><o:p></o:p></span></p></div><p class=3DMso=
+Normal style=3D'word-break:break-hangul'><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'><o:p>&nbs=
+p;</o:p></span></p><div><div style=3D'border:none;border-top:solid #B5C4DF =
+1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US=
+ style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>From:</span><=
+/b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif"'> </span><span style=3D'font-size:10.0pt'>=C0=AF=C0=E7=B4=EB</span><=
+span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-seri=
+f"'> [mailto:jdyu@agilesys.co.kr] <br><b>Sent:</b> Wednesday, April 06, 201=
+6 2:23 PM<br><b>To:</b> </span><span style=3D'font-size:10.0pt'>=B1=E8=BA=
+=B8=BC=B1</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"T=
+ahoma","sans-serif"'><br><b>Cc:</b> </span><span style=3D'font-size:10.0pt'=
+>=BF=A1=C0=CC=BD=C3=BD=BA</span><span lang=3DEN-US style=3D'font-size:10.0p=
+t;font-family:"Tahoma","sans-serif"'><br><b>Subject:</b> </span><span style=
+=3D'font-size:10.0pt'>=C8=B8=BD=C5</span><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Tahoma","sans-serif"'>: [</span><span style=3D'font=
+-size:10.0pt'>=B0=F8=C1=F6</span><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Tahoma","sans-serif"'>] HPE Hyper-Converged250 </span><span=
+ style=3D'font-size:10.0pt'>=BC=B3=C4=A1</span><span style=3D'font-size:10.=
+0pt;font-family:"Tahoma","sans-serif"'> </span><span style=3D'font-size:10.=
+0pt'>=B1=B3=C0=B0</span><span style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif"'> </span><span style=3D'font-size:10.0pt'>=C0=CF=C1=A4</span=
+><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> </span=
+><span style=3D'font-size:10.0pt'>=BA=AF=B0=E6</span><span lang=3DEN-US sty=
+le=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'><o:p></o:p></span=
+></p></div></div><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p><=
+/span></p><div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;co=
+lor:black'>=C0=AF=C2=F7=C0=E5</span><span style=3D'font-size:10.0pt;font-fa=
+mily:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10=
+.0pt;color:black'>=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font=
+-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>. <o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Tahoma","sans-serif";color:black'>&nbsp;<o:p></o:p>=
+</span></p></div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;=
+color:black'>=B3=D7</span><span style=3D'font-size:10.0pt;font-family:"Taho=
+ma","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color=
+:black'>=BE=CB=B0=DA=BD=C0=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'fo=
+nt-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>. </span><spa=
+n style=3D'font-size:10.0pt;color:black'>=BF=C0=C0=FC=BF=A1=B4=C2</span><sp=
+an lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"=
+;color:black'> Hardware </span><span style=3D'font-size:10.0pt;color:black'=
+>=BC=B3=C1=A4</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","s=
+ans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black=
+'>=B8=C2=C3=DF=B4=C2</span><span style=3D'font-size:10.0pt;font-family:"Tah=
+oma","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;colo=
+r:black'>=BA=CE=BA=D0=B5=B5</span><span style=3D'font-size:10.0pt;font-fami=
+ly:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.0=
+pt;color:black'>=C0=D6=BE=EE=BC=AD</span><span style=3D'font-size:10.0pt;fo=
+nt-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-si=
+ze:10.0pt;color:black'>=BF=C0=C0=FC=BF=A1=B4=C2</span><span lang=3DEN-US st=
+yle=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> 3</=
+span><span style=3D'font-size:10.0pt;color:black'>=C3=FE</span><span style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span=
+><span style=3D'font-size:10.0pt;color:black'>=BC=AD=B9=F6=BD=C7=BF=A1=BC=
+=AD</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"=
+;color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=C1=F8=
+=C7=E0=C7=CF=B0=ED</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-=
+family:"Tahoma","sans-serif";color:black'>, <o:p></o:p></span></p></div><di=
+v><p class=3DMsoNormal><span style=3D'font-size:10.0pt;color:black'>=BF=C0=
+=C8=C4</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Taho=
+ma","sans-serif";color:black'> 1</span><span style=3D'font-size:10.0pt;colo=
+r:black'>=BD=C3</span><span style=3D'font-size:10.0pt;font-family:"Tahoma",=
+"sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:bla=
+ck'>=BA=CE=C5=CD</span><span style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:bl=
+ack'>=C8=B8=C0=C7=BD=C7</span><span style=3D'font-size:10.0pt;font-family:"=
+Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;c=
+olor:black'>=BB=E7=BF=EB=C7=CF=B0=DA=BD=C0=B4=CF=B4=D9</span><span lang=3DE=
+N-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:blac=
+k'>.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>=
+&nbsp;<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span style=3D'=
+font-size:10.0pt;color:black'>=C0=CC=BB=F3=C0=D4=B4=CF=B4=D9</span><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";colo=
+r:black'>.<o:p></o:p></span></p></div><div><div><div><p class=3DMsoNormal><=
+span lang=3DEN-US style=3D'color:black'>-----------------------------------=
+--------------------------------<o:p></o:p></span></p><p class=3DMsoNormal>=
+<span lang=3DEN-US style=3D'color:black'>(</span><span style=3D'color:black=
+'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-=
+US>&nbsp;</span>=BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE<span lang=3DEN-US>&nbs=
+p;&nbsp;&nbsp;</span>=C0=AF=C0=E7=B4=EB =C2=F7=C0=E5<span lang=3DEN-US><o:p=
+></o:p></span></span></p><p class=3DMsoNormal><span style=3D'color:black'>=
+=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US>=
+ 67-3 </span>=B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 3</span>=C3=FE<spa=
+n lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=
+=3DEN-US style=3D'color:black'>T) 070-7114-0073 F) 02-586-5070 MP) 010-9076=
+-7979<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'color:black'>E-Mail ) <a href=3D"http://kms.astglobal.co.kr/owa/redir.aspx=
+?C=3D3776c32117f14172a1163b6a035078b5&amp;URL=3Dmailto%3ajdyu%40agilesys.co=
+.kr">jdyu@agilesys.co.kr</a><o:p></o:p></span></p><p class=3DMsoNormal><spa=
+n lang=3DEN-US style=3D'color:black'>--------------------------------------=
+-----------------------------<o:p></o:p></span></p></div></div></div><div><=
+p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'>&nbsp;<o:p></o:p></span></p></div><div=
+ id=3DdivRpF749097><div class=3DMsoNormal align=3Dcenter style=3D'text-alig=
+n:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'><hr size=3D2 width=3D"100%" align=3Dcenter></spa=
+n></div><p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><b><span style=
+=3D'font-size:10.0pt;color:black'>=BA=B8=B3=BD</span></b><b><span style=3D'=
+font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span></b=
+><b><span style=3D'font-size:10.0pt;color:black'>=BB=E7=B6=F7</span></b><b>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;f=
+ont-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-s=
+ize:10.0pt;color:black'>=B1=E8=BA=B8=BC=B1</span><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'><br></s=
+pan><b><span style=3D'font-size:10.0pt;color:black'>=BA=B8=B3=BD</span></b>=
+<b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:=
+black'> </span></b><b><span style=3D'font-size:10.0pt;color:black'>=B3=AF=
+=C2=A5</span></b><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'>:</span></b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> 2016</=
+span><span style=3D'font-size:10.0pt;color:black'>=B3=E2</span><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:=
+black'> 4</span><span style=3D'font-size:10.0pt;color:black'>=BF=F9</span><=
+span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-seri=
+f";color:black'> 6</span><span style=3D'font-size:10.0pt;color:black'>=C0=
+=CF</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"=
+;color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=BC=F6=
+=BF=E4=C0=CF</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sa=
+ns-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'=
+>=BF=C0=C8=C4</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'> 2:18<br></span><b><span style=3D'font=
+-size:10.0pt;color:black'>=B9=DE=B4=C2</span></b><b><span style=3D'font-siz=
+e:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span></b><b><spa=
+n style=3D'font-size:10.0pt;color:black'>=BB=E7=B6=F7</span></b><b><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";colo=
+r:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;font-fami=
+ly:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.0=
+pt;color:black'>=C0=AF=C0=E7=B4=EB</span><span lang=3DEN-US style=3D'font-s=
+ize:10.0pt;font-family:"Tahoma","sans-serif";color:black'><br></span><b><sp=
+an style=3D'font-size:10.0pt;color:black'>=C2=FC=C1=B6</span></b><b><span l=
+ang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";col=
+or:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;font-fam=
+ily:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.=
+0pt;color:black'>=BF=A1=C0=CC=BD=C3=BD=BA</span><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'><br></span=
+><b><span style=3D'font-size:10.0pt;color:black'>=C1=A6=B8=F1</span></b><b>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;f=
+ont-family:"Tahoma","sans-serif";color:black'> RE: [</span><span style=3D'f=
+ont-size:10.0pt;color:black'>=B0=F8=C1=F6</span><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>] HPE Hype=
+r-Converged250 </span><span style=3D'font-size:10.0pt;color:black'>=BC=B3=
+=C4=A1</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=B1=
+=B3=C0=B0</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=
+=C0=CF=C1=A4</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sa=
+ns-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'=
+>=BA=AF=B0=E6</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'><o:p></o:p></span></p></div><div><div>=
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=
+=BA =B0=ED=B5=F1";color:#1F497D'>=C0=AF=C2=F7=C0=E5=B4=D4<span lang=3DEN-US=
+>,</span></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span>=
+</p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:=
+p></o:p></span></p><p class=3DMsoNormal><span style=3D'font-size:10.0pt;fon=
+t-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'>=B1=DD=BF=E4=C0=CF<span=
+ lang=3DEN-US>(8</span>=C0=CF<span lang=3DEN-US>) </span>=BF=C0=C0=FC<span =
+lang=3DEN-US>10</span>=BD=C3=BA=CE=C5=CD<span lang=3DEN-US> 11</span>=BD=C3=
+=B1=EE=C1=F6=B4=C2 =B8=E0=C5=D8=BF=A1=BC=AD<span lang=3DEN-US> U2L</span>=
+=B0=FA<span lang=3DEN-US> APM</span>=BF=A1 =B4=EB=C7=D1 =BC=D6=B7=E7=BC=C7 =
+=BC=D2=B0=B3 =BD=C3=B0=A3=C0=CC =BF=B9=C1=A4=B5=C7=BE=EE =C0=D6=BD=C0=B4=CF=
+=B4=D9<span lang=3DEN-US>.</span></span><span lang=3DEN-US style=3D'color:b=
+lack'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'=
+>CS250 </span><span style=3D'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=
+=ED=B5=F1";color:#1F497D'>=B1=B3=C0=B0=C0=BA<span lang=3DEN-US> 11</span>=
+=BD=C3 =C0=CC=C8=C4=B3=AA =BF=C0=C8=C4<span lang=3DEN-US>1</span>=BD=C3=BA=
+=CE=C5=CD =C1=F8=C7=E0=C7=CF=BD=C9=C0=CC =C1=C1=B0=DA=B3=D7=BF=E4<span lang=
+=3DEN-US>.</span></span><span lang=3DEN-US style=3D'color:black'><o:p></o:p=
+></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&=
+nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";color:#1F497D'>BS=
+</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p><=
+/span></p><div><div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;pad=
+ding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US style=3D=
+'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>From:</spa=
+n></b><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sa=
+ns-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'=
+>=C0=AF=C0=E7=B4=EB</span><span style=3D'font-size:10.0pt;font-family:"Taho=
+ma","sans-serif";color:black'> <span lang=3DEN-US>[mailto:jdyu@agilesys.co.=
+kr] <br><b>Sent:</b> Wednesday, April 06, 2016 1:12 PM<br><b>To:</b> </span=
+></span><span style=3D'font-size:10.0pt;color:black'>=BF=A1=C0=CC=BD=C3=BD=
+=BA</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'><br><b>Subject:</b> </span><span style=3D'font-s=
+ize:10.0pt;color:black'>=C8=B8=BD=C5</span><span lang=3DEN-US style=3D'font=
+-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>: [</span><span=
+ style=3D'font-size:10.0pt;color:black'>=B0=F8=C1=F6</span><span lang=3DEN-=
+US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'=
+>] HPE Hyper-Converged250 </span><span style=3D'font-size:10.0pt;color:blac=
+k'>=BC=B3=C4=A1</span><span style=3D'font-size:10.0pt;font-family:"Tahoma",=
+"sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:bla=
+ck'>=B1=B3=C0=B0</span><span style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:bl=
+ack'>=C0=CF=C1=A4</span><span style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:b=
+lack'>=BA=AF=B0=E6</span><span lang=3DEN-US style=3D'color:black'><o:p></o:=
+p></span></p></div></div><p class=3DMsoNormal><span lang=3DEN-US style=3D'c=
+olor:black'>&nbsp;<o:p></o:p></span></p><div><div><p class=3DMsoNormal><spa=
+n style=3D'font-size:10.0pt;color:black'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</sp=
+an><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif";color:black'>. </span><span style=3D'font-size:10.0pt;color:black'>=
+=C0=AF=C0=E7=B4=EB</span><span style=3D'font-size:10.0pt;font-family:"Tahom=
+a","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:=
+black'>=C2=F7=C0=E5=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'fon=
+t-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>.</span><span =
+lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p clas=
+s=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></s=
+pan></p></div><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-si=
+ze:10.0pt;font-family:"Tahoma","sans-serif";color:black'>CS250 </span><span=
+ style=3D'font-size:10.0pt;color:black'>=B1=B3=C0=B0</span><span style=3D'f=
+ont-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span><spa=
+n style=3D'font-size:10.0pt;color:black'>=C0=CF=C1=A4=C0=CC</span><span sty=
+le=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </sp=
+an><span style=3D'font-size:10.0pt;color:black'>=BA=AF=B0=E6=B5=C7=BE=EE</s=
+pan><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color=
+:black'> </span><span style=3D'font-size:10.0pt;color:black'>=C0=E7</span><=
+span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:blac=
+k'> </span><span style=3D'font-size:10.0pt;color:black'>=B0=F8=C1=F6</span>=
+<span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:bla=
+ck'> </span><span style=3D'font-size:10.0pt;color:black'>=B5=E5=B8=B3=B4=CF=
+=B4=D9</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Taho=
+ma","sans-serif";color:black'>.</span><span lang=3DEN-US style=3D'color:bla=
+ck'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span lang=3DEN-U=
+S style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>=
+&nbsp; </span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></=
+p><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;color:black'>=
+=C0=E5</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=BC=
+=D2</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'> : </span><span style=3D'font-size:10.0pt;color:=
+black'>=BC=AD=BF=EF</span><span style=3D'font-size:10.0pt;font-family:"Taho=
+ma","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color=
+:black'>=BA=BB=BB=E7</span><span lang=3DEN-US style=3D'font-size:10.0pt;fon=
+t-family:"Tahoma","sans-serif";color:black'> 4</span><span style=3D'font-si=
+ze:10.0pt;color:black'>=C3=FE</span><span style=3D'font-size:10.0pt;font-fa=
+mily:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10=
+.0pt;color:black'>=C8=B8=C0=C7=BD=C7</span><span lang=3DEN-US style=3D'colo=
+r:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span style=
+=3D'font-size:10.0pt;color:black'>=BD=C3</span><span style=3D'font-size:10.=
+0pt;font-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'f=
+ont-size:10.0pt;color:black'>=B0=A3</span><span lang=3DEN-US style=3D'font-=
+size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> : 2016</span><s=
+pan style=3D'font-size:10.0pt;color:black'>=B3=E2</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> 0=
+4</span><span style=3D'font-size:10.0pt;color:black'>=BF=F9</span><span lan=
+g=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color=
+:black'> 08</span><span style=3D'font-size:10.0pt;color:black'>=C0=CF</span=
+><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-se=
+rif";color:black'>(</span><span style=3D'font-size:10.0pt;color:black'>=B1=
+=DD</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'>) </span><span style=3D'font-size:10.0pt;color:b=
+lack'>=BF=C0=C0=FC</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-=
+family:"Tahoma","sans-serif";color:black'> 10:30 ~ 18:00</span><span lang=
+=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div></div><div><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p><=
+/span></p></div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;c=
+olor:black'>=C0=CC=BB=E7=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>.</span=
+><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div>=
+<div><div><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>---=
+----------------------------------------------------------------<o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>(<=
+/span><span style=3D'color:black'>=C1=D6<span lang=3DEN-US>)</span>=BF=A1=
+=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp;</span>=BC=AD=BA=F1=BD=BA=BB=E7=
+=BE=F7=BA=CE<span lang=3DEN-US>&nbsp;&nbsp;&nbsp;</span>=C0=AF=C0=E7=B4=EB =
+=C2=F7=C0=E5<span lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoN=
+ormal><span style=3D'color:black'>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =B9=
+=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3 </span>=B4=EB=B8=A2=BA=F4=B5=F9<spa=
+n lang=3DEN-US> 3</span>=C3=FE<span lang=3DEN-US><o:p></o:p></span></span><=
+/p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>T) 070-711=
+4-0073 F) 02-586-5070 MP) 010-9076-7979<o:p></o:p></span></p><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'color:black'>E-Mail ) <a href=3D"http://=
+kms.astglobal.co.kr/owa/redir.aspx?C=3D3776c32117f14172a1163b6a035078b5&amp=
+;URL=3Dmailto%3ajdyu%40agilesys.co.kr" target=3D"_blank">jdyu@agilesys.co.k=
+r</a><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D=
+'color:black'>-------------------------------------------------------------=
+------<o:p></o:p></span></p></div></div></div><div><p class=3DMsoNormal><sp=
+an lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></span></p></div><di=
+v id=3DdivRpF187066><div class=3DMsoNormal align=3Dcenter style=3D'text-ali=
+gn:center'><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma=
+","sans-serif";color:black'><hr size=3D2 width=3D"100%" align=3Dcenter></sp=
+an></div><p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><b><span style=
+=3D'font-size:10.0pt;color:black'>=BA=B8=B3=BD</span></b><b><span style=3D'=
+font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span></b=
+><b><span style=3D'font-size:10.0pt;color:black'>=BB=E7=B6=F7</span></b><b>=
+<span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;f=
+ont-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-s=
+ize:10.0pt;color:black'>=C0=AF=C0=E7=B4=EB</span><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'><br></s=
+pan><b><span style=3D'font-size:10.0pt;color:black'>=BA=B8=B3=BD</span></b>=
+<b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:=
+black'> </span></b><b><span style=3D'font-size:10.0pt;color:black'>=B3=AF=
+=C2=A5</span></b><b><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'>:</span></b><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> 2016</=
+span><span style=3D'font-size:10.0pt;color:black'>=B3=E2</span><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:=
+black'> 4</span><span style=3D'font-size:10.0pt;color:black'>=BF=F9</span><=
+span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-seri=
+f";color:black'> 4</span><span style=3D'font-size:10.0pt;color:black'>=C0=
+=CF</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"=
+;color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=BF=F9=
+=BF=E4=C0=CF</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sa=
+ns-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'=
+>=BF=C0=C8=C4</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-famil=
+y:"Tahoma","sans-serif";color:black'> 4:39<br></span><b><span style=3D'font=
+-size:10.0pt;color:black'>=B9=DE=B4=C2</span></b><b><span style=3D'font-siz=
+e:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span></b><b><spa=
+n style=3D'font-size:10.0pt;color:black'>=BB=E7=B6=F7</span></b><b><span la=
+ng=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";colo=
+r:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;font-fami=
+ly:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.0=
+pt;color:black'>=BF=A1=C0=CC=BD=C3=BD=BA</span><span lang=3DEN-US style=3D'=
+font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'><br></span>=
+<b><span style=3D'font-size:10.0pt;color:black'>=C1=A6=B8=F1</span></b><b><=
+span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-seri=
+f";color:black'>:</span></b><span lang=3DEN-US style=3D'font-size:10.0pt;fo=
+nt-family:"Tahoma","sans-serif";color:black'> [</span><span style=3D'font-s=
+ize:10.0pt;color:black'>=B0=F8=C1=F6</span><span lang=3DEN-US style=3D'font=
+-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>] HPE Hyper-Con=
+verged250 </span><span style=3D'font-size:10.0pt;color:black'>=BC=B3=C4=A1<=
+/span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";col=
+or:black'> </span><span style=3D'font-size:10.0pt;color:black'>=B1=B3=C0=B0=
+</span><span lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div=
+><div><div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;color:=
+black'>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</span><span lang=3DEN-US style=3D'fon=
+t-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>. </span><span=
+ style=3D'font-size:10.0pt;color:black'>=BC=AD=BA=F1=BD=BA</span><span styl=
+e=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </spa=
+n><span style=3D'font-size:10.0pt;color:black'>=BB=E7=BE=F7=C6=C0</span><sp=
+an style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'=
+> </span><span style=3D'font-size:10.0pt;color:black'>=C0=AF=C0=E7=B4=EB</s=
+pan><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color=
+:black'> </span><span style=3D'font-size:10.0pt;color:black'>=C2=F7=C0=E5=
+=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-=
+family:"Tahoma","sans-serif";color:black'>.</span><span lang=3DEN-US style=
+=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><spa=
+n lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></span></p></div><div=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-fam=
+ily:"Tahoma","sans-serif";color:black'>HPE CS250 </span><span style=3D'font=
+-size:10.0pt;color:black'>=BC=B3=C4=A1</span><span style=3D'font-size:10.0p=
+t;font-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'fon=
+t-size:10.0pt;color:black'>=B1=B3=C0=B0</span><span style=3D'font-size:10.0=
+pt;font-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'fo=
+nt-size:10.0pt;color:black'>=C0=CF=C1=A4=C0=B8=B7=CE</span><span lang=3DEN-=
+US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'=
+>&nbsp;4</span><span style=3D'font-size:10.0pt;color:black'>=C3=FE</span><s=
+pan style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black=
+'> </span><span style=3D'font-size:10.0pt;color:black'>=C8=B8=C0=C7=BD=C7=
+=C0=BB</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-ser=
+if";color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=BB=
+=E7=BF=EB</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif";color:black'> </span><span style=3D'font-size:10.0pt;color:black'>=
+=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'font-size:=
+10.0pt;font-family:"Tahoma","sans-serif";color:black'>.</span><span lang=3D=
+EN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMso=
+Normal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></span></p=
+></div><div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;color=
+:black'>=C0=E5</span><span style=3D'font-size:10.0pt;font-family:"Tahoma","=
+sans-serif";color:black'> </span><span style=3D'font-size:10.0pt;color:blac=
+k'>=BC=D2</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"T=
+ahoma","sans-serif";color:black'> : </span><span style=3D'font-size:10.0pt;=
+color:black'>=BC=AD=BF=EF</span><span style=3D'font-size:10.0pt;font-family=
+:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-size:10.0pt=
+;color:black'>=BA=BB=BB=E7</span><span lang=3DEN-US style=3D'font-size:10.0=
+pt;font-family:"Tahoma","sans-serif";color:black'> 4</span><span style=3D'f=
+ont-size:10.0pt;color:black'>=C3=FE</span><span style=3D'font-size:10.0pt;f=
+ont-family:"Tahoma","sans-serif";color:black'> </span><span style=3D'font-s=
+ize:10.0pt;color:black'>=C8=B8=C0=C7=BD=C7</span><span lang=3DEN-US style=
+=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><spa=
+n style=3D'font-size:10.0pt;color:black'>=BD=C3</span><span style=3D'font-s=
+ize:10.0pt;font-family:"Tahoma","sans-serif";color:black'> </span><span sty=
+le=3D'font-size:10.0pt;color:black'>=B0=A3</span><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'> : 04</=
+span><span style=3D'font-size:10.0pt;color:black'>=BF=F9</span><span lang=
+=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:=
+black'> 07</span><span style=3D'font-size:10.0pt;color:black'>=C0=CF</span>=
+<span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:bla=
+ck'> </span><span style=3D'font-size:10.0pt;color:black'>=BF=C0=C0=FC</span=
+><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-se=
+rif";color:black'> 10:30 ~ 18:00</span><span lang=3DEN-US style=3D'color:bl=
+ack'><o:p></o:p></span></p></div><div><p class=3DMsoNormal><span lang=3DEN-=
+US style=3D'color:black'>&nbsp;<o:p></o:p></span></p></div><div><p class=3D=
+MsoNormal><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif";color:black'>* </span><span style=3D'font-size:10.0pt;color:b=
+lack'>=BF=C0=C0=FC</span><span style=3D'font-size:10.0pt;font-family:"Tahom=
+a","sans-serif";color:black'> <span lang=3DEN-US>- H/W </span></span><span =
+style=3D'font-size:10.0pt;color:black'>=B1=B8=BC=BA</span><span lang=3DEN-U=
+S style=3D'color:black'><o:p></o:p></span></p></div><div><p class=3DMsoNorm=
+al><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Tahoma","sans-=
+serif";color:black'>* </span><span style=3D'font-size:10.0pt;color:black'>=
+=BF=C0=C8=C4</span><span lang=3DEN-US style=3D'font-size:10.0pt;font-family=
+:"Tahoma","sans-serif";color:black'> -&nbsp;SW(</span><span style=3D'font-s=
+ize:10.0pt;color:black'>=B0=A1=BB=F3=C8=AD</span><span lang=3DEN-US style=
+=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>) </spa=
+n><span style=3D'font-size:10.0pt;color:black'>=B1=B8=BC=BA</span><span lan=
+g=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p class=
+=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p></sp=
+an></p></div><div><p class=3DMsoNormal><span style=3D'font-size:10.0pt;colo=
+r:black'>=C0=CC=BB=F3=C0=D4=B4=CF=B4=D9</span><span lang=3DEN-US style=3D'f=
+ont-size:10.0pt;font-family:"Tahoma","sans-serif";color:black'>.</span><spa=
+n lang=3DEN-US style=3D'color:black'><o:p></o:p></span></p></div><div><p cl=
+ass=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>&nbsp;<o:p></o:p><=
+/span></p></div></div><div><div><p class=3DMsoNormal><span lang=3DEN-US sty=
+le=3D'color:black'>--------------------------------------------------------=
+-----------<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US st=
+yle=3D'color:black'>(</span><span style=3D'color:black'>=C1=D6<span lang=3D=
+EN-US>)</span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp;</span>=BC=
+=AD=BA=F1=BD=BA=BB=E7=BE=F7=BA=CE<span lang=3DEN-US>&nbsp;&nbsp;&nbsp;</spa=
+n>=C0=AF=C0=E7=B4=EB =C2=F7=C0=E5<span lang=3DEN-US><o:p></o:p></span></spa=
+n></p><p class=3DMsoNormal><span style=3D'color:black'>=BC=AD=BF=EF=BD=C3 =
+=BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3 </span>=B4=EB=
+=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 3</span>=C3=FE<span lang=3DEN-US><o:p=
+></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'c=
+olor:black'>T) 070-7114-0073 F) 02-586-5070 MP) 010-9076-7979<o:p></o:p></s=
+pan></p><p class=3DMsoNormal><span lang=3DEN-US style=3D'color:black'>E-Mai=
+l ) <a href=3D"http://kms.astglobal.co.kr/owa/redir.aspx?C=3D3776c32117f141=
+72a1163b6a035078b5&amp;URL=3Dmailto%3ajdyu%40agilesys.co.kr" target=3D"_bla=
+nk">jdyu@agilesys.co.kr</a><o:p></o:p></span></p><p class=3DMsoNormal><span=
+ lang=3DEN-US style=3D'color:black'>---------------------------------------=
+----------------------------<o:p></o:p></span></p></div></div></div></div><=
+/div></div></div></div></div></body></html>=
+
+--_000_013d01d18fc58138fd2083aaf760agilesyscokr_--

@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 0Ld9CcXAomnlAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:17:41 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 2653114C07
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:17:41 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1537731115494107642
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from g1t6216.austin.hp.com (15.73.96.123) by
+ MAIL-SERVER.agilesys.co.kr (112.220.69.170) with Microsoft SMTP Server (TLS)
+ id 8.3.465.0; Tue, 21 Jun 2016 16:37:50 +0900
+Received: from g1t1136g.austin.hp.com (g1t1136g.austin.hp.com [16.193.41.85])
+	by g1t6216.austin.hp.com (Postfix) with ESMTP id 600D1195	for
+ <mg.hwang@agilesys.co.kr>; Tue, 21 Jun 2016 07:37:17 +0000 (UTC)
+From: "hp.passport@hp.com" <hp.passport@hp.com>
+To: =?utf-8?B?7Zmp66+86rec?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Tue, 21 Jun 2016 16:37:16 +0900
+Subject: HPP password successfully changed
+Thread-Topic: HPP password successfully changed
+Thread-Index: AdHLj9A4/Z/qpqdYTfapjtj3MQDQxg==
+Message-ID:
+ <1029213762.37081.1466494637001.JavaMail.hppjboss@g1t1136g.austin.hp.com>
+Reply-To: "hp.passport@hp.com" <hp.passport@hp.com>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_1029213762370811466494637001JavaMailhppjbossg1t1136gaus_"
+MIME-Version: 1.0
+
+--_000_1029213762370811466494637001JavaMailhppjbossg1t1136gaus_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGVhciBQT1JUQUwgUSBVc2VyLA0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGUtbWFpbCBhcyBh
+IGNvbmZpcm1hdGlvbiB0aGF0IHlvdSBoYXZlIHN1Y2Nlc3NmdWxseSBjaGFuZ2VkIHlvdXIgSFBQ
+IHBhc3N3b3JkLg0KDQpJZiB5b3UgaGF2ZSBub3QgY2xpY2tlZCBvbiB0aGUg4oCcRm9yZ290IHBh
+c3N3b3Jk4oCdIGxpbmsgdGhlbiB0aGlzIG1heSBpbmRpY2F0ZSBhIHNlY3VyaXR5IHJpc2suIElu
+IHRoaXMgY2FzZSwgcGxlYXNlIENvbnRhY3QgSFAuDQoNCkZvciBtb3JlIGluZm9ybWF0aW9uIGFi
+b3V0IEhQIFBhc3Nwb3J0LCBjbGljayBBYm91dCBIUCBQYXNzcG9ydDxodHRwczovL2hwcDEyLnBh
+c3Nwb3J0LmhwLmNvbS9ocHBjZi9oZWxwLmRvP3BhZ2U9cGFzc3BvcnQmY2M9VVMmbGFuZz1FTj4u
+IElmIHlvdSBuZWVkIGFzc2lzdGFuY2UsIGNsaWNrIENvbnRhY3QgSFAuPGh0dHA6Ly93ZWxjb21l
+LmhwLmNvbS9jb3VudHJ5L3VzL2VuL2NvbnRhY3RfdXMuaHRtbD4NCg0KUmVzcGVjdGZ1bGx5LA0K
+
+--_000_1029213762370811466494637001JavaMailhppjbossg1t1136gaus_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGVhciBQT1JUQUwgUSBVc2VyLCA8cD5Zb3UgYXJlIHJlY2VpdmluZyB0aGlzIGUtbWFpbCBhcyBh
+IGNvbmZpcm1hdGlvbiB0aGF0IHlvdSBoYXZlIHN1Y2Nlc3NmdWxseSBjaGFuZ2VkIHlvdXIgSFBQ
+IHBhc3N3b3JkLjxwPklmIHlvdSBoYXZlIG5vdCBjbGlja2VkIG9uIHRoZSDigJxGb3Jnb3QgcGFz
+c3dvcmTigJ0gbGluayB0aGVuIHRoaXMgbWF5IGluZGljYXRlIGEgc2VjdXJpdHkgcmlzay4gSW4g
+dGhpcyBjYXNlLCBwbGVhc2UgQ29udGFjdCBIUC48cD5Gb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91
+dCBIUCBQYXNzcG9ydCwgY2xpY2sgPGEgaHJlZj0iaHR0cHM6Ly9ocHAxMi5wYXNzcG9ydC5ocC5j
+b20vaHBwY2YvaGVscC5kbz9wYWdlPXBhc3Nwb3J0JmNjPVVTJmxhbmc9RU4iPkFib3V0IEhQIFBh
+c3Nwb3J0PC9hPi4gSWYgeW91IG5lZWQgYXNzaXN0YW5jZSwgY2xpY2sgPGEgaHJlZj0iaHR0cDov
+L3dlbGNvbWUuaHAuY29tL2NvdW50cnkvdXMvZW4vY29udGFjdF91cy5odG1sIj5Db250YWN0IEhQ
+LjwvYT48cD5SZXNwZWN0ZnVsbHksPHA+DQo=
+
+--_000_1029213762370811466494637001JavaMailhppjbossg1t1136gaus_--

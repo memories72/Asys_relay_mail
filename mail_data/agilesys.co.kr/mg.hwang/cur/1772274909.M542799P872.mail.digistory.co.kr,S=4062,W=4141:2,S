@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id uI1OIN3EomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:09 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 83A8114C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:09 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1551838573664878187
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp153911wme;
+        Wed, 23 Nov 2016 17:06:59 -0800 (PST)
+X-Received: by 10.194.133.233 with SMTP id pf9mr6131485wjb.15.1479949618773;
+        Wed, 23 Nov 2016 17:06:58 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning bost12@agilesys.co.kr does not designate 110.45.130.213 as permitted sender) smtp.mailfrom=bost12@agilesys.co.kr
+Received-SPF: softfail (google.com: domain of transitioning bost12@agilesys.co.kr does not designate 110.45.130.213 as permitted sender) client-ip=110.45.130.213;
+Received: by 10.28.44.66 with POP3 id s63mf13824833wms.1;
+        Wed, 23 Nov 2016 17:06:57 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 12490 invoked by uid 700); 24 Nov 2016 09:49:51 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	24 Nov 2016 09:49:51 +0900
+Received: (qmail 26171 invoked by uid 700); 24 Nov 2016 09:49:51 +0900
+Received: from unknown (HELO whoisdesk.com) (110.45.130.213)
+	by 0 (knetqmail v1.06) with SMTP;
+	24 Nov 2016 09:49:51 +0900
+Date: Thu, 24 Nov 2016 09:49:51 +0900
+To: =?utf-8?B?6rmA7YOc7IOB?= <ts.kim@agilesys.co.kr>, =?utf-8?B?7Jyg7J6s64yA?= <jdyu@agilesys.co.kr>, =?utf-8?B?7Zmp66+86rec?= <mg.hwang@agilesys.co.kr>
+From: =?utf-8?B?6rmA7KKF7ISd?= <bost12@agilesys.co.kr>
+Reply-to: bost12@agilesys.co.kr
+Subject: =?utf-8?B?7KO86rCE7JeF66y067O06rOgIOyekOujjCB1cGxvYWQg7JyE7LmYIOuzgA==?=
+ =?utf-8?B?6rK9Lg==?=
+Message-ID: <6601b7f56dfa84b3c9c7fc59df18e117@whoisdesk.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_6601b7f56dfa84b3c9c7fc59df18e117"
+
+
+--b1_6601b7f56dfa84b3c9c7fc59df18e117
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7IOI66Gc7Jq0IO2ZlOydvOyEnOuyhOulvCDqtazstpXtlojsirXri4jri6Qu65Sw65287IScCuyj
+vOqwhOyXheustOydvOyngCjsnoTsm5Dsmqkp66W8IDLso7wg7KCE7LKY65+8IO2VmOuCmOydmCDt
+mZTsnbzroZwK7J6R7ISx7ZWY6rOg7J6QIO2VqeuLiOuLpC7qsIEg7YyA7J6l65Ok7J2AIOyEnOuh
+nCDstqnrj4zrkJjsp4Ag7JWK64+E66GdCuyjvOqwhOyXheustCDsnpHshLHtlbTso7zshLjsmpQu
+7KCA7J6l7JyE7LmY64qUIO2ZlOydvOyEnOuyhOydmCAiQVNZUyAmZ3Q7CuyehOybkF/so7zqsITs
+l4XrrLTrs7Tqs6Ag7J6Q66OMIiDsnITsuZjsl5AK67O06rSA7ZW07KO87IS47JqUL2h0dHBzOi8v
+bmFzLmFnaWxlc3lzLmNvLmtyOjUwMDEvCg==
+
+
+--b1_6601b7f56dfa84b3c9c7fc59df18e117
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PHA+7IOI66Gc7Jq0IO2ZlOydvOyEnOuyhOulvCDqtazstpXtlojsirXri4jri6QuPC9wPjxwPuuU
+sOudvOyEnCDso7zqsITsl4XrrLTsnbzsp4Ao7J6E7JuQ7JqpKeulvCAy7KO8IOyghOyymOufvCDt
+lZjrgpjsnZgg7ZmU7J2866GcIOyekeyEse2VmOqzoOyekCDtlanri4jri6QuPC9wPjxwPuqwgSDt
+jIDsnqXrk6TsnYAg7ISc66GcIOy2qeuPjOuQmOyngCDslYrrj4TroZ0g7KO86rCE7JeF66y0IOye
+keyEse2VtOyjvOyEuOyalC48L3A+PHA+PGJyPjwvcD48cD7soIDsnqXsnITsuZjripQg7ZmU7J28
+7ISc67KE7J2YICJBU1lTICZndDsg7J6E7JuQX+yjvOqwhOyXheustOuztOqzoCDsnpDro4wiIOyc
+hOy5mOyXkCDrs7TqtIDtlbTso7zshLjsmpQvPC9wPjxwPjxicj48L3A+PHA+aHR0cHM6Ly9uYXMu
+YWdpbGVzeXMuY28ua3I6NTAwMS88YnI+PC9wPjxpbWcgc3R5bGU9ImJvcmRlcjpub25lOyB3aWR0
+aDoxcHg7IGhlaWdodDoxcHg7IGRpc3BsYXk6bm9uZSIgc3JjPSJodHRwOi8vbWFpbC5hZ2lsZXN5
+cy5jby5rci9jb21tb24vY29uZmlybVJlYWQvP21lc3NhZ2VJZD04MjRmMmQxOC05MzhjLThkYzkt
+ZTI4Ni02ZTAwZjkxMzY2MmQmZW1haWw9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3IiIC8+
+
+
+
+--b1_6601b7f56dfa84b3c9c7fc59df18e117--
+

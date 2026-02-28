@@ -1,0 +1,576 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id +IgIAzTComlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:48 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 0BAC214C34
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:23:48 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1542869060241190459
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Wed, 17 Aug 2016
+ 09:43:14 +0900
+From: =?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3A58jG?= <kjhoon88@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vLrBvsiv?= <hwany@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Wed, 17 Aug 2016 09:42:47 +0900
+Subject: =?ks_c_5601-1987?B?wPy03jogKLGksO0pIFs4LzI1KLjxKSDH4LvnIMPKw7td?=
+ =?ks_c_5601-1987?B?IElCTSDFrLbzv+y15SC1pcDMxc0gvL7FzbChIMfRsbm/oSC15bXw?=
+ =?ks_c_5601-1987?B?vu4gv8DHwiEgtPUguvy4pSC807W1LCC09SDG7biux9EgvK268b26?=
+ =?ks_c_5601-1987?B?LCC09SC02b7nx9EgvNa357zHwLsgvNKw+LW/ILfUtaXIo8XaKDgv?=
+ =?ks_c_5601-1987?B?MjUpv6G8rSC41cD6ILi4s6q6uLy8v+Qh?=
+Thread-Topic:
+ =?ks_c_5601-1987?B?KLGksO0pIFs4LzI1KLjxKSDH4LvnIMPKw7tdIElCTQ==?=
+ =?ks_c_5601-1987?B?IMWstvO/7LXlILWlwMzFzSC8vsXNsKEgx9Gxub+hILXltfC+7iA=?=
+ =?ks_c_5601-1987?B?v8DHwiEgtPUguvy4pSC807W1LCC09SDG7biux9EgvK268b26LCA=?=
+ =?ks_c_5601-1987?B?tPUgtNm+58fRILzWt+e8x8C7ILzSsPi1vyC31LWlyKPF2ig4LzI1?=
+ =?ks_c_5601-1987?B?Kb+hvK0guNXA+iC4uLOquri8vL/kIQ==?=
+Thread-Index: AdH4GxrRupf2wn8IQlqu+yeHwjrMxgABSutc
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04F2EEE6ADBF@MAIL-SERVER.agilesys.co.kr>
+References: <7aa3faf0-e7af-4fd0-ab06-6a0a1e1f75a0@MAIL-SERVER.agilesys.co.kr>
+In-Reply-To:
+ <7aa3faf0-e7af-4fd0-ab06-6a0a1e1f75a0@MAIL-SERVER.agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04F2EEE6ADBFMAILSERVERa_"
+MIME-Version: 1.0
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE6ADBFMAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQq6uLO9ILvntvc6IElUV29ybGQg
+S29yZWEgW0lUV29ybGRAaWRnLmNvLmtyXQ0KurizvSCzr8KlOiAyMDE2s+IgOL/5IDE3wM8gvPa/
+5MDPIL/AwPwgOTowMA0Kud60wiC757b3OiCx6MG+vK4NCsGmuPE6ICixpLDtKSBbOC8yNSi48Skg
+x+C75yDDysO7XSBJQk0gxay287/steUgtaXAzMXNILy+xc2woSDH0bG5v6EgteW18L7uIL/Ax8Ih
+ILT1ILr8uKUgvNO1tSwgtPUgxu24rsfRILytuvG9uiwgtPUgtNm+58fRILzWt+e8x8C7ILzSsPi1
+vyC31LWlyKPF2ig4LzI1Kb+hvK0guNXA+iC4uLOquri8vL/kIQ0KDQoNCg0KW2h0dHA6Ly9pbWcu
+YWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMDEuanBnXQ0K
+W2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1p
+YWxfMDIuanBnXSAgICAgW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2
+L21haW5lRE1fdjJfdG1pYWxfMDMuanBnXSA8aHR0cDovLzEuMjM0LjIwLjEyNjo4MC9maWx0ZXIv
+Y2xpY2tEZXRlY3Rlci5qc3A/Y2FtcGFpZ25JRD02OTEzJmVuY29kaW5nPXllcyZtYWlsbGluaz1m
+YWxzZSZhZGRyZXNzYm9va19pZD01NTIwJmxpbmtJRD0xMTQwMzkmdHlwZT1jbGljaz4gIFtodHRw
+Oi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzA0
+LmpwZ10NCltodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURN
+X3YyX3RtaWFsXzA1LmpwZ10gICAgIFtodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIx
+OC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzA2LmpwZ10gPGh0dHA6Ly8xLjIzNC4yMC4xMjY6ODAv
+ZmlsdGVyL2NsaWNrRGV0ZWN0ZXIuanNwP2NhbXBhaWduSUQ9NjkxMyZlbmNvZGluZz15ZXMmbWFp
+bGxpbms9ZmFsc2UmYWRkcmVzc2Jvb2tfaWQ9NTUyMCZsaW5rSUQ9MTE0MDQwJnR5cGU9Y2xpY2s+
+ICBbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90
+bWlhbF8wNy5qcGddDQpbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYv
+bWFpbmVETV92Ml90bWlhbF8wOC5qcGddDQpbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEv
+MjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8wOS5qcGddDQpbaHR0cDovL2ltZy5hZGVjb3Jw
+LmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8xMC5qcGddICAgICBbaHR0
+cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8x
+MS5qcGddIDxodHRwOi8vMS4yMzQuMjAuMTI2OjgwL2ZpbHRlci9jbGlja0RldGVjdGVyLmpzcD9j
+YW1wYWlnbklEPTY5MTMmZW5jb2Rpbmc9eWVzJm1haWxsaW5rPWZhbHNlJmFkZHJlc3Nib29rX2lk
+PTU1MjAmbGlua0lEPTExNDA0MSZ0eXBlPWNsaWNrPiAgW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5r
+ci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMTIuanBnXSAgICAgW2h0dHA6Ly9p
+bWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMTMuanBn
+XSA8aHR0cDovLzEuMjM0LjIwLjEyNjo4MC9maWx0ZXIvY2xpY2tEZXRlY3Rlci5qc3A/Y2FtcGFp
+Z25JRD02OTEzJmVuY29kaW5nPXllcyZtYWlsbGluaz1mYWxzZSZhZGRyZXNzYm9va19pZD01NTIw
+JmxpbmtJRD0xMTQwNDImdHlwZT1jbGljaz4gIFtodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5
+MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzE0LmpwZ10gICAgIFtodHRwOi8vaW1nLmFk
+ZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzE1LmpwZ10gPGh0
+dHA6Ly8xLjIzNC4yMC4xMjY6ODAvZmlsdGVyL2NsaWNrRGV0ZWN0ZXIuanNwP2NhbXBhaWduSUQ9
+NjkxMyZlbmNvZGluZz15ZXMmbWFpbGxpbms9ZmFsc2UmYWRkcmVzc2Jvb2tfaWQ9NTUyMCZsaW5r
+SUQ9MTE0MDQzJnR5cGU9Y2xpY2s+ICBbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAy
+MTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8xNi5qcGddICAgICBbaHR0cDovL2ltZy5hZGVjb3Jw
+LmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8xNy5qcGddDQpbaHR0cDov
+L2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8xOC5q
+cGddDQpbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92
+Ml90bWlhbF8xOS5qcGddICAgICBbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgv
+NDAwMDYvbWFpbmVETV92Ml90bWlhbF8yMC5qcGddIDxodHRwOi8vMS4yMzQuMjAuMTI2OjgwL2Zp
+bHRlci9jbGlja0RldGVjdGVyLmpzcD9jYW1wYWlnbklEPTY5MTMmZW5jb2Rpbmc9eWVzJm1haWxs
+aW5rPWZhbHNlJmFkZHJlc3Nib29rX2lkPTU1MjAmbGlua0lEPTExNDA0NCZ0eXBlPWNsaWNrPg0K
+W2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1p
+YWxfMjEuanBnXQ0KW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21h
+aW5lRE1fdjJfdG1pYWxfMjIuanBnXTxodHRwOi8vMS4yMzQuMjAuMTI2OjgwL2ZpbHRlci9jbGlj
+a0RldGVjdGVyLmpzcD9jYW1wYWlnbklEPTY5MTMmZW5jb2Rpbmc9eWVzJm1haWxsaW5rPWZhbHNl
+JmFkZHJlc3Nib29rX2lkPTU1MjAmbGlua0lEPTExNDA0NSZ0eXBlPWNsaWNrPg0KW2h0dHA6Ly9p
+bWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMjMuanBn
+XQ0KW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJf
+dG1pYWxfMjQuanBnXSAgICAgW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4LzQw
+MDA2L21haW5lRE1fdjJfdG1pYWxfMjUuanBnXSA8aHR0cDovLzEuMjM0LjIwLjEyNjo4MC9maWx0
+ZXIvY2xpY2tEZXRlY3Rlci5qc3A/Y2FtcGFpZ25JRD02OTEzJmVuY29kaW5nPXllcyZtYWlsbGlu
+az1mYWxzZSZhZGRyZXNzYm9va19pZD01NTIwJmxpbmtJRD0xMTQwNDYmdHlwZT1jbGljaz4gIFto
+dHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFs
+XzI2LmpwZ10NCltodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWlu
+ZURNX3YyX3RtaWFsXzI3LmpwZ10NCltodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIx
+OC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzI4LmpwZ10gICAgIFtodHRwOi8vaW1nLmFkZWNvcnAu
+Y28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzI5LmpwZ10gPGh0dHA6Ly8x
+LjIzNC4yMC4xMjY6ODAvZmlsdGVyL2NsaWNrRGV0ZWN0ZXIuanNwP2NhbXBhaWduSUQ9NjkxMyZl
+bmNvZGluZz15ZXMmbWFpbGxpbms9ZmFsc2UmYWRkcmVzc2Jvb2tfaWQ9NTUyMCZsaW5rSUQ9MTE0
+MDQ3JnR5cGU9Y2xpY2s+ICBbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAw
+MDYvbWFpbmVETV92Ml90bWlhbF8zMC5qcGddDQpbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmtyLzIz
+OTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8zMS5qcGddDQpbaHR0cDovL2ltZy5hZGVj
+b3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8zMi5qcGddPGh0dHA6
+Ly8xLjIzNC4yMC4xMjY6ODAvZmlsdGVyL2NsaWNrRGV0ZWN0ZXIuanNwP2NhbXBhaWduSUQ9Njkx
+MyZlbmNvZGluZz15ZXMmbWFpbGxpbms9ZmFsc2UmYWRkcmVzc2Jvb2tfaWQ9NTUyMCZsaW5rSUQ9
+MTE0MDQ4JnR5cGU9Y2xpY2s+ICAgW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5rci8yMzkxLzIwMjE4
+LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMzMuanBnXQ0KW2h0dHA6Ly9pbWcuYWRlY29ycC5jby5r
+ci8yMzkxLzIwMjE4LzQwMDA2L21haW5lRE1fdjJfdG1pYWxfMzQuanBnXTxodHRwOi8vMS4yMzQu
+MjAuMTI2OjgwL2ZpbHRlci9jbGlja0RldGVjdGVyLmpzcD9jYW1wYWlnbklEPTY5MTMmZW5jb2Rp
+bmc9eWVzJm1haWxsaW5rPWZhbHNlJmFkZHJlc3Nib29rX2lkPTU1MjAmbGlua0lEPTExNDA0OSZ0
+eXBlPWNsaWNrPiAgIFtodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9t
+YWluZURNX3YyX3RtaWFsXzM1LmpwZ10NCltodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8y
+MDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzM2LmpwZ10NCltodHRwOi8vaW1nLmFkZWNvcnAu
+Y28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzM3LmpwZ10gICAgIFtodHRw
+Oi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzM4
+LmpwZ10gPGh0dHA6Ly8xLjIzNC4yMC4xMjY6ODAvZmlsdGVyL2NsaWNrRGV0ZWN0ZXIuanNwP2Nh
+bXBhaWduSUQ9NjkxMyZlbmNvZGluZz15ZXMmbWFpbGxpbms9ZmFsc2UmYWRkcmVzc2Jvb2tfaWQ9
+NTUyMCZsaW5rSUQ9MTE0MDUwJnR5cGU9Y2xpY2s+ICBbaHR0cDovL2ltZy5hZGVjb3JwLmNvLmty
+LzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF8zOS5qcGddDQoNCltodHRwOi8vaW1n
+LmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3YyX3RtaWFsXzQxLmpwZ10g
+ICAgIFtodHRwOi8vaW1nLmFkZWNvcnAuY28ua3IvMjM5MS8yMDIxOC80MDAwNi9tYWluZURNX3Yy
+X3RtaWFsXzQyLmpwZ10gPGh0dHA6Ly8xLjIzNC4yMC4xMjY6ODAvZmlsdGVyL2NsaWNrRGV0ZWN0
+ZXIuanNwP2NhbXBhaWduSUQ9NjkxMyZlbmNvZGluZz15ZXMmbWFpbGxpbms9ZmFsc2UmYWRkcmVz
+c2Jvb2tfaWQ9NTUyMCZsaW5rSUQ9MTE0MDUxJnR5cGU9Y2xpY2s+DQpbaHR0cDovL2ltZy5hZGVj
+b3JwLmNvLmtyLzIzOTEvMjAyMTgvNDAwMDYvbWFpbmVETV92Ml90bWlhbF80My5qcGddDQoNClto
+dHRwOi8vYWJjLmlkZy5jby5rci9pZGdfbG9nby5wbmc/ZW1haWw9Ym9zdDEyQGFnaWxlc3lzLmNv
+LmtyJm5ld3NsZXR0ZXJfaWQ9OTkyNTImbWVkaWE9SVRXJm5ld3NsZXR0ZXJfdHlwZT1EXTxodHRw
+Oi8vMS4yMzQuMjAuMTI2OjgwL2ZpbHRlci9jbGlja0RldGVjdGVyLmpzcD9jYW1wYWlnbklEPTY5
+MTMmZW5jb2Rpbmc9eWVzJm1haWxsaW5rPWZhbHNlJmFkZHJlc3Nib29rX2lkPTU1MjAmbGlua0lE
+PTExNDA1MiZ0eXBlPWNsaWNrPiAgICAgICDAzCC0ur26t7nFzbTCIMi4v/i01MDMILz2vcW1v8DH
+IMfRILDmv+y/obi4ILnfvNu1y7TPtNkuDQq89r3FwLsgv/jEoSC+ysC4vcO46SBbvPa9xbDFus5d
+IDxodHRwOi8vMS4yMzQuMjAuMTI2OjgwL2ZpbHRlci9jbGlja0RldGVjdGVyLmpzcD9jYW1wYWln
+bklEPTY5MTMmZW5jb2Rpbmc9eWVzJm1haWxsaW5rPWZhbHNlJmFkZHJlc3Nib29rX2lkPTU1MjAm
+bGlua0lEPTExNDA1MyZ0eXBlPWNsaWNrPiC4piC0rbevwda8vL/kLg0Kua7Ax7vnx9fAuiBta3RA
+aWRnLmNvLmtyPG1haWx0bzovL21rdEBpZGcuY28ua3I+t84gwMy43sDPIMikwLogwPzIrSgwMi01
+NTgtNjk2NSnB1r3DseIgudm2+LTPtNkuDQq8rb/vvcMgwd+xuCC8vMG+tOu3ziAyMy4gNMP+IMfR
+sblJREcowdYpIL/sKSAwNDUxMg0Ku+e+98Date63z7n4yKMgOiAyMTQtODctMjI0NjcgfCBDT1BZ
+UklHSFQgMjAxNiDH0bG5SURHot8NClRlbC4gMDcwLTc3MjUtOTU1NyB8IEZheC4gMDItNTU4LTY5
+NTUgfCB0d2l0dGVyQGl0d29ybGRrcjxodHRwOi8vMS4yMzQuMjAuMTI2OjgwL2ZpbHRlci9jbGlj
+a0RldGVjdGVyLmpzcD9jYW1wYWlnbklEPTY5MTMmZW5jb2Rpbmc9eWVzJm1haWxsaW5rPWZhbHNl
+JmFkZHJlc3Nib29rX2lkPTU1MjAmbGlua0lEPTExNDA1NCZ0eXBlPWNsaWNrPiB8IEZhY2Vib29r
+L2l0d29ybGQua29yZWE8aHR0cDovLzEuMjM0LjIwLjEyNjo4MC9maWx0ZXIvY2xpY2tEZXRlY3Rl
+ci5qc3A/Y2FtcGFpZ25JRD02OTEzJmVuY29kaW5nPXllcyZtYWlsbGluaz1mYWxzZSZhZGRyZXNz
+Ym9va19pZD01NTIwJmxpbmtJRD0xMTQwNTUmdHlwZT1jbGljaz4NCg0K
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE6ADBFMAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<meta name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16737">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+--></style>
+</head>
+<body ocsi=3D"x">
+<div style=3D"FONT-FAMILY: Tahoma; DIRECTION: ltr; COLOR: #000000; FONT-SIZ=
+E: x-small">
+<div>&nbsp;</div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<div style=3D"DIRECTION: ltr" id=3D"divRpF796519">
+<hr tabindex=3D"-1">
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><b>=BA=B8=B3=BD =BB=E7=
+=B6=F7:</b> ITWorld Korea [ITWorld@idg.co.kr]<br>
+<b>=BA=B8=B3=BD =B3=AF=C2=A5:</b> 2016=B3=E2 8=BF=F9 17=C0=CF =BC=F6=BF=E4=
+=C0=CF =BF=C0=C0=FC 9:00<br>
+<b>=B9=DE=B4=C2 =BB=E7=B6=F7:</b> =B1=E8=C1=BE=BC=AE<br>
+<b>=C1=A6=B8=F1:</b> (=B1=A4=B0=ED) [8/25(=B8=F1) =C7=E0=BB=E7 =C3=CA=C3=BB=
+] IBM =C5=AC=B6=F3=BF=EC=B5=E5 =B5=A5=C0=CC=C5=CD =BC=BE=C5=CD=B0=A1 =C7=D1=
+=B1=B9=BF=A1 =B5=E5=B5=F0=BE=EE =BF=C0=C7=C2! =B4=F5 =BA=FC=B8=A5 =BC=D3=B5=
+=B5, =B4=F5 =C6=ED=B8=AE=C7=D1 =BC=AD=BA=F1=BD=BA, =B4=F5 =B4=D9=BE=E7=C7=
+=D1 =BC=D6=B7=E7=BC=C7=C0=BB =BC=D2=B0=F8=B5=BF =B7=D4=B5=A5=C8=A3=C5=DA(8/=
+25)=BF=A1=BC=AD =B8=D5=C0=FA =B8=B8=B3=AA=BA=B8=BC=BC=BF=E4!<br>
+</font><br>
+</div>
+<div></div>
+<div>
+<div style=3D"BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 0px; HEIGHT: 0px=
+; BORDER-TOP: 0px; BORDER-RIGHT: 0px">
+<img border=3D"0" alt=3D"" src=3D"http://ade.adecorp.co.kr/ade_imp?media=3D=
+140&amp;page=3D474&amp;ads=3D20225&amp;crtv=3D40104" width=3D"0px" height=
+=3D"0px"></div>
+<div style=3D"BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 0px; HEIGHT: 0px=
+; BORDER-TOP: 0px; BORDER-RIGHT: 0px">
+<img border=3D"0" alt=3D"" src=3D"http://mtrack.adecorp.co.kr/imp.mable?cpi=
+d=3D2391&amp;media=3D140&amp;page=3D474&amp;ads=3D20225&amp;crtv=3D40104" w=
+idth=3D"0px" height=3D"0px"></div>
+<center>
+<table id=3D"Table_01" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wid=
+th=3D"700" height=3D"1036">
+<tbody>
+<tr>
+<td colspan=3D"22"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_01.jpg" widt=
+h=3D"700" height=3D"539"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"539"></td>
+</tr>
+<tr>
+<td colspan=3D"11"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_02.jpg" widt=
+h=3D"369" height=3D"31"></td>
+<td rowspan=3D"3" colspan=3D"8"><a href=3D"http://1.234.20.126:80/filter/cl=
+ickDetecter.jsp?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&a=
+mp;addressbook_id=3D5520&amp;linkID=3D114039&amp;type=3Dclick" target=3D"_b=
+lank"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img=
+.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_03.jpg" width=3D"240" heig=
+ht=3D"75"></a></td>
+<td rowspan=3D"4" colspan=3D"3"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+04.jpg" width=3D"91" height=3D"350"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"31"></td>
+</tr>
+<tr>
+<td rowspan=3D"3" colspan=3D"5"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+05.jpg" width=3D"265" height=3D"319"></td>
+<td colspan=3D"3"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114040&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_06.jpg" width=3D"43" height=3D"24"></a><=
+/td>
+<td rowspan=3D"3" colspan=3D"3"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+07.jpg" width=3D"61" height=3D"319"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"24"></td>
+</tr>
+<tr>
+<td rowspan=3D"2" colspan=3D"3"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+08.jpg" width=3D"43" height=3D"295"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"20"></td>
+</tr>
+<tr>
+<td colspan=3D"8"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_09.jpg" widt=
+h=3D"240" height=3D"275"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"275"></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_10.jpg" widt=
+h=3D"91" height=3D"41"></td>
+<td colspan=3D"2"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114041&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_11.jpg" width=3D"166" height=3D"41"></a>=
+</td>
+<td colspan=3D"2"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_12.jpg" widt=
+h=3D"9" height=3D"41"></td>
+<td colspan=3D"6"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114042&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_13.jpg" width=3D"168" height=3D"41"></a>=
+</td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/maineDM_v2_tmial_14.jpg" width=3D"9" height=
+=3D"41"></td>
+<td colspan=3D"7"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114043&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_15.jpg" width=3D"167" height=3D"41"></a>=
+</td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/maineDM_v2_tmial_16.jpg" width=3D"60" height=
+=3D"41"></td>
+<td rowspan=3D"17"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_17.jpg" widt=
+h=3D"30" height=3D"1739"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"41"></td>
+</tr>
+<tr>
+<td colspan=3D"21"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_18.jpg" widt=
+h=3D"670" height=3D"380"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"380"></td>
+</tr>
+<tr>
+<td rowspan=3D"15"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_19.jpg" widt=
+h=3D"30" height=3D"1318"></td>
+<td colspan=3D"20"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.j=
+sp?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressboo=
+k_id=3D5520&amp;linkID=3D114044&amp;type=3Dclick" target=3D"_blank"><img st=
+yle=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.k=
+r/2391/20218/40006/maineDM_v2_tmial_20.jpg" width=3D"640" height=3D"492"></=
+a></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"492"></td>
+</tr>
+<tr>
+<td colspan=3D"20"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_21.jpg" widt=
+h=3D"640" height=3D"34"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"34"></td>
+</tr>
+<tr>
+<td colspan=3D"20"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.j=
+sp?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressboo=
+k_id=3D5520&amp;linkID=3D114045&amp;type=3Dclick" target=3D"_blank"><img st=
+yle=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.k=
+r/2391/20218/40006/maineDM_v2_tmial_22.jpg" width=3D"640" height=3D"218"></=
+a></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"218"></td>
+</tr>
+<tr>
+<td colspan=3D"20"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_23.jpg" widt=
+h=3D"640" height=3D"251"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"251"></td>
+</tr>
+<tr>
+<td rowspan=3D"11" colspan=3D"2"><img style=3D"DISPLAY: block" border=3D"0"=
+ alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial=
+_24.jpg" width=3D"205" height=3D"323"></td>
+<td colspan=3D"13"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.j=
+sp?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressboo=
+k_id=3D5520&amp;linkID=3D114046&amp;type=3Dclick" target=3D"_blank"><img st=
+yle=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.k=
+r/2391/20218/40006/maineDM_v2_tmial_25.jpg" width=3D"232" height=3D"62"></a=
+></td>
+<td rowspan=3D"2" colspan=3D"5"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+26.jpg" width=3D"203" height=3D"135"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"62"></td>
+</tr>
+<tr>
+<td colspan=3D"13"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_27.jpg" widt=
+h=3D"232" height=3D"73"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"73"></td>
+</tr>
+<tr>
+<td rowspan=3D"5" colspan=3D"7"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+28.jpg" width=3D"111" height=3D"127"></td>
+<td colspan=3D"7"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114047&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_29.jpg" width=3D"139" height=3D"15"></a>=
+</td>
+<td rowspan=3D"2" colspan=3D"4"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+30.jpg" width=3D"185" height=3D"80"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"15"></td>
+</tr>
+<tr>
+<td colspan=3D"7"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_31.jpg" widt=
+h=3D"139" height=3D"65"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"65"></td>
+</tr>
+<tr>
+<td colspan=3D"8"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114048&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_32.jpg" width=3D"152" height=3D"15"></a>=
+</td>
+<td rowspan=3D"7" colspan=3D"3"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+33.jpg" width=3D"172" height=3D"108"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"15"></td>
+</tr>
+<tr>
+<td colspan=3D"4"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114049&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_34.jpg" width=3D"113" height=3D"17"></a>=
+</td>
+<td rowspan=3D"2" colspan=3D"4"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+35.jpg" width=3D"39" height=3D"32"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"17"></td>
+</tr>
+<tr>
+<td colspan=3D"4"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_36.jpg" widt=
+h=3D"113" height=3D"15"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"15"></td>
+</tr>
+<tr>
+<td rowspan=3D"4" colspan=3D"4"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+37.jpg" width=3D"48" height=3D"61"></td>
+<td colspan=3D"8"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114050&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_38.jpg" width=3D"180" height=3D"15"></a>=
+</td>
+<td rowspan=3D"4" colspan=3D"3"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+39.jpg" width=3D"35" height=3D"61"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"15"></td>
+</tr>
+<tr>
+<td colspan=3D"8"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_40.jpg" widt=
+h=3D"180" height=3D"5"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"5"></td>
+</tr>
+<tr>
+<td rowspan=3D"2" colspan=3D"2"><img style=3D"DISPLAY: block" border=3D"0" =
+alt=3D"" src=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_=
+41.jpg" width=3D"54" height=3D"41"></td>
+<td colspan=3D"6"><a href=3D"http://1.234.20.126:80/filter/clickDetecter.js=
+p?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook=
+_id=3D5520&amp;linkID=3D114051&amp;type=3Dclick" target=3D"_blank"><img sty=
+le=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.adecorp.co.kr=
+/2391/20218/40006/maineDM_v2_tmial_42.jpg" width=3D"126" height=3D"12"></a>=
+</td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"12"></td>
+</tr>
+<tr>
+<td colspan=3D"6"><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=
+=3D"http://img.adecorp.co.kr/2391/20218/40006/maineDM_v2_tmial_43.jpg" widt=
+h=3D"126" height=3D"29"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"29"></td>
+</tr>
+<tr>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"30" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"61" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"144" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"22" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"8" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"17" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"25" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"29" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"9" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"23" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"65" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"9" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"16" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"4" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"4" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"18" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"13" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"111" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"1" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"60" height=3D"1"></td>
+<td><img style=3D"DISPLAY: block" border=3D"0" alt=3D"" src=3D"http://img.a=
+decorp.co.kr/2391/20218/40006/spacer.gif" width=3D"30" height=3D"1"></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table style=3D"BACKGROUND-COLOR: #dfdfdf; BORDER-TOP: #e95030 4px solid" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"700" align=3D"center" height=3D=
+"137">
+<tbody>
+<tr>
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 32px; =
+PADDING-TOP: 0px" width=3D"95">
+<a href=3D"http://1.234.20.126:80/filter/clickDetecter.jsp?campaignID=3D691=
+3&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook_id=3D5520&amp;lin=
+kID=3D114052&amp;type=3Dclick" target=3D"_blank"><img style=3D"BORDER-BOTTO=
+M: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" alt=3D"" src=
+=3D"http://abc.idg.co.kr/idg_logo.png?email=3Dbost12@agilesys.co.kr&amp;new=
+sletter_id=3D99252&amp;media=3DITW&amp;newsletter_type=3DD"></a></td>
+<td style=3D"PADDING-BOTTOM: 16px; LINE-HEIGHT: 18px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px; FONT-FAMILY: '=B5=B8=BF=F2'; HEIGHT: 137px; COLOR: #59595=
+9; FONT-SIZE: 12px; PADDING-TOP: 16px">
+=C0=CC =B4=BA=BD=BA=B7=B9=C5=CD=B4=C2 =C8=B8=BF=F8=B4=D4=C0=CC =BC=F6=BD=C5=
+=B5=BF=C0=C7 =C7=D1 =B0=E6=BF=EC=BF=A1=B8=B8 =B9=DF=BC=DB=B5=CB=B4=CF=B4=D9=
+.<br>
+=BC=F6=BD=C5=C0=BB =BF=F8=C4=A1 =BE=CA=C0=B8=BD=C3=B8=E9 <a style=3D"COLOR:=
+ #e95030; TEXT-DECORATION: none" href=3D"http://1.234.20.126:80/filter/clic=
+kDetecter.jsp?campaignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp=
+;addressbook_id=3D5520&amp;linkID=3D114053&amp;type=3Dclick" target=3D"_bla=
+nk">
+[=BC=F6=BD=C5=B0=C5=BA=CE] </a>=B8=A6 =B4=AD=B7=AF=C1=D6=BC=BC=BF=E4.<br>
+=B9=AE=C0=C7=BB=E7=C7=D7=C0=BA <a style=3D"COLOR: #e95030; TEXT-DECORATION:=
+ none" href=3D"mailto://mkt@idg.co.kr">
+mkt@idg.co.kr</a>=B7=CE =C0=CC=B8=DE=C0=CF =C8=A4=C0=BA =C0=FC=C8=AD(02-558=
+-6965)=C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br>
+=BC=AD=BF=EF=BD=C3 =C1=DF=B1=B8 =BC=BC=C1=BE=B4=EB=B7=CE 23. 4=C3=FE =C7=D1=
+=B1=B9IDG(=C1=D6) =BF=EC) 04512 <br>
+=BB=E7=BE=F7=C0=DA=B5=EE=B7=CF=B9=F8=C8=A3 : 214-87-22467 | COPYRIGHT 2016 =
+=C7=D1=B1=B9IDG=A2=DF <br>
+Tel. 070-7725-9557 | Fax. 02-558-6955 | <a style=3D"COLOR: #e95030; TEXT-DE=
+CORATION: none" href=3D"http://1.234.20.126:80/filter/clickDetecter.jsp?cam=
+paignID=3D6913&amp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook_id=
+=3D5520&amp;linkID=3D114054&amp;type=3Dclick" target=3D"_blank">
+twitter@itworldkr</a> | <a style=3D"COLOR: #e95030; TEXT-DECORATION: none" =
+href=3D"http://1.234.20.126:80/filter/clickDetecter.jsp?campaignID=3D6913&a=
+mp;encoding=3Dyes&amp;maillink=3Dfalse&amp;addressbook_id=3D5520&amp;linkID=
+=3D114055&amp;type=3Dclick" target=3D"_blank">
+Facebook/itworld.korea</a></td>
+</tr>
+</tbody>
+</table>
+</center>
+<img src=3D"http://1.234.20.126/filter/checker.jsp?id=3D6913&amp;addressboo=
+k_id=3D5520" width=3D"0" height=3D"0">
+</div>
+</div>
+</body>
+</html>
+
+--_000_327B51700086C0479B084D86D0B0E45C04F2EEE6ADBFMAILSERVERa_--

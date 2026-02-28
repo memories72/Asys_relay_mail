@@ -1,0 +1,239 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id IOxmN4vIommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:50:51 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id E20BE14C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:50:51 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556761855797879114
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp664408wme;
+        Tue, 17 Jan 2017 18:28:40 -0800 (PST)
+X-Received: by 10.223.134.68 with SMTP id 4mr708477wrw.49.1484706520152;
+        Tue, 17 Jan 2017 18:28:40 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender) smtp.mailfrom=mg.hwang@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of mg.hwang@agilesys.co.kr as permitted sender)
+Received: by 10.28.167.75 with POP3 id q72mf56950176wme.0;
+        Tue, 17 Jan 2017 18:28:39 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 20761 invoked by uid 700); 18 Jan 2017 10:57:34 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	18 Jan 2017 10:57:34 +0900
+Received: (qmail 20060 invoked by uid 700); 18 Jan 2017 10:57:27 +0900
+Received: from unknown (HELO ?192.168.0.46?) (mg.hwang@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	18 Jan 2017 10:57:27 +0900
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_2A2B7CE2-4063-4DE7-BEBC-25E24B1F9828"
+Mime-Version: 1.0 (Mac OS X Mail 10.2 \(3259\))
+Subject: =?utf-8?B?UmU6IOy1nOyhsOyInCDsg4HrrLTri5gg66qo64uI7YSwIOq1rA==?=
+ =?utf-8?B?66ek6rG0Lg==?=
+From: Mingyu Hwang <mg.hwang@agilesys.co.kr>
+In-Reply-To: <001f01d2712d$c2f922e0$48eb68a0$@agilesys.co.kr>
+Date: Wed, 18 Jan 2017 10:57:26 +0900
+Cc: =?utf-8?B?7J2065GQ7Je0?= <dylee@agilesys.co.kr>,
+ =?utf-8?B?7LWc7IiY7KCV?= <sujeong@agilesys.co.kr>
+X-MS-Reactions: disallow
+Message-Id: <8ED4E25D-D05E-47C8-B6B4-6D8CEAC6EE05@agilesys.co.kr>
+References: <C1652513-8BDC-4E78-A36D-321CFA9D2108@agilesys.co.kr>
+ <001f01d2712d$c2f922e0$48eb68a0$@agilesys.co.kr>
+To: =?utf-8?B?6rO97ISx7KeE?= <bdksj@agilesys.co.kr>
+
+
+--Apple-Mail=_2A2B7CE2-4063-4DE7-BEBC-25E24B1F9828
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+=EA=B2=B0=EC=A0=9C =EC=83=81=EC=8B=A0 =EC=9D=B8=EC=9B=90=EC=9D=80 =
+=EA=B2=BD=EC=98=81=EC=A7=80=EC=9B=90=EB=B6=80=EB=A7=8C =ED=95=98=EB=A9=B4 =
+=EB=90=A0=EA=B9=8C=EC=9A=94?=20
+
+> 2017. 1. 18. =EC=98=A4=EC=A0=84 10:54, =EA=B3=BD=EC=84=B1=EC=A7=84 =
+<bdksj@agilesys.co.kr> =EC=9E=91=EC=84=B1:
+>=20
+> =EC=A0=95=EC=8B=9D =EC=82=AC=EB=82=B4 =EB=B9=84=ED=92=88 =EA=B5=AC=EB=A7=
+=A4 =ED=92=88=EC=9D=98=EC=84=9C=EB=A1=9C =EC=A7=84=ED=96=89=ED=95=98=EC=84=
+=B8=EC=9A=94.
+> =20
+> From: Mingyu Hwang [mailto:mg.hwang@agilesys.co.kr]=20
+> Sent: Tuesday, January 17, 2017 6:03 PM
+> To: =EC=9D=B4=EB=91=90=EC=97=B4
+> Cc: =EA=B3=BD=EC=84=B1=EC=A7=84
+> Subject: =EC=B5=9C=EC=A1=B0=EC=88=9C =EC=83=81=EB=AC=B4=EB=8B=98 =
+=EB=AA=A8=EB=8B=88=ED=84=B0 =EA=B5=AC=EB=A7=A4=EA=B1=B4.
+> =20
+> =ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4.
+> =20
+> =EC=B5=9C=EC=A1=B0=EC=88=9C =EC=83=81=EB=AC=B4=EB=8B=98=EC=9D=B4 =
+=EC=82=AC=EC=9A=A9=ED=95=98=EC=8B=A4 =EB=AA=A8=EB=8B=88=ED=84=B0 =EA=B5=AC=
+=EB=A7=A4 =EC=9A=94=EC=B2=AD=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+> =20
+> 24=EC=9D=B8=EC=B9=98 =EA=B8=89=EC=9C=BC=EB=A1=9C =EA=B5=AC=EB=A7=A4=ED=95=
+=B4 =EC=A3=BC=EC=8B=9C=EB=A9=B4 =EB=90=A0 =EA=B2=83 =EA=B0=99=EA=B3=A0,
+> =20
+> =EC=9E=AC=EA=B3=A0 =EC=9E=88=EC=9C=BC=EC=8B=9C=EB=A9=B4 =
+=EC=95=8C=EB=A0=A4=EC=A3=BC=EC=85=94=EB=8F=84 =EB=90=A0 =EA=B2=83 =
+=EA=B0=99=EC=8A=B5=EB=8B=88=EB=8B=A4.
+> =20
+> =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+> =20
+> ----------------------------------------------------------------------
+> =C2=A0ASYS Co. Ltd. <http://www.agilesys.co.kr/>
+>  NI Team
+>  =ED=99=A9 =EB=AF=BC=EA=B7=9C =EB=B6=80=EC=9E=A5
+>  Cellular : 010-3191-0811
+> =C2=A0mg.hwang@agilesys.co.kr <mailto:mg.hwang@agilesys.co.kr>
+> ----------------------------------------------------------------------
+
+
+--Apple-Mail=_2A2B7CE2-4063-4DE7-BEBC-25E24B1F9828
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" =
+class=3D"">=EA=B2=B0=EC=A0=9C =EC=83=81=EC=8B=A0 =EC=9D=B8=EC=9B=90=EC=9D=80=
+ =EA=B2=BD=EC=98=81=EC=A7=80=EC=9B=90=EB=B6=80=EB=A7=8C =ED=95=98=EB=A9=B4=
+ =EB=90=A0=EA=B9=8C=EC=9A=94?&nbsp;<div class=3D""><br =
+class=3D""><div><blockquote type=3D"cite" class=3D""><div class=3D"">2017.=
+ 1. 18. =EC=98=A4=EC=A0=84 10:54, =EA=B3=BD=EC=84=B1=EC=A7=84 &lt;<a =
+href=3D"mailto:bdksj@agilesys.co.kr" =
+class=3D"">bdksj@agilesys.co.kr</a>&gt; =EC=9E=91=EC=84=B1:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><div =
+class=3D"WordSection1" style=3D"page: WordSection1; font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant-caps: =
+normal; font-weight: normal; letter-spacing: normal; orphans: auto; =
+text-align: start; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; =
+font-family: =EA=B5=B4=EB=A6=BC;" class=3D""><span style=3D"font-size: =
+10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: =
+rgb(31, 73, 125);" class=3D"">=EC=A0=95=EC=8B=9D =EC=82=AC=EB=82=B4 =
+=EB=B9=84=ED=92=88 =EA=B5=AC=EB=A7=A4 =ED=92=88=EC=9D=98=EC=84=9C=EB=A1=9C=
+ =EC=A7=84=ED=96=89=ED=95=98=EC=84=B8=EC=9A=94<span lang=3D"EN-US" =
+class=3D"">.<o:p class=3D""></o:p></span></span></div><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" style=3D"font-size: =
+10pt; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: =
+rgb(31, 73, 125);" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div class=3D""><div =
+style=3D"border-style: solid none none; border-top-color: rgb(181, 196, =
+223); border-top-width: 1pt; padding: 3pt 0cm 0cm;" class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><b class=3D""><span lang=3D"EN-US" =
+style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D"">From:</span></b><span lang=3D"EN-US" style=3D"font-size: =
+10pt; font-family: Tahoma, sans-serif;" class=3D""><span =
+class=3D"Apple-converted-space">&nbsp;</span>Mingyu Hwang [<a =
+href=3D"mailto:mg.hwang@agilesys.co.kr" =
+class=3D"">mailto:mg.hwang@agilesys.co.kr</a>]<span =
+class=3D"Apple-converted-space">&nbsp;</span><br class=3D""><b =
+class=3D"">Sent:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span>Tuesday, January 17, 2017 =
+6:03 PM<br class=3D""><b class=3D"">To:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-size: 10pt;" class=3D"">=EC=9D=B4=EB=91=90=EC=97=B4</span><s=
+pan lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><br class=3D""><b class=3D"">Cc:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-size: 10pt;" class=3D"">=EA=B3=BD=EC=84=B1=EC=A7=84</span><s=
+pan lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D""><br class=3D""><b class=3D"">Subject:</b><span =
+class=3D"Apple-converted-space">&nbsp;</span></span><span =
+style=3D"font-size: 10pt;" class=3D"">=EC=B5=9C=EC=A1=B0=EC=88=9C</span><s=
+pan style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=EC=83=81=EB=AC=B4=EB=8B=98</span><=
+span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=EB=AA=A8=EB=8B=88=ED=84=B0</span><=
+span style=3D"font-size: 10pt; font-family: Tahoma, sans-serif;" =
+class=3D""><span class=3D"Apple-converted-space">&nbsp;</span></span><span=
+ style=3D"font-size: 10pt;" class=3D"">=EA=B5=AC=EB=A7=A4=EA=B1=B4</span><=
+span lang=3D"EN-US" style=3D"font-size: 10pt; font-family: Tahoma, =
+sans-serif;" class=3D"">.<o:p =
+class=3D""></o:p></span></div></div></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div><div style=3D"margin: 0cm 0cm =
+0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D"">=ED=99=A9=EB=AF=BC=EA=B7=9C=EC=9E=85=EB=8B=88=EB=8B=A4<span =
+lang=3D"EN-US" class=3D"">.<o:p class=3D""></o:p></span></div><div =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; =
+font-family: =EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" =
+class=3D""><o:p class=3D"">&nbsp;</o:p></span></div></div><div =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; =
+font-family: =EA=B5=B4=EB=A6=BC;" class=3D"">=EC=B5=9C=EC=A1=B0=EC=88=9C =
+=EC=83=81=EB=AC=B4=EB=8B=98=EC=9D=B4 =EC=82=AC=EC=9A=A9=ED=95=98=EC=8B=A4 =
+=EB=AA=A8=EB=8B=88=ED=84=B0 =EA=B5=AC=EB=A7=A4 =EC=9A=94=EC=B2=AD=EB=93=9C=
+=EB=A6=BD=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" class=3D"">.<o:p =
+class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: =
+0cm 0cm 0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" =
+class=3D"">24</span>=EC=9D=B8=EC=B9=98 =EA=B8=89=EC=9C=BC=EB=A1=9C =
+=EA=B5=AC=EB=A7=A4=ED=95=B4 =EC=A3=BC=EC=8B=9C=EB=A9=B4 =EB=90=A0 =EA=B2=83=
+ =EA=B0=99=EA=B3=A0<span lang=3D"EN-US" class=3D"">,<o:p =
+class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: =
+0cm 0cm 0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D"">=EC=9E=AC=EA=B3=A0 =EC=9E=88=EC=9C=BC=EC=8B=
+=9C=EB=A9=B4 =EC=95=8C=EB=A0=A4=EC=A3=BC=EC=85=94=EB=8F=84 =EB=90=A0 =EA=B2=
+=83 =EA=B0=99=EC=8A=B5=EB=8B=88=EB=8B=A4<span lang=3D"EN-US" =
+class=3D"">.<o:p class=3D""></o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=
+=A4<span lang=3D"EN-US" class=3D"">.<o:p =
+class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: =
+0cm 0cm 0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D""><span lang=3D"EN-US" class=3D""><o:p =
+class=3D"">&nbsp;</o:p></span></div></div><div class=3D""><div =
+class=3D""><div class=3D""><div class=3D""><div class=3D""><div =
+class=3D""><div class=3D""><div class=3D""><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" style=3D"" =
+class=3D"">---------------------------------------------------------------=
+-------<o:p class=3D""></o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" style=3D"" =
+class=3D""><a href=3D"http://www.agilesys.co.kr/" style=3D"color: =
+purple; text-decoration: underline;" class=3D"">&nbsp;ASYS Co. =
+Ltd.</a><o:p class=3D""></o:p></span></div></div><div class=3D""><div =
+style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: =
+=EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" style=3D"" =
+class=3D"">&nbsp;NI Team<br class=3D"">&nbsp;</span><span style=3D"" =
+class=3D"">=ED=99=A9 =EB=AF=BC=EA=B7=9C =EB=B6=80=EC=9E=A5<span =
+lang=3D"EN-US" class=3D""><o:p class=3D""></o:p></span></span></div><div =
+class=3D""><div style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; =
+font-family: =EA=B5=B4=EB=A6=BC;" class=3D""><span lang=3D"EN-US" =
+style=3D"" class=3D"">&nbsp;Cellular : 010-3191-0811<br class=3D""><a =
+href=3D"mailto:mg.hwang@agilesys.co.kr" style=3D"color: purple; =
+text-decoration: underline;" =
+class=3D"">&nbsp;mg.hwang@agilesys.co.kr</a><o:p =
+class=3D""></o:p></span></div></div><div class=3D""><div style=3D"margin: =
+0cm 0cm 0.0001pt; font-size: 12pt; font-family: =EA=B5=B4=EB=A6=BC;" =
+class=3D""><span lang=3D"EN-US" style=3D"" =
+class=3D"">---------------------------------------------------------------=
+-------</span></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_2A2B7CE2-4063-4DE7-BEBC-25E24B1F9828--
+

@@ -1,0 +1,428 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id oHKrAGO9ommnBAAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:03:15 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 0182C14BF5
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:03:15 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1523938664150941342
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from SMS (118.130.109.244) by MAIL-SERVER.agilesys.co.kr
+ (112.220.69.170) with Microsoft SMTP Server id 8.3.389.2; Thu, 21 Jan 2016
+ 10:52:42 +0900
+From: =?ks_c_5601-1987?B?w9a89sGk?= <sujeong@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?sK3Io8H4?= <khj8493@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3A58jG?= <kjhoon88@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sO3Gx7yt?= <vkstj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sPu8usH4?= <bdksj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?scfH9r/t?= <wookhk@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?seiw5rnO?= <srvkkm@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?seizssij?= <nhkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sei/68jx?= <yonghee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejA57jt?=
+	<IMCEAEX-_O=FIRST+20ORGANIZATION_OU=EXCHANGE+20ADMINISTRATIVE+20GROUP+20+28FYDIBOHF23SPDLT+29_CN=RECIPIENTS_CN=Jmkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sejB9sf1?= <jhkim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?udq8urnO?= <psm7072@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?udq/tcO2?= <yc.park@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?uenH/b+s?= <bhy90@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK28rsf2?= <shseo@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vK7BpMjG?= <jhseok@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vLrBvsiv?= <hwany@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?vsjBpMjG?= <ajhof@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?v+y788ij?= <shwoo@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wK+9wsjG?= <ysh@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wK/A57Tr?= <jdyu@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wLG8rsL5?= <ysc1232@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wLG/9byx?= <usyoun@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy1v8iv?= <leedh@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy1zr+t?= <dylee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy8sbHU?= <sklee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMy9vbHU?= <rapkyu222@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzBpLnO?= <jamescm83@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzBvrz2?= <jslee@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wMzB2Mjx?= <juni328@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wNOx5sf2?= <khlim@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wNPAz7HH?= <ilkwon@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?wOWw5sij?= <khjang@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waS6tLmu?= <us129@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waTA58jG?= <jjh0224@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?w9bBvrHZ?= <andychoi@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?x9HBvrD8?= <jkhan@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?x9HH9rG4?= <hanhg@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yKu8vMDH?= <sehong@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Importance: high
+X-Priority: 1
+Content-Class: urn:content-classes:message
+Date: Thu, 21 Jan 2016 10:51:32 +0900
+Subject: =?ks_c_5601-1987?B?W7D4wfZdsdnFwiC51yC/rML3IL7Is7vA1LTPtNku?=
+Thread-Topic: =?ks_c_5601-1987?B?W7D4wfZdsdnFwiC51yC/rML3IL7Is7vA1LTPtNku?=
+Thread-Index: AdFT7U7R7bUw3rRqTBSFrB9tpy7KMQ==
+Message-ID: <001001d153ee$41031d20$c3095760$@agilesys.co.kr>
+Accept-Language: ko-KR
+Content-Language: ko
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 0a
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_001001d153ee41031d20c3095760agilesyscokr_"
+MIME-Version: 1.0
+
+--_000_001001d153ee41031d20c3095760agilesyscokr_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+sOa/tcH2v/jGwL+hvK0gsdnFwiC51yC/rML3IL7Is7sgteW4s7TPtNkuDQqws8DOILnXILrOvK26
+sCCx2cXCILD8uK6/zSC/rML3ILvnv+u/oSDHz7HiILO7v+vAuyDC/LDtx8+9w7HiILnZtvi0z7TZ
+Lg0KDQoxLiAgICAgsdnFwrDotMIgssAgwabD4iC52bb4tM+02S4NCg0Kud3C9ywgv6zC9ywgtOvD
+vMjeuasgu+e/673DILLAILHZxcKw6LimIMGmw+LHz73DseIgudm2+LTPtNkuDQq758D8IMGmw+LA
+zCC+7rfBv+8gvcO/obTCILG4tc6zqiC43sDPt84gxsDA5SC51yCw5r+1wfa/+MbAv6Egvsu3wcHW
+vcOw7Swgu+fIxL+hILHZxcKw6CDA27y6ILnZtvi0z7TZLg0KtsfH0SCx2cXCsOggsOHA5yC9wyDC
+/MG2v6EgssAgsOa/tcH2v/jGwCjAzLXOv61CLCDD1rz2waREKSDG98fUx9jB1ry8v+QuDQq5zMb3
+x9QgvcMgsKIgsLPAzsDMIMH3waIgsdnFwrDoIMPit8IgyMQgwabD4sfPv6m+3yDH1bTPtNkuDQoN
+Cg0KMi4gICAgIMPisdkgudcgv9yx2b3DILrOwOew/LiuIMfYwda8vL/kLg0KDQrD4rHZwLogsde3
+7L/+vu64piC757/rx8+/qSCywCDDvMWpILnZtvi0z7TZLg0KDQoNCg0KMy4gICAgIL+swvcgwM+8
+9rTCIMDUu+cgMbPiILHiwdggMTXAzyDA1LTPtNkuDQoNCsDUu+cgMbPiIMDMu/Mgwfe/+MDHIL+s
+wve0wiCx4rq7wPvAuLfOIDE1wM8gwNS0z7TZLg0KDQq2x8fRIDOz4sL3us7FzbTCILjFIDKz4r+h
+ILTrx8+/qSAxwM++vyC/rML3sKEgw9+wobXLtM+02S4NCg0KKMDUu+cgMy00s+Igwvc9MTbAzywg
+NS02s+Igwvc9MTfAzywgNy04s+Igwvc9MTjAzyB+ICkNCg0KseK6uyC/rML3ICsgsKG76iC/rML3
+wMcgw9a06yDAz7z2tMIgMjXAzyDA1LTPtNkuDQoNCsDUu+cgMbPiILnMuLjAxyCw5r/sIDGws7/5
+ILi4sdkgvcMgv6zC97ChIDHAz76/ILrOv6m1x7jnIDGz4iDAzLvzwMwgtcggvcPBob+hIDE1wM/A
+zCC537v9x9W0z7TZLg0KDQrAzLanIDGz4iDAzLvzIL3DwaG/oSC537v9x9EgMTXAz7+hvK0gMbPi
+ILnMuLjAzyC2pyC757/rx9Egv6zC9yDAz7z2tMIgwvewqLXLtM+02S4NCg0KDQoNCjQuICAgICDH
+z7DoyN6woSwgw6K4s7His+TAzywgu/e15cCnxKEgyN65qyC17sC6ILjwtc4gv6zC97+hvK0gwvew
+qLXLtM+02S4NCg0KwPzB97/4ILTru/MgwNO9w8jeuavAz8DHILDmv+wgv6zC97+hvK0gwvewqMfP
+uOcsDQoNCsfYtOcgyN65q8DPv6Egw+Kx2cfPtMIgsOa/7L+htMIgucy4riCw5r+1wfa/+MbAv6Eg
+vsu3wcHWvcO46SC/rML3IML3sKjHz8H2IL7KvcC0z7TZLg0KDQoNCg0KNS4gICAgIL+swve4piC6
+2b+pvK0gu+e/68fPtMIgsM3AuiCws8DOwMcgwNrAr8DUtM+02S4NCg0KsKIgus68rb/4ILnXIMPR
+sP2047TnwNq/zcDHILvzwMe4piDF68fYILDhwaTHz73DuOkgtcu0z7TZLg0KDQq02bi4IMfPsOjI
+3rChwMcgw9a06yDAz7z2sKEgNcDPwM4gwaHAuyDC/LDtx8+/qQ0KDQq6zrXmwMzH0SCw5r/suKYg
+waa/3MfPsO20wiC/rML3uKYguPS+xrytILvnv+vHz7TCILDNwLogwNrBpsfYwda8vL/kLg0KDQoN
+Cg0KNi4gICAgILCzwM66sCC/rML3IMDPvPa0wiCws7qwwPvAuLfOILmuwMe52bb4tM+02S4NCg0K
+v6zC98PLwfjBpr+hILX7tvMgNr/5sOa/oSCws8DOurAgwNy/qSC/rML3IMDPvPa4piC+y7fBteW4
+sSC/ucGkwNS0z7TZLg0KNr/5v6EgwNy/qSDAz7z2IL7Is7sgud7AuL3FIMjEv6G0wiDHz7ndseIg
+v6zC9yC757/rIMDPwaTAuyAxMMDPIMDMs7u/oSDF67q4x9jB1rzFvt8gx9W0z7TZLg0KuLi+4CDA
+z8GkIMXruri4piDHz8H2IL7KwLsgsOa/7CAxML/5sOa/oSDIuLvnv6G8rSDA08DHt84gv6zC9yDA
+z8GkwLsgwfbBpMfVtM+02S4NCrHXt7O/obW1ILvnv+vHz8H2IL7KwLogv6zC97TCILzSuOq1y7TP
+tNkuDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tDQrB1r3EyLi75yAgv6HAzL3DvbogILDmv7XB9r/4xsAgIMPWvPbBpCC067iuDQpURUwpIDA3
+MC03MTE0LTAwMjEgLyAgTSkgMDEwLTc2NzctNDc4MA0KRS1tYWlsKSBzdWplb25nQGFnaWxlc3lz
+LmNvLmtyPG1haWx0bzpzdWplb25nQGFnaWxlc3lzLmNvLmtyPg0KvK2/773DILytw8qxuCC53cb3
+tb8gNjctM7n4wfYgtOu4orr0tfkgNMP+DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQo=
+
+--_000_001001d153ee41031d20c3095760agilesyscokr_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"=
+Microsoft Word 14 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:4.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1825588730;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1064234074 1636307024 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:38.0pt;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-20.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:80.0pt;
+	text-indent:-20.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:100.0pt;
+	text-indent:-20.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-20.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:140.0pt;
+	text-indent:-20.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:160.0pt;
+	text-indent:-20.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-20.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:200.0pt;
+	text-indent:-20.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue vlink=
+=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal style=3D'text-inde=
+nt:5.0pt'>=B0=E6=BF=B5=C1=F6=BF=F8=C6=C0=BF=A1=BC=AD =B1=D9=C5=C2 =B9=D7 =
+=BF=AC=C2=F7 =BE=C8=B3=BB =B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US>.<o:p>=
+</o:p></span></p><p class=3DMsoNormal style=3D'text-indent:5.0pt'>=B0=B3=C0=
+=CE =B9=D7 =BA=CE=BC=AD=BA=B0 =B1=D9=C5=C2 =B0=FC=B8=AE=BF=CD =BF=AC=C2=F7 =
+=BB=E7=BF=EB=BF=A1 =C7=CF=B1=E2 =B3=BB=BF=EB=C0=BB =C2=FC=B0=ED=C7=CF=BD=C3=
+=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span lang=3DEN-US> <o:p></o:p></span></p><p class=3DMso=
+ListParagraph style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-ind=
+ent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><b><span lang=3DE=
+N-US><span style=3D'mso-list:Ignore'>1.<span style=3D'font:7.0pt "Times New=
+ Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></b><![endif]><b>=B1=
+=D9=C5=C2=B0=E8=B4=C2 =B2=C0 =C1=A6=C3=E2 =B9=D9=B6=F8=B4=CF=B4=D9<span lan=
+g=3DEN-US>.<o:p></o:p></span></b></p><p class=3DMsoListParagraph style=3D'm=
+argin-left:38.0pt;mso-para-margin-left:0gd'>=B9=DD=C2=F7<span lang=3DEN-US>=
+, </span>=BF=AC=C2=F7<span lang=3DEN-US>, </span>=B4=EB=C3=BC=C8=DE=B9=AB =
+=BB=E7=BF=EB=BD=C3 =B2=C0 =B1=D9=C5=C2=B0=E8=B8=A6 =C1=A6=C3=E2=C7=CF=BD=C3=
+=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p=
+ class=3DMsoNormal style=3D'text-indent:35.0pt'>=BB=E7=C0=FC =C1=A6=C3=E2=
+=C0=CC =BE=EE=B7=C1=BF=EF =BD=C3=BF=A1=B4=C2 =B1=B8=B5=CE=B3=AA =B8=DE=C0=
+=CF=B7=CE =C6=C0=C0=E5 =B9=D7 =B0=E6=BF=B5=C1=F6=BF=F8=C6=C0=BF=A1 =BE=CB=
+=B7=C1=C1=D6=BD=C3=B0=ED<span lang=3DEN-US>, </span>=BB=E7=C8=C4=BF=A1 =B1=
+=D9=C5=C2=B0=E8 =C0=DB=BC=BA =B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o=
+:p></o:p></span></p><p class=3DMsoNormal style=3D'text-indent:35.0pt'>=B6=
+=C7=C7=D1 =B1=D9=C5=C2=B0=E8 =B0=E1=C0=E7 =BD=C3 =C2=FC=C1=B6=BF=A1 =B2=C0 =
+=B0=E6=BF=B5=C1=F6=BF=F8=C6=C0<span lang=3DEN-US>(</span>=C0=CC=B5=CE=BF=AD=
+<span lang=3DEN-US>B, </span>=C3=D6=BC=F6=C1=A4<span lang=3DEN-US>D) </span=
+>=C6=F7=C7=D4=C7=D8=C1=D6=BC=BC=BF=E4<span lang=3DEN-US>.<o:p></o:p></span>=
+</p><p class=3DMsoNormal style=3D'text-indent:35.0pt'>=B9=CC=C6=F7=C7=D4 =
+=BD=C3 =B0=A2 =B0=B3=C0=CE=C0=CC =C1=F7=C1=A2 =B1=D9=C5=C2=B0=E8 =C3=E2=B7=
+=C2 =C8=C4 =C1=A6=C3=E2=C7=CF=BF=A9=BE=DF =C7=D5=B4=CF=B4=D9<span lang=3DEN=
+-US>.<o:p></o:p></span></p><p class=3DMsoNormal style=3D'text-indent:35.0pt=
+'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoListParagrap=
+h style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt;=
+mso-list:l0 level1 lfo1'><![if !supportLists]><b><span lang=3DEN-US><span s=
+tyle=3D'mso-list:Ignore'>2.<span style=3D'font:7.0pt "Times New Roman"'>&nb=
+sp;&nbsp;&nbsp;&nbsp; </span></span></span></b><![endif]><b>=C3=E2=B1=D9 =
+=B9=D7 =BF=DC=B1=D9=BD=C3 =BA=CE=C0=E7=B0=FC=B8=AE =C7=D8=C1=D6=BC=BC=BF=E4=
+<span lang=3DEN-US>.<o:p></o:p></span></b></p><p class=3DMsoListParagraph s=
+tyle=3D'margin-left:38.0pt;mso-para-margin-left:0gd'>=C3=E2=B1=D9=C0=BA =B1=
+=D7=B7=EC=BF=FE=BE=EE=B8=A6 =BB=E7=BF=EB=C7=CF=BF=A9 =B2=C0 =C3=BC=C5=A9 =
+=B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-para-margin-left:0gd'><=
+span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoListParagraph s=
+tyle=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt;mso=
+-list:l0 level1 lfo1'><![if !supportLists]><b><span lang=3DEN-US><span styl=
+e=3D'mso-list:Ignore'>3.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;=
+&nbsp;&nbsp;&nbsp; </span></span></span></b><![endif]><b>=BF=AC=C2=F7 =C0=
+=CF=BC=F6=B4=C2 =C0=D4=BB=E7<span lang=3DEN-US> 1</span>=B3=E2 =B1=E2=C1=D8=
+<span lang=3DEN-US> 15</span>=C0=CF =C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<=
+o:p></o:p></span></b></p><p class=3DMsoListParagraph style=3D'margin-left:3=
+8.0pt;mso-para-margin-left:0gd'>=C0=D4=BB=E7<span lang=3DEN-US> 1</span>=B3=
+=E2 =C0=CC=BB=F3 =C1=F7=BF=F8=C0=C7 =BF=AC=C2=F7=B4=C2 =B1=E2=BA=BB=C0=FB=
+=C0=B8=B7=CE<span lang=3DEN-US> 15</span>=C0=CF =C0=D4=B4=CF=B4=D9<span lan=
+g=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margi=
+n-left:38.0pt;mso-para-margin-left:0gd'>=B6=C7=C7=D1<span lang=3DEN-US> 3</=
+span>=B3=E2=C2=F7=BA=CE=C5=CD=B4=C2 =B8=C5<span lang=3DEN-US> 2</span>=B3=
+=E2=BF=A1 =B4=EB=C7=CF=BF=A9<span lang=3DEN-US> 1</span>=C0=CF=BE=BF =BF=AC=
+=C2=F7=B0=A1 =C3=DF=B0=A1=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p><=
+/span></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-para-=
+margin-left:0gd'><span lang=3DEN-US>(</span>=C0=D4=BB=E7<span lang=3DEN-US>=
+ 3-4</span>=B3=E2 =C2=F7<span lang=3DEN-US>=3D16</span>=C0=CF<span lang=3DE=
+N-US>, 5-6</span>=B3=E2 =C2=F7<span lang=3DEN-US>=3D17</span>=C0=CF<span la=
+ng=3DEN-US>, 7-8</span>=B3=E2 =C2=F7<span lang=3DEN-US>=3D18</span>=C0=CF<s=
+pan lang=3DEN-US> ~ )<o:p></o:p></span></p><p class=3DMsoListParagraph styl=
+e=3D'margin-left:38.0pt;mso-para-margin-left:0gd'>=B1=E2=BA=BB =BF=AC=C2=F7=
+<span lang=3DEN-US> + </span>=B0=A1=BB=EA =BF=AC=C2=F7=C0=C7 =C3=D6=B4=EB =
+=C0=CF=BC=F6=B4=C2<span lang=3DEN-US> 25</span>=C0=CF =C0=D4=B4=CF=B4=D9<sp=
+an lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D=
+'margin-left:38.0pt;mso-para-margin-left:0gd'>=C0=D4=BB=E7<span lang=3DEN-U=
+S> 1</span>=B3=E2 =B9=CC=B8=B8=C0=C7 =B0=E6=BF=EC<span lang=3DEN-US> 1</spa=
+n>=B0=B3=BF=F9 =B8=B8=B1=D9 =BD=C3 =BF=AC=C2=F7=B0=A1<span lang=3DEN-US> 1<=
+/span>=C0=CF=BE=BF =BA=CE=BF=A9=B5=C7=B8=E7<span lang=3DEN-US> 1</span>=B3=
+=E2 =C0=CC=BB=F3=C0=CC =B5=C8 =BD=C3=C1=A1=BF=A1<span lang=3DEN-US> 15</spa=
+n>=C0=CF=C0=CC =B9=DF=BB=FD=C7=D5=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p=
+></span></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-par=
+a-margin-left:0gd'>=C0=CC=B6=A7<span lang=3DEN-US> 1</span>=B3=E2 =C0=CC=BB=
+=F3 =BD=C3=C1=A1=BF=A1 =B9=DF=BB=FD=C7=D1<span lang=3DEN-US> 15</span>=C0=
+=CF=BF=A1=BC=AD<span lang=3DEN-US> 1</span>=B3=E2 =B9=CC=B8=B8=C0=CF =B6=A7=
+ =BB=E7=BF=EB=C7=D1 =BF=AC=C2=F7 =C0=CF=BC=F6=B4=C2 =C2=F7=B0=A8=B5=CB=B4=
+=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoListParagr=
+aph style=3D'margin-left:38.0pt;mso-para-margin-left:0gd'><span lang=3DEN-U=
+S><o:p>&nbsp;</o:p></span></p><p class=3DMsoListParagraph style=3D'margin-l=
+eft:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><b><span lang=3DEN-US><span style=3D'mso-list:Ig=
+nore'>4.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbs=
+p; </span></span></span></b><![endif]><b>=C7=CF=B0=E8=C8=DE=B0=A1<span lang=
+=3DEN-US>, </span>=C3=A2=B8=B3=B1=E2=B3=E4=C0=CF<span lang=3DEN-US>, </span=
+>=BB=F7=B5=E5=C0=A7=C4=A1 =C8=DE=B9=AB =B5=EE=C0=BA =B8=F0=B5=CE =BF=AC=C2=
+=F7=BF=A1=BC=AD =C2=F7=B0=A8=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:=
+p></span></b></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;ms=
+o-para-margin-left:0gd'>=C0=FC=C1=F7=BF=F8 =B4=EB=BB=F3 =C0=D3=BD=C3=C8=DE=
+=B9=AB=C0=CF=C0=C7 =B0=E6=BF=EC =BF=AC=C2=F7=BF=A1=BC=AD =C2=F7=B0=A8=C7=CF=
+=B8=E7<span lang=3DEN-US>,<o:p></o:p></span></p><p class=3DMsoListParagraph=
+ style=3D'margin-left:38.0pt;mso-para-margin-left:0gd'>=C7=D8=B4=E7 =C8=DE=
+=B9=AB=C0=CF=BF=A1 =C3=E2=B1=D9=C7=CF=B4=C2 =B0=E6=BF=EC=BF=A1=B4=C2 =B9=CC=
+=B8=AE =B0=E6=BF=B5=C1=F6=BF=F8=C6=C0=BF=A1 =BE=CB=B7=C1=C1=D6=BD=C3=B8=E9 =
+=BF=AC=C2=F7 =C2=F7=B0=A8=C7=CF=C1=F6 =BE=CA=BD=C0=B4=CF=B4=D9<span lang=3D=
+EN-US>.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-le=
+ft:38.0pt;mso-para-margin-left:0gd'><span lang=3DEN-US><o:p>&nbsp;</o:p></s=
+pan></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-para-ma=
+rgin-left:0gd;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLi=
+sts]><b><span lang=3DEN-US><span style=3D'mso-list:Ignore'>5.<span style=3D=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></spa=
+n></b><![endif]><b>=BF=AC=C2=F7=B8=A6 =BA=D9=BF=A9=BC=AD =BB=E7=BF=EB=C7=CF=
+=B4=C2 =B0=CD=C0=BA =B0=B3=C0=CE=C0=C7 =C0=DA=C0=AF=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US>.<o:p></o:p></span></b></p><p class=3DMsoListParagraph style=
+=3D'margin-left:38.0pt;mso-para-margin-left:0gd'>=B0=A2 =BA=CE=BC=AD=BF=F8 =
+=B9=D7 =C3=D1=B0=FD=B4=E3=B4=E7=C0=DA=BF=CD=C0=C7 =BB=F3=C0=C7=B8=A6 =C5=EB=
+=C7=D8 =B0=E1=C1=A4=C7=CF=BD=C3=B8=E9 =B5=CB=B4=CF=B4=D9<span lang=3DEN-US>=
+.<o:p></o:p></span></p><p class=3DMsoListParagraph style=3D'margin-left:38.=
+0pt;mso-para-margin-left:0gd'>=B4=D9=B8=B8 =C7=CF=B0=E8=C8=DE=B0=A1=C0=C7 =
+=C3=D6=B4=EB =C0=CF=BC=F6=B0=A1<span lang=3DEN-US> 5</span>=C0=CF=C0=CE =C1=
+=A1=C0=BB =C2=FC=B0=ED=C7=CF=BF=A9<span lang=3DEN-US><o:p></o:p></span></p>=
+<p class=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-para-margin-lef=
+t:0gd'>=BA=CE=B5=E6=C0=CC=C7=D1 =B0=E6=BF=EC=B8=A6 =C1=A6=BF=DC=C7=CF=B0=ED=
+=B4=C2 =BF=AC=C2=F7=B8=A6 =B8=F4=BE=C6=BC=AD =BB=E7=BF=EB=C7=CF=B4=C2 =B0=
+=CD=C0=BA =C0=DA=C1=A6=C7=D8=C1=D6=BC=BC=BF=E4<span lang=3DEN-US>.<o:p></o:=
+p></span></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-pa=
+ra-margin-left:0gd'><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=
+=3DMsoListParagraph style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;te=
+xt-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><b><span la=
+ng=3DEN-US><span style=3D'mso-list:Ignore'>6.<span style=3D'font:7.0pt "Tim=
+es New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></b><![endif]>=
+<b>=B0=B3=C0=CE=BA=B0 =BF=AC=C2=F7 =C0=CF=BC=F6=B4=C2 =B0=B3=BA=B0=C0=FB=C0=
+=B8=B7=CE =B9=AE=C0=C7=B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:=
+p></span></b></p><p class=3DMsoListParagraph style=3D'margin-left:38.0pt;ms=
+o-para-margin-left:0gd'>=BF=AC=C2=F7=C3=CB=C1=F8=C1=A6=BF=A1 =B5=FB=B6=F3<s=
+pan lang=3DEN-US> 6</span>=BF=F9=B0=E6=BF=A1 =B0=B3=C0=CE=BA=B0 =C0=DC=BF=
+=A9 =BF=AC=C2=F7 =C0=CF=BC=F6=B8=A6 =BE=CB=B7=C1=B5=E5=B8=B1 =BF=B9=C1=A4=
+=C0=D4=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p class=3DMsoN=
+ormal style=3D'margin-left:38.0pt'><span lang=3DEN-US>6</span>=BF=F9=BF=A1 =
+=C0=DC=BF=A9 =C0=CF=BC=F6 =BE=C8=B3=BB =B9=DE=C0=B8=BD=C5 =C8=C4=BF=A1=B4=
+=C2 =C7=CF=B9=DD=B1=E2 =BF=AC=C2=F7 =BB=E7=BF=EB =C0=CF=C1=A4=C0=BB<span la=
+ng=3DEN-US> 10</span>=C0=CF =C0=CC=B3=BB=BF=A1 =C5=EB=BA=B8=C7=D8=C1=D6=BC=
+=C5=BE=DF =C7=D5=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></span></p><p cl=
+ass=3DMsoNormal style=3D'margin-left:38.0pt'>=B8=B8=BE=E0 =C0=CF=C1=A4 =C5=
+=EB=BA=B8=B8=A6 =C7=CF=C1=F6 =BE=CA=C0=BB =B0=E6=BF=EC<span lang=3DEN-US> 1=
+0</span>=BF=F9=B0=E6=BF=A1 =C8=B8=BB=E7=BF=A1=BC=AD =C0=D3=C0=C7=B7=CE =BF=
+=AC=C2=F7 =C0=CF=C1=A4=C0=BB =C1=F6=C1=A4=C7=D5=B4=CF=B4=D9<span lang=3DEN-=
+US>.<o:p></o:p></span></p><p class=3DMsoNormal style=3D'margin-left:38.0pt'=
+>=B1=D7=B7=B3=BF=A1=B5=B5 =BB=E7=BF=EB=C7=CF=C1=F6 =BE=CA=C0=BA =BF=AC=C2=
+=F7=B4=C2 =BC=D2=B8=EA=B5=CB=B4=CF=B4=D9<span lang=3DEN-US>.<o:p></o:p></sp=
+an></p><p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>=
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:9.0pt'>---------=
+--------------------------------------------<o:p></o:p></span></p><p class=
+=3DMsoNormal><span style=3D'font-size:9.0pt'>=C1=D6=BD=C4=C8=B8=BB=E7<span =
+lang=3DEN-US>&nbsp; </span>=BF=A1=C0=CC=BD=C3=BD=BA<span lang=3DEN-US>&nbsp=
+; </span>=B0=E6=BF=B5=C1=F6=BF=F8=C6=C0<span lang=3DEN-US>&nbsp; </span>=C3=
+=D6=BC=F6=C1=A4 =B4=EB=B8=AE<span lang=3DEN-US><o:p></o:p></span></span></p=
+><p class=3DMsoNormal><span lang=3DEN-US style=3D'font-size:9.0pt'>TEL) 070=
+-7114-0021 /&nbsp; M) 010-7677-4780<o:p></o:p></span></p><p class=3DMsoNorm=
+al><span lang=3DEN-US style=3D'font-size:9.0pt'>E-mail) <a href=3D"mailto:s=
+ujeong@agilesys.co.kr">sujeong@agilesys.co.kr</a><o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span style=3D'font-size:9.0pt'>=BC=AD=BF=EF=BD=C3 =BC=AD=
+=C3=CA=B1=B8 =B9=DD=C6=F7=B5=BF<span lang=3DEN-US> 67-3</span>=B9=F8=C1=F6 =
+=B4=EB=B8=A2=BA=F4=B5=F9<span lang=3DEN-US> 4</span>=C3=FE<span lang=3DEN-U=
+S><o:p></o:p></span></span></p><p class=3DMsoNormal><span lang=3DEN-US>----=
+-------------------------------------------------<o:p></o:p></span></p><p c=
+lass=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></bod=
+y></html>=
+
+--_000_001001d153ee41031d20c3095760agilesyscokr_--

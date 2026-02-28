@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id kPBhJ4jGomn5BgAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:42:16 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id A035A14C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:42:16 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1555362795617453206
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp5114613wma;
+        Sun, 1 Jan 2017 15:00:51 -0800 (PST)
+X-Received: by 10.28.62.141 with SMTP id l135mr52650091wma.20.1483311651144;
+        Sun, 01 Jan 2017 15:00:51 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning leedh@agilesys.co.kr does not designate 110.45.130.212 as permitted sender) smtp.mailfrom=leedh@agilesys.co.kr
+Received-SPF: softfail (google.com: domain of transitioning leedh@agilesys.co.kr does not designate 110.45.130.212 as permitted sender) client-ip=110.45.130.212;
+Received: by 10.28.163.1 with POP3 id m1mf164788850wme.0;
+        Sun, 01 Jan 2017 15:00:50 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 20463 invoked by uid 700); 2 Jan 2017 07:25:51 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	2 Jan 2017 07:25:51 +0900
+Received: (qmail 22678 invoked by uid 700); 2 Jan 2017 07:25:51 +0900
+Received: from unknown (HELO whoisdesk.com) (110.45.130.212)
+	by 0 (knetqmail v1.06) with SMTP;
+	2 Jan 2017 07:25:51 +0900
+Date: Mon, 2 Jan 2017 07:25:51 +0900
+To: =?utf-8?B?6rCV7Zi47KeEIA==?= <khj8493@agilesys.co.kr>, =?utf-8?B?6rOg7J6s7ZuIIA==?= <kjhoon88@agilesys.co.kr>, =?utf-8?B?6rOg7YyQ7IScIA==?= <vkstj@agilesys.co.kr>, =?utf-8?B?6raM7ZiE7JqxIA==?= <wookhk@agilesys.co.kr>, =?utf-8?B?6rmA6rK966+8IA==?= <srvkkm@agilesys.co.kr>, =?utf-8?B?6rmA7KeA7ZiBIA==?= <jhkim@agilesys.co.kr>, =?utf-8?B?6rmA7YOc7IOBIA==?= <ts.kim@agilesys.co.kr>, =?utf-8?B?67CV7J6s7ZiEIA==?= <wogus8894@agilesys.co.kr>, =?utf-8?B?7ISc7ISd7ZiEIA==?= <shseo@agilesys.co.kr>, =?utf-8?B?7ISx7KKF7ZmYIA==?= <hwany@agilesys.co.kr>, =?utf-8?B?7JWI7KCV7ZuIIA==?= <ajhof@agilesys.co.kr>, =?utf-8?B?7Jyg7J6s64yAIA==?= <jdyu@agilesys.co.kr>, =?utf-8?B?7Jyk7ISd7LCsIA==?= <ysc1232@agilesys.co.kr>, =?utf-8?B?7Jyk7JuF7ISgIA==?= <usyoun@agilesys.co.kr>, =?utf-8?B?7J207Iqs6recIA==?= <rapkyu222@agilesys.co.kr>, =?utf-8?B?7J207KKF7IiYIA==?= <jslee@agilesys.co.kr>, =?utf-8?B?7J207KSA7Z2sIA==?= <juni328@agilesys.co.kr>, =?utf-8?B?7KGw66qF7KeEIA==?= <jmj0105004@agilesys.co.kr>,
+	=?utf-8?B?7ZWc7ZiE6rWsIA==?= <hanhg@agilesys.co.kr>, =?utf-8?B?7Zmp66+86recIA==?= <mg.hwang@agilesys.co.kr>
+From: =?utf-8?B?7J2064+Z7ZmY?= <leedh@agilesys.co.kr>
+Reply-to: leedh@agilesys.co.kr
+Subject: =?utf-8?B?7LCo65+J7J287KeAIOyXheuNsOydtO2KuCEhIQ==?=
+Message-ID: <098ee773c41c58cfa20d510e350f1391@whoisdesk.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_098ee773c41c58cfa20d510e350f1391"
+
+
+--b1_098ee773c41c58cfa20d510e350f1391
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7Iqk7Yag66as7KeA6riw7Iig7YyAIOydtOuPme2ZmOyeheuLiOuLpC7sgqzrgrQg7LCo65+JIOyd
+tOyaqSDsoIQs7ZuECuywqOufieydvOyngCDsl4XrjbDsnbTtirgg7ZWY7IS47JqULuuqhyDrsojs
+nqwg67O064K064qUIOuplOydvOyduOyngArrqqjrpbTqsqDsirXri4jri6QuCg==
+
+
+--b1_098ee773c41c58cfa20d510e350f1391
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PHA+7Iqk7Yag66as7KeA6riw7Iig7YyAIOydtOuPme2ZmOyeheuLiOuLpC48L3A+PHA+PGJyPjwv
+cD48cD7sgqzrgrQg7LCo65+JIOydtOyaqSDsoIQs7ZuEIOywqOufieydvOyngCDsl4XrjbDsnbTt
+irgg7ZWY7IS47JqULjwvcD48cD48YnI+PC9wPjxwPuuqhyDrsojsnqwg67O064K064qUIOuplOyd
+vOyduOyngCDrqqjrpbTqsqDsirXri4jri6QuPC9wPjxwPjxicj48L3A+PGRpdj48cD48aW1nIHNy
+Yz0iaHR0cDovL2luZnJhLm5kZXNrLmNvbS9jb21tb24vZWRpdG9yRG93bmxvYWRJbWFnZS8/Zmls
+ZT05OWI2Zjg5ZS02ZGVlLTAxODQtODk2MS05M2Q4OGEyMDVlNjEmYW1wO3l5eXltbWRkPTIwMTYx
+MTI5JmFtcDtkb21haW49YWdpbGVzeXMuY28ua3ImYW1wO3ZpZXdUeXBlPSIgdGl0bGU9Iu2BrOq4
+sOuzgO2ZmF/shJzrqoUuSlBHIj48YnI+PC9wPjwvZGl2PjxpbWcgc3R5bGU9ImJvcmRlcjpub25l
+OyB3aWR0aDoxcHg7IGhlaWdodDoxcHg7IGRpc3BsYXk6bm9uZSIgc3JjPSJodHRwOi8vbWFpbC5h
+Z2lsZXN5cy5jby5rci9jb21tb24vY29uZmlybVJlYWQvP21lc3NhZ2VJZD1mNjhhYjk5ZC1kZWY3
+LWQyZGUtZmM1My1hNTVjZjljNTExZTUmZW1haWw9bWcuaHdhbmdAYWdpbGVzeXMuY28ua3IiIC8+
+
+
+
+--b1_098ee773c41c58cfa20d510e350f1391--
+

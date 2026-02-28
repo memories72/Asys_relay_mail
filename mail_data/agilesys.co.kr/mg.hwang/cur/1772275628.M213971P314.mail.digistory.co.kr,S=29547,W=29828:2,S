@@ -1,0 +1,281 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id WCGxDKzHomk6AQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:47:08 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 3321F14C40
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:47:08 +0000 (UTC)
+Authentication-Results: nas.agilesys.co.kr;
+	dkim=fail reason="key revoked" header.d=gmail.com header.i=@gmail.com header.a=rsa-sha256 header.s=20161025 header.b=oHf52s4O;
+	dkim-atps=neutral
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556374905996282147
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp1412287wme;
+        Thu, 12 Jan 2017 18:32:54 -0800 (PST)
+X-Received: by 10.98.85.198 with SMTP id j189mr19987072pfb.182.1484274774829;
+        Thu, 12 Jan 2017 18:32:54 -0800 (PST)
+Received: from mail-pf0-x232.google.com (mail-pf0-x232.google.com. [2607:f8b0:400e:c00::232])
+        by mx.google.com with ESMTPS id k1si11100817pld.296.2017.01.12.18.32.54
+        for <heemin@digistory.co.kr>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Jan 2017 18:32:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of vienie77@gmail.com designates 2607:f8b0:400e:c00::232 as permitted sender) client-ip=2607:f8b0:400e:c00::232;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of vienie77@gmail.com designates 2607:f8b0:400e:c00::232 as permitted sender) smtp.mailfrom=vienie77@gmail.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pf0-x232.google.com with SMTP id 189so22762149pfu.3
+        for <heemin@digistory.co.kr>; Thu, 12 Jan 2017 18:32:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=in-reply-to:references:thread-topic:user-agent:mime-version
+         :content-transfer-encoding:subject:from:date:to:message-id;
+        bh=KwqVd04hewW0f1gYPE6V5yQbZAz/22+DBFeJQOv9kzc=;
+        b=oHf52s4OLzP29JuG4pS773uTuaKfGKBR6PbBums6FO7gS9mjgRZNeCG1i3f0zD+7lV
+         w+Rr8NIpciYHY9aO75TQtbczIP3MFtAZ8yLKoRzWiAi+4K52PiNVs6rSbgGJz5+mUmsp
+         xyZzJMdYhwTrYx9ApzTontBtQYvlk44lLe/KBXr8Jk2U8wxH246cs9WbBEs7+ElsoPqI
+         VejSdgnfNC3wl97ZDj9U1bZF+P55WBKrN3VYFBKxkOYMG6e4MudVrHoXcOBlwN4PS8AW
+         0lTB8VFiuaYHhObG3VXixFOtnvKcHJlebtAWe1rEbH1RmrAsQpjS8rj75blfUk6kU8Kf
+         r02w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:in-reply-to:references:thread-topic:user-agent
+         :mime-version:content-transfer-encoding:subject:from:date:to
+         :message-id;
+        bh=KwqVd04hewW0f1gYPE6V5yQbZAz/22+DBFeJQOv9kzc=;
+        b=dvEJSd816CFbgfxEDmHsWIurJ9ZueynX2Jf/WyaxUICX/IqzrxGluoLDhXJWsLJJ8p
+         YTOZYMexYVklv2SSer1HQXAzwzgmFQ3owxkA8apavlFzbMjAVxppXmUrAiDnH/PPWXMO
+         bHfi9IhscgIz3tZkfx897E/mwSz3KL1jW+hPYl1mzfCB51QspteeWYd3poAywV8C9KZf
+         tSqPQmiOZrgsUL75fOh2W/eiXpslwmLhA37a2dBoE8OOOi7EBmAJHmQN+xS308v80SsR
+         l7HYQiM3xv4K68BICRfpM0v1E52IZUwBy/VN40C9NB6xio8+ihjbSvneauKmapXSt7fk
+         Hu9g==
+X-Gm-Message-State: AIkVDXJGsp7JAD8R21NdHIqTgtwK65Ix+aonONvuh6Le6vi4EHqwFbREgZnyQv2e9w4uHg==
+X-Received: by 10.84.134.1 with SMTP id 1mr11141852plg.3.1484274773765;
+        Thu, 12 Jan 2017 18:32:53 -0800 (PST)
+In-Reply-To: <001a113f9a7811ac030545efe3aa@google.com>
+References: <001a113f9a7811ac030545efe3aa@google.com>
+X-Referenced-Uid: 14900
+Thread-Topic: =?UTF-8?B?7LSI64yA7J6lOiBOSe2MgCDtmozsi50gLSAyMDE3LiAxLiAyNC4gKA==?=
+	=?UTF-8?B?7ZmUKSDsmKTtm4QgNuyLnCAtIOyYpO2bhCA57IucIChraW0gc2ltb24p?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----K0SJV5030OVELMFM0GPQCF8L94RKTT"
+Content-Transfer-Encoding: 8bit
+X-Local-Message-Id: <dda44955-9c06-4027-8960-9ecf7f19a635@typeapp.com>
+Subject: =?UTF-8?B?UmU6IOy0iOuMgOyepTogTkntjIAg7ZqM7IudIC0gMjAxNy4gMS4gMjQu?=
+	=?UTF-8?B?ICjtmZQpIOyYpO2bhCA27IucIC0g7Jik7ZuEIDnsi5wgKGtpbSBzaW1vbik=?=
+From: =?UTF-8?B?6rmA7JiB67mI?= <vienie77@gmail.com>
+Date: Fri, 13 Jan 2017 11:32:47 +0900
+To: heemin@digistory.co.kr
+Message-ID: <dda44955-9c06-4027-8960-9ecf7f19a635@typeapp.com>
+
+------K0SJV5030OVELMFM0GPQCF8L94RKTT
+Content-Type: multipart/alternative; boundary="----D0GNLCWBD1J3N5N4RPT9L71G5BBP9S"
+Content-Transfer-Encoding: 8bit
+
+------D0GNLCWBD1J3N5N4RPT9L71G5BBP9S
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+BlueMailìì ì ì¡
+
+
+
+2017ë 1ì 13ì¼ 10:38, 10:38, heemin@digistory.co.kr ìì±:
+><span itemscope itemtype="http://schema.org/InformAction"><span
+>style="display:none" itemprop="about" itemscope
+>itemtype="http://schema.org/Person"><meta itemprop="description"
+>content="heemin@digistory.co.krëì´ ë³´ë¸ ì´ë"/></span><span
+>itemprop="object" itemscope itemtype="http://schema.org/Event"><div
+>style=""><table cellspacing="0" cellpadding="8" border="0" summary=""
+>style="width:100%;font-family:Arial,Sans-serif;border:1px Solid
+>#ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><tr><td><meta
+>itemprop="eventStatus" content="http://schema.org/EventScheduled"/><div
+>style="padding:2px"><span itemprop="publisher" itemscope
+>itemtype="http://schema.org/Organization"><meta itemprop="name"
+>content="Google Calendar"/></span><meta
+>itemprop="eventId/googleCalendar"
+>content="_6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o"/><div
+>style="float:right;font-weight:bold;font-size:13px"> <a
+>href="https://www.google.com/calendar/event?action=VIEW&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko"
+>style="color:#20c;white-space:nowrap" itemprop="url">ì¶ê° ì¸ë¶ì ë³´
+>&raquo;</a><br></div><h3 style="padding:0 0 6px
+>0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222"><span
+>itemprop="name">NIí íì</span></h3><table cellpadding="0"
+>cellspacing="0" border="0" summary="ì¼ì  ì¸ë¶ì ë³´"><tr><td style="padding:0
+>1em 10px
+>0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap"
+>valign="top"><div><i style="font-style:normal">ìê°</i></div></td><td
+>style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"
+>valign="top"><time itemprop="startDate"
+>datetime="20170124T090000Z"></time><time itemprop="endDate"
+>datetime="20170124T120000Z"></time>2017. 1. 24. (í) ì¤í 6ì â ì¤í 9ì <span
+>style="color:#888">ìì¸</span></td></tr><tr><td style="padding:0 1em 10px
+>0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap"
+>valign="top"><div><i style="font-style:normal">ììíµí</i></div></td><td
+>style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"
+>valign="top"><span itemprop="potentialaction" itemscope
+>itemtype="http://schema.org/JoinAction"><span itemprop="name"
+>content="https://plus.google.com/hangouts/_/esag.kr/ni"/><span
+>itemprop="target" itemscope
+>itemtype="http://schema.org/EntryPoint"><span itemprop="url"
+>content="https://plus.google.com/hangouts/_/esag.kr/ni?hceid=ZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o"/><span
+>itemprop="httpMethod" content="GET"/><a
+>href="https://plus.google.com/hangouts/_/esag.kr/ni?hceid=ZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o"
+>style="color:#20c;white-space:nowrap"
+>target="_blank">https://plus.google.com/hangouts/_/esag.kr/ni</a></span></span></td></tr><tr><td
+>style="padding:0 1em 10px
+>0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap"
+>valign="top"><div><i style="font-style:normal">ìºë¦°ë</i></div></td><td
+>style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"
+>valign="top">kim simon</td></tr><tr><td style="padding:0 1em 10px
+>0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap"
+>valign="top"><div><i style="font-style:normal">ì°¸ìì</i></div></td><td
+>style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"
+>valign="top"><table cellspacing="0" cellpadding="0"><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span
+>class="notranslate">heemin@digistory.co.kr</span><span
+>style="font-size:11px;color:#888">-
+>ìì±ì</span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">ìµì¡°ì</span><meta itemprop="email"
+>content="ccjjss7@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">ê¹íì</span><meta itemprop="email"
+>content="khy@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">ë°ì¬í</span><meta itemprop="email"
+>content="wogus8894@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">ì ìì©</span><meta itemprop="email"
+>content="wy.jeung@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">ì´ì¢ì</span><meta itemprop="email"
+>content="jslee@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span
+>style="font-family:Courier New,monospace">&#x2022;</span></td><td
+>style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div
+>style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope
+>itemtype="http://schema.org/Person"><span itemprop="name"
+>class="notranslate">kim simon</span><meta itemprop="email"
+>content="vienie77@gmail.com"/></span></div></div></td></tr></table></td></tr></table></div><p
+>style="color:#222;font-size:13px;margin:0"><span style="color:#888">ì°¸ì
+>ì¬ë¶&nbsp;&nbsp;&nbsp;</span><wbr><strong><span
+>itemprop="potentialaction" itemscope
+>itemtype="http://schema.org/RsvpAction"><meta itemprop="attendance"
+>content="http://schema.org/RsvpAttendance/Yes"/><span
+>itemprop="handler" itemscope
+>itemtype="http://schema.org/HttpActionHandler"><link itemprop="method"
+>href="http://schema.org/HttpRequestMethod/GET"/><a
+>href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=1&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko"
+>style="color:#20c;white-space:nowrap"
+>itemprop="url">ì</a></span></span><span style="margin:0
+>0.4em;font-weight:normal"> - </span><span itemprop="potentialaction"
+>itemscope itemtype="http://schema.org/RsvpAction"><meta
+>itemprop="attendance"
+>content="http://schema.org/RsvpAttendance/Maybe"/><span
+>itemprop="handler" itemscope
+>itemtype="http://schema.org/HttpActionHandler"><link itemprop="method"
+>href="http://schema.org/HttpRequestMethod/GET"/><a
+>href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=3&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko"
+>style="color:#20c;white-space:nowrap"
+>itemprop="url">ë¯¸ì </a></span></span><span style="margin:0
+>0.4em;font-weight:normal"> - </span><span itemprop="potentialaction"
+>itemscope itemtype="http://schema.org/RsvpAction"><meta
+>itemprop="attendance"
+>content="http://schema.org/RsvpAttendance/No"/><span itemprop="handler"
+>itemscope itemtype="http://schema.org/HttpActionHandler"><link
+>itemprop="method" href="http://schema.org/HttpRequestMethod/GET"/><a
+>href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=2&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko"
+>style="color:#20c;white-space:nowrap"
+>itemprop="url">ìëì</a></span></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a
+>href="https://www.google.com/calendar/event?action=VIEW&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko"
+>style="color:#20c;white-space:nowrap" itemprop="url">ìµì ëë³´ê¸°
+>&raquo;</a></p></td></tr><tr><td
+>style="background-color:#f6f6f6;color:#888;border-top:1px Solid
+>#ccc;font-family:Arial,Sans-serif;font-size:11px"><p><a
+>href="https://www.google.com/calendar/" target="_blank" style="">Google
+>ìºë¦°ë</a>ìì ë³´ë¸ ì´ëì¥</p><p>kim simon ìºë¦°ëì ëí´ ì´ëì¥ ìì ì ì ííì¬
+>vienie77@gmail.com ì¼ë¡ ë°ì¡ë ë©ì¼ìëë¤.</p><p>ì´ë©ì¼ì ë ì´ì ìì íì§ ìì¼ë ¤ë©´
+>https://www.google.com/calendar/ì ë¡ê·¸ì¸í ë¤ì ì´ ìºë¦°ëì ìë¦¼ ì¤ì ì ë³ê²½íì¸ì.</p><p>ì´
+>ì´ëë¥¼ ì ë¬íë©´ ìì ìê° ë´ ì°¸ì ì¬ë¶ ìëµì ìì í  ì ìê² ë©ëë¤. <a
+>href="https://support.google.com/calendar/answer/37135#forwarding">ìì¸í
+>ììë³´ê¸°</a></p></td></tr></table></div></span></span>
+
+------D0GNLCWBD1J3N5N4RPT9L71G5BBP9S
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></head><div><br><br><br><br></div>
+<div><a href="http://www.bluemail.me/r"><!-- tmjah_g_1299s -->BlueMail</a>&#50640;&#49436; &#51204;&#49569;<!-- tmjah_g_1299e --></div>
+<div class="gmail_quote"  oninput="window.HTMLOUT.draftchange()">2017ë 1ì 13ì¼, 10:38, <a href=mailto:heemin@digistory.co.kr target=_blank>heemin@digistory.co.kr</a> ìì±:<blockquote class="gmail_quote" style="margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<span itemscope itemtype="http://schema.org/InformAction"><span style="display:none" itemprop="about" itemscope itemtype="http://schema.org/Person"><meta itemprop="description" content="heemin@digistory.co.krëì´ ë³´ë¸ ì´ë"/></span><span itemprop="object" itemscope itemtype="http://schema.org/Event"><div style=""><table cellspacing="0" cellpadding="8" border="0" summary="" style="width:100%;font-family:Arial,Sans-serif;border:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><tr><td><meta itemprop="eventStatus" content="http://schema.org/EventScheduled"/><div style="padding:2px"><span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="Google Calendar"/></span><meta itemprop="eventId/googleCalendar" content="_6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o"/><div style="float:right;font-weight:bold;font-size:13px"> <a
+href="https://www.google.com/calendar/event?action=VIEW&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko" style="color:#20c;white-space:nowrap" itemprop="url">ì¶ê° ì¸ë¶ì ë³´ &raquo;</a><br></div><h3 style="padding:0 0 6px 0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222"><span itemprop="name">NIí íì</span></h3><table cellpadding="0" cellspacing="0" border="0" summary="ì¼ì  ì¸ë¶ì ë³´"><tr><td style="padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign="top"><div><i style="font-style:normal">ìê°</i></div></td><td style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign="top"><
+ time itemprop="startDate"
+datetime="20170124T090000Z"></time><time itemprop="endDate" datetime="20170124T120000Z"></time>2017. 1. 24. (í) ì¤í 6ì â ì¤í 9ì <span style="color:#888">ìì¸</span></td></tr><tr><td style="padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign="top"><div><i style="font-style:normal">ììíµí</i></div></td><td style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign="top"><span itemprop="potentialaction" itemscope itemtype="http://schema.org/JoinAction"><span itemprop="name" content="https://plus.google.com/hangouts/_/esag.kr/ni"/><span itemprop="target" itemscope itemtype="http://schema.org/EntryPoint"><span itemprop="url" content="https://plus.google.com/hangouts/_/esag.kr/ni?hceid=ZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o"/><span itemprop="http
+ Method" content="GET"/><a
+href="https://plus.google.com/hangouts/_/esag.kr/ni?hceid=ZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._6gokae1i6crjeb9l8d330b9k6cr4cb9o65138ba16l1jic9h74s42g9l8o" style="color:#20c;white-space:nowrap" target="_blank">https://plus.google.com/hangouts/_/esag.kr/ni</a></span></span></td></tr><tr><td style="padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign="top"><div><i style="font-style:normal">ìºë¦°ë</i></div></td><td style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign="top">kim simon</td></tr><tr><td style="padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign="top"><div><i style="font-style:normal">ì°¸ìì</i></div></td><td style="padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign="top"><table cellspacing="0" cellpadding="0"><tr><td
+style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span class="notranslate">heemin@digistory.co.kr</span><span style="font-size:11px;color:#888">- ìì±ì</span></div></div></td></tr><tr><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">ìµì¡°ì</span><meta itemprop="email" content="ccjjss7@agilesys.co.kr"/></span></div></div></td></tr><tr><td
+style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">ê¹íì</span><meta itemprop="email" content="khy@agilesys.co.kr"/></span></div></div></td></tr><tr><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">ë°ì¬í</span><meta itemprop="email" content="wogus8894@agilesys.co.kr"/></span></div></div></td><
+ /tr><tr><td
+style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">ì ìì©</span><meta itemprop="email" content="wy.jeung@agilesys.co.kr"/></span></div></div></td></tr><tr><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">ì´ì¢ì</span><meta itemprop="email" content="jslee@agilesys.co.kr"/></span></div></div></td>
+ </tr><tr><td
+style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style="font-family:Courier New,monospace">&#x2022;</span></td><td style="padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style="margin:0 0 0.3em 0"><span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="notranslate">kim simon</span><meta itemprop="email" content="vienie77@gmail.com"/></span></div></div></td></tr></table></td></tr></table></div><p style="color:#222;font-size:13px;margin:0"><span style="color:#888">ì°¸ì ì¬ë¶&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemprop="potentialaction" itemscope itemtype="http://schema.org/RsvpAction"><meta itemprop="attendance" content="http://schema.org/RsvpAttendance/Yes"/><span itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler"><link itemprop="method" href="http://schema.org/HttpRequestMethod/GET"/><a
+href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=1&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko" style="color:#20c;white-space:nowrap" itemprop="url">ì</a></span></span><span style="margin:0 0.4em;font-weight:normal"> - </span><span itemprop="potentialaction" itemscope itemtype="http://schema.org/RsvpAction"><meta itemprop="attendance" content="http://schema.org/RsvpAttendance/Maybe"/><span itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler"><link itemprop="method" href="http://schema.org/HttpRequestMethod/GET"/><a
+href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=3&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko" style="color:#20c;white-space:nowrap" itemprop="url">ë¯¸ì </a></span></span><span style="margin:0 0.4em;font-weight:normal"> - </span><span itemprop="potentialaction" itemscope itemtype="http://schema.org/RsvpAction"><meta itemprop="attendance" content="http://schema.org/RsvpAttendance/No"/><span itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler"><link itemprop="method" href="http://schema.org/HttpRequestMethod/GET"/><a
+href="https://www.google.com/calendar/event?action=RESPOND&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;rst=2&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko" style="color:#20c;white-space:nowrap" itemprop="url">ìëì</a></span></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href="https://www.google.com/calendar/event?action=VIEW&amp;eid=XzZnb2thZTFpNmNyamViOWw4ZDMzMGI5azZjcjRjYjlvNjUxMzhiYTE2bDFqaWM5aDc0czQyZzlsOG8gdmllbmllNzdAbQ&amp;tok=NjAjZXNhZy5rcl9uN3JrZ2Q1NGo4YjdibDVxb25oZm12bmwya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29tMGMwMjUzMTc0NGU5Y2EwODVkNWFmMGExYWVlMTY5Y2Y0NTk1N2UyMQ&amp;ctz=Asia/Seoul&amp;hl=ko" style="color:#20c;white-space:nowrap" itemprop="url">ìµì ëë³´ê¸° &raquo;</a></p></td></tr><tr><td style="background-color:#f6f6f6;color:#888;border-top:1px Solid
+#ccc;font-family:Arial,Sans-serif;font-size:11px"><p><a href="https://www.google.com/calendar/" target="_blank" style="">Google ìºë¦°ë</a>ìì ë³´ë¸ ì´ëì¥</p><p>kim simon ìºë¦°ëì ëí´ ì´ëì¥ ìì ì ì ííì¬ vienie77@gmail.com ì¼ë¡ ë°ì¡ë ë©ì¼ìëë¤.</p><p>ì´ë©ì¼ì ë ì´ì ìì íì§ ìì¼ë ¤ë©´ https://www.google.com/calendar/ì ë¡ê·¸ì¸í ë¤ì ì´ ìºë¦°ëì ìë¦¼ ì¤ì ì ë³ê²½íì¸ì.</p><p>ì´ ì´ëë¥¼ ì ë¬íë©´ ìì ìê° ë´ ì°¸ì ì¬ë¶ ìëµì ìì í  ì ìê² ë©ëë¤. <a href="https://support.google.com/calendar/answer/37135#forwarding">ìì¸í ììë³´ê¸°</a></p></td></tr></tab
+ le></div></span></span></blockquote></div></html>
+------D0GNLCWBD1J3N5N4RPT9L71G5BBP9S--
+
+------K0SJV5030OVELMFM0GPQCF8L94RKTT
+Content-Transfer-Encoding: base64
+Content-Type: text/calendar; method=REPLY; name="ics_response"
+Content-Disposition: attachment; filename="ics_response"; size=400
+
+QkVHSU46VkNBTEVOREFSCk1FVEhPRDpSRVBMWQpQUk9ESUQ6VHlwZSBNYWlsClZFUlNJT046Mi4w
+CkJFR0lOOlZFVkVOVApEVFNUQVJUOjIwMTcwMTI0VDA5MDAwMFoKRFRFTkQ6MjAxNzAxMjRUMTIw
+MDAwWgpEVFNUQU1QOjIwMTcwMTEzVDExMzI0N1oKVUlEOjQxRTgyMzc3LTVDRjAtNDM2Ri04MUI0
+LUE1QzkxMTk4QUE1RgpBVFRFTkRFRTtQQVJUU1RBVD1BQ0NFUFRFRDtDTj1raW0gc2ltb246TUFJ
+TFRPOnZpZW5pZTc3QGdtYWlsLmNvbQpERVNDUklQVElPTjpraW0gc2ltb25SU1ZQCkxPQ0FUSU9O
+OgpTVEFUVVM6Q09ORklSTUVECkNMQVNTOlBVQkxJQwpQUklPUklUWTo1ClNFUVVFTkNFOjAKU1VN
+TUFSWTpraW0gc2ltb24gUlNWUApUUkFOU1A6T1BBUVVFCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRB
+Ug==
+
+------K0SJV5030OVELMFM0GPQCF8L94RKTT--
+

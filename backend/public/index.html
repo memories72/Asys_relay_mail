@@ -339,7 +339,8 @@
                             </div>
                             <input id="searchInput"
                                 class="w-full min-w-0 flex-1 bg-transparent border-none focus:ring-0 text-slate-900 placeholder:text-slate-500 px-3 text-sm dark:text-slate-100 dark:placeholder:text-slate-500"
-                                placeholder="메세지, 연락처 검색..." type="text" oninput="filterMails(this.value)" />
+                                placeholder="메세지, 연락처 검색..." type="text"
+                                onkeydown="if(event.key==='Enter') performSearch(this.value)" />
                         </div>
                     </div>
                 </div>
@@ -578,7 +579,14 @@
                                 </div>
                             </div>
                         </div>
-                        <span id="mailCountLabel" class="text-xs text-slate-400 font-medium">–</span>
+                        <div class="flex items-center gap-1">
+                            <button onclick="loadThreads()"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90"
+                                title="대화형 보기">
+                                <span class="material-symbols-outlined text-xl">forum</span>
+                            </button>
+                            <span id="mailCountLabel" class="text-xs text-slate-400 font-medium ml-2">–</span>
+                        </div>
                     </div>
                     <!-- List -->
                     <div class="flex-1 overflow-y-auto">
@@ -1396,6 +1404,102 @@
             loadDashboardStats();
         }
 
+        async function performSearch(query) {
+            const listEl = document.getElementById('mailList');
+            const loadingEl = document.getElementById('mailLoading');
+            const emptyEl = document.getElementById('mailEmpty');
+            const countEl = document.getElementById('mailCountLabel');
+
+            if (!query || query.trim().length === 0) {
+                loadInbox();
+                return;
+            }
+
+            loadingEl.classList.remove('hidden');
+            listEl.innerHTML = '';
+            emptyEl.classList.add('hidden');
+            countEl.innerText = '검색 중...';
+
+            try {
+                const res = await fetch(`/api/mail/search?q=${encodeURIComponent(query)}`, { headers: apiHeaders() });
+                const data = await res.json();
+                loadingEl.classList.add('hidden');
+
+                if (data.status === 'OK' && data.messages) {
+                    currentMsgs = data.messages;
+                    renderMailList(currentMsgs);
+                    countEl.innerText = `${currentMsgs.length} results found`;
+                    if (currentMsgs.length === 0) {
+                        emptyEl.classList.remove('hidden');
+                        emptyEl.classList.add('flex');
+                    }
+                }
+            } catch (err) {
+                loadingEl.classList.add('hidden');
+                console.error('[Search] Error:', err);
+            }
+        }
+
+        async function loadThreads() {
+            const listEl = document.getElementById('mailList');
+            const loadingEl = document.getElementById('mailLoading');
+            const countEl = document.getElementById('mailCountLabel');
+
+            loadingEl.classList.remove('hidden');
+            listEl.innerHTML = '';
+            countEl.innerText = '대화 정리 중...';
+
+            try {
+                const res = await fetch(`/api/mail/threads?folder=${encodeURIComponent(currentFolder)}`, { headers: apiHeaders() });
+                const data = await res.json();
+                loadingEl.classList.add('hidden');
+
+                if (data.status === 'OK' && data.threads) {
+                    listEl.innerHTML = '';
+                    data.threads.forEach(thread => {
+                        const row = createThreadRow(thread);
+                        listEl.appendChild(row);
+                    });
+                    countEl.innerText = `${data.threads.length} conversations`;
+                }
+            } catch (err) {
+                loadingEl.classList.add('hidden');
+                console.error('[Threads] Error:', err);
+            }
+        }
+
+        function createThreadRow(thread) {
+            const msg = thread.root;
+            const mainPerson = msg.from || {};
+            let displayPerson = mainPerson.name || mainPerson.address || '(알 수 없음)';
+            const initials = getInitials(mainPerson);
+            const color = avatarColor(displayPerson);
+
+            const tr = document.createElement('tr');
+            tr.className = `mail-row ${thread.isUnread ? 'mail-row-unread' : 'mail-row-read'} transition-colors cursor-pointer border-l-4 ${thread.isUnread ? 'border-primary' : 'border-transparent'}`;
+            tr.innerHTML = `
+                <td class="px-4 py-4 border-b border-slate-50 dark:border-slate-800 w-16">
+                    <div class="flex items-center justify-center size-8 bg-slate-100 rounded-lg text-[10px] font-bold dark:bg-slate-800">${thread.count}</div>
+                </td>
+                <td class="px-2 py-4 border-b border-slate-50 dark:border-slate-800 w-48">
+                    <div class="flex items-center gap-3">
+                        <div class="flex size-9 flex-shrink-0 items-center justify-center rounded-xl text-[11px] font-bold shadow-sm ${color}">${initials}</div>
+                        <span class="text-sm truncate font-bold text-slate-900 dark:text-slate-100">${displayPerson}</span>
+                    </div>
+                </td>
+                <td class="px-3 py-4 border-b border-slate-50 dark:border-slate-800 w-full" style="max-width:0">
+                    <div class="flex items-center gap-2 min-w-0 w-full">
+                        <span class="mail-subject text-[13.5px] truncate flex-1 font-bold text-slate-900 dark:text-slate-100">${escHtml(msg.subject)}</span>
+                    </div>
+                </td>
+                <td class="px-6 py-4 border-b border-slate-50 text-right">
+                    <span class="text-[11px] font-bold text-primary whitespace-nowrap">${formatDate(thread.latestDate)}</span>
+                </td>
+            `;
+            tr.onclick = () => openMsg(msg.uid);
+            return tr;
+        }
+
         async function loadDashboardStats() {
             try {
                 if (document.getElementById('dashEmailAddress')) {
@@ -1410,7 +1514,7 @@
                     document.getElementById('statSent').innerText = stats.sent || 0;
                     document.getElementById('statTrash').innerText = stats.trash || 0;
                     document.getElementById('statJunk').innerText = stats.junk || 0;
-                    document.getElementById('statDrafts') ? document.getElementById('statDrafts').innerText = stats.drafts || 0 : null;
+                    if (document.getElementById('statDrafts')) document.getElementById('statDrafts').innerText = stats.drafts || 0;
                 }
 
                 // Also fetch storage quota for dashboard

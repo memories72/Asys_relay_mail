@@ -16,6 +16,7 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "form-data": "^4.0.5",
+    "fuse.js": "^7.1.0",
     "iconv-lite": "^0.7.2",
     "imapflow": "^1.2.10",
     "jsonwebtoken": "^9.0.3",

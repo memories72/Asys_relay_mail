@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id 4DYJIQ/HomkoBwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:44:31 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 863E214C28
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:44:31 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1555766836807275667
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.52.193 with SMTP id b184csp6861822wma;
+        Fri, 6 Jan 2017 01:27:54 -0800 (PST)
+X-Received: by 10.99.38.3 with SMTP id m3mr140447113pgm.113.1483694874659;
+        Fri, 06 Jan 2017 01:27:54 -0800 (PST)
+Received: from desk-mail-filter01.whoisdesk.com (mail00.whoisdesk.com. [110.45.130.131])
+        by mx.google.com with ESMTPS id z3si78830319pge.291.2017.01.06.01.27.53
+        for <heemin@digistory.co.kr>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 06 Jan 2017 01:27:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of ccjjss7@agilesys.co.kr designates 110.45.130.131 as permitted sender) client-ip=110.45.130.131;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of ccjjss7@agilesys.co.kr designates 110.45.130.131 as permitted sender) smtp.mailfrom=ccjjss7@agilesys.co.kr
+Received: (qmail 26323 invoked by uid 700); 6 Jan 2017 18:27:51 +0900
+Received: from unknown (HELO whoisdesk.com) (110.45.130.212)
+	by 0 (knetqmail v1.06) with SMTP;
+	6 Jan 2017 18:27:51 +0900
+Date: Fri, 6 Jan 2017 18:27:51 +0900
+To: =?utf-8?B?6rO97ISx7KeE?= <bdksj@agilesys.co.kr>
+Cc: =?utf-8?B?7KCV7JuQ7Jqp?= <wy.jeung@agilesys.co.kr>, =?utf-8?B?7ZmN64yA7ZGc?= <sehong@agilesys.co.kr>, =?utf-8?B?7Zmp66+86rec?= <heemin@digistory.co.kr>
+From: =?utf-8?B?7LWc7KGw7Iic?= <ccjjss7@agilesys.co.kr>
+Reply-to: ccjjss7@agilesys.co.kr
+Subject: =?utf-8?B?Tlcg7Jyg7KeA67O07IiYIOygnOyViOyEnC3sg5jtlIw=?=
+Message-ID: <0d460c70d73cb62896022c5695df67dd@whoisdesk.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_0d460c70d73cb62896022c5695df67dd"
+
+
+--b1_0d460c70d73cb62896022c5695df67dd
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+bmFz7JeQICJudyDsnKDsp4Drs7TsiJjsoJzslYjshJwiIOyekOujjArsmKzrpr3ri4jri6Qu7LC4
+7KGw67CU656N64uI64ukPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PSjso7wp7JeQ7J207Iuc7IqkwqDCoMKgCmh0dHA6Ly93d3cuYWdpbGVz
+eXMuY28ua3LshJzsmrjtirnrs4Tsi5wg7ISc7LSI6rWsIOyCrO2PieuMgOuhnCAxMzgK64yA66Wt
+67mM65SpIDPsuLXstZzsobDsiJzCoMKgwqDCoCAwNzAtNzExNC0wMDIzwqDCoCAvwqAKMDEwLTYy
+MTEtNjUwOMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqBjY2pqc3M3QGFnaWxlc3lzLmNvLmty
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0K
+
+
+--b1_0d460c70d73cb62896022c5695df67dd
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PHA+bmFz7JeQICJudyDsnKDsp4Drs7TsiJjsoJzslYjshJwiIOyekOujjCDsmKzrpr3ri4jri6Qu
+PC9wPjxwPuywuOyhsOuwlOuejeuLiOuLpDxicj48L3A+PGRpdj48cD49PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PC9wPjxwPijso7wp7JeQ
+7J207Iuc7IqkwqDCoMKgIDxhIGhyZWY9Imh0dHA6Ly93d3cuYWdpbGVzeXMuY28ua3IiPmh0dHA6
+Ly93d3cuYWdpbGVzeXMuY28ua3I8L2E+PC9wPjxwPuyEnOyauO2KueuzhOyLnCDshJzstIjqtawg
+7IKs7Y+J64yA66GcIDEzOCDrjIDrpa3ruYzrlKkgM+y4tTwvcD48cD7stZzsobDsiJzCoMKgwqDC
+oCAwNzAtNzExNC0wMDIzwqDCoCAvwqAgMDEwLTYyMTEtNjUwODwvcD48cD7CoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgPGEgaHJlZj0ibWFpbHRvOmNjampzczdAYWdpbGVzeXMuY28ua3IiPmNj
+ampzczdAYWdpbGVzeXMuY28ua3I8L2E+PC9wPjxwPj09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PC9wPjxwPjxicj48L3A+PC9kaXY+PGlt
+ZyBzdHlsZT0iYm9yZGVyOm5vbmU7IHdpZHRoOjFweDsgaGVpZ2h0OjFweDsgZGlzcGxheTpub25l
+IiBzcmM9Imh0dHA6Ly9tYWlsLmFnaWxlc3lzLmNvLmtyL2NvbW1vbi9jb25maXJtUmVhZC8/bWVz
+c2FnZUlkPWU3ZWNhYmNmLTk1OWEtNzAyYy1jYTJhLWEzMGVjNTE1MWI3MiZlbWFpbD1oZWVtaW5A
+ZGlnaXN0b3J5LmNvLmtyIiAvPg==
+
+
+
+--b1_0d460c70d73cb62896022c5695df67dd--

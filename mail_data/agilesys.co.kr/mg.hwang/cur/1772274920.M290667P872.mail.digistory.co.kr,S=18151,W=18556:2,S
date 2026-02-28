@@ -1,0 +1,405 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id EB9CEejEomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:20 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 458E914C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:20 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1551941914533550626
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7IqkLOuwm+ydgO2OuOyngO2VqA==?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp79507wme;
+        Thu, 24 Nov 2016 21:04:38 -0800 (PST)
+X-Received: by 10.25.138.11 with SMTP id m11mr2516609lfd.150.1480050278064;
+        Thu, 24 Nov 2016 21:04:38 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of postmaster@smrelay3.sjc.expertcity.com designates 67.217.84.7 as permitted sender) smtp.mailfrom=smrelay3.sjc.expertcity.com
+Received-SPF: pass (google.com: best guess record for domain of postmaster@smrelay3.sjc.expertcity.com designates 67.217.84.7 as permitted sender) client-ip=67.217.84.7;
+Received: by 10.25.190.147 with POP3 id o141mf21778423lff.1;
+        Thu, 24 Nov 2016 21:04:36 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 22237 invoked by uid 700); 25 Nov 2016 13:12:30 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	25 Nov 2016 13:12:30 +0900
+Received: (qmail 11126 invoked by uid 700); 25 Nov 2016 13:12:29 +0900
+Received: from unknown (HELO smrelay3.sjc.expertcity.com) (67.217.84.7)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-SHA encrypted);
+	25 Nov 2016 13:12:29 +0900
+Received: from svcchost1.las.expertcity.com ([10.20.69.14])
+	by smrelay3.sjc.expertcity.com (-); Thu, 24 Nov 2016 20:12:24 -0800
+X-VirtualServer: webinar, smrelay3.sjc.expertcity.com, 67.217.84.7
+X-MailingID: 00000::00000::00000::00000::::268753
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: mg.hwang@agilesys.co.kr
+X-SMFBL: bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=
+X-VirtualServerGroup: webinar
+Date: Thu, 24 Nov 2016 20:12:24 -0800 (PST)
+From: Tyson Dun Vu  <customercare@gotowebinar.com>
+Reply-To: tyson.dun.vu@hpe.com
+To: mg.hwang@agilesys.co.kr
+Message-ID: <995025661.11474672.1480047144336.JavaMail.broker@svcchost1.las.expertcity.com>
+Subject: Partner Webinar Series:  Securing BYOD & IoT + Overview of Partner
+ Compensation Tool  (Session 4 of 5) Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_11474670_185308043.1480047144334"
+breadcrumbId: ID-svcchost1-las-expertcity-com-37501-1479378167723-0-5404298
+X-campaignid: g2w_registrantConfirmation
+X-organizerEmail: tyson.dun.vu@hpe.com
+X-RcptEnc: bWcuaHdhbmdAYWdpbGVzeXMuY28ua3I=
+X-SMTPAPI: {"unique_args": {"exchangeId": "1flw7bynfo0zu","timestampQueue": "1480047142000","productId": "g2wbroker","ip_pool": "webinar","timestampMessageService": "1480047144324","organizerEmail": "tyson.dun.vu@hpe.com"},"ip_pool": "webinar","category": ["ip_webinar","prod_g2wbroker"]}
+
+------=_Part_11474670_185308043.1480047144334
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mingyu,
+
+Thank you for registering for "Partner Webinar Series:  Securing BYOD & IoT=
+ + Overview of Partner Compensation Tool  (Session 4 of 5)".
+   =20
+%0D%0A
+
+
+Please send your questions, comments and feedback to:
+tyson.dun.vu@hpe.com
+
+***********************************************************
+HOW TO JOIN THE WEBINAR
+***********************************************************
+
+
+     Thu, Dec 8, 2016 11:00 AM - 12:00 PM PST
+
+1. Click the link to join the webinar at the specified time and date:
+https://global.gotowebinar.com/join/185937689376759556/613474009
+
+Before joining, be sure to check system requirements to avoid any connectio=
+n issues.
+http://help.citrix.com/webinar/systemcheck?role=3Dattendee&source=3Dregistr=
+ationConfirmationEmail&language=3Denglish
+
+Note: This link should not be shared with others; it is unique to you.
+2. Choose one of the following audio options:
+
+TO USE YOUR COMPUTER'S AUDIO:
+When the webinar begins, you will be connected to audio using your computer=
+'s microphone and speakers (VoIP). A headset is recommended.
+
+--OR--
+
+TO USE YOUR TELEPHONE:If you prefer to use your phone, you must select "Use=
+ Telephone" after joining the webinar and call in using the numbers below.
+   =20
+            United States: +1 (562) 247-8321   =20
+Access Code: 846-511-199
+Audio PIN: Shown after joining the webinar
+
+
+***********************************************************
+
+
+To Cancel this Registration
+
+If you can't attend this webinar, you may cancel your registration at any t=
+ime.
+https://attendee.gotowebinar.com/cancel/185937689376759556/1885041596458214=
+156
+
+
+***********************************************************
+
+   =20
+You are receiving this email because you registered for this webinar. Your =
+email address and personal information will be used by the Webinar organize=
+r to communicate with you about this event and their other services. To rev=
+iew the organizer's privacy policy or stop receiving their communications, =
+please contact the organizer directly.
+   =20
+Cancel registration (https://attendee.gotowebinar.com/cancel/18593768937675=
+9556/1885041596458214156)
+   =20
+Stop GoToWebinar emails (https://attendee.gotowebinar.com/subscription.tmpl=
+?organizer=3D2985090879223586060&token=3DTIY59StvWlqn6LYIcx%2BYlA%3D%3D&org=
+anizerEmail=3Dtyson.dun.vu%40hpe.com&attendeeEmail=3Dmg.hwang%40agilesys.co=
+.kr&locale=3Den_US)
+
+Report spam (https://attendee.gotowebinar.com/reportSpam.tmpl?organizer=3D2=
+985090879223586060&token=3DTIY59StvWlqn6LYIcx%2BYlA%3D%3D&userEmail=3Dmg.hw=
+ang%40agilesys.co.kr&webinarId=3D704447123&webinarName=3DPartner+Webinar+Se=
+ries%3A++Securing+BYOD+%26+IoT+%2B+Ov...&organizerEmail=3Dtyson.dun.vu%40hp=
+e.com&locale=3Den_US)
+
+This email is sent on behalf of the organizer by GoToWebinar and Citrix Sys=
+tems, Inc.=20
+Citrix Systems, Inc. | 7414 Hollister Avenue | Goleta, CA 93117
+Privacy Policy (http://www.citrix.com/about/legal/citrix-online-privacy-pol=
+icy-overview-en.html)
+Anti-spam Policy (http://www.citrix.com/about/legal/anti-spam-policy.html)
+www.gotowebinar.com =C2=A92016 Citrix Systems, Inc. All rights reserved.
+------=_Part_11474670_185308043.1480047144334
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en">
+    <head>
+        <meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-=
+Type" />
+        <!--general stylesheet-->
+        <style type=3D"text/css">
+            p { padding: 0; margin: 0; }
+            h1, h2, h3, p, li, a { font-family: Helvetica Neue, Helvetica, =
+Arial, sans-serif; }
+            td { vertical-align: top; }
+            ul, ol { margin: 0; padding: 0; }
+        </style>
+    </head>
+    <body marginheight=3D"0" topmargin=3D"0" marginwidth=3D"0" leftmargin=
+=3D"0" background=3D"" style=3D"margin: 0; background-color: #FFFFFF;" bgco=
+lor=3D"#FFFFFF">
+        <table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" width=3D"10=
+0%" bgcolor=3D"#eeeee7" style=3D"background-color: #eeeee7;
+                background: -moz-linear-gradient(#eeeee7, #eeeee7);
+                background: -webkit-gradient(linear, top, bottom, from(#eee=
+ee7), to(#eeeee7));
+                background: -webkit-linear-gradient(#eeeee7, #eeeee7);
+                background: -o-linear-gradient(#eeeee7, #eeeee7);
+                background: -ms-linear-gradient(#eeeee7, #eeeee7);
+                background: linear-gradient(#eeeee7, #eeeee7);
+                border-color: #cccccc;
+                color:#114c7f;">
+            <tbody>
+                <tr valign=3D"top">
+                    <td>
+                    <table cellspacing=3D"0" border=3D"0" cellpadding=3D"7"=
+ id=3D"paddingFooter1" align=3D"center" width=3D"100%">
+                    <tr>
+                    <td/>
+                    </tr>
+                    </table>
+                   =20
+                    <!--container-->
+                        <table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" align=3D"center" width=3D"600" bgcolor=3D"#FFFFFF" style=3D"border-w=
+idth: 2px;
+                                border-style: solid;
+                                width: 558px;
+                                background-color:#FFFFFF;
+                                padding-bottom: 15px;
+                                padding-top: 15px;
+                                border-color: #cccccc;">
+                            <tbody><!--content-->
+                                <tr>
+                                    <td>
+                                        <div style=3D"margin-right: 20px;">
+                                           =20
+
+
+<p style=3D"margin: 15px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+            Dear Mingyu,    </p>
+<p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+    Thank you for registering for "Partner Webinar Series:  Securing BYOD &=
+ IoT + Overview of Partner Compensation Tool  (Session 4 of 5)".</p>
+<p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+   =20
+<br/>
+</p>
+<p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+    Please send your questions, comments and feedback to: <a href=3D"mailto=
+:tyson.dun.vu@hpe.com" style=3D"color: #309DDC; text-decoration: none;">tys=
+on.dun.vu@hpe.com</a>
+</p>
+<p style=3D"color:#114c7f; margin: 10px 0 0 20px; font-size: 14px; font-wei=
+ght: bold; text-align: left;">
+        How To Join The Webinar</p>
+            <p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight=
+: normal; color: #010101; text-align: left;">Thu, Dec 8, 2016 11:00 AM - 12=
+:00 PM PST</p>
+    <p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal=
+; color: #010101; text-align: left;">
+    Add to Calendar:
+    <a href=3D"https://global.gotowebinar.com/icsCalendar.tmpl?webinar=3D18=
+5937689376759556&user=3D613474009&cal=3Doutlook"
+       style=3D"color: #309DDC; text-decoration: none;">Outlook<sup>&reg;</=
+sup> Calendar</a> |
+    <a href=3D"https://global.gotowebinar.com/icsCalendar.tmpl?webinar=3D18=
+5937689376759556&user=3D613474009&cal=3Dgoogle"
+       style=3D"color: #309DDC; text-decoration: none;">Google Calendar&#84=
+82</a> |
+    <a href=3D"https://global.gotowebinar.com/icsCalendar.tmpl?webinar=3D18=
+5937689376759556&user=3D613474009&cal=3Dical"
+       style=3D"color: #309DDC; text-decoration: none;">iCal<sup>&reg;</sup=
+></a>
+
+</p>
+
+<p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+    <strong>1. Click the link to join the webinar at the specified time and=
+ date:</strong>
+</p>
+<p style=3D"margin: 10px 0 10px 35px; font-size: 12px; font-weight: normal;=
+ color: #010101; text-align: left; word-wrap: break-word; width: 310px;">
+    <a href=3D"https://global.gotowebinar.com/join/185937689376759556/61347=
+4009" style=3D"color: #309DDC; text-decoration: none;">https://global.gotow=
+ebinar.com/join/185937689376759556/613474009</a>
+</p>
+<p style=3D"margin: 5px 0 0 35px; font-size: 12px; font-weight: normal; col=
+or: #010101; text-align: left;">
+    Before joining, be sure to <a id=3D"joinCheckAppLink" target=3D"_blank"=
+ href=3D"http://help.citrix.com/webinar/systemcheck?role=3Dattendee&source=
+=3DregistrationConfirmationEmail&language=3Denglish">check system requireme=
+nts</a> to avoid any connection issues.</p>
+<p style=3D"margin: 5px 0 0 35px; font-size: 12px; font-weight: normal; fon=
+t-style: italic; color: #666666; text-align: left;">
+    Note: This link should not be shared with others; it is unique to you.<=
+/p>
+<p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight: normal; co=
+lor: #010101; text-align: left;">
+   <strong>2. Choose one of the following audio options:</strong>
+</p>
+            <p style=3D"margin: 5px 0 0 35px; font-size: 12px; font-weight:=
+ normal; color: #010101; text-align: left;">
+    TO USE YOUR COMPUTER'S AUDIO:<br>
+    When the webinar begins, you will be connected to audio using your comp=
+uter's microphone and speakers (VoIP). A headset is recommended.</p>
+                <p style=3D"margin: 5px 0 0 100px; font-size: 12px; font-we=
+ight: normal; color: #010101; text-align: left;">
+    --OR--</p>
+                <p style=3D"margin: 5px 0 0 35px; font-size: 12px; font-wei=
+ght: normal; color: #010101; text-align: left;">
+    TO USE YOUR TELEPHONE:<br>
+    If you prefer to use your phone, you must select "Use Telephone" after =
+joining the webinar and call in using the numbers below.<br>
+
+                   =20
+                        <span>
+                United States: +1 (562) 247-8321            </span>
+            <br/>
+           =20
+            Access Code: 846-511-199<br>
+   =20
+    Audio PIN: Shown after joining the webinar<br>
+            </p>
+            <p style=3D"margin: 10px 0 0 20px; font-size: 12px; font-weight=
+: normal; color: #010101; text-align: left;">
+    Webinar ID: 704-447-123</p>
+<p style=3D"color:#114c7f; margin: 10px 0 0 20px; font-size: 14px; font-wei=
+ght: bold; text-align: left;">
+    To Cancel this Registration</p>
+<p style=3D"margin: 10px 0 15px 20px; font-size: 12px; font-weight: normal;=
+ color: #010101; text-align: left;">
+        If you can't attend this webinar, you may <a style=3D'color: #309DD=
+C;' name=3D'lnkCancelRegistration' href=3Dhttps://attendee.gotowebinar.com/=
+cancel/185937689376759556/1885041596458214156>cancel your registration</a> =
+at any time.</p>                                        </div>
+                                    </td>
+                                    <!--/content-->
+                                </tr>
+                            </tbody>
+                        </table><!--/container-->
+                        <table cellspacing=3D"0" border=3D"0" cellpadding=
+=3D"8" id=3D"paddingFooter2" align=3D"center" width=3D"100%">
+                        <tr>
+                        <td/>
+                        </tr>
+                        </table>
+                                                   =20
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" id=3D"footer" style=
+=3D"background-color: #444;" align=3D"center" width=3D"100%">
+<tr>
+<td>
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" align=3D"center" wi=
+dth=3D"570">
+
+
+        <tr>
+               <td valign=3D"top" style=3D"vertical-align: top;" id=3D"lega=
+l">
+                    <p style=3D"font-size: 11px; font-weight: normal; color=
+: #AAA; text-align: center; ;margin: 15px 0 0;">You are receiving this emai=
+l because you registered for this webinar. Your email address and personal =
+information will be used by the Webinar organizer to communicate with you a=
+bout this event and their other services. To review the organizer's privacy=
+ policy or stop receiving their communications, please contact the organize=
+r directly.</p>
+               </td>
+        </tr>
+
+                               =20
+            <tr>
+                <td valign=3D"top" style=3D"vertical-align: top;" id=3D"unR=
+egisterUnSubscribe">
+                    <p style=3D"font-size: 11px; font-weight: normal; color=
+: #AAA; text-align: center; ;margin: 10px 0 0;"><a href=3D'https://attendee=
+.gotowebinar.com/cancel/185937689376759556/1885041596458214156' id=3D'unreg=
+isterLink' style=3D'color: #AAA; text-decoration: underline;'>Cancel regist=
+ration</a> | <a href=3D'https://attendee.gotowebinar.com/subscription.tmpl?=
+organizer=3D2985090879223586060&token=3DTIY59StvWlqn6LYIcx%2BYlA%3D%3D&orga=
+nizerEmail=3Dtyson.dun.vu%40hpe.com&attendeeEmail=3Dmg.hwang%40agilesys.co.=
+kr&locale=3Den_US' id=3D'unsubscribeLink' style=3D'color: #AAA; text-decora=
+tion: underline;'>Stop GoToWebinar emails</a> | <a href=3D'https://attendee=
+.gotowebinar.com/reportSpam.tmpl?organizer=3D2985090879223586060&token=3DTI=
+Y59StvWlqn6LYIcx%2BYlA%3D%3D&userEmail=3Dmg.hwang%40agilesys.co.kr&webinarI=
+d=3D704447123&webinarName=3DPartner+Webinar+Series%3A++Securing+BYOD+%26+Io=
+T+%2B+Ov...&organizerEmail=3Dtyson.dun.vu%40hpe.com&locale=3Den_US' id=3D'r=
+eportSpamLink' style=3D'color: #AAA; text-decoration: underline;'>Report sp=
+am</a></p>
+                </td>
+            </tr>
+
+       =20
+    <tr>
+       <td valign=3D"top" style=3D"vertical-align: top;" id=3D"legal2">
+            <p style=3D"font-size: 11px; font-weight: normal; color: #AAA; =
+text-align: center; ;margin: 10px 0 0;">This email is sent on behalf of the=
+ organizer by GoToWebinar and Citrix Systems, Inc. </p>
+       </td>
+    </tr>
+    <tr>
+       <td valign=3D"top" style=3D"vertical-align: top;" id=3D"legal3">
+            <p style=3D"font-size: 11px; font-weight: normal; color: #AAA; =
+text-align: center; ;margin: 0 0 15px;">7414 Hollister Avenue | Goleta, CA =
+93117 <a href=3D'http://www.citrix.com/about/legal/citrix-online-privacy-po=
+licy-overview-en.html' id=3D'privacyLink' style=3D'color: #AAA; text-decora=
+tion: underline;'>Privacy Policy</a> | <a href=3Dhttp://www.citrix.com/abou=
+t/legal/anti-spam-policy.html id=3D'antiSpamLink' style=3D'color: #AAA; tex=
+t-decoration: underline;'>Anti-spam Policy</a> | <a href=3D'http://www.goto=
+webinar.com' id=3D'gtmLink' style=3D'color: #AAA; text-decoration: underlin=
+e;'>www.gotowebinar.com</a> =C2=A92016 Citrix.</p>
+       </td>
+    </tr>
+
+</table>
+</td>
+</tr>
+
+</table>                                            </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+------=_Part_11474670_185308043.1480047144334--
+

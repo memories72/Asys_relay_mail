@@ -1,0 +1,1120 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id SD9DEt/EomloAwAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:11 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 3F19014C2F
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:35:11 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1551850767607392174
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.166.149 with SMTP id p143csp206058wme;
+        Wed, 23 Nov 2016 20:12:11 -0800 (PST)
+X-Received: by 10.28.62.141 with SMTP id l135mr333193wma.20.1479960730961;
+        Wed, 23 Nov 2016 20:12:10 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender) smtp.mailfrom=bs.kim@agilesys.co.kr
+Received-SPF: pass (google.com: found no external ips, assuming domain of bs.kim@agilesys.co.kr as permitted sender)
+Received: by 10.28.157.23 with POP3 id g23mf17939945wme.0;
+        Wed, 23 Nov 2016 20:12:10 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 19839 invoked by uid 700); 24 Nov 2016 13:03:41 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	24 Nov 2016 13:03:41 +0900
+Received: (qmail 25600 invoked by uid 700); 24 Nov 2016 13:03:40 +0900
+Received: from unknown (HELO PC) (bs.kim@agilesys.co.kr@118.130.109.246)
+	by 0 (knetqmail v1.06) with ESMTPA;
+	24 Nov 2016 13:03:40 +0900
+From: =?ks_c_5601-1987?B?sei6uLyx?= <bs.kim@agilesys.co.kr>
+To: =?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Cc: =?ks_c_5601-1987?B?sejBvryu?= <bost12@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?sPu8usH4?= <bdksj@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yKu8vMDH?= <sehong@agilesys.co.kr>
+References: <CS1PR84MB0086D22660534FF862FD01D8CDB70@CS1PR84MB0086.NAMPRD84.PROD.OUTLOOK.COM>
+In-Reply-To: <CS1PR84MB0086D22660534FF862FD01D8CDB70@CS1PR84MB0086.NAMPRD84.PROD.OUTLOOK.COM>
+Subject: FW: [HPE Aruba WLAN Training for Key Partners_FY17Q1]
+Date: Thu, 24 Nov 2016 13:03:40 +0900
+Message-ID: <005f01d24607$bd8d5fc0$38a81f40$@agilesys.co.kr>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0060_01D24653.2D7AD420"
+Thread-Index: AQIjfgKmu4XFQACzpmNToSMNYJtxtKBFE0iQ
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0060_01D24653.2D7AD420
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0061_01D24653.2D7AD420"
+
+
+------=_NextPart_001_0061_01D24653.2D7AD420
+Content-Type: text/plain;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+wvyw7cfPvcOw7SwgsbPAsCCw/LfDx8+/qSCwy8Xkx9i6uLzFv+QuDQoNCiANCg0Kot+/ocDMvcO9
+uiCx6Lq4vLG787mrDQoNCk1vYmlsZSkgMDEwLTU3OTAtMDUxOQ0KDQpFLU1haWwpICA8bWFpbHRv
+OmJzLmtpbUBhZ2lsZXN5cy5jby5rcj4gYnMua2ltQGFnaWxlc3lzLmNvLmtyIC8NCjxtYWlsdG86
+a2ltYnM0OThAZ21haWwuY29tPiBraW1iczQ5OEBnbWFpbC5jb20NCg0KQWRkcmVzcykgvK2/773D
+ILytw8qxuCC758bytOu3ziAxMzggtOu4orr0tfk0w/4NCg0KIA0KDQpGcm9tOiBLaW0sIEphZSBI
+byBbbWFpbHRvOmphZS1oby5raW1AaHBlLmNvbV0gDQpTZW50OiBXZWRuZXNkYXksIE5vdmVtYmVy
+IDIzLCAyMDE2IDY6MjcgUE0NClRvOiBLaW0sIEphZSBIbw0KQ2M6IEthbmcsIEluIENoZW9sOyBT
+b2huLCBEYW5pZWw7IEp1bmcsIEppbjsgSmFuZywgSmluIFN1bjsgS29yIEhQRSBBcnViYQ0KU2Fs
+ZXM7IFlvdSwgSmVvbmd5ZW9uDQpTdWJqZWN0OiBSRTogW0hQRSBBcnViYSBXTEFOIFRyYWluaW5n
+IGZvciBLZXkgUGFydG5lcnNfRlkxN1ExXQ0KDQogDQoNCr7Is+fHz7y8v+QhDQoNCrHowOfIoyDA
+1LTPtNkuDQoNCiANCg0KvNuxuL26t7Sw1LW1LCDBprChILrxv+vAuyDA37j4IMD8tN4gteW3yL3A
+tM+02S4NCg0KuvG/68C6ILTZwL2w+iCwsL3AtM+02S4gDQoNCiANCg0KMS4gICAgICAguvG/6yA6
+IFVTRCAzLDI1MCAvIDHAziA9PiDDuSC5+MKwt84gvcPH4MfPtMIgsM3AuLfOIDUwJSBEQ7ChtMks
+DQpVU0QgMSw2MjUgLyAxwM4NCg0KVHJhaW5pbmcgT3JkZXK4piDH2L7fx9QoSFBFIEFydWJhtMIg
+wabHsCC/wLT1v80gtsiwsMDMIFRyYWluaW5nIFNLVbChIMDWvu4NCsPRxse757fOus7FzSC/wLT1
+uKYgx8+w1CC1y7TPtNkuKQ0KDQogDQoNCrq7ILO7v+vAuiC/wLT1vcO/oSDA2ry8x8+w1CDA/LTe
+ILXluK61tbfPIMfPsNq9wLTPtNkuDQoNCiANCg0KsKi758fVtM+02S4NCg0KsejA58ijILXluLIN
+Cg0KRnJvbTogS2ltLCBKYWUgSG8gDQpTZW50OiBXZWRuZXNkYXksIE5vdmVtYmVyIDIzLCAyMDE2
+IDU6MzQgUE0NClRvOiBLaW0sIEphZSBIbyA8amFlLWhvLmtpbUBocGUuY29tPg0KQ2M6IEthbmcs
+IEluIENoZW9sIDxpbi1jaGVvbC5rYW5nQGhwZS5jb20+OyBTb2huLCBEYW5pZWwNCjxkYW5pZWwu
+c29obkBocGUuY29tPjsgSnVuZywgSmluIDxldWktanVuLmp1bmdAaHBlLmNvbT47IEphbmcsIEpp
+biBTdW4gPGppbi0NCnN1bi5qYW5nQGhwZS5jb20+OyBLb3IgSFBFIEFydWJhIFNhbGVzIDxrb3Jl
+YWVnaHBuc2FsZXNAaHBlLmNvbT47IFlvdSwNCkplb25neWVvbiA8amVvbmd5ZW9uLnlvdUBocGUu
+Y29tPg0KU3ViamVjdDogW0hQRSBBcnViYSBXTEFOIFRyYWluaW5nIGZvciBLZXkgUGFydG5lcnNf
+RlkxN1ExXQ0KSW1wb3J0YW5jZTogSGlnaA0KDQogDQoNCr7Is+fHz7y8v+QhDQoNCkhQRSBBcnVi
+YSCx6MDnyKMgwNS0z7TZLg0KDQogDQoNCrTZuKfAzCC+xrTPv8C28ywgwfazrcfYse7B9iCw+L3E
+wPvAziBXTEFOIMaut7nAzLTXwMwgvvi++sH2uLgsDQoNCsDMufggutCx4rrOxc0gV0xBTiBUcmFp
+bmluZ8C7ILD4vcTA+8C4t84gv8DHwsfPv6kgV0xBTiBUcmFpbmluZ8C7ILi2t8PHz7DUDQq1x77u
+vK0NCg0KuN7AzyC15biztM+02S4NCg0KursgtOu788DatMIguNXA+iBIUEUgQXJ1YmHAxyBLZXkg
+UGFydG5lcrvnILrQtemysiC41cD6ILHiyLi4piC15biusO3A2g0Kx8+/wLTPLA0KDQq4ucC6ILD8
+vckgus7FuSC15biztM+02S4NCg0KIA0KDQoxLiAgICAgICBUcmFpbmluZyBOYW1lIDogQXJ1YmEg
+TW9iaWxpdHkgQm9vdCBDYW1wDQoNCjIuICAgICAgIFNjaGVkdWxlIDogMb/5IMHfvPggv7nBpCjC
+98HWs7sgwM/BpCBGaXggv7nBpCkNCg0KMy4gICAgICAgVHJhaW5pbmcgQ291cnNlIDogDQoNCi0g
+ICAgICAgICAgsbPAsCC067vzIDogwd+x3iC/o8H2tM++7iix4sG4IENpc2NvILmrvLEgtse0wiDF
+uLqltPUguau8sQ0KsObH6MDMIMDWwLi9xSC/o8H2tM++7ikNCg0KLSAgICAgICAgICCxs8CwILnm
+vcQgOiCwrbvnIMHWtbUgsbPAsCi/3LG5wM4sIEVuZ2xpc2gpDQoNCi0gICAgICAgICAgsbPAsCCx
+4rCjIDogNcDPILD6waQNCg0KLSAgICAgICAgICDA5bzSIDogSFBFILvnv8Egtse0wiDGxMaus8q7
+5yCxs8CwwOUgv7nBpA0KDQotICAgICAgICAgIMS/uK7FpbezIDogw7e6zsbEwM8gwvzBtg0KDQo0
+LiAgICAgICC68b/rIDogVVNEIDI1MCAvIDHAziA9PiDDuSC5+MKwt84gvcPH4MfPtMIgsM3AuLfO
+IDUwJSBEQ7ChtMksIFVTRA0KMTI1IC8gMcDODQoNCqmjICBUcmFpbmluZyBPcmRlcrimIMfYvt/H
+1ChIUEUgQXJ1YmG0wiDBpsewIL/AtPW/zSC2yLCwwMwgVHJhaW5pbmcgU0tVsKENCsDWvu4gw9HG
+x7vnt866zsXNIL/AtPW4piDHz7DUILXLtM+02S4pDQoNCjUuICAgICAgIMPWtOsgMcWst6G9urTn
+ILChtMkgwM6/+CA6IDEyuO0NCg0KqaMgIMDMufi/obTCIMPWtOsgMcWst6G9urimIMH4x+DH2Lq4
+sO3A2iDHz7+pLCAxMrjtse7B9ri4IMGmx9EgtdENCr+5waTA1LTPtNkuDQoNCsfiyMQsILq7ILD6
+waTAzCDHx7XluenAzCDBwbTZuOkgyK606yC/ucGkwNS0z7TZLg0KDQo2LiAgICAgICDC/LyuwNog
+v+TDuyC+573EKL+1vu63ziDA27y6ILrOxbm15biztM+02S4pDQoNCg0KUGFydG5lciBOYW1lDQoN
+CkZpcnN0IE5hbWUNCg0KRmFtaWx5IE5hbWUNCg0KRS1tYWlsDQoNCk1vYmlsZQ0KDQpBcnViYSBD
+ZXJ0aWZpY2F0aW9uDQoNCg0KIA0KDQogDQoNCiANCg0KIA0KDQogDQoNCkFDTUEvQUNNUA0KDQoN
+CiANCg0KIA0KDQogDQoNCiANCg0KIA0KDQogDQoNCjcuICAgICAgIMfiyMQgx8O3ow0KDQotICAg
+ICAgICAgILq7IE1CQyBUcmFpbmluZ8C7ILDFxKMgyMQsIEFDTVDA2rDdwfXAuyDD67Xmx8+9xSC/
+o8H2tM++7rrQtekNCrTru/PAuLfOIDK/+SDDyiBBQ01YuKYgwMC9wyDH0iC89iDA1rTCDQoNCrHi
+yLi4piC15bixIL+5waTA1LTPtNkuIEFDTVi1tSDH0bG5v6G8rSDD67Xmx8+9xyC89iDA1rTCIMDa
+uK64piC4trfDx9INCrDoyLnAzL/AtM8sIML8sO3Hz73DseIgudm2+LTPtNkuDQoNCiANCg0Kursg
+xq63ucDMtNe/oSDC/LyuIMfPvccgxsTGrrPKu+cgutC16bKyvK20wiC0yr7utbUgs7vAz7HuwfYg
+waaw1CC6uLO7wda9w7HiDQq52bb4tM+02S4NCg0KIA0KDQqwqLvnx9W0z7TZLg0KDQqx6MDnyKMg
+teW4sg0KDQogDQoNClRoYW5rcyAmIEJlc3QgcmVnYXJkcywNCg0KSmFlaG8uIEtpbQ0KDQpLb3Jl
+YSBFRyBIUEUgQXJ1YmEgU2FsZXMgVGVhbQ0KDQpDaGFubmVsIEFjY291bnQgTWFuYWdlciAvIML3
+wOUNCg0KIDxtYWlsdG86amFlLWhvLmtpbUBocGUuY29tPiBqYWUtaG8ua2ltQGhwZS5jb20NCg0K
+ODItMTAtOTUwMC04NzU4DQoNCjgyLTItMjE5OS00NTE3DQoNCiANCg0KDQoNCiANCg0K
+
+------=_NextPart_001_0061_01D24653.2D7AD420
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987"><meta name=3DGenerator content=3D"Microsoft =
+Word 14 (filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:=B9=D9=C5=C1;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:=B1=BC=B8=B2;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B1=BC=B8=B2";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"HP Simplified";
+	panose-1:2 11 6 4 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@=B8=BC=C0=BA =B0=ED=B5=F1";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=B9=D9=C5=C1";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Metric Regular";}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:9.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:4.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"HP Simplified","sans-serif";
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:"HP Simplified","sans-serif";
+	color:#1F497D;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";
+	color:#1F497D;}
+span.Char
+	{mso-style-name:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE =
+Char";
+	mso-style-priority:99;
+	mso-style-link:"=C7=B3=BC=B1 =B5=B5=BF=F2=B8=BB =C5=D8=BD=BA=C6=AE";
+	font-family:"=B8=BC=C0=BA =B0=ED=B5=F1";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=C2=FC=B0=ED=C7=CF=BD=C3=B0=ED<span =
+lang=3DEN-US>, </span>=B1=B3=C0=B0 =B0=FC=B7=C3=C7=CF=BF=A9 =
+=B0=CB=C5=E4=C7=D8=BA=B8=BC=C5=BF=E4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal><span =
+style=3D'color:#1F497D'>=A2=DF=BF=A1=C0=CC=BD=C3=BD=BA =
+=B1=E8=BA=B8=BC=B1=BB=F3=B9=AB<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'color:#1F497D'>Mobile) =
+010-5790-0519<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'color:#1F497D'>E-Mail) <a =
+href=3D"mailto:bs.kim@agilesys.co.kr"><span =
+style=3D'color:blue'>bs.kim@agilesys.co.kr</span></a> / <a =
+href=3D"mailto:kimbs498@gmail.com"><span =
+style=3D'color:blue'>kimbs498@gmail.com</span></a><o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US style=3D'color:#1F497D'>Address) =
+</span><span style=3D'color:#1F497D'>=BC=AD=BF=EF=BD=C3 =
+=BC=AD=C3=CA=B1=B8 =BB=E7=C6=F2=B4=EB=B7=CE<span lang=3DEN-US> 138 =
+</span>=B4=EB=B8=A2=BA=F4=B5=F9<span =
+lang=3DEN-US>4</span>=C3=FE</span><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p></o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-numeric =
+ideograph-other;word-break:keep-all'><b><span lang=3DEN-US =
+style=3D'font-family:"Tahoma","sans-serif"'>From:</span></b><span =
+lang=3DEN-US style=3D'font-family:"Tahoma","sans-serif"'> Kim, Jae Ho =
+[mailto:jae-ho.kim@hpe.com] <br><b>Sent:</b> Wednesday, November 23, =
+2016 6:27 PM<br><b>To:</b> Kim, Jae Ho<br><b>Cc:</b> Kang, In Cheol; =
+Sohn, Daniel; Jung, Jin; Jang, Jin Sun; Kor HPE Aruba Sales; You, =
+Jeongyeon<br><b>Subject:</b> RE: [HPE Aruba WLAN Training for Key =
+Partners_FY17Q1]<o:p></o:p></span></p></div></div><p class=3DMsoNormal =
+align=3Dleft style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>!<o:p></o:p></span></p><p =
+class=3DMsoNormal>=B1=E8=C0=E7=C8=A3<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=D4=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BC=DB=B1=B8=BD=BA=B7=B4=B0=D4=B5=B5<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>, =
+</span>=C1=A6=B0=A1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BA=F1=BF=EB=C0=BB<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=DF=B8=F8<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=FC=B4=DE<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=E5=B7=C8=BD=C0=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BA=F1=BF=EB=C0=BA<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B4=D9=C0=BD=B0=FA<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=B0=BD=C0=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif";color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>1.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=BA=F1=BF=EB<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> : <b><u>USD 3,250 / =
+1</u></b></span><b><u>=C0=CE</u></b><span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> =3D&gt; =
+</span>=C3=B9<span style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B9=F8=C2=B0=B7=CE<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BD=C3=C7=E0=C7=CF=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=CD=C0=B8=B7=CE<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> 50% DC</span>=B0=A1=B4=C9<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>, <b><u>USD 1,625 / =
+1</u></b></span><b><u>=C0=CE</u></b><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>Training =
+Order</span>=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=D8=BE=DF=C7=D4<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>(HPE =
+Aruba</span>=B4=C2<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C1=A6=C7=B0<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=B4=F5=BF=CD<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B6=C8=B0=B0=C0=CC<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> Training =
+SKU</span>=B0=A1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=D6=BE=EE<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C3=D1=C6=C7=BB=E7=B7=CE=BA=CE=C5=CD<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=B4=F5=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=CF=B0=D4<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=CB=B4=CF=B4=D9<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BA=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B3=BB=BF=EB=C0=BA<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=B4=F5=BD=C3=BF=A1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=DA=BC=BC=C7=CF=B0=D4<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=FC=B4=DE<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=E5=B8=AE=B5=B5=B7=CF<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C7=CF=B0=DA=BD=C0=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal>=B1=E8=C0=E7=C8=A3<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=E5=B8=B2<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif";color:#1F497D'><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left;text-autospace:ideograph-other;word-break:keep-a=
+ll'><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>From:</span=
+></b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'> Kim, Jae =
+Ho <br><b>Sent:</b> Wednesday, November 23, 2016 5:34 PM<br><b>To:</b> =
+Kim, Jae Ho &lt;<a =
+href=3D"mailto:jae-ho.kim@hpe.com">jae-ho.kim@hpe.com</a>&gt;<br><b>Cc:</=
+b> Kang, In Cheol &lt;<a =
+href=3D"mailto:in-cheol.kang@hpe.com">in-cheol.kang@hpe.com</a>&gt;; =
+Sohn, Daniel &lt;<a =
+href=3D"mailto:daniel.sohn@hpe.com">daniel.sohn@hpe.com</a>&gt;; Jung, =
+Jin &lt;<a =
+href=3D"mailto:eui-jun.jung@hpe.com">eui-jun.jung@hpe.com</a>&gt;; Jang, =
+Jin Sun &lt;<a =
+href=3D"mailto:jin-sun.jang@hpe.com">jin-sun.jang@hpe.com</a>&gt;; Kor =
+HPE Aruba Sales &lt;<a =
+href=3D"mailto:koreaeghpnsales@hpe.com">koreaeghpnsales@hpe.com</a>&gt;; =
+You, Jeongyeon &lt;<a =
+href=3D"mailto:jeongyeon.you@hpe.com">jeongyeon.you@hpe.com</a>&gt;<br><b=
+>Subject:</b> [HPE Aruba WLAN Training for Key =
+Partners_FY17Q1]<br><b>Importance:</b> =
+High<o:p></o:p></span></p></div></div><p class=3DMsoNormal align=3Dleft =
+style=3D'text-align:left'><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>!<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>HPE Aruba </span>=B1=E8=C0=E7=C8=A3<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=D4=B4=CF=B4=D9<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B4=D9=B8=A7=C0=CC<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BE=C6=B4=CF=BF=C0=B6=F3<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>, =
+</span>=C1=F6=B3=AD=C7=D8=B1=EE=C1=F6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B0=F8=BD=C4=C0=FB=C0=CE<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'> WLAN =
+</span>=C6=AE=B7=B9=C0=CC=B4=D7=C0=CC<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BE=F8=BE=FA=C1=F6=B8=B8<span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>,<o:p></o:p></span></p><p =
+class=3DMsoNormal>=C0=CC=B9=F8<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BA=D0=B1=E2=BA=CE=C5=CD<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'> WLAN =
+Training</span>=C0=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B0=F8=BD=C4=C0=FB=C0=B8=B7=CE<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=C7=C2=C7=CF=BF=A9<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> WLAN =
+Training</span>=C0=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B8=B6=B7=C3=C7=CF=B0=D4<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=C7=BE=EE=BC=AD<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoNormal>=B8=DE=C0=CF<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal>=BA=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B4=EB=BB=F3=C0=DA=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B8=D5=C0=FA<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> HPE Aruba</span>=C0=C7<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> Key =
+Partner</span>=BB=E7<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BA=D0=B5=E9=B2=B2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B8=D5=C0=FA<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B1=E2=C8=B8=B8=A6<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=E5=B8=AE=B0=ED=C0=DA<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=CF=BF=C0=B4=CF<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>,<o:p></o:p></span></p><p =
+class=3DMsoNormal>=B8=B9=C0=BA<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B0=FC=BD=C9<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BA=CE=C5=B9<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=E5=B8=B3=B4=CF=B4=D9<span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>1.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>Training =
+Name : Aruba Mobility Boot Camp<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>2.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>Schedule =
+: 1</span>=BF=F9<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C1=DF=BC=F8<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=B9=C1=A4<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>(</span>=C2=F7=C1=D6=B3=BB<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=CF=C1=A4<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> Fix </span>=BF=B9=C1=A4<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>)<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>3.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>Training =
+Course : <o:p></o:p></span></p><p class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=B1=B3=C0=B0<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B4=EB=BB=F3<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> : =
+</span><b><u>=C1=DF=B1=DE</u></b><b><u><span style=3D'font-family:"HP =
+Simplified","sans-serif"'> =
+</span>=BF=A3=C1=F6=B4=CF=BE=EE</u></b><b><u><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>(</span>=B1=E2=C1=B8</u></b><b><u><span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'> Cisco =
+</span>=B9=AB=BC=B1</u></b><b><u><span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B6=C7=B4=C2</u></b><b><u><span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C5=B8=BA=A5=B4=F5</u></b><b><u><span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B9=AB=BC=B1</u></b><b><u><span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=E6=C7=E8=C0=CC</u></b><b><u><span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=D6=C0=B8=BD=C5</u></b><b><u><span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=A3=C1=F6=B4=CF=BE=EE</u></b><b><u><span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>)</span></u></b><span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=B1=B3=C0=B0<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B9=E6=BD=C4<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> : =
+</span>=B0=AD=BB=E7<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C1=D6=B5=B5<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B1=B3=C0=B0<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>(</span><b><u>=BF=DC=B1=B9=C0=CE</u></b><b><u><=
+span lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>, =
+English</span></u></b><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>)<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=B1=B3=C0=B0<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B1=E2=B0=A3<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> : =
+5</span>=C0=CF<span style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=FA=C1=A4<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=C0=E5=BC=D2<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> : HPE </span>=BB=E7=BF=C1<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B6=C7=B4=C2<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C6=C4=C6=AE=B3=CA=BB=E7<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B1=B3=C0=B0=C0=E5<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BF=B9=C1=A4<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=C4=BF=B8=AE=C5=A5=B7=B3<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> : =
+</span>=C3=B7=BA=CE=C6=C4=C0=CF<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C2=FC=C1=B6<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>4.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=BA=F1=BF=EB<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> : USD 250 / 1</span>=C0=CE<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> =3D&gt; =
+</span>=C3=B9<span style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B9=F8=C2=B0=B7=CE<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BD=C3=C7=E0=C7=CF=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=CD=C0=B8=B7=CE<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> 50% DC</span>=B0=A1=B4=C9<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>, USD 125 / =
+1</span>=C0=CE<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:Wingdings'>=A9=A3</span><span =
+lang=3DEN-US style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp; </span><span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>Training =
+Order</span>=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=D8=BE=DF=C7=D4<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>(HPE =
+Aruba</span>=B4=C2<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C1=A6=C7=B0<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=B4=F5=BF=CD<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B6=C8=B0=B0=C0=CC<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> Training =
+SKU</span>=B0=A1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=D6=BE=EE<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C3=D1=C6=C7=BB=E7=B7=CE=BA=CE=C5=CD<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=C0=B4=F5=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=CF=B0=D4<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=CB=B4=CF=B4=D9<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.)<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>5.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=C3=D6=B4=EB<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> 1</span>=C5=AC=B7=A1=BD=BA=B4=E7<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=A1=B4=C9<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=CE=BF=F8<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> : =
+12</span>=B8=ED<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:Wingdings'>=A9=A3</span><span =
+lang=3DEN-US style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp; </span>=C0=CC=B9=F8=BF=A1=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> </span><b><u><span =
+style=3D'color:red'>=C3=D6=B4=EB</span></u></b><b><u><span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif";color:red'> =
+1</span><span =
+style=3D'color:red'>=C5=AC=B7=A1=BD=BA</span></u></b>=B8=A6<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C1=F8=C7=E0=C7=D8=BA=B8=B0=ED=C0=DA<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C7=CF=BF=A9<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>, 12</span>=B8=ED=B1=EE=C1=F6=B8=B8<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C1=A6=C7=D1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=D1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd'>=C7=E2=C8=C4<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>, =
+</span>=BA=BB<span style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=FA=C1=A4=C0=CC<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=C7=B5=E5=B9=E9=C0=CC<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C1=C1=B4=D9=B8=E9<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C8=AE=B4=EB<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>6.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=C2=FC=BC=AE=C0=DA<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BF=E4=C3=BB<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BE=E7=BD=C4<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>(</span><b><u><span =
+style=3D'color:red'>=BF=B5=BE=EE=B7=CE</span></u></b><b><u><span =
+style=3D'font-family:"HP Simplified","sans-serif";color:red'> =
+</span><span style=3D'color:red'>=C0=DB=BC=BA</span></u></b><span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.)<o:p></o:p></span></p><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+style=3D'margin-left:38.0pt;border-collapse:collapse'><tr><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;padding:0cm 5.4pt 0cm 5.4pt'><p class=3DMsoListParagraph =
+align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>Partner Name<o:p></o:p></span></b></p></td><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>First Name<o:p></o:p></span></b></p></td><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>Family Name<o:p></o:p></span></b></p></td><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>E-mail<o:p></o:p></span></b></p></td><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>Mobile<o:p></o:p></span></b></p></td><td =
+width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph align=3Dcenter =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd;text-align:center'><b><=
+span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>Aruba =
+Certification<o:p></o:p></span></b></p></td></tr><tr><td width=3D125 =
+valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>ACMA/ACMP<o:p></o:p></span></p></td></tr><tr><t=
+d width=3D125 valign=3Dtop style=3D'width:93.5pt;border:solid windowtext =
+1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt'><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td><td =
+width=3D125 valign=3Dtop =
+style=3D'width:93.5pt;border-top:none;border-left:none;border-bottom:soli=
+d windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt =
+0cm 5.4pt'><p class=3DMsoListParagraph =
+style=3D'margin-left:0cm;mso-para-margin-left:0gd'><span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p></td></tr></table><=
+p class=3DMsoListParagraph =
+style=3D'margin-left:38.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>7.</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=C7=E2=C8=C4<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=C3=B7=A3<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd;text-indent:-18.0pt'=
+><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>-</span><span lang=3DEN-US =
+style=3D'font-size:7.0pt;font-family:"Times New =
+Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span>=BA=BB<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'> MBC Training</span>=C0=BB<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=C5=C4=A3<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C8=C4<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>, =
+ACMP</span>=C0=DA=B0=DD=C1=F5=C0=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C3=EB=B5=E6=C7=CF=BD=C5<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=BF=A3=C1=F6=B4=CF=BE=EE=BA=D0=B5=E9<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B4=EB=BB=F3=C0=B8=B7=CE<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'> 2</span>=BF=F9<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> </span>=C3=CA<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'> =
+ACMX</span>=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=C0=BD=C3<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> </span>=C7=D2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> </span>=BC=F6<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=D6=B4=C2<span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoListParagraph =
+style=3D'margin-left:56.0pt;mso-para-margin-left:0gd'>=B1=E2=C8=B8=B8=A6<=
+span style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B5=E5=B8=B1<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BF=B9=C1=A4=C0=D4=B4=CF=B4=D9<span =
+lang=3DEN-US style=3D'font-family:"HP Simplified","sans-serif"'>. =
+ACMX</span>=B5=B5<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=D1=B1=B9=BF=A1=BC=AD<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C3=EB=B5=E6=C7=CF=BD=C7<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BC=F6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C0=D6=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C0=DA=B8=AE=B8=A6<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B8=B6=B7=C3=C7=D2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B0=E8=C8=B9=C0=CC=BF=C0=B4=CF<span lang=3DEN-US =
+style=3D'font-family:"HP Simplified","sans-serif"'>, =
+</span>=C2=FC=B0=ED=C7=CF=BD=C3=B1=E2<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B9=D9=B6=F8=B4=CF=B4=D9<span =
+lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=BA=BB<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C6=AE=B7=B9=C0=CC=B4=D7=BF=A1<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C2=FC=BC=AE<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=C7=CF=BD=C7<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C6=C4=C6=AE=B3=CA=BB=E7<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BA=D0=B5=E9=B2=B2=BC=AD=B4=C2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> </span><b><u><span =
+style=3D'color:red'>=B4=CA=BE=EE=B5=B5</span></u></b><b><u><span =
+style=3D'font-family:"HP Simplified","sans-serif";color:red'> =
+</span><span =
+style=3D'color:red'>=B3=BB=C0=CF=B1=EE=C1=F6</span></u></b><span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=C1=A6=B0=D4<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=BA=B8=B3=BB=C1=D6=BD=C3=B1=E2<span =
+style=3D'font-family:"HP Simplified","sans-serif"'> =
+</span>=B9=D9=B6=F8=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'>.<o:p></o:p></span></p><p =
+class=3DMsoNormal>=B1=E8=C0=E7=C8=A3<span style=3D'font-family:"HP =
+Simplified","sans-serif"'> </span>=B5=E5=B8=B2<span lang=3DEN-US =
+style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"HP =
+Simplified","sans-serif"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Metric =
+Regular"'>Thanks &amp; Best regards,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Metric =
+Regular"'>Jaeho. Kim<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-family:"Metric Regular"'>Korea EG HPE Aruba =
+Sales Team<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"Metric Regular"'>Channel Account Manager / =
+</span>=C2=F7=C0=E5<span lang=3DEN-US style=3D'font-family:"Metric =
+Regular"'><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-family:"Metric Regular"'><a =
+href=3D"mailto:jae-ho.kim@hpe.com"><span =
+style=3D'color:blue'>jae-ho.kim@hpe.com</span></a><o:p></o:p></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Metric =
+Regular"'>82-10-9500-8758<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Metric =
+Regular"'>82-2-2199-4517<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US style=3D'font-size:5.0pt;font-family:"Metric =
+Regular"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US><img border=3D0 width=3D187 height=3D41 =
+id=3D"Picture_x0020_7" =
+src=3D"cid:image001.png@01D245B7.2FF12430"><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_001_0061_01D24653.2D7AD420--
+
+------=_NextPart_000_0060_01D24653.2D7AD420
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D245B7.2FF12430>
+
+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
+tE2ZC0j+H3xE1E1LCkGzAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0060_01D24653.2D7AD420--
+

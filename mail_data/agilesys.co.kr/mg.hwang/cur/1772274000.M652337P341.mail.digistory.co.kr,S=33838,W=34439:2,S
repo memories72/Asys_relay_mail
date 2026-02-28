@@ -1,0 +1,601 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id IKrXJlDBomlVAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:20:00 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 9E6A814C24
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:20:00 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1538907948040264084
+X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
+Received: from MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) by
+ MAIL-SERVER.agilesys.co.kr ([192.168.0.3]) with mapi; Mon, 4 Jul 2016
+ 16:23:04 +0900
+From: =?ks_c_5601-1987?B?vLrBvsiv?= <hwany@agilesys.co.kr>
+To: "You, Jeongyeon" <jeongyeon.you@hpe.com>
+CC: =?ks_c_5601-1987?B?vK28rsf2?= <shseo@agilesys.co.kr>,
+	=?ks_c_5601-1987?B?yLK5zrHU?= <mg.hwang@agilesys.co.kr>
+Content-Class: urn:content-classes:message
+Date: Mon, 4 Jul 2016 16:21:45 +0900
+Subject: =?ks_c_5601-1987?B?yLi9xTogvK259iBBU0UgvcPH6LnZv+zDsyC+yLO7?=
+Thread-Topic: =?ks_c_5601-1987?B?vK259iBBU0UgvcPH6LnZv+zDsyC+yLO7?=
+Thread-Index: AdHVweOQogThcVpVRhaU44tlB/wBywAAtStI
+Message-ID:
+ <327B51700086C0479B084D86D0B0E45C04DBC42A7257@MAIL-SERVER.agilesys.co.kr>
+References:
+ <TU4PR84MB0143643545504B6DABD7137DF1380@TU4PR84MB0143.NAMPRD84.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <TU4PR84MB0143643545504B6DABD7137DF1380@TU4PR84MB0143.NAMPRD84.PROD.OUTLOOK.COM>
+Accept-Language: ko-KR
+Content-Language: ko-KR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MAIL-SERVER.agilesys.co.kr
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+acceptlanguage: ko-KR
+Content-Type: multipart/alternative;
+	boundary="_000_327B51700086C0479B084D86D0B0E45C04DBC42A7257MAILSERVERa_"
+MIME-Version: 1.0
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBC42A7257MAILSERVERa_
+Content-Type: text/plain; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+vsiz58fPvLy/5CC/ocDMvcO9uiC8usG+yK/A1LTPtNkuDQoNCrq7wM7AuiBIUDAtUzQyuKYgwMC9
+w7imIMfYvt8gx8+w7Q0KDQq8rbyux/YgwvfA5bTUwMcgsOa/7CBIUDAtUzQzwLsgwMC48MfYvt8g
+x9W0z7TZLg0KDQq6r7DmwMwgsKG0ycfRwfYgyK7AziC6zsW5teW4rrDavcC0z7TZLg0KDQqwqLvn
+x9W0z7TZLg0KK35+K35+K35+K35+K35+K35+K35+K35+K35+K35+Kw0KKMHWKb+hwMy9w726ILyt
+uvG9urvnvve6ziCw+sDlILy6IMG+IMivDQq8rb/vILytw8qxuCC53cb3tb8gNjctM7n4wfYgtOu4
+orr0tfkgNMP+IDEzNy04MDQNClRlbC4gMDcwLTcxMTQtMDA0OCBNb2JpbGUuIDAxMC00NzMxLTAy
+MDENCkZheC4gKDAyKTU4Ni01MDcwIEUtbWFpbC4gaHdhbnlAYWdpbGVzeXMuY28ua3I8aHR0cDov
+L2ttcy5hZ2lsZXN5cy5jby5rci9vd2EvcmVkaXIuYXNweD9DPUtyZ2k3VlpSMmt1ZGpVemc5N0pJ
+aFNLcHVTdXY2OUJJZ05GMGY2RlI0ZzRsSVVGWDZET2h4RnRncjZNZUhfRnU3M2lMYXlYX0VGTS4m
+VVJMPW1haWx0byUzYXMlNDBhZ2lsZXN5cy5jby5rcj4NCit+fit+fit+fit+fit+fit+fit+fit+
+fit+fit+fisNCg0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KurizvSC757b3
+OiBZb3UsIEplb25neWVvbiBbamVvbmd5ZW9uLnlvdUBocGUuY29tXQ0KurizvSCzr8KlOiAyMDE2
+s+IgN7/5IDTAzyC/+b/kwM8gv8DIxCA0OjAxDQq53rTCILvntvc6ILy6wb7IrzsgvK28rsf2DQrB
+prjxOiC8rbn2IEFTRSC9w8foudm/7MOzIL7Is7sNCg0Kvsiz58fPvLy/5CwgSFBFIMCvwaS/rMDU
+tM+02S4NCg0KvLrBvsivILD6wOW01LD6IMXryK3H0SCzu7/rILD8t8PHz7+pIL7Is7u15biztM+0
+2S4NCg0KurjF6yCx4rz6vcPH6MC6IL3Dx+iwqLW2sPwgx8+/oSC9w8fovL7Fzb+hvK0gwfjH4LXL
+tM+02bi4LCDA+sjxsKEgx/bA5yCzu7rOwPvAuLfOIE9ubGluZSBQcm9jdG9yZWQgKL/4sN2wqL3D
+KSC/wrbzwM4gvcPH6MC7IL3Dx+DHz7DtwNogvcO9usXbILG4w+DB37+hIMDWvcC0z7TZLiDAzCC9
+w726xdu/oSC068fRILiuuuS4piC53rDtwNosIL+hwMy9w726ILytvK7H9iDGwMDltNSysiC5q7fh
+IL3Dx+i52b/sw7OwoSDA/LTetckgv7nBpMDUtM+02S4NCihWb2x1bnRlZXK4piC8usG+yK8gsPrA
+5bTUv6G8rSC8rbyux/YgxsDA5bTUwLi3ziC6r7DmKQ0KwaawoSC02b3DIL7Is7vAzLjewM8guriz
+u7XluK6w2sH2uLgsIMClxLew+iC4tsDMxakgte7AzCCwobTJx9Egs+vGrrrPv6EgT25saW5lIFBy
+b2N0b3JlZCBFeGFtILzSx8HGrr/+vu64piC8s8Shx8+9w77uILHivPq9w8fowLsguau34bfOIMDA
+vcPHz73DsNQgtcu0z7TZLiC02bi4IMD6yPHCyr+hIL/CtvPAziC/+LDdsKi1tiC9w8fov6EgtOvH
+0SCw5sfoIEZlZWRiYWNrwLsgsPjAr8fYwda9w7jpILXLtM+02S4NCii/+LDdwLi3ziCwqLW2wMwg
+wfjH4LXHseK/oSwgsPy3wyCx1MGkwMwgwNbAuLjnILy8us6zu7/rwLogwvfB1r+hILqwtbUgvsiz
+u7XluK6w2r3AtM+02S4pDQoNClZvbHVudGVlcrimILy6wb7IryCw+sDltNS/obytILytvK7H9iDG
+wMDltNTAuLfOILnZstm0wrTrvcUsILytufYgseK8+r3Dx+ggw+u15sDMIMH2v6y1x8H2IL7KtbW3
+zw0KvcPH6CC52b/sw7MgurC1tSDA/LTeteW4s7TPtNkuIL3Dx+ggwaK89r3DIMfPseIgxO3G+SDA
+1LfCx8+9w77uIL3Dx+ggwaK89iC51yDB+Mfgx9jB1r3DuOkgtcew2r3AtM+02S4NCkhQMDQ5QzA3
+NDYyMQ0KDQoNCrCou+fH1bTPtNkuDQrAr8Gkv6wgteW4si4NCg0K
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBC42A7257MAILSERVERa_
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dks_c_5601=
+-1987">
+<style>@font-face {
+	font-family: =B9=D9=C5=C1;
+}
+@font-face {
+	font-family: =B1=BC=B8=B2;
+}
+@font-face {
+	font-family: Cambria Math;
+}
+@font-face {
+	font-family: =B8=BC=C0=BA =B0=ED=B5=F1;
+}
+@font-face {
+	font-family: Calibri;
+}
+@font-face {
+	font-family: @=B8=BC=C0=BA =B0=ED=B5=F1;
+}
+@font-face {
+	font-family: @=B1=BC=B8=B2;
+}
+@font-face {
+	font-family: @=B9=D9=C5=C1;
+}
+@page WordSection1 {margin: 3.0cm 72.0pt 72.0pt 72.0pt; }
+P.MsoNormal {
+	FONT-SIZE: 11pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+LI.MsoNormal {
+	FONT-SIZE: 11pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+DIV.MsoNormal {
+	FONT-SIZE: 11pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+A:link {
+	TEXT-DECORATION: underline; COLOR: #0563c1
+}
+SPAN.MsoHyperlink {
+	TEXT-DECORATION: underline; COLOR: #0563c1
+}
+A:visited {
+	TEXT-DECORATION: underline; COLOR: #954f72
+}
+SPAN.MsoHyperlinkFollowed {
+	TEXT-DECORATION: underline; COLOR: #954f72
+}
+P {
+	FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=B8=B2; MARGIN: 0cm 0cm 0pt
+}
+P.msochpdefault {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+LI.msochpdefault {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+DIV.msochpdefault {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Calibri",sans-serif; MARGIN: 0cm 0cm 0pt
+}
+SPAN.emailstyle17 {
+	FONT-FAMILY: "Calibri",sans-serif; COLOR: windowtext
+}
+SPAN.EmailStyle21 {
+	FONT-FAMILY: "Calibri",sans-serif; COLOR: #1f497d
+}
+.msochpdefault {
+	FONT-SIZE: 10pt; FONT-FAMILY: "Calibri",sans-serif
+}
+DIV.WordSection1 {
+=09
+}
+</style>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17496">
+<style id=3D"owaTempEditStyle"></style><style title=3D"owaParaStyle"><!--P =
+{
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563c1" vlink=3D"#954f72" ocsi=3D"x">
+<div style=3D"FONT-SIZE: x-small; FONT-FAMILY: Tahoma; COLOR: #000000; DIRE=
+CTION: ltr">
+<div>=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4 =BF=A1=C0=CC=BD=C3=BD=BA =BC=BA=C1=BE=
+=C8=AF=C0=D4=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=BA=BB=C0=CE=C0=BA&nbsp;HP0-S42=B8=A6 =C0=C0=BD=C3=B8=A6 =C7=D8=BE=DF =
+=C7=CF=B0=ED</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=BC=AD=BC=AE=C7=F6 =C2=F7=C0=E5=B4=D4=C0=C7 =B0=E6=BF=EC HP0-S43=C0=BB=
+ =C0=C0=B8=F0=C7=D8=BE=DF =C7=D5=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=BA=AF=B0=E6=C0=CC =B0=A1=B4=C9=C7=D1=C1=F6 =C8=AE=C0=CE =BA=CE=C5=B9=
+=B5=E5=B8=AE=B0=DA=BD=C0=B4=CF=B4=D9.</div>
+<div><font face=3D"tahoma"></font>&nbsp;</div>
+<div>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.<font face=3D"tahoma"></font><font face=
+=3D"tahoma"></font></div>
+<div>
+<div><font size=3D"2" face=3D"Tahoma">
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">&#43;~~&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">(</span></b><b><span style=
+=3D"COLOR: black">=C1=D6<span lang=3D"EN-US">)</span>=BF=A1=C0=CC=BD=C3=BD=
+=BA</span></b><span style=3D"COLOR: black"> =BC=AD=BA=F1=BD=BA=BB=E7=BE=F7=
+=BA=CE&nbsp;=B0=FA=C0=E5&nbsp;<strong>=BC=BA =C1=BE =C8=AF</strong></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span style=3D"COLOR: black">=BC=AD=BF=EF =BC=AD=C3=CA=B1=B8 =B9=DD=C6=F7=
+=B5=BF<span lang=3D"EN-US"> 67-3</span>=B9=F8=C1=F6 =B4=EB=B8=A2=BA=F4=B5=
+=F9<span lang=3D"EN-US"> 4</span>=C3=FE<span lang=3D"EN-US"> 137-804</span>=
+</span><span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=
+=B8=B2; COLOR: black"></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span lang=3D"EN-US" style=3D"COLOR: black">Tel. 070-7114-0048 <strong>Mobi=
+le. 010-4731-0201</strong></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<span lang=3D"EN-US" style=3D"COLOR: black"></span><span lang=3D"EN-US" sty=
+le=3D"COLOR: black">Fax. (02)586-5070<strong> E-mail. hwany</strong></span>=
+<span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =B1=BC=B8=B2; C=
+OLOR: black"><a href=3D"http://kms.agilesys.co.kr/owa/redir.aspx?C=3DKrgi7V=
+ZR2kudjUzg97JIhSKpuSuv69BIgNF0f6FR4g4lIUFX6DOhxFtgr6MeH_Fu73iLayX_EFM.&amp;=
+URL=3Dmailto%3as%40agilesys.co.kr"><span style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: '=B8=BC=C0=BA =B0=ED=B5=F1'; COLOR: black"><strong>@agilesys.co.kr</st=
+rong></span></a></span></p>
+<p class=3D"MsoNormal" style=3D"WORD-BREAK: keep-all; TEXT-ALIGN: left" ali=
+gn=3D"left">
+<b><span lang=3D"EN-US" style=3D"COLOR: black">&#43;~~&#43;~~&#43;~~&#43;~~=
+&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;~~&#43;</span></b></p>
+</font></div>
+<div><font size=3D"2" face=3D"Tahoma">
+<div dir=3D"ltr">&nbsp;</div>
+</font></div>
+</div>
+<div dir=3D"ltr"><font color=3D"#000000" size=3D"2" face=3D"Tahoma"></font>=
+&nbsp;</div>
+<div id=3D"divRpF420428" style=3D"DIRECTION: ltr">
+<hr tabindex=3D"-1">
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><b>=BA=B8=B3=BD =BB=E7=
+=B6=F7:</b> You, Jeongyeon [jeongyeon.you@hpe.com]<br>
+<b>=BA=B8=B3=BD =B3=AF=C2=A5:</b> 2016=B3=E2 7=BF=F9 4=C0=CF =BF=F9=BF=E4=
+=C0=CF =BF=C0=C8=C4 4:01<br>
+<b>=B9=DE=B4=C2 =BB=E7=B6=F7:</b> =BC=BA=C1=BE=C8=AF; =BC=AD=BC=AE=C7=F6<br=
+>
+<b>=C1=A6=B8=F1:</b> =BC=AD=B9=F6 ASE =BD=C3=C7=E8=B9=D9=BF=EC=C3=B3 =BE=C8=
+=B3=BB<br>
+</font><br>
+</div>
+<div></div>
+<div>
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BE=C8=B3=E7=C7=
+=CF=BC=BC=BF=E4</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">, HPE
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=AF=C1=A4=BF=AC=C0=D4=B4=
+=CF=B4=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"></sp=
+an>&nbsp;</p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=BA=C1=BE=C8=
+=AF</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=FA=C0=E5=B4=D4=B0=FA</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C5=EB=C8=AD=C7=D1</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B3=BB=BF=EB</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=FC=B7=C3=C7=CF=BF=A9</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BE=C8=B3=BB=B5=E5=B8=B3=B4=
+=CF=B4=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span></p=
+>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"></sp=
+an>&nbsp;</p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BA=B8=C5=EB</s=
+pan><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B1=E2=BC=FA=BD=C3=C7=E8=C0=
+=BA</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8=B0=A8=B5=B6=B0=
+=FC</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C7=CF=BF=A1</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8=BC=BE=C5=CD=BF=
+=A1=BC=AD</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"=
+>
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=F8=C7=E0=B5=CB=B4=CF=B4=
+=D9=B8=B8</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">,
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=FA=C8=F1=B0=A1</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C7=F6=C0=E7</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B3=BB=BA=CE=C0=FB=C0=B8=B7=
+=CE</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">Online Proctored (</=
+span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=F8=B0=DD=B0=A8=BD=C3</span><=
+span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">)
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=C2=B6=F3=C0=CE</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8=C0=BB</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E0=C7=CF=B0=ED=C0=
+=DA</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=BD=BA=C5=DB</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B1=B8=C3=E0=C1=DF=BF=A1</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=D6=BD=C0=B4=CF=B4=D9</spa=
+n><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=CC</span><span lang=3D"KO=
+" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=BD=BA=C5=DB=BF=A1</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B4=EB=C7=D1</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B8=AE=BA=E4=B8=A6</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=DE=B0=ED=C0=DA</span><spa=
+n style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">,
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=A1=C0=CC=BD=C3=BD=BA</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=AD=BC=AE=C7=F6</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C6=C0=C0=E5=B4=D4=B2=B2</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=AB=B7=E1</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8=B9=D9=BF=EC=C3=
+=B3=B0=A1</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"=
+>
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=FC=B4=DE=B5=C9</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=B9=C1=A4=C0=D4=B4=CF=B4=
+=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span></p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">(Vol=
+unteer</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot=
+;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B8=A6</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=BA=C1=BE=C8=AF</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=FA=C0=E5=B4=D4=BF=A1=BC=
+=AD</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=AD=BC=AE=C7=F6</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C6=C0=C0=E5=B4=D4=C0=B8=B7=
+=CE</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BA=AF=B0=E6</span><span styl=
+e=3D"FONT-SIZE: 10pt; COLOR: #1f497d">)</span></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=A6=B0=A1</s=
+pan><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B4=D9=BD=C3</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BE=C8=B3=BB=C0=CC=B8=DE=C0=
+=CF</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BA=B8=B3=BB=B5=E5=B8=AE=B0=
+=DA=C1=F6=B8=B8</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">,
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=A5=C4=B7=B0=FA</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B8=B6=C0=CC=C5=A9</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B5=EE=C0=CC</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=A1=B4=C9=C7=D1</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B3=EB=C6=AE=BA=CF=BF=A1</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">Online Proctored Exa=
+m </span>
+<span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=BC=C0=BA=
+ =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=D2=C7=C1=C6=AE=BF=FE=BE=EE=B8=A6</=
+span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=B3=C4=A1=C7=CF=BD=C3=BE=
+=EE</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B1=E2=BC=FA=BD=C3=C7=E8=C0=
+=BB</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=AB=B7=E1=B7=CE</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=C0=BD=C3=C7=CF=BD=C3=B0=
+=D4</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B5=CB=B4=CF=B4=D9</span><spa=
+n style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B4=D9=B8=B8</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=FA=C8=F1=C2=CA=BF=A1</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=C2=B6=F3=C0=CE</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=F8=B0=DD=B0=A8=B5=B6</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8=BF=A1</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B4=EB=C7=D1</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=E6=C7=E8</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">Feedback</span><span=
+ lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=BC=C0=BA =B0=
+=ED=B5=F1&quot;; COLOR: #1f497d">=C0=BB</span><span lang=3D"KO" style=3D"FO=
+NT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=F8=C0=AF=C7=D8=C1=D6=BD=
+=C3=B8=E9</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"=
+>
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B5=CB=B4=CF=B4=D9</span><spa=
+n style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span></p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">(</s=
+pan><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=BC=
+=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BF=F8=B0=DD=C0=B8=B7=CE</span><=
+span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=A8=B5=B6=C0=CC</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=F8=C7=E0=B5=C7=B1=E2=BF=
+=A1</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">,
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=FC=B7=C3</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B1=D4=C1=A4=C0=CC</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=D6=C0=B8=B8=E7</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=BC=BA=CE=B3=BB=BF=EB=C0=
+=BA</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C2=F7=C1=D6=BF=A1</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BA=B0=B5=B5</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BE=C8=B3=BB=B5=E5=B8=AE=B0=
+=DA=BD=C0=B4=CF=B4=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"=
+>.)</span></p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"></sp=
+an>&nbsp;</p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">Volu=
+nteer</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=
+=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B8=A6</span><span lang=3D=
+"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=BA=C1=BE=C8=AF</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=FA=C0=E5=B4=D4=BF=A1=BC=
+=AD</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=AD=BC=AE=C7=F6</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C6=C0=C0=E5=B4=D4=C0=B8=B7=
+=CE</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=D9=B2=D9=B4=C2=B4=EB=BD=
+=C5</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">,
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BC=AD=B9=F6</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B1=E2=BC=FA=BD=C3=C7=E8</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C3=EB=B5=E6=C0=CC</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=F6=BF=AC=B5=C7=C1=F6</spa=
+n><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BE=CA=B5=B5=B7=CF</span><spa=
+n style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8</s=
+pan><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=D9=BF=EC=C3=B3</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BA=B0=B5=B5</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=FC=B4=DE=B5=E5=B8=B3=B4=
+=CF=B4=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=A2=BC=F6=BD=C3</span><spa=
+n lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C7=CF=B1=E2</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C4=ED=C6=F9</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=D4=B7=C2=C7=CF=BD=C3=BE=
+=EE</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=BD=C3=C7=E8</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=A2=BC=F6</span><span lang=
+=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B9=D7</span><span lang=3D"KO=
+" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C1=F8=C7=E0=C7=D8=C1=D6=BD=
+=C3=B8=E9</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"=
+>
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B5=C7=B0=DA=BD=C0=B4=CF=B4=
+=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span></p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">HP04=
+9C074621</span></p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"></sp=
+an>&nbsp;</p>
+<p class=3D"MsoNormal"><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d"></sp=
+an>&nbsp;</p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B0=A8=BB=E7=C7=
+=D5=B4=CF=B4=D9</span><span style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</sp=
+an></p>
+<p class=3D"MsoNormal"><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAM=
+ILY: &quot;=B8=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=C0=AF=C1=A4=BF=
+=AC</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; COLOR: #1f497d">
+</span><span lang=3D"KO" style=3D"FONT-SIZE: 10pt; FONT-FAMILY: &quot;=B8=
+=BC=C0=BA =B0=ED=B5=F1&quot;; COLOR: #1f497d">=B5=E5=B8=B2</span><span styl=
+e=3D"FONT-SIZE: 10pt; COLOR: #1f497d">.</span><span style=3D"COLOR: black">=
+</span></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"COLOR: black"></span>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_327B51700086C0479B084D86D0B0E45C04DBC42A7257MAILSERVERa_--

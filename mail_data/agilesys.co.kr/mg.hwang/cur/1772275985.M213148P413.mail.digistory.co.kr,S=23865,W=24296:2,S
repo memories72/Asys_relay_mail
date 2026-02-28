@@ -1,0 +1,431 @@
+Return-Path: <>
+Delivered-To: mg.hwang@agilesys.co.kr
+Received: from nas.agilesys.co.kr
+	by mail.digistory.co.kr with LMTP
+	id UHCrDBHJommdAQAAqhLAQw
+	(envelope-from <>)
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:53:05 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nas.agilesys.co.kr (Postfix) with ESMTP id 3379514C3D
+	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:53:05 +0000 (UTC)
+X-Fetched-By: asys-pop3-fetcher
+X-Delivered-To: mg.hwang@agilesys.co.kr
+X-GM-THRID: 1556912274357146549
+X-Gmail-Labels: =?UTF-8?B?7KSR7JqU7Y647KeA7ZWoLOyXkOydtOyLnOyKpCzrsJvsnYDtjrjsp4Dtlag=?=
+Delivered-To: heemin@digistory.co.kr
+Received: by 10.28.157.11 with SMTP id g11csp1335773wme;
+        Mon, 23 Jan 2017 17:11:43 -0800 (PST)
+X-Received: by 10.223.148.2 with SMTP id 2mr29008689wrq.75.1485220303331;
+        Mon, 23 Jan 2017 17:11:43 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of postmaster@mx0a-001b2d01.pphosted.com designates 148.163.156.1 as permitted sender) smtp.mailfrom=mx0a-001b2d01.pphosted.com
+Received-SPF: pass (google.com: best guess record for domain of postmaster@mx0a-001b2d01.pphosted.com designates 148.163.156.1 as permitted sender) client-ip=148.163.156.1;
+Received: by 10.28.154.215 with POP3 id c206mf11296906wme.1;
+        Mon, 23 Jan 2017 17:11:42 -0800 (PST)
+X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
+Received: (qmail 22560 invoked by uid 700); 24 Jan 2017 09:25:32 +0900
+Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
+	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
+	24 Jan 2017 09:25:32 +0900
+Received: (qmail 16406 invoked by uid 700); 24 Jan 2017 09:25:32 +0900
+Received: from unknown (HELO mx0a-001b2d01.pphosted.com) (148.163.156.1)
+	by 0 (knetqmail v1.06) with ESMTPS (AES256-SHA encrypted);
+	24 Jan 2017 09:25:32 +0900
+Received: from e23smtp05.au.ibm.com (e23smtp05.au.ibm.com [202.81.31.147])
+	by mx0a-001b2d01.pphosted.com with ESMTP id 285jtug3md-1
+	(version=TLSv1.2 cipher=AES256-SHA bits=256 verify=NOT)
+	for <mg.hwang@agilesys.co.kr>; Mon, 23 Jan 2017 19:25:29 -0500
+Received: from localhost
+	by e23smtp05.au.ibm.com with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted
+	for <mg.hwang@agilesys.co.kr> from <pyung@kr.ibm.com>;
+	Tue, 24 Jan 2017 10:24:55 +1000
+Received: from d23dlp01.au.ibm.com (202.81.31.203)
+	by e23smtp05.au.ibm.com (202.81.31.211) with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted;
+	Tue, 24 Jan 2017 10:24:53 +1000
+X-IBM-Helo: d23dlp01.au.ibm.com
+X-IBM-MailFrom: pyung@kr.ibm.com
+X-IBM-RcptTo: mg.hwang@agilesys.co.kr
+Received: from d23relay08.au.ibm.com (d23relay08.au.ibm.com [9.185.71.33])
+	by d23dlp01.au.ibm.com (Postfix) with ESMTP id ABC2D2CE8054
+	for <mg.hwang@agilesys.co.kr>; Tue, 24 Jan 2017 11:24:52 +1100 (EST)
+Received: from d23av04.au.ibm.com (d23av04.au.ibm.com [9.190.235.139])
+	by d23relay08.au.ibm.com (8.14.9/8.14.9/NCO v10.0) with ESMTP id v0O0OiH619071082
+	for <mg.hwang@agilesys.co.kr>; Tue, 24 Jan 2017 11:24:52 +1100
+Received: from d50lp31.co.us.ibm.com (d50lp31.boulder.ibm.com [9.17.249.32])
+	by d23av04.au.ibm.com (8.14.4/8.14.4/NCO v10.0 AVin) with ESMTP id v0O0OI6a029313
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=FAIL)
+	for <mg.hwang@agilesys.co.kr>; Tue, 24 Jan 2017 11:24:19 +1100
+Received: from localhost
+	by d50lp31.co.us.ibm.com with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted
+	for <mg.hwang@agilesys.co.kr> from <pyung@kr.ibm.com>;
+	Mon, 23 Jan 2017 17:24:10 -0700
+Received: from smtp.notes.na.collabserv.com (192.155.248.90)
+	by d50lp31.co.us.ibm.com (192.168.2.141) with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted;
+	(version=TLSv1/SSLv3 cipher=AES128-GCM-SHA256 bits=128/128)
+	Mon, 23 Jan 2017 17:24:07 -0700
+Received: from localhost
+	by smtp.notes.na.collabserv.com with smtp.notes.na.collabserv.com ESMTP
+	for <mg.hwang@agilesys.co.kr> from <pyung@kr.ibm.com>;
+	Tue, 24 Jan 2017 00:24:06 -0000
+Received: from us1a3-smtp04.a3.dal06.isc4sb.com (10.106.154.237)
+	by smtp.notes.na.collabserv.com (10.106.227.141) with smtp.notes.na.collabserv.com ESMTP;
+	Tue, 24 Jan 2017 00:24:05 -0000
+Received: from us1a3-mail65.a3.dal09.isc4sb.com ([10.142.3.23])
+          by us1a3-smtp04.a3.dal06.isc4sb.com
+          with ESMTP id 2017012400240444-571021 ;
+          Tue, 24 Jan 2017 00:24:04 +0000 
+MIME-Version: 1.0
+Subject: =?EUC-KR?B?wPy03jogIFu/ocDMvcO9ul0guN64rsP3yK3A5yAxv/kgwaSx4sGksMs=?=
+ =?EUC-KR?B?ILq4sO28rQ==?=
+To: =?EUC-KR?B?waS/+L/r?= <wy.jeung@agilesys.co.kr>
+Cc: =?EUC-KR?B?J8iyuc6x1Cc=?= <mg.hwang@agilesys.co.kr>
+From: "InEog Pyung" <pyung@kr.ibm.com>
+Date: Tue, 24 Jan 2017 09:23:52 +0900
+X-KeepSent: 52705A79:D38D2398-492580B2:000215FC;
+ type=4; name=$KeepSent
+X-LLNOutbound: False
+X-Disclaimed: 24583
+X-TNEFEvaluated: 1
+Content-type: multipart/related; 
+	Boundary="0__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C"
+x-cbid: 17012400-0016-0000-0000-00000211C753
+X-IBM-ISS-SpamDetectors: Score=0.375074; BY=0; FL=0; FP=0; FZ=0; HX=0; KW=0;
+ PH=0; SC=0.375074; ST=0; TS=0; UL=0; ISC=
+X-IBM-ISS-DetailInfo: BY=3.00006486; HX=3.00000240; KW=3.00000007;
+ PH=3.00000004; SC=3.00000200; SDB=6.00811753; UDB=6.00395806; UTC=2017-01-24
+ 00:24:06
+x-cbparentid: 17012400-9718-0000-0000-000002B5377C
+X-IBM-AV-DETECTION: SAVI=unused REMOTE=unused XFE=unused
+X-TM-AS-MML: disable
+X-Content-Scanned: Fidelis XPS MAILER
+X-IBM-AV-DETECTION: SAVI=unused REMOTE=unused XFE=unused
+X-MS-Reactions: disallow
+Message-Id: <OF52705A79.D38D2398-ON492580B2.000215FC-492580B2.00022F70@notes.na.collabserv.com>
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2017-01-23_21:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 spamscore=0 suspectscore=3
+ malwarescore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=8.0.1-1612050000
+ definitions=main-1701240003
+
+--0__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C
+Content-type: multipart/alternative; 
+	Boundary="1__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C"
+
+
+--1__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C
+Content-Transfer-Encoding: quoted-printable
+Content-type: text/plain; charset=ISO-2022-KR
+
+
+=1B$)C
+=0E>H3gGO<<?d=0F,
+=0EGO1b=0F =0E@Z7a=0F =0EFwGT=0F =0EF/:0GQ=0F =0E9.A&0!=0F =0E>x@;=0F =0E0f=
+?l=0F 1=0E?y=0F =0E<-:q=3D::P?!=0F =0E4kGQ=0F =0E4k1]C;18=0F =0E@}Bw=0F =0E=
+Ax=0F
+=0EG`=0F =0E9Y6x4O4Y=0F. =0E<v0m=0F =0E89@8<L0m=0F, =0E4Y0!?@4B=0F =0E<3=0F=
+ =0E@=5F=0F =0E:83;=3DC1b=0F =0E9Y6x4O4Y=0F.
+=0E0(;gGU4O4Y=0F.
+
+InEog Pyung  =0EFr=0F =0E@N>o=0F
+MVS PM
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+   STS, TSS, Global                                    IBM Korea, Three IFC=
+,                   =20
+   Technology Services                                                     =
+                    =20
+                                                                           =
+                    =20
+   IBM Korea Inc                                       10 Gukjegeumyung-ro,=
+                    =20
+                                                      Yeongdeungpo-gu,     =
+                    =20
+                                                                           =
+                    =20
+                                                       Seoul, Korea        =
+                    =20
+                                                                           =
+                    =20
+   Phone:               +82-2-3781-7403                07326               =
+                    =20
+                                                                           =
+                    =20
+   Mobile:              +82-10-4995-7403                                   =
+                    =20
+                                                                           =
+                    =20
+   e-mail:              pyung@kr.ibm.com                                   =
+                    =20
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+                                                                           =
+                    =20
+   =0E:;=0F =0E8^@O@:=0F =0E1MGO22=0F =0E>w=0F                             =
+                                            =20
+   =0E9+=0F, =0E<-:q=3D:=0F =0EA&0x=0F, =0E0m=0F                           =
+                                              =20
+   =0E040|8.=0F =0E8q@{@87N=0F =0E9=5F<[=0F                                =
+                                        =20
+   =0EGO4B=0F =0E8^@O@T4O4Y=0F. =0E9=5F=0F                                 =
+                                        =20
+   =0E<[@Z=0F =0E@L8^@O=0F =0E<v=3DE@;=0F                                  =
+                                        =20
+   =0E?xGOAv=0F =0E>J@8=3DC8i=0F, =0E03=0F                                 =
+                                        =20
+   =0E:0@{@87N=0F =0E8^@O7N=0F =0EH8=3DE=0F                                =
+                                        =20
+   =0E:NE95e8.0m=0F,=0EGQ19=0FIBM                                          =
+                                =20
+   =0E@L8^@O=0F =0E<v=3DE@;=0F =0E?xGOAv=0F                                =
+                                        =20
+   =0E>J@8=3DC8i=0F, =0E<v=3DE0E:N8&=0F                                    =
+                                    =20
+   =0EE,8/GO?)=0F =0EAV=3DJ=3DC?@=0F.                                      =
+                                    =20
+   (If you don't wish                                                      =
+                    =20
+   to receive e-mail                                                       =
+                    =20
+   from sender, please                                                     =
+                    =20
+   send e-mail                                                             =
+                    =20
+   directly. For IBM                                                       =
+                    =20
+   e-mail, please click                                                    =
+                    =20
+   here). =0E1MGO@G=0F =0E03@NA$=0F                                        =
+                                =20
+   =0E:8=0F =0E?-6w=0F,=0EA$A$=0F, =0E;hA&=0F                              =
+                                            =20
+   =0E?dC;@:=0F =0E86DIFCCQ0}:;=0F                                         =
+                                =20
+   =0E:N=0F(=0E@|H-=0F:                                                    =
+                                =20
+   02-3781-7800,=0E@L8^@O=0F                                               =
+                          =20
+   mktg@kr.ibm.com )=0E7N=0F                                               =
+                          =20
+   =0E?,6t=0F =0E6G4B=0F =0E@L8^@O@;=0F                                    =
+                                      =20
+   =0EEkGX=0F =0E=3DEC;GO=3DG=0F =0E<v=0F =0E@V=0F                         =
+                                                =20
+   =0E=3D@4O4Y=0F.                                                         =
+                            =20
+                                                                           =
+                    =20
+
+
+
+----- Forwarded by InEog Pyung/Korea/IBM on 2017-01-24 =0E?@@|=0F 09:22 ---=
+--
+
+From:	=0EA$?x?k=0F <wy.jeung@agilesys.co.kr>
+To:	InEog Pyung/Korea/IBM@IBMKR
+Cc:	'=0EH29N1T=0F' <mg.hwang@agilesys.co.kr>
+Date:	2017-01-19 =0E?@@|=0F 09:55
+Subject:	[=0E?!@L=3DC=3D:=0F] =0E8^8.CwH-@g=0F 1=0E?y=0F =0EA$1bA$0K=0F =0E=
+:80m<-=0F
+
+
+
+=0E>H3gGO<<?d=0F =0E:N@e4T=0F
+
+=0E8^8.CwH-@g=0F 1=0E?y=0F =0EA$1bA$0K=0F =0E:80m<-=0F =0E:83;5e834O4Y=0F.
+
+=0E8;>8GO=3DE=0F  =0E9LC;180G@:=0F =0EGoGA5%=3D:E)=0F =0E9.@G0a0z=0F =0E@L9=
+x4^?!=0F =0EC;18GO4B0I7N=0F =0EH.@N5G>z=3D@4O=0F
+=0E4Y=0F.
+
+=0E0(;gGU4O4Y=0F.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+(=0EAV=0F) =0E?!@L=3DC=3D:=0F / =0E<-?o?5>w:;:N=0F /  =0EA$?x?k=0F =0E4k8.=
+=0F
+Tel. 070-7114-0086 / Fax. 02-586-5070
+Mobile. 010-5578-2663
+E-Mail. wy.jeung@agilesys.co.kr
+Address. =0E<-?o=3DC=0F =0E<-CJ18=0F =0E9]Fw5?=0F 67-3 =0E4k8":t5y=0F 4=0EC=
+~=0F
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+ ["201701.zip" =0EC7:NFD@O@;=0F InEog Pyung/Korea/IBM=0E@L=0F(=0E0!=0F) =0E=
+;hA&=0F]=1B$)C
+
+--1__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C
+Content-Transfer-Encoding: quoted-printable
+Content-type: text/html; charset=ISO-2022-KR
+Content-Disposition: inline
+
+=1B$)C<html><body><p>=0E>H3gGO<<?d=0F,<br>=0EGO1b=0F =0E@Z7a=0F =0EFwGT=0F =
+=0EF/:0GQ=0F =0E9.A&0!=0F =0E>x@;=0F =0E0f?l=0F 1=0E?y=0F =0E<-:q=3D::P?!=
+=0F =0E4kGQ=0F =0E4k1]C;18=0F =0E@}Bw=0F =0EAxG`=0F =0E9Y6x4O4Y=0F. =0E<v0m=
+=0F =0E89@8<L0m=0F, =0E4Y0!?@4B=0F =0E<3=0F =0E@=5F=0F =0E:83;=3DC1b=0F =0E=
+9Y6x4O4Y=0F.<br>=0E0(;gGU4O4Y=0F.<br><br><b><font size=3D"4" color=3D"#4F4F=
+4F" face=3D"Segoe Script">InEog Pyung </font></b><b><font size=3D"4" color=
+=3D"#4F4F4F"> =0EFr=0F =0E@N>o=0F</font></b><font size=3D"2" face=3D"Arial"=
+> </font><br><font size=3D"2" face=3D"Arial">MVS PM</font><table class=3D"M=
+soNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr valign=
+=3D"top"><td width=3D"600" colspan=3D"4" valign=3D"middle"><div align=3D"ce=
+nter"><hr width=3D"100%" size=3D"2" align=3D"center" noshade style=3D"color=
+:#696969; "></div></td></tr>
+<tr valign=3D"top"><td width=3D"600" colspan=3D"4" valign=3D"middle"><font =
+size=3D"1" face=3D"Arial"> </font></td></tr>
+<tr valign=3D"top"><td width=3D"280" colspan=3D"2" valign=3D"middle"><font =
+size=3D"2" color=3D"#696969" face=3D"Arial">STS, TSS, Global Technology Ser=
+vices</font></td><td width=3D"216" valign=3D"middle"><font size=3D"2" color=
+=3D"#696969" face=3D"Arial"> </font><font size=3D"2" color=3D"#5F5F5F" face=
+=3D"Arial">IBM Korea, Three IFC, </font></td><td width=3D"104" rowspan=3D"3=
+" valign=3D"middle"><div align=3D"right"><img src=3D"cid:1=5F=5F=3DC6BB0A21=
+DF91936C8f9e8a93df938690918cC6B@" width=3D"91" height=3D"40"></div></td></t=
+r>
+<tr valign=3D"top"><td width=3D"280" colspan=3D"2" valign=3D"middle"><font =
+size=3D"2" color=3D"#696969" face=3D"Arial">IBM Korea Inc </font></td><td w=
+idth=3D"216" valign=3D"middle"><font size=3D"2" color=3D"#696969" face=3D"A=
+rial"> </font><font size=3D"2" color=3D"#5F5F5F" face=3D"Arial">10 Gukjegeu=
+myung-ro, Yeongdeungpo-gu,  </font></td></tr>
+<tr valign=3D"top"><td width=3D"280" colspan=3D"2" valign=3D"middle"><img w=
+idth=3D"1" height=3D"1" src=3D"cid:2=5F=5F=3DC6BB0A21DF91936C8f9e8a93df9386=
+90918cC6B@" border=3D"0" alt=3D""></td><td width=3D"216" valign=3D"middle">=
+<font size=3D"2" color=3D"#696969" face=3D"Arial"> </font><font size=3D"2" =
+color=3D"#5F5F5F" face=3D"Arial">Seoul, Korea</font></td></tr>
+<tr valign=3D"top"><td width=3D"51" valign=3D"middle"><font size=3D"2" colo=
+r=3D"#696969" face=3D"Arial">Phone:</font></td><td width=3D"229" valign=3D"=
+middle"><font size=3D"2" color=3D"#696969" face=3D"Arial">+82-2-3781-7403</=
+font></td><td width=3D"216" valign=3D"middle"><font size=3D"2" color=3D"#69=
+6969" face=3D"Arial"> 07326 </font></td><td width=3D"104" valign=3D"middle"=
+><font face=3D"Times New Roman"> </font></td></tr>
+<tr valign=3D"top"><td width=3D"51" valign=3D"middle"><font size=3D"2" colo=
+r=3D"#696969" face=3D"Arial">Mobile:</font></td><td width=3D"229" valign=3D=
+"middle"><font size=3D"2" color=3D"#696969" face=3D"Arial">+82-10-4995-7403=
+</font></td><td width=3D"216" valign=3D"middle"><font size=3D"2" color=3D"#=
+696969" face=3D"Arial">  </font></td><td width=3D"104" valign=3D"middle"><f=
+ont face=3D"Times New Roman"> </font></td></tr>
+<tr valign=3D"top"><td width=3D"51" valign=3D"middle"><font size=3D"2" colo=
+r=3D"#696969" face=3D"Arial">e-mail:</font></td><td width=3D"229" valign=3D=
+"middle"><font size=3D"2" color=3D"#696969" face=3D"Arial">pyung@kr.ibm.com=
+</font></td><td width=3D"216" valign=3D"middle"><font size=3D"2" color=3D"#=
+696969" face=3D"Arial">  </font></td><td width=3D"104" valign=3D"middle"><f=
+ont face=3D"Times New Roman"> </font></td></tr>
+<tr valign=3D"top"><td width=3D"51" valign=3D"middle"><font size=3D"2" colo=
+r=3D"#696969" face=3D"Arial"> </font></td><td width=3D"229" valign=3D"middl=
+e"><font size=3D"2" color=3D"#696969" face=3D"Arial"> </font></td><td width=
+=3D"216" valign=3D"middle"><font size=3D"2" color=3D"#696969" face=3D"Arial=
+"> </font></td><td width=3D"104" valign=3D"middle"><font face=3D"Times New =
+Roman"> </font></td></tr>
+<tr valign=3D"top"><td width=3D"600" colspan=3D"4" valign=3D"middle"><font =
+size=3D"1" face=3D"=0E8<@:=0F =0E0m5q=0F">=0E:;=0F =0E8^@O@:=0F =0E1MGO22=
+=0F =0E>w9+=0F, =0E<-:q=3D:=0F =0EA&0x=0F, =0E0m040|8.=0F =0E8q@{@87N=0F =
+=0E9=5F<[GO4B=0F =0E8^@O@T4O4Y=0F. =0E9=5F<[@Z=0F =0E@L8^@O=0F =0E<v=3DE@;=
+=0F =0E?xGOAv=0F =0E>J@8=3DC8i=0F, =0E03:0@{@87N=0F =0E8^@O7N=0F =0EH8=3DE=
+=0F =0E:NE95e8.0m=0F,=0EGQ19=0FIBM =0E@L8^@O=0F =0E<v=3DE@;=0F =0E?xGOAv=0F=
+ =0E>J@8=3DC8i=0F, </font><a href=3D"https://www14.software.ibm.com/webapp/=
+iwm/web/signup.do?source=3DMATemailsuppression&lang=3Dko=5FKR"><u><font siz=
+e=3D"1" color=3D"#0000FF" face=3D"=0E8<@:=0F =0E0m5q=0F">=0E<v=3DE0E:N=0F</=
+font></u></a><font size=3D"1" face=3D"=0E8<@:=0F =0E0m5q=0F">=0E8&=0F =0EE,=
+8/GO?)=0F =0EAV=3DJ=3DC?@=0F. (If you don't wish to receive e-mail from sen=
+der, please send e-mail directly. For IBM e-mail, please </font><a href=3D"=
+mailto::mktg@kr.ibm.com"><u><font size=3D"1" color=3D"#0000FF" face=3D"=0E8=
+<@:=0F =0E0m5q=0F">click</font></u></a><font size=3D"1" face=3D"=0E8<@:=0F =
+=0E0m5q=0F"> here). =0E1MGO@G=0F =0E03@NA$:8=0F =0E?-6w=0F,=0EA$A$=0F, =0E;=
+hA&=0F =0E?dC;@:=0F =0E86DIFCCQ0}:;:N=0F(=0E@|H-=0F: 02-3781-7800,=0E@L8^@O=
+=0F</font><u><font size=3D"1" color=3D"#0000FF" face=3D"=0E8<@:=0F =0E0m5q=
+=0F"> </font></u><a href=3D"mailto%20:%20mktg@kr.ibm.com"><u><font size=3D"=
+1" face=3D"=0E8<@:=0F =0E0m5q=0F">mktg@kr.ibm.com</font></u></a><font size=
+=3D"1" face=3D"=0E8<@:=0F =0E0m5q=0F"> )=0E7N=0F =0E?,6t=0F =0E6G4B=0F =0E@=
+L8^@O@;=0F =0EEkGX=0F =0E=3DEC;GO=3DG=0F =0E<v=0F =0E@V=3D@4O4Y=0F.</font><=
+/td></tr></table><br><br><font size=3D"2" color=3D"#800080">----- Forwarded=
+ by InEog Pyung/Korea/IBM</font><font size=3D"2" color=3D"#800080"> on 2017=
+-01-24 =0E?@@|=0F 09:22</font><font size=3D"2" color=3D"#800080"> -----</fo=
+nt><br><br><font size=3D"2" color=3D"#5F5F5F">From:        </font><font siz=
+e=3D"2">=0EA$?x?k=0F &lt;wy.jeung@agilesys.co.kr&gt;</font><br><font size=
+=3D"2" color=3D"#5F5F5F">To:        </font><font size=3D"2">InEog Pyung/Kor=
+ea/IBM@IBMKR</font><br><font size=3D"2" color=3D"#5F5F5F">Cc:        </font=
+><font size=3D"2">'=0EH29N1T=0F' &lt;mg.hwang@agilesys.co.kr&gt;</font><br>=
+<font size=3D"2" color=3D"#5F5F5F">Date:        </font><font size=3D"2">201=
+7-01-19 =0E?@@|=0F 09:55</font><br><font size=3D"2" color=3D"#5F5F5F">Subje=
+ct:        </font><font size=3D"2">[=0E?!@L=3DC=3D:=0F] =0E8^8.CwH-@g=0F 1=
+=0E?y=0F =0EA$1bA$0K=0F =0E:80m<-=0F</font><br><hr width=3D"100%" size=3D"2=
+" align=3D"left" noshade style=3D"color:#8091A5; "><br><br><br><font face=
+=3D"=0E8<@:=0F =0E0m5q=0F">=0E>H3gGO<<?d=0F =0E:N@e4T=0F</font><br><font fa=
+ce=3D"=0E8<@:=0F =0E0m5q=0F"> </font><br><font face=3D"=0E8<@:=0F =0E0m5q=
+=0F">=0E8^8.CwH-@g=0F 1=0E?y=0F =0EA$1bA$0K=0F =0E:80m<-=0F =0E:83;5e834O4Y=
+=0F.</font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F"> </font><br><font face=
+=3D"=0E8<@:=0F =0E0m5q=0F">=0E8;>8GO=3DE=0F =0E9LC;180G@:=0F =0EGoGA5%=3D:E=
+)=0F =0E9.@G0a0z=0F =0E@L9x4^?!=0F =0EC;18GO4B0I7N=0F =0EH.@N5G>z=3D@4O4Y=
+=0F.</font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F"> </font><br><font face=
+=3D"=0E8<@:=0F =0E0m5q=0F">=0E0(;gGU4O4Y=0F.</font><br><font face=3D"=0E8<@=
+:=0F =0E0m5q=0F"> </font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F">=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D</font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F">(=0EAV=0F=
+) =0E?!@L=3DC=3D:=0F / =0E<-?o?5>w:;:N=0F /  =0EA$?x?k=0F =0E4k8.=0F</font>=
+<br><font face=3D"=0E8<@:=0F =0E0m5q=0F">Tel. 070-7114-0086 / Fax. 02-586-5=
+070</font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F">Mobile. 010-5578-2663</f=
+ont><br><font face=3D"=0E8<@:=0F =0E0m5q=0F">E-Mail. </font><a href=3D"mail=
+to:wy.jeung@agilesys.co.kr"><u><font color=3D"#0563C1" face=3D"=0E8<@:=0F =
+=0E0m5q=0F">wy.jeung@agilesys.co.kr</font></u></a><br><font face=3D"=0E8<@:=
+=0F =0E0m5q=0F">Address. =0E<-?o=3DC=0F =0E<-CJ18=0F =0E9]Fw5?=0F 67-3 =0E4=
+k8":t5y=0F 4=0EC~=0F </font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F">=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D</font><br><font face=3D"=0E8<@:=0F =0E0m5q=0F"> [&quo=
+t;201701.zip&quot; =0EC7:NFD@O@;=0F InEog Pyung/Korea/IBM=0E@L=0F(=0E0!=0F)=
+ =0E;hA&=0F] </font><br><BR>
+</body></html>
+
+--1__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C--
+
+
+--0__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C
+Content-type: image/gif; 
+	name="72000444.gif"
+Content-Disposition: inline; filename="72000444.gif"
+Content-ID: <1__=C6BB0A21DF91936C8f9e8a93df938690918cC6B@>
+Content-Transfer-Encoding: base64
+
+R0lGODdhWwAoAHcAACwAAAAAWwAoAIcAAACAAAAAgACAgAAAAICAAIAAgIDAwMDA3MCmyvD/+/Cg
+oKSAgID/AAAA/wD//wAAAP//AP8A//////8APmkAir8As+9MrdJMyvR/xN9/2fey3Oyy6Pr///8A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGtsOOqJhGtsuOqJCeD7uK
+nmhNv8cS9ExNv95Nv+YS9OhNv/AS9EwS9MyeD7ueD7uCCrAS9GRE93YAAAcBCWgAAAAAAAAS9JDP
+hzQBCXIAAAcBCWgAAACeD7u6q80AAAAS9MyeD7sS9PjPi9n98AAS9PjPiFoS9LjPiCoAAAeeD7sA
+AAAAABQAAAEAAADioJbioFkBLIgFGCgAAAAAACg+AAB+a2AAAAAAKyAAAAB+a4jif2zihFAFLzUA
+AFQS9hQS9SDihIEFLzUAAFQS9hQS9lQS9exGwagFLzUAAFQS9hRAaJ5GvpUS9fxGwakS9ewFGCgA
+AACOomgBCXIAAAcBCWgAAAAAAAAAAFsAACjib1/mQGAFGCgAAAABAADibh3ibj4FGChAYe1AXIQH
+GeBAQ55AW8GOqAFAYYVGuf8S9mgHGeBAXAdGuZ0FLzVG1s5G1vGwgSBG1vkFGCgAAACOomgHGOCO
+omgS9nBGxnYAAAAAAAAS9hQS9nxGxoAS9nAS9q8HGhAAAAEAAAAAAFsAACgAARQYAAE+AAAAACgA
+AFsAACgYAAEAAAAAKyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFLzUS9vRG4coS9pcA
+AAFGxuVG4gaOomjbANgAAAEBCXIAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAGAAI/wAnCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyAvUhhJsqRJgRZSqlzJMiUGDQYryJxJU2bC
+mjgrQDTJsyTKlkBZauBAMGfNDQc3GKUZsqnTp1BF9uz5M6hVlTAnLKWJlKDSrTYfTqU64arZlALB
+ysxQMINanVHjyp1LdwJZhC0NashbcCtbgW6XYrx7kC/BvSsxxNw6EGzdx5AjcyRs8KzQg2AvTLjg
+WOrJhJaxIsQZeGbptTglq17NmiHlgqFTZl3MVavRCV+ZevYJOraF2UWP2s6JO3Xr48hXvyZoeCBi
+lYr7Cp9wusLf3DMH81TYXOBzlbRndmUdHrZ4zeTo00Mdu72sb75bx5f+a/62WPa8318mj3P8cK+M
+DZTBBf6pp9EGGSBIn4EZXTDgBpodhF9++g0VnFH+ubUgdsZRl2AGCxI0IUlVhfZSeP31VRCH5wno
+IIMwxijjjDMGBAA7
+
+
+--0__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C
+Content-type: image/gif; 
+	name="ecblank.gif"
+Content-Disposition: inline; filename="ecblank.gif"
+Content-ID: <2__=C6BB0A21DF91936C8f9e8a93df938690918cC6B@>
+Content-Transfer-Encoding: base64
+
+R0lGODlhEAABAIAAAAAAAP///yH5BAEAAAEALAAAAAAQAAEAAAIEjI8ZBQA7
+
+
+--0__=C6BB0A21DF91936C8f9e8a93df938690918cC6BB0A21DF91936C--
+
