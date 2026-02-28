@@ -102,12 +102,20 @@ postconf -X "smtpd_tls_key_file"
 postconf -X "smtps_tls_wrappermode" # Fix previously introduced typo in main.cf
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
 postconf -e "smtpd_tls_security_level=may"
-# Allow TLSv1+ for compatibility (Outlook/Older Android/iOS)
+
+# Increase compatibility for broad range of email clients (Outlook, older handhelds)
+# 1. Allow TLS 1.0, 1.1, 1.2, 1.3 (Only disable truly broken SSLv2/v3)
 postconf -e "smtpd_tls_protocols = !SSLv2, !SSLv3"
 postconf -e "smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3"
-postconf -e "smtpd_tls_loglevel = 2"
-# Improve SASL/Auth visibility
+# 2. Allow RSA+AES (very common) and set to MEDIUM level for better reach
+postconf -e "smtpd_tls_ciphers = medium"
+postconf -e "smtpd_tls_mandatory_ciphers = medium"
+postconf -e "smtpd_tls_exclude_ciphers = aNULL, SEED, CAMELLIA"
+postconf -e "smtpd_tls_loglevel = 1"
+# 3. Enable SASL and other auth aids
 postconf -e "smtpd_sasl_auth_enable = yes"
+postconf -e "smtpd_sasl_type = dovecot"
+postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
 
 # Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
