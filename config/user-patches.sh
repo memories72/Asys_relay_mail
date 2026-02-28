@@ -80,17 +80,27 @@ postconf -e "mydestination = localhost"
 postconf -e "relay_domains ="
 postconf -e "transport_maps ="
 
-# 8. [TLS FIX] Generate self-signed cert and enable STARTTLS on port 587
-# Mail clients (like macOS Mail, Thunderbird, Outlook) refuse to authenticate via 587 without STARTTLS.
+# 8. [TLS FIX] Generate self-signed cert and enable STARTTLS on port 587 and DOVECOT
+# Mail clients (like macOS Mail, Thunderbird, Outlook) refuse to authenticate via 587 without STARTTLS. Let's use the exact domain name `nas.agilesys.co.kr` used for connection to avoid mismatch alerts.
 mkdir -p /etc/postfix/ssl
 if [ ! -f /etc/postfix/ssl/cert.pem ]; then
-  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=mail.digistory.co.kr"
+  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr"
 fi
+
+# Enable Postfix TLS
 postconf -e "smtpd_tls_cert_file=/etc/postfix/ssl/cert.pem"
 postconf -e "smtpd_tls_key_file=/etc/postfix/ssl/key.pem"
 postconf -e "smtpd_tls_security_level=may"
 # Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
 sed -i "s/-o smtpd_tls_security_level=none/-o smtpd_tls_security_level=may/g" /etc/postfix/master.cf
 
+# Enable Dovecot TLS
+cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
+ssl = yes
+ssl_cert = </etc/postfix/ssl/cert.pem
+ssl_key = </etc/postfix/ssl/key.pem
+EOF
+
 # Restart services to apply
 postfix reload
+dovecot reload
