@@ -299,7 +299,7 @@
                     </div>
                 </div>
                 <button type="submit" id="loginBtn"
-                    class="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-3 text-sm font-bold text-white shadow-lg shadow-primary/25 hover:bg-primary/90 transition-all">
+                    class="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-3 text-sm font-bold text-white shadow-lg shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
                     <span>로그인</span>
                     <span class="material-symbols-outlined text-lg">arrow_forward</span>
                 </button>
@@ -347,22 +347,22 @@
                 <div class="flex items-center gap-3 shrink-0">
                     <div class="flex gap-1.5">
                         <button id="themeToggle" onclick="toggleTheme()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800 active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                             title="테마 전환">
                             <span id="themeIcon" class="material-symbols-outlined text-[20px]">light_mode</span>
                         </button>
                         <button
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800 active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                             title="알림">
                             <span class="material-symbols-outlined text-[20px]">notifications</span>
                         </button>
                         <button onclick="openDashboard()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-50 text-slate-500 hover:bg-slate-100 transition-all border border-slate-100 dark:bg-surface-elevated dark:text-slate-400 dark:border-border-dark dark:hover:bg-slate-800 active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                             title="메일 대시보드">
                             <span class="material-symbols-outlined text-[20px]">settings</span>
                         </button>
                         <button onclick="logout()"
-                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-rose-50/50 text-rose-500 hover:bg-rose-100 transition-all border border-rose-100 dark:bg-rose-900/10 dark:text-rose-400 dark:border-rose-900/20 dark:hover:bg-rose-900/30"
+                            class="flex items-center justify-center rounded-xl h-10 w-10 bg-rose-50/50 text-rose-500 hover:bg-rose-100 transition-all border border-rose-100 dark:bg-rose-900/10 dark:text-rose-400 dark:border-rose-900/20 dark:hover:bg-rose-900/30 active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                             title="로그아웃">
                             <span class="material-symbols-outlined text-[20px]">power_settings_new</span>
                         </button>
@@ -578,7 +578,7 @@
                         <div
                             class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
                             <div class="flex items-center gap-2">
-                                <button onclick="closeMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg">
+                                <button onclick="closeMsg()" class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                                     <span class="material-symbols-outlined text-xl">close</span>
                                 </button>
                                 <h3 id="msgSubjectHeader"
@@ -588,25 +588,25 @@
                             <div
                                 class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5 dark:bg-slate-800 dark:border-slate-700">
                                 <button onclick="replyMsg()"
-                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                                     title="답장">
                                     <span class="material-symbols-outlined text-xl">reply</span>
                                 </button>
                                 <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
                                 <button onclick="replyAllMsg()"
-                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                                     title="모두 답장">
                                     <span class="material-symbols-outlined text-xl">reply_all</span>
                                 </button>
                                 <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
                                 <button onclick="forwardMsg()"
-                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                                     title="전달">
                                     <span class="material-symbols-outlined text-xl">forward</span>
                                 </button>
                                 <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
                                 <button onclick="deleteCurrentMsg()"
-                                    class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-lg transition-all"
+                                    class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                                     title="삭제">
                                     <span class="material-symbols-outlined text-xl">delete</span>
                                 </button>
@@ -639,9 +639,9 @@
                         <div class="flex-shrink-0 border-t border-slate-200 p-3">
                             <div class="flex gap-2">
                                 <button onclick="replyMsg()"
-                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-colors">답장</button>
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">답장</button>
                                 <button onclick="forwardMsg()"
-                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-colors">전달</button>
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">전달</button>
                             </div>
                         </div>
                     </div>
@@ -722,12 +722,12 @@
                             </div>
                             <div class="flex items-center gap-3">
                                 <button type="submit" id="smtpSubmitBtn"
-                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all">
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
                                     <span>릴레이 설정 저장</span>
                                     <span class="material-symbols-outlined text-lg">save</span>
                                 </button>
                                 <button type="button" onclick="testSmtpConnection()" id="smtpTestBtn"
-                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                                     <span>연결 테스트</span>
                                     <span class="material-symbols-outlined text-lg">router</span>
                                 </button>
@@ -810,12 +810,12 @@
                             </div>
                             <div class="flex items-center gap-3">
                                 <button type="submit" id="pop3SubmitBtn"
-                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all">
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
                                     <span>설정 저장</span>
                                     <span class="material-symbols-outlined text-lg">save</span>
                                 </button>
                                 <button type="button" onclick="testPop3ConnectionNew()" id="pop3TestBtn"
-                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all">
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                                     <span>연결 테스트</span>
                                     <span class="material-symbols-outlined text-lg">router</span>
                                 </button>
@@ -830,7 +830,7 @@
                             class="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-border-dark">
                             <h3 class="text-base font-bold text-slate-900 dark:text-white">연동된 계정 목록</h3>
                             <button onclick="loadPop3Accounts()"
-                                class="text-slate-400 hover:text-primary flex items-center gap-1">
+                                class="text-slate-400 hover:text-primary flex items-center gap-1 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                                 <span class="material-symbols-outlined text-lg" id="pop3RefreshIcon">refresh</span>
                             </button>
                         </div>
@@ -852,7 +852,7 @@
                                 user@agilesys.co.kr</p>
                         </div>
                         <button onclick="loadDashboardStats()"
-                            class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-colors">
+                            class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                             <span class="material-symbols-outlined text-[18px]">refresh</span>
                             새로고침
                         </button>
@@ -946,7 +946,7 @@
                 <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">새 메시지</h3>
                 <div class="flex items-center gap-2">
                     <button onclick="closeCompose()"
-                        class="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-200 transition-colors dark:hover:bg-slate-800 dark:hover:text-slate-200">
+                        class="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-200 transition-all dark:hover:bg-slate-800 dark:hover:text-slate-200 active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                         <span class="material-symbols-outlined text-xl">close</span>
                     </button>
                 </div>
@@ -969,9 +969,9 @@
                         </div>
                         <div class="flex gap-2">
                             <button type="button" onclick="toggleComposeField('cc')"
-                                class="text-xs font-bold text-primary hover:underline px-1">Cc</button>
+                                class="text-xs font-bold text-primary hover:underline px-1 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">Cc</button>
                             <button type="button" onclick="toggleComposeField('bcc')"
-                                class="text-xs font-bold text-primary hover:underline px-1">Bcc</button>
+                                class="text-xs font-bold text-primary hover:underline px-1 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">Bcc</button>
                         </div>
                     </div>
                     <!-- Cc Field -->
@@ -1022,7 +1022,7 @@
                 <div class="flex items-center justify-between px-6 py-4 bg-white border-t border-slate-100 shrink-0">
                     <div class="flex items-center gap-3">
                         <button type="submit"
-                            class="flex items-center gap-2 px-6 h-10 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                            class="flex items-center gap-2 px-6 h-10 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20 active:scale-95 active:bg-primary/90">
                             <span>보내기</span>
                             <span class="material-symbols-outlined text-[18px]">send</span>
                         </button>
@@ -1034,7 +1034,7 @@
                         <input type="file" id="composeFileInput" multiple class="hidden" />
                     </div>
                     <button type="button" onclick="closeCompose()"
-                        class="flex items-center justify-center h-10 w-10 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all"
+                        class="flex items-center justify-center h-10 w-10 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
                         title="취소">
                         <span class="material-symbols-outlined">delete</span>
                     </button>
@@ -1528,7 +1528,7 @@
                 <td class="px-4 py-4 border-b border-slate-50 dark:border-slate-800 w-24">
                     <div class="flex items-center gap-3">
                         <input type="checkbox" ${isSelected ? 'checked' : ''} class="size-4 rounded border-slate-300 dark:border-slate-700 text-primary focus:ring-primary/20 transition-all cursor-pointer bg-transparent" onclick="event.stopPropagation(); toggleSelect(${msg.uid}, this)"/>
-                        <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
+                        <button class="flex items-center justify-center p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700" onclick="event.stopPropagation(); toggleStar(${msg.uid}, this)">
                             <span class="star-icon material-symbols-outlined text-[20px] ${msg.flagged ? 'text-amber-400 fill-1' : 'text-slate-300 dark:text-slate-700'}">star</span>
                         </button>
                     </div>
@@ -2077,10 +2077,10 @@
                             <div class="flex items-center gap-2">
                                 <span class="text-[10px] font-bold px-2 py-1 rounded-lg ${statusColor}">${statusLabel}</span>
                                 <div class="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all" title="지금 수집/테스트">
+                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all active:scale-95 active:bg-primary/90" title="지금 수집/테스트">
                                         <span class="material-symbols-outlined text-lg">sync</span>
                                     </button>
-                                    <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-all" title="연동 해제">
+                                    <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700" title="연동 해제">
                                         <span class="material-symbols-outlined text-lg">delete</span>
                                     </button>
                                 </div>
@@ -2357,7 +2357,7 @@
                     data-filename="${escHtml(a.filename)}"
                     data-uid="${escHtml(String(uid))}"
                     data-folder="${escHtml(currentFolder)}"
-                    class="att-dl-btn flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 hover:bg-primary/5 hover:border-primary/30 transition-all group w-full text-left cursor-pointer">
+                    class="att-dl-btn flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 hover:bg-primary/5 hover:border-primary/30 transition-all group w-full text-left cursor-pointer active:scale-95 active:bg-primary/90">
                     <span class="material-symbols-outlined text-slate-400 group-hover:text-primary text-xl">${mimeIcon(a.mimeType)}</span>
                     <div class="min-w-0">
                         <p class="text-xs font-semibold text-slate-700 truncate max-w-[180px]">${escHtml(a.filename)}</p>
