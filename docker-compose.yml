@@ -27,6 +27,7 @@ services:
       - ENABLE_CLAMAV=0
       - ENABLE_FAIL2BAN=0
       - ENABLE_POSTGREY=0
+      - ENABLE_QUOTAS=1
       - ONE_DIR=1
       - ENABLE_POP3=1
       - ACCOUNT_PROVISIONER=LDAP
