@@ -127,6 +127,107 @@ async function initDatabase() {
         VALUES ('agilesys.co.kr', 'ldap://node_ldap_auth:389', TRUE)
     `);
 
+    // ============================================
+    // NEW DB FEATURES (Cache, Tracking, Rules, etc)
+    // ============================================
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS email_cache (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_email VARCHAR(255) NOT NULL,
+            mailbox VARCHAR(255) NOT NULL,
+            uid INT NOT NULL,
+            message_id VARCHAR(255),
+            in_reply_to VARCHAR(255),
+            thread_id VARCHAR(255),
+            sender_name VARCHAR(255),
+            sender_address VARCHAR(255),
+            recipient_address TEXT,
+            subject VARCHAR(1024),
+            snippet TEXT,
+            date DATETIME,
+            is_seen BOOLEAN DEFAULT FALSE,
+            is_flagged BOOLEAN DEFAULT FALSE,
+            has_attachments BOOLEAN DEFAULT FALSE,
+            size INT,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+            UNIQUE KEY unique_email_uid (user_email, mailbox, uid),
+            INDEX idx_message_id (message_id),
+            INDEX idx_thread_id (thread_id),
+            INDEX idx_search (user_email, subject(255), sender_address)
+        )
+    `);
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS tags (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_email VARCHAR(255) NOT NULL,
+            name VARCHAR(100) NOT NULL,
+            color VARCHAR(20) DEFAULT '#3b82f6',
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE KEY unique_user_tag (user_email, name)
+        )
+    `);
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS email_tags (
+            email_cache_id INT NOT NULL,
+            tag_id INT NOT NULL,
+            PRIMARY KEY (email_cache_id, tag_id),
+            FOREIGN KEY (email_cache_id) REFERENCES email_cache(id) ON DELETE CASCADE,
+            FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE
+        )
+    `);
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS email_tracking (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_email VARCHAR(255) NOT NULL,
+            message_id VARCHAR(255) NOT NULL,
+            recipient VARCHAR(255) NOT NULL,
+            tracking_id VARCHAR(100) UNIQUE NOT NULL,
+            opened_at DATETIME NULL,
+            open_count INT DEFAULT 0,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            INDEX idx_tracking_id (tracking_id)
+        )
+    `);
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS email_outbox (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_email VARCHAR(255) NOT NULL,
+            to_address TEXT NOT NULL,
+            cc_address TEXT,
+            bcc_address TEXT,
+            subject VARCHAR(1024),
+            html_body LONGTEXT,
+            text_body LONGTEXT,
+            attachments JSON,
+            status ENUM('PENDING', 'SENDING', 'SENT', 'FAILED', 'CANCELLED') DEFAULT 'PENDING',
+            scheduled_at DATETIME NOT NULL,
+            error_message TEXT,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            INDEX idx_status_time (status, scheduled_at)
+        )
+    `);
+
+    await connection.query(`
+        CREATE TABLE IF NOT EXISTS mail_rules (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_email VARCHAR(255) NOT NULL,
+            name VARCHAR(255) NOT NULL,
+            conditions JSON NOT NULL,
+            actions JSON NOT NULL,
+            is_active BOOLEAN DEFAULT TRUE,
+            sort_order INT DEFAULT 0,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+    `);
+
+    // ============================================
+
     await connection.end();
 
     // Now establish the connection pool to the right database
