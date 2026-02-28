@@ -387,6 +387,20 @@ app.get('/api/mail/message/:uid', authenticateToken, async (req, res) => {
     }
 });
 
+app.put('/api/mail/message/:uid/seen', authenticateToken, async (req, res) => {
+    try {
+        const mailPass = getImapPass(req);
+        if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
+        const folder = req.query.folder || 'INBOX';
+        const enable = req.body.seen !== false;
+        await setFlag(req.user.email, mailPass, parseInt(req.params.uid), '\\Seen', enable, folder);
+        res.json({ status: 'OK' });
+    } catch (err) {
+        console.error('[IMAP] toggle seen flag error:', err.message);
+        res.status(500).json({ error: 'Failed to update flag', details: err.message });
+    }
+});
+
 app.delete('/api/mail/message/:uid', authenticateToken, async (req, res) => {
     try {
         const mailPass = getImapPass(req);

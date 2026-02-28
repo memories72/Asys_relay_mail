@@ -499,6 +499,16 @@
                                 title="삭제">
                                 <span class="material-symbols-outlined text-xl">delete</span>
                             </button>
+                            <button onclick="markSelectedAs(true)"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                title="읽음으로 표시">
+                                <span class="material-symbols-outlined text-xl">mark_email_read</span>
+                            </button>
+                            <button onclick="markSelectedAs(false)"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated"
+                                title="안읽음으로 표시">
+                                <span class="material-symbols-outlined text-xl">mark_email_unread</span>
+                            </button>
                             <!-- Empty Trash Button (Hidden by default) -->
                             <button id="emptyTrashBtn" onclick="emptyTrash()"
                                 class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-colors"
@@ -1782,6 +1792,32 @@
                 loadInbox();
             } catch (e) {
                 alert('삭제 실패: ' + e.message);
+            }
+        }
+
+        async function markSelectedAs(seen) {
+            const targets = selectedUids.length > 0 ? selectedUids : (currentUid ? [currentUid] : []);
+            if (targets.length === 0) return;
+
+            try {
+                for (let uid of targets) {
+                    const res = await fetch(`/api/mail/message/${uid}/seen?folder=${encodeURIComponent(currentFolder)}`, {
+                        method: 'PUT',
+                        headers: apiHeaders(),
+                        body: JSON.stringify({ seen })
+                    });
+                    if (!res.ok) throw new Error(`상태 변경 실패 (${uid})`);
+                }
+
+                targets.forEach(uid => {
+                    const msg = currentMsgs.find(m => m.uid == uid);
+                    if (msg) msg.seen = seen;
+                });
+
+                selectedUids = [];
+                renderMailList(currentMsgs);
+            } catch (e) {
+                alert('변경 실패: ' + e.message);
             }
         }
 
