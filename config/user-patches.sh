@@ -23,6 +23,16 @@ userdb {
 }
 EOF
 
+cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
+service auth {
+  unix_listener /var/spool/postfix/private/auth {
+    mode = 0666
+    user = postfix
+    group = postfix
+  }
+}
+EOF
+
 # Standard Postfix Settings
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
 postconf -e "myhostname = nas.agilesys.co.kr"
