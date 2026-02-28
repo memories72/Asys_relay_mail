@@ -31,7 +31,7 @@ app.post('/api/sso-exchange', (req, res) => {
     res.json({ token, success: true });
 });
 const { savePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings } = require('./src/db');
-const { verifyUser } = require('./src/ldap');
+const { verifyUser, searchUsers } = require('./src/ldap');
 const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
 const { pop3Progress, updateProgress, clearProgress } = require('./src/progress');
@@ -67,6 +67,18 @@ app.post('/api/login', async (req, res) => {
         res.json({ token: accessToken, user: userPayload });
     } else {
         res.status(401).json({ error: 'Invalid LDAP credentials', details: result.message });
+    }
+});
+
+app.get('/api/contacts/search', authenticateToken, async (req, res) => {
+    const q = req.query.q || '';
+    if (q.length < 2) return res.json([]);
+    try {
+        const users = await searchUsers(q);
+        res.json(users);
+    } catch (e) {
+        console.error('Contact search error:', e);
+        res.status(500).json({ error: 'Search failed' });
     }
 });
 

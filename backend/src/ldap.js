@@ -57,8 +57,54 @@ const verifyUser = async (username, password) => {
     });
 };
 
+const searchUsers = async (queryStr) => {
+    return new Promise((resolve) => {
+        if (!client || !client.connected) {
+            console.error('[LDAP] Client not connected for search');
+            return resolve([]);
+        }
+        const baseDN = process.env.LDAP_BASE_DN || 'cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr';
+        // Search by name (cn) or id (uid) or email (mail)
+        const filterStr = `(|(cn=*${queryStr}*)(uid=*${queryStr}*)(mail=*${queryStr}*))`;
+
+        const opts = {
+            filter: filterStr,
+            scope: 'sub',
+            attributes: ['uid', 'cn', 'mail'],
+            sizeLimit: 20
+        };
+
+        client.search(baseDN, opts, (err, res) => {
+            if (err) {
+                console.error('[LDAP] Search Error:', err.message);
+                return resolve([]);
+            }
+
+            const users = [];
+            res.on('searchEntry', (entry) => {
+                const user = entry.object;
+                users.push({
+                    uid: user.uid,
+                    name: user.cn || user.uid,
+                    email: user.mail || `${user.uid}@agilesys.co.kr`
+                });
+            });
+
+            res.on('error', (err) => {
+                console.error('[LDAP] Search entry error:', err.message);
+                resolve(users);
+            });
+
+            res.on('end', (result) => {
+                resolve(users);
+            });
+        });
+    });
+};
+
 module.exports = {
     connectLDAP,
     verifyUser,
+    searchUsers,
     client
 };

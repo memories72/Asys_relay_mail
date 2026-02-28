@@ -946,12 +946,17 @@
                 <!-- Recipient Fields -->
                 <div class="flex flex-col divide-y divide-slate-100 px-6 dark:divide-slate-800">
                     <!-- To Field -->
-                    <div class="flex items-center min-h-[52px] py-1 gap-4">
+                    <div class="flex items-center min-h-[52px] py-1 gap-4 relative">
                         <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">받는
                             사람</span>
-                        <input id="composeTo"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
-                            placeholder="이메일 주소..." type="text" />
+                        <div class="flex-1 relative">
+                            <input id="composeTo" autocomplete="off"
+                                class="w-full bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
+                                placeholder="이메일 주소..." type="text" />
+                            <div id="autocompleteTo"
+                                class="hidden absolute top-full left-0 w-full mt-1 bg-white border border-slate-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto dark:bg-surface-elevated dark:border-border-dark">
+                            </div>
+                        </div>
                         <div class="flex gap-2">
                             <button type="button" onclick="toggleComposeField('cc')"
                                 class="text-xs font-bold text-primary hover:underline px-1">Cc</button>
@@ -960,19 +965,29 @@
                         </div>
                     </div>
                     <!-- Cc Field -->
-                    <div id="composeCcWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
+                    <div id="composeCcWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4 relative">
                         <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">참조</span>
-                        <input id="composeCc"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
-                            placeholder="Cc 추가..." type="text" />
+                        <div class="flex-1 relative">
+                            <input id="composeCc" autocomplete="off"
+                                class="w-full bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
+                                placeholder="Cc 추가..." type="text" />
+                            <div id="autocompleteCc"
+                                class="hidden absolute top-full left-0 w-full mt-1 bg-white border border-slate-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto dark:bg-surface-elevated dark:border-border-dark">
+                            </div>
+                        </div>
                     </div>
                     <!-- Bcc Field -->
-                    <div id="composeBccWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4">
+                    <div id="composeBccWrapper" class="hidden flex items-center min-h-[52px] py-1 gap-4 relative">
                         <span class="text-sm font-semibold text-slate-500 w-16 shrink-0 dark:text-slate-400">숨은
                             참조</span>
-                        <input id="composeBcc"
-                            class="flex-1 bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
-                            placeholder="Bcc 추가..." type="text" />
+                        <div class="flex-1 relative">
+                            <input id="composeBcc" autocomplete="off"
+                                class="w-full bg-transparent border-none focus:ring-0 text-sm text-slate-900 p-0 placeholder:text-slate-400 dark:text-slate-100"
+                                placeholder="Bcc 추가..." type="text" />
+                            <div id="autocompleteBcc"
+                                class="hidden absolute top-full left-0 w-full mt-1 bg-white border border-slate-200 rounded-lg shadow-lg z-50 max-h-48 overflow-y-auto dark:bg-surface-elevated dark:border-border-dark">
+                            </div>
+                        </div>
                     </div>
                     <!-- Subject Field -->
                     <div class="flex items-center min-h-[52px] py-1 gap-4">
@@ -2427,6 +2442,70 @@
                 }
             });
         }
+
+        // --- Autocomplete Logic ---
+        function setupAutocomplete(inputId, dropdownId) {
+            const input = document.getElementById(inputId);
+            const dropdown = document.getElementById(dropdownId);
+            let debounceTimer;
+
+            input.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                const val = e.target.value.trim();
+                const parts = val.split(',');
+                const currentQuery = parts[parts.length - 1].trim();
+
+                if (currentQuery.length < 2) {
+                    dropdown.classList.add('hidden');
+                    return;
+                }
+
+                debounceTimer = setTimeout(async () => {
+                    try {
+                        const headers = apiHeaders();
+                        const res = await fetch(`/api/contacts/search?q=${encodeURIComponent(currentQuery)}`, { headers });
+                        if (!res.ok) throw new Error('Search API failed');
+                        const data = await res.json();
+
+                        if (data.length === 0) {
+                            dropdown.classList.add('hidden');
+                            return;
+                        }
+
+                        dropdown.innerHTML = data.map(u => `
+                            <div class="px-4 py-2 hover:bg-slate-50 cursor-pointer dark:hover:bg-slate-800 transition-colors dropdown-item" data-email="${escHtml(u.email)}" data-name="${escHtml(u.name)}">
+                                <p class="text-sm font-bold text-slate-800 dark:text-slate-200">${escHtml(u.name)}</p>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">${escHtml(u.email)}</p>
+                            </div>
+                        `).join('');
+                        dropdown.classList.remove('hidden');
+
+                        dropdown.querySelectorAll('.dropdown-item').forEach(item => {
+                            item.addEventListener('click', () => {
+                                const selectedEmail = `${item.dataset.name} <${item.dataset.email}>`;
+                                parts[parts.length - 1] = ' ' + selectedEmail;
+                                input.value = parts.join(', ').trim().replace(/^,\s*/, '') + ', ';
+                                dropdown.classList.add('hidden');
+                                input.focus();
+                            });
+                        });
+                    } catch (err) {
+                        console.error('Autocomplete error:', err);
+                    }
+                }, 300);
+            });
+
+            // Hide dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+                    dropdown.classList.add('hidden');
+                }
+            });
+        }
+
+        setupAutocomplete('composeTo', 'autocompleteTo');
+        setupAutocomplete('composeCc', 'autocompleteCc');
+        setupAutocomplete('composeBcc', 'autocompleteBcc');
 
         // Boot
         window.addEventListener('DOMContentLoaded', () => {
