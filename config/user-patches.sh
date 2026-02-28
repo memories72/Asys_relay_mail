@@ -1,6 +1,6 @@
 #!/bin/bash
 cat > /etc/dovecot/dovecot-ldap.conf.ext <<'EOF'
-hosts = 112.220.69.170:1389
+hosts = nas.agilesys.co.kr:1389
 base = cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dn = uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dnpass = !@34QWer
@@ -37,7 +37,7 @@ postconf -e "virtual_alias_maps ="
 # Fix external mail delivery by removing broken LDAP domain lookups
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
 # Point other LDAP lookups to correct port (just in case)
-sed -i 's/server_host = 112.220.69.170/server_host = 112.220.69.170\nserver_port = 1389/' /etc/postfix/ldap-users.cf
+sed -i 's/server_host = nas.agilesys.co.kr/server_host = nas.agilesys.co.kr\nserver_port = 1389/' /etc/postfix/ldap-users.cf
 
 # Increase message size limit to 256MB (default is 10MB)
 postconf -e "message_size_limit = 268435456"
@@ -84,13 +84,13 @@ postconf -e "transport_maps ="
 # This allows using the mail server without certificate issues if the client chooses non-encrypted connection.
 mkdir -p /etc/postfix/ssl
 if [ ! -f /etc/postfix/ssl/cert.pem ]; then
-  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=112.220.69.170" -addext "subjectAltName=DNS:112.220.69.170,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
+  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
 fi
 cat /etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem > /etc/postfix/ssl/combined.pem
 chmod 600 /etc/postfix/ssl/combined.pem
 
 # --- Postfix Relaxed Security ---
-postconf -e "myhostname = 112.220.69.170"
+postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
 postconf -e "smtpd_tls_security_level = none" 
 postconf -e "smtpd_tls_auth_only = no"
