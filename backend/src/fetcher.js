@@ -11,7 +11,8 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 const POP3Client = require('poplib');
 const nodemailer = require('nodemailer');
-const { updatePop3Error, updateLastFetched, isFetched, saveFetchedUidl } = require('./db');
+const { updatePop3Error, updateLastFetched, isFetched, saveFetchedUidl, getPool } = require('./db');
+const crypto = require('crypto');
 
 const SMTP_HOST = process.env.SMTP_HOST || 'node_mail_engine';
 
@@ -76,8 +77,19 @@ const fetchPop3Account = async (account, onProgress) => {
             debug: false,
         });
 
+        // Flexible watchdog timer to prevent hanging
+        let watchdog;
+        const resetWatchdog = (ms = 120000) => { // Increase default to 120s
+            if (watchdog) clearTimeout(watchdog);
+            watchdog = setTimeout(() => {
+                console.error(`[Fetcher] [${user_email}] Watchdog timeout after ${ms}ms`);
+                client.emit('error', new Error('Watchdog timeout'));
+            }, ms);
+        };
+
+        resetWatchdog(120000);
+
         let msgcount = 0;
-        let currentMsg = 1;
         let successCount = 0;
         let uidlMap = {}; // Index -> UIDL Mapping
 
@@ -86,15 +98,20 @@ const fetchPop3Account = async (account, onProgress) => {
         };
 
         client.on('error', async (err) => {
+            if (watchdog) clearTimeout(watchdog);
             console.error(`[Fetcher] [${user_email}] POP3 error:`, err.message);
             await updatePop3Error(accountId, err.message || 'Connection error');
             client.quit();
             resolve(successCount);
         });
 
-        client.on('connect', () => client.login(pop3_user, pop3_pass));
+        client.on('connect', () => {
+            resetWatchdog(30000); // 30s for login
+            client.login(pop3_user, pop3_pass);
+        });
 
         client.on('login', (status) => {
+            resetWatchdog(120000); // 120s for uidl/list
             if (status) {
                 client.uidl(); // Use UIDL instead of LIST for smart fetching
             } else {
@@ -106,45 +123,91 @@ const fetchPop3Account = async (account, onProgress) => {
         });
 
         const fetchNext = async () => {
+            // Initial progress report to show the box immediately
+            reportProgress(0);
+
             // Load all existing UIDs for this account at once for faster comparison
-            const existingUidsRows = await getPool().query('SELECT uidl FROM pop3_uidls WHERE account_id = ?', [accountId]);
+            const currentPool = getPool();
+            const existingUidsRows = await currentPool.query('SELECT uidl FROM pop3_uidls WHERE account_id = ?', [accountId]);
             const existingUids = new Set(existingUidsRows[0].map(r => r.uidl));
 
             console.log(`[Fetcher] [${user_email}] Local database has ${existingUids.size} already fetched messages.`);
 
-            for (let i = 1; i <= msgcount; i++) {
-                currentMsg = i;
-                const uidl = uidlMap[i];
+            const numMessages = parseInt(msgcount) || 0;
+            console.log(`[Fetcher] [${user_email}] Starting fetch for ${numMessages} messages. Map size: ${Object.keys(uidlMap || {}).length}`);
+
+            for (let i = 1; i <= numMessages; i++) {
+                // Heartbeat to prevent watchdog during processing
+                resetWatchdog(180000); // 3 mins per message (safe for large ones)
+
+                // Direct mapping from UIDL command result
+                let uidl = uidlMap ? (uidlMap[i] || uidlMap[String(i)]) : null;
 
                 if (uidl && existingUids.has(uidl)) {
-                    // Skip already fetched message
-                    if (i % 10 === 0 || i === msgcount) reportProgress(i);
+                    if (i % 50 === 0 || i === numMessages) {
+                        reportProgress(i);
+                        resetWatchdog(180000); // Extra heartbeat after progress report
+                    }
                     continue;
                 }
 
-                // Found a new message to fetch
+                // SECONDARY DEDUPLICATION: Message-ID / Header Hash Fallback
+                let fallbackUid = null;
+                if (!uidl || uidl.length < 3) {
+                    try {
+                        const headers = await new Promise((resolveTop) => {
+                            const onTop = (status, msgnumber, data) => {
+                                client.removeListener('top', onTop);
+                                resolveTop(status ? data : null);
+                            };
+                            client.on('top', onTop);
+                            client.top(i, 0);
+                            setTimeout(() => { client.removeListener('top', onTop); resolveTop(null); }, 10000); // 10s for TOP
+                        });
+
+                        resetWatchdog(180000); // Heartbeat after TOP
+
+                        if (headers) {
+                            const msgIdMatch = headers.match(/Message-ID:\s*<([^>]+)>/i);
+                            if (msgIdMatch) fallbackUid = `msgid-${msgIdMatch[1]}`;
+                            else fallbackUid = `hash-${crypto.createHash('md5').update(headers).digest('hex')}`;
+
+                            if (existingUids.has(fallbackUid)) {
+                                if (i % 50 === 0 || i === numMessages) reportProgress(i);
+                                continue;
+                            }
+                        }
+                    } catch (e) { }
+                }
+
+                const finalUid = uidl || fallbackUid;
+                console.log(`[Fetcher] [${user_email}] Processing msg ${i}/${numMessages}. UID: ${finalUid || 'NONE'}`);
                 reportProgress(i - 1);
 
-                // Use a promise to wait for RETR to complete before continuing the loop
                 await new Promise((resolveRetr) => {
                     const onRetr = async (status, msgnumber, data) => {
                         client.removeListener('retr', onRetr);
+                        resetWatchdog(300000); // 5 mins for delivery after receiving
                         if (!status) {
                             console.error(`[Fetcher] [${user_email}] RETR failed for msg ${msgnumber}`);
                         } else {
                             try {
                                 const normalized = normalizePop3Raw(data);
+                                console.log(`[Fetcher] [${user_email}] Msg ${msgnumber} received successfully. Size: ${data.length} bytes.`);
                                 await deliverRaw(normalized, user_email);
-                                if (uidl) await saveFetchedUidl(accountId, uidl);
+                                if (finalUid) {
+                                    await saveFetchedUidl(accountId, finalUid);
+                                    existingUids.add(finalUid);
+                                }
                                 successCount++;
                             } catch (e) {
                                 console.error(`[Fetcher] [${user_email}] Delivery failed for msg ${msgnumber}:`, e.message);
                             }
                         }
+                        resetWatchdog(180000); // Heartbeat before DELE or next message
 
                         if (!keepOnServer) {
                             client.dele(msgnumber);
-                            // Wait for dele event before resolving
                             const onDele = () => {
                                 client.removeListener('dele', onDele);
                                 resolveRetr();
@@ -156,25 +219,60 @@ const fetchPop3Account = async (account, onProgress) => {
                     };
                     client.on('retr', onRetr);
                     client.retr(i);
+                    // No explicit timeout here as the global watchdog at line 84 handles it
                 });
-            }
 
+                resetWatchdog(180000); // Final heartbeat after message processing
+            }
             client.quit();
         };
 
-        client.on('uidl', (status, data) => {
+        client.on('uidl', (status, ...args) => {
+            resetWatchdog(180000); // 180s for processing UIDL data
+
+            // poplib variation handling
+            let data = args.length >= 2 ? args[1] : args[0];
+
             if (!status || !data) {
+                console.log(`[Fetcher] [${user_email}] UIDL returned no data. Trying LIST fallback...`);
                 return client.list();
             }
-            uidlMap = data;
+
+            // Enhanced parser for all UIDL response types (Array, Object, String)
+            uidlMap = {};
+            if (Array.isArray(data)) {
+                data.forEach((val, idx) => {
+                    if (typeof val === 'string') {
+                        const parts = val.trim().split(/\s+/);
+                        if (parts.length >= 2) {
+                            uidlMap[parseInt(parts[0])] = parts[1];
+                        } else {
+                            uidlMap[idx + 1] = val;
+                        }
+                    } else {
+                        uidlMap[idx + 1] = val;
+                    }
+                });
+            } else if (typeof data === 'object' && data !== null) {
+                uidlMap = data;
+            } else if (typeof data === 'string') {
+                const lines = data.split('\n');
+                lines.forEach((line, idx) => {
+                    const parts = line.trim().split(/\s+/);
+                    if (parts.length >= 2) {
+                        uidlMap[parseInt(parts[0])] = parts[1];
+                    } else if (parts[0]) {
+                        uidlMap[idx + 1] = parts[0];
+                    }
+                });
+            }
+
             const indices = Object.keys(uidlMap);
             msgcount = indices.length;
 
             if (msgcount === 0) {
-                console.log(`[Fetcher] [${user_email}] No messages on server`);
-                reportProgress(0);
-                client.quit();
-                return;
+                console.log(`[Fetcher] [${user_email}] No messages on server via UIDL`);
+                return client.list();
             }
 
             console.log(`[Fetcher] [${user_email}] Found ${msgcount} messages via UIDL`);
@@ -184,7 +282,35 @@ const fetchPop3Account = async (account, onProgress) => {
             });
         });
 
+        client.on('list', (status, ...args) => {
+            resetWatchdog(180000); // 180s for processing LIST data
+
+            // poplib variation handling for list
+            let count = args.length >= 2 ? args[0] : (args[0] && typeof args[0] === 'string' ? args[0] : msgcount);
+
+            if (!status) {
+                console.error(`[Fetcher] [${user_email}] LIST failed`);
+                client.quit();
+                return;
+            }
+
+            msgcount = parseInt(count) || 0;
+            if (msgcount === 0) {
+                console.log(`[Fetcher] [${user_email}] No messages via LIST`);
+                reportProgress(0);
+                client.quit();
+                return;
+            }
+
+            console.log(`[Fetcher] [${user_email}] Falling back to LIST mode (${msgcount} msgs)`);
+            fetchNext().catch(err => {
+                console.error(`[Fetcher] [${user_email}] fetchNext(list) error:`, err);
+                client.quit();
+            });
+        });
+
         client.on('quit', () => {
+            if (watchdog) clearTimeout(watchdog);
             reportProgress(msgcount);
             if (successCount > 0) updateLastFetched(accountId);
             resolve(successCount);

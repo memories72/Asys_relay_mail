@@ -1,0 +1,1350 @@
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[Backend] Agilesys Mail Backend Engine is running on port 13000
+[DB] MariaDB Storage is officially connected and Schema Checked.
+[Scheduler] 1분 주기 수집 트리거 초기화 완료
+[LDAP] Successfully bound to ldap://nas.agilesys.co.kr:1389
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[POP3 Test] Login failed for mg.hwang@agilesys.co.kr
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:26:00.009Z
+[Sync] 총 5개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+(node:53800) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.naver.com:995 (TLS: 1)
+[Fetcher] [hanhg@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:27:00.008Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:28:00.007Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.naver.com:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [mg.hwang@agilesys.co.kr] POP3 error: read ECONNRESET
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:29:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.naver.com:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:30:00.009Z
+[Sync] 총 2개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:31:00.011Z
+[Sync] 총 2개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:32:00.008Z
+[Sync] 총 2개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:33:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:34:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:35:00.013Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 67: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 68: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 69: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:36:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 70: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 71: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 72: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 73: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:37:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 74: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 75: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 76: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 77: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:38:00.013Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 78: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 79: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 80: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 67: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 81: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 68: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:39:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 82: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 69: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 83: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 70: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 84: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 71: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 85: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:40:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 72: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 86: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 73: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 87: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 74: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 88: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 75: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 67: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:41:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 89: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 76: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 68: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 90: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 77: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 69: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 91: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 78: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 70: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 92: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:42:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 79: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 71: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 93: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 80: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 72: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 94: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 81: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 73: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 95: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 82: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:43:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 74: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 67: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 96: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 83: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 75: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 68: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 97: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 84: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 76: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 69: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 98: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 85: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 77: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:44:00.013Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 70: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 99: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 86: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 78: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 71: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 100: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 87: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 79: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 72: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 101: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:45:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 88: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 80: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 73: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 102: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 89: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 81: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 74: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 103: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 67: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 90: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 82: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:46:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 75: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 104: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 68: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 91: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 83: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 76: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 105: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 69: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 92: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 84: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 77: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 106: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 70: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:47:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [mg.hwang@agilesys.co.kr] Login failed
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 93: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 85: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 78: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 107: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 71: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 94: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 86: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 45: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 79: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 72: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 108: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 95: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 87: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:48:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 46: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 80: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 73: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 109: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 96: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 88: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 47: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 74: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 81: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 110: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 97: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 89: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 48: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:49:00.013Z
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 33: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 82: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 26: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 75: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 111: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+Error fetching POP3 accounts Error: read ETIMEDOUT
+    at PromisePool.query (/Users/heemin/github/asys_mail/backend/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at getAllPop3Accounts (/Users/heemin/github/asys_mail/backend/src/db.js:172:42)
+    at /Users/heemin/github/asys_mail/backend/src/scheduler.js:13:36
+    at Runner.onMatch (/Users/heemin/github/asys_mail/backend/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)
+    at Timeout._onTimeout (/Users/heemin/github/asys_mail/backend/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7) {
+  code: 'ETIMEDOUT',
+  errno: -60,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+[Sync] 진행 대상 외부 POP3 계정이 없습니다.
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 90: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 49: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 98: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:50:00.052Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 34: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 83: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:51:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 27: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 76: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 112: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:52:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:53:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 91: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:54:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 50: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 99: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 61: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:55:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 35: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 84: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:56:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 28: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 77: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 113: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:57:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:58:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T06:59:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 92: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 51: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 100: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:00:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 62: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 56: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 36: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:01:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 85: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 29: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:02:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:03:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 78: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 41: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 114: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:04:00.015Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:05:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 93: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 52: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 101: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:06:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 63: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:07:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:08:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 57: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 37: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 86: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:09:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 30: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:10:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 79: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 23: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 42: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 115: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:11:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 17: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 14: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 20: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:12:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:13:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 94: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 53: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:14:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 102: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 7: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:15:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 64: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 58: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 38: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:16:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 12: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 87: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:17:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:18:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 31: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:19:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 80: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 24: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 43: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 116: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:20:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 10: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 18: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 15: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:21:00.012Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 21: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:22:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:23:00.010Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 95: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 54: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 103: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:24:00.031Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 8: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:25:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 65: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 59: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 39: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:26:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 13: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 88: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:27:00.011Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[QUOTA] Starting quota check for mg.hwang@agilesys.co.kr
+[QUOTA] Error for mg.hwang@agilesys.co.kr: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:28:00.007Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 32: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:29:00.008Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 81: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:30:00.007Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [mg.hwang@agilesys.co.kr] Login failed
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 25: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 44: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [hanhg@agilesys.co.kr] Delivery failed for msg 117: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:31:00.009Z
+[Sync] 총 3개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 11: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 19: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 16: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:32:00.009Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[IMAP] inbox fetch error: getaddrinfo ENOTFOUND node_mail_engine
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:33:00.009Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 22: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:34:00.009Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 96: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 55: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:35:00.005Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 104: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 9: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:36:00.007Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 4: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 6: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 66: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 5: connect ETIMEDOUT 112.220.69.170:25
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:37:00.003Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - 2026-02-27T07:38:00.009Z
+[Sync] 총 4개의 POP3 계정 동기화 진행...
+[Fetcher] [mg.hwang@agilesys.co.kr] Connecting to pop.daum.net:995 (TLS: 1)
+[Fetcher] [shseo@agilesys.co.kr] Connecting to mail.agilesys.co.kr:110 (TLS: 0)
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 3: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 60: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 40: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 1: connect ETIMEDOUT 112.220.69.170:25
+[Fetcher] [shseo@agilesys.co.kr] Delivery failed for msg 2: connect ETIMEDOUT 112.220.69.170:25

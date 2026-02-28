@@ -35,7 +35,7 @@ services:
       - LDAP_BIND_PW=!@34QWer
       - LDAP_QUERY_FILTER_USER=(&(objectClass=person)(mail=%s))
       - DOVECOT_TLS=no
-      - POSTFIX_MESSAGE_SIZE_LIMIT=52428800
+      - POSTFIX_MESSAGE_SIZE_LIMIT=268435456
       - POSTFIX_MAILBOX_SIZE_LIMIT=0
       - PERMIT_DOCKER=network
     restart: always

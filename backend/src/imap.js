@@ -125,7 +125,13 @@ async function fetchMailList(email, password, mailbox = 'INBOX', limit = 1000) {
                     attachmentCount: attachments.length,
                 });
             }
-            return messages.reverse();
+            // Sort by message date descending before returning (newest first)
+            messages.sort((a, b) => {
+                const da = a.date ? new Date(a.date).getTime() : 0;
+                const db = b.date ? new Date(b.date).getTime() : 0;
+                return db - da; // Descending
+            });
+            return messages;
         } finally {
             lock.release();
         }

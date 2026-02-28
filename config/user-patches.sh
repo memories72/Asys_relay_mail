@@ -39,12 +39,13 @@ postconf -e "virtual_mailbox_domains = agilesys.co.kr"
 # Point other LDAP lookups to correct port (just in case)
 sed -i 's/server_host = nas.agilesys.co.kr/server_host = nas.agilesys.co.kr\nserver_port = 1389/' /etc/postfix/ldap-users.cf
 
-# Increase message size limit to 50MB (default is 10MB)
-postconf -e "message_size_limit = 52428800"
+# Increase message size limit to 256MB (default is 10MB)
+postconf -e "message_size_limit = 268435456"
 postconf -e "mailbox_size_limit = 0"
 postconf -e "virtual_mailbox_limit = 0"
 # Disable smtpd_forbid_bare_newline which can cause "Message Size Violation" on Apple/iCloud
 postconf -e "smtpd_forbid_bare_newline = no"
+postconf -e "hopcount_limit = 100"
 # Ensure headers are not being stripped or modified in a way that trips iCloud
 postconf -e "smtpd_sasl_authenticated_header = yes"
 
