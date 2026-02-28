@@ -395,13 +395,13 @@ async function getStorageQuota(email, password) {
         new Promise((resolve) => {
             setTimeout(() => {
                 client.logout().catch(() => { });
-                resolve({ usage: 0, limit: 10 * 1024 * 1024 * 1024 });
+                resolve({ usage: 0, limit: 50 * 1024 * 1024 * 1024 });
             }, 8000); // 8 second max timeout
         }),
         (async () => {
             try {
                 let usage = 0;
-                let limit = 10 * 1024 * 1024 * 1024; // Default: 10 GB
+                let limit = 50 * 1024 * 1024 * 1024; // Default: 50 GB
 
                 // Method 1: IMAP QUOTA extension (Fastest & most accurate if supported)
                 try {
@@ -447,7 +447,7 @@ async function getStorageQuota(email, password) {
                 return { usage, limit };
             } catch (e) {
                 console.error(`[QUOTA] Critical error for ${email}:`, e);
-                return { usage: 0, limit: 10 * 1024 * 1024 * 1024 };
+                return { usage: 0, limit: 50 * 1024 * 1024 * 1024 };
             } finally {
                 await client.logout().catch(() => { });
             }
