@@ -28,7 +28,7 @@ services:
       - ENABLE_AMAVIS=0
       - ENABLE_FAIL2BAN=0
       - ENABLE_POSTGREY=0
-      - ENABLE_QUOTAS=1
+      - ENABLE_QUOTAS=0
       - ONE_DIR=1
       - ENABLE_POP3=1
       - ACCOUNT_PROVISIONER=LDAP

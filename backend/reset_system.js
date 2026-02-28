@@ -66,6 +66,10 @@ async function resetSystem() {
         console.log('✅ SUCCESS: System data has been completely reset.');
         console.log('Emails will be re-synchronized during the next sync cycle.');
         console.log('---------------------------------------------------------');
+        console.log('NOTICE: Disk files (/var/mail) were NOT deleted by this script.');
+        console.log('To ALSO clear physical mail files from the host, run:');
+        console.log('   rm -rf /mnt/user/appdata/asys_mail/mail_data/*');
+        console.log('---------------------------------------------------------');
 
         process.exit(0);
     } catch (error) {

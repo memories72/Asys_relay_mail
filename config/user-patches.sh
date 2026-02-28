@@ -19,7 +19,7 @@ passdb {
 }
 userdb {
   driver = static
-  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes quota_rule=*:storage=50G
+  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes quota_rule=*:storage=0
 }
 EOF
 
@@ -123,7 +123,7 @@ passdb {
 }
 userdb {
   driver = static
-  args = uid=5000 gid=5000 home=/var/mail/agilesys.co.kr/%n allow_all_users=yes quota_rule=*:storage=50G
+  args = uid=5000 gid=5000 home=/var/mail/agilesys.co.kr/%n allow_all_users=yes quota_rule=*:storage=0
 }
 EOF
 
@@ -136,7 +136,7 @@ EOF
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
 plugin {
   quota = maildir:User quota
-  quota_rule = *:storage=50G
+  quota_rule = *:storage=0
 }
 EOF
 
