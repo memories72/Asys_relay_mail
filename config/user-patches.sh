@@ -72,10 +72,14 @@ chmod 600 /etc/postfix/ssl/combined.pem
 # --- 3. Postfix Global Settings ---
 postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
+
+# SSL/TLS - Global set to 'none' for Port 25 as requested
 postconf -e "smtpd_tls_cert_file = /etc/postfix/ssl/cert.pem"
 postconf -e "smtpd_tls_key_file = /etc/postfix/ssl/key.pem"
-postconf -e "smtpd_tls_security_level = may"
+postconf -e "smtpd_tls_security_level = none" 
 postconf -e "smtpd_tls_auth_only = no"
+
+# SASL Auth - Global enabled
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = private/auth"
@@ -83,22 +87,15 @@ postconf -e "smtpd_sasl_security_options = noanonymous"
 postconf -e "broken_sasl_auth_clients = yes"
 
 # --- 4. Master.cf Overrides (Ensures SSL/Auth on specific ports) ---
-# Enable submission (587) and smtps (465)
 sed -i 's/^#submission/submission/' /etc/postfix/master.cf
 sed -i 's/^#smtps/smtps/' /etc/postfix/master.cf
 
-# Clean up any previously added options to prevent duplicates
-sed -i '/^submission/!b;n;/-o smtpd_sasl_auth_enable/d' /etc/postfix/master.cf
-sed -i '/^submission/!b;n;/-o smtpd_sasl_type/d' /etc/postfix/master.cf
-sed -i '/^submission/!b;n;/-o smtpd_sasl_path/d' /etc/postfix/master.cf
-sed -i '/^submission/!b;n;/-o smtpd_tls_security_level/d' /etc/postfix/master.cf
+# Dynamic cleanup and re-application of overrides to ensure clean master.cf
+sed -i '/^submission/,/^[^ ]/ { /^  -o /d }' /etc/postfix/master.cf
+sed -i '/^smtps/,/^[^ ]/ { /^  -o /d }' /etc/postfix/master.cf
 
-sed -i '/^smtps/!b;n;/-o smtpd_tls_wrappermode/d' /etc/postfix/master.cf
-sed -i '/^smtps/!b;n;/-o smtpd_sasl_auth_enable/d' /etc/postfix/master.cf
-
-# Re-add clean options
 sed -i '/^submission/a \  -o smtpd_sasl_auth_enable=yes\n  -o smtpd_sasl_type=dovecot\n  -o smtpd_sasl_path=private/auth\n  -o smtpd_tls_security_level=may' /etc/postfix/master.cf
-sed -i '/^smtps/a \  -o smtpd_tls_wrappermode=yes\n  -o smtpd_sasl_auth_enable=yes\n  -o smtpd_sasl_type=dovecot\n  -o smtpd_sasl_path=private/auth' /etc/postfix/master.cf
+sed -i '/^smtps/a \  -o smtpd_tls_wrappermode=yes\n  -o smtpd_sasl_auth_enable=yes\n  -o smtpd_sasl_type=dovecot\n  -o smtpd_sasl_path=private/auth\n  -o smtpd_tls_security_level=encrypt' /etc/postfix/master.cf
 
 # --- 5. Quota Configuration (Verified fix) ---
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
