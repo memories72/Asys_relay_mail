@@ -85,28 +85,31 @@ postconf -e "transport_maps ="
 mkdir -p /etc/postfix/ssl
 # Check if existing cert misses localhost and delete it if so, to force recreation
 if [ -f /etc/postfix/ssl/cert.pem ] && ! openssl x509 -in /etc/postfix/ssl/cert.pem -text | grep -q 'DNS:localhost'; then
-  rm -f /etc/postfix/ssl/cert.pem /etc/postfix/ssl/key.pem
+  rm -f /etc/postfix/ssl/cert.pem /etc/postfix/ssl/key.pem /etc/postfix/ssl/combined.pem
 fi
 if [ ! -f /etc/postfix/ssl/cert.pem ]; then
   openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
 fi
+# Postfix 3.7.x prefers smtpd_tls_chain_files. When multiple files are listed, it treats EACH as a full chain (key+cert).
+# So we must combine them into a single PEM file for proper initialization.
+cat /etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem > /etc/postfix/ssl/combined.pem
+chmod 600 /etc/postfix/ssl/combined.pem
 
 # Enable Postfix TLS
-# Modern Postfix uses smtpd_tls_chain_files. Using both legacy and modern params causes warnings and issues.
-# We reset everything and use legacy params for maximum compatibility.
 postconf -e "myhostname = nas.agilesys.co.kr"
-postconf -X "smtpd_tls_chain_files"
+postconf -X "smtpd_tls_cert_file"
+postconf -X "smtpd_tls_key_file"
 postconf -X "smtps_tls_wrappermode" # Fix previously introduced typo in main.cf
-postconf -e "smtpd_tls_cert_file=/etc/postfix/ssl/cert.pem"
-postconf -e "smtpd_tls_key_file=/etc/postfix/ssl/key.pem"
+postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
 postconf -e "smtpd_tls_security_level=may"
 # Allow TLSv1+ for compatibility (Outlook/Older Android/iOS)
 postconf -e "smtpd_tls_protocols = !SSLv2, !SSLv3"
 postconf -e "smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3"
 postconf -e "smtpd_tls_loglevel = 2"
+# Improve SASL/Auth visibility
+postconf -e "smtpd_sasl_auth_enable = yes"
 
 # Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
-# Using postconf -P is safer than sed for modifying master.cf services.
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
   sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
 fi
