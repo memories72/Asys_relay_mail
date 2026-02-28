@@ -83,8 +83,12 @@ postconf -e "transport_maps ="
 # 8. [TLS FIX] Generate self-signed cert and enable STARTTLS on port 587 and DOVECOT
 # Mail clients (like macOS Mail, Thunderbird, Outlook) refuse to authenticate via 587 without STARTTLS. Let's use the exact domain name `nas.agilesys.co.kr` used for connection to avoid mismatch alerts.
 mkdir -p /etc/postfix/ssl
+# Check if existing cert misses localhost and delete it if so, to force recreation
+if [ -f /etc/postfix/ssl/cert.pem ] && ! openssl x509 -in /etc/postfix/ssl/cert.pem -text | grep -q 'DNS:localhost'; then
+  rm -f /etc/postfix/ssl/cert.pem /etc/postfix/ssl/key.pem
+fi
 if [ ! -f /etc/postfix/ssl/cert.pem ]; then
-  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr"
+  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
 fi
 
 # Enable Postfix TLS
