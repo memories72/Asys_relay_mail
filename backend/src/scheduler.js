@@ -1,12 +1,27 @@
 const cron = require('node-cron');
 const { logSyncEvent, getAllPop3Accounts } = require('./db');
 const { fetchPop3Account } = require('./fetcher');
-const { updateProgress, clearProgress } = require('./progress');
+const { updateProgress, clearProgress, pop3Progress } = require('./progress');
+
+let isRunning = false;
 
 const startScheduler = () => {
     // node_scheduler_1min
     // properties: { schedule_interval: '1m' }
     cron.schedule('*/1 * * * *', async () => {
+        if (isRunning) {
+            console.log('[Scheduler] 이전 동기화 작업이 아직 실행 중입니다. 이번 주기를 건너뜁니다.');
+            // Update all accounts to 'waiting' if not already fetching
+            const accounts = await getAllPop3Accounts();
+            for (const acc of accounts) {
+                if (!pop3Progress[acc.id] || pop3Progress[acc.id].status === 'idle') {
+                    updateProgress(acc.id, { status: 'waiting', label: acc.user_email });
+                }
+            }
+            return;
+        }
+        isRunning = true;
+
         console.log(`[Scheduler] 1분 주기 외부 POP3 수집 트리거 동작 - ${new Date().toISOString()}`);
 
         try {
@@ -21,15 +36,15 @@ const startScheduler = () => {
 
             for (const account of accounts) {
                 try {
-                    updateProgress(account.id, { current: 0, total: 0, status: 'fetching' });
+                    updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.user_email });
                     const fetchedCount = await fetchPop3Account(account, (current, total) => {
-                        updateProgress(account.id, { current, total, status: 'fetching' });
+                        updateProgress(account.id, { current, total, status: 'fetching', label: account.user_email });
                     });
-                    updateProgress(account.id, { status: 'done' });
+                    updateProgress(account.id, { status: 'done', label: account.user_email });
                     setTimeout(() => { clearProgress(account.id); }, 5000);
                     totalFetched += fetchedCount;
                 } catch (e) {
-                    updateProgress(account.id, { status: 'error' });
+                    updateProgress(account.id, { status: 'error', label: account.user_email });
                     console.error(`[Sync] ${account.user_email} POP3 Fetch Error:`, e);
                 }
             }
@@ -40,6 +55,8 @@ const startScheduler = () => {
         } catch (error) {
             console.error('[Sync] 동기화 실패', error);
             await logSyncEvent('FAILED', 0);
+        } finally {
+            isRunning = false;
         }
     });
 

@@ -438,6 +438,24 @@
                         <p id="storageText" class="text-[10px] text-slate-400 mt-3 font-medium tracking-tight">용량 확인
                             중...</p>
                     </div>
+
+                    <!-- Global Sync Progress -->
+                    <div id="globalSyncBox"
+                        class="hidden px-4 py-4 bg-primary/5 rounded-2xl border border-primary/10 dark:bg-primary/5 dark:border-primary/20">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-[18px] text-primary animate-spin">sync</span>
+                            <p class="text-[10px] text-primary font-bold uppercase tracking-widest">Background Sync</p>
+                        </div>
+                        <p id="globalSyncLabel" class="text-[10px] font-bold text-slate-500 mb-2 truncate"></p>
+                        <div class="w-full bg-primary/10 rounded-full h-1.5 overflow-hidden">
+                            <div id="globalProgressBar" class="bg-primary h-full transition-all duration-500"
+                                style="width: 0%"></div>
+                        </div>
+                        <div class="flex items-center justify-between mt-2">
+                            <span id="globalSyncPercent" class="text-[11px] font-bold text-primary">0%</span>
+                            <span id="globalSyncCount" class="text-[10px] text-primary/60 font-medium">0/0</span>
+                        </div>
+                    </div>
                 </div>
             </aside>
 
@@ -1087,6 +1105,9 @@
                 avatar.textContent = initials;
             }
 
+            // Start global progress polling
+            startGlobalProgressPolling();
+
             // Load storage quota asynchronously
             loadStorageQuota();
 
@@ -1142,6 +1163,70 @@
             }
 
             loadInbox();
+        }
+
+        async function startGlobalProgressPolling() {
+            if (window._globalPoll) clearInterval(window._globalPoll);
+
+            const poll = async () => {
+                if (!authToken) return;
+                try {
+                    const res = await fetch('/api/pop3-progress', { headers: apiHeaders() });
+                    if (!res.ok) return;
+                    const progress = await res.json();
+
+                    let activeAccount = null;
+                    let waitingAccount = null;
+                    for (const id in progress) {
+                        if (progress[id].status === 'fetching') {
+                            activeAccount = progress[id];
+                            break;
+                        }
+                        if (progress[id].status === 'waiting' && !waitingAccount) {
+                            waitingAccount = progress[id];
+                        }
+                    }
+
+                    const targetAccount = activeAccount || waitingAccount;
+
+                    const box = document.getElementById('globalSyncBox');
+                    const bar = document.getElementById('globalProgressBar');
+                    const percentText = document.getElementById('globalSyncPercent');
+                    const countText = document.getElementById('globalSyncCount');
+                    const labelText = document.getElementById('globalSyncLabel');
+
+                    if (!box || !bar || !percentText || !countText || !labelText) return;
+
+                    if (targetAccount) {
+                        box.classList.remove('hidden');
+                        labelText.textContent = targetAccount.label || '';
+
+                        if (targetAccount.status === 'fetching') {
+                            if (targetAccount.total > 0) {
+                                const percent = Math.round((targetAccount.current / targetAccount.total) * 100);
+                                bar.style.width = percent + '%';
+                                percentText.textContent = percent + '%';
+                                countText.textContent = `${targetAccount.current}/${targetAccount.total}`;
+                            } else {
+                                bar.style.width = '10%';
+                                percentText.textContent = '연결 중...';
+                                countText.textContent = '-/-';
+                            }
+                        } else if (targetAccount.status === 'waiting') {
+                            bar.style.width = '0%';
+                            percentText.textContent = '대기 중';
+                            countText.textContent = '순번 대기';
+                        }
+                    } else {
+                        box.classList.add('hidden');
+                    }
+                } catch (e) {
+                    console.error('[Global Poll] Error:', e);
+                }
+            };
+
+            poll();
+            window._globalPoll = setInterval(poll, 3000);
         }
 
         let displayedCount = 0;

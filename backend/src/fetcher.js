@@ -106,32 +106,66 @@ const fetchPop3Account = async (account, onProgress) => {
         });
 
         const fetchNext = async () => {
-            if (currentMsg > msgcount) {
-                client.quit();
-                return;
-            }
+            // Load all existing UIDs for this account at once for faster comparison
+            const existingUidsRows = await getPool().query('SELECT uidl FROM pop3_uidls WHERE account_id = ?', [accountId]);
+            const existingUids = new Set(existingUidsRows[0].map(r => r.uidl));
 
-            const uidl = uidlMap[currentMsg];
-            if (uidl) {
-                const alreadyFetched = await isFetched(accountId, uidl);
-                if (alreadyFetched) {
-                    // Skip if already fetched
-                    currentMsg++;
-                    return fetchNext();
+            console.log(`[Fetcher] [${user_email}] Local database has ${existingUids.size} already fetched messages.`);
+
+            for (let i = 1; i <= msgcount; i++) {
+                currentMsg = i;
+                const uidl = uidlMap[i];
+
+                if (uidl && existingUids.has(uidl)) {
+                    // Skip already fetched message
+                    if (i % 10 === 0 || i === msgcount) reportProgress(i);
+                    continue;
                 }
+
+                // Found a new message to fetch
+                reportProgress(i - 1);
+
+                // Use a promise to wait for RETR to complete before continuing the loop
+                await new Promise((resolveRetr) => {
+                    const onRetr = async (status, msgnumber, data) => {
+                        client.removeListener('retr', onRetr);
+                        if (!status) {
+                            console.error(`[Fetcher] [${user_email}] RETR failed for msg ${msgnumber}`);
+                        } else {
+                            try {
+                                const normalized = normalizePop3Raw(data);
+                                await deliverRaw(normalized, user_email);
+                                if (uidl) await saveFetchedUidl(accountId, uidl);
+                                successCount++;
+                            } catch (e) {
+                                console.error(`[Fetcher] [${user_email}] Delivery failed for msg ${msgnumber}:`, e.message);
+                            }
+                        }
+
+                        if (!keepOnServer) {
+                            client.dele(msgnumber);
+                            // Wait for dele event before resolving
+                            const onDele = () => {
+                                client.removeListener('dele', onDele);
+                                resolveRetr();
+                            };
+                            client.on('dele', onDele);
+                        } else {
+                            resolveRetr();
+                        }
+                    };
+                    client.on('retr', onRetr);
+                    client.retr(i);
+                });
             }
 
-            reportProgress(currentMsg - 1);
-            client.retr(currentMsg);
+            client.quit();
         };
 
         client.on('uidl', (status, data) => {
             if (!status || !data) {
-                // Fallback to list if UIDL is not supported or returns no data
                 return client.list();
             }
-
-            // data is an object: { index: "uidl" }
             uidlMap = data;
             const indices = Object.keys(uidlMap);
             msgcount = indices.length;
@@ -144,51 +178,10 @@ const fetchPop3Account = async (account, onProgress) => {
             }
 
             console.log(`[Fetcher] [${user_email}] Found ${msgcount} messages via UIDL`);
-            fetchNext();
-        });
-
-        client.on('list', (status, count) => {
-            msgcount = parseInt(count) || 0;
-            if (msgcount === 0) {
-                reportProgress(0);
+            fetchNext().catch(err => {
+                console.error(`[Fetcher] [${user_email}] fetchNext error:`, err);
                 client.quit();
-                return;
-            }
-            fetchNext();
-        });
-
-        client.on('retr', async (status, msgnumber, data) => {
-            if (!status) {
-                console.error(`[Fetcher] [${user_email}] RETR failed for msg ${msgnumber}`);
-                currentMsg++;
-                return fetchNext();
-            }
-
-            try {
-                const normalized = normalizePop3Raw(data);
-                await deliverRaw(normalized, user_email);
-
-                const uidl = uidlMap[msgnumber];
-                if (uidl) await saveFetchedUidl(accountId, uidl);
-
-                successCount++;
-
-                if (keepOnServer) {
-                    currentMsg++;
-                    fetchNext();
-                } else {
-                    client.dele(msgnumber);
-                }
-            } catch (e) {
-                console.error(`[Fetcher] [${user_email}] Delivery failed for msg ${msgnumber}:`, e.message);
-                currentMsg++;
-                fetchNext();
-            }
-        });
-
-        client.on('dele', () => {
-            currentMsg++;
-            fetchNext();
+            });
         });
 
         client.on('quit', () => {
