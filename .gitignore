@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker Data
+data/
+mail_data/
+mail_logs/
+mail_state/
+config/
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -124,6 +124,30 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                     const inReplyTo = msg.envelope?.inReplyTo || '';
                     const date = msg.envelope?.date ? new Date(msg.envelope.date) : new Date();
 
+                    // --- MAIL RULES ENGINE INTEGRATION ---
+                    // Run rules for the new message. If it's moved or deleted, stop processing it for this mailbox.
+                    const { processRules } = require('./rules');
+                    try {
+                        const messageForRules = {
+                            uid: msg.uid,
+                            subject,
+                            fromAddress: senderAddress,
+                            sender_address: senderAddress,
+                            from: senderAddress, // alias
+                            to: finalTo,
+                            recipient_address: JSON.stringify(finalTo),
+                            date
+                        };
+                        const ruleProcessed = await processRules(email, mailbox, messageForRules, client);
+                        if (ruleProcessed) {
+                            console.log(`[Sync] Rule applied: Message ${msg.uid} was moved or deleted from ${mailbox}. Skipping cache.`);
+                            continue; // Skip DB insertion for this folder
+                        }
+                    } catch (ruleErr) {
+                        console.error('[Sync] Rule processing error:', ruleErr.message);
+                    }
+                    // -------------------------------------
+
                     await pool.query(`
                         INSERT INTO email_cache 
                         (user_email, mailbox, uid, message_id, in_reply_to, sender_name, sender_address, recipient_address, subject, date, is_seen, is_flagged, has_attachments, size) 

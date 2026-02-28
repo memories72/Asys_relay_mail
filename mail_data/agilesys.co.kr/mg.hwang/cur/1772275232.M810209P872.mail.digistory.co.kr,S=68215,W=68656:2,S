@@ -1,441 +1,0 @@
-Return-Path: <>
-Delivered-To: mg.hwang@agilesys.co.kr
-Received: from nas.agilesys.co.kr
-	by mail.digistory.co.kr with LMTP
-	id aCYyMCDGomloAwAAqhLAQw
-	(envelope-from <>)
-	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:32 +0000
-Received: from localhost (localhost [127.0.0.1])
-	by nas.agilesys.co.kr (Postfix) with ESMTP id C4BB214C2F
-	for <mg.hwang@agilesys.co.kr>; Sat, 28 Feb 2026 10:40:32 +0000 (UTC)
-Authentication-Results: nas.agilesys.co.kr;
-	dkim=fail reason="signature verification failed" (1024-bit key; unprotected) header.d=alerts.mail.hpe.com header.i=partner@alerts.mail.hpe.com header.a=rsa-sha1 header.s=200608 header.b=h+6AaozP;
-	dkim-atps=neutral
-X-Fetched-By: asys-pop3-fetcher
-X-Delivered-To: mg.hwang@agilesys.co.kr
-X-GM-THRID: 1553815757825104234
-X-Gmail-Labels: =?UTF-8?B?7JeQ7J207Iuc7Iqk?=
-Delivered-To: heemin@digistory.co.kr
-Received: by 10.28.52.193 with SMTP id b184csp1815200wma;
-        Thu, 15 Dec 2016 12:51:33 -0800 (PST)
-X-Received: by 10.129.156.2 with SMTP id t2mr3038079ywg.325.1481835093065;
-        Thu, 15 Dec 2016 12:51:33 -0800 (PST)
-Authentication-Results: mx.google.com;
-       spf=pass (google.com: best guess record for domain of postmaster@mta2.emailinfo.mail.hpe.com designates 198.245.90.154 as permitted sender) smtp.mailfrom=mta2.emailinfo.mail.hpe.com;
-       dkim=pass header.i=@alerts.mail.hpe.com
-Received-SPF: pass (google.com: best guess record for domain of postmaster@mta2.emailinfo.mail.hpe.com designates 198.245.90.154 as permitted sender) client-ip=198.245.90.154;
-Received: by 10.37.197.81 with POP3 id v78mf184693592ybe.2;
-        Thu, 15 Dec 2016 12:51:32 -0800 (PST)
-X-Gmail-Fetch-Info: mg.hwang@agilesys.co.kr 1 mail.agilesys.co.kr 110 mg.hwang@agilesys.co.kr
-Received: (qmail 30930 invoked by uid 700); 16 Dec 2016 05:36:30 +0900
-Received: from unknown (HELO desk-mail-filter01.whoisdesk.com) (192.168.10.131)
-	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
-	16 Dec 2016 05:36:30 +0900
-Received: (qmail 31069 invoked by uid 700); 16 Dec 2016 05:36:23 +0900
-Received: from unknown (HELO mta2.emailinfo.mail.hpe.com) (198.245.90.154)
-	by 0 (knetqmail v1.06) with ESMTPS (DHE-RSA-AES256-GCM-SHA384 encrypted);
-	16 Dec 2016 05:36:23 +0900
-DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=alerts.mail.hpe.com;
- h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type; i=partner@alerts.mail.hpe.com;
- bh=NNIN01Xd4BOQD895kDYU8SWfikw=;
- b=h+6AaozPiMG0JcoAzo7knUNP0LwQQq55dD26mm7lXtmIPTTmde0Ta/nSF3A+BmoMFssl+gPMbVaj
-   jFLeb4TEbjeXTq3Tm11v1juBPdH1jnCGOHZb0BvMmEr6s+d3W1s7s5JIFsV1Kz5j7H47CJLlvUaX
-   +RXVmsXXUrsT6qVb66g=
-DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=alerts.mail.hpe.com;
- b=rFhqTM1Kw7S5B+tzRQEsCN0xBvOi6QS4vQ/6PvK8sVw05DzthcZorXIvhMbKGbalLdZ+GUXgWwt2
-   T72T1smIOCgK0wNFj3EuxvMijPFnk/QFg8ob1TX02dJs/OJYKLcuSdRndCwvlstbOqQvu2PVqMc7
-   Bi2LSJeiavuDOJv/wHg=;
-Received: by mta2.emailinfo.mail.hpe.com id habvci165b0o for <mg.hwang@agilesys.co.kr>; Thu, 15 Dec 2016 14:36:23 -0600 (envelope-from <bounce-2775_HTML-337921511-890249-1385815-319@bounce.emailinfo.mail.hpe.com>)
-From: "Park, Byong Rok" <partner@alerts.mail.hpe.com>
-To: <mg.hwang@agilesys.co.kr>
-Subject: =?UTF-8?B?MTLsm5TsnZgg7LWc7IugIEVHL1NXIO2MjO2KuOuEiCDribTsiqQ=?=
-Date: Thu, 15 Dec 2016 14:36:21 -0600
-List-Unsubscribe: <mailto:leave-fd16167772616b2531492c-fe2f1773726d067c701571-febf1c7975660074-fe9015737d610c7c70-ff6217717c@leave.emailinfo.mail.hpe.com>
-MIME-Version: 1.0
-Reply-To: "HPE feedback.news" <reply-febf1c7975660074-2775_HTML-337921511-1385815-319@emailinfo.mail.hpe.com>
-List-ID: <1385815_890249.xt.local>
-X-CSA-Complaints: whitelistcomplaints@eco.de
-x-job: 1385815_890249
-Message-ID: <6ad75ce8-cfc9-4eaa-a69a-0d444e6e408f@xtnvmta1405.xt.local>
-Content-Type: multipart/alternative;
-	boundary="UqqrRupoW73A=_?:"
-
-This is a multi-part message in MIME format.
-
---UqqrRupoW73A=_?:
-Content-Type: text/plain;
-	charset="utf-8"
-Content-Transfer-Encoding: 8bit
-
-
-HPE íí¸ë ë´ì¤íëì
-http://view.emailinfo.mail.hpe.com/?qs=65050b4e23dfa90968b6fa6771dc29b0f175eb26903401b07e9a5cac073368faa31d5d1c939df21f17633a4e972ad618228f6a064d7e477e044c8e2c17c86c84a06385611f4c5679
-HPE íí¸ë ë´ì¤íëì
-ë§ì¶¤íë ì±ë ë´ì¤ ìë°ì´í¸ 
-
-ì íµìì²´: ë³¼ë¥¨ ì¤í ë¦¬ì§ ì í íë§¤ì ëí ë³´ì ë°ê¸°ìë¡ì´ ë¦¬ë² ì´í¸ íë¡ê·¸ë¨ì ê°ìíì¨ìµëê¹? ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea245f7f566a39958f0dc46c7f5e9569f12eec912ead4acc590805f7d398c2b62a66da72fef2bcfa082 
-
-HPE Discover London 2016: ê¸ìëë¡ ì±ì¥íë ìì¥ì ìí ìµì  ìë£¨ìíì´ë¸ë¦¬ë IT ê°ìí ë° ì¬-íëì ë°ì´í° ì¼í° ê°ìí ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea287b1adaaaf7e00a5348cdc310cda1a0a9b33ba89c4dce870c97b1e2f037b2920fc19d75a58b1bbaf 
-
-ìë² ìí¼íì´ë¡: ëì¼ë¡ ì íëë ìì ì ì¸ íì ìë²ë°ì´í° ì¼í° ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea23bfb5dbbecf2347f6f0731a0ef2201b4e01ce4a3a96a10fdd7473a4d6a5bb38ef6d2c6e31f83e35a 
-
-íì ë ê¸°ê°ìë§ ì ê³µ: HPE Early Bird Knowledge Credit íë¡ëª¨ìë¦´ë¦¬ì¤ í 90ì¼ ìì ìë¡ì´ FY17 HPE ìì ì¸ì¦ ìë£ ì ìµë 35ì Knowledge Credits íë³´ ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2bb765ed2b582ebe99db62537950e5add343346557ba442dfc6505b7db8eaf202bfaf28b6fc9bb788 
-
-ìí´ ê³íì ìì ìì­ íì¥ í¬í¨HPE Partner Ready Social Media Center ì°¸ì¡° ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea217a3d49f35df5db20eed75e685f29f7b7bf41e534bcb592f5ad3588f10ade105435105d584a8802e 
-
-ì í©í ì í: HPE Edgeline Intelligent Gateway ë° GE Predix Cloud MachineIoT ë°ì´í°ë¥¼ ì´í´íê³  ì´ ë ìë£¨ìì´ ìë²½í ì íì¸ ì´ì  ììë³´ê¸° ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2e600a2a8871c518ac80866ab40aee8cb5556527cfd4f0194fec45666cf1989b7c8c78071be5d329f 
-
-Discover 2016 ë°ë: HPE Synergy(HPE Helion CloudSystem 10 í¬í¨)í´ë¼ì°ë ê´ë¦¬ìë¥¼ ìí ê´ë¦¬ ê°ìí, ê°ë°ìë¥¼ ìí ë¯¼ì²©ì± í¥ì ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea25b0fe99dc40dbdeba01129358ef6146c44a9d679f591c39b5eeeccece70b469b454194b7de49f2f4 
-
-HPE ìë²ì í¨ê» ì ê³µ: Microsoft Windows Server 2016 OEMìë¡ì´ HPE OEM Microsoft Windows Server 2016 ì í ê´ë ¨ ì¸ë¶ì ë³´ íì¸ ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea26ddf625041dbd8d91d2868d9975063eb79997c9d2fa726cccaaa6aae4915b82c42e660a3eeaf090a 
-
-ìë¡ì´ Dell Technologiesê° ê³ ê°ìê² íìí ê²ì ì ê³µí  ì ììµëê¹?ìë¡ì´ HPE Partner Ready Program ëì§í¸ ë§ì¼í ëêµ¬ê° HPEì ì°¨ë³ì  ì¦ëª ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea20864e72d384d1a84f5c6b742165f6789b59ba6c9391e2ca63d70c798d64591e764cba45ae40bc356 
-
-HPE StoreEasy: ìì ë°©í´ ìì ì ê±° ë° ê¸°í íì¥ì§ê¸ì´ ê³ ê°ìê² ìê·¸ë ì´ëë¥¼ ì¤ëªí  ìê¸° ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2f5e86e7839a1614ec45ee1a3a752474d4a35fdfd263feaed70c54c1367c50e501741f1c104997cec 
-
-ìë¡ì´ HPE Partner Ready Program ê¸°íë¡ FY17ì ì±ì¥ ê°ìíìê³ 1ì íí¸ë íë¡ê·¸ë¨ì´ ìë¡ì´ ë¹ì¦ëì¤ ì§ì ìì¸í ììë³´ê¸°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2278f090849c7b5f03103ff62758ec5135f2e3508045f657b9adab1e8e875272fed6e01bd6675e278 
-
-________________________________________________________________________________ 
-
-
-	
-
-
-ìµì  HPE ë´ì¤ ëª¨ë ë¦¬ë·°
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2cdd4f8ef98073dcba21bf2ef6b7f4c9c57521e80346db5bf2380bcfd9033a1216e97d2e9ef218d15
- 
-
-íë¡íì¼ ìë°ì´í¸
-ë´ ê´ì¬ ë²ì£¼
-
-
-http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2e43be0f14b652c5586ed5d5c0edd54136732d5fad48b878efd99cef63589bb6860dbd6ff3c066dfb 
-
-ì í ë° ìë£¨ì 
-HPE Partner Ready íë¡ê·¸ë¨
-ìì ë° ë§ì¼í
-êµì¡ ë° íì¬
-HPE ì ëµ
-ë´ì¤ ì HPE
-
- 
-
-í´ë  í©ì»¤ë Enterpriseë ì¬ì©ìì ê°ì¸ ì ë³´ë¥¼ ì¡´ì¤í©ëë¤. í´ë  í©ì»¤ë ê¸°ì ì ë¹ì ì ê²½íì ê°ì¸ííë ìë ë°ì´í° ìì§ ëêµ¬ ë¥¼ ì¬ì©í©ëë¤. ë¹ì ì´ í¹ë³ ì ê³µ ë° ì ë³´ ì ëí í´ë  í©ì»¤ë ê¸°ì ìì ì ì ë©ì¼ì ìì  ì¤ë¨ íë ¤ë ê²½ì°,  ì¬ê¸° http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2965da51ec3f5b429ab3d19cca5bae39a88b265181715faad35443b3420b40a6923657a71dce64943 ë¥¼ í´ë¦­íì­ìì¤
-
-í´ë  í©ì»¤ë ê¸°ì ì ê°ì¸ ì ë³´ ë³´í¸ ì ì± ë° ê´í ì ëí ìì¸í ë´ì©ì  ê°ì¸ ì ë³´ ë³´í¸ ì ì±ì http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2802baaca89089bd8edb227476442ac43f7c735c7e00db8c3c2909df6fd8775ea8eec2368b1cc2313 ì°¸ì¡°íìê¸° ë°ëëë¤.
-
-í´ë í©ì»¤ëë ì¬ì©ìì ìê²¬ì ìì¤íê² ìê°í©ëë¤. í´ë í©ì»¤ëì ê°ì¸ì ë³´ ì·¨ê¸ë°©ì¹¨ì ëí ìê²¬ì´ë ì§ë¬¸ì´ ìê±°ë ë¶ë§ ì¬í­ì ì ê¸°íë ¤ë ê²½ì°, í´ë í©ì»¤ë ê°ì¸ì ë³´ ë³´í¸ ì¬ë¬´ìì ë¬¸ìíê±°ë ë¤ì ì£¼ìë¡ í¸ì§ë¥¼ ë³´ë´ ì£¼ìê¸° ë°ëëë¤.
- ì£¼ì : ìì¸ ìë±í¬êµ¬ ìì¬ë¹ëë¡ 83
- ê³ ê°ì§ì ë° ìë¹ì¤ ìë´ : 1577-2912
-
-Â© Copyright 2016 Hewlett Packard Enterprise Development LP. ì¬ê¸°ì í¬í¨ë ë´ì©ì ìê³  ìì´ ë³ê²½ ë  ì ììµëë¤. 
-
-
-
---UqqrRupoW73A=_?:
-Content-Type: text/html;
-	charset="utf-8"
-Content-Transfer-Encoding: 8bit
-
-<img src="http://click.emailinfo.mail.hpe.com/open.aspx?ffcb10-febf1c7975660074-fe21177873670375721474-fe9015737d610c7c70-ff2a16777261-fe2f1773726d067c701571-ff6217717c" width="1" height="1"><html>
-
-<head>
-
-
-
-</head>
-<html>
-
-<body alink="#003366" leftmargin="0" link="#003366" marginheight="0" marginwidth="0" text="#000000" topmargin="0" vlink="#003366"  bgcolor="#f6f6f6">
-<table bgcolor="#f6f6f6" border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr><td>
-
-
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="640">
-<tbody>
-<tr>
-<td align="left" height="5" style="font-size:0px;line-height:5px;" valign="top">
-<img alt="" height="5" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="5"/> </td>
-</tr>
-<tr>
-<td>
-<!--FROM_INFO BEGIN-->
-
-
-<!--FROM_INFO END-->
-<!--ALERTS_MASTHEAD BEGIN-->
-
-<!--
-SubscriberKey: 0C26F7C871EB063F8AE2899D92FE0EB2 <br>
-Email: mg.hwang@agilesys.co.kr <br>
-RowCount: 1<br>
--->
-
-<table width="640" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="640" height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><table cellspacing="0" cellpadding="0" border="0"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td width="600" align="right"><font style="font-family:arial;font-size:12px;color:#010101">HPE íí¸ë ë´ì¤íëì</font><font style="font-family:arial;font-size:12px;color:#010101;">&nbsp;|&nbsp;<a style="color: #000000;"  href="http://view.emailinfo.mail.hpe.com/?qs=65050b4e23dfa90968b6fa6771dc29b0f175eb26903401b07e9a5cac073368faa31d5d1c939df21f17633a4e972ad618228f6a064d7e477e044c8e2c17c86c84a06385611f4c5679">
-<span style="color:#000000;">web view</span></a></font></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="640" height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td bgcolor="#425563"><table width="640" bgcolor="#425563" cellspacing="0" cellpadding="0" border="0"><tr><td width="600" height="10" bgcolor="#425563" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr><td><table cellspacing="0" cellpadding="0" border="0"><tr><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td width="145"><a href="http://www.hpe.com"><img style="display:block;" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/6/alerts-hpe_logo.gif" width="145" height="63" border="0" alt="HP Enterprise"></a></td><td width="30"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="30" height="1" style="display:block"></td><td width="425" align="right"><font style="font-family: arial; font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="10" bgcolor="#425563" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr></table></td></tr><tr><td width="640" height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><table cellspacing="0" cellpadding="0" border="0"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td width="600" align="right"><font style="font-family:arial;font-size:12px;color:#010101">ìììì íë¡ì°íê¸°</font><br/><a href="https://twitter.com/hpe_partner" target="_blank">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/15/HPEPartner_Twitter.gif" width="33" height="37" border="0" alt="HPE Partner Twitter" style="display:inline;border-style:none;"></a><a href="https://www.linkedin.com/company/hpe-partner-ready" target="_blank"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/15/HPEPartner_LinkedIn.gif" width="37" height="37" border="0" alt="HPE Partner LinkedIn" style="display:inline;border-style:none;"></a></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="640" height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr></table>
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="600" height="30" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="30" style="display:block"></td></tr><tr><td align="center"><font style="font-family:arial;font-size:38px;color:#000000;font-weight:bold;">HPE íí¸ë ë´ì¤íëì</font></td></tr><tr><td width="600" height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td align="center"><font style="font-family:arial;font-size:24px;color:#000000;">ë§ì¶¤íë ì±ë ë´ì¤ ìë°ì´í¸</font></td></tr><tr><td width="600" height="30" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_pa
- rtner.gif" width="1" height="30" style="display:block"></td></tr></table> 
-
-
-<!--ALERTS_MASTHEAD END-->
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="640">
-<tr>
-<td style="font-size:0px;line-height:0px;">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="640"/> </td>
-</tr>
-</table>
-</td>
-</tr>
-
-</tbody>
-</table>
-<!--ALERTS REGULAR P1 BEGIN-->
- 
- 
- 
- 
-<table border="0" cellpadding="0" cellspacing="0" width="640" align="center">
-	<tr>
-	    <td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td>
-		<td style="font-size:0px;line-height:0px;" bgcolor="#FFFFFF">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-	    <td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td>
-	</tr>
-	<tr>
-		<td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td>
-		<td valign="top"> 
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
-        <tr><td>
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000351_20161215_1.jpg" alt="PartnerImage_00000351_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000351_20161215_1.jpg" border=0 thid="94a1b729-3984-4a60-852a-c1e0f4ec8be0"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ì íµìì²´: ë³¼ë¥¨ ì¤í ë¦¬ì§ ì í íë§¤ì ëí ë³´ì ë°ê¸°</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ìë¡ì´ ë¦¬ë² ì´í¸ íë¡ê·¸ë¨ì ê°ìíì¨ìµëê¹?</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partn
- er.gif" width="1" height="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea245f7f566a39958f0dc46c7f5e9569f12eec912ead4acc590805f7d398c2b62a66da72fef2bcfa082"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000847_20161215_1.jpg" alt="PartnerImage_00000847_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000847_20161215_1.jpg" border=0 thid="8511bb99-2724-4e6e-8938-c14e8383d011"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">HPE Discover London 2016: ê¸ìëë¡ ì±ì¥íë ìì¥ì ìí ìµì  ìë£¨ì</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">íì´ë¸ë¦¬ë IT ê°ìí ë° ì¬-íëì ë°ì´í° ì¼í° ê°ìí</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe90157
- 37d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea287b1adaaaf7e00a5348cdc310cda1a0a9b33ba89c4dce870c97b1e2f037b2920fc19d75a58b1bbaf"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00001174_20161215_1.jpg" alt="PartnerImage_00001174_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00001174_20161215_1.jpg" border=0 thid="c8a08f1b-e175-47f4-9479-e053f58a18b5"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ìë² ìí¼íì´ë¡: ëì¼ë¡ ì íëë ìì ì ì¸ íì ìë²</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ë°ì´í° ì¼í°</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr><td height="16" 
- style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea23bfb5dbbecf2347f6f0731a0ef2201b4e01ce4a3a96a10fdd7473a4d6a5bb38ef6d2c6e31f83e35a"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000955_20161215_1.jpg" alt="PartnerImage_00000955_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000955_20161215_1.jpg" border=0 thid="3200f21c-6549-4177-926f-f57bc5b63c60"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">íì ë ê¸°ê°ìë§ ì ê³µ: HPE Early Bird Knowledge Credit íë¡ëª¨ì</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ë¦´ë¦¬ì¤ í 90ì¼ ìì ìë¡ì´ FY17 HPE ìì ì¸ì¦ ìë£ ì ìµë 35ì Knowledge Credits íë³´</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.co
- m/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr>
-<td height="16" style="line-height:16px;vertical-align:middle;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2bb765ed2b582ebe99db62537950e5add343346557ba442dfc6505b7db8eaf202bfaf28b6fc9bb788"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr>
-<td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00001149_20161215_1.jpg" alt="PartnerImage_00001149_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00001149_20161215_1.jpg" border=0 thid="751fc2d4-ce75-4c20-beba-3ef913786b7e"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ìí´ ê³íì ìì ìì­ íì¥ í¬í¨</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">HPE Partner Ready Social Media Center ì°¸ì¡°</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-alig
- n:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea217a3d49f35df5db20eed75e685f29f7b7bf41e534bcb592f5ad3588f10ade105435105d584a8802e"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00001022_20161215_1.jpg" alt="PartnerImage_00001022_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00001022_20161215_1.jpg" border=0 thid="7f263a86-8520-4bbf-ab26-e83e3eabbfb0"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ì í©í ì í: HPE Edgeline Intelligent Gateway ë° GE Predix Cloud Machine</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">IoT ë°ì´í°ë¥¼ ì´í´íê³  ì´ ë ìë£¨ìì´ ìë²½í ì íì¸ ì´ì  ììë³´ê¸°</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70
- /m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr>
-<td height="16" style="line-height:16px;vertical-align:middle;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2e600a2a8871c518ac80866ab40aee8cb5556527cfd4f0194fec45666cf1989b7c8c78071be5d329f"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr>
-<td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000158_20161215_1.jpg" alt="PartnerImage_00000158_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000158_20161215_1.jpg" border=0 thid="667c8373-6a53-4753-8787-0a83394e57fc"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">Discover 2016 ë°ë: HPE Synergy(HPE Helion CloudSystem 10 í¬í¨)</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">í´ë¼ì°ë ê´ë¦¬ìë¥¼ ìí ê´ë¦¬ ê°ìí, ê°ë°ìë¥¼ ìí ë¯¼ì²©ì± í¥ì</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" 
- width="1" height="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea25b0fe99dc40dbdeba01129358ef6146c44a9d679f591c39b5eeeccece70b469b454194b7de49f2f4"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000927_20161215_1.jpg" alt="PartnerImage_00000927_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000927_20161215_1.jpg" border=0 thid="b6f0d452-1b87-4ba5-966a-d75be307b1d8"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">HPE ìë²ì í¨ê» ì ê³µ: Microsoft Windows Server 2016 OEM</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ìë¡ì´ HPE OEM Microsoft Windows Server 2016 ì í ê´ë ¨ ì¸ë¶ì ë³´ íì¸</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:bloc
- k"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea26ddf625041dbd8d91d2868d9975063eb79997c9d2fa726cccaaa6aae4915b82c42e660a3eeaf090a"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000898_20161215_1.jpg" alt="PartnerImage_00000898_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000898_20161215_1.jpg" border=0 thid="3480a4d9-d4bc-489a-96fb-344fb497098d"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ìë¡ì´ Dell Technologiesê° ê³ ê°ìê² íìí ê²ì ì ê³µí  ì ììµëê¹?</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ìë¡ì´ HPE Partner Ready Program ëì§í¸ ë§ì¼í ëêµ¬ê° HPEì ì°¨ë³ì  ì¦ëª</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.
- hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea20864e72d384d1a84f5c6b742165f6789b59ba6c9391e2ca63d70c798d64591e764cba45ae40bc356"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00001006_20161215_1.jpg" alt="PartnerImage_00001006_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00001006_20161215_1.jpg" border=0 thid="e65451ac-016b-4c94-8b53-764313f202a2"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">HPE StoreEasy: ìì ë°©í´ ìì ì ê±° ë° ê¸°í íì¥</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ì§ê¸ì´ ê³ ê°ìê² ìê·¸ë ì´ëë¥¼ ì¤ëªí  ìê¸°</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" style="disp
- lay:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2f5e86e7839a1614ec45ee1a3a752474d4a35fdfd263feaed70c54c1367c50e501741f1c104997cec"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td bgcolor="#ffffff"><table width="600" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td><table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td width="100" valign="top"><img title="PartnerImage_00000176_20161215_1.jpg" alt="PartnerImage_00000176_20161215_1.jpg" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/22/PartnerImage_00000176_20161215_1.jpg" border=0 thid="47ec9371-81ab-4479-a09d-7fcacefb2b68"></td><td width="20" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td valign="top"><table cellspacing="0" cellpadding="0" border="0" align="left"><tr><td><font style="font-family:Arial;font-size:18px;font-weight:bold;color:#000000;">ìë¡ì´ HPE Partner Ready Program ê¸°íë¡ FY17ì ì±ì¥ ê°ìí</font></td></tr><tr><td height="5" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:block"></td></tr><tr><td><font style="font-family:Arial;font-size:16px;color:#000000;">ìê³ 1ì íí¸ë íë¡ê·¸ë¨ì´ ìë¡ì´ ë¹ì¦ëì¤ ì§ì</font></td></tr><tr><td height="10" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" h
- eight="10" style="display:block"></td></tr><tr><td height="16" style="line-height:16px;vertical-align:middle;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/arrow.gif" width="25" height="16" border="0" style="display:inline;vertical-align:middle"><font style="color:#000000;vertical-align:middle;font-family:Arial;font-size:16px;line-height:16px;color:#000000;text-decoration:none;"><a  style="color: #000000;text-decoration: none;"   href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2278f090849c7b5f03103ff62758ec5135f2e3508045f657b9adab1e8e875272fed6e01bd6675e278"><span style="color:#000000;">ìì¸í ììë³´ê¸°</span></a></font></td></tr></table></td></tr></table></td></tr><tr><td height="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr><tr><td class="element_separator_white" width="560" height="1" bgcolor="#cecece" style="line-height:0px;font-size:0px;">
-<img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="560" height="1" style="display:block"></td></tr></table></td><td width="20" style="line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td></tr><tr><td width="600" height="20" style="background-color:#fff; line-height:0px;font-size:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="20" style="display:block"></td></tr></table> 
-
-<!--ALERTS REGULAR P1 END-->
-<!--ALERTS REGULAR X9 BEGIN-->
-<!--ALERTS REGULAR X9 END-->
-<!-- CONTACT HP BEGIN -->
-
- 
-<table width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td height="1" style="font-size:0px;line-height:0px;"><a href="http://www.hpe.com"/><img width="1" height="1" style="display:block" alt="" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" /></td></tr></table> 
-
-		</td></tr></table>
-<!-- CONTACT HP END -->
-<!-- USE LEARN HEADER BEGIN -->
- 
-
-	<!-- USE LEARN HEADER END -->
-	<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#FFFFFF">
-	<tr>
-	<td style="font-size:0px;line-height:0px;" width="20">
-	<img alt="" height="1" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="20"/> </td>
-	<td align="left">
-	<!--USE_LEARN BEGIN X15 -->
-	
-<!--USE_LEARN END X15-->
-<table border="0" cellpadding="0" cellspacing="0" width="540">
-<tr>
-<td height="20" style="font-size:0px;line-height:20px;">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-<tr>
-<td valign="middle">
-<table cellspacing="0" cellpadding="0" style="border: 2px solid; border-color: #02a882;">
-  <tr>
-    <td style="font-size:0px;line-height:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:inline;" border="0" /></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" style="color: #ffffff; display: block;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="30" height="1" style="display:inline;" border="0" /><span style="color: #000000"><a ALT="" STYLE="font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#000000;font-weight:bold;text-decoration:none" TARGET="_blank" href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2943467764e3cc2e624de137bfdbd50837904e8be994c2f7b2042ccdb17cf1d97995d1cbc483587fa"> 
-
-ìµì  HPE ë´ì¤ ëª¨ë ë¦¬ë·° </a></span><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="30" height="1" style="display:inline;" border="0" /></span></td>
-  </tr>
-  <tr>
-    <td style="font-size:0px;line-height:0px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="5" style="display:inline;" border="0" /></td>
-  </tr>
-</table>
-
-</td>
-</tr>
-<tr>
-<td height="20" style="font-size:0px;line-height:20px;">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-</table>
-</td>
-<td style="font-size:0px;line-height:0px;" width="20">
-<img alt="" height="1" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="20"/> </td>
-</tr>
-</table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
-<tr>
-<td height="20" style="font-size:0px;line-height:20px;">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-
-
-<tr>
-<td align="left" valign="top">
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#FFFFFF">
-<tr>
-<td style="font-size:0px;line-height:0px;" colspan="3">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-<tr>
-<td style="font-size:0px;line-height:0px;" width="20">
-<img alt="" height="1" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="20"/> </td>
-<td align="left" valign="top">
-<!--ALERTS_PRODUCTS BEGIN-->
- 
- 
-<table width="540" border="0" cellspacing="0" cellpadding="0"><tr><td valign="top" align="left"><font style="font-family:arial;font-size:24px;color:#000000;font-weight:bold;line-height:30px;">íë¡íì¼ ìë°ì´í¸</font></td></tr><tr> <td height="10" style="font-size:0px;line-height:10px;"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="1" height="10" alt=""  style="display:block" /></td></tr><tr><td align="left" valign="top"><font style="font-family:arial;font-size:16px;color:#000000;"><b>ë´ ê´ì¬ ë²ì£¼</b><br/>
-<a STYLE="font-family:Arial, Helvetica, sans-serif;font-size:14px;color: #000001;text-decoration:underline;" href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2e43be0f14b652c5586ed5d5c0edd54136732d5fad48b878efd99cef63589bb6860dbd6ff3c066dfb">
-ì í ë° ìë£¨ì<br/>
-HPE Partner Ready íë¡ê·¸ë¨<br/>
-ìì ë° ë§ì¼í<br/>
-êµì¡ ë° íì¬<br/>
-HPE ì ëµ<br/>
-ë´ì¤ ì HPE
-
-</a></font></td></tr></table> 
-
-
-<!--ALERTS_PRODUCTS END-->
-</td>
-<td style="font-size:0px;line-height:0px;" width="20">
-<img alt="" height="1" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="20"/> </td>
-</tr>
-<tr>
-<td style="font-size:0px;line-height:0px;" colspan="3">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td height="20" style="font-size:0px;line-height:20px;">
-<img alt="" height="20" src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" style="display:block" width="1"/> </td>
-</tr>
-
-</table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#f6f6f6">
-
-<tr>
-<td>
-<!--FOOTER BEGIN-->
-
-<table width="600" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td><td width="540" align="left" valign="top"><font style="font-family:arial;font-size:10px;color:#000000">
-í´ë  í©ì»¤ë Enterpriseë ì¬ì©ìì ê°ì¸ ì ë³´ë¥¼ ì¡´ì¤í©ëë¤. í´ë  í©ì»¤ë ê¸°ì ì ë¹ì ì ê²½íì ê°ì¸ííë ìë ë°ì´í° ìì§ ëêµ¬ ë¥¼ ì¬ì©í©ëë¤. ë¹ì ì´ í¹ë³ ì ê³µ ë° ì ë³´ ì ëí í´ë  í©ì»¤ë ê¸°ì ìì ì ì ë©ì¼ì ìì  ì¤ë¨ íë ¤ë ê²½ì°,
-
-<a STYLE="color:#000000" href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2965da51ec3f5b429ab3d19cca5bae39a88b265181715faad35443b3420b40a6923657a71dce64943">
-ì¬ê¸°
-</a>ë¥¼ í´ë¦­íì­ìì¤<br/><br/>
-í´ë  í©ì»¤ë ê¸°ì ì ê°ì¸ ì ë³´ ë³´í¸ ì ì± ë° ê´í ì ëí ìì¸í ë´ì©ì 
-
-<a STYLE="color:#000000;" href="http://click.emailinfo.mail.hpe.com/?qs=ec34510f5d61fea2802baaca89089bd8edb227476442ac43f7c735c7e00db8c3c2909df6fd8775ea8eec2368b1cc2313">
- ê°ì¸ ì ë³´ ë³´í¸ ì ì±ì
-</a>
-ì°¸ì¡°íìê¸° ë°ëëë¤.
-<br/><br/>
-í´ë í©ì»¤ëë ì¬ì©ìì ìê²¬ì ìì¤íê² ìê°í©ëë¤. í´ë í©ì»¤ëì ê°ì¸ì ë³´ ì·¨ê¸ë°©ì¹¨ì ëí ìê²¬ì´ë ì§ë¬¸ì´ ìê±°ë ë¶ë§ ì¬í­ì ì ê¸°íë ¤ë ê²½ì°, í´ë í©ì»¤ë ê°ì¸ì ë³´ ë³´í¸ ì¬ë¬´ìì ë¬¸ìíê±°ë ë¤ì ì£¼ìë¡ í¸ì§ë¥¼ ë³´ë´ ì£¼ìê¸° ë°ëëë¤.
- ì£¼ì : ìì¸ ìë±í¬êµ¬ ìì¬ë¹ëë¡ 83
- ê³ ê°ì§ì ë° ìë¹ì¤ ìë´ : 1577-2912
-<br/><br/>
-Â© Copyright 2016 Hewlett Packard Enterprise Development LP. ì¬ê¸°ì í¬í¨ë ë´ì©ì ìê³  ìì´ ë³ê²½ ë  ì ììµëë¤.
-</font></td><td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table> 
-
-<!--FOOTER END-->
-</td>
-</tr>
-</table>
-		</td>
-        <td width="20"><img src="http://image.emailinfo.mail.hpe.com/lib/fe9015737d610c7c70/m/7/x_partner.gif" width="20" height="1" style="display:block"></td></tr></table></td>
-		
- </tr></table>
-
-
-</td></tr></table>
-</body>
-</html>
-
---UqqrRupoW73A=_?:--
-

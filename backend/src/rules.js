@@ -5,7 +5,12 @@ const { searchCachedMails } = require('./search');
  * Mail Rules Engine.
  * Run rules based on message conditions and execute actions (move, flag, delete).
  */
-async function processRules(email, mailbox, message) {
+/**
+ * Mail Rules Engine.
+ * Run rules based on message conditions and execute actions (move, flag, delete).
+ * Returns true if the message was moved or deleted, meaning further processing should stop.
+ */
+async function processRules(email, mailbox, message, imapClient) {
     const pool = getPool();
 
     // 1. Fetch active rules for this user
@@ -15,19 +20,37 @@ async function processRules(email, mailbox, message) {
         ORDER BY sort_order ASC
     `, [email]);
 
-    if (rules.length === 0) return;
+    if (rules.length === 0) return false;
+
+    let stopProcessing = false;
 
     for (const rule of rules) {
-        const conditions = JSON.parse(rule.conditions || '[]');
-        const actions = JSON.parse(rule.actions || '[]');
+        // Conditions and actions can be arrays or single objects depending on implementation
+        let conditions = typeof rule.conditions === 'string' ? JSON.parse(rule.conditions || '[]') : rule.conditions;
+        let actions = typeof rule.actions === 'string' ? JSON.parse(rule.actions || '[]') : rule.actions;
+
+        // Normalize to array if they aren't
+        if (!Array.isArray(conditions)) conditions = [conditions];
+        if (!Array.isArray(actions)) actions = [actions];
+
         let matchesAll = true;
 
-        // Check conditions (default is AND)
+        // Check conditions (AND logic)
         for (const cond of conditions) {
+            if (!cond || !cond.field) continue;
             const field = cond.field.toLowerCase();
-            const operator = cond.operator.toLowerCase();
-            const value = cond.value.toLowerCase();
-            const target = (message[field] || '').toLowerCase();
+            const operator = cond.operator ? cond.operator.toLowerCase() : 'contains';
+            const value = cond.value ? cond.value.toString().toLowerCase() : '';
+
+            // Map common fields
+            let target = '';
+            if (field === 'subject') target = message.subject || '';
+            else if (field === 'from') target = (message.fromAddress || message.sender_address || '');
+            else if (field === 'to') target = JSON.stringify(message.to || message.recipient_address || '');
+            else if (field === 'body') target = (message.text || message.html || '');
+            else target = message[field] || '';
+
+            target = target.toString().toLowerCase();
 
             if (operator === 'contains') {
                 if (!target.includes(value)) matchesAll = false;
@@ -45,26 +68,37 @@ async function processRules(email, mailbox, message) {
         }
 
         // Execute actions if condition matches
-        if (matchesAll) {
-            console.log(`[Rules] Match for rule: ${rule.name}`);
+        if (matchesAll && conditions.length > 0) {
+            console.log(`[Rules] Match for rule: ${rule.name} (User: ${email})`);
             for (const action of actions) {
+                if (!action || !action.type) continue;
                 const type = action.type.toLowerCase();
-                const value = action.value;
+                const targetValue = action.target || action.value;
 
-                if (type === 'move') {
-                    // Logic to move message (via IMAP)
-                    // (Queue this or execute via common move helper)
-                    console.log(`[Rules] Executing action: Move to ${value}`);
-                } else if (type === 'flag') {
-                    console.log(`[Rules] Executing action: Flagging message`);
-                } else if (type === 'delete') {
-                    console.log(`[Rules] Executing action: Deleting message`);
+                try {
+                    if (type === 'move' && targetValue) {
+                        console.log(`[Rules] Executing Move to: ${targetValue} (UID: ${message.uid})`);
+                        await imapClient.messageMove(message.uid, targetValue, { uid: true });
+                        stopProcessing = true;
+                    } else if (type === 'flag' && targetValue) {
+                        const imapFlag = targetValue === 'star' || targetValue === 'starred' ? '\\Flagged' : '\\Important';
+                        console.log(`[Rules] Executing Flag: ${imapFlag} (UID: ${message.uid})`);
+                        await imapClient.messageFlagsAdd(message.uid, [imapFlag], { uid: true });
+                    } else if (type === 'delete') {
+                        console.log(`[Rules] Executing Delete (UID: ${message.uid})`);
+                        await imapClient.messageFlagsAdd(message.uid, ['\\Deleted'], { uid: true });
+                        // Expunge will happen on mailbox close
+                        stopProcessing = true;
+                    }
+                } catch (actionErr) {
+                    console.error(`[Rules] Action "${type}" failed:`, actionErr.message);
                 }
             }
-            // Usually stop at the first matching rule, or some engines process all
+            // Stop after first matching rule
             break;
         }
     }
+    return stopProcessing;
 }
 
 async function getRulesList(email) {
