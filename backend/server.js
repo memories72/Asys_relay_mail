@@ -7,6 +7,7 @@ const startScheduler = require('./src/scheduler');
 const { initDatabase, getPool } = require('./src/db');
 const { connectLDAP } = require('./src/ldap');
 const { syncMailbox, getCachedMailList } = require('./src/sync');
+const { getTags, createTag, deleteTag, addTagToEmail, removeTagFromEmail } = require('./src/tags');
 
 const app = express();
 app.use(cors());
@@ -610,6 +611,67 @@ app.post('/api/mail/send', authenticateToken, upload.array('attachments', 10), a
         res.status(500).json({ error: '메일 발송 실패', details: err.message });
     }
 });
+
+// ==========================================
+// Custom Tags API endpoints
+// ==========================================
+app.get('/api/mail/tags', authenticateToken, async (req, res) => {
+    try {
+        const tags = await getTags(req.user.email);
+        res.json({ status: 'OK', tags });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.post('/api/mail/tags', authenticateToken, async (req, res) => {
+    try {
+        const { name, color } = req.body;
+        if (!name) return res.status(400).json({ error: 'Name required' });
+        const tagId = await createTag(req.user.email, name, color || '#3b82f6');
+        res.json({ status: 'OK', tagId });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.delete('/api/mail/tags/:id', authenticateToken, async (req, res) => {
+    try {
+        await deleteTag(req.user.email, req.params.id);
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.post('/api/mail/messages/tags', authenticateToken, async (req, res) => {
+    try {
+        const { folder, uids, tagId } = req.body;
+        if (!folder || !uids || !tagId) return res.status(400).json({ error: 'folder, uids, tagId required' });
+
+        for (const uid of uids) {
+            try { await addTagToEmail(req.user.email, folder, uid, tagId); } catch (e) { }
+        }
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.delete('/api/mail/messages/tags', authenticateToken, async (req, res) => {
+    try {
+        const { folder, uids, tagId } = req.body;
+        if (!folder || !uids || !tagId) return res.status(400).json({ error: 'folder, uids, tagId required' });
+
+        for (const uid of uids) {
+            try { await removeTagFromEmail(req.user.email, folder, uid, tagId); } catch (e) { }
+        }
+        res.json({ status: 'OK' });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
 
 app.get('/health', async (req, res) => {
 
