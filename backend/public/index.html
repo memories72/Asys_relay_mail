@@ -1803,7 +1803,7 @@
                 for (let uid of targets) {
                     const res = await fetch(`/api/mail/message/${uid}/seen?folder=${encodeURIComponent(currentFolder)}`, {
                         method: 'PUT',
-                        headers: apiHeaders(),
+                        headers: Object.assign({}, apiHeaders(), { 'Content-Type': 'application/json' }),
                         body: JSON.stringify({ seen })
                     });
                     if (!res.ok) throw new Error(`상태 변경 실패 (${uid})`);
