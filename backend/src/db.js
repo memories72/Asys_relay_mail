@@ -263,6 +263,15 @@ async function logSyncEvent(status, emailsProcessed = 0) {
     }
 }
 
+async function getRecentSyncStates(limit = 10) {
+    const currentPool = getPool();
+    const [rows] = await currentPool.query(
+        'SELECT last_sync_time, status, emails_processed FROM sync_state ORDER BY last_sync_time DESC LIMIT ?',
+        [limit]
+    );
+    return rows;
+}
+
 async function getLdapSettings() {
     try {
         const currentPool = getPool();
@@ -404,6 +413,7 @@ module.exports = {
     getGlobalSmtpSettings,
     saveGlobalSmtpSettings,
     logSyncEvent,
+    getRecentSyncStates,
     isFetched,
     saveFetchedUidl
 };
