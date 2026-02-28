@@ -324,12 +324,36 @@ app.get('/api/mail/folders', authenticateToken, async (req, res) => {
 
 app.get('/api/mail/quota', authenticateToken, async (req, res) => {
     try {
-        console.log(`[QUOTA] Starting quota check for ${req.user.email}`);
+        console.log(`[QUOTA] Request for ${req.user.email}`);
         const mailPass = getImapPass(req);
         if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
-        const quota = await getStorageQuota(req.user.email, mailPass);
-        console.log(`[QUOTA] Retrieved quota for ${req.user.email}:`, quota);
-        res.json({ status: 'OK', quota });
+
+        const pool = getPool();
+        const [rows] = await pool.query('SELECT usage_bytes, max_bytes, updated_at FROM mail_quotas WHERE email = ?', [req.user.email]);
+        const cached = rows[0];
+
+        const TEN_MINUTES = 10 * 60 * 1000;
+        const needsUpdate = !cached || (Date.now() - new Date(cached.updated_at).getTime() > TEN_MINUTES);
+
+        if (needsUpdate) {
+            console.log(`[QUOTA] Triggering background IMAP update for ${req.user.email}`);
+            getStorageQuota(req.user.email, mailPass).then(async (q) => {
+                await pool.query(`
+                    INSERT INTO mail_quotas (email, usage_bytes, max_bytes) 
+                    VALUES (?, ?, ?)
+                    ON DUPLICATE KEY UPDATE usage_bytes = VALUES(usage_bytes), max_bytes = VALUES(max_bytes)
+                `, [req.user.email, q.usage, q.limit]);
+                console.log(`[QUOTA CACHE] Updated DB for ${req.user.email}`);
+            }).catch(e => console.error(`[QUOTA CACHE] Error updating for ${req.user.email}:`, e.message));
+        }
+
+        if (cached) {
+            console.log(`[QUOTA] Returning DB cached quota for ${req.user.email}`);
+            return res.json({ status: 'OK', quota: { usage: parseInt(cached.usage_bytes), limit: parseInt(cached.max_bytes) }, cached: true });
+        } else {
+            console.log(`[QUOTA] No cache. Returning 0 and updating in background for ${req.user.email}`);
+            return res.json({ status: 'OK', quota: { usage: 0, limit: 0 }, updating: true });
+        }
     } catch (err) {
         console.error(`[QUOTA] Error for ${req.user.email}:`, err.message);
         res.status(500).json({ error: 'Failed to fetch quota', details: err.message });

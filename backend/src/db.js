@@ -114,6 +114,15 @@ async function initDatabase() {
     `);
 
     await connection.query(`
+        CREATE TABLE IF NOT EXISTS mail_quotas (
+            email VARCHAR(255) PRIMARY KEY,
+            usage_bytes BIGINT DEFAULT 0,
+            max_bytes BIGINT DEFAULT 0,
+            updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+        )
+    `);
+
+    await connection.query(`
         INSERT IGNORE INTO webmail_settings (domain, ldap_server, sso_enabled) 
         VALUES ('agilesys.co.kr', 'ldap://node_ldap_auth:389', TRUE)
     `);
