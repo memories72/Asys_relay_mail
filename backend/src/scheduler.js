@@ -17,10 +17,11 @@ const startScheduler = () => {
     cron.schedule('*/1 * * * *', async () => {
         if (isRunning || isPaused) {
             console.log(`[Scheduler] Sync skipped. Running: ${isRunning}, Paused: ${isPaused}`);
-            // Update all accounts to 'waiting' if not already fetching
+            // Do not reset "done" or "fetching" status to "waiting" every minute.
+            // Only set to "waiting" if it was actually idle or errored before.
             const accounts = await getAllPop3Accounts();
             for (const acc of accounts) {
-                if (!pop3Progress[acc.id] || pop3Progress[acc.id].status === 'idle') {
+                if (!pop3Progress[acc.id] || pop3Progress[acc.id].status === 'idle' || pop3Progress[acc.id].status === 'error') {
                     updateProgress(acc.id, { status: isPaused ? 'paused' : 'waiting', label: acc.pop3_user, user_email: acc.user_email });
                 }
             }
