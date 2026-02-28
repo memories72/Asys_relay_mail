@@ -23,62 +23,18 @@ userdb {
 }
 EOF
 
-cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
-service auth {
-  unix_listener /var/spool/postfix/private/auth {
-    mode = 0666
-    user = postfix
-    group = postfix
-  }
-}
-EOF
-
-cat > /etc/dovecot/conf.d/10-logging.conf <<'EOF'
-log_path = /var/log/mail/mail.log
-info_log_path = /var/log/mail/mail.log
-debug_log_path = /var/log/mail/mail.log
-auth_verbose = yes
-auth_debug = yes
-auth_debug_passwords = yes
-EOF
-
-# Fix Postfix LDAP lookups and disable broken virtual alias maps
-postconf -e "virtual_alias_maps ="
+# Standard Postfix Settings
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
-postconf -e "message_size_limit = 268435456"
-postconf -e "mailbox_size_limit = 0"
-postconf -e "virtual_mailbox_limit = 0"
-postconf -e "smtpd_forbid_bare_newline = no"
-postconf -e "smtpd_sasl_authenticated_header = yes"
-postconf -e "smtputf8_enable = yes"
-postconf -e "disable_mime_output_conversion = yes"
-postconf -e "strict_mime_encoding_domain = no"
-postconf -e "smtpd_discard_ehlo_keywords = dsn, silent-discard"
-postconf -e "virtual_transport = lmtp:unix:/var/run/dovecot/lmtp"
-postconf -e "best_mx_transport = lmtp:unix:/var/run/dovecot/lmtp"
-postconf -e "mydestination = localhost"
-postconf -e "relay_domains ="
-postconf -e "smtpd_tls_security_level = may" 
+postconf -e "myhostname = nas.agilesys.co.kr"
+postconf -e "smtpd_tls_security_level = may"
 postconf -e "smtpd_tls_auth_only = no"
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = private/auth"
-postconf -e "smtpd_sasl_security_options = noanonymous"
-postconf -e "broken_sasl_auth_clients = yes"
-postconf -e "myhostname = nas.agilesys.co.kr"
 
-# SMTPS/Submission
-sed -i '/^#smtps/s/^#//' /etc/postfix/master.cf
-sed -i '/^#  -o smtpd_tls_wrappermode=yes/s/^#//' /etc/postfix/master.cf
-sed -i '/^#  -o smtpd_sasl_auth_enable=yes/s/^#//' /etc/postfix/master.cf
+# Activate Ports
 sed -i '/^#submission/s/^#//' /etc/postfix/master.cf
-sed -i '/^#  -o smtpd_sasl_auth_enable=yes/s/^#//' /etc/postfix/master.cf
-
-cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
-ssl = yes
-ssl_cert = </etc/postfix/ssl/cert.pem
-ssl_key = </etc/postfix/ssl/key.pem
-EOF
+sed -i '/^#smtps/s/^#//' /etc/postfix/master.cf
 
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
 plugin {
@@ -87,14 +43,7 @@ plugin {
 }
 EOF
 
-# SSL Cert for Postfix
-mkdir -p /etc/postfix/ssl
-if [ ! -f /etc/postfix/ssl/cert.pem ]; then
-  openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
+# Ensure quota is applied in mail plugins
+if ! grep -q "quota" /etc/dovecot/conf.d/10-mail.conf; then
+  sed -i '/^mail_plugins =/ s/$/ quota/' /etc/dovecot/conf.d/10-mail.conf
 fi
-
-# Dovecot Plugins
-sed -i 's/ quota//g' /etc/dovecot/conf.d/10-mail.conf
-sed -i '/^mail_plugins =/ s/$/ quota/' /etc/dovecot/conf.d/10-mail.conf
-sed -i 's/ imap_quota//g' /etc/dovecot/conf.d/20-imap.conf
-sed -i '/^  mail_plugins =/ s/$/ imap_quota/' /etc/dovecot/conf.d/20-imap.conf
