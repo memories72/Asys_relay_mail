@@ -106,7 +106,13 @@ app.get('/api/pop3-settings', authenticateToken, async (req, res) => {
 });
 
 app.get('/api/pop3-progress', authenticateToken, (req, res) => {
-    res.json(pop3Progress);
+    const userProgress = {};
+    for (const [id, data] of Object.entries(pop3Progress)) {
+        if (data.user_email === req.user.email) {
+            userProgress[id] = data;
+        }
+    }
+    res.json(userProgress);
 });
 
 app.post('/api/pop3-test/:id', authenticateToken, async (req, res) => {
@@ -261,14 +267,14 @@ app.post('/api/pop3-test/:id', authenticateToken, async (req, res) => {
     if (!account) return res.status(404).json({ error: 'Account not found' });
 
     try {
-        updateProgress(account.id, { current: 0, total: 0, status: 'fetching' });
+        updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
         fetchPop3Account(account, (current, total) => {
-            updateProgress(account.id, { current, total, status: 'fetching' });
+            updateProgress(account.id, { current, total, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
         }).then(() => {
-            updateProgress(account.id, { status: 'done' });
+            updateProgress(account.id, { status: 'done', label: account.pop3_user, user_email: account.user_email });
             setTimeout(() => { clearProgress(account.id); }, 5000);
         }).catch(() => {
-            updateProgress(account.id, { status: 'error' });
+            updateProgress(account.id, { status: 'error', label: account.pop3_user, user_email: account.user_email });
         });
 
         res.json({ status: 'OK', message: '연동 테스트 및 수집을 시작했습니다. 잠시만 기다려 주세요.' });

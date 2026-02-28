@@ -15,7 +15,7 @@ const startScheduler = () => {
             const accounts = await getAllPop3Accounts();
             for (const acc of accounts) {
                 if (!pop3Progress[acc.id] || pop3Progress[acc.id].status === 'idle') {
-                    updateProgress(acc.id, { status: 'waiting', label: acc.user_email });
+                    updateProgress(acc.id, { status: 'waiting', label: acc.pop3_user, user_email: acc.user_email });
                 }
             }
             return;
@@ -36,15 +36,15 @@ const startScheduler = () => {
 
             for (const account of accounts) {
                 try {
-                    updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.user_email });
+                    updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
                     const fetchedCount = await fetchPop3Account(account, (current, total) => {
-                        updateProgress(account.id, { current, total, status: 'fetching', label: account.user_email });
+                        updateProgress(account.id, { current, total, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
                     });
-                    updateProgress(account.id, { status: 'done', label: account.user_email });
+                    updateProgress(account.id, { status: 'done', label: account.pop3_user, user_email: account.user_email });
                     setTimeout(() => { clearProgress(account.id); }, 5000);
                     totalFetched += fetchedCount;
                 } catch (e) {
-                    updateProgress(account.id, { status: 'error', label: account.user_email });
+                    updateProgress(account.id, { status: 'error', label: account.pop3_user, user_email: account.user_email });
                     console.error(`[Sync] ${account.user_email} POP3 Fetch Error:`, e);
                 }
             }
