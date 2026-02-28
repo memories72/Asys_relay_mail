@@ -150,9 +150,17 @@ async function getCachedMailList(email, mailbox, limit) {
     const pool = getPool();
     const limitClause = limit > 0 ? `LIMIT ${parseInt(limit)}` : '';
 
-    // Read from DB
+    // Read from DB with tags grouped together by email ID
     const [rows] = await pool.query(`
-        SELECT * FROM email_cache
+        SELECT 
+            ec.*,
+            (
+                SELECT JSON_ARRAYAGG(JSON_OBJECT('id', t.id, 'name', t.name, 'color', t.color))
+                FROM email_tags et
+                JOIN tags t ON et.tag_id = t.id
+                WHERE et.email_cache_id = ec.id
+            ) as tagsJSON
+        FROM email_cache ec
         WHERE user_email = ? AND mailbox = ?
         ORDER BY date DESC
         ${limitClause}
@@ -162,9 +170,16 @@ async function getCachedMailList(email, mailbox, limit) {
         let toArr = [];
         try { toArr = JSON.parse(r.recipient_address || '[]'); } catch (e) { }
 
+        let tags = [];
+        try {
+            if (r.tagsJSON) {
+                tags = JSON.parse(r.tagsJSON);
+            }
+        } catch (e) { }
+
         return {
             uid: r.uid,
-            seq: 0, // Not highly relevant when using UIDs exclusively
+            seq: 0,
             subject: r.subject || '(제목 없음)',
             from: { name: r.sender_name || '', address: r.sender_address || '' },
             to: toArr,
@@ -172,7 +187,8 @@ async function getCachedMailList(email, mailbox, limit) {
             seen: r.is_seen === 1,
             flagged: r.is_flagged === 1,
             hasAttachment: r.has_attachments === 1,
-            attachmentCount: r.has_attachments ? 1 : 0
+            attachmentCount: r.has_attachments ? 1 : 0,
+            tags: tags
         };
     });
 }
