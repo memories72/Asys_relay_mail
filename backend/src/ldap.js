@@ -64,14 +64,14 @@ const searchUsers = async (queryStr) => {
             return resolve([]);
         }
         const baseDN = process.env.LDAP_BASE_DN || 'cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr';
-        // Search by name (cn) or id (uid) or email (mail)
-        const filterStr = `(|(cn=*${queryStr}*)(uid=*${queryStr}*)(mail=*${queryStr}*))`;
+        // Search by name (cn/gecos) or id (uid) or email (mail)
+        const filterStr = `(|(cn=*${queryStr}*)(uid=*${queryStr}*)(mail=*${queryStr}*)(gecos=*${queryStr}*))`;
         console.log(`[LDAP] Searching with filter: ${filterStr}`);
 
         const opts = {
             filter: filterStr,
             scope: 'sub',
-            attributes: ['uid', 'cn', 'mail'],
+            attributes: ['uid', 'cn', 'mail', 'gecos'],
             sizeLimit: 20
         };
 
@@ -118,7 +118,7 @@ const searchUsers = async (queryStr) => {
 
                     const newUser = {
                         uid: user.uid || user.cn,
-                        name: user.cn || user.uid,
+                        name: user.gecos || user.cn || user.uid, // Prioritize Korean name (gecos)
                         email: user.mail || (user.uid ? `${user.uid}@agilesys.co.kr` : '')
                     };
 
