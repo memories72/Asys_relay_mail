@@ -431,540 +431,544 @@
                             </a>
                         </nav>
                     </div>
-                </div>
 
-                <!-- Labels / Tags Section -->
-                <div class="mt-4 flex flex-col gap-1.5">
-                    <div class="flex flex-row items-center justify-between px-3 mb-1">
-                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Tags</p>
-                        <button onclick="promptCreateTag()" class="text-slate-400 hover:text-primary transition-all">
-                            <span class="material-symbols-outlined text-[16px]">add</span>
-                        </button>
-                    </div>
-                    <div id="tagsNavList" class="flex flex-col gap-0.5 max-h-40 overflow-y-auto custom-scrollbar">
-                        <!-- JS injected tags -->
-                    </div>
-                </div>
-
-                <div class="flex flex-col gap-1.5 mt-2">
-                    <p class="px-3 text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Settings</p>
-                    <a id="navPop3"
-                        class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 transition-all cursor-pointer">
-                        <span class="material-symbols-outlined text-[20px]">settings_input_component</span>
-                        <span class="text-sm font-semibold">계정 설정</span>
-                    </a>
-                </div>
-        </div>
-        <div class="flex flex-col gap-4">
-            <div
-                class="px-4 py-5 bg-slate-50 rounded-2xl border border-slate-100 shadow-premium dark:bg-[#14141d] dark:border-border-dark">
-                <div class="flex items-center justify-between mb-3">
-                    <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Storage Usage</p>
-                    <span id="storagePercentText" class="text-[10px] font-bold text-primary">0%</span>
-                </div>
-                <div class="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden dark:bg-slate-800">
-                    <div id="storageBar"
-                        class="h-full bg-primary w-[0%] rounded-full shadow-glow transition-all duration-1000">
-                    </div>
-                </div>
-                <p id="storageText" class="text-[10px] text-slate-400 mt-3 font-medium tracking-tight">용량 확인
-                    중...</p>
-            </div>
-
-            <!-- Global Sync Progress -->
-            <div id="globalSyncBox"
-                class="hidden px-4 py-4 bg-primary/5 rounded-2xl border border-primary/10 dark:bg-primary/5 dark:border-primary/20">
-                <div class="flex items-center gap-2 mb-2">
-                    <span class="material-symbols-outlined text-[18px] text-primary animate-spin">sync</span>
-                    <p class="text-[10px] text-primary font-bold uppercase tracking-widest">Background Sync</p>
-                </div>
-                <p id="globalSyncLabel" class="text-[10px] font-bold text-slate-500 mb-2 truncate"></p>
-                <div class="w-full bg-primary/10 rounded-full h-1.5 overflow-hidden">
-                    <div id="globalProgressBar" class="bg-primary h-full transition-all duration-500" style="width: 0%">
-                    </div>
-                </div>
-                <div class="flex items-center justify-between mt-2">
-                    <span id="globalSyncPercent" class="text-[11px] font-bold text-primary">0%</span>
-                    <span id="globalSyncCount" class="text-[10px] text-primary/60 font-medium">0/0</span>
-                </div>
-            </div>
-        </div>
-        </aside>
-
-        <!-- Mail View -->
-        <div id="mailView" class="flex flex-1 overflow-hidden">
-            <!-- Mail List -->
-            <div id="leftPane"
-                class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden dark:bg-surface-deep dark:border-border-dark transition-colors">
-                <!-- Toolbar -->
-                <div
-                    class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-border-dark">
-                    <div class="flex items-center gap-1">
-                        <div class="flex items-center px-1.5 mr-1">
-                            <input type="checkbox" id="selectAll"
-                                class="size-4 rounded border-slate-300 text-primary cursor-pointer transition-all hover:border-primary/50 focus:ring-primary/20" />
-                        </div>
-                        <button onclick="loadInbox()"
-                            class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                            title="새로고침">
-                            <span class="material-symbols-outlined text-xl" id="listRefreshIcon">refresh</span>
-                        </button>
-                        <button onclick="deleteSelected()"
-                            class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                            title="삭제">
-                            <span class="material-symbols-outlined text-xl">delete</span>
-                        </button>
-                        <button onclick="markSelectedAs(true)"
-                            class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                            title="읽음으로 표시">
-                            <span class="material-symbols-outlined text-xl">mark_email_read</span>
-                        </button>
-                        <button onclick="markSelectedAs(false)"
-                            class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                            title="안읽음으로 표시">
-                            <span class="material-symbols-outlined text-xl">mark_email_unread</span>
-                        </button>
-                        <!-- Empty Trash Button (Hidden by default) -->
-                        <button id="emptyTrashBtn" onclick="emptyTrash()"
-                            class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-all active:scale-95 active:bg-red-100"
-                            title="휴지통 비우기">
-                            <span class="material-symbols-outlined text-xl">delete_forever</span>
-                            <span class="text-xs font-bold">비우기</span>
-                        </button>
-                        <!-- Move to Folder Dropdown -->
-                        <div class="relative group">
-                            <button
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800 transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                                title="폴더 이동">
-                                <span class="material-symbols-outlined text-xl">folder_shared</span>
+                    <!-- Labels / Tags Section -->
+                    <div class="mt-4 flex flex-col gap-1.5">
+                        <div class="flex flex-row items-center justify-between px-3 mb-1">
+                            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Tags</p>
+                            <button onclick="promptCreateTag()"
+                                class="text-slate-400 hover:text-primary transition-all">
+                                <span class="material-symbols-outlined text-[16px]">add</span>
                             </button>
-                            <div
-                                class="hidden group-hover:block absolute left-0 top-full mt-0 w-32 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden dark:bg-slate-900 dark:border-slate-750">
-                                <div
-                                    class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100 dark:bg-slate-800 dark:border-slate-700">
-                                    이동 위치</div>
-                                <a onclick="moveSelected('INBOX')"
-                                    class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50 dark:text-slate-300 dark:hover:bg-primary/20 dark:border-slate-800">
-                                    <span class="material-symbols-outlined text-base">inbox</span>받은편지함</a>
-                                <a onclick="moveSelected('Sent')"
-                                    class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
-                                    <span class="material-symbols-outlined text-base">send</span>보낸편지함</a>
-                                <a onclick="moveSelected('Junk')"
-                                    class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
-                                    <span class="material-symbols-outlined text-base">error</span>스팸함</a>
-                                <a onclick="moveSelected('Trash')"
-                                    class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer">
-                                    <span class="material-symbols-outlined text-base">delete</span>휴지통</a>
-                            </div>
                         </div>
-
-                        <!-- Tags Dropdown -->
-                        <div class="relative group">
-                            <button
-                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800 transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
-                                title="태그 적용">
-                                <span class="material-symbols-outlined text-xl">label</span>
-                            </button>
-                            <div id="tagsDropdownMenu"
-                                class="hidden group-hover:block absolute left-0 top-full w-40 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden dark:bg-slate-900 dark:border-slate-750">
-                                <div
-                                    class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100 dark:bg-slate-800 dark:border-slate-700">
-                                    태그 선택</div>
-                                <div id="tagsDropdownList" class="max-h-60 overflow-y-auto">
-                                    <!-- Tags injected here -->
-                                    <div class="px-3 py-2 text-xs text-slate-500">태그 로딩중...</div>
-                                </div>
-                            </div>
+                        <div id="tagsNavList" class="flex flex-col gap-0.5 max-h-40 overflow-y-auto custom-scrollbar">
+                            <!-- JS injected tags -->
                         </div>
                     </div>
-                    <span id="mailCountLabel" class="text-xs text-slate-400 font-medium">–</span>
-                </div>
-                <!-- List -->
-                <div class="flex-1 overflow-y-auto">
-                    <table class="w-full text-left border-separate border-spacing-0">
-                        <tbody id="mailList"></tbody>
-                    </table>
-                    <div id="mailEmpty" class="hidden flex-col items-center justify-center py-20 text-center">
-                        <span class="material-symbols-outlined text-5xl text-slate-200 mb-3">inbox</span>
-                        <p class="text-sm text-slate-400">메일이 없습니다</p>
-                    </div>
-                    <div id="mailLoading" class="flex items-center justify-center py-20">
-                        <span
-                            class="material-symbols-outlined text-3xl text-primary animate-spin-fast">progress_activity</span>
+
+                    <div class="flex flex-col gap-1.5 mt-2">
+                        <p class="px-3 text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Settings</p>
+                        <a id="navPop3"
+                            class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 transition-all cursor-pointer">
+                            <span class="material-symbols-outlined text-[20px]">settings_input_component</span>
+                            <span class="text-sm font-semibold">계정 설정</span>
+                        </a>
                     </div>
                 </div>
-            </div>
-
-            <!-- Resizer Handle -->
-            <div id="resizer" class="resizer dark:bg-slate-800 dark:hover:bg-slate-700"></div>
-
-            <!-- Message Preview -->
-            <div id="msgPanel"
-                class="flex flex-1 flex-col bg-white overflow-hidden dark:bg-surface-dark dark:text-slate-100 transition-colors">
-                <!-- Empty state -->
-                <div id="msgEmpty"
-                    class="flex flex-1 flex-col items-center justify-center text-slate-300 dark:text-slate-700">
-                    <span class="material-symbols-outlined text-6xl mb-3">mark_email_read</span>
-                    <p class="text-sm">목록에서 메일을 선택하세요</p>
-                </div>
-                <!-- Message content -->
-                <div id="msgContent" class="hidden flex flex-col h-full overflow-hidden">
+                <div class="flex flex-col gap-4">
                     <div
-                        class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
-                        <div class="flex items-center gap-2">
-                            <button onclick="closeMsg()"
-                                class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
-                                <span class="material-symbols-outlined text-xl">close</span>
-                            </button>
-                            <h3 id="msgSubjectHeader"
-                                class="text-sm font-bold text-slate-800 truncate max-w-xs dark:text-slate-100">
-                            </h3>
+                        class="px-4 py-5 bg-slate-50 rounded-2xl border border-slate-100 shadow-premium dark:bg-[#14141d] dark:border-border-dark">
+                        <div class="flex items-center justify-between mb-3">
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Storage Usage</p>
+                            <span id="storagePercentText" class="text-[10px] font-bold text-primary">0%</span>
                         </div>
-                        <div
-                            class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5 dark:bg-slate-800 dark:border-slate-700">
-                            <button onclick="replyMsg()"
-                                class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
-                                title="답장">
-                                <span class="material-symbols-outlined text-xl">reply</span>
+                        <div class="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden dark:bg-slate-800">
+                            <div id="storageBar"
+                                class="h-full bg-primary w-[0%] rounded-full shadow-glow transition-all duration-1000">
+                            </div>
+                        </div>
+                        <p id="storageText" class="text-[10px] text-slate-400 mt-3 font-medium tracking-tight">용량 확인
+                            중...</p>
+                    </div>
+
+                    <!-- Global Sync Progress -->
+                    <div id="globalSyncBox"
+                        class="hidden px-4 py-4 bg-primary/5 rounded-2xl border border-primary/10 dark:bg-primary/5 dark:border-primary/20">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-[18px] text-primary animate-spin">sync</span>
+                            <p class="text-[10px] text-primary font-bold uppercase tracking-widest">Background Sync</p>
+                        </div>
+                        <p id="globalSyncLabel" class="text-[10px] font-bold text-slate-500 mb-2 truncate"></p>
+                        <div class="w-full bg-primary/10 rounded-full h-1.5 overflow-hidden">
+                            <div id="globalProgressBar" class="bg-primary h-full transition-all duration-500"
+                                style="width: 0%">
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between mt-2">
+                            <span id="globalSyncPercent" class="text-[11px] font-bold text-primary">0%</span>
+                            <span id="globalSyncCount" class="text-[10px] text-primary/60 font-medium">0/0</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Mail View -->
+            <div id="mailView" class="flex flex-1 overflow-hidden">
+                <!-- Mail List -->
+                <div id="leftPane"
+                    class="flex w-[40%] min-w-[300px] max-w-[800px] flex-col border-r border-slate-200 bg-white overflow-hidden dark:bg-surface-deep dark:border-border-dark transition-colors">
+                    <!-- Toolbar -->
+                    <div
+                        class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-border-dark">
+                        <div class="flex items-center gap-1">
+                            <div class="flex items-center px-1.5 mr-1">
+                                <input type="checkbox" id="selectAll"
+                                    class="size-4 rounded border-slate-300 text-primary cursor-pointer transition-all hover:border-primary/50 focus:ring-primary/20" />
+                            </div>
+                            <button onclick="loadInbox()"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
+                                title="새로고침">
+                                <span class="material-symbols-outlined text-xl" id="listRefreshIcon">refresh</span>
                             </button>
-                            <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
-                            <button onclick="replyAllMsg()"
-                                class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
-                                title="모두 답장">
-                                <span class="material-symbols-outlined text-xl">reply_all</span>
-                            </button>
-                            <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
-                            <button onclick="forwardMsg()"
-                                class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
-                                title="전달">
-                                <span class="material-symbols-outlined text-xl">forward</span>
-                            </button>
-                            <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
-                            <button onclick="deleteCurrentMsg()"
-                                class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
+                            <button onclick="deleteSelected()"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
                                 title="삭제">
                                 <span class="material-symbols-outlined text-xl">delete</span>
                             </button>
-                        </div>
-                    </div>
-                    <div class="flex-1 overflow-y-auto p-6">
-                        <div class="mb-5 flex items-start justify-between">
-                            <div class="flex items-center gap-3">
-                                <div id="msgAvatar"
-                                    class="flex size-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary">
-                                </div>
-                                <div>
-                                    <p class="font-bold text-slate-900 text-sm dark:text-white" id="msgFrom"></p>
-                                    <p class="text-xs text-slate-400 dark:text-slate-500" id="msgTo"></p>
+                            <button onclick="markSelectedAs(true)"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
+                                title="읽음으로 표시">
+                                <span class="material-symbols-outlined text-xl">mark_email_read</span>
+                            </button>
+                            <button onclick="markSelectedAs(false)"
+                                class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:hover:bg-surface-elevated transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
+                                title="안읽음으로 표시">
+                                <span class="material-symbols-outlined text-xl">mark_email_unread</span>
+                            </button>
+                            <!-- Empty Trash Button (Hidden by default) -->
+                            <button id="emptyTrashBtn" onclick="emptyTrash()"
+                                class="hidden items-center gap-1.5 px-3 py-1.5 text-red-500 hover:bg-red-50 rounded-lg transition-all active:scale-95 active:bg-red-100"
+                                title="휴지통 비우기">
+                                <span class="material-symbols-outlined text-xl">delete_forever</span>
+                                <span class="text-xs font-bold">비우기</span>
+                            </button>
+                            <!-- Move to Folder Dropdown -->
+                            <div class="relative group">
+                                <button
+                                    class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800 transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="폴더 이동">
+                                    <span class="material-symbols-outlined text-xl">folder_shared</span>
+                                </button>
+                                <div
+                                    class="hidden group-hover:block absolute left-0 top-full mt-0 w-32 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden dark:bg-slate-900 dark:border-slate-750">
+                                    <div
+                                        class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100 dark:bg-slate-800 dark:border-slate-700">
+                                        이동 위치</div>
+                                    <a onclick="moveSelected('INBOX')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50 dark:text-slate-300 dark:hover:bg-primary/20 dark:border-slate-800">
+                                        <span class="material-symbols-outlined text-base">inbox</span>받은편지함</a>
+                                    <a onclick="moveSelected('Sent')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        <span class="material-symbols-outlined text-base">send</span>보낸편지함</a>
+                                    <a onclick="moveSelected('Junk')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer border-b border-slate-50">
+                                        <span class="material-symbols-outlined text-base">error</span>스팸함</a>
+                                    <a onclick="moveSelected('Trash')"
+                                        class="flex items-center gap-2 px-3 py-2 text-xs text-slate-600 hover:bg-primary/10 hover:text-primary cursor-pointer">
+                                        <span class="material-symbols-outlined text-base">delete</span>휴지통</a>
                                 </div>
                             </div>
-                            <span class="text-xs text-slate-400 flex-shrink-0" id="msgDate"></span>
+
+                            <!-- Tags Dropdown -->
+                            <div class="relative group">
+                                <button
+                                    class="p-1.5 text-slate-500 hover:bg-slate-100 rounded-lg dark:text-slate-400 dark:hover:bg-slate-800 transition-all active:scale-90 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="태그 적용">
+                                    <span class="material-symbols-outlined text-xl">label</span>
+                                </button>
+                                <div id="tagsDropdownMenu"
+                                    class="hidden group-hover:block absolute left-0 top-full w-40 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden dark:bg-slate-900 dark:border-slate-750">
+                                    <div
+                                        class="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-tight bg-slate-50 border-b border-slate-100 dark:bg-slate-800 dark:border-slate-700">
+                                        태그 선택</div>
+                                    <div id="tagsDropdownList" class="max-h-60 overflow-y-auto">
+                                        <!-- Tags injected here -->
+                                        <div class="px-3 py-2 text-xs text-slate-500">태그 로딩중...</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="text-lg font-bold text-slate-900 mb-5 dark:text-white" id="msgSubject"></h2>
-                        <div id="msgHtml" class="text-sm text-slate-700 leading-relaxed dark:text-slate-300"></div>
-                        <!-- Attachments -->
-                        <div id="msgAttachments" class="hidden mt-6 pt-4 border-t border-slate-100">
-                            <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
-                                <span class="material-symbols-outlined text-sm translate-y-0.5">attach_file</span>
-                                첨부파일
-                            </p>
-                            <div id="msgAttachList" class="flex flex-wrap gap-2"></div>
+                        <span id="mailCountLabel" class="text-xs text-slate-400 font-medium">–</span>
+                    </div>
+                    <!-- List -->
+                    <div class="flex-1 overflow-y-auto">
+                        <table class="w-full text-left border-separate border-spacing-0">
+                            <tbody id="mailList"></tbody>
+                        </table>
+                        <div id="mailEmpty" class="hidden flex-col items-center justify-center py-20 text-center">
+                            <span class="material-symbols-outlined text-5xl text-slate-200 mb-3">inbox</span>
+                            <p class="text-sm text-slate-400">메일이 없습니다</p>
+                        </div>
+                        <div id="mailLoading" class="flex items-center justify-center py-20">
+                            <span
+                                class="material-symbols-outlined text-3xl text-primary animate-spin-fast">progress_activity</span>
                         </div>
                     </div>
-                    <div class="flex-shrink-0 border-t border-slate-200 p-3">
-                        <div class="flex gap-2">
-                            <button onclick="replyMsg()"
-                                class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">답장</button>
-                            <button onclick="forwardMsg()"
-                                class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">전달</button>
+                </div>
+
+                <!-- Resizer Handle -->
+                <div id="resizer" class="resizer dark:bg-slate-800 dark:hover:bg-slate-700"></div>
+
+                <!-- Message Preview -->
+                <div id="msgPanel"
+                    class="flex flex-1 flex-col bg-white overflow-hidden dark:bg-surface-dark dark:text-slate-100 transition-colors">
+                    <!-- Empty state -->
+                    <div id="msgEmpty"
+                        class="flex flex-1 flex-col items-center justify-center text-slate-300 dark:text-slate-700">
+                        <span class="material-symbols-outlined text-6xl mb-3">mark_email_read</span>
+                        <p class="text-sm">목록에서 메일을 선택하세요</p>
+                    </div>
+                    <!-- Message content -->
+                    <div id="msgContent" class="hidden flex flex-col h-full overflow-hidden">
+                        <div
+                            class="flex h-14 flex-shrink-0 items-center justify-between border-b border-slate-200 px-4 dark:border-slate-800">
+                            <div class="flex items-center gap-2">
+                                <button onclick="closeMsg()"
+                                    class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
+                                    <span class="material-symbols-outlined text-xl">close</span>
+                                </button>
+                                <h3 id="msgSubjectHeader"
+                                    class="text-sm font-bold text-slate-800 truncate max-w-xs dark:text-slate-100">
+                                </h3>
+                            </div>
+                            <div
+                                class="flex items-center bg-slate-50 border border-slate-200 rounded-xl px-1 py-0.5 dark:bg-slate-800 dark:border-slate-700">
+                                <button onclick="replyMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="답장">
+                                    <span class="material-symbols-outlined text-xl">reply</span>
+                                </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
+                                <button onclick="replyAllMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="모두 답장">
+                                    <span class="material-symbols-outlined text-xl">reply_all</span>
+                                </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
+                                <button onclick="forwardMsg()"
+                                    class="p-1.5 text-slate-500 hover:text-primary hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="전달">
+                                    <span class="material-symbols-outlined text-xl">forward</span>
+                                </button>
+                                <div class="w-px h-4 bg-slate-200 mx-0.5"></div>
+                                <button onclick="deleteCurrentMsg()"
+                                    class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700"
+                                    title="삭제">
+                                    <span class="material-symbols-outlined text-xl">delete</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex-1 overflow-y-auto p-6">
+                            <div class="mb-5 flex items-start justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div id="msgAvatar"
+                                        class="flex size-10 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary">
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-slate-900 text-sm dark:text-white" id="msgFrom"></p>
+                                        <p class="text-xs text-slate-400 dark:text-slate-500" id="msgTo"></p>
+                                    </div>
+                                </div>
+                                <span class="text-xs text-slate-400 flex-shrink-0" id="msgDate"></span>
+                            </div>
+                            <h2 class="text-lg font-bold text-slate-900 mb-5 dark:text-white" id="msgSubject"></h2>
+                            <div id="msgHtml" class="text-sm text-slate-700 leading-relaxed dark:text-slate-300"></div>
+                            <!-- Attachments -->
+                            <div id="msgAttachments" class="hidden mt-6 pt-4 border-t border-slate-100">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
+                                    <span class="material-symbols-outlined text-sm translate-y-0.5">attach_file</span>
+                                    첨부파일
+                                </p>
+                                <div id="msgAttachList" class="flex flex-wrap gap-2"></div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 border-t border-slate-200 p-3">
+                            <div class="flex gap-2">
+                                <button onclick="replyMsg()"
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">답장</button>
+                                <button onclick="forwardMsg()"
+                                    class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">전달</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- POP3 Settings View (embedded panel) -->
-        <div id="pop3View"
-            class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep transition-colors">
-            <div class="mx-auto w-full max-w-2xl space-y-6">
-                <!-- SMTP Settings Card -->
-                <div
-                    class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
-                    <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+            <!-- POP3 Settings View (embedded panel) -->
+            <div id="pop3View"
+                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep transition-colors">
+                <div class="mx-auto w-full max-w-2xl space-y-6">
+                    <!-- SMTP Settings Card -->
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
                         <div
-                            class="flex size-9 items-center justify-center rounded-lg bg-amber-50 dark:bg-amber-900/20">
-                            <span class="material-symbols-outlined text-amber-600 dark:text-amber-500">outbox</span>
+                            class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+                            <div
+                                class="flex size-9 items-center justify-center rounded-lg bg-amber-50 dark:bg-amber-900/20">
+                                <span class="material-symbols-outlined text-amber-600 dark:text-amber-500">outbox</span>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900 dark:text-white">발신 메일 서버 설정 (SMTP Relay)
+                                </h3>
+                                <p class="text-xs text-slate-400 dark:text-slate-500">메일을 보낼 때 사용할 기본 SMTP 릴레이 서버를 설정합니다
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-slate-900 dark:text-white">발신 메일 서버 설정 (SMTP Relay)
-                            </h3>
-                            <p class="text-xs text-slate-400 dark:text-slate-500">메일을 보낼 때 사용할 기본 SMTP 릴레이 서버를 설정합니다
-                            </p>
-                        </div>
-                    </div>
-                    <form id="smtpForm" class="space-y-4">
-                        <div class="grid grid-cols-3 gap-4">
-                            <div class="col-span-2">
-                                <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
-                                    서버 주소</label>
-                                <div class="relative">
-                                    <span
-                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
-                                    <input type="text" id="smtpHost" required placeholder="node_mail_engine"
-                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
+                        <form id="smtpForm" class="space-y-4">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="col-span-2">
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
+                                        서버 주소</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
+                                        <input type="text" id="smtpHost" required placeholder="node_mail_engine"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
+                                    <input type="number" id="smtpPort" value="587"
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
+                                        계정</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">person</span>
+                                        <input type="text" id="smtpUser" placeholder="relay@agilesys.co.kr"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">비밀번호</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">key</span>
+                                        <input type="password" id="smtpPass" placeholder="••••••••"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
+                                    </div>
                                 </div>
                             </div>
                             <div>
-                                <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
-                                <input type="number" id="smtpPort" value="587"
-                                    class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="smtpSecure"
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
+                                    <span
+                                        class="text-sm font-medium text-slate-700 dark:text-slate-300 font-semibold uppercase tracking-wider">SSL/TLS
+                                        사용 (보안 연결)</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <button type="submit" id="smtpSubmitBtn"
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
+                                    <span>릴레이 설정 저장</span>
+                                    <span class="material-symbols-outlined text-lg">save</span>
+                                </button>
+                                <button type="button" onclick="testSmtpConnection()" id="smtpTestBtn"
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
+                                    <span>연결 테스트</span>
+                                    <span class="material-symbols-outlined text-lg">router</span>
+                                </button>
+                                <div id="smtpStatusMsg" class="hidden text-sm font-medium"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- POP3 Settings Card -->
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
+                        <div
+                            class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+                            <div
+                                class="flex size-9 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <span class="material-symbols-outlined text-primary">cloud_download</span>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-bold text-slate-900 dark:text-white">외부 메일 계정 연동 (POP3)</h3>
+                                <p class="text-xs text-slate-400 dark:text-slate-500">Gmail, Naver 등 외부 메일을 자동 수집합니다</p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-2 gap-4">
+                        <form id="pop3Form" class="space-y-4">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="col-span-2">
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">POP3
+                                        서버 주소</label>
+                                    <div class="relative">
+                                        <span
+                                            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
+                                        <input type="text" id="popHost" required placeholder="pop.gmail.com"
+                                            class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
+                                    <input type="number" id="popPort" value="995"
+                                        class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
+                                </div>
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="popTls"
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
+                                    <span class="text-sm font-medium text-slate-700 dark:text-slate-300">SSL/TLS
+                                        사용 (보안 연결)</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" id="popKeep" checked
+                                        class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
+                                    <span class="text-sm font-medium text-slate-700 dark:text-slate-300">서버에 메일 복사본
+                                        저장</span>
+                                </label>
+                            </div>
                             <div>
                                 <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">SMTP
-                                    계정</label>
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
+                                    메일 주소</label>
                                 <div class="relative">
                                     <span
-                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">person</span>
-                                    <input type="text" id="smtpUser" placeholder="relay@agilesys.co.kr"
+                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">alternate_email</span>
+                                    <input type="text" id="popUser" required placeholder="email@gmail.com"
                                         class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                 </div>
                             </div>
                             <div>
                                 <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">비밀번호</label>
+                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
+                                    계정 비밀번호 / 앱 비밀번호</label>
                                 <div class="relative">
                                     <span
                                         class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">key</span>
-                                    <input type="password" id="smtpPass" placeholder="••••••••"
+                                    <input type="password" id="popPass" required placeholder="••••••••"
                                         class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" id="smtpSecure"
-                                    class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
-                                <span
-                                    class="text-sm font-medium text-slate-700 dark:text-slate-300 font-semibold uppercase tracking-wider">SSL/TLS
-                                    사용 (보안 연결)</span>
-                            </label>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <button type="submit" id="smtpSubmitBtn"
-                                class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
-                                <span>릴레이 설정 저장</span>
-                                <span class="material-symbols-outlined text-lg">save</span>
-                            </button>
-                            <button type="button" onclick="testSmtpConnection()" id="smtpTestBtn"
-                                class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
-                                <span>연결 테스트</span>
-                                <span class="material-symbols-outlined text-lg">router</span>
-                            </button>
-                            <div id="smtpStatusMsg" class="hidden text-sm font-medium"></div>
-                        </div>
-                    </form>
-                </div>
+                            <div class="flex items-center gap-3">
+                                <button type="submit" id="pop3SubmitBtn"
+                                    class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
+                                    <span>설정 저장</span>
+                                    <span class="material-symbols-outlined text-lg">save</span>
+                                </button>
+                                <button type="button" onclick="testPop3ConnectionNew()" id="pop3TestBtn"
+                                    class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
+                                    <span>연결 테스트</span>
+                                    <span class="material-symbols-outlined text-lg">router</span>
+                                </button>
+                                <div id="pop3StatusMsg" class="hidden text-sm font-medium"></div>
+                            </div>
+                        </form>
+                    </div>
 
-                <!-- POP3 Settings Card -->
-                <div
-                    class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-[#14141d] dark:border-border-dark dark:shadow-none">
-                    <div class="mb-5 flex items-center gap-3 border-b border-slate-100 pb-5 dark:border-border-dark">
+                    <div
+                        class="rounded-2xl border border-slate-200 bg-white shadow-premium dark:bg-surface-dark dark:border-border-dark">
                         <div
-                            class="flex size-9 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20">
-                            <span class="material-symbols-outlined text-primary">cloud_download</span>
+                            class="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-border-dark">
+                            <h3 class="text-base font-bold text-slate-900 dark:text-white">연동된 계정 목록</h3>
+                            <button onclick="loadPop3Accounts()"
+                                class="text-slate-400 hover:text-primary flex items-center gap-1 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
+                                <span class="material-symbols-outlined text-lg" id="pop3RefreshIcon">refresh</span>
+                            </button>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-slate-900 dark:text-white">외부 메일 계정 연동 (POP3)</h3>
-                            <p class="text-xs text-slate-400 dark:text-slate-500">Gmail, Naver 등 외부 메일을 자동 수집합니다</p>
+                        <div id="pop3AccountsList">
+                            <div class="py-10 text-center text-sm text-slate-400">로딩 중...</div>
                         </div>
                     </div>
-                    <form id="pop3Form" class="space-y-4">
-                        <div class="grid grid-cols-3 gap-4">
-                            <div class="col-span-2">
-                                <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">POP3
-                                    서버 주소</label>
-                                <div class="relative">
-                                    <span
-                                        class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">dns</span>
-                                    <input type="text" id="popHost" required placeholder="pop.gmail.com"
-                                        class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
-                                </div>
-                            </div>
-                            <div>
-                                <label
-                                    class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">포트</label>
-                                <input type="number" id="popPort" value="995"
-                                    class="w-full rounded-lg border border-slate-200 py-3 px-4 text-center text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white" />
-                            </div>
-                        </div>
-                        <div>
-                            <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" id="popTls"
-                                    class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
-                                <span class="text-sm font-medium text-slate-700 dark:text-slate-300">SSL/TLS
-                                    사용 (보안 연결)</span>
-                            </label>
-                        </div>
-                        <div>
-                            <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" id="popKeep" checked
-                                    class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
-                                <span class="text-sm font-medium text-slate-700 dark:text-slate-300">서버에 메일 복사본
-                                    저장</span>
-                            </label>
-                        </div>
-                        <div>
-                            <label
-                                class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
-                                메일 주소</label>
-                            <div class="relative">
-                                <span
-                                    class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">alternate_email</span>
-                                <input type="text" id="popUser" required placeholder="email@gmail.com"
-                                    class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
-                            </div>
-                        </div>
-                        <div>
-                            <label
-                                class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">외부
-                                계정 비밀번호 / 앱 비밀번호</label>
-                            <div class="relative">
-                                <span
-                                    class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">key</span>
-                                <input type="password" id="popPass" required placeholder="••••••••"
-                                    class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none dark:bg-surface-dark dark:border-slate-800 dark:text-white dark:placeholder-slate-600" />
-                            </div>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <button type="submit" id="pop3SubmitBtn"
-                                class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
-                                <span>설정 저장</span>
-                                <span class="material-symbols-outlined text-lg">save</span>
-                            </button>
-                            <button type="button" onclick="testPop3ConnectionNew()" id="pop3TestBtn"
-                                class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
-                                <span>연결 테스트</span>
-                                <span class="material-symbols-outlined text-lg">router</span>
-                            </button>
-                            <div id="pop3StatusMsg" class="hidden text-sm font-medium"></div>
-                        </div>
-                    </form>
                 </div>
+            </div>
 
-                <div
-                    class="rounded-2xl border border-slate-200 bg-white shadow-premium dark:bg-surface-dark dark:border-border-dark">
-                    <div
-                        class="flex items-center justify-between border-b border-slate-100 px-6 py-4 dark:border-border-dark">
-                        <h3 class="text-base font-bold text-slate-900 dark:text-white">연동된 계정 목록</h3>
-                        <button onclick="loadPop3Accounts()"
-                            class="text-slate-400 hover:text-primary flex items-center gap-1 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
-                            <span class="material-symbols-outlined text-lg" id="pop3RefreshIcon">refresh</span>
+            <!-- Dashboard View -->
+            <div id="dashboardView"
+                class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep dark:text-slate-100 transition-colors">
+                <div class="mx-auto w-full max-w-5xl space-y-6">
+                    <div class="flex items-center justify-between mb-8">
+                        <div>
+                            <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">메일 송수신 현황</h2>
+                            <p class="text-sm text-slate-500 mt-1 dark:text-slate-400" id="dashEmailAddress">
+                                user@agilesys.co.kr</p>
+                        </div>
+                        <button onclick="loadDashboardStats()"
+                            class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
+                            <span class="material-symbols-outlined text-[18px]">refresh</span>
+                            새로고침
                         </button>
                     </div>
-                    <div id="pop3AccountsList">
-                        <div class="py-10 text-center text-sm text-slate-400">로딩 중...</div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Dashboard View -->
-        <div id="dashboardView"
-            class="hidden flex-1 flex-col overflow-y-auto bg-slate-50 p-6 dark:bg-surface-deep dark:text-slate-100 transition-colors">
-            <div class="mx-auto w-full max-w-5xl space-y-6">
-                <div class="flex items-center justify-between mb-8">
-                    <div>
-                        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">메일 송수신 현황</h2>
-                        <p class="text-sm text-slate-500 mt-1 dark:text-slate-400" id="dashEmailAddress">
-                            user@agilesys.co.kr</p>
-                    </div>
-                    <button onclick="loadDashboardStats()"
-                        class="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg shadow-sm hover:bg-slate-50 text-sm font-semibold text-slate-700 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
-                        <span class="material-symbols-outlined text-[18px]">refresh</span>
-                        새로고침
-                    </button>
-                </div>
-
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                    <!-- Received mails -->
-                    <div
-                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                        <!-- Received mails -->
                         <div
-                            class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2 dark:bg-blue-900/20">
-                            <span class="material-symbols-outlined text-blue-500 text-2xl">inbox</span>
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-blue-50 mb-2 dark:bg-blue-900/20">
+                                <span class="material-symbols-outlined text-blue-500 text-2xl">inbox</span>
+                            </div>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                수신 메일함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statInbox">0</p>
                         </div>
-                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-                            수신 메일함</h3>
-                        <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statInbox">0</p>
-                    </div>
 
-                    <!-- Sent mails -->
-                    <div
-                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                        <!-- Sent mails -->
                         <div
-                            class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2 dark:bg-emerald-900/20">
-                            <span class="material-symbols-outlined text-emerald-500 text-2xl">send</span>
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-emerald-50 mb-2 dark:bg-emerald-900/20">
+                                <span class="material-symbols-outlined text-emerald-500 text-2xl">send</span>
+                            </div>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                발신 메일함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statSent">0</p>
                         </div>
-                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-                            발신 메일함</h3>
-                        <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statSent">0</p>
-                    </div>
 
-                    <!-- Trash -->
-                    <div
-                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                        <!-- Trash -->
                         <div
-                            class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2 dark:bg-rose-900/20">
-                            <span class="material-symbols-outlined text-rose-500 text-2xl">delete</span>
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-rose-50 mb-2 dark:bg-rose-900/20">
+                                <span class="material-symbols-outlined text-rose-500 text-2xl">delete</span>
+                            </div>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                휴지통</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statTrash">0</p>
                         </div>
-                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-                            휴지통</h3>
-                        <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statTrash">0</p>
-                    </div>
 
-                    <!-- Spam/Junk -->
-                    <div
-                        class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                        <!-- Spam/Junk -->
                         <div
-                            class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2 dark:bg-amber-900/20">
-                            <span class="material-symbols-outlined text-amber-500 text-2xl">report</span>
+                            class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm flex flex-col justify-center items-center gap-2 dark:bg-surface-elevated dark:border-border-dark">
+                            <div
+                                class="flex items-center justify-center size-12 rounded-full bg-amber-50 mb-2 dark:bg-amber-900/20">
+                                <span class="material-symbols-outlined text-amber-500 text-2xl">report</span>
+                            </div>
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+                                스팸함</h3>
+                            <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statJunk">0</p>
                         </div>
-                        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-                            스팸함</h3>
-                        <p class="text-3xl font-extrabold text-slate-800 dark:text-white" id="statJunk">0</p>
                     </div>
-                </div>
 
-                <!-- Usage info block -->
-                <div
-                    class="bg-gradient-to-br from-primary to-[#0f3d9c] rounded-2xl p-8 mt-4 text-white shadow-xl shadow-primary/20 relative overflow-hidden">
-                    <div class="absolute -right-10 -top-10 opacity-10">
-                        <span class="material-symbols-outlined text-[200px]">dns</span>
-                    </div>
-                    <div class="relative z-10 w-full md:w-2/3">
-                        <h3 class="text-xl font-bold mb-2">계정 저장소 사용량</h3>
-                        <p class="text-primary-light text-sm mb-6 line-clamp-2">소유하신 이메일의 전체 저장공간 이용 현황입니다.</p>
-
-                        <div class="w-full h-3 bg-white/20 rounded-full overflow-hidden mb-3">
-                            <div id="dashStorageBar" class="h-full bg-white rounded-full transition-all duration-1000"
-                                style="width: 0%;"></div>
+                    <!-- Usage info block -->
+                    <div
+                        class="bg-gradient-to-br from-primary to-[#0f3d9c] rounded-2xl p-8 mt-4 text-white shadow-xl shadow-primary/20 relative overflow-hidden">
+                        <div class="absolute -right-10 -top-10 opacity-10">
+                            <span class="material-symbols-outlined text-[200px]">dns</span>
                         </div>
-                        <div class="flex justify-between items-center text-xs font-medium">
-                            <span id="dashStorageCurrent">확인 중...</span>
-                            <span id="dashStorageTotal" class="text-white/70"></span>
+                        <div class="relative z-10 w-full md:w-2/3">
+                            <h3 class="text-xl font-bold mb-2">계정 저장소 사용량</h3>
+                            <p class="text-primary-light text-sm mb-6 line-clamp-2">소유하신 이메일의 전체 저장공간 이용 현황입니다.</p>
+
+                            <div class="w-full h-3 bg-white/20 rounded-full overflow-hidden mb-3">
+                                <div id="dashStorageBar"
+                                    class="h-full bg-white rounded-full transition-all duration-1000"
+                                    style="width: 0%;"></div>
+                            </div>
+                            <div class="flex justify-between items-center text-xs font-medium">
+                                <span id="dashStorageCurrent">확인 중...</span>
+                                <span id="dashStorageTotal" class="text-white/70"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
     </div>
 
     <!-- ===== COMPOSE MODAL ===== -->

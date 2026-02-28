@@ -544,5 +544,6 @@ module.exports = {
     appendMessage,
     getStorageQuota,
     getMailboxStatus,
-    setFlag
+    setFlag,
+    makeClient
 };
