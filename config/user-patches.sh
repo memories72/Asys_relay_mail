@@ -26,7 +26,7 @@ EOF
 cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
 service auth {
   unix_listener /var/spool/postfix/private/auth {
-    mode = 0660
+    mode = 0666
     user = postfix
     group = postfix
   }
