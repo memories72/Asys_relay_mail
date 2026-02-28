@@ -93,14 +93,14 @@ chmod 600 /etc/postfix/ssl/combined.pem
 postconf -e "myhostname = nas.agilesys.co.kr"
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
 postconf -e "smtpd_tls_security_level = may"
-postconf -e "smtpd_tls_auth_only = no"  # CRITICAL: Allow AUTH command over port 25 without STARTTLS
+postconf -e "smtpd_tls_auth_only = no"  # Allow AUTH over port 25 without STARTTLS
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
-postconf -e "smtpd_sasl_security_options = noanonymous" # Ensure 'noplaintext' is NOT here
-postconf -e "smtpd_tls_loglevel = 1"
+postconf -e "smtpd_sasl_security_options = noanonymous"
+postconf -e "broken_sasl_auth_clients = yes" # Better for Outlook
 
-# Force SMTPS (465) to still offer SSL but allow fallback if possible (though 465 is usually wrappermode)
+# Force SMTPS (465) to still offer SSL
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
   sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
 fi
@@ -117,13 +117,13 @@ passdb {
   args = /etc/dovecot/dovecot-ldap.conf.ext
 }
 userdb {
-  driver = static
-  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes
+  driver = ldap
+  args = /etc/dovecot/dovecot-ldap.conf.ext
 }
 EOF
 
 cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
-ssl = yes # Still offer SSL, but Dovecot allows non-SSL because disable_plaintext_auth = no
+ssl = yes
 ssl_cert = </etc/postfix/ssl/cert.pem
 ssl_key = </etc/postfix/ssl/key.pem
 EOF
