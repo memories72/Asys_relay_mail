@@ -392,10 +392,12 @@
                     </div>
                     <div class="flex flex-col gap-1">
                         <button onclick="openCompose()"
-                            class="flex w-full items-center justify-center gap-2.5 px-4 py-3.5 rounded-xl bg-gradient-to-r from-[#6366f1] to-[#3b82f6] text-white shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:scale-[1.02] active:scale-[0.98] transition-all">
-                            <span class="material-symbols-outlined text-[22px] leading-none"
-                                style="font-variation-settings: 'FILL' 1, 'wght' 700;">edit</span>
-                            <span class="text-[17px] font-bold leading-none tracking-tight pt-[2px]">새 메일 작성</span>
+                            class="flex w-full items-center justify-center px-4 py-3.5 rounded-xl bg-gradient-to-r from-[#6366f1] to-[#3b82f6] text-white shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:scale-[1.02] active:scale-[0.98] transition-all">
+                            <div class="flex items-center gap-2.5 -ml-1">
+                                <span class="material-symbols-outlined text-[22px] leading-none"
+                                    style="font-variation-settings: 'FILL' 1, 'wght' 700;">edit</span>
+                                <span class="text-[17px] font-bold leading-none tracking-tight pt-[2px]">새 메일 작성</span>
+                            </div>
                         </button>
                         <nav id="folderNav" class="mt-4 flex flex-col gap-1 space-y-0.5">
                             <a class="folder-btn flex items-center gap-3 rounded-xl bg-primary/5 text-primary px-3 py-2.5 transition-all cursor-pointer dark:bg-primary/10 dark:text-primary"
