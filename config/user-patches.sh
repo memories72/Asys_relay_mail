@@ -92,9 +92,11 @@ if [ ! -f /etc/postfix/ssl/cert.pem ]; then
 fi
 
 # Enable Postfix TLS
-postconf -e "smtpd_tls_cert_file=/etc/postfix/ssl/cert.pem"
-postconf -e "smtpd_tls_key_file=/etc/postfix/ssl/key.pem"
-# Postfix in docker-mailserver sets chain_files by default which overrides our cert_file, so override it:
+# Modern Postfix uses smtpd_tls_chain_files. Using both legacy and modern params causes warnings and issues.
+postconf -X "smtpd_tls_cert_file"
+postconf -X "smtpd_tls_key_file"
+postconf -X "smtpd_tls_eccert_file"
+postconf -X "smtpd_tls_eckey_file"
 postconf -e "smtpd_tls_chain_files=/etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem"
 postconf -e "smtpd_tls_security_level=may"
 
@@ -109,6 +111,9 @@ fi
 postconf -P "smtps/inet/syslog_name=postfix/smtps"
 postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
 postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
+# Explicitly clear any legacy params for the specific service to avoid conflicts
+postconf -P "smtps/inet/smtpd_tls_cert_file="
+postconf -P "smtps/inet/smtpd_tls_key_file="
 
 # Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
 postconf -P "submission/inet/smtpd_tls_security_level=may"
