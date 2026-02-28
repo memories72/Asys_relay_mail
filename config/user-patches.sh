@@ -19,7 +19,7 @@ passdb {
 }
 userdb {
   driver = static
-  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes
+  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes quota_rule=*:storage=50G
 }
 EOF
 
@@ -116,7 +116,7 @@ passdb {
 }
 userdb {
   driver = static
-  args = uid=5000 gid=5000 home=/var/mail/agilesys.co.kr/%n allow_all_users=yes
+  args = uid=5000 gid=5000 home=/var/mail/agilesys.co.kr/%n allow_all_users=yes quota_rule=*:storage=50G
 }
 EOF
 
@@ -124,6 +124,17 @@ cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
 ssl = yes
 ssl_cert = </etc/postfix/ssl/cert.pem
 ssl_key = </etc/postfix/ssl/key.pem
+EOF
+
+cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
+mail_plugins = $mail_plugins quota
+protocol imap {
+  mail_plugins = $mail_plugins imap_quota
+}
+plugin {
+  quota = maildir:User quota
+  quota_rule = *:storage=50G
+}
 EOF
 
 # Restart services to apply
