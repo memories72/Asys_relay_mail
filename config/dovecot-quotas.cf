@@ -1,5 +1,0 @@
-plugin {
-  quota_rule = *:storage=50G
-  quota_warning = storage=95%% quota-warning 95 %u
-  quota_warning2 = storage=80%% quota-warning 80 %u
-}

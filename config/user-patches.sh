@@ -6,7 +6,7 @@ dn = uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dnpass = !@34QWer
 auth_bind = yes
 ldap_version = 3
-pass_filter = (&(objectClass=person)(mail=%u))
+pass_filter = (&(objectClass=*)(uid=%n))
 pass_attrs = =user=%u
 EOF
 
@@ -96,7 +96,7 @@ postconf -e "smtpd_tls_security_level = may"
 postconf -e "smtpd_tls_auth_only = no"
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
-postconf -e "smtpd_sasl_path = private/auth"
+postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
 postconf -e "smtpd_sasl_security_options = noanonymous"
 postconf -e "broken_sasl_auth_clients = yes"
 
@@ -135,16 +135,6 @@ cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
 ssl = yes
 ssl_cert = </etc/postfix/ssl/cert.pem
 ssl_key = </etc/postfix/ssl/key.pem
-EOF
-
-cat > /etc/dovecot/conf.d/10-master.conf <<'EOF'
-service auth {
-  unix_listener /var/spool/postfix/private/auth {
-    mode = 0660
-    user = postfix
-    group = postfix
-  }
-}
 EOF
 
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
