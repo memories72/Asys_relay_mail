@@ -36,15 +36,33 @@ EOF
 # Standard Postfix Settings
 postconf -e "virtual_mailbox_domains = agilesys.co.kr"
 postconf -e "myhostname = nas.agilesys.co.kr"
+
+# SSL/TLS for STARTTLS (Ensures STARTTLS is offered in EHLO)
+postconf -e "smtpd_tls_cert_file = /etc/postfix/ssl/cert.pem"
+postconf -e "smtpd_tls_key_file = /etc/postfix/ssl/key.pem"
 postconf -e "smtpd_tls_security_level = may"
 postconf -e "smtpd_tls_auth_only = no"
+
+# SASL Auth
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = private/auth"
+postconf -e "smtpd_sasl_security_options = noanonymous"
+postconf -e "broken_sasl_auth_clients = yes"
 
-# Activate Ports
-sed -i '/^#submission/s/^#//' /etc/postfix/master.cf
-sed -i '/^#smtps/s/^#//' /etc/postfix/master.cf
+# Activate Ports with correct authentication glue
+sed -i 's/^#submission/submission/' /etc/postfix/master.cf
+sed -i 's/^#smtps/smtps/' /etc/postfix/master.cf
+
+# Ensure 587 has the auth link
+if ! grep -q "smtpd_sasl_path=private/auth" /etc/postfix/master.cf; then
+  sed -i '/^submission/a \  -o smtpd_sasl_auth_enable=yes\n  -o smtpd_sasl_type=dovecot\n  -o smtpd_sasl_path=private/auth\n  -o smtpd_tls_security_level=may' /etc/postfix/master.cf
+fi
+
+# Ensure 465 uses SSL wrappermode
+if ! grep -q "smtpd_tls_wrappermode=yes" /etc/postfix/master.cf; then
+  sed -i '/^smtps/a \  -o smtpd_tls_wrappermode=yes\n  -o smtpd_sasl_auth_enable=yes' /etc/postfix/master.cf
+fi
 
 cat > /etc/dovecot/conf.d/90-quota.conf <<'EOF'
 plugin {
