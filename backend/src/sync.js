@@ -96,7 +96,7 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
                 for await (const msg of client.fetch(sequence, {
                     uid: true, flags: true, envelope: true, bodyStructure: true,
                     headers: ['subject', 'from', 'to', 'message-id', 'in-reply-to', 'references']
-                })) {
+                }, { uid: true })) {
                     const parsedHeaders = await simpleParser(msg.headers || Buffer.from(''));
 
                     const rawSubBuf = (() => {
@@ -176,7 +176,7 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
         }
 
     } catch (err) {
-        console.error(`[Sync] Error syncing mailbox ${mailbox} for ${email}:`, err.message);
+        console.error(`[Sync] Error syncing mailbox ${mailbox} for ${email}:`, err.stack);
     } finally {
         if (lock) lock.release();
         await client.logout();

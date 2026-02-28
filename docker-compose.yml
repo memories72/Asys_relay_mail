@@ -61,7 +61,7 @@ services:
       - LDAP_BASE_DN=cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_DN=uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_PASSWORD=!@34QWer
-      - IMAP_HOST=node_mail_engine
+      - IMAP_HOST=nas.agilesys.co.kr
       - IMAP_PORT=143
       - BASE_URL=http://localhost:13000
     depends_on:
