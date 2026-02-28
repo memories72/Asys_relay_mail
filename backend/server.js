@@ -6,6 +6,7 @@ const cors = require('cors');
 const startScheduler = require('./src/scheduler');
 const { initDatabase, getPool } = require('./src/db');
 const { connectLDAP } = require('./src/ldap');
+const { syncMailbox, getCachedMailList } = require('./src/sync');
 
 const app = express();
 app.use(cors());
@@ -303,7 +304,12 @@ app.get('/api/mail/inbox', authenticateToken, async (req, res) => {
         if (!mailPass) return res.status(400).json({ error: 'x-mail-password header required' });
         const folder = req.query.folder || 'INBOX';
         const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 1000;
-        const messages = await fetchMailList(req.user.email, mailPass, folder, limit);
+
+        // 1. Trigger background/foreground sync to DB
+        await syncMailbox(req.user.email, mailPass, folder);
+
+        // 2. Fetch blazing fast results from DB
+        const messages = await getCachedMailList(req.user.email, folder, limit);
         res.json({ status: 'OK', messages });
     } catch (err) {
         console.error('[IMAP] inbox fetch error:', err.message);
