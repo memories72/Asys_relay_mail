@@ -80,61 +80,50 @@ postconf -e "mydestination = localhost"
 postconf -e "relay_domains ="
 postconf -e "transport_maps ="
 
-# 8. [TLS FIX] Generate self-signed cert and enable STARTTLS on port 587 and DOVECOT
-# Mail clients (like macOS Mail, Thunderbird, Outlook) refuse to authenticate via 587 without STARTTLS. Let's use the exact domain name `nas.agilesys.co.kr` used for connection to avoid mismatch alerts.
+# 8. [TLS & AUTH FIX] Allow plaintext authentication without mandatory TLS (for port 25/143/110)
+# This allows using the mail server without certificate issues if the client chooses non-encrypted connection.
 mkdir -p /etc/postfix/ssl
-# Check if existing cert misses localhost and delete it if so, to force recreation
-if [ -f /etc/postfix/ssl/cert.pem ] && ! openssl x509 -in /etc/postfix/ssl/cert.pem -text | grep -q 'DNS:localhost'; then
-  rm -f /etc/postfix/ssl/cert.pem /etc/postfix/ssl/key.pem /etc/postfix/ssl/combined.pem
-fi
 if [ ! -f /etc/postfix/ssl/cert.pem ]; then
   openssl req -new -x509 -days 3650 -nodes -out /etc/postfix/ssl/cert.pem -keyout /etc/postfix/ssl/key.pem -subj "/CN=nas.agilesys.co.kr" -addext "subjectAltName=DNS:nas.agilesys.co.kr,DNS:mail.digistory.co.kr,DNS:localhost,IP:127.0.0.1"
 fi
-# Postfix 3.7.x prefers smtpd_tls_chain_files. When multiple files are listed, it treats EACH as a full chain (key+cert).
-# So we must combine them into a single PEM file for proper initialization.
 cat /etc/postfix/ssl/key.pem /etc/postfix/ssl/cert.pem > /etc/postfix/ssl/combined.pem
 chmod 600 /etc/postfix/ssl/combined.pem
 
-# Enable Postfix TLS
+# --- Postfix Relaxed Security ---
 postconf -e "myhostname = nas.agilesys.co.kr"
-postconf -X "smtpd_tls_cert_file"
-postconf -X "smtpd_tls_key_file"
-postconf -X "smtps_tls_wrappermode" # Fix previously introduced typo in main.cf
 postconf -e "smtpd_tls_chain_files = /etc/postfix/ssl/combined.pem"
-postconf -e "smtpd_tls_security_level=may"
-
-# Increase compatibility for broad range of email clients (Outlook, older handhelds)
-# 1. Allow TLS 1.0, 1.1, 1.2, 1.3 (Only disable truly broken SSLv2/v3)
-postconf -e "smtpd_tls_protocols = !SSLv2, !SSLv3"
-postconf -e "smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3"
-# 2. Allow RSA+AES (very common) and set to MEDIUM level for better reach
-postconf -e "smtpd_tls_ciphers = medium"
-postconf -e "smtpd_tls_mandatory_ciphers = medium"
-postconf -e "smtpd_tls_exclude_ciphers = aNULL, SEED, CAMELLIA"
-postconf -e "smtpd_tls_loglevel = 1"
-# 3. Enable SASL and other auth aids
+postconf -e "smtpd_tls_security_level = may"
+postconf -e "smtpd_tls_auth_only = no"  # CRITICAL: Allow AUTH command over port 25 without STARTTLS
 postconf -e "smtpd_sasl_auth_enable = yes"
 postconf -e "smtpd_sasl_type = dovecot"
 postconf -e "smtpd_sasl_path = /dev/shm/sasl-auth.sock"
+postconf -e "smtpd_sasl_security_options = noanonymous" # Ensure 'noplaintext' is NOT here
+postconf -e "smtpd_tls_loglevel = 1"
 
-# Force SMTPS (465) to use SSL/TLS wrappermode correctly for Outlook compatibility
+# Force SMTPS (465) to still offer SSL but allow fallback if possible (though 465 is usually wrappermode)
 if grep -q "^submissions    inet" /etc/postfix/master.cf; then
   sed -i "s/^submissions    inet/smtps          inet/g" /etc/postfix/master.cf
 fi
-
-# Clear service-level TLS cert/key to use global ones, and set wrappermode
-postconf -P "smtps/inet/smtpd_tls_cert_file="
-postconf -P "smtps/inet/smtpd_tls_key_file="
-postconf -P "smtps/inet/syslog_name=postfix/smtps"
 postconf -P "smtps/inet/smtpd_tls_wrappermode=yes"
 postconf -P "smtps/inet/smtpd_tls_security_level=encrypt"
-
-# Force submission (587) to use MAY instead of Docker-mailserver defaults (none)
 postconf -P "submission/inet/smtpd_tls_security_level=may"
 
-# Enable Dovecot TLS
+# --- Dovecot Relaxed Security ---
+cat > /etc/dovecot/conf.d/10-auth.conf <<'EOF'
+disable_plaintext_auth = no
+auth_mechanisms = plain login
+passdb {
+  driver = ldap
+  args = /etc/dovecot/dovecot-ldap.conf.ext
+}
+userdb {
+  driver = static
+  args = uid=5000 gid=5000 home=/var/mail/%d/%n allow_all_users=yes
+}
+EOF
+
 cat > /etc/dovecot/conf.d/10-ssl.conf <<'EOF'
-ssl = yes
+ssl = yes # Still offer SSL, but Dovecot allows non-SSL because disable_plaintext_auth = no
 ssl_cert = </etc/postfix/ssl/cert.pem
 ssl_key = </etc/postfix/ssl/key.pem
 EOF
