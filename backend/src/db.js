@@ -4,13 +4,25 @@ require('dotenv').config();
 let pool;
 
 async function initDatabase() {
-    // First connect to MySQL without specifying a database to ensure it exists
-    const connection = await mysql.createConnection({
-        host: process.env.DB_HOST || 'nas.agilesys.co.kr',
-        port: process.env.DB_PORT || 13306,
-        user: process.env.DB_USER || 'root',
-        password: process.env.DB_PASSWORD || '!@#45QWErt'
-    });
+    let connection;
+    let retries = 12; // Wait up to 60 seconds
+    while (retries > 0) {
+        try {
+            connection = await mysql.createConnection({
+                host: process.env.DB_HOST || 'nas.agilesys.co.kr',
+                port: process.env.DB_PORT || 13306,
+                user: process.env.DB_USER || 'root',
+                password: process.env.DB_PASSWORD || '!@#45QWErt',
+                connectTimeout: 5000
+            });
+            break; // Success
+        } catch (err) {
+            console.error(`[DB] Connection failed (${err.message}), retrying in 5s... (${retries - 1} left)`);
+            retries--;
+            if (retries === 0) throw err;
+            await new Promise(r => setTimeout(r, 5000));
+        }
+    }
 
     const dbName = process.env.DB_NAME || 'agilesys_mail';
 
