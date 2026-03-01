@@ -240,7 +240,9 @@ async function initDatabase() {
         password: process.env.DB_PASSWORD || '!@#45QWErt',
         database: dbName,
         waitForConnections: true,
-        connectionLimit: 10,
+        connectionLimit: 50,
+        enableKeepAlive: true,
+        keepAliveInitialDelay: 10000,
         queueLimit: 0
     });
 
