@@ -191,6 +191,10 @@ const fetchPop3Account = async (account, onProgress) => {
                         reportProgress(i);
                         resetWatchdog(180000); // Extra heartbeat after progress report
                     }
+                    if (i % 1000 === 0) {
+                        // Prevent Node event loop blocking during huge iteration
+                        await new Promise(r => setImmediate(r));
+                    }
                     continue;
                 }
 

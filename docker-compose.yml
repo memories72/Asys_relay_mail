@@ -32,7 +32,7 @@ services:
       - ONE_DIR=1
       - ENABLE_POP3=1
       - ACCOUNT_PROVISIONER=LDAP
-      - LDAP_SERVER_HOST=ldap://nas.agilesys.co.kr:1389
+      - LDAP_SERVER_HOST=ldap://10.25.1.5:389
       - LDAP_SEARCH_BASE=cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_DN=uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_PW=!@34QWer
@@ -52,12 +52,12 @@ services:
       - "13000:13000" # 웹메일 + API
       - "3890:3890" # LDAP mock port map
     environment:
-      - DB_HOST=nas.agilesys.co.kr
-      - DB_PORT=13306
+      - DB_HOST=10.25.2.120
+      - DB_PORT=3307
       - DB_USER=root
       - DB_PASSWORD=!@#45QWErt
       - DB_NAME=agilesys_mail
-      - LDAP_URL=ldap://nas.agilesys.co.kr:1389
+      - LDAP_URL=ldap://10.25.1.5:389
       - LDAP_BASE_DN=cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_DN=uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
       - LDAP_BIND_PASSWORD=!@34QWer
