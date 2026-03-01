@@ -686,9 +686,7 @@
                                 <div id="msgAttachList" class="flex flex-wrap gap-2"></div>
                             </div>
                         </div>
-                        <div id="msgScheduleArea" class="hidden flex-1 overflow-hidden bg-slate-50 dark:bg-slate-900">
-                            <iframe id="scheduleIframe" class="w-full h-full border-0" src="about:blank"></iframe>
-                        </div>
+
                         <div id="msgFooterArea" class="flex-shrink-0 border-t border-slate-200 p-3">
                             <div class="flex gap-2">
                                 <button onclick="replyMsg()"
@@ -2404,52 +2402,23 @@
         }
 
         function toggleScheduleView() {
-            const body = document.getElementById('msgBodyArea');
-            const schedule = document.getElementById('msgScheduleArea');
-            const footer = document.getElementById('msgFooterArea');
-            const iframe = document.getElementById('scheduleIframe');
-            const btn = document.getElementById('btnScheduleToggle');
-            const icon = btn.querySelector('.material-symbols-outlined');
+            // Google login does not allow iframe display due to security policies (403 error).
+            // Opening in a new window bypasses this restriction and allows user to login.
+            const url = 'http://nas.agilesys.co.kr:3007';
+            const winName = 'asys_schedule_registration';
+            const winFeatures = 'width=1200,height=850,resizable=yes,scrollbars=yes,status=yes';
 
-            if (schedule.classList.contains('hidden')) {
-                // Open schedule
-                body.classList.add('hidden');
-                footer.classList.add('hidden');
-                schedule.classList.remove('hidden');
-                btn.classList.add('bg-orange-100', 'dark:bg-orange-900/40');
-                if (icon) icon.textContent = 'mail'; // Change icon to go back to mail
-                btn.title = "메일 본문 보기";
-
-                // Set iframe URL if it's blank or needs refresh
-                if (iframe.src.indexOf('nas.agilesys.co.kr:3007') === -1) {
-                    iframe.src = 'http://nas.agilesys.co.kr:3007';
-                }
+            const win = window.open(url, winName, winFeatures);
+            if (!win || win.closed || typeof win.closed === 'undefined') {
+                alert('팝업 차단이 설정되어 있습니다. 브라우저 설정에서 팝업을 허용해주세요.');
             } else {
-                // Close schedule (back to mail)
-                body.classList.remove('hidden');
-                footer.classList.remove('hidden');
-                schedule.classList.add('hidden');
-                btn.classList.remove('bg-orange-100', 'dark:bg-orange-900/40');
-                if (icon) icon.textContent = 'event_available';
-                btn.title = "일정 등록 바로가기";
+                win.focus();
             }
         }
 
         function resetScheduleView() {
-            const body = document.getElementById('msgBodyArea');
-            const schedule = document.getElementById('msgScheduleArea');
-            const footer = document.getElementById('msgFooterArea');
-            const btn = document.getElementById('btnScheduleToggle');
-            const icon = btn ? btn.querySelector('.material-symbols-outlined') : null;
-            const iframe = document.getElementById('scheduleIframe');
-
-            if (body) body.classList.remove('hidden');
-            if (footer) footer.classList.remove('hidden');
-            if (schedule) schedule.classList.add('hidden');
-            if (btn) btn.classList.remove('bg-orange-100', 'dark:bg-orange-900/40');
-            if (icon) icon.textContent = 'event_available';
-            if (btn) btn.title = "일정 등록 바로가기";
-            if (iframe) iframe.src = 'about:blank';
+            // Popup-based view doesn't change the UI state, so this is mostly for cleanup if needed.
+            // But we can remove the inactive container references from here if we decide to remove them from HTML.
         }
 
         async function deleteSelected() {
