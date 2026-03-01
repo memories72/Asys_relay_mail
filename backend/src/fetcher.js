@@ -59,25 +59,40 @@ async function deliverRaw(rawMessage, deliverTo) {
     });
 }
 
-async function deliverViaImapOrSmtp(rawMessage, userEmail, getImapClient) {
+async function deliverViaImapOrSmtp(rawMessage, account, getImapClient) {
+    const userEmail = account.user_email;
     if (!getImapClient) {
         return deliverRaw(rawMessage, userEmail);
     }
 
     const withHeader = injectFetchHeader(rawMessage, userEmail);
 
-    // Quickly guess Date to prevent parsing overhead
+    // Quickly guess Date and From to prevent parsing overhead
     const sep = withHeader.indexOf('\r\n\r\n');
     const headerBlock = sep !== -1 ? withHeader.substring(0, sep) : withHeader;
+
     let emailDate = new Date();
-    const match = headerBlock.match(/^Date:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
-    if (match && match[1]) {
+    const matchDate = headerBlock.match(/^Date:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
+    if (matchDate && matchDate[1]) {
         try {
-            const parsedDate = new Date(match[1].trim());
+            const parsedDate = new Date(matchDate[1].trim());
             if (!isNaN(parsedDate.getTime())) {
                 emailDate = parsedDate;
             }
         } catch (e) { }
+    }
+
+    let targetFolder = 'INBOX';
+    const matchFrom = headerBlock.match(/^From:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
+    if (matchFrom && matchFrom[1]) {
+        const fromHeader = matchFrom[1].toLowerCase();
+        const mainUser = (account.user_email || '').toLowerCase();
+        const popUser = (account.pop3_user || '').toLowerCase();
+
+        // 내가 보낸 메일이면 (From 헤더에 내 주소 포함 여부 확인), 보낸편지함(Sent)로 라우팅
+        if ((mainUser && fromHeader.includes(mainUser)) || (popUser && fromHeader.includes(popUser))) {
+            targetFolder = 'Sent';
+        }
     }
 
     try {
@@ -86,7 +101,7 @@ async function deliverViaImapOrSmtp(rawMessage, userEmail, getImapClient) {
             try {
                 const imapClient = await getImapClient(retries < 2 /* force reconnect on retry */);
                 if (imapClient) {
-                    await imapClient.append('INBOX', withHeader, ['\\Seen'], emailDate);
+                    await imapClient.append(targetFolder, withHeader, ['\\Seen'], emailDate);
                 } else {
                     return deliverRaw(rawMessage, userEmail);
                 }
@@ -261,7 +276,7 @@ const fetchPop3Account = async (account, onProgress) => {
                             try {
                                 const normalized = normalizePop3Raw(data);
                                 console.log(`[Fetcher] [${user_email}] Msg ${msgnumber} received successfully. Size: ${data.length} bytes.`);
-                                await deliverViaImapOrSmtp(normalized, user_email, getImapClient);
+                                await deliverViaImapOrSmtp(normalized, account, getImapClient);
                                 if (finalUid) {
                                     await saveFetchedUidl(accountId, finalUid);
                                     existingUids.add(finalUid);
