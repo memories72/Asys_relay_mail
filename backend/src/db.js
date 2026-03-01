@@ -60,6 +60,7 @@ async function initDatabase() {
             pop3_tls BOOLEAN DEFAULT FALSE,
             pop3_user VARCHAR(255) NOT NULL,
             pop3_pass VARCHAR(255) NOT NULL,
+            imap_pass VARCHAR(255) NULL,
             keep_on_server BOOLEAN DEFAULT TRUE,
             is_active BOOLEAN DEFAULT TRUE,
             last_status ENUM('PENDING', 'SUCCESS', 'FAILED') DEFAULT 'PENDING',
@@ -240,9 +241,7 @@ async function initDatabase() {
         password: process.env.DB_PASSWORD || '!@#45QWErt',
         database: dbName,
         waitForConnections: true,
-        connectionLimit: 50,
-        enableKeepAlive: true,
-        keepAliveInitialDelay: 10000,
+        connectionLimit: 10,
         queueLimit: 0
     });
 
@@ -300,15 +299,15 @@ const getAllPop3Accounts = async () => {
     }
 };
 
-const savePop3Account = async (email, host, port, tls, user, pass, keepOnServer = true) => {
+const savePop3Account = async (email, host, port, tls, user, pass, keepOnServer = true, imapPass = null) => {
     try {
         const currentPool = getPool();
         await currentPool.query(`
-            INSERT INTO user_pop3_accounts (user_email, pop3_host, pop3_port, pop3_tls, pop3_user, pop3_pass, keep_on_server, last_status, last_error)
-            VALUES (?, ?, ?, ?, ?, ?, ?, 'PENDING', NULL)
+            INSERT INTO user_pop3_accounts (user_email, pop3_host, pop3_port, pop3_tls, pop3_user, pop3_pass, keep_on_server, last_status, last_error, imap_pass)
+            VALUES (?, ?, ?, ?, ?, ?, ?, 'PENDING', NULL, ?)
             ON DUPLICATE KEY UPDATE
-            pop3_host=VALUES(pop3_host), pop3_port=VALUES(pop3_port), pop3_tls=VALUES(pop3_tls), pop3_pass=VALUES(pop3_pass), keep_on_server=VALUES(keep_on_server), is_active=TRUE, last_status='PENDING', last_error=NULL
-        `, [email, host, port, tls, user, pass, keepOnServer]);
+            pop3_host=VALUES(pop3_host), pop3_port=VALUES(pop3_port), pop3_tls=VALUES(pop3_tls), pop3_pass=VALUES(pop3_pass), keep_on_server=VALUES(keep_on_server), imap_pass=VALUES(imap_pass), is_active=TRUE, last_status='PENDING', last_error=NULL
+        `, [email, host, port, tls, user, pass, keepOnServer, imapPass]);
         return true;
     } catch (err) {
         console.error('Error saving POP3 account', err);

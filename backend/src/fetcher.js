@@ -59,6 +59,36 @@ async function deliverRaw(rawMessage, deliverTo) {
     });
 }
 
+async function deliverViaImapOrSmtp(rawMessage, userEmail, imapClient) {
+    if (!imapClient) {
+        return deliverRaw(rawMessage, userEmail);
+    }
+
+    const withHeader = injectFetchHeader(rawMessage, userEmail);
+
+    // Quickly guess Date to prevent parsing overhead
+    const sep = withHeader.indexOf('\r\n\r\n');
+    const headerBlock = sep !== -1 ? withHeader.substring(0, sep) : withHeader;
+    let emailDate = new Date();
+    const match = headerBlock.match(/^Date:\s*((?:[^\r\n]+(?:\r?\n[ \t]+[^\r\n]+)*))/mi);
+    if (match && match[1]) {
+        try {
+            const parsedDate = new Date(match[1].trim());
+            if (!isNaN(parsedDate.getTime())) {
+                emailDate = parsedDate;
+            }
+        } catch (e) { }
+    }
+
+    try {
+        await imapClient.append('INBOX', withHeader, ['\\Seen'], emailDate);
+        return true;
+    } catch (err) {
+        console.error(`[Fetcher IMAP] Append failed, falling back to SMTP. MSG SIZE: ${withHeader.length}, Err:`, err.message);
+        return deliverRaw(rawMessage, userEmail);
+    }
+}
+
 // ---------------------------------------------------------------------------
 // POP3 계정 fetch
 // ---------------------------------------------------------------------------
@@ -66,7 +96,7 @@ async function deliverRaw(rawMessage, deliverTo) {
 const fetchPop3Account = async (account, onProgress) => {
     return new Promise((resolve) => {
         const { id: accountId, pop3_port: port, pop3_host: host, pop3_tls: useTls,
-            pop3_user, pop3_pass, user_email, keep_on_server: keepOnServer } = account;
+            pop3_user, pop3_pass, user_email, keep_on_server: keepOnServer, imap_pass } = account;
 
         console.log(`[Fetcher] [${user_email}] Connecting to ${host}:${port} (TLS: ${useTls})`);
 
@@ -76,6 +106,19 @@ const fetchPop3Account = async (account, onProgress) => {
             enabletls: useTls === 1 || useTls === true,
             debug: false,
         });
+
+        // Initialize Local IMAP Client for Date-Preserving Delivery
+        let imapClientForDelivery = null;
+        if (imap_pass) {
+            const { makeClient } = require('./imap');
+            try {
+                imapClientForDelivery = makeClient(user_email, imap_pass);
+                // Connect will be handled when 'login' succeeds to avoid unnecessary connections
+            } catch (err) {
+                console.error(`[Fetcher IMAP] Instantiation failed:`, err.message);
+                imapClientForDelivery = null;
+            }
+        }
 
         // Flexible watchdog timer to prevent hanging
         let watchdog;
@@ -110,9 +153,18 @@ const fetchPop3Account = async (account, onProgress) => {
             client.login(pop3_user, pop3_pass);
         });
 
-        client.on('login', (status) => {
+        client.on('login', async (status) => {
             resetWatchdog(120000); // 120s for uidl/list
             if (status) {
+                if (imapClientForDelivery) {
+                    try {
+                        await imapClientForDelivery.connect();
+                        console.log(`[Fetcher IMAP] Connected to local IMAP for user ${user_email} to preserve dates`);
+                    } catch (err) {
+                        console.error(`[Fetcher IMAP] Connection failed, falling back to SMTP:`, err.message);
+                        imapClientForDelivery = null;
+                    }
+                }
                 client.uidl(); // Use UIDL instead of LIST for smart fetching
             } else {
                 console.error(`[Fetcher] [${user_email}] Login failed`);
@@ -194,7 +246,7 @@ const fetchPop3Account = async (account, onProgress) => {
                             try {
                                 const normalized = normalizePop3Raw(data);
                                 console.log(`[Fetcher] [${user_email}] Msg ${msgnumber} received successfully. Size: ${data.length} bytes.`);
-                                await deliverRaw(normalized, user_email);
+                                await deliverViaImapOrSmtp(normalized, user_email, imapClientForDelivery);
                                 if (finalUid) {
                                     await saveFetchedUidl(accountId, finalUid);
                                     existingUids.add(finalUid);
@@ -223,6 +275,10 @@ const fetchPop3Account = async (account, onProgress) => {
                 });
 
                 resetWatchdog(180000); // Final heartbeat after message processing
+            } // end loop
+
+            if (imapClientForDelivery) {
+                try { await imapClientForDelivery.logout(); } catch (e) { }
             }
             client.quit();
         };

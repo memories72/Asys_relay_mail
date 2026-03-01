@@ -97,7 +97,8 @@ app.post('/api/pop3-settings', authenticateToken, async (req, res) => {
     if (!host || !user || !pass) {
         return res.status(400).json({ error: 'Missing required POP3 fields' });
     }
-    const success = await savePop3Account(email, host, port || 110, tls || false, user, pass, keep_on_server !== false);
+    const mailPass = getImapPass(req);
+    const success = await savePop3Account(email, host, port || 110, tls || false, user, pass, keep_on_server !== false, mailPass);
     if (success) {
         res.json({ status: 'OK', message: 'POP3 configuration saved successfully' });
     } else {
