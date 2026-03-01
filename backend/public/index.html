@@ -626,6 +626,11 @@
                                     class="p-1.5 text-slate-400 hover:bg-slate-100 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
                                     <span class="material-symbols-outlined text-xl">close</span>
                                 </button>
+                                <button onclick="toggleScheduleView()" id="btnScheduleToggle"
+                                    class="p-1.5 text-orange-500 hover:bg-orange-50 rounded-lg transition-all active:scale-95 dark:hover:bg-orange-900/20"
+                                    title="일정 등록 바로가기">
+                                    <span class="material-symbols-outlined text-xl">event_available</span>
+                                </button>
                                 <h3 id="msgSubjectHeader"
                                     class="text-sm font-bold text-slate-800 truncate max-w-xs dark:text-slate-100">
                                 </h3>
@@ -657,7 +662,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="flex-1 overflow-y-auto p-6">
+                        <div id="msgBodyArea" class="flex-1 overflow-y-auto p-6">
                             <div class="mb-5 flex items-start justify-between">
                                 <div class="flex items-center gap-3">
                                     <div id="msgAvatar"
@@ -681,7 +686,10 @@
                                 <div id="msgAttachList" class="flex flex-wrap gap-2"></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0 border-t border-slate-200 p-3">
+                        <div id="msgScheduleArea" class="hidden flex-1 overflow-hidden bg-slate-50 dark:bg-slate-900">
+                            <iframe id="scheduleIframe" class="w-full h-full border-0" src="about:blank"></iframe>
+                        </div>
+                        <div id="msgFooterArea" class="flex-shrink-0 border-t border-slate-200 p-3">
                             <div class="flex gap-2">
                                 <button onclick="replyMsg()"
                                     class="flex-1 rounded-lg border border-slate-200 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">답장</button>
@@ -2289,6 +2297,9 @@
         // ===== OPEN MESSAGE =====
         async function openMsg(uid) {
             currentUid = uid;
+            // Reset schedule view when opening a new message
+            resetScheduleView();
+
             // Highlight selected row
             document.querySelectorAll('.mail-row').forEach(r => r.classList.remove('selected'));
             const row = document.querySelector(`.mail-row[data-uid="${uid}"]`);
@@ -2389,6 +2400,56 @@
             document.getElementById('msgContent').classList.add('hidden');
             document.getElementById('msgEmpty').classList.remove('hidden');
             document.querySelectorAll('.mail-row').forEach(r => r.classList.remove('selected'));
+            resetScheduleView();
+        }
+
+        function toggleScheduleView() {
+            const body = document.getElementById('msgBodyArea');
+            const schedule = document.getElementById('msgScheduleArea');
+            const footer = document.getElementById('msgFooterArea');
+            const iframe = document.getElementById('scheduleIframe');
+            const btn = document.getElementById('btnScheduleToggle');
+            const icon = btn.querySelector('.material-symbols-outlined');
+
+            if (schedule.classList.contains('hidden')) {
+                // Open schedule
+                body.classList.add('hidden');
+                footer.classList.add('hidden');
+                schedule.classList.remove('hidden');
+                btn.classList.add('bg-orange-100', 'dark:bg-orange-900/40');
+                if (icon) icon.textContent = 'mail'; // Change icon to go back to mail
+                btn.title = "메일 본문 보기";
+
+                // Set iframe URL if it's blank or needs refresh
+                if (iframe.src.indexOf('nas.agilesys.co.kr:3007') === -1) {
+                    iframe.src = 'http://nas.agilesys.co.kr:3007';
+                }
+            } else {
+                // Close schedule (back to mail)
+                body.classList.remove('hidden');
+                footer.classList.remove('hidden');
+                schedule.classList.add('hidden');
+                btn.classList.remove('bg-orange-100', 'dark:bg-orange-900/40');
+                if (icon) icon.textContent = 'event_available';
+                btn.title = "일정 등록 바로가기";
+            }
+        }
+
+        function resetScheduleView() {
+            const body = document.getElementById('msgBodyArea');
+            const schedule = document.getElementById('msgScheduleArea');
+            const footer = document.getElementById('msgFooterArea');
+            const btn = document.getElementById('btnScheduleToggle');
+            const icon = btn ? btn.querySelector('.material-symbols-outlined') : null;
+            const iframe = document.getElementById('scheduleIframe');
+
+            if (body) body.classList.remove('hidden');
+            if (footer) footer.classList.remove('hidden');
+            if (schedule) schedule.classList.add('hidden');
+            if (btn) btn.classList.remove('bg-orange-100', 'dark:bg-orange-900/40');
+            if (icon) icon.textContent = 'event_available';
+            if (btn) btn.title = "일정 등록 바로가기";
+            if (iframe) iframe.src = 'about:blank';
         }
 
         async function deleteSelected() {
