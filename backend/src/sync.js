@@ -95,7 +95,7 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
 
                 for await (const msg of client.fetch(sequence, {
                     uid: true, flags: true, envelope: true, bodyStructure: true,
-                    headers: ['subject', 'from', 'to', 'message-id', 'in-reply-to', 'references']
+                    headers: ['subject', 'from', 'to', 'message-id', 'in-reply-to', 'references', 'date']
                 }, { uid: true })) {
                     const parsedHeaders = await simpleParser(msg.headers || Buffer.from(''));
 
@@ -125,7 +125,9 @@ async function syncMailbox(email, password, mailbox = 'INBOX') {
 
                     const messageId = (msg.envelope && msg.envelope.messageId) ? String(msg.envelope.messageId).substring(0, 250) : '';
                     const inReplyTo = (msg.envelope && msg.envelope.inReplyTo) ? String(msg.envelope.inReplyTo).substring(0, 250) : '';
-                    const date = msg.envelope?.date ? new Date(msg.envelope.date) : new Date();
+
+                    // mailparser is much better at parsing complex/localized date strings than IMAP envelope parsers
+                    const date = parsedHeaders.date ? new Date(parsedHeaders.date) : (msg.envelope?.date ? new Date(msg.envelope.date) : new Date());
 
                     // --- MAIL RULES ENGINE INTEGRATION ---
                     // Run rules for the new message. If it's moved or deleted, stop processing it for this mailbox.
