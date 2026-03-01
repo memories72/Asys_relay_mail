@@ -200,7 +200,12 @@ async function getCachedMailList(email, mailbox, limit) {
                 WHERE et.email_cache_id = ec.id
             ) as tagsJSON
         FROM email_cache ec
-        WHERE user_email = ? AND mailbox = ?
+        INNER JOIN (
+            SELECT MAX(id) as max_id
+            FROM email_cache
+            WHERE user_email = ? AND mailbox = ?
+            GROUP BY COALESCE(NULLIF(message_id, ''), CAST(uid AS CHAR))
+        ) as dedupe ON ec.id = dedupe.max_id
         ORDER BY date DESC
         ${limitClause}
     `, [email, mailbox]);
