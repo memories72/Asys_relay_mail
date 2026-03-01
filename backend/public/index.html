@@ -1609,18 +1609,17 @@
             try {
                 const res = await fetch('/api/mail/quota', { headers: apiHeaders() });
                 const data = await res.json();
+                const storageText = document.getElementById('storageText');
                 if (res.ok && data.quota) {
                     if (data.updating) {
-                        // Background update triggered, poll again in 5s
+                        if (storageText) storageText.textContent = "용량 정보 업데이트 중... (5초 후 갱신)";
                         setTimeout(loadStorageQuota, 5000);
                         return;
                     }
                     const usage = data.quota.usage || 0;
-                    // Default to 10GB if the limit comes as 0 or undefined
                     const limit = data.quota.limit || (10 * 1024 * 1024 * 1024);
                     const percent = limit > 0 ? (usage / limit) * 100 : 0;
                     const storageBar = document.getElementById('storageBar');
-                    const storageText = document.getElementById('storageText');
                     const limitGb = Math.round(limit / (1024 * 1024 * 1024));
                     if (storageBar) storageBar.style.width = Math.min(percent, 100) + '%';
                     if (storageText) storageText.textContent = `${formatBytes(usage)} of ${limitGb} GB used`;
