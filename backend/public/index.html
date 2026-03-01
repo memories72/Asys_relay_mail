@@ -1691,8 +1691,15 @@
                         `;
                     } else {
                         listEl.innerHTML = data.rules.map(rule => {
-                            const condition = rule.conditions;
-                            const action = rule.actions;
+                            let parsedConditions = typeof rule.conditions === 'string' ? JSON.parse(rule.conditions) : rule.conditions;
+                            let parsedActions = typeof rule.actions === 'string' ? JSON.parse(rule.actions) : rule.actions;
+
+                            const condition = Array.isArray(parsedConditions) ? parsedConditions[0] : parsedConditions;
+                            const action = Array.isArray(parsedActions) ? parsedActions[0] : parsedActions;
+
+                            const fieldLookup = { 'subject': '제목', 'from': '보낸사람' };
+                            const fieldDisplay = fieldLookup[condition.field] || condition.field;
+
                             return `
                                 <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-premium flex items-center justify-between dark:bg-surface-dark dark:border-border-dark">
                                     <div class="flex items-center gap-4">
@@ -1702,7 +1709,7 @@
                                         <div>
                                             <h4 class="font-bold text-slate-900 dark:text-white">${escHtml(rule.name)}</h4>
                                             <p class="text-xs text-slate-400 mt-1">
-                                                만약 <b>${condition.field}</b>가 <b>'${escHtml(condition.value)}'</b>를 <b>${condition.operator === 'contains' ? '포함함' : '일치함'}</b>이면 
+                                                만약 <b>${fieldDisplay}</b>가 <b>'${escHtml(condition.value)}'</b>를 <b>${condition.operator === 'contains' ? '포함함' : '일치함'}</b>이면 
                                                 <span class="text-primary font-bold ml-1">→ ${action.type === 'move' ? action.target + ' 폴더로 이동' : action.type === 'flag' ? action.target + ' 플래그 설정' : '메일 삭제'}</span>
                                             </p>
                                         </div>
