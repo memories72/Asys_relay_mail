@@ -59,8 +59,8 @@ async function deliverRaw(rawMessage, deliverTo) {
     });
 }
 
-async function deliverViaImapOrSmtp(rawMessage, userEmail, imapPass) {
-    if (!imapPass) {
+async function deliverViaImapOrSmtp(rawMessage, userEmail, getImapClient) {
+    if (!getImapClient) {
         return deliverRaw(rawMessage, userEmail);
     }
 
@@ -80,21 +80,25 @@ async function deliverViaImapOrSmtp(rawMessage, userEmail, imapPass) {
         } catch (e) { }
     }
 
-    const { makeClient } = require('./imap');
-    let imapClient = null;
-
     try {
-        // 단기 결전 커넥션: 수집된 직후 빛의 속도로 연결해서 꽂고 나오기 (10ms 내외 소요) -> Idle Timeout 원천 방어!
-        imapClient = makeClient(userEmail, imapPass);
-        await imapClient.connect();
-        await imapClient.append('INBOX', withHeader, ['\\Seen'], emailDate);
-        await imapClient.logout();
-        return true;
+        let retries = 2;
+        while (retries > 0) {
+            try {
+                const imapClient = await getImapClient(retries < 2 /* force reconnect on retry */);
+                if (imapClient) {
+                    await imapClient.append('INBOX', withHeader, ['\\Seen'], emailDate);
+                } else {
+                    return deliverRaw(rawMessage, userEmail);
+                }
+                return true;
+            } catch (err) {
+                retries--;
+                if (retries === 0) throw err;
+                console.warn(`[Fetcher IMAP] Append failed (${err.message}), retrying...`);
+            }
+        }
     } catch (err) {
         console.error(`[Fetcher IMAP] Append failed, falling back to SMTP. Err:`, err.message);
-        if (imapClient) {
-            try { await imapClient.close(); } catch (e) { }
-        }
         return deliverRaw(rawMessage, userEmail);
     }
 }
@@ -119,6 +123,22 @@ const fetchPop3Account = async (account, onProgress) => {
 
         // Local IMAP credentials for short-lived Appending Delivery
         const deliveryImapPass = imap_pass || null;
+
+        let sharedImapClient = null;
+        const getImapClient = deliveryImapPass ? async (forceReconnect = false) => {
+            if (forceReconnect && sharedImapClient) {
+                try { await sharedImapClient.close(); } catch (e) { }
+                sharedImapClient = null;
+            }
+            if (sharedImapClient && sharedImapClient.usable) return sharedImapClient;
+            if (sharedImapClient) {
+                try { await sharedImapClient.close(); } catch (e) { }
+            }
+            const { makeClient } = require('./imap');
+            sharedImapClient = makeClient(user_email, deliveryImapPass);
+            await sharedImapClient.connect();
+            return sharedImapClient;
+        } : null;
 
         // Flexible watchdog timer to prevent hanging
         let watchdog;
@@ -241,7 +261,7 @@ const fetchPop3Account = async (account, onProgress) => {
                             try {
                                 const normalized = normalizePop3Raw(data);
                                 console.log(`[Fetcher] [${user_email}] Msg ${msgnumber} received successfully. Size: ${data.length} bytes.`);
-                                await deliverViaImapOrSmtp(normalized, user_email, deliveryImapPass);
+                                await deliverViaImapOrSmtp(normalized, user_email, getImapClient);
                                 if (finalUid) {
                                     await saveFetchedUidl(accountId, finalUid);
                                     existingUids.add(finalUid);
@@ -272,6 +292,9 @@ const fetchPop3Account = async (account, onProgress) => {
                 resetWatchdog(180000); // Final heartbeat after message processing
             } // end loop
 
+            if (sharedImapClient) {
+                try { await sharedImapClient.logout(); } catch (e) { }
+            }
             client.quit();
         };
 
