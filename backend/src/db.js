@@ -446,6 +446,11 @@ async function saveFetchedUidl(accountId, uidl) {
     await currentPool.query('INSERT IGNORE INTO pop3_uidls (account_id, uidl) VALUES (?, ?)', [accountId, uidl]);
 }
 
+async function clearPop3FetchHistory(accountId) {
+    const currentPool = getPool();
+    await currentPool.query('DELETE FROM pop3_uidls WHERE account_id = ?', [accountId]);
+}
+
 module.exports = {
     initDatabase,
     getPool,
@@ -462,5 +467,6 @@ module.exports = {
     logSyncEvent,
     getRecentSyncStates,
     isFetched,
-    saveFetchedUidl
+    saveFetchedUidl,
+    clearPop3FetchHistory
 };

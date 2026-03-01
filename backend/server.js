@@ -38,7 +38,7 @@ app.post('/api/sso-exchange', (req, res) => {
     const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
 });
-const { savePop3Account, updatePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings, getRecentSyncStates } = require('./src/db');
+const { savePop3Account, updatePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings, getRecentSyncStates, clearPop3FetchHistory } = require('./src/db');
 const { verifyUser, searchUsers } = require('./src/ldap');
 const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
@@ -244,6 +244,15 @@ app.post('/api/pop3-sync/:id', authenticateToken, async (req, res) => {
             await logSyncEvent('FAILED', 0, account.user_email);
         }
     })();
+});
+
+app.post('/api/pop3-clear-history/:id', authenticateToken, async (req, res) => {
+    const accountId = req.params.id;
+    const account = await getPop3AccountById(req.user.email, accountId);
+    if (!account) return res.status(404).json({ error: '계정을 찾을 수 없습니다.' });
+
+    await clearPop3FetchHistory(accountId);
+    res.json({ status: 'OK', message: '수집 내역이 초기화되었습니다. 다음 동기화 시 모든 메일을 다시 가져옵니다.' });
 });
 
 // Direct test for unsaved configuration

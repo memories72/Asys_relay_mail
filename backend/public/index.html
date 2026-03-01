@@ -2717,6 +2717,9 @@
                                     <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 rounded-lg transition-all active:scale-95 active:bg-emerald-100 dark:active:bg-emerald-800" title="연결 테스트">
                                         <span class="material-symbols-outlined text-lg">router</span>
                                     </button>
+                                    <button onclick="clearPop3History(${a.id})" class="p-1.5 text-slate-400 hover:text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-900/20 rounded-lg transition-all active:scale-95 active:bg-amber-100 dark:active:bg-amber-800" title="전체 다시 수집 (이력 초기화)">
+                                        <span class="material-symbols-outlined text-lg">history</span>
+                                    </button>
                                     <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700" title="연동 해제">
                                         <span class="material-symbols-outlined text-lg">delete</span>
                                     </button>
@@ -2815,6 +2818,19 @@
                 console.error('[POP3 Test]', e);
                 alert('연결 테스트 중 오류 발생: ' + e.message);
                 loadPop3Accounts();
+            }
+        }
+
+        async function clearPop3History(id) {
+            if (!confirm('수집 내역(UIDL)을 초기화하시겠습니까? \n\n이 기능을 사용하면 서버에 남아있는 모든 메일을 중복 여부와 상관없이 다시 가져오게 됩니다. (최초 1회 전체 다시 수집)')) return;
+            try {
+                const res = await fetch(`/api/pop3-clear-history/${id}`, { method: 'POST', headers: apiHeaders() });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || '초기화 실패');
+                alert(data.message);
+                loadPop3Accounts();
+            } catch (e) {
+                alert('오류: ' + e.message);
             }
         }
 
