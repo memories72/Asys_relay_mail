@@ -330,6 +330,34 @@ const savePop3Account = async (email, host, port, tls, user, pass, keepOnServer 
     }
 };
 
+const updatePop3Account = async (accountId, email, host, port, tls, user, pass, keepOnServer = true, imapPass = null, syncInterval = 1) => {
+    try {
+        const currentPool = getPool();
+        let query, params;
+        if (pass && pass.trim() !== '') {
+            query = `
+                UPDATE user_pop3_accounts 
+                SET pop3_host = ?, pop3_port = ?, pop3_tls = ?, pop3_user = ?, pop3_pass = ?, keep_on_server = ?, imap_pass = ?, sync_interval_minutes = ?, last_status = 'PENDING', last_error = NULL
+                WHERE id = ? AND user_email = ?
+            `;
+            params = [host, port, tls, user, pass, keepOnServer, imapPass, syncInterval, accountId, email];
+        } else {
+            query = `
+                UPDATE user_pop3_accounts 
+                SET pop3_host = ?, pop3_port = ?, pop3_tls = ?, pop3_user = ?, keep_on_server = ?, imap_pass = ?, sync_interval_minutes = ?, last_status = 'PENDING', last_error = NULL
+                WHERE id = ? AND user_email = ?
+            `;
+            params = [host, port, tls, user, keepOnServer, imapPass, syncInterval, accountId, email];
+        }
+
+        const [result] = await currentPool.query(query, params);
+        return result.affectedRows > 0;
+    } catch (err) {
+        console.error('Error updating POP3 account', err);
+        return false;
+    }
+};
+
 const getPop3AccountById = async (email, accountId) => {
     try {
         const currentPool = getPool();
@@ -422,6 +450,7 @@ module.exports = {
     initDatabase,
     getPool,
     savePop3Account,
+    updatePop3Account,
     getAllPop3Accounts,
     deletePop3Account,
     getPop3AccountById,

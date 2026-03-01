@@ -38,7 +38,7 @@ app.post('/api/sso-exchange', (req, res) => {
     const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '24h' });
     res.json({ token, success: true });
 });
-const { savePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings, getRecentSyncStates } = require('./src/db');
+const { savePop3Account, updatePop3Account, getAllPop3Accounts, deletePop3Account, getPop3AccountById, updatePop3AccountStatus, getGlobalSmtpSettings, saveGlobalSmtpSettings, getRecentSyncStates } = require('./src/db');
 const { verifyUser, searchUsers } = require('./src/ldap');
 const { fetchMailList, fetchMailBody, downloadAttachment, markSeen, moveToTrash, listMailboxes, moveMessages, emptyMailbox, permanentlyDelete, appendMessage, getStorageQuota, getMailboxStatus, setFlag } = require('./src/imap');
 const { fetchPop3Account } = require('./src/fetcher');
@@ -107,6 +107,24 @@ app.post('/api/pop3-settings', authenticateToken, async (req, res) => {
     }
 });
 
+app.put('/api/pop3-settings/:id', authenticateToken, async (req, res) => {
+    const accountId = req.params.id;
+    const { host, port, tls, user, pass, keep_on_server, sync_interval_minutes } = req.body;
+    const email = req.user.email;
+
+    if (!host || !user) {
+        return res.status(400).json({ error: 'Missing required POP3 fields' });
+    }
+    const syncInterval = parseInt(sync_interval_minutes) || 1;
+    const mailPass = getImapPass(req);
+    const success = await updatePop3Account(accountId, email, host, port || 110, tls || false, user, pass, keep_on_server !== false, mailPass, syncInterval);
+    if (success) {
+        res.json({ status: 'OK', message: 'POP3 configuration updated successfully' });
+    } else {
+        res.status(500).json({ error: 'Failed to update POP3 configuration' });
+    }
+});
+
 app.get('/api/pop3-settings', authenticateToken, async (req, res) => {
     const allAccounts = await getAllPop3Accounts();
     // Filter by the securely authenticated user email
@@ -117,6 +135,9 @@ app.get('/api/pop3-settings', authenticateToken, async (req, res) => {
             id: a.id,
             email: a.user_email,
             host: a.pop3_host, // This will be the title in UI
+            port: a.pop3_port,
+            tls: !!a.pop3_tls,
+            user: a.pop3_user,
             active: a.is_active,
             keep_on_server: !!a.keep_on_server,
             sync_interval_minutes: a.sync_interval_minutes || 1,

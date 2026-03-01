@@ -815,6 +815,7 @@
                                     </div>
                                 </div>
                                 <form id="pop3Form" class="space-y-4">
+                                    <input type="hidden" id="popEditId" value="" />
                                     <div class="grid grid-cols-3 gap-4">
                                         <div class="col-span-2">
                                             <label
@@ -895,6 +896,11 @@
                                             class="flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-white shadow-md shadow-primary/25 hover:bg-primary/90 transition-all active:scale-95 active:bg-primary/90">
                                             <span>설정 저장</span>
                                             <span class="material-symbols-outlined text-lg">save</span>
+                                        </button>
+                                        <button type="button" onclick="cancelPop3Edit()" id="pop3CancelBtn"
+                                            class="hidden flex items-center gap-2 rounded-lg bg-slate-100 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-200 transition-all active:scale-95 active:bg-slate-300 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700">
+                                            <span>취소</span>
+                                            <span class="material-symbols-outlined text-lg">close</span>
                                         </button>
                                         <button type="button" onclick="testPop3ConnectionNew()" id="pop3TestBtn"
                                             class="flex items-center gap-2 rounded-lg border border-slate-200 px-6 py-3 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700">
@@ -2650,6 +2656,7 @@
                     el.innerHTML = '<div class="py-10 text-center text-sm text-slate-400">연동된 외부 계정이 없습니다</div>';
                     return;
                 }
+                window._pop3Accounts = data.accounts;
                 let hasActiveFetching = false;
                 el.innerHTML = data.accounts.map(a => {
                     let statusColor = 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-400';
@@ -2702,6 +2709,9 @@
                             <div class="flex items-center gap-2">
                                 <span class="text-[10px] font-bold px-2 py-1 rounded-lg ${statusColor}">${statusLabel}</span>
                                 <div class="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button onclick="editPop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 rounded-lg transition-all active:scale-95 active:bg-indigo-100 dark:active:bg-indigo-800" title="수정 시 클릭">
+                                        <span class="material-symbols-outlined text-lg">edit</span>
+                                    </button>
                                     <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all active:scale-95 active:bg-primary/90" title="지금 수집/테스트">
                                         <span class="material-symbols-outlined text-lg">sync</span>
                                     </button>
@@ -2809,10 +2819,42 @@
             }
         }
 
+        function editPop3Account(id) {
+            if (!window._pop3Accounts) return;
+            const target = window._pop3Accounts.find(a => a.id === id);
+            if (!target) return;
+            document.getElementById('popEditId').value = target.id;
+            document.getElementById('popHost').value = target.host;
+            document.getElementById('popPort').value = target.port || 110;
+            document.getElementById('popTls').checked = target.tls || false;
+            document.getElementById('popKeep').checked = target.keep_on_server;
+            document.getElementById('popInterval').value = target.sync_interval_minutes || 1;
+            document.getElementById('popUser').value = target.user || target.pop3_user || '';
+            document.getElementById('popPass').value = '';
+            document.getElementById('popPass').removeAttribute('required');
+            document.getElementById('popPass').placeholder = "변경할 비밀번호 입력 (변경 시에만)";
+            document.getElementById('pop3SubmitBtn').innerHTML = '<span>계정 정보 변경</span><span class="material-symbols-outlined text-lg">edit</span>';
+            document.getElementById('pop3CancelBtn').classList.remove('hidden');
+            // Scroll to the top where the form is
+            document.querySelector('.settings-view:not(.hidden)').scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function cancelPop3Edit() {
+            document.getElementById('pop3Form').reset();
+            document.getElementById('popEditId').value = '';
+            document.getElementById('popPass').placeholder = "••••••••";
+            document.getElementById('popPass').setAttribute('required', 'required');
+            document.getElementById('popPort').value = '995';
+            document.getElementById('pop3SubmitBtn').innerHTML = '<span>설정 저장</span><span class="material-symbols-outlined text-lg">save</span>';
+            document.getElementById('pop3CancelBtn').classList.add('hidden');
+            document.getElementById('pop3StatusMsg').classList.add('hidden');
+        }
+
         document.getElementById('pop3Form').addEventListener('submit', async e => {
             e.preventDefault();
             const btn = document.getElementById('pop3SubmitBtn');
             const msg = document.getElementById('pop3StatusMsg');
+            const editId = document.getElementById('popEditId').value;
             const payload = {
                 host: document.getElementById('popHost').value,
                 port: parseInt(document.getElementById('popPort').value),
@@ -2826,18 +2868,23 @@
             btn.innerHTML = '<span class="material-symbols-outlined animate-spin-fast">progress_activity</span><span>저장 중...</span>';
             msg.classList.add('hidden');
             try {
-                const res = await fetch('/api/pop3-settings', {
-                    method: 'POST', headers: apiHeaders(),
+                const url = editId ? `/api/pop3-settings/${editId}` : '/api/pop3-settings';
+                const method = editId ? 'PUT' : 'POST';
+                const res = await fetch(url, {
+                    method: method, headers: apiHeaders(),
                     body: JSON.stringify(payload)
                 });
                 const data = await res.json();
                 if (!res.ok) throw new Error(data.error || '저장 실패');
-                msg.textContent = '✓ 설정이 저장되었습니다';
+                msg.textContent = editId ? '✓ 계정 정보가 변경되었습니다' : '✓ 설정이 저장되었습니다';
                 msg.className = 'text-sm font-medium text-emerald-600';
                 msg.classList.remove('hidden');
                 document.getElementById('pop3Form').reset();
+                document.getElementById('popEditId').value = '';
+                document.getElementById('popPass').placeholder = "••••••••";
+                document.getElementById('popPass').setAttribute('required', 'required');
                 document.getElementById('popPort').value = '995';
-                // tls setting removed as per user request
+                document.getElementById('pop3CancelBtn').classList.add('hidden');
                 loadPop3Accounts();
             } catch (e) {
                 msg.textContent = '✕ ' + e.message;
