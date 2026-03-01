@@ -24,7 +24,8 @@ async function initDatabase() {
             id INT AUTO_INCREMENT PRIMARY KEY,
             last_sync_time DATETIME NOT NULL,
             status ENUM('SUCCESS', 'FAILED') NOT NULL,
-            emails_processed INT DEFAULT 0
+            emails_processed INT DEFAULT 0,
+            user_email VARCHAR(255) NULL
         )
     `);
 
@@ -251,12 +252,12 @@ function getPool() {
     return pool;
 }
 
-async function logSyncEvent(status, emailsProcessed = 0) {
+async function logSyncEvent(status, emailsProcessed = 0, userEmail = null) {
     try {
         const currentPool = getPool();
         const [result] = await currentPool.execute(
-            'INSERT INTO sync_state (last_sync_time, status, emails_processed) VALUES (NOW(), ?, ?)',
-            [status, emailsProcessed]
+            'INSERT INTO sync_state (last_sync_time, status, emails_processed, user_email) VALUES (NOW(), ?, ?, ?)',
+            [status, emailsProcessed, userEmail]
         );
         return result;
     } catch (error) {
@@ -264,11 +265,11 @@ async function logSyncEvent(status, emailsProcessed = 0) {
     }
 }
 
-async function getRecentSyncStates(limit = 10) {
+async function getRecentSyncStates(userEmail, limit = 10) {
     const currentPool = getPool();
     const [rows] = await currentPool.query(
-        'SELECT last_sync_time, status, emails_processed FROM sync_state ORDER BY last_sync_time DESC LIMIT ?',
-        [limit]
+        'SELECT last_sync_time, status, emails_processed, user_email FROM sync_state WHERE user_email = ? OR user_email IS NULL ORDER BY last_sync_time DESC LIMIT ?',
+        [userEmail, limit]
     );
     return rows;
 }

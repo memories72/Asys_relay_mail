@@ -343,7 +343,7 @@ app.get('/api/sync/resume', authenticateToken, (req, res) => {
 
 app.get('/api/sync/logs', authenticateToken, async (req, res) => {
     try {
-        const logs = await getRecentSyncStates(10);
+        const logs = await getRecentSyncStates(req.user.email, 10);
         res.json({ status: 'OK', logs });
     } catch (e) {
         res.status(500).json({ error: 'Failed to fetch sync logs' });

@@ -52,10 +52,15 @@ const startScheduler = () => {
                     });
                     updateProgress(account.id, { status: 'done', label: account.pop3_user, user_email: account.user_email });
                     setTimeout(() => { clearProgress(account.id); }, 5000);
+
+                    if (fetchedCount > 0) {
+                        await logSyncEvent('SUCCESS', fetchedCount, account.user_email);
+                    }
                     return fetchedCount;
                 } catch (e) {
                     updateProgress(account.id, { status: 'error', label: account.pop3_user, user_email: account.user_email });
                     console.error(`[Sync] ${account.user_email} POP3 Fetch Error:`, e);
+                    await logSyncEvent('FAILED', 0, account.user_email);
                     return 0;
                 } finally {
                     runningTasks.delete(account.id);
@@ -65,14 +70,11 @@ const startScheduler = () => {
             const results = await Promise.all(syncTasks);
             const totalFetched = results.reduce((acc, curr) => acc + curr, 0);
 
-            // Log total to MariaDB
             if (totalFetched > 0) {
-                await logSyncEvent('SUCCESS', totalFetched);
-                console.log(`[Sync] 전체 개별 수집 루틴 완료. DB 로깅 완료 (총 새 메일: ${totalFetched}건)`);
+                console.log(`[Sync] 전체 개별 수집 루틴 완료 (총 합계 새 메일: ${totalFetched}건)`);
             }
         } catch (error) {
             console.error('[Sync] 동기화 실패', error);
-            await logSyncEvent('FAILED', 0);
         }
     });
 
