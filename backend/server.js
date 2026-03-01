@@ -91,14 +91,15 @@ app.get('/api/contacts/search', authenticateToken, async (req, res) => {
 });
 
 app.post('/api/pop3-settings', authenticateToken, async (req, res) => {
-    const { host, port, tls, user, pass, keep_on_server } = req.body;
+    const { host, port, tls, user, pass, keep_on_server, sync_interval_minutes } = req.body;
     const email = req.user.email; // Extracted securely from JWT
 
     if (!host || !user || !pass) {
         return res.status(400).json({ error: 'Missing required POP3 fields' });
     }
+    const syncInterval = parseInt(sync_interval_minutes) || 1;
     const mailPass = getImapPass(req);
-    const success = await savePop3Account(email, host, port || 110, tls || false, user, pass, keep_on_server !== false, mailPass);
+    const success = await savePop3Account(email, host, port || 110, tls || false, user, pass, keep_on_server !== false, mailPass, syncInterval);
     if (success) {
         res.json({ status: 'OK', message: 'POP3 configuration saved successfully' });
     } else {
@@ -118,6 +119,7 @@ app.get('/api/pop3-settings', authenticateToken, async (req, res) => {
             host: a.pop3_host, // This will be the title in UI
             active: a.is_active,
             keep_on_server: !!a.keep_on_server,
+            sync_interval_minutes: a.sync_interval_minutes || 1,
             status: a.last_status,
             error: a.last_error,
             last_fetched: a.last_fetched_at,

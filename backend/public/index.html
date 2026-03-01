@@ -847,9 +847,26 @@
                                             <input type="checkbox" id="popKeep" checked
                                                 class="rounded border-slate-200 text-primary focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800" />
                                             <span class="text-sm font-medium text-slate-700 dark:text-slate-300">서버에 메일
-                                                복사본
-                                                저장</span>
+                                                복사본 저장</span>
                                         </label>
+                                    </div>
+                                    <div>
+                                        <label
+                                            class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
+                                            동기화 주기
+                                        </label>
+                                        <div class="relative w-1/2">
+                                            <span
+                                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl dark:text-slate-500">schedule</span>
+                                            <select id="popInterval"
+                                                class="w-full rounded-lg border border-slate-200 py-3 pl-10 pr-4 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:bg-surface-dark dark:border-slate-800 dark:text-white appearance-none">
+                                                <option value="1">1분 마다</option>
+                                                <option value="5">5분 마다</option>
+                                                <option value="10">10분 마다</option>
+                                                <option value="30">30분 마다</option>
+                                                <option value="60">1시간 마다</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div>
                                         <label
@@ -2673,6 +2690,8 @@
                                         <p class="text-[11px] font-medium text-slate-400 dark:text-slate-500">${escHtml(a.email)}</p>
                                         <span class="inline-block size-1 bg-slate-300 dark:bg-slate-700 rounded-full"></span>
                                         <p class="text-[11px] font-medium text-slate-400 dark:text-slate-500">마지막 수집: ${lastFetched}</p>
+                                        <span class="inline-block size-1 bg-slate-300 dark:bg-slate-700 rounded-full"></span>
+                                        <p class="text-[10px] bg-indigo-50 text-indigo-500 px-1.5 py-0.5 rounded dark:bg-indigo-900/40 dark:text-indigo-400">${a.sync_interval_minutes || 1}분 주기</p>
                                         ${a.keep_on_server ? `
                                             <span class="inline-block size-1 bg-slate-300 dark:bg-slate-700 rounded-full"></span>
                                             <p class="text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded dark:bg-slate-800 dark:text-slate-400">서버 보관</p>
@@ -2799,6 +2818,7 @@
                 port: parseInt(document.getElementById('popPort').value),
                 tls: document.getElementById('popTls').checked,
                 keep_on_server: document.getElementById('popKeep').checked,
+                sync_interval_minutes: parseInt(document.getElementById('popInterval').value) || 1,
                 user: document.getElementById('popUser').value,
                 pass: document.getElementById('popPass').value,
             };

@@ -44,6 +44,15 @@ const startScheduler = () => {
                     return 0;
                 }
 
+                const interval = parseInt(account.sync_interval_minutes) || 1;
+                if (account.last_fetched_at) {
+                    const diffMs = Date.now() - new Date(account.last_fetched_at).getTime();
+                    // Allowing 10 seconds boundary buffer
+                    if (diffMs < (interval * 60 * 1000) - 10000) {
+                        return 0; // Not time yet
+                    }
+                }
+
                 try {
                     runningTasks.add(account.id);
                     updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
