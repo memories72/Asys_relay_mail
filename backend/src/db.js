@@ -155,7 +155,8 @@ async function initDatabase() {
             UNIQUE KEY unique_email_uid (user_email, mailbox, uid),
             INDEX idx_message_id (message_id),
             INDEX idx_thread_id (thread_id),
-            INDEX idx_search (user_email, subject(255), sender_address)
+            INDEX idx_search (user_email, subject(255), sender_address),
+            INDEX idx_mailbox_date (user_email, mailbox, date)
         )
     `);
 

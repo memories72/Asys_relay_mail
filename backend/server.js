@@ -312,8 +312,15 @@ app.get('/api/mail/inbox', authenticateToken, async (req, res) => {
         const folder = req.query.folder || 'INBOX';
         const limit = req.query.limit !== undefined ? parseInt(req.query.limit) : 1000;
 
-        // 1. Trigger background/foreground sync to DB
-        await syncMailbox(req.user.email, mailPass, folder);
+        // 1. Trigger sync to DB, but don't block the UI forever.
+        // Wait maximum 500ms for the sync to complete. If it takes longer, 
+        // serve the DB cache instantly and let sync finish in the background.
+        const syncPromise = syncMailbox(req.user.email, mailPass, folder).catch(e => console.error('[Sync] BG Error:', e.message));
+
+        await Promise.race([
+            syncPromise,
+            new Promise(resolve => setTimeout(resolve, 500))
+        ]);
 
         // 2. Fetch blazing fast results from DB
         const messages = await getCachedMailList(req.user.email, folder, limit);
