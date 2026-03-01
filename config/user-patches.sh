@@ -2,7 +2,7 @@
 
 # --- 1. Dovecot LDAP & Auth Configuration (Confirmed working for IMAP) ---
 cat > /etc/dovecot/dovecot-ldap.conf.ext <<'EOF'
-hosts = nas.agilesys.co.kr:1389
+hosts = 10.25.1.5:389
 base = cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dn = uid=root,cn=users,dc=ldap,dc=agilesys,dc=co,dc=kr
 dnpass = !@34QWer
@@ -79,9 +79,9 @@ postconf -e "mydestination = localhost"
 postconf -e "relay_domains ="
 postconf -e "transport_maps ="
 
-# Configure Postfix's internal LDAP lookups to use the correct 1389 port 
+# Configure Postfix's internal LDAP lookups to use the correct 389 port 
 # (Otherwise defaults to 389, fails, and returns 451 Temporary lookup failure for all recipients)
-sed -i 's/server_host = nas.agilesys.co.kr/server_host = nas.agilesys.co.kr\nserver_port = 1389/' /etc/postfix/ldap-users.cf
+sed -i 's/server_host = .*/server_host = 10.25.1.5\nserver_port = 389/' /etc/postfix/ldap-users.cf
 
 # Re-apply Message Size Limits and format compliance
 postconf -e "message_size_limit = 268435456"
