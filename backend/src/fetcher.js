@@ -59,8 +59,8 @@ async function deliverRaw(rawMessage, deliverTo) {
     });
 }
 
-async function deliverViaImapOrSmtp(rawMessage, userEmail, imapClient) {
-    if (!imapClient) {
+async function deliverViaImapOrSmtp(rawMessage, userEmail, imapPass) {
+    if (!imapPass) {
         return deliverRaw(rawMessage, userEmail);
     }
 
@@ -80,11 +80,21 @@ async function deliverViaImapOrSmtp(rawMessage, userEmail, imapClient) {
         } catch (e) { }
     }
 
+    const { makeClient } = require('./imap');
+    let imapClient = null;
+
     try {
+        // 단기 결전 커넥션: 수집된 직후 빛의 속도로 연결해서 꽂고 나오기 (10ms 내외 소요) -> Idle Timeout 원천 방어!
+        imapClient = makeClient(userEmail, imapPass);
+        await imapClient.connect();
         await imapClient.append('INBOX', withHeader, ['\\Seen'], emailDate);
+        await imapClient.logout();
         return true;
     } catch (err) {
-        console.error(`[Fetcher IMAP] Append failed, falling back to SMTP. MSG SIZE: ${withHeader.length}, Err:`, err.message);
+        console.error(`[Fetcher IMAP] Append failed, falling back to SMTP. Err:`, err.message);
+        if (imapClient) {
+            try { await imapClient.close(); } catch (e) { }
+        }
         return deliverRaw(rawMessage, userEmail);
     }
 }
@@ -107,18 +117,8 @@ const fetchPop3Account = async (account, onProgress) => {
             debug: false,
         });
 
-        // Initialize Local IMAP Client for Date-Preserving Delivery
-        let imapClientForDelivery = null;
-        if (imap_pass) {
-            const { makeClient } = require('./imap');
-            try {
-                imapClientForDelivery = makeClient(user_email, imap_pass);
-                // Connect will be handled when 'login' succeeds to avoid unnecessary connections
-            } catch (err) {
-                console.error(`[Fetcher IMAP] Instantiation failed:`, err.message);
-                imapClientForDelivery = null;
-            }
-        }
+        // Local IMAP credentials for short-lived Appending Delivery
+        const deliveryImapPass = imap_pass || null;
 
         // Flexible watchdog timer to prevent hanging
         let watchdog;
@@ -156,15 +156,6 @@ const fetchPop3Account = async (account, onProgress) => {
         client.on('login', async (status) => {
             resetWatchdog(120000); // 120s for uidl/list
             if (status) {
-                if (imapClientForDelivery) {
-                    try {
-                        await imapClientForDelivery.connect();
-                        console.log(`[Fetcher IMAP] Connected to local IMAP for user ${user_email} to preserve dates`);
-                    } catch (err) {
-                        console.error(`[Fetcher IMAP] Connection failed, falling back to SMTP:`, err.message);
-                        imapClientForDelivery = null;
-                    }
-                }
                 client.uidl(); // Use UIDL instead of LIST for smart fetching
             } else {
                 console.error(`[Fetcher] [${user_email}] Login failed`);
@@ -246,7 +237,7 @@ const fetchPop3Account = async (account, onProgress) => {
                             try {
                                 const normalized = normalizePop3Raw(data);
                                 console.log(`[Fetcher] [${user_email}] Msg ${msgnumber} received successfully. Size: ${data.length} bytes.`);
-                                await deliverViaImapOrSmtp(normalized, user_email, imapClientForDelivery);
+                                await deliverViaImapOrSmtp(normalized, user_email, deliveryImapPass);
                                 if (finalUid) {
                                     await saveFetchedUidl(accountId, finalUid);
                                     existingUids.add(finalUid);
@@ -277,9 +268,6 @@ const fetchPop3Account = async (account, onProgress) => {
                 resetWatchdog(180000); // Final heartbeat after message processing
             } // end loop
 
-            if (imapClientForDelivery) {
-                try { await imapClientForDelivery.logout(); } catch (e) { }
-            }
             client.quit();
         };
 
