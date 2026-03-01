@@ -9,8 +9,8 @@ async function initDatabase() {
     while (retries > 0) {
         try {
             connection = await mysql.createConnection({
-                host: process.env.DB_HOST || 'nas.agilesys.co.kr',
-                port: process.env.DB_PORT || 13306,
+                host: process.env.DB_HOST || '10.25.2.120',
+                port: process.env.DB_PORT || 3307,
                 user: process.env.DB_USER || 'root',
                 password: process.env.DB_PASSWORD || '!@#45QWErt',
                 connectTimeout: 5000
@@ -253,7 +253,7 @@ async function initDatabase() {
         password: process.env.DB_PASSWORD || '!@#45QWErt',
         database: dbName,
         waitForConnections: true,
-        connectionLimit: 10,
+        connectionLimit: 50,
         queueLimit: 0
     });
 

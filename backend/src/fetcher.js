@@ -211,9 +211,9 @@ const fetchPop3Account = async (account, onProgress) => {
                         reportProgress(i);
                         resetWatchdog(180000); // Extra heartbeat after progress report
                     }
-                    if (i % 1000 === 0) {
+                    if (i % 200 === 0) {
                         // Prevent Node event loop blocking during huge iteration
-                        await new Promise(r => setImmediate(r));
+                        await new Promise(r => setTimeout(r, 10));
                     }
                     continue;
                 }
@@ -290,6 +290,9 @@ const fetchPop3Account = async (account, onProgress) => {
                 });
 
                 resetWatchdog(180000); // Final heartbeat after message processing
+
+                // 강제 휴식을 부여하여 이벤트 루프 차단(Node-cron warning 등) 방지
+                await new Promise(r => setTimeout(r, 50));
             } // end loop
 
             if (sharedImapClient) {
