@@ -212,6 +212,40 @@ app.post('/api/pop3-test/:id', authenticateToken, async (req, res) => {
     });
 });
 
+app.post('/api/pop3-sync/:id', authenticateToken, async (req, res) => {
+    const accountId = req.params.id;
+    const account = await getPop3AccountById(req.user.email, accountId);
+
+    if (!account) return res.status(404).json({ error: '계정을 찾을 수 없습니다.' });
+
+    // Handle background fetch logic
+    const { fetchPop3Account } = require('./src/fetcher');
+    const { updateProgress, clearProgress } = require('./src/progress');
+    const { logSyncEvent } = require('./src/db');
+
+    // Return immediately to the client
+    res.json({ status: 'OK', message: '동기화가 시작되었습니다.' });
+
+    // Run in background
+    (async () => {
+        try {
+            updateProgress(account.id, { current: 0, total: 0, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
+            const fetchedCount = await fetchPop3Account(account, (current, total) => {
+                updateProgress(account.id, { current, total, status: 'fetching', label: account.pop3_user, user_email: account.user_email });
+            });
+            updateProgress(account.id, { status: 'done', label: account.pop3_user, user_email: account.user_email });
+            setTimeout(() => { clearProgress(account.id); }, 5000);
+
+            if (fetchedCount > 0) {
+                await logSyncEvent('SUCCESS', fetchedCount, account.user_email);
+            }
+        } catch (e) {
+            updateProgress(account.id, { status: 'error', label: account.pop3_user, user_email: account.user_email });
+            await logSyncEvent('FAILED', 0, account.user_email);
+        }
+    })();
+});
+
 // Direct test for unsaved configuration
 app.post('/api/pop3-test-direct', authenticateToken, async (req, res) => {
     const { host, port, tls, user, pass } = req.body;

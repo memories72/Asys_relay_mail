@@ -2711,8 +2711,11 @@
                                     <button onclick="editPop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 rounded-lg transition-all active:scale-95 active:bg-indigo-100 dark:active:bg-indigo-800" title="수정 시 클릭">
                                         <span class="material-symbols-outlined text-lg">edit</span>
                                     </button>
-                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all active:scale-95 active:bg-primary/90" title="지금 수집/테스트">
+                                    <button onclick="syncPop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-primary hover:bg-primary/5 dark:hover:bg-primary/20 rounded-lg transition-all active:scale-95 active:bg-primary/90" title="지금 동기화 (수집)">
                                         <span class="material-symbols-outlined text-lg">sync</span>
+                                    </button>
+                                    <button onclick="testPop3Connection(${a.id})" class="p-1.5 text-slate-400 hover:text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 rounded-lg transition-all active:scale-95 active:bg-emerald-100 dark:active:bg-emerald-800" title="연결 테스트">
+                                        <span class="material-symbols-outlined text-lg">router</span>
                                     </button>
                                     <button onclick="deletePop3Account(${a.id})" class="p-1.5 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-all active:scale-95 active:bg-slate-200 dark:active:bg-slate-700" title="연동 해제">
                                         <span class="material-symbols-outlined text-lg">delete</span>
@@ -2783,24 +2786,34 @@
             }
         }
 
+        async function syncPop3Account(id) {
+            try {
+                const res = await fetch(`/api/pop3-sync/${id}`, { method: 'POST', headers: apiHeaders() });
+                if (!res.ok) {
+                    const data = await res.json();
+                    throw new Error(data.error || '동기화 명령 실패');
+                }
+                loadPop3Accounts();
+            } catch (e) {
+                console.error('[POP3 Sync]', e);
+                loadPop3Accounts();
+            }
+        }
+
         async function testPop3Connection(id) {
-            // No confirm, run immediately
             try {
                 const res = await fetch(`/api/pop3-test/${id}`, { method: 'POST', headers: apiHeaders() });
                 if (!res.ok) {
-                    const text = await res.text();
-                    try {
-                        const errData = JSON.parse(text);
-                        const errorDetail = errData.details ? ` (${errData.details})` : '';
-                        throw new Error((errData.error || '테스트 중 실패') + errorDetail);
-                    } catch (jsonErr) {
-                        throw new Error(`서버 오류 (${res.status})`);
-                    }
+                    const errData = await res.json();
+                    const errorDetail = errData.details ? ` (${errData.details})` : '';
+                    alert('연결 실패: ' + (errData.error || '테스트 중 실패') + errorDetail);
+                } else {
+                    alert('연결 성공!');
                 }
                 loadPop3Accounts();
             } catch (e) {
                 console.error('[POP3 Test]', e);
-                // Even for existing accounts, we don't use alert anymore per user request
+                alert('연결 테스트 중 오류 발생: ' + e.message);
                 loadPop3Accounts();
             }
         }
